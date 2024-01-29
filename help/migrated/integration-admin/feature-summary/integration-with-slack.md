@@ -1,0 +1,84 @@
+---
+jcr-language: en_us
+title: Learning Manager与Slack集成
+description: Learning Manager与Slack集成
+contentowner: dvenkate
+source-git-commit: 864b1796f1ca99ae7b5643e8c58d1756ff2461a1
+workflow-type: tm+mt
+source-wordcount: '468'
+ht-degree: 0%
+
+---
+
+
+
+# Learning Manager与Slack集成
+
+我们有 **已删除** **Slack** 作为Learning Manager中的连接器。 您将无法再访问Slack连接器。
+
+作为Slack用户，您可以将Adobe应用程序目录中的SlackLearning Manager应用程序安装到Slack团队中，然后直接从Slack中浏览Learning Manager内容。 您可以与Primebot交互以在Learning Manager中搜索新课程、查看推荐内容并收到临近截止日期的通知。 您还可以注册并直接从Slack中学习。
+
+Learning Manager的Azure实例不支持Learning ManagerSlack应用程序。
+
+## 安装AdobeLearning Manager应用程序 {#installingadobecaptivateprimeapp}
+
+作为学习者，您可以在您的Slack帐户中安装CP Prime应用程序。 要安装应用程序，请在您的Slack帐户中打开App目录并搜索Learning Manager。 下载并安装该应用程序。 如果您的帐户中未批准该应用程序，请联系您的集成管理员进行批准。 如果已获得批准，您将能够登录。
+
+## 批准学习者以集成管理员身份登录 {#approvinglearnersigninasanintegrationadmin}
+
+作为集成管理员，要审批学习者在Slack上使用Prime应用程序的权限，请执行以下步骤。
+
+1. 选择 **[!UICONTROL 应用程序]** ，然后单击 **[!UICONTROL 特色应用程序]** 选项卡。
+
+   ![](assets/featuredapps.jpg)
+
+1. 单击 **[!UICONTROL Slack]** 磁贴>松弛集成页打开。 点击 **[!UICONTROL 批准]** ，以批准应用程序。
+
+   ![](assets/approval.png)
+
+1. 返回到 **[!UICONTROL 应用程序]** 页面。 批准后，Slack应出现在 **[!UICONTROL 外部应用程序]** 选项卡。
+1. 学习者现在可以使用Slack登录其Prime帐户。
+
+## 原始功能 {#primebotfunctionalities}
+
+您现在可以开始与Primebot交互。 以下是机器人的功能。
+
+1 — 命令
+
+&#42;/prime&#42; 可用于有针对性地对您的AdobeLearning Manager帐户进行一次性查询。
+
+可用的子命令包括：
+
+/prime find `<query>`  — 搜索课程、认证等。
+
+/prime推荐 — 显示推荐
+
+/prime截止日期 — 显示逾期和即将到来的截止日期
+
+/prime注册 — 显示注册
+
+/prime skills — 显示技能
+
+/prime通知 — 显示通知
+
+/prime目录 — 显示目录
+
+/prime邀请 —  [仅限管理员] 邀请当前团队中的Slack用户试用primebot
+
+/prime配置文件 — 显示配置文件
+
+/prime注销 — 注销此Slack团队中的Prime帐户
+
+/prime帮助 — 显示帮助消息
+
+2 — 推荐
+
+你可以试试这样的短语 `show my recommendations` 从AdobeLearning Manager帐户获取推荐课程、认证和学习计划的个性化列表。
+
+3 — 搜索
+
+您可以尝试以下短语 `search for machine learning` 或 `search for artificial intelligence`. 您可以使用以下短语指定学习对象的类型 `search for machine learning certifications`， `search for artificial intelligence courses` 或 `search for adobe photoshop job aids`. 您还可以使用如下短语在目录中搜索 `search for machine learning in Lynda catalog`.
+
+4 — 截止日期
+
+使用类似短语 `show my deadlines` ，从您的AdobeLearning Manager帐户获取逾期和临近截止日期的列表。 您可以使用以下短语过滤过期或即将到来的截止日期： `show my overdue deadlines` 或 `show my upcoming deadlines`.

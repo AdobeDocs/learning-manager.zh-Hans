@@ -1,0 +1,56 @@
+---
+jcr-language: en_us
+title: AdobeLearning Manager中的Recommendations
+description: AdobeLearning Manager中的Recommendations。
+contentowner: saghosh
+source-git-commit: 78957f8dc3bba39c9bb53c6ac8f888d86e18fc95
+workflow-type: tm+mt
+source-wordcount: '409'
+ht-degree: 0%
+
+---
+
+
+# 概述
+
+AdobeLearning Manager推出了全新的课程推荐系统。 此推荐功能使用AI算法和用户的兴趣（如产品、角色和级别）来提供个性化的内容推荐。
+
+新的推荐系统允许您创建自定义参数，学习者可以选择这些参数来接收个性化推荐。 这些推荐将在学习者的主页订阅源上显示为课程、学习路径和认证。
+
+要开始使用此功能，您必须在管理员应用程序中启用该功能。
+
+## 启用和配置建议
+
+上传课程和用户数据（可选）。
+
+实时进行更改。
+
+启用并配置推荐后，可上传数据至AdobeLearning Manager以获得开始工作的推荐。 此数据包括
+
+* 课程数据
+* 用户数据（可选）
+
+## 课程排序算法
+
+推荐引擎的核心是由Learning Manager的新增功能驱动的 **课程排序算法**. 算法使用 **5000万数据点** 和 **跨数百万用户收集五年的汇总学习数据** ，根据他们的 **注册可能性**. 此排名可确保大多数可注册的课程先向学习者显示。
+
+## 关键词
+
+Learning Manager新的基于AI的推荐引擎为学习领导者提供了可配置功能 **基于参数** 用于为学习者打造个性化体验的推荐系统。
+
+参数是……**产品/主题、角色和级别**. 此外，这些参数可以重命名以符合您的需要。 因此，“products”可以成为“topics”，或者“roles”可以成为“region”。
+
+## 设置推荐系统
+
+AdobeLearning Manager的新推荐引擎简化了设置个性化推荐所涉及的管理员工作流程，因为管理员通常可以从购买记录中获得与客户/合作伙伴相关的产品和角色的相关数据。
+
+设置新的推荐引擎主要涉及三个工作流：
+
+* 管理员
+* 作者
+* 学习者
+
+管理员可配置帐户的“产品”、“角色”和“级别”参数值。 例如，一家以银行为主要客户群的IT解决方案提供商可能会将“产品”参数配置为具有诸如Payment Gateway、Secure Cloud Storage、欺诈检测系统、Trading Platform等的值，将“角色”参数配置为具有诸如Integration Specialist、网络管理员、风险分析员、合规官等的值。
+
+管理员在Learning Manager中可享受指导式工作流程，以优化设置推荐引擎，并根据帐户用例自定义引擎。 此外，管理员还可以选择通过一次性CSV上传来设置PRL建议。
+

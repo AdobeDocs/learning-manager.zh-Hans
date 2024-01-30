@@ -1,7 +1,7 @@
 ---
 title: 此版本中的新增功能
 description: 了解AdobeLearning Manager中的新功能和增强功能
-source-git-commit: 95ab7a13a7f3e9815785134bc1d1675c002ab64b
+source-git-commit: 655c94f0faaa6c025e07b11d3d9bfac4f221f899
 workflow-type: tm+mt
 source-wordcount: '2372'
 ht-degree: 0%
@@ -170,11 +170,48 @@ AdobeLearning Manager可改善针对启用客户和合作伙伴帐户的推荐�
 
 自定义管理员可以根据定义的范围访问以下报告：
 
-| 举报 | 可用 | 范围 |
+<table>
+    <tbody>
+        <tr>
+            <td>
+    <p style="text-align: left;"><b>举报</b></p></td>
+   <td>
+    <p style="text-align: left;"><b>可用</b></p></td>
+   <td>
+    <p style="text-align: left;"><b>范围</b></p></td>
+        </tr>
+    <tr>
+   <td>
+    <p>内容审查追踪</p></td>
+   <td>
+    <p>是</p></td>
+   <td>
+    <p>完整目录</p></td>
+  </tr>
+  <tr>
+   <td>
+    <p>用户审查追踪</p></td>
+   <td>
+    <p>是</p></td>
+   <td>
+    <p>完整用户</p></td>
+  </tr>
+  <tr>
+   <td>
+    <p>登录访问权限</p></td>
+   <td>
+    <p>是</p></td>
+   <td>
+    <p>完整用户</p></td>
+  </tr>
+    </tbody>
+</table>
+
+<!--| Report | Available | Scope |
 |--- |--- |
-| 内容审查追踪 | 是 | 完整目录 |
-| 用户审查追踪 | 是 | 完整用户 |
-| 登录访问权限 | 是 | 完整用户 |
+| Content Audit Trail | Yes | Full Catalog |
+| User Audit Trail | Yes | Full User |
+|Login Access | Yes | Full User |-->
 
 ## 增强的Connect集成
 

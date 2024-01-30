@@ -2,9 +2,9 @@
 description: 本参考手册适用于希望将现有 LMS 迁移到 Adobe Learning Manager LMS 的集成管理员
 jcr-language: en_us
 title: 迁移手册
-source-git-commit: 66dfaaaf723382eada39e2be29dfd49b795107a0
+source-git-commit: 76eae1c8bc6f2afde9ea6c9433300e8af9cfdda8
 workflow-type: tm+mt
-source-wordcount: '3705'
+source-wordcount: '3641'
 ht-degree: 72%
 
 ---
@@ -419,11 +419,11 @@ Adobe Learning Manager 仅支持 UTF 8 和 32 位格式的日期和时间值。�
 
 迁移项目规划非常重要。建议将项目分解为多个 Sprint，并明确界定各个 Sprint 中需要迁移的内容。建议在每个 Sprint 完成后，进行一些数据验证，确保该 Sprint 中迁移的数据准确无误，而不要留到整个项目结束时进行一次大规模验证。在开始迁移项目 Sprint 之前，您需要分别向 FTP 和 Box 服务器上传相关的数据和内容 CSV 文件。如果您没有自定义FTP和Box的帐户，则可以创建它们。
 
-**创建 FTP 帐户**
+<!--**Create FTP account**-->
 
-单击&#x200B;**[!UICONTROL “请求 CSV FTP 文件夹”]**。此时会弹出一个对话框，提示您输入电子邮件 ID。浏览联机说明并创建FTP帐户。 创建帐户后，即可在FTP中查看迁移项目和Sprint项目文件夹。
+<!--Click **[!UICONTROL Request for CSV FTP folder]**. A pop-up dialog appears prompting you to enter your e-mail id. Go through online instructions and create an FTP account. As soon as you create your account, you can view your migration project and sprint project folders in FTP. 
 
-下面显示了FTP的项目文件和文件夹的示例快照，供您参考。
+A sample snapshot of project files and folder of FTP is shown below for your reference. -->
 
 <!--![](assets/exavault-migration-upload-folders.png)-->
 

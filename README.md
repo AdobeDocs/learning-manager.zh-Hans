@@ -2,7 +2,7 @@
 source-git-commit: 705de17630a5db7f43536f870e8760a4d22427e6
 workflow-type: tm+mt
 source-wordcount: '401'
-ht-degree: 0%
+ht-degree: 6%
 
 ---
 # Contribute文章
@@ -11,7 +11,7 @@ ht-degree: 0%
 
 ## Adobe开源行为准则
 
-该项目已采用 [Adobe开源行为准则](code-of-conduct.md) 或 [.NET Foundation行为准则](https://dotnetfoundation.org/code-of-conduct). 欲了解更多信息，请参见 [投稿](contributing.md) 文章。
+本项目已采用 [Adobe 开源行为准则](code-of-conduct.md)或 [.NET Foundation 行为准则](https://dotnetfoundation.org/code-of-conduct)。有关更多信息，请参阅[贡献](contributing.md)文章。
 
 ## 关于您对Adobe内容的贡献
 

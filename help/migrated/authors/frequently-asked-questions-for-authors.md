@@ -6,7 +6,7 @@ contentowner: admin
 source-git-commit: 147e9edfe323f3d0851880cd401067daa1cee84f
 workflow-type: tm+mt
 source-wordcount: '1656'
-ht-degree: 0%
+ht-degree: 51%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 0%
   <tr>
    <td><img src="assets/authors2.png"></td>
    <td>
-    <p>阅读以了解Learning Manager中与作者角色相关联的常见问题解答。 </p></td>
+    <p>阅读以了解 Adobe Learning Manager 中与作者角色相关联的常见问题解答。 </p></td>
   </tr>
  </tbody>
 </table>
@@ -40,30 +40,30 @@ ht-degree: 0%
 
 +++如何将Captivate项目发布到Learning Manager？
 
-您可以将已完成的Captivate9项目作为模块发布到AdobeLearning Manager。 在打开的Captivate9项目中，使用 **发布** > **发布到AdobeLearning Manager** 然后按照说明发布模块。
+您可以将已完成的 Captivate 9 项目作为模块发布到 Adobe Learning Manager。在打开的Captivate9项目中，使用 **发布** > **发布到AdobeLearning Manager** 然后按照说明发布模块。
 
-请参阅  [AdobeLearning Manager：从Adobe Captivate 9发布模块](http://primehelp.adobe.com/publish-modules-from-adobe-captivate9/)视频，了解更多信息。
+请参阅  [AdobeLearning Manager：从Adobe Captivate 9发布模块](http://primehelp.adobe.com/cn/publish-modules-from-adobe-captivate9/)视频，了解更多信息。
 
 您也可以参考Adobe Captivate 9  [帮助内容](http://helpx.adobe.com/captivate/using/publish-project-to-captivate-prime.html) 了解详细步骤。
 
-注释\
+注意\
 ADOBE CAPTIVATE 9  [帮助内容](http://helpx.adobe.com/captivate/using/publish-project-to-captivate-prime.html) 位于Learning Manager帮助应用程序外部。
 
 +++
 
 +++如何在Learning Manager中选择课程模块？
 
-点击  [此处](https://helpx.adobe.com/content/help/en/captivate-prime/authors/how-to-choose-modules.html) 了解如何选择课程模块。
+点击  [此处](https://helpx.adobe.com/content/help/cn/captivate-prime/authors/how-to-choose-modules.html) 了解如何选择课程模块。
 
 +++
 
 +++课程注册有哪些不同类型？
 
-创建课程时，您可选择“注册类型”为自助注册、经理指派或经理批准的课程：
+创建课程时，您可以选择的课程注册类型包括自助注册、经理指派或经理批准：
 
 **经理指派** 此类课程只能由经理指派。 学习者无法注册此类课程。
 
-**需要经理批准** 此类课程应经经理批准。 学习者可以申请注册此类课程，但必须在经理批准后才能注册成功。 学习者申请注册此类课程时，经理会收到通知请求。 经理批准后，此类课程才会显示学习者已注册。
+**需要经理批准** 此类课程应经经理批准。 学习者可以申请注册此类课程，但必须在经理批准后才能注册成功。 学习者申请注册此类课程时，经理会收到通知请求。经理批准后，此类课程才会显示学习者已注册。
 
 **自助注册** 学习者可直接自行注册此类课程。
 
@@ -71,7 +71,7 @@ ADOBE CAPTIVATE 9  [帮助内容](http://helpx.adobe.com/captivate/using/publish
 
 +++Learning Manager中是否支持分页？
 
-可以。 在作者模式下，课程在“目录”和“我的课程”视图中逐页显示。 模块在“模块库”视图中也是逐页显示。 向下滚动页面时，下一页会显示更多课程组合。
+是。在作者模式下，课程在“目录”和“我的课程”视图中逐页显示。 模块在“模块库”视图中也是逐页显示。 向下滚动页面时，下一页会显示更多课程组合。
 
 +++
 
@@ -79,7 +79,7 @@ ADOBE CAPTIVATE 9  [帮助内容](http://helpx.adobe.com/captivate/using/publish
 
 作者可以删除未发布或已弃用的课程。 发布课程后，您可以弃用课程并再次将其移回“已发布”状态。 要删除未发布的课程，请执行以下步骤：
 
-1. 创建课程后，单击左侧窗格中的“我的课程” 。
+1. 创建课程后，单击左侧窗格中的“我的课程”。
 1. 将鼠标悬停在要删除的课程上，然后单击“删除课程”。
 1. 单击“确定”以响应确认对话框。
 
@@ -103,12 +103,12 @@ ADOBE CAPTIVATE 9  [帮助内容](http://helpx.adobe.com/captivate/using/publish
 
 +++如何为课程创建模块？
 
-创建模块库，作为与课程对应的自学模块。 作者可以按照以下步骤创建模块：
+创建模块库，作为与课程对应的自学模块。作者可以按照以下步骤创建模块：
 
 1. 以作者身份登录后，单击左侧窗格中的“模块库”。
-1. 单击页面右上角的“添加” 。
+1. 单击页面右上角的“添加”。
 1. 填写“模块名称”、“说明”、“模块标签”。
-1. 选择模块类型为 **已共享** 如果希望将模块共享给所有作者。 否则，请选择“私有”。
+1. 选择模块类型为 **已共享** 如果希望将模块共享给所有作者。 否则选择“私有”。
 1. 单击“上传模块”图标并上传模块内容。
 1. 单击“保存”。
 
@@ -118,7 +118,7 @@ ADOBE CAPTIVATE 9  [帮助内容](http://helpx.adobe.com/captivate/using/publish
 
 +++测试模块、准备工作模块和内容模块分别是什么？
 
-作者在创建课程时会遇到这些术语。
+作者在创建课程时会遇到下列术语。
 
 **测试模块** 表示课程的核心模块。 如果学习者完成了这一重要模块，则即使学习者未完成课程的实际内容，也可以将其视为完成课程。
 
@@ -130,41 +130,41 @@ ADOBE CAPTIVATE 9  [帮助内容](http://helpx.adobe.com/captivate/using/publish
 
 +++准备工作和先决条件之间有何区别？
 
-作者在创建课程时会遇到这些术语。
+作者在创建课程时会遇到下列术语。
 
-先决条件相当于参加特定课程之前需要参加的任何必修课程。 作者可以强制执行先决条件，将其设为在参加课程之前必须完成。
+先决条件相当于参加特定课程之前需要完成的任何必修课程。 作者可以强制执行先决条件，将其设为在参加课程之前必须完成。
 
-准备工作相当于作者推荐的参考模块，这些模块有助于学习者更好地理解特定课程。 这不是必须的。
+准备工作相当于作者推荐的参考模块，这些模块有助于学习者更好地理解特定课程。 此模块并非必修模块。
 
 +++
 
 +++我可以为我的学习者创建学习计划吗？
 
-只有公司管理员才能创建学习计划。 请与您组织的管理员联系。
+只有公司管理员才能创建学习计划。 请与您公司的管理员联系。
 
 +++
 
 +++如何查看学习者的技能和课程完成状态？
 
-作者无法查看学习者的技能及其课程完成状态。 只有管理员有权查看特定课程的报告。 作者可以联系管理员以获取报告。
+作者无法查看学习者的技能及其课程完成状态。 只有管理员有权查看特定课程的报告。 作者可联系管理员获取报告。
 
 +++
 
 +++如何查看参加我课程的学习者列表？
 
-作者无法查看参加课程的学习者列表。 只有管理员有权查看注册特定课程的学习者。 作者可以与管理员联系获取上述学习者列表。
+作者无法查看参加该课程的学习者列表。 只有管理员有权查看注册特定课程的学习者。 作者可以与管理员联系获取上述学习者列表。
 
 +++
 
-+++我可以对任意课程的模块进行排序吗？ 怎么会？
++++我可以对任意课程的模块进行排序吗？ 该如何操作？
 
-作者可以通过将鼠标拖放到其他模块上来更改模块顺序。 他还可以通过选择强制学习者按顺序学习模块 **有序** 在创建课程的过程中为模块排序的选项。
+如果作者希望更改模块顺序，可以将其拖放于其他模块之上。 他还可以通过选择强制学习者按顺序学习模块 **有序** 在创建课程的过程中为模块排序的选项。
 
 +++
 
 +++如何筛选以查看特定的课程集？
 
-您可以使用“按状态过滤课程”选项过滤课程。 有关详细信息，请参阅  [如何搜索课程？](https://helpx.adobe.com/content/help/en/captivate-prime/authors/frequently-asked-questions-for-authors.html#Course)
+您可以使用“按状态过滤课程”选项过滤课程。 有关详细信息，请参阅  [如何搜索课程？](https://helpx.adobe.com/content/help/cn/captivate-prime/authors/frequently-asked-questions-for-authors.html#Course)
 
 +++
 
@@ -176,10 +176,10 @@ ADOBE CAPTIVATE 9  [帮助内容](http://helpx.adobe.com/captivate/using/publish
 
 +++如何搜索课程？
 
-您可以通过两种方式搜索课程：
+您可以通过两种方式来搜索课程：
 
-1. 使用右上角显示的搜索字段。 输入课程名称或任何与课程相关的关键词来查找您的课程。
-1. 使用过滤器过滤课程列表。 您可以按状态过滤课程，例如 **全部、已发布、草稿** 和 **已弃用** 通过单击每个选项。
+1. 使用右上角显示的搜索字段。输入课程名称或任何与课程相关的关键词来查找您的课程。
+1. 使用过滤器过滤课程列表。您可以按状态过滤课程，例如 **全部、已发布、草稿** 和 **已弃用** 通过单击每个选项。
 
    您还可以通过单击 **技能** 并逐一挑选。
 
@@ -187,7 +187,7 @@ ADOBE CAPTIVATE 9  [帮助内容](http://helpx.adobe.com/captivate/using/publish
 
 +++
 
-+++能否将其他作者的课程模块添加到我的课程中？ 怎么会？
++++能否将其他作者的课程模块添加到我的课程中？ 该如何操作？
 
 模块有两种类型：
 
@@ -200,7 +200,7 @@ ADOBE CAPTIVATE 9  [帮助内容](http://helpx.adobe.com/captivate/using/publish
 
 +++如何在课程中添加模块？
 
-您可以向新课程或现有草稿课程中添加课程模块。 要向新课程中添加模块，请参阅  [如何创建课程？](http://primehelp.adobe.com/questions/how-do-i-create-a-new-course/)
+您可以将课程模块添加到新课程或现有草稿课程中。 要向新课程中添加模块，请参阅  [如何创建课程？](http://primehelp.adobe.com/questions/how-do-i-create-a-new-course/)
 
 您可以通过单击将模块添加到模块库 **模块库** 然后 **添加**.
 
@@ -208,23 +208,23 @@ ADOBE CAPTIVATE 9  [帮助内容](http://helpx.adobe.com/captivate/using/publish
 
 +++
 
-+++学习者参加课程时，我是否会收到通知？ 怎么会？
++++学习者参加课程时，我是否会收到通知？ 该如何操作？
 
 学习者参加课程时，作者不会收到通知。 作者可联系管理员以了解所需信息。
 
 +++
 
-+++能否为课程创建报告？ 怎么会？
++++能否为课程创建报告？ 该如何操作？
 
-在Learning Manager 1.0Adobe中，只有管理员和经理才能查看/创建报告。
+在 Adobe Learning Manager 1.0 版中，只有管理员和经理才能查看/创建报告。
 
 +++
 
 +++如何为课程创建测试？
 
-现在没有专门用于创建课程测试的选项。 您可以在创建内容的过程中创建它。
+现在没有专门用于创建课程测试的选项。 您可以在内容创建过程中创建测试。
 
-测试是SCORM/AICC、Captivate或演示者内容，可作为模块添加到课程中。
+测试是 SCORM/AICC、Captivate 或 Presenter 内容，可作为模块添加到课程中。
 
 +++
 
@@ -238,26 +238,26 @@ ADOBE CAPTIVATE 9  [帮助内容](http://helpx.adobe.com/captivate/using/publish
 
 要创建课程，请执行以下步骤：
 
-1. 以作者身份登录AdobeLearning Manager。
+1. 以作者身份登录 Adobe Learning Manager。
 1. 点击 **[!UICONTROL 创建课程]** 在快速入门页面中。\
    此时会显示“基本信息”页面。
 
-1. 提供课程所需的基本信息。 按照提供的静态帮助中的说明进行操作。
+1. 提供课程所需的基本信息。 按照所提供的静态帮助说明进行操作。
 1. 点击 **[!UICONTROL 添加模块]** 要课程并从列表的四个模块中选择一个模块：提供每个模块所需的基本信息并单击 **[!UICONTROL 完成]**.
 
-课程创建完成后，单击“保存”。 默认情况下，课程保存为草稿。 点击 **[!UICONTROL 发布]** 发布课程。
+课程创建完成后，单击“保存”。默认情况下，课程保存为草稿。 点击 **[!UICONTROL 发布]** 发布课程。
 
 发布课程前，您需要添加课程名称、至少一个模块、注册类型、能力、能力级别和积分。
 
 您还可以按照以下步骤发布列出的课程草稿：
 
-1. 单击我的课程>草稿选项卡
+1. 单击“我的课程”>“草稿”选项卡
 1. 将鼠标悬停在课程上，然后单击“发布课程”。
 
 +++
 
 +++Learning Manager支持哪些课程格式？
 
-作者可以导入使用Adobe Captivate和Adobe Presenter创建的现有电子学习课程。 其他支持的课程格式包括视频文件、PDF、docx和PPTX。 您还可以导入符合AICC标准的课程内容。
+作者可以导入使用 Adobe Captivate 和 Adobe Presenter 创建的电子学习课程。其他支持的课程格式包括视频文件、PDF、docx 和 PPTX。您还可以导入符合 AICC 的课程内容。
 
 +++

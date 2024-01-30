@@ -6,7 +6,7 @@ preview: true
 source-git-commit: 544c695a77c21dd9162b9b943b6119d27aa373dc
 workflow-type: tm+mt
 source-wordcount: '1757'
-ht-degree: 0%
+ht-degree: 51%
 
 ---
 
@@ -143,7 +143,7 @@ x-burst: 2
   <tr> 
    <td><p><b>操作</b></p></td> 
    <td><p><b>管理员API</b></p></td> 
-   <td><p><b>学习者API</b></p></td> 
+   <td><p><b>学习者 API</b></p></td> 
   </tr> 
   <tr> 
    <td><p>DELETE</p></td> 
@@ -152,7 +152,7 @@ x-burst: 2
   </tr> 
   <tr> 
    <td><p>PATCH</p></td> 
-   <td><p>(60， 20)</p></td> 
+   <td><p>(60, 20)</p></td> 
    <td><p>(15， 5) <br></p></td> 
   </tr> 
   <tr> 

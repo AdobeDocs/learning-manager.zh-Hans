@@ -6,7 +6,7 @@ contentowner: saghosh
 source-git-commit: fba5e5ddc1964b485be473bf356806f234688cf4
 workflow-type: tm+mt
 source-wordcount: '203'
-ht-degree: 0%
+ht-degree: 90%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 ## 注册类型
 
-Learning Manager中有三种注册类型：
+Adobe Learning Manager 中有三种注册类型：
 
 * 自助注册
 * 经理指派
@@ -32,14 +32,14 @@ Learning Manager中有三种注册类型：
 
 ## 经理批准
 
-此类课程必须经过经理批准。 学习者可以申请注册此类课程，但必须在经理批准后才能注册成功。 学习者申请注册此类课程时，经理会收到通知请求。 经理批准后，此类课程才会显示学习者已注册。
+此类课程必须经过经理批准。 学习者可以申请注册此类课程，但必须在经理批准后才能注册成功。 学习者申请注册此类课程时，经理会收到通知请求。经理批准后，此类课程才会显示学习者已注册。
 
 ## 经理指派
 
 此类课程只能由经理指派。 学习者无法注册此类课程。
 
-## 后续操作
+## 下一步
 
 在学习计划中，您只能添加自行注册的课程，不能添加经理指派或经理批准的课程。
 
-这是Learning Manager中的默认行为。
+这是 Adobe Learning Manager 中的默认行为。

@@ -1,37 +1,37 @@
 ---
-description: Microsoft TeamsAdobeLearning Manager应用程序
+description: 适用于 Microsoft Teams 的 Adobe Learning Manager 应用程序
 jcr-language: en_us
-title: Microsoft TeamsAdobeLearning Manager应用程序
+title: 适用于 Microsoft Teams 的 Adobe Learning Manager 应用程序
 contentowner: saghosh
 source-git-commit: 81dd3cecf7393c08434a70e15457d967a56df8d3
 workflow-type: tm+mt
 source-wordcount: '633'
-ht-degree: 0%
+ht-degree: 41%
 
 ---
 
 
-# Microsoft TeamsAdobeLearning Manager应用程序
+# 适用于 Microsoft Teams 的 Adobe Learning Manager 应用程序
 
 ## 设置方式
 
-在MS团队上设置ALM涉及三个步骤，需要ALM管理员和Microsoft Azure管理员的帮助。 在某些组织中，Azure管理员和MS团队管理员不同，因此还需要其他MS团队管理员。
+要在 MS Teams 上设置 ALM，您需要执行三个步骤，并寻求 ALM 管理员和 Microsoft Azure 管理员的协助。 在某些组织中，Azure 管理员与 MS Teams 管理员并不相同，因此还需要额外的 MS Teams 管理员。
 
 **ALM管理员 — 集成管理员角色可审批团队应用程序**
 
-在集成管理员批准MS Teams应用程序后，即可在MS Teams应用商店中使用AdobeLearning Manager应用程序，并且学习者可以访问它。 但是，应用程序将不包含通知、静默登录，并且不会为MS Teams中的学习者固定应用程序。
+在集成管理员批准MS Teams应用程序后，即可在MS Teams应用商店中使用AdobeLearning Manager应用程序，并且学习者可以访问它。 但是，该应用程序将不会发送通知和允许无提示登录，并且 MS Teams 不会为其学习者置顶该应用程序。
 
 **Microsoft Azure管理员在Azure仪表板中批准ALM应用程序的权限**
 
-Azure管理员必须批准ALM应用程序所需的权限。 这将允许该ALM应用程序向MS Teams发送通知并允许静默登录。 在静默登录中，用户无需单独登录即可在浏览器上AdobeLearning Manager。
+Azure 管理员必须批准 ALM 应用程序所需的权限。 这将让 ALM 应用程序可以向 MS Teams 发送通知并允许无提示登录。 无提示登录时，用户无需在浏览器上单独登录 Adobe Learning Manager。
 
 **MS Teams管理员为ALM团队创建策略**
 
-管理中心中的MS Teams管理员应为其所有用户固定ALM应用程序，并允许将其作为一项全局策略使用。 如果ALM仅由公司中的某个组使用，则MS团队管理员必须选择自定义策略并仅将该策略应用于该特定组。
+MS Teams 管理员应在 Admin Center 中为所有用户置顶 ALM 应用程序，并允许将其作为全局策略。 如果 ALM 仅由公司中的某个组使用，则 MS Teams 管理员必须选择自定义策略，并将其仅应用于该特定组。
 
 ## 集成管理员角色可审批团队应用程序
 
-请执行以下步骤：
+请按以下步骤操作：
 
 1. 在集成管理员应用程序上，选择 **[!UICONTROL 应用程序]** > **[!UICONTROL 特色应用程序]**，然后选择 **[!UICONTROL ALM Teams应用程序]**.
 
@@ -55,9 +55,9 @@ Azure管理员必须批准ALM应用程序所需的权限。 这将允许该ALM�
 
 现在，用户可以在MS Teams上访问ALM应用程序。
 
-## Microsoft Azure管理员在Azure仪表板中批准ALM应用程序的权限
+## Microsoft Azure 管理员在 Azure 信息板中批准 ALM 应用程序的权限
 
-请执行以下步骤：
+请按以下步骤操作：
 
 1. 以Azure管理员身份，导航到Azure仪表板中的“管理Azure Active Directory”部分。
 
@@ -75,7 +75,7 @@ Azure管理员必须批准ALM应用程序所需的权限。 这将允许该ALM�
    ![](assets/microsoft_azure_dashboard.jpg)
    *添加到Azure*
 
-1. 选择企业应用程序选项卡，然后选择所有应用程序。 您将看到此处列出了ALMTeamsApp。
+1. 选择“企业应用程序”选项卡，然后选择“所有应用程序”。 您将看到此处列出了ALMTeamsApp。
 
    ![](assets/microsoft_azure_enterprise_applications.jpg)
    *查看ALM应用程序*
@@ -100,25 +100,25 @@ Azure管理员必须批准ALM应用程序所需的权限。 这将允许该ALM�
    ![](assets/microsoft_azure_ALMTeamsNonProdApp_permission_request_granted.jpg)
    *已授予访问权限*
 
-## MS Teams管理员为Teams应用程序创建策略
+## MS Teams 管理员为 Teams 应用程序创建策略
 
-请执行以下步骤：
+请按以下步骤操作：
 
 1. 作为MS Teams管理员，请在管理中心创建用于将Teams应用程序添加到学习者Teams应用程序的策略。
 
    ![](assets/microsoft_teams_admin_center.png)
    *创建策略*
 
-1. 导航至“设置策略”部分。 创建全局策略并选择 **[!UICONTROL 添加应用程序]** 在固定的应用程序子部分中。
+1. 导航到“设置策略”部分。 创建全局策略并选择 **[!UICONTROL 添加应用程序]** 在固定的应用程序子部分中。
 
    ![](assets/microsoft_teams_admin_center_add_installed_apps.png)
    *添加策略*
 
-1. 在随后出现的对话框中，搜索 **[!UICONTROL AdobeLearning Manager]**，然后添加该应用程序。 此操作会在“已安装的应用程序”部分添加AdobeLearning Manager。
+1. 在随后出现的对话框中，搜索&#x200B;**[!UICONTROL “Adobe Learning Manager”]**，然后添加该应用程序。 此操作会在“已安装的应用程序”部分添加AdobeLearning Manager。
 
    ![](assets/microsoft_teams_admin_center_installed_apps.png)
    *安装应用程序*
 
 1. 保存此策略。 这使该应用程序可供组织中的所有人使用。
 
-或者，管理员可以创建自定义策略，而不是全局策略。 将AdobeLearning Manager添加到该自定义策略，然后仅将自定义策略应用于需要访问AdobeLearning Manager的用户组。
+或者，管理员可以创建自定义策略而非全局策略。 将AdobeLearning Manager添加到该自定义策略，然后仅将自定义策略应用于需要访问AdobeLearning Manager的用户组。

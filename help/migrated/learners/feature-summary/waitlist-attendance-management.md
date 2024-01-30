@@ -6,7 +6,7 @@ contentowner: manochan
 source-git-commit: 9325abb9cda8c8a019c9d72c1944a8284f38f83e
 workflow-type: tm+mt
 source-wordcount: '63'
-ht-degree: 0%
+ht-degree: 79%
 
 ---
 
@@ -18,4 +18,4 @@ ht-degree: 0%
 
 ## 轮候表管理 {#waitlistmanagement}
 
-当任意教室课程名额有限时，学习者会根据其注册顺序进行轮候。 管理员分配名额后，学习者就能立即注册课程。
+当任意教室课程名额有限时，学习者会根据其注册顺序进行轮候。管理员分配名额后，学习者就能立即注册课程。

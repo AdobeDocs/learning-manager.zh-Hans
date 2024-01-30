@@ -1,19 +1,19 @@
 ---
 jcr-language: en_us
-title: iPad和Android平板电脑用户
-description: iPad和Android平板电脑用户
+title: iPad 和 Android 平板电脑用户
+description: iPad 和 Android 平板电脑用户
 contentowner: manochan
 preview: true
 source-git-commit: ccdb222228f76fdae63ebb0a808824ad6ac1db7f
 workflow-type: tm+mt
 source-wordcount: '250'
-ht-degree: 0%
+ht-degree: 74%
 
 ---
 
 
 
-# iPad和Android平板电脑用户
+# iPad 和 Android 平板电脑用户
 
 在iPad或Android平板电脑上的Learning Manager应用程序中，以学习者身份登录后，可看到以下主屏幕：
 
@@ -23,18 +23,18 @@ ht-degree: 0%
 
 ![](assets/menu-ipad.png)
 
-您可以在iPad和Android平板电脑中脱机访问Learning Manager应用程序。 下载课程并以离线模式参加，连接到网络后，可将内容与在线应用程序同步。
+您可以在 iPad 和 Android 平板电脑中离线访问 Adobe Learning Manager 应用程序。下载课程并以离线模式参加，连接到网络后，可将内容与在线应用程序进行同步。
 
-1. 点击顶部的“菜单”下拉菜单，然后点击“学习”选项。 所有可用课程的列表会显示在磁贴中。
-1. 点按每个学习对象磁贴底部的下载图标以下载学习内容。
+1. 点击顶部的“菜单”下拉菜单，然后点击“学习”选项。 此时会以磁贴列表的形式显示所有可用课程。
+1. 点击每个学习对象磁贴底部的下载图标，即可下载学习内容。
 
 ![](assets/download-ipad.png)
 
-1. 当您处于联机状态时，应用程序顶部的栏中会显示一个提示，以检查您是否要联机同步内容。 如果您的回答是“是”，请点击红色条。 绿色条表示您的内容与在线应用程序同步。
+1. 处于联机状态时，应用程序顶部栏中会提示您是否要同步联机内容。如果要同步，请点击红色栏。绿色栏表示您的内容正在与联机应用程序进行同步。
 
-## 跟踪设备存储 {#trackdevicestorage}
+## 跟踪设备存储空间 {#trackdevicestorage}
 
-您可以定期监视设备存储空间。
+您可以定期监控设备的存储空间。
 
 点按应用程序右上角的配置文件图标，然后点按 **设备存储** 菜单选项。
 
@@ -44,4 +44,4 @@ ht-degree: 0%
 
 ![](assets/app-storage.png)
 
-使用应用程序存储信息，您可以检查设备、应用程序和下载课程的总空间。 此信息允许您相应地下载课程。 要删除设备中已下载的课程，请点按每个课程名称旁的X图标。
+使用应用程序存储空间信息，您可以检查设备的总空间、应用程序和下载的课程。借助该信息可相应地下载课程。若要删除设备中已下载的课程，请点击每个课程名称旁的 X 图标。

@@ -1,38 +1,38 @@
 ---
 jcr-language: en_us
-title: Learning Manager与Slack集成
-description: Learning Manager与Slack集成
+title: Adobe Learning Manager 与 Slack 集成
+description: Adobe Learning Manager 与 Slack 集成
 contentowner: dvenkate
 source-git-commit: 864b1796f1ca99ae7b5643e8c58d1756ff2461a1
 workflow-type: tm+mt
 source-wordcount: '468'
-ht-degree: 0%
+ht-degree: 43%
 
 ---
 
 
 
-# Learning Manager与Slack集成
+# Adobe Learning Manager 与 Slack 集成
 
 我们有 **已删除** **Slack** 作为Learning Manager中的连接器。 您将无法再访问Slack连接器。
 
-作为Slack用户，您可以将Adobe应用程序目录中的SlackLearning Manager应用程序安装到Slack团队中，然后直接从Slack中浏览Learning Manager内容。 您可以与Primebot交互以在Learning Manager中搜索新课程、查看推荐内容并收到临近截止日期的通知。 您还可以注册并直接从Slack中学习。
+作为 Slack 用户，您可以将 Slack 应用程序目录中的 Adobe Learning Manager 应用程序安装到您的 Slack 团队中，然后直接从 Slack 中浏览 Adobe Learning Manager 的内容。您可以与Primebot交互以在Learning Manager中搜索新课程、查看推荐内容并收到临近截止日期的通知。 您还可以注册并直接从Slack中学习。
 
 Learning Manager的Azure实例不支持Learning ManagerSlack应用程序。
 
-## 安装AdobeLearning Manager应用程序 {#installingadobecaptivateprimeapp}
+## 安装 Adobe Learning Manager 应用程序 {#installingadobecaptivateprimeapp}
 
-作为学习者，您可以在您的Slack帐户中安装CP Prime应用程序。 要安装应用程序，请在您的Slack帐户中打开App目录并搜索Learning Manager。 下载并安装该应用程序。 如果您的帐户中未批准该应用程序，请联系您的集成管理员进行批准。 如果已获得批准，您将能够登录。
+作为学员，您可以在您的 Slack 帐户中安装 Adobe Learning Manager 应用程序。 要安装应用程序，请在您的 Slack 帐户中打开 App 目录并搜索 Adobe Learning Manager。下载并安装该应用程序。 如果您的帐户中未批准该应用程序，请联系您的集成管理员进行批准。 如果已获得批准，您将能够登录。
 
-## 批准学习者以集成管理员身份登录 {#approvinglearnersigninasanintegrationadmin}
+## 批准学员以集成管理员身份登录 {#approvinglearnersigninasanintegrationadmin}
 
 作为集成管理员，要审批学习者在Slack上使用Prime应用程序的权限，请执行以下步骤。
 
-1. 选择 **[!UICONTROL 应用程序]** ，然后单击 **[!UICONTROL 特色应用程序]** 选项卡。
+1. 从左窗格中选择&#x200B;**[!UICONTROL 应用程序]**，然后单击&#x200B;**[!UICONTROL 特色应用程序]**&#x200B;选项卡。
 
    ![](assets/featuredapps.jpg)
 
-1. 单击 **[!UICONTROL Slack]** 磁贴>松弛集成页打开。 点击 **[!UICONTROL 批准]** ，以批准应用程序。
+1. 单击&#x200B;**[!UICONTROL Slack]**&#x200B;图块>松弛集成页打开。 点击 **[!UICONTROL 批准]** ，以批准应用程序。
 
    ![](assets/approval.png)
 
@@ -47,7 +47,7 @@ Learning Manager的Azure实例不支持Learning ManagerSlack应用程序。
 
 &#42;/prime&#42; 可用于有针对性地对您的AdobeLearning Manager帐户进行一次性查询。
 
-可用的子命令包括：
+可用子命令包括：
 
 /prime find `<query>`  — 搜索课程、认证等。
 

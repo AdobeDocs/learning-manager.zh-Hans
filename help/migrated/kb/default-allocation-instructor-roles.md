@@ -1,23 +1,23 @@
 ---
 jcr-language: en_us
-title: Learning Manager中用户组的默认讲师角色分配
-description: Learning Manager中用户组的默认讲师角色分配
+title: 在 Adobe Learning Manager 中，系统默认为用户组分配讲师角色
+description: 在 Adobe Learning Manager 中，系统默认为用户组分配讲师角色
 contentowner: nluke
 preview: true
 source-git-commit: 66dfaaaf723382eada39e2be29dfd49b795107a0
 workflow-type: tm+mt
 source-wordcount: '300'
-ht-degree: 0%
+ht-degree: 48%
 
 ---
 
 
 
-# Learning Manager中用户组的默认讲师角色分配
+# 在 Adobe Learning Manager 中，系统默认为用户组分配讲师角色
 
 ## 问题
 
-系统会为分配给会话的所有用户分配讲师角色。
+系统会向已分配到会话的所有用户分配讲师角色。
 
 ## 描述
 
@@ -25,18 +25,18 @@ ht-degree: 0%
 
 ## 原因
 
-由于在用户组中批量分配用户时无法划分角色，因此会向所有用户分配讲师角色。
+由于在用户组中批量分配用户时无法细分角色，因此会向所有用户分配讲师角色。
 
 ## 解决方案
 
-创建自定义用户组以筛选分配给会话的用户角色。 要删除用户组中已分配的讲师角色，请执行以下步骤：
+创建自定义用户组，筛选分配到会话的用户角色。 要删除用户组中已分配的讲师角色，请执行以下操作：
 
 1. 以管理员身份登录。 在左侧面板中，单击 **[!UICONTROL 电子邮件模板]**.
 1. 为避免因要进行的更改而触发电子邮件，请单击 **[!UICONTROL 全部禁用]**.
 
    ![](assets/instructor-disable-all.png)
 
-1. 导航至 **用户** > **用户组**. 点击 **[!UICONTROL 添加]**.
+1. 导航至 **用户** > **用户组**. 单击“**[!UICONTROL 添加]**”。
 
    ![](assets/instructor-usergroups.png)
 

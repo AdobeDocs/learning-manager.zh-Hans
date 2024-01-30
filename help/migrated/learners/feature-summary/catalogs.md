@@ -1,12 +1,12 @@
 ---
-description: 了解如何使用Learning Manager中的目录查看符合条件的学习对象
+description: 了解如何在 Adobe Learning Manager 中使用“目录”查看适用学习对象
 jcr-language: en_us
 title: 目录
 contentowner: manochan
 source-git-commit: b77a43100521aa35096c6a6b4d417630cb9293b3
 workflow-type: tm+mt
 source-wordcount: '280'
-ht-degree: 0%
+ht-degree: 23%
 
 ---
 
@@ -14,13 +14,13 @@ ht-degree: 0%
 
 # 目录
 
-了解如何使用Learning Manager中的目录查看符合条件的学习对象
+了解如何在 Adobe Learning Manager 中使用“目录”查看适用学习对象
 
 **目录** 包含公司帐户中学习者角色可用的所有课程、学习计划、认证和工作辅助。
 
 学习者可以在“ **默认目录**. 根据每个学习者的角色、职务、用户组、个人资料等，这些学习对象均是唯一的。
 
-您可以通过使用学习对象的技能和类型（自学、混合、教室、虚拟教室、活动）筛选学习对象列表。 您还可以使用左窗格中的选项进行筛选，例如按学习对象、按技能以及按完成状态。
+您可以根据相关技能和学习对象类型(自学、混合、教室、虚拟教室、活动)来过滤学习对象的列表。您还可以使用左窗格中的选项进行筛选，例如按学习对象、按技能以及按完成状态。
 
 使用页面顶部的搜索栏输入熟悉的学习对象名称。
 

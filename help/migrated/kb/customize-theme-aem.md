@@ -1,21 +1,21 @@
 ---
 jcr-language: en_us
-title: 自定义AEM组件的主题
-description: 自定义AEM组件的主题
+title: 自定义 AEM 组件的主题
+description: 自定义 AEM 组件的主题
 contentowner: saghosh
 preview: true
 source-git-commit: ccdb222228f76fdae63ebb0a808824ad6ac1db7f
 workflow-type: tm+mt
 source-wordcount: '24'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
 
 
-# 自定义AEM组件的主题
+# 自定义 AEM 组件的主题
 
-使用下面的JSON自定义目录小组件。
+使用下方的 JSON 自定义目录小组件。
 
 ```
 \{ 

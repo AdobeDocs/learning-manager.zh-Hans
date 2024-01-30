@@ -6,7 +6,7 @@ contentowner: nluke
 source-git-commit: 66dfaaaf723382eada39e2be29dfd49b795107a0
 workflow-type: tm+mt
 source-wordcount: '231'
-ht-degree: 0%
+ht-degree: 55%
 
 ---
 
@@ -24,9 +24,9 @@ ht-degree: 0%
 
 出现此问题的原因是，学习计划是一系列课程的合集。 如果高阶培训中的任何课程包含已停用的实例或课程实例停用，则高阶培训便会停用。
 
-## 分辨率
+## 解决方法
 
-要检查包含已停用实例的课程，请执行以下步骤：
+如需检查包含已停用实例的课程，请执行以下步骤：
 
 1. 以管理员身份登录并启动相关的学习计划。
 
@@ -44,7 +44,7 @@ ht-degree: 0%
 
    *编辑课程的完成日期*
 
-1. 完成后，单击下拉列表，如下图所示。 然后单击 **[!UICONTROL 重新打开实例]**.
+1. 完成后，单击下拉列表，如下图所示。 然后单击“**[!UICONTROL 重开实例]**”。
 
    ![](assets/re-open-instance.png)
 

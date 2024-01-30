@@ -1,28 +1,28 @@
 ---
-description: 本文档帮助您配置SSO身份验证以登录Learning Manager帐户。
+description: 此文档可帮助您配置 SSO 身份验证，以登录 Adobe Learning Manager 帐户。
 jcr-language: en_us
-title: 使用SSO身份验证登录Learning Manager
+title: 使用 SSO 身份验证登录 Adobe Learning Manager
 contentowner: dvenkate
 source-git-commit: a186a600e632e9a564c4ff30d1897c2cdf0d5aac
 workflow-type: tm+mt
 source-wordcount: '131'
-ht-degree: 0%
+ht-degree: 70%
 
 ---
 
 
 
-# 使用SSO身份验证登录Learning Manager
+# 使用 SSO 身份验证登录 Adobe Learning Manager
 
-本文档帮助您配置SSO身份验证以登录Learning Manager帐户。
+此文档可帮助您配置 SSO 身份验证，以登录 Adobe Learning Manager 帐户。
 
-要配置SSO身份验证，请执行以下步骤：
+要配置 SSO 身份验证，请执行以下步骤：
 
-1. 打开 **[!UICONTROL 设置]** > **[!UICONTROL 登录方法。]**
+1. 打开&#x200B;**[!UICONTROL 设置]** > **[!UICONTROL 登录方法]**。
 
    ![](assets/login-methods.png)
 
-1. 选择 **[!UICONTROL 内部用户]** 或 **[!UICONTROL 外部用户]** 那得视你的要求而定。
+1. 根据需要选择&#x200B;**[!UICONTROL 内部用户]**&#x200B;或&#x200B;**[!UICONTROL 外部用户]**。
 1. 单击旁边的下拉菜单  **[!UICONTROL 登录]** 选项并选择 **[!UICONTROL 单点登录]**.
 
    ![](assets/single-sign-on.png)
@@ -35,7 +35,7 @@ ht-degree: 0%
 
    ![](assets/sso-configuration.png)
 
-   您在Learning Manager中配置的SSO应支持SAML 2.0。
+   您在 Adobe Learning Manager 中配置的 SSO 应支持 SAML 2.0。
 
-   您现在可以使用SSO身份验证登录Learning Manager。
+   现在，您可以使用 SSO 身份验证登录 Adobe Learning Manager。
 

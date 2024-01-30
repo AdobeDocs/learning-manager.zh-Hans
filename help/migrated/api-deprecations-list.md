@@ -6,7 +6,7 @@ contentowner: saghosh
 source-git-commit: 83fdd06aed823a50458d50c8ac240d56af873a6d
 workflow-type: tm+mt
 source-wordcount: '1005'
-ht-degree: 0%
+ht-degree: 19%
 
 ---
 
@@ -41,12 +41,12 @@ API突发速率或突发限制是指在有限的时间范围内允许以短突�
         <td>5</td>
     </tr>
     <tr>
-        <td>学习者</td>
+        <td>学习者无法注册此类课程。</td>
         <td>20</td>
         <td>5</td>
     </tr>
     <tr>
-        <td>Search</td>
+        <td>搜索</td>
         <td>50</td>
         <td>5</td>
     </tr>
@@ -126,24 +126,24 @@ API突发速率或突发限制是指在有限的时间范围内允许以短突�
 
 ### 覆盖标志
 
-在2023年11月版AdobeLearning Manager中，我们已停用API的覆盖标志。 覆盖标志不是公共API规范的一部分，用于后端测试。 该标志现停止用于学习者API。 但是，该标记对管理员API仍然有效。
+在2023年11月版AdobeLearning Manager中，我们已停用API的覆盖标志。 覆盖标志不是公共 API 规范的一部分，旨在用于后端测试。 现已停止为学习者 API 应用该标志。 但是，该标记对管理员 API 仍然有效。
 
 我们之所以弃用“学习者API”旗标，是因为覆盖旗标正通过“学习者API”获取大量数据。
 
-以后，以下学习者API将停止工作，因为它有覆盖标志。
+今后，以下学习者 API 将停止运行，因为这些 API 具有覆盖标志。
 
 <code>https://captivateprime.adobe.com/primeapi/v2/users?page[偏移]=0&amp;page[限制]=10&amp;sort=id&amp;override=TRUE</code>
 
 ### 针对基于技能的新建议的API更改
 
-AdobeLearning Manager可改善针对启用客户和合作伙伴帐户的推荐。 这一改进在推荐算法上随着课程排名算法的变化，学习路径和认证方式的变化为内容发现提供了更好的用户体验。
+Adobe Learning Manager 改进了对支持客户和合作伙伴的帐户的建议。 推荐算法的改进以及课程、学习路径和认证排名算法的变化为内容发现提供了更好的用户体验。
 
-算法将不再允许基于对等项的建议。 这一更改不会影响现有用户，但“业界公认”选项将继续存在。 对于“自定义”选项，AdobeLearning Manager将不再允许基于同事的自定义选择。
+该算法将不再支持基于同行的建议。 这一更改不会影响现有用户，但“业界公认”选项将继续存在。 对于“自定义”选项，Adobe Learning Manager 将不再支持基于同行的自定义选择。
 
-配对组现在已成为帐户，学习者将看到一个显示组中趋势主题的字符串。 所有建议都可作解释。 例如，如果您正在查看某个主题上的内容，信息条上的信息卡将显示该课程的原因。
+配对组现在已成为帐户，学习者将看到一个显示组内趋势主题的字符串。 所有建议都附有说明。 例如，如果您正在查看有关某个主题的内容，信息条上的信息卡将显示建议该课程的原因。
 
 ### 通知公告变更报告
 
-在早期版本的AdobeLearning Manager中，“通知公告”报告没有任何过滤器。 AdobeLearning Manager已下载帐户中的所有通知。
+在早期版本的AdobeLearning Manager中，“通知公告”报告没有任何过滤器。 Adobe Learning Manager 已下载帐户中的所有通知。
 
 在2023年11月版中，我们添加了一个日期过滤器，您可以使用该过滤器在指定时间段内下载通知。  但是，您只能下载最近六个月的报告。

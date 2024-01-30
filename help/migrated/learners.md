@@ -7,7 +7,7 @@ preview: true
 source-git-commit: ccdb222228f76fdae63ebb0a808824ad6ac1db7f
 workflow-type: tm+mt
 source-wordcount: '62'
-ht-degree: 0%
+ht-degree: 88%
 
 ---
 
@@ -19,18 +19,18 @@ ht-degree: 0%
  <tbody>
   <tr> 
    <td><img src="assets/learner2.png"></td> 
-   <td><p>阅读以了解Learning Manager功能以及与学习者角色相关联的常见问题解答。 </p></td> 
+   <td><p>阅读以了解 Adobe Learning Manager 功能以及与学习者角色相关联的常见问题解答。 </p></td> 
   </tr> 
  </tbody>
 </table>
 
-## 常见问题解答(FAQ) {#frequentlyaskedquestionsfaq}
+## 常见问题解答 (FAQ) {#frequentlyaskedquestionsfaq}
 
 [学习者角色的常见问题解答](learners/frequently-asked-questions-for-learners.md)
 
 ## 功能 {#features}
 
-* [快速入门](learners/feature-summary/getting-started-learner.md)
+* [开始使用](learners/feature-summary/getting-started-learner.md)
 * [Salesforce应用](learners/feature-summary/sfdc-app.md)
 * [游戏](learners/feature-summary/gamification.md)
 * [徽章](learners/feature-summary/badges.md)

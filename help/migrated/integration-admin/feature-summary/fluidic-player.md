@@ -7,7 +7,7 @@ preview: true
 source-git-commit: fba5e5ddc1964b485be473bf356806f234688cf4
 workflow-type: tm+mt
 source-wordcount: '1626'
-ht-degree: 0%
+ht-degree: 24%
 
 ---
 
@@ -17,11 +17,11 @@ ht-degree: 0%
 
 阅读本文，了解如何在自定义应用程序中嵌入流体播放器。
 
-企业现在可以在Learning Manager之外为学习者提供自定义体验。 您可以使用公共API，获取与学习对象、学习者注册和学习进度相关的所有信息，并将这些信息显示在您的网站上。 更重要的是，您可以在自己的网站中嵌入Learning Manager的流体播放器，以便学习者可以直接从您的网站使用内容。 您可以使用流体播放器播放Learning Manager支持的任何内容。 在您的网站中嵌入的与您在Learning Manager中使用的功能完全相同。
+企业现在可以在 Adobe Learning Manager 之外为学习者提供自定义体验。您可以使用公共API，获取与学习对象、学习者注册和学习进度相关的所有信息，并将这些信息显示在您的网站上。 更重要的是，您可以在自己的网站中嵌入 Adobe Learning Manager 的流体播放器，以便学习者可以直接从您的网站使用内容。您能够使用流体播放器播放 Adobe Learning Manager 支持的任何内容。在您的网站中嵌入的与您在Learning Manager中使用的功能完全相同。
 
 **播放任何电子学习内容[](../../learners/feature-summary/fluidic-player.md#main-pars_text_779047019)**
 
-流体播放器能够以一致且直观的方式播放几乎任何类型的电子学习内容，而无需任何插件或下载。 无论内容属于哪种文件类型，学习者启动内容后即可开始播放。
+流体播放器能够以一致且直观的方式播放几乎任何类型的电子学习内容，无需任何插件，亦无需下载任何内容。 无论内容属于哪种文件类型，学习者启动内容之后，即开始播放。
 
 **备注和书签**
 
@@ -35,34 +35,34 @@ ht-degree: 0%
 
 * 如果您从事培训业务，您可能拥有一个网站，供客户购买课程。 您可以将嵌入式播放器与该网站集成，以便客户可以使用在您的网站上购买的内容。
 
-## 在网站中嵌入流体播放器的步骤 {#stepstoembedfluidicplayerinyourwebsite}
+## 在网站中嵌入流体播放器的操作步骤 {#stepstoembedfluidicplayerinyourwebsite}
 
-构建自定义应用程序以在您的网站嵌入流体播放器，这涉及三个基本步骤：
+如需构建自定义应用以在您的网站嵌入流体播放器，需执行以下三个基本步骤：
 
-1. 在Learning Manager的集成管理员应用程序中创建应用程序。
+1. 在 Adobe Learning Manager 的集成管理员应用中创建应用程序。
 1. 检索访问令牌。
 1. 使用访问令牌通过公共API从Learning Manager检索资源。
 
-### 1.在集成管理员中创建应用程序 {#1createanapplicationinintegrationadmin}
+### 1. 在“集成管理员”中创建应用程序 {#1createanapplicationinintegrationadmin}
 
-需要执行此步骤，才能创建用于检索刷新令牌和访问令牌的应用程序/客户端ID和应用程序/客户端密钥。 有关创建应用程序的更多信息，请参见  [应用程序开发过程。](developer-manual.md#main-pars_header_994876235)
+需执行此步骤，才能创建用于检索刷新令牌和访问令牌的应用程序/客户端 ID 和应用程序/客户端密钥。 有关创建应用程序的更多信息，请参见  [应用程序开发过程。](developer-manual.md#main-pars_header_994876235)
 
-1. 转到“ ” **[!UICONTROL 集成管理员]** 应用程序并打开 **[!UICONTROL 应用程序]**.
+1. 转到&#x200B;**[!UICONTROL 集成管理员]**&#x200B;应用并打开&#x200B;**[!UICONTROL “应用程序”]**。
 
-1. 选择 **[!UICONTROL 注册]** （位于页面右上角）。
-1. 该 **[!UICONTROL 注册新应用程序]** 窗口打开。 填写必填字段。
+1. 选择页面右上角的&#x200B;**[!UICONTROL “注册”]**。
+1. 此时会打开&#x200B;**[!UICONTROL “注册新应用程序”]**&#x200B;窗口。 填写必填字段。
 1. 如果需要在多个帐户之间共享自定义应用程序，请选择 **[!UICONTROL 否]** 在选项字段中  **[!UICONTROL 仅针对此帐户？]**
-1. 要保存应用程序并生成应用程序ID和密钥，请单击 **[!UICONTROL 保存]**.
+1. 要保存应用程序并生成应用程序 ID 和密钥，请单击&#x200B;**[!UICONTROL “保存”]**。
 
-### 2.检索访问令牌 {#2retrievingaccesstoken}
+### 2. 检索访问令牌 {#2retrievingaccesstoken}
 
-由于Learning Manager使用OAUTH2.0，因此需要访问令牌才能使用公共API检索资源。 可以使用刷新令牌、客户端ID或客户端密钥获取访问令牌。
+由于Learning Manager使用OAUTH2.0，因此需要访问令牌才能使用公共API检索资源。 您可以使用刷新令牌、客户端 ID 或客户端密钥获取访问令牌。
 
 **2.1刷新令牌**
 
-* 检索OAuth代码
+* 检索 OAuth 代码
 
-需要OAuth代码才能检索刷新令牌。 Learning Manager在使用以下URL登录时将用户重定向至带有OAuth代码的重定向URL（示例应用程序的“oauthredirect.html”文件举例说明了如何提取OAuth代码）：
+需要 OAuth 代码才能检索刷新令牌。 Learning Manager在使用以下URL登录时将用户重定向至带有OAuth代码的重定向URL（示例应用程序的“oauthredirect.html”文件举例说明了如何提取OAuth代码）：
 
 ```
 code https://learningmanager.adobe.com/oauth/o/authorize  
@@ -112,23 +112,23 @@ i. refresh_token\
 v. user_role\
 六。 account_id
 
-### 3.使用公共API检索资源 {#3retrieveresourcesusingpublicapi}
+### 3. 使用公共 API 检索资源 {#3retrieveresourcesusingpublicapi}
 
 第3步，您需要使用访问令牌通过公共API从Learning Manager检索资源。  进行任何公共api调用都需要访问令牌，并且需要将其添加到标头中，如示例应用程序所示。
 
 ## 嵌入式播放器 {#embeddableplayer}
 
-第三方应用程序可以利用嵌入式播放器播放学习对象的内容。
+第三方应用程序可以利用嵌入式播放器，播放学习对象的内容。
 
 **在嵌入式播放器中打开课程**
 
-1. 创建可嵌入的URL
+1. 创建可嵌入的 URL
 
    要使用嵌入式播放器打开课程，您需要创建可嵌入的URL，如下所示：
 
    `https://learningmanager.adobe.com/app/player?lo_id=<v2-api course id>&access_token=<access_token>`
 
-   在此URL中，lo_id需要符合V2 API课程ID格式。
+   在此 URL 中，lo_id 需要符合 V2 API 课程 ID 格式。
 
    示例： `https://learningmanager.adobe.com/app/player?lo_id=course:123456&access_token=45b269b75ac65d6696d53617f512450f`
 

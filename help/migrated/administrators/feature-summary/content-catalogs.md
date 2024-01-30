@@ -1,18 +1,18 @@
 ---
-description: Learning Manager推出“内容目录”
+description: Adobe Learning Manager 推出内容目录
 jcr-language: en_us
-title: Learning Manager内容目录
+title: Adobe Learning Manager 内容目录
 contentowner: dvenkate
-source-git-commit: 46afb6603456ced9d7e2aaf98d07ec92fee30c0b
+source-git-commit: 6ab762701908a280325fd6a60bf49f87a2a60da7
 workflow-type: tm+mt
 source-wordcount: '246'
-ht-degree: 0%
+ht-degree: 32%
 
 ---
 
 
 
-# Learning Manager内容目录
+# Adobe Learning Manager 内容目录
 
 <!--Learning Manager introduces Content Catalog-->
 
@@ -23,15 +23,15 @@ Learning Manager的Azure实例不支持内容目录。
 
 Learning Manager引入了内容目录，这是您可以购买的一套现成内容库。 您可以在我们的精选内容市场购买现成的课程，例如业务技能、工作场所合规性、AdobeCreative Cloud和技术的课程。
 
-在左侧窗格中，单击“内容市场”，然后单击 **[!UICONTROL Creative Cloud培训]**.
+在左窗格中，单击“内容市场”，然后单击&#x200B;**[!UICONTROL Creative Cloud培训]**。
 
 <!--![](assets/content-catalog.png)-->
 
-要查看每个目录中的目录详细信息和课程，请单击 **[!UICONTROL 视图]**. 新窗口会显示所有课程。
+要查看每个目录中的目录详细信息和课程，请单击&#x200B;**[!UICONTROL 查看]**。 新窗口会显示所有课程。
 
 <!--![](assets/course-details.png)-->
 
-若要查看课程的详细信息，请单击 **[!UICONTROL 访问]**. 使用复选框选择您感兴趣的课程。
+要查看课程的详细信息，请单击&#x200B;**[!UICONTROL 访问]**。 使用复选框选择您感兴趣的课程。
 
 * 您可以通过选择  **[!UICONTROL 共享]**.
 * Adobe您可以通过选择  **[!UICONTROL 联系人Adobe]**.
@@ -42,4 +42,4 @@ Learning Manager引入了内容目录，这是您可以购买的一套现成内�
 
 如果您的电子邮件客户端在默认情况下未打开，您可以将感兴趣的电子邮件发送到 `learningmanagercontentcontentadmin@adobe.com`.
 
-您必须登录Learning Manager才能访问内容目录。
+您必须登录 Adobe Learning Manager 才能访问“内容目录”。

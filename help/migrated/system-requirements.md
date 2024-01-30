@@ -6,7 +6,7 @@ contentowner: dvenkate
 source-git-commit: 1b90528ec5675c67dcc9b8d86f2a5b8b82f7f5e4
 workflow-type: tm+mt
 source-wordcount: '611'
-ht-degree: 0%
+ht-degree: 65%
 
 ---
 
@@ -23,39 +23,39 @@ macOS X 10.12、10.13、10.14、10.15
 
 ## 内存
 
-8 GB内存。
+建议使用 8 GB 或更大。
 
-## 显示器
+## 显示屏
 
 支持的最低分辨率：1024 x 720。
 
 ## 磁盘空间
 
-最少5 GB可用硬盘空间。
+至少需要 5 GB 可用硬盘空间。
 
-## 录音
+## 录制内容
 
 * 音频录制需要麦克风。
 * 视频录制需要网络摄像头。
 
 ## 其他
 
-使用该应用程序时需要连接互联网并使用Adobe学习管理器学习者帐户。
+使用该应用程序时需要连接互联网并使用 Adobe Learning Manager 学习者帐户。
 
-## 浏览器规范
+## 浏览器要求
 
-IE 11浏览器不支持沉浸式布局主页。
+IE 11 浏览器不支持沉浸式布局主页。
 
-* Google Chrome 43及更高版本。
-* Edge、Safari（版本13及更高版本）以及Firefox的最新版本。
+* Google Chrome 43 及更高版本。
+* Edge、Safari（版本 13 及更高版本）及 Firefox 的最新版本。
 * Internet Explorer版本11及更高版本
 
-## 建议的图像大小 {#recommendedsizeofimages}
+## 推荐的图像大小 {#recommendedsizeofimages}
 
-* 刊头：1280 x 360像素。
+* 刊头：1280 x 360 像素。
 * 目录卡中的图像：280 x 100像素
 * 训练卡大小：300 x 240像素
-* 社交横幅：1600 x 240像素
+* 社交横幅：1600 x 240 像素
 
 ## 桌面
 
@@ -69,17 +69,17 @@ Intel® CoreTM i5或更快版本。
 
 ### 内存
 
-至少需要8 GB。
+至少需要 8 GB。
 
 ### 屏幕分辨率
 
-1366 x 768像素
+1366 x 768 像素
 
 ### 磁盘空间
 
-最少5 GB可用硬盘空间。
+至少需要 5 GB 可用硬盘空间。
 
-### 录音
+### 录制内容
 
 音频录制需要麦克风；视频录制需要网络摄像头。
 
@@ -92,14 +92,14 @@ Intel® CoreTM i5或更快版本。
 
 ### 浏览器
 
-* 对于Android系统：Chrome.
-* iOS上的Safari。
+* 对于 Android 系统：Chrome.
+* 对于 iOS 系统：Safari.
 
 ### 网络速度
 
 * 1 Mbps
 
-### CPU、内存（最少）设备
+### CPU、最小内存设备
 
 * Qualcomm® Snapdragon™ 695 5G或等效产品，6 GB内存
 
@@ -113,15 +113,15 @@ Intel® CoreTM i5或更快版本。
 
 >[!NOTE]
 >
->Learning Manager移动应用程序仅支持学习者角色。
+>Adobe Learning Manager 移动应用程序仅支持学习者角色。
 
 ## 最大内容大小 {#maximumcontentsize}
 
-可以上传的最大文件大小为600 MB。
+可以上传的最大文件大小为 600 MB。
 
 >[!NOTE]
 >
->如果 *user.csv* 文件超过100 MB，导入此文件可能会导致浏览器行为异常。 出现此问题是由于浏览器内存不足。
+>如果 *user.csv* 文件的大小超过 100 MB，导入此文件可能会导致浏览器行为异常。 此问题是浏览器内存不足所致。
 
 我们建议导入大尺寸 *user.csv* 使用Box/Exavault自动工作流程的文件。 要了解更多信息，请参阅 [迁移文件](/help/migrated/integration-admin/feature-summary/migration-manual.md).
 
@@ -140,15 +140,15 @@ Intel® CoreTM i5或更快版本。
   </tr>
   <tr>
    <td>
-    <p>Documents</p></td>
+    <p>文档</p></td>
    <td>
     <p>"pdf"、"docx"、"doc"、"xls"、"xlsx"</p></td>
   </tr>
   <tr>
    <td>
-    <p>PowerPoint演示文稿</p></td>
+    <p>PowerPoint 演示文稿</p></td>
    <td>
-    <p>"pptx"， "ppt"</p></td>
+    <p>"pptx"、"ppt"</p></td>
   </tr>
   <tr>
    <td>
@@ -224,25 +224,25 @@ Intel® CoreTM i5或更快版本。
  </tbody>
 </table>
 
-## 上传图素的高度和宽度规格 {#heightandwidthspecificationforuploadingelements}
+## 上传内容的宽高要求 {#heightandwidthspecificationforuploadingelements}
 
 <table>
  <tbody>
   <tr>
    <td>
-    <p><b>元素</b></p></td>
+    <p><b>内容</b></p></td>
    <td>
     <p><b>大小</b></p></td>
   </tr>
   <tr>
    <td>
-    <p>“学习者成就”板中的徽章</p></td>
+    <p>“学习者成就”中的徽章</p></td>
    <td>
-    <p>40 x 40像素</p></td>
+    <p>40 x 40 像素</p></td>
   </tr>
   <tr>
    <td>
-    <p>“学习者”应用程序中的扩展徽章</p></td>
+    <p>“学习者应用程序”中的扩展徽章</p></td>
    <td>
     <p>90 x 90像素</p></td>
   </tr>
@@ -260,13 +260,13 @@ Intel® CoreTM i5或更快版本。
   </tr>
   <tr>
    <td>
-    <p>页眉上的公司徽标</p></td>
+    <p>“标题”中的公司徽标</p></td>
    <td>
     <p>高度使用45像素，并计算相应的宽度像素。</p></td>
   </tr>
   <tr>
    <td>
-    <p>Learning Manager主页上的公司徽标</p></td>
+    <p>Adobe Learning Manager 主页上的公司徽标</p></td>
    <td>
     <p>高度使用100像素，并计算相应的宽度像素。</p></td>
   </tr>
@@ -283,16 +283,16 @@ Intel® CoreTM i5或更快版本。
 * Edge + Narrator
 * Mac Safari + VoiceOver
 
-### 支持沉浸式移动设备
+### 支持沉浸式移动
 
 支持以下内容：
 
-* Android+Talkback
-* iOS+voiceOver
+* Android + TalkBack
+* iOS + VoiceOver
 
 ## 网络要求 {#networkrequirements}
 
-如果您连接了任何受限制网络，请确保将以下第三方域列入白名单。
+如果您连接了任何受限制网络，请确保将下列第三方域列入白名单。
 
 * &#42;.adobe.com
 * &#42;.boltdns.net
@@ -308,7 +308,7 @@ Intel® CoreTM i5或更快版本。
 * &#42;.akamaihd.net
 
 
-### 特定的扩展案例 {#specificextendedcases}
+### 特定的扩展用途 {#specificextendedcases}
 
 <table>
  <tbody>
@@ -317,7 +317,7 @@ Intel® CoreTM i5或更快版本。
    <th>使用的服务</th>
   </tr>
   <tr>
-   <td>FTP连接器</td>
+   <td>FTP 连接器</td>
    <td><a href="https://www.exavault.com/" target="_blank">www.exavault.com</a></td>
   </tr>
   <tr>
@@ -325,32 +325,32 @@ Intel® CoreTM i5或更快版本。
    <td><a href="https://www.box.com/" target="_blank">www.box.com</a><br><a href="https://www.exavault.com/" target="_blank">www.exavault.com</a></td>
   </tr>
   <tr>
-   <td>Lynda连接器</td>
+   <td>Lynda 连接器</td>
    <td><a href="https://www.box.com/" target="_blank">www.box.com</a><br><a href="https://www.exavault.com/" target="_blank">www.exavault.com</a><br><a href="https://www.lynda.com/" target="_blank">www.lynda.com</a></td>
   </tr>
   <tr>
-   <td>Harvard ManageMentor连接器</td>
+   <td>Harvard ManageMentor 连接器</td>
    <td><a href="https://www.exavault.com/" target="_blank">www.exavault.com</a><br><a href="https://myhbp.org" target="_blank">www.myhbp.org</a></td>
   </tr>
   <tr>
-   <td>GetAbstracts连接器</td>
+   <td>GetAbstracts 连接器</td>
    <td><a href="https://www.exavault.com/" target="_blank">www.exavault.com</a><br><a href="https://www.getabstract.com/en/" target="_blank">www.getabstract.com  </a></td>
   </tr>
   <tr>
-   <td>Box连接器</td>
-   <td>法兰克福的Box区域</td>
+   <td>Box 连接器</td>
+   <td>位于法兰克福的 Box 区域</td>
   </tr>
   <tr>
-   <td>迷你Orange连接器</td>
-   <td>迷你橙色</td>
+   <td>Mini Orange 连接器</td>
+   <td>Mini Orange</td>
   </tr>
   <tr>
-   <td>Workday连接器</td>
+   <td>Workday 连接器</td>
    <td>Workday</td>
   </tr>
   <tr>
    <td>Blue Jeans连接器<br></td>
-   <td>蓝色牛仔裤</td>
+   <td>Blue Jeans</td>
   </tr>
   <tr>
    <td>MicrosoftPower BI</td>
@@ -361,4 +361,4 @@ Intel® CoreTM i5或更快版本。
 
 ## 技术概述 {#technicaloverview}
 
-[Learning Manager技术概述](assets/learning-manager-technicaloverview.pdf)
+[Adobe Learning Manager 技术概述](assets/learning-manager-technicaloverview.pdf)

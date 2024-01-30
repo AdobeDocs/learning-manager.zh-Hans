@@ -1,12 +1,12 @@
 ---
 jcr-language: en_us
 title: 无法查看课程中的学习者
-description: 课程的“学习者”选项卡不显示任何已注册AdobeLearning Manager的学习者。 但您可以在生成的报告中查看已注册的学习者。
+description: 课程的“学习者”选项卡不显示任何已注册AdobeLearning Manager的学习者。 但是您可以在生成的报告中查看已注册的学习者。
 contentowner: saghosh
 source-git-commit: 8b29ac996962e7ce8fbda51f3421c9a5f248fcf6
 workflow-type: tm+mt
 source-wordcount: '212'
-ht-degree: 0%
+ht-degree: 58%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 ## 描述
 
-课程的“学习者”选项卡不会显示任何已注册的学习者。 但您可以在生成的报告中查看已注册的学习者。
+课程中的“学习者”选项卡不会显示任何已注册的学习者。 但是您可以在生成的报告中查看已注册的学习者。
 
 ![](assets/no-learners.png)
 
@@ -32,13 +32,13 @@ ht-degree: 0%
 
 **如何查看学习者注册的高等学习对象？**
 
-您可以在“学习成绩单”报告中查看此信息。 要生成学习者成绩单，请执行以下步骤：
+您可以在“学习成绩单”报告中查看此信息。 请按以下步骤操作生成“学习者成绩单”：
 
 1. 以管理员身份登录。
 1. 点击 **[!UICONTROL 报告]** > **[!UICONTROL 自定义报告]** > **[!UICONTROL Excel报告]** > **[!UICONTROL 学习者成绩单]**.
 
 1. 输入 **[!UICONTROL 学习者]** 并指定 **[!UICONTROL 日期]** 范围。
-1. 展开部分 **[!UICONTROL 高级选项]** 然后选择该选项 **[!UICONTROL 启用模块级别信息]**.
-1. 点击 **[!UICONTROL 生成]**.
+1. 展开&#x200B;**[!UICONTROL “高级选项”]**&#x200B;部分，然后选择&#x200B;**[!UICONTROL “启用模块级信息”]**&#x200B;选项。
+1. 单击&#x200B;**[!UICONTROL “生成”]**。
 
    在“学习者成绩单”中，您可以查看学习者注册时所使用的高等学习对象。

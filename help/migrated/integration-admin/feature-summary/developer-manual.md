@@ -728,7 +728,7 @@ id\
 name\
 pointsEarned\
 配置文件\
-|||ROLE|||\
+ROLE\
 或\
 timeZoneCode\
 uiLocale
@@ -783,7 +783,7 @@ modelIds\
 modelName\
 modelType\
 读取\
-||ROLE||
+ROLE
 
 +++
 

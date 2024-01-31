@@ -3,7 +3,7 @@ jcr-language: en_us
 title: 映射技能到技能域
 description: 要通过特定技能域基于 AI 的监管引擎自动监管用户发布的帖子，用户的企业必须将其自定义技能映射到 Adobe Learning Manager LMS 中支持的技能域。
 contentowner: kuppan
-source-git-commit: 3d5cc91c8973385b5b13244df026667009fc88f7
+source-git-commit: 46afb6603456ced9d7e2aaf98d07ec92fee30c0b
 workflow-type: tm+mt
 source-wordcount: '354'
 ht-degree: 95%

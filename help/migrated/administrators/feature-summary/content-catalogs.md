@@ -3,7 +3,7 @@ description: Adobe Learning Manager 推出内容目录
 jcr-language: en_us
 title: Adobe Learning Manager 内容目录
 contentowner: dvenkate
-source-git-commit: 6ab762701908a280325fd6a60bf49f87a2a60da7
+source-git-commit: 46afb6603456ced9d7e2aaf98d07ec92fee30c0b
 workflow-type: tm+mt
 source-wordcount: '246'
 ht-degree: 32%

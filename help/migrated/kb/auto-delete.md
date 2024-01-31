@@ -3,10 +3,10 @@ jcr-language: en_us
 title: 用户在 Adobe Learning Manager 中被自动删除
 description: 用户在 Adobe Learning Manager 中被删除，但管理员从未执行过任何此类操作。
 contentowner: nluke
-source-git-commit: 66dfaaaf723382eada39e2be29dfd49b795107a0
+source-git-commit: 3242a293fc4b2707044e11c342c984cbfb2fc434
 workflow-type: tm+mt
 source-wordcount: '234'
-ht-degree: 61%
+ht-degree: 55%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 61%
 
 ## 问题
 
-用户在 Adobe Learning Manager 中被删除，但管理员从未执行过任何此类操作。
+A **用户** 会从Learning Manager中删除，但管理员从未执行过任何此类操作。
 
 ## 原因
 

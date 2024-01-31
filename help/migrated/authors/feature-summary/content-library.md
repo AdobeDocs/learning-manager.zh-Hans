@@ -2,7 +2,7 @@
 description: 了解如何创建内容以作为与课程对应的自学内容。
 jcr-language: en_us
 title: 内容库
-source-git-commit: 147e9edfe323f3d0851880cd401067daa1cee84f
+source-git-commit: 5a8f1af4af180e04fced782ff58111269e005a20
 workflow-type: tm+mt
 source-wordcount: '3113'
 ht-degree: 65%
@@ -147,7 +147,7 @@ ht-degree: 65%
 1. 在“描述”字段中，输入与内容相关的描述。确保输入的描述有意义，长度不超过 245 个字符。
 1. 要添加内容，单击“添加内容文件”，然后上传资源文件。添加多语言内容时，无法将静态内容和交互式内容合并到单个组中。所有内容在所有区域设置中要么均为静态，要么均为交互式。
 
-* [支持的文件类型](content-library.md#supported)*
+* [支持的文件类型](content-library.md#supported)
 
   交互式内容可以是 SCORM、AICC 或是 Captivate 已发布的项目。文件必须为 zip 格式。
 

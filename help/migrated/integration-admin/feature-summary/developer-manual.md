@@ -728,7 +728,7 @@ id\
 name\
 pointsEarned\
 配置文件\
-ROLE\
+角色\
 或\
 timeZoneCode\
 uiLocale
@@ -763,7 +763,7 @@ dateStart\
 已注册\
 id\
 月\
-四分之一
+季度
 
 **关系**
 containerLO(learningObject)\
@@ -783,7 +783,7 @@ modelIds\
 modelName\
 modelType\
 读取\
-ROLE
+角色
 
 +++
 

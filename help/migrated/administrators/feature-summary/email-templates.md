@@ -3,10 +3,10 @@ description: 培训活动中的事件会触发系统向学员发送电子邮件�
 jcr-language: en_us
 title: 电子邮件模板
 contentowner: manochan
-source-git-commit: 46afb6603456ced9d7e2aaf98d07ec92fee30c0b
+source-git-commit: 91066c86891f8efbd34fc96178decdd9ee120d1e
 workflow-type: tm+mt
-source-wordcount: '1442'
-ht-degree: 62%
+source-wordcount: '1478'
+ht-degree: 60%
 
 ---
 
@@ -21,6 +21,16 @@ Adobe Learning Manager 应用程序根据事件向多个用户角色发送电子
 作为管理员，您可以自定义电子邮件模板，例如添加或修改内容并向用户发送学习者、经理和作者触发的各种事件的通知。
 
 管理员还可以选择不发送特定事件的电子邮件通知。
+
+## 电子邮件模板简介
+
+在本培训中，您将了解如何自定义单个电子邮件模板以及如何自定义电子邮件模板的课程级别和帐户级别设置。
+
+[![按钮](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=QYL4NT4P&amp;mv=display&amp;mv2=display#/course/8318925)
+
+<!--In this training, you will learn how to create a user group by names, email IDs, and combining multiple auto-generated user groups.-->
+
+如果您无法启动培训，请写信至 <almacademy@adobe.com>.
 
 ## 配置电子邮件模板 {#configureemailtemplates}
 

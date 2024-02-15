@@ -3,10 +3,10 @@ jcr-language: en_us
 title: 目录
 description: 目录包含学习内容 — 课程、学习计划和认证。 目录用于向学习者提供访问自定义学习集的权限。 您可以在创建新目录时将学习与目录相关联。
 contentowner: manochan
-source-git-commit: 0052ccb2f5a8f9617bca2c7bad91c0cd18338b66
+source-git-commit: 192e68c115b7d38682e4214c0f8d14fa91e4bd3c
 workflow-type: tm+mt
-source-wordcount: '2371'
-ht-degree: 77%
+source-wordcount: '2397'
+ht-degree: 76%
 
 ---
 
@@ -17,6 +17,15 @@ ht-degree: 77%
 目录包含学习内容 — 课程、学习计划和认证。 目录用于向学习者提供访问自定义学习集的权限。 您可以在创建新目录时将学习与目录相关联。
 
 如果管理员希望为自己帐户或不同帐户中的不同学习者提供选修课程，可创建自定义目录。
+
+## 目录简介
+
+在本培训中，您将学习如何创建和管理目录。
+
+[![按钮](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=QTV3NXVQ&amp;mv=display&amp;mv2=display#/course/8318922)
+
+如果您无法启动培训，请写信至 <almacademy@adobe.com>.
+
 
 ## 创建目录 {#createacatalog}
 

@@ -3,9 +3,9 @@ description: 了解管理员可配置的 Adobe Learning Manager 帐户设置。
 jcr-language: en_us
 title: 设置
 contentowner: manochan
-source-git-commit: 46afb6603456ced9d7e2aaf98d07ec92fee30c0b
+source-git-commit: 063f0f469d40a929d109624c3303ba26f5dd1ad3
 workflow-type: tm+mt
-source-wordcount: '3791'
+source-wordcount: '3815'
 ht-degree: 68%
 
 ---
@@ -17,6 +17,15 @@ ht-degree: 68%
 了解管理员可配置的 Adobe Learning Manager 帐户设置。
 
 您可以更改管理员个人资料设置并更新自己的帐户设置。查看个人资料信息，添加/更改个人资料照片并修改 **[!UICONTROL 关于我]** 内容。 更新公司信息，为用户设置登录方法，并通过帐户设置来设置连接集成。
+
+## 配置AdobeLearning Manager
+
+本培训介绍了帐户级别设置的基础知识。
+
+[![按钮](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=PYPVPSZY&amp;mv=display&amp;mv2=display#/course/7476018)
+
+
+如果您无法启动培训，请写信至 <almacademy@adobe.com>.
 
 ## 帐户设置 {#accountsettings}
 

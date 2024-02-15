@@ -3,10 +3,10 @@ description: Adobe Learning Manager 中的颜色主题和品牌
 jcr-language: en_us
 title: 颜色主题
 contentowner: jayakarr
-source-git-commit: 46afb6603456ced9d7e2aaf98d07ec92fee30c0b
+source-git-commit: 5fd6f5bff1a2863239f1ff5a1625147d0e26119d
 workflow-type: tm+mt
-source-wordcount: '844'
-ht-degree: 63%
+source-wordcount: '881'
+ht-degree: 60%
 
 ---
 
@@ -17,6 +17,14 @@ ht-degree: 63%
 Adobe Learning Manager 中的颜色主题和品牌
 
 Adobe Learning Manager 可让您更改应用程序的外观以符合所在组织的品牌要求。
+
+## 自定义用户界面
+
+在本培训中，您将探索根据组织的品牌要求自定义界面外观的方法。
+
+[![按钮](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=QBWYPFSV&amp;mv=display&amp;mv2=display#/course/8318823)
+
+如果您无法启动培训，请写信至 <almacademy@adobe.com>.
 
 ## 品牌推广 {#branding}
 

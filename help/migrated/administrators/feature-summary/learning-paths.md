@@ -3,10 +3,10 @@ jcr-language: en_us
 title: 学习路径
 description: 在 Adobe Learning Manager 中为管理员创建学习计划。
 contentowner: saghosh
-source-git-commit: 46afb6603456ced9d7e2aaf98d07ec92fee30c0b
+source-git-commit: f3e751215d0bcf65be4fbca59d5373011f195366
 workflow-type: tm+mt
-source-wordcount: '1894'
-ht-degree: 43%
+source-wordcount: '1940'
+ht-degree: 42%
 
 ---
 
@@ -21,6 +21,14 @@ ht-degree: 43%
 学习路径应运而生。 学习路径是学习者为逐渐掌握某个主题而必须经历的一段旅程。 学习者可以自行掌控培训体验，以更有效的自学方式掌握并牢记知识。
 
 例如，在新员工入职时，公司会对其进行政策和程序、文化、历程等方面的培训。 学习路径根据员工的需求设置课程，以便员工可以根据为其设置的学习路径注册课程。 您可以选择，也可以在此路径上注册用户，以便他们可以在完成一门课程后继续学习另一门课程。
+
+## 创建和配置学习路径
+
+在本培训中，您将学习如何创建学习路径、添加课程、发布和弃用学习路径以及配置学习路径中的实例。
+
+[![按钮](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=QQ42P2LR&amp;mv=display&amp;mv2=display#/course/8318919)
+
+如果您无法启动培训，请写信至 <almacademy@adobe.com>.
 
 ## 学习路径的优势
 

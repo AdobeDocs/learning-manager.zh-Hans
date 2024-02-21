@@ -3,10 +3,10 @@ description: Adobe Learning Manager 中的颜色主题和品牌
 jcr-language: en_us
 title: 颜色主题
 contentowner: jayakarr
-source-git-commit: 5fd6f5bff1a2863239f1ff5a1625147d0e26119d
+source-git-commit: bab53a170e74a9825bb8530bbf1b64b06e6a1cf7
 workflow-type: tm+mt
-source-wordcount: '881'
-ht-degree: 60%
+source-wordcount: '887'
+ht-degree: 59%
 
 ---
 
@@ -56,6 +56,11 @@ Learning Manager应用程序为用户提供了五个颜色主题选项：
 * 秋天
 * 冬日天空
 * 生动
+
+>[!NOTE]
+>
+>生动的主题符合辅助功能要求。
+
 
 ![](assets/prime-customize-theme.png)
 

@@ -3,9 +3,9 @@ description: 了解如何在 Adobe Learning Manager 中集成各种连接器
 jcr-language: en_us
 title: Adobe Learning Manager 连接器
 contentowner: jayakarr
-source-git-commit: ab6737e8b43222a6538921b0628a504a5f15859d
+source-git-commit: 3ed216c1754d8393647e50892ab9ca4d122099f6
 workflow-type: tm+mt
-source-wordcount: '15880'
+source-wordcount: '15898'
 ht-degree: 65%
 
 ---
@@ -2112,6 +2112,11 @@ Adobe Commerce 管理员将 Adobe Learning Manager 配置为集成。
 ### 将课程导出到 Adobe Commerce
 
 作者为各种课程、学习路径或认证设置价格后，您可以用集成管理员的身份，将课程、学习路径或认证导出到 Adobe Commerce。
+
+>[!NOTE]
+>
+>在2024年3月版AdobeLearning Manager中，我们引入了对 [Adobe Commerce 2.4.6](https://experienceleague.adobe.com/docs/commerce-operations/release/notes/adobe-commerce/2-4-6.html?lang=en).
+
 
 1. 点击 **[!UICONTROL 导出培训元数据]** > **[!UICONTROL 按需]**.
 

@@ -3,10 +3,10 @@ description: 了解如何在 Adobe Learning Manager 中管理标签。
 jcr-language: en_us
 title: 标记
 contentowner: dvenkate
-source-git-commit: 46afb6603456ced9d7e2aaf98d07ec92fee30c0b
+source-git-commit: 0534bd52c80b77d985cfe715f74054f3aabac9a2
 workflow-type: tm+mt
-source-wordcount: '721'
-ht-degree: 67%
+source-wordcount: '762'
+ht-degree: 63%
 
 ---
 
@@ -19,6 +19,14 @@ ht-degree: 67%
 单击每个标签旁边提供的计数，可查看与该标签关联的学习对象列表。 该列表可显示课程、学习计划、证书、工作辅助和内容组的数量。 单击其中任一选项可查看列表。
 
 您可以使用&#x200B;**[!UICONTROL “排序方式”]**&#x200B;选项，根据用途或字母顺序对标签进行排序。
+
+## 标签简介
+
+本培训将教您如何添加、编辑、替换、附加和删除标签。 您还将了解如何更改权限设置和使用标签过滤器。
+
+[![按钮](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=5S7K7ZCT&amp;mv=display&amp;mv2=display#/course/8318920)
+
+如果您无法启动培训，请写信至 <almacademy@adobe.com>.
 
 ## 添加/删除/编辑标签 {#adddeleteedittags}
 

@@ -3,10 +3,10 @@ jcr-language: en_us
 title: 批量添加用户
 description: 了解如何一次添加多个用户。
 contentowner: saghosh
-source-git-commit: 46afb6603456ced9d7e2aaf98d07ec92fee30c0b
+source-git-commit: 0534bd52c80b77d985cfe715f74054f3aabac9a2
 workflow-type: tm+mt
-source-wordcount: '286'
-ht-degree: 31%
+source-wordcount: '316'
+ht-degree: 24%
 
 ---
 
@@ -14,7 +14,15 @@ ht-degree: 31%
 
 # 批量添加用户
 
-可以，您可以按照以下步骤同时添加多个用户：
+在本培训中，您将了解如何通过CSV批量添加用户。
+
+[![按钮](feature-summary/assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=51TC8QS1&amp;mv=display&amp;mv2=display#/course/7555555)
+
+如果您无法启动培训，请写信至 <almacademy@adobe.com>.
+
+## 如何添加多个用户
+
+您可以按照以下步骤一次添加多个用户：
 
 1. 点击 **[!UICONTROL 用户]** 在管理员登录的左侧窗格中，单击 **[!UICONTROL 添加]** > **[!UICONTROL 上传csv]**. 此时会显示弹出对话框。
 

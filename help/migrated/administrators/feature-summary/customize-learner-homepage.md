@@ -3,10 +3,10 @@ jcr-language: en_us
 title: 自定义学习者主页
 description: 管理员可以自定义学习者主页，使其更与时俱进、更以内容为导向且更加个性化。
 contentowner: saghosh
-source-git-commit: 2dd741a9e0e49986df34bd415ea57f9e64f3b26a
+source-git-commit: 0534bd52c80b77d985cfe715f74054f3aabac9a2
 workflow-type: tm+mt
-source-wordcount: '1132'
-ht-degree: 46%
+source-wordcount: '1158'
+ht-degree: 45%
 
 ---
 
@@ -18,9 +18,17 @@ ht-degree: 46%
 
 管理员可以自定义学习者主页，使其更与时俱进、更以内容为导向且更加个性化。
 
-个性化方法提供了一种构建学习者主页面的宽泛方式，组织管理员可以在管理员用户界面中以所见即所得的方式对其进行配置。
+个性化方法提供了一种基于小组件的方式来构建学习者主页，组织管理员可以在管理员用户界面中以所见即所得的方式对其进行配置。
 
 该体验由人工智能驱动算法的个性化培训推荐驱动，该算法针对行业技能分析第三方内容，结合同行活动，以及使用显性和隐性数据分析学习者感兴趣的领域。
+
+### 自定义学习者主页
+
+在本培训中，您将探索自定义学习者主页的方法。
+
+[![按钮](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=4SC98Z83&amp;mv=display&amp;mv2=display#/course/8318825)
+
+如果您无法启动培训，请写信至 <almacademy@adobe.com>.
 
 ## 配置学习者主页 {#configurethelearnerhomepage}
 

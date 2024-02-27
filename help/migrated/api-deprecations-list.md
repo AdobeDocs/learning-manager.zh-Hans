@@ -3,54 +3,55 @@ jcr-language: en_us
 title: AdobeLearning Manager中的API弃用
 description: 随着AdobeLearning Manager中API的发展，API会定期进行重组或升级。 当API不断发展变化时，旧版API会遭到弃用并最终被删除。 本页包含从已弃用的API版本迁移到更新且更稳定的API版本时需要了解的信息。
 contentowner: saghosh
-source-git-commit: 83fdd06aed823a50458d50c8ac240d56af873a6d
+source-git-commit: 24c886fcd9448b7f1d71526794a3c46a0f91d017
 workflow-type: tm+mt
-source-wordcount: '1005'
-ht-degree: 19%
+source-wordcount: '845'
+ht-degree: 21%
 
 ---
 
 
-# AdobeLearning Manager中的API弃用
+# AdobeLearning Manager中的API弃用和更改
 
 ## API在AdobeLearning Manager 2024年3月版中的弃用功能
 
-### 费率限制的更改
+<!-- ### Changes in Rate Limits
 
-下一版AdobeLearning Manager将调整新客户的API速率限制。 对于现有帐户，仅管理员API将受费率限制。 90天（约3个月）后，我们将调整所有API的速率限制，但现有帐户将根据当前使用情况列入白名单。 现有帐户需要重新访问其学习者API使用情况。
+With the next release of Adobe Learning Manager, we're restructuring API rate limits for new accounts. For existing accounts, only the Admin APIs will be rate-limited. After 90 days (about 3 months), we will restructure rate limits for all APIs, but existing accounts will be whitelisted according to current usage. Existing accounts need to revisit their learner API usage. 
 
-对于新帐户，如果他们想要提高费率限制，则必须联系ALM的客户成功团队。
+For new accounts, if they want to increase the rate limits, they must contact the Customer Success team of ALM. 
 
-#### 哪些API将受限制
+#### Which APIs will be rate limited 
 
-对于新帐户，所有管理员、学习者和搜索API都将实施速率限制和突发流量。
+For new accounts, all Admin, Learner, and Search APIs will have rate limits and burst enforced.  
 
-API突发速率或突发限制是指在有限的时间范围内允许以短突发对API发出的最大请求数。
+The API burst rate or burst limit refers to the maximum number of requests allowed to be made to an API in a short burst within a limited timeframe. 
 
-下表列出了API的速率和突发限制。
+The following table lists the rate and burst limits for the APIs.
 
 <table>
     <tr>
         <th>API</th>
-        <th>请求数 — RPM</th>
-        <th>请求数 — 突发</th>
+        <th>Number of requests-RPM</th>
+        <th>Number of requests-Burst</th>
     </tr>
     <tr>
-        <td>管理员</td>
+        <td>Admin</td>
         <td>5</td>
         <td>5</td>
     </tr>
     <tr>
-        <td>学习者无法注册此类课程。</td>
+        <td>Learner</td>
         <td>20</td>
         <td>5</td>
     </tr>
     <tr>
-        <td>搜索</td>
+        <td>Search</td>
         <td>50</td>
         <td>5</td>
     </tr>
 </table>
+-->
 
 ### 偏移限制的更改
 

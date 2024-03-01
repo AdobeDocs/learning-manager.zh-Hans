@@ -3,9 +3,9 @@ jcr-language: en_us
 title: AdobeLearning Manager中的API弃用
 description: 白色标签是一种用您自己的品牌重塑应用程序或服务，并像原创者一样对其进行自定义的做法。 在AdobeLearning Manager中，您可以在移动应用程序上应用白色标签，这样就可以重新品牌化应用程序，并使您的用户可以使用自己的品牌。
 contentowner: saghosh
-source-git-commit: 959df7fd0a32bc09082d3de877213084b9d458fd
+source-git-commit: 7bd9877aa32c78988a5195116d2a0f25ded05c90
 workflow-type: tm+mt
-source-wordcount: '1051'
+source-wordcount: '1049'
 ht-degree: 0%
 
 ---
@@ -294,7 +294,7 @@ sh""" ~/Library/Android/sdk/build-tools/30.0.3/apksigner sign --ks $storeFile --
 
 ## 如何应用更改
 
-客户将所需的资源和文件发送给CSM团队。 然后，CSM团队将填写 [窗体](https://forms.office.com/r/bJRRaRBvSh) 进行必要的更改并附加所需的资源。 然后，该团队将进行审查并向工程团队通知相关更改。 然后，工程团队将生成生成版本并与CSM团队共享。
+将所需的资源和文件发送给CSM团队。 然后，CSM团队将填写 [窗体](https://forms.office.com/r/bJRRaRBvSh) 进行必要的更改并附加所需的资源。 然后，该团队将进行审查并向工程团队通知相关更改。 然后，工程团队将生成生成版本并与CSM团队共享。
 
 CSM团队将与客户共享该构建。
 

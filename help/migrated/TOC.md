@@ -2,10 +2,10 @@
 user-guide-title: Adobe Learning Manager 指南
 breadcrumb-title: Learning Manager
 user-guide-description: Adobe Learning Manager 的文档
-source-git-commit: 4e36c95d9186e36746ca2aeaf09b9ac0336881f1
+source-git-commit: c5ad960861adada9bf65c462d883d1d85ef53ee9
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '584'
+ht-degree: 91%
 
 ---
 
@@ -27,6 +27,8 @@ ht-degree: 0%
    * [自定义域支持](custom-domain.md)
    * [Adobe Learning Manager 中的推荐](recommendations-adobe-learning-manager.md)
    * [从 Adobe FTP Manager 过渡](transition-from-ftp-manager.md)
+   * [AdobeLearning Manager中的API弃用和更改](api-deprecations-list.md)
+   * [AdobeLearning Manager中的白色标签](white-label.md)
 * 开始使用 {#get-started}
    * [管理员快速入门指南](administrators/feature-summary/getting-started-admin.md)
    * [作者快速入门指南](authors/feature-summary/getting-started-author.md)

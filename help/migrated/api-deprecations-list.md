@@ -1,17 +1,17 @@
 ---
 jcr-language: en_us
-title: AdobeLearning Manager中的API弃用
-description: 随着AdobeLearning Manager中API的发展，API会定期进行重组或升级。 当API不断发展变化时，旧版API会遭到弃用并最终被删除。 本页包含从已弃用的API版本迁移到更新且更稳定的API版本时需要了解的信息。
+title: Adobe Learning Manager 中的 API 弃用
+description: 随着 Adobe Learning Manager 中 API 的发展，API 会定期重组或升级。 当 API 发展时，旧的 API 将被弃用并最终被删除。 此页面包含从已弃用的 API 版本迁移到更新、更稳定的 API 版本时需要了解的信息。
 contentowner: saghosh
-source-git-commit: 24c886fcd9448b7f1d71526794a3c46a0f91d017
+source-git-commit: 01cdcd816fe101af55adf0902f4e3660a1a098ce
 workflow-type: tm+mt
-source-wordcount: '845'
+source-wordcount: '847'
 ht-degree: 21%
 
 ---
 
 
-# AdobeLearning Manager中的API弃用和更改
+# Adobe Learning Manager 中的 API 弃用和更改
 
 ## API在AdobeLearning Manager 2024年3月版中的弃用功能
 
@@ -53,13 +53,13 @@ The following table lists the rate and burst limits for the APIs.
 </table>
 -->
 
-### 偏移限制的更改
+### 对偏移限制的更改
 
-由于偏移值检索到大量记录并减慢了整体性能，因此我们强制实施了 **500** 记录。 在下一版本中，管理员和学习者均 **GET用户** API最多可返回 **500** 记录。
+由于偏移值检索了大量记录并降低了整体性能，因此我们强制实施了 500 **条记录的限制**。在下一版本中，对于管理员和学习者， **GET 用户** API 最多 **将返回 500** 条记录。
 
-如果需要获取更多记录，请使用 **GET职位** API。
+如果需要获取更多记录，请使用 **GET 作业** API。
 
-对方限额之变动适用于所有新客户。 对于现有客户，适用90天规则。
+抵消限制的更改适用于所有新客户。 对于现有客户，适用 90 天规则。
 
 ### 排除路径
 
@@ -87,8 +87,8 @@ The following table lists the rate and burst limits for the APIs.
    * 新路径：
       * enrollment.instances.subLoInstances
 
-* /enrollments
-   * 已弃用的路径：
+* /入学 人数
+   * 弃用路径：
       * loInstance.learningObject.enrollment
    * 新路径：
       * loInstance.learningObject
@@ -103,9 +103,9 @@ The following table lists the rate and burst limits for the APIs.
 
 目前，在学习对象摘要端点中，您将获取所有可能实例的数量。 例如，对于某个课程，您可以在响应中查看注册和轮候表的数目， **GET/learningObjects/{loId}/instances/{loInstanceId}/summary**. 然后，您可以在响应中查看completionCount和enrollmentCount。 如果课程是虚拟教室或教室，您还可以查看其名额限制和轮候表限制。
 
-检索完成和注册计数的过程计算上很昂贵，因此计算是在请求的基础上进行的。 如果高速缓存中不存在数据，则会重新加载数据，这会占用大量计算资源。 如果课程中有许多用户注册，则课程数量会很大，并会对CPU性能产生有效影响。
+检索完成和注册计数的过程计算上很昂贵，因此计算是在请求的基础上进行的。 如果缓存中不存在数据，则会重新加载数据，这会占用大量计算。 如果注册了某个课程的用户很多，则计数将会很大，并且会切实影响 CPU 性能。
 
-在下一版AdobeLearning Manager中，学习对象实例摘要端点会缓存completionCount、enrollmentCount、seatLimit和waitlistCount。 在注册或取消注册发生更改之前，缓存信息会一直保留。 对于超过1000个注册的帐户，我们将假定这些估计帐户，并使所有现有帐户和新帐户的结果无效。
+在下一版本的 Adobe Learning Manager 的 LO 实例摘要端点中，将缓存 completionCount、enrollmentCount、seatLimit 和 waitlistCount。 缓存的信息将一直保留到注册或取消注册发生更改为止。 对于超过1000个注册的帐户，我们将假定这些估计帐户，并使所有现有帐户和新帐户的结果无效。
 
 >[!NOTE]
 >
@@ -113,7 +113,7 @@ The following table lists the rate and burst limits for the APIs.
 
 ### 按名称排序
 
-在AdobeLearning Manager的下一版本中，以下API的排序字段中的 — name已弃用：
+在下一版本的 Adobe Learning Manager 中，以下 API 的排序字段中弃用了 name 和 –name：
 
 * GET/userGroups/{userGroupId}/users
 * GET/users
@@ -133,9 +133,9 @@ The following table lists the rate and burst limits for the APIs.
 
 今后，以下学习者 API 将停止运行，因为这些 API 具有覆盖标志。
 
-<code>https://captivateprime.adobe.com/primeapi/v2/users?page[偏移]=0&amp;page[限制]=10&amp;sort=id&amp;override=TRUE</code>
+_/primeapi/v2/users？page[偏移]=0&amp;page[限制]=10&amp;sort=id&amp;override=TRUE_
 
-### 针对基于技能的新建议的API更改
+### 基于技能的新建议的 API 更改
 
 Adobe Learning Manager 改进了对支持客户和合作伙伴的帐户的建议。 推荐算法的改进以及课程、学习路径和认证排名算法的变化为内容发现提供了更好的用户体验。
 
@@ -143,8 +143,8 @@ Adobe Learning Manager 改进了对支持客户和合作伙伴的帐户的建议
 
 配对组现在已成为帐户，学习者将看到一个显示组内趋势主题的字符串。 所有建议都附有说明。 例如，如果您正在查看有关某个主题的内容，信息条上的信息卡将显示建议该课程的原因。
 
-### 通知公告变更报告
+### 通知公告报告的变化
 
-在早期版本的AdobeLearning Manager中，“通知公告”报告没有任何过滤器。 Adobe Learning Manager 已下载帐户中的所有通知。
+在早期版本的 Adobe Learning Manager 中，通知通知报告没有任何过滤器。 Adobe Learning Manager 已下载帐户中的所有通知。
 
-在2023年11月版中，我们添加了一个日期过滤器，您可以使用该过滤器在指定时间段内下载通知。  但是，您只能下载最近六个月的报告。
+在 2023 年 11 月版本中，我们添加了一个日期筛选器，您可以使用该筛选器在指定时间段内下载通知。  但是，您只能下载过去六个月的报告。

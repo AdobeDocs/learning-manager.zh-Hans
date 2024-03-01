@@ -3,9 +3,9 @@ jcr-language: en_us
 title: AdobeLearning Manager中的API弃用
 description: 白色标签是一种用您自己的品牌重塑应用程序或服务，并像原创者一样对其进行自定义的做法。 在AdobeLearning Manager中，您可以在移动应用程序上应用白色标签，这样就可以重新品牌化应用程序，并使您的用户可以使用自己的品牌。
 contentowner: saghosh
-source-git-commit: c5ad960861adada9bf65c462d883d1d85ef53ee9
+source-git-commit: 32b45c5f0781e959e39128284d56f93b32b600d7
 workflow-type: tm+mt
-source-wordcount: '1054'
+source-wordcount: '1053'
 ht-degree: 0%
 
 ---
@@ -121,7 +121,7 @@ AdobeLearning Manager移动应用程序现在支持白色标签 — 这意味着
 
   <td>
 
-  <p>应用程序图标为png。 此图标将显示在您的应用程序上。 名称的格式为“<account-id>'_appIcon.png。</p></td>
+  <p>应用程序图标为png。 此图标将显示在您的应用程序上。 名称的格式为account-id_appIcon.png。</p></td>
 
   </tr>
 
@@ -133,7 +133,7 @@ AdobeLearning Manager移动应用程序现在支持白色标签 — 这意味着
 
   <td>
 
-  <p>对于应用程序的空白屏幕，请提供一个图像(png)，当您的用户启动应用程序时显示该图像。 名称的格式为“<account-id>'_splashIcon.png。</p></td>
+  <p>对于应用程序的启动屏幕，请提供图像(png)，当用户启动应用程序时会显示该图像。 名称的格式为account-id_splashIcon.png。</p></td>
 
   </tr>
 
@@ -145,7 +145,9 @@ AdobeLearning Manager移动应用程序现在支持白色标签 — 这意味着
 
   <td>
 
-  <p>您帐户的集成管理员在注册应用程序时提供详细信息。 集成管理员必须使用以下内容：<ul><li>"learner：read，learner：write"作为角色。</li><li>‘<internal app name>'：//重定向为重定向URL。 </li></ul> </p></td>
+  <p>您帐户的集成管理员在注册应用程序时提供详细信息。 集成管理员必须使用以下内容： *学习者：读取，学习者：写入为角色*内部应用程序name://redirect作为重定向URL
+
+  </p></td>
 
   </tr>
 

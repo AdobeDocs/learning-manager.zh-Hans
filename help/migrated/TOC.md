@@ -2,10 +2,10 @@
 user-guide-title: Adobe Learning Manager 指南
 breadcrumb-title: Learning Manager
 user-guide-description: Adobe Learning Manager 的文档
-source-git-commit: c5ad960861adada9bf65c462d883d1d85ef53ee9
+source-git-commit: 83623b7466ea13fbb2cefcbdefe3582f4866e214
 workflow-type: tm+mt
-source-wordcount: '584'
-ht-degree: 91%
+source-wordcount: '588'
+ht-degree: 90%
 
 ---
 
@@ -15,6 +15,7 @@ ht-degree: 91%
 * [Adobe Learning Manager 用户指南](user-guide.md)
 * 介绍 {#introduction}
    * [新功能摘要](whats-new.md)
+   * [新增功能2023年11月](whats-new-november-2023.md)
    * [新增功能2023年7月](whats-new-2023-july.md)
    * [新增功能2023年4月](whats-new-2023-april.md)
    * [新增功能2022年11月](whats-new-2022-november.md)

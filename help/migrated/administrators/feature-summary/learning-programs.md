@@ -4,16 +4,21 @@ jcr-language: en_us
 title: 学习计划
 contentowner: manochan
 preview: true
-source-git-commit: 46afb6603456ced9d7e2aaf98d07ec92fee30c0b
+source-git-commit: 6d313e62b029f50aa77950e00b97f5c278c03b53
 workflow-type: tm+mt
-source-wordcount: '1471'
-ht-degree: 74%
+source-wordcount: '1479'
+ht-degree: 73%
 
 ---
 
 
 
 # 学习计划
+
+>[!WARNING]
+>
+>“学习计划”在AdobeLearning Manager中已弃用。
+
 
 阅读本文，了解如何在 Adobe Learning Manager 中创建和管理学习计划
 

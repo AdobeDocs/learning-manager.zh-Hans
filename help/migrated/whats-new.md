@@ -3,9 +3,9 @@ description: 了解AdobeLearning Manager 2024年3月版(tne)的新增功能和�
 jcr-language: en_us
 title: 新功能摘要
 contentowner: jayakarr
-source-git-commit: 83623b7466ea13fbb2cefcbdefe3582f4866e214
+source-git-commit: 80530741702f2658e76b4dc4cf94a4b09cc616e2
 workflow-type: tm+mt
-source-wordcount: '3102'
+source-wordcount: '3105'
 ht-degree: 2%
 
 ---
@@ -39,7 +39,7 @@ ht-degree: 2%
 
 ### 管理员 — 课程或学习路径页面
 
-如果注册课程的学习者人数很多（例如，超过50,000人），则不会显示学习者列表。 您可以在以下位置搜索学习者 *搜索学习者* 搜索栏或选择 **下载** 单击搜索栏上方的链接以下载学习者列表。
+如果注册课程的学习者人数很多（例如，超过50,000人），则不会显示学习者列表。 您可以在以下位置搜索学习者 *搜索学习者* 搜索栏或选择 **下载** 单击搜索栏顶部的链接以下载学习者列表。
 
 ### 管理员 — 学习者页面
 

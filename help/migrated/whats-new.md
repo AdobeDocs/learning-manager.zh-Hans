@@ -3,9 +3,9 @@ description: 了解AdobeLearning Manager 2024年3月版(tne)的新增功能和�
 jcr-language: en_us
 title: 新功能摘要
 contentowner: jayakarr
-source-git-commit: 80530741702f2658e76b4dc4cf94a4b09cc616e2
+source-git-commit: 557293ac1c57790044d5e15d5da8e8caf3ca46c3
 workflow-type: tm+mt
-source-wordcount: '3105'
+source-wordcount: '3125'
 ht-degree: 2%
 
 ---
@@ -425,6 +425,10 @@ learningObjectResource中的新属性isExpiredSubmission ，它显示资源中�
 ```
 
 如果您尝试下载 **登录访问权限** 如果报告超出五个季度，则会显示错误消息。 如果您尝试下载 **用户审核** 那份报告要超过六个月。
+
+### 已弃用的API
+
+视图 [AdobeLearning Manager中的API弃用](api-deprecations-list.md) 以获取产品中所有已弃用API的累积列表。
 
 ## 本次更新中修复的错误 {#bug-fixes}
 

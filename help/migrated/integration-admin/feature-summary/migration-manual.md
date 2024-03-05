@@ -2,10 +2,10 @@
 description: 本参考手册适用于希望将现有 LMS 迁移到 Adobe Learning Manager LMS 的集成管理员
 jcr-language: en_us
 title: 迁移手册
-source-git-commit: 76eae1c8bc6f2afde9ea6c9433300e8af9cfdda8
+source-git-commit: fc6ebb67037c5c75f1b3b66bcf5a23b08532b3bb
 workflow-type: tm+mt
-source-wordcount: '3641'
-ht-degree: 72%
+source-wordcount: '3614'
+ht-degree: 73%
 
 ---
 
@@ -15,19 +15,9 @@ ht-degree: 72%
 
 本参考手册适用于希望将现有 LMS 迁移到 Adobe Learning Manager LMS 的集成管理员
 
-## 概述 {#overview}
+<!-- ## Overview {#overview} -->
 
-<table>
- <tbody>
-  <tr>
-   <td><img src="assets/migration.jpg"></td>
-   <td>
-    <p><a href="https://business.adobe.com/products/learning-manager/adobe-learning-manager.html">Adobe Learning Manager</a> 是一款基于云端、以学习者为中心的自助式学习管理解决方案。Adobe功能使拥有现有学习管理系统(LMS)的企业能够将其公司的培训数据和培训内容迁移到Learning Manager LMS应用程序。 </p></td>
-  </tr>
- </tbody>
-</table>
-
-### 使用场景 {#usagescenario}
+## 使用场景 {#usagescenario}
 
 大型企业通常都有内部自有或由其他供应商提供的旧版学习管理系统。LMS由企业培训内容和培训数据组成。 企业购买Learning Manager后，可能希望将现有的LMS内容和数据移至Learning Manager，以便您能够利用现代直观的LMS的优势，同时不会丢失任何企业的旧数据。
 
@@ -388,7 +378,11 @@ Adobe Learning Manager 允许上传无内容的模块。Adobe Systems 会将其�
 </table>
 
 Adobe Learning Manager 仅支持 UTF 8 和 32 位格式的日期和时间值。如果您在CSV文件中提及超出范围的日期为2038-07-17T08，则在迁移期间可能会出错:53:21.000Z或1980-04-17T08:13:25.322时。
-[sample-csvs.zip](assets/sample-csvs.zip) [csv_specifications.zip](assets/csv-specifications.zip)在导入过程中，您需要了解对CSV文件的以下依赖项：
+
+* [sample-csvs.zip](assets/sample-csvs.zip)
+* [csv_specifications.zip](assets/csv-specifications.zip)
+
+在导入期间，您需要了解 CSV 文件的以下依赖关系：
 
 * module_version.csv 依赖于 module.csv
 * course_instance.csv 依赖于 course.csv
@@ -536,6 +530,11 @@ A sample snapshot of project files and folder of FTP is shown below for your ref
 
 4-user_course_grades.xlsx — 包含retrofit_user_course_grades.csv文件所需的元数据说明。
 [csv-specifications.zip](assets/csv-specifications.zip)
+
+>[!NOTE]
+>
+>UUID（通用唯一ID）也是迁移csv中的一列。
+
 
 ## 解决迁移问题 {#troubleshootingmigrationissues}
 

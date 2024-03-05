@@ -3,10 +3,10 @@ description: 了解AdobeLearning Manager 2024年3月版(tne)的新增功能和�
 jcr-language: en_us
 title: 新功能摘要
 contentowner: jayakarr
-source-git-commit: 557293ac1c57790044d5e15d5da8e8caf3ca46c3
+source-git-commit: 2cd495d86c4652068df7235567b11706928a5754
 workflow-type: tm+mt
-source-wordcount: '3125'
-ht-degree: 2%
+source-wordcount: '3259'
+ht-degree: 1%
 
 ---
 
@@ -276,13 +276,33 @@ ht-degree: 2%
 
 在当前版本的AdobeLearning Manager中，即使审阅者已将模块标记为“失败”，仍会列出相应模块的进度。 在此版本中，作者可以配置以防止其学习者在清单中不及格。
 
-有关详细信息，请参阅 [清单增强功能](authors/feature-summary/courses.md#mandatory-checklist) 在AdobeLearning Manager中。
+#### 清单重新评估
+
+在同一工作流程中，作者可以重新评估清单未通过的学习者。 选择 **启用** 复选框，同时创建清单。
+
+视图 [创建清单](authors/feature-summary/courses.md#checklist-fail) 了解更多信息。
 
 ## 其他增强功能
 
-### 清单中的更改
+### 与会话相关的电子邮件通知
 
-创建清单时，您可以选择 **必备清单** 复选框。 如果学习者未通过核对清单，此操作会阻止模块或课程继续执行。
+在较低版本的AdobeLearning Manager中，学习者在以下情况下未收到与会话相关的电子邮件、会话详细信息已更新、会话邀请和会话提醒：
+
+* 学习者已完成课程，
+* 新会话会添加到课程中，或者
+* 现有会话已更改。
+
+在2024年3月版AdobeLearning Manager中，新增更改如下：
+
+* 已更新会话详细信息和会话邀请（适用于学习者和讲师）
+   * 对于以后的会话，请发送电子邮件至 **已更新会话详细信息**， **会话邀请** 已注册的学习者和当前讲师的学习者体验将弃用。 对于过去的会话，请发送电子邮件至 **已更新会话详细信息** 和 **会话邀请** 对于已注册的学习者和当前讲师将保持原样。
+* 提醒电子邮件（适用于管理员和学习者）
+   * 仅供以后的会议使用 **会话提醒** 将发送电子邮件。
+
+>[!NOTE]
+>
+>这些邮件不取决于会话和课程的完成情况。
+
 
 ### AEM参考站点更改
 

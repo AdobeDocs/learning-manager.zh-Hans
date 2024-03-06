@@ -3,9 +3,9 @@ description: 了解AdobeLearning Manager 2024年3月版(tne)的新增功能和�
 jcr-language: en_us
 title: 新功能摘要
 contentowner: jayakarr
-source-git-commit: b4121fa6d064131c0e63e32bc4ee74b06946c08e
+source-git-commit: 9258eb87b77618d4862749c7e3ae4b52adc67d0c
 workflow-type: tm+mt
-source-wordcount: '3261'
+source-wordcount: '3332'
 ht-degree: 1%
 
 ---
@@ -351,6 +351,12 @@ AdobeLearning Manager移动应用程序现在支持白色标签 — 这意味着
 ### 应用程序评级
 
 学习者可以针对AdobeLearning Manager应用程序提供反馈，以进一步增强应用程序体验。 如果学习者给四星级或更多星级评分，则会显示弹出窗口，要求学习者在Play Store或App Store上为应用程序评分。
+
+### Bluejeans的生命周期已于2024年2月结束(EOL)
+
+我们想告诉您，Bluejeans已于2024年2月生命周期结束(EOL)。 2024年2月之后，Bluejeans将不再收到更新或支持。 我们的CSAM和支持团队将为您解答在此过渡期内可能遇到的任何问题或顾虑。
+
+视图 [AdobeLearning Manager中的连接器](integration-admin/feature-summary/connectors.md) 有关配置连接器的详细信息。
 
 ## 此版本中的 API 更改
 

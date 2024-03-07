@@ -3,7 +3,7 @@ description: 了解如何在 Adobe Learning Manager 中集成各种连接器
 jcr-language: en_us
 title: Adobe Learning Manager 连接器
 contentowner: jayakarr
-source-git-commit: 4c102f932a09071996b551d352426edd681e7e9b
+source-git-commit: dfed4c72476066aa2446542f3cc50c01fbe8e02b
 workflow-type: tm+mt
 source-wordcount: '15183'
 ht-degree: 64%
@@ -774,7 +774,7 @@ Adobe Learning Manager 管理员可在导入用户前先对其过滤。例如，
 
 >[!NOTE]
 >
->   Learning Manager使用Workday API版本28.1。
+>   Learning Manager使用Workday API版本40.1。
 
 
 ![](assets/configure-connector.png)

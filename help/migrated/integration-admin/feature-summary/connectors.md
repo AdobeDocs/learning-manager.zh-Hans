@@ -3,10 +3,10 @@ description: 了解如何在 Adobe Learning Manager 中集成各种连接器
 jcr-language: en_us
 title: Adobe Learning Manager 连接器
 contentowner: jayakarr
-source-git-commit: c48b620ad075708d1e85fe49ed16bb4805bfbbc0
+source-git-commit: 4c102f932a09071996b551d352426edd681e7e9b
 workflow-type: tm+mt
-source-wordcount: '15084'
-ht-degree: 65%
+source-wordcount: '15183'
+ht-degree: 64%
 
 ---
 
@@ -807,7 +807,7 @@ Adobe Learning Manager 管理员可在导入用户前先对其过滤。例如，
 
 >[!NOTE]
 >
->目前，Adobe Learning Manager 支持从 Workday 导入 44 种用户属性。使用 Adobe Learning Manager 中的“活动字段”添加更多属性。
+>目前，Adobe Learning Manager 支持从 Workday 导入 69 种用户属性。使用 Adobe Learning Manager 中的“活动字段”添加更多属性。
 
 ![](assets/workday.png)
 *映射属性*
@@ -822,53 +822,7 @@ Workday 有四个级别，而 Adobe Learning Manager 有两个级别。Workday�
 
 +++支持的Workday属性列表
 
-wd：User_ID\
-wd：Worker_ID\
-wd：Personal_Data.wd：Name_Data.wd：Preferred_Name_Data.wd：Name_Detail_Data。@wd：Formatted_Name\
-wd：Personal_Data.wd：Name_Data.wd：Legal_Name_Data.wd：Name_Detail_Data.@wd：Formatted_Name\
-wd：Personal_Data.wd：Name_Data.wd：Legal_Name_Data.wd：Name_Detail_Data.wd：Prefix_Data.wd：Title_Descriptor\
-wd：Personal_Data.wd：Name_Data.wd：Preferred_Name_Data.wd：Name_Detail_Data.wd：Prefix_Data.wd：Title_Descriptor\
-wd：Personal_Data.wd：Name_Data.wd：Preferred_Name_Data.wd：Name_Detail_Data.wd：First_Name\
-wd：Personal_Data.wd：Name_Data.wd：Preferred_Name_Data.wd：Name_Detail_Data.wd：Last_Name\
-wd：Personal_Data.wd：Name_Data.wd：Legal_Name_Data.wd：Name_Detail_Data.wd：First_Name\
-wd：Personal_Data.wd：Name_Data.wd：Legal_Name_Data.wd：Name_Detail_Data.wd：Last_Name\
-wd：Personal_Data.wd：Contact_Data.wd：Address_Data.0。@wd：Formatted_Address\
-wd：Personal_Data.wd：Contact_Data.wd：Address_Data.0.wd：Postal_Code\
-wd：Personal_Data.wd：Contact_Data.wd：Address_Data.0.wd：Country_Region_Descriptor\
-wd：Personal_Data.wd：Contact_Data.wd：Phone_Data.0。@wd：Formatted_Phone\
-wd：Personal_Data.wd：Contact_Data.wd：Phone_Data.0.wd：Country_ISO_Code\
-wd：Personal_Data.wd：Contact_Data.wd：Phone_Data.0.wd：International_Phone_Code\
-wd：Personal_Data.wd：Contact_Data.wd：Phone_Data.0.wd：Phone_Number\
-wd：Personal_Data.wd：Primary_Nationality_Reference.wd：ID.1。美元\
-wd：Personal_Data.wd：Gender_Reference.wd：ID.1。美元\
-wd：Personal_Data.wd：Identification_Data.wd：National_ID.0.wd：National_ID_Data.wd：ID\
-wd：Personal_Data.wd：Identification_Data.wd：Custom_ID.0.wd：Custom_ID_Data.wd：ID\
-wd：User_Account_Data.wd：Default_Display_Language_Reference.wd：ID.1。美元\
-wd：Role_Data.wd：Organization_Role_Data.wd：Organization_Role.0.wd：Organization_Role_Reference.wd：ID.1。美元\
-wd：Employment_Data.wd：Worker_Job_Data.0.wd：Position_Data.wd：Position_Title\
-wd：Employment_Data.wd：Worker_Job_Data.0.wd：Position_Data.wd：Business_Title\
-wd：Employment_Data.wd：Worker_Job_Data.0.wd：Position_Data.wd：Business_Site_Summary_Data.wd：Name\
-wd：Employment_Data.wd：Worker_Job_Data.0.wd：Position_Data.wd：Business_Site_Summary_Data.wd：Address_Data.@wd：Formatted_Address\
-wd：Employment_Data.wd：Worker_Job_Data.0.wd：Position_Data.wd：Job_Classification_Summary_Data.0.wd：Job_Classification_Reference.wd：ID.1。美元\
-wd：Employment_Data.wd：Worker_Job_Data.0.wd：Position_Data.wd：Job_Classification_Summary_Data.0.wd：Job_Group_Reference.wd：ID.1。美元\
-wd：Employment_Data.wd：Worker_Job_Data.0.wd：Position_Data.wd：Work_Space__Reference.wd：ID.1。美元\
-wd：Employment_Data.wd：Worker_Status_Data.wd：Active\
-wd：Employment_Data.wd：Worker_Status_Data.wd：Active_Status_Date\
-wd：Employment_Data.wd：Worker_Status_Data.wd：Hire_Date\
-wd：Employment_Data.wd：Worker_Status_Data.wd：Original_Hire_Date\
-wd：Employment_Data.wd：Worker_Status_Data.wd：Retired\
-wd：Employment_Data.wd：Worker_Status_Data.wd：Retirement_Date\
-wd：Employment_Data.wd：Worker_Status_Data.wd：已终止\
-wd：Employment_Data.wd：Worker_Status_Data.wd：Termination_Date\
-wd：Employment_Data.wd：Worker_Status_Data.wd：Termination_Last_Day_of_Work\
-wd：Organization_Data.wd：Worker_Organization_Data.0.wd：Organization_Data.wd：Organization_Code\
-wd：Organization_Data.wd：Worker_Organization_Data.0.wd：Organization_Data.wd：Organization_Name\
-wd：Organization_Data.wd：Worker_Organization_Data.0.wd：Organization_Data.wd：Organization_Type_Reference.wd：ID.1。美元\
-wd：Organization_Data.wd：Worker_Organization_Data.0.wd：Organization_Data.wd：Organization_Subtype_Reference.wd：ID.1。美元\
-wd：Qualification_Data.wd：Education.0.wd：School_Name\
-wd：Qualification_Data.wd：External_Job_History.0.wd：Job_History_Data.wd：Job_Title\
-wd：Qualification_Data.wd：External_Job_History.0.wd：Job_History_Data.wd：Company\
-wd：Management_Chain_Data.wd：Worker_Supervisory_Management_Chain_Data.wd：Management_Chain_Data.0.wd：Manager.Employee_ID
+wd：User_ID wd：Worker_ID管理器wd：Personal_Data.wd：Name_Data.wd：Preferred_Name_Data.wd：Name_Detail_Data.@wd：Formatted_Name wd：Personal_Data.wd：Name_Data.wd：Legal_Name_Data.wd：Name_Detail_Data.@wd：Formatted_Name wd：Personal_Data.wd：Name_Data.wd：Legal_Name_Data.wd：Name_Detail_Data.wd：Prefix_Data.wd：Title_Descriptor wd：Personal_Data.wd：Name_Detail_Data.wd：Prefix_Data.wd：Title_Descriptor wd：Personal_Data.wd：Preferred_Name_Data.wd name_Detail_Data.wd：First_Name wd：Personal_Data.wd：Name_Data.wd：Preferred_Name_Data.wd：Name_Detail_Data.wd：Last_Name wd：Personal_Data.wd：Name_Data.wd：Legal_Name_Data.wd：Name_Detail_Data.wd：First_Name wd：Legal_Name_Data.wd ：Last_Name wd：Personal_Data.wd：Contact_Data.wd：Address_Data.0。@wd：Formatted_Address wd：Personal_Data.wd：Contact_Data.wd：Address_Data.0.wd：Postal_Code wd：Personal_Data.wd：Contact_Data.wd：Email_Address_Data.0.wd：Personal_Data.wd：Country_Region_Descriptor wd：Personal_Data.wd：Phone_Data.0。@wd：Formatted_Phone wd：Personal_Data.wd：Contact_Data.wd：Phone_Data.0.wd：Country_ISO_Code wd：Personal_Data.wd：Contact_Data.wd：International_Phone_Code wd：Personal_Data.wd：Contact_Data.wd：Phone_Number wd：Personal_Data.wd：Primary_Nationality_Reference.wd：ID.1。$ wd：Personal_Data.wd：Gender_Reference.wd：ID.1.$ wd：Personal_Data.wd：Identification_Data.wd：National_ID.0.wd：National_ID_Data.wd：ID wd：Personal_Data.wd：Identification_Data.wd：Custom_ID.0.wd：Custom_ID_Data.wd：ID wd：User_Account_Data.wd：Default_Display_Language_Reference.wd.wd：ID.ID.1.$ wd：Role_Data.wd：Organization_Role_Data.wd：Organization_Role.0.wd：Organization_Role_Reference.wd：ID.1.$ wd：Employment_Data.wd：Worker_Job_Data.0.wd：Position_Data.wd：Position_Title wd：Employment_Data.wd：Worker_Job_Data.0.wd：Business_Title wd：Employment_Data.wd：Worker_Job_Data.0.wd：Position_Data.wd：Name wd：Employment_Data.wd：Worker_Job_Data.0.wd Position_Data.wd：Business_Site_Summary_Data.wd：Address_Data。@wd：Formatted_Address wd：Employment_Data.wd：Worker_Job_Data.0.wd：Position_Data.wd：Job_Classification_Summary_Data.0.wd：Job_Classification_Reference.wd：ID.1。$ wd：Employment_Data.wd：Worker_Job_Data.0.wd：Position_Data.wd：Job_Classification_Summary_Data.0.wd：Job_Group_Reference.wd：ID.1.$ wd：Employment_Data.wd：Worker_Job_Data.0.wd：Position_Data.wd：Work_Space__Reference.wd：ID.1.$ wd：Employment_Data.wd：Worker_Job_Data.0.wd：Position_Data.wd：Job_Profile_Summary_Data.wd：Job_Family_Reference.0.wd：ID.1.$ wd：Employment_Data.wd：Worker_Job_Data.0.wd：Position_Data.wd：Job_Profile_Summary_Data.wd：Job_Profile_Name wd：Employment_Data.wd：Worker_Job_Data.0.wd：Position_Data.wd：Job_Profile_Summary_Data.wd：Job_Profile_Reference.wd：ID.1。$ wd：Employment_Data.wd：Worker_Job_Data.0.wd：Position_Data.wd：Business_Site_Summary_Data.wd：Address_Data.0.wd：Country_Reference.wd：ID.2.$ wd：Employment_Data.wd：Worker_Job_Data.0.wd：Position_Data.wd：Worker_Type_Reference.wd：ID.1.$ wd：Employment_Data.wd：Worker_Job_Data.0.wd：Position_Data.wd：Business_Site_Summary_Data.wd：Address_Data.0.@wd：Formatted_Address wd：Employment_Data.wd：Worker_Job_Data.0.wd：Position_Data.wd：Job_Profile_Summary_Data.wd：Management_Level_Reference.wd：ID.1。$ wd：Employment_Data.wd：Worker_Status_Data.wd：Active wd：Employment_Data.wd：Worker_Status_Data.wd：Active_Status_Date wd：Employment_Data.wd：Worker_Status_Data.wd：Hire_Date wd：Employment_Data.wd：Original_Hill_Date wd：Employment_Data.wd：Retireposal_Data.wd worker_Status_Data.wd：Retirement_Date wd：Employment_Data.wd：Worker_Status_Data.wd：已终止wd：Employment_Data.wd：Worker_Status_Data.wd：Termination_Date wd：Employment_Data.wd：Worker_Last_Day_of_Work wd：Organization_Data.0.wd：Organization_Code：Organization_Data.wd Worker_Organization_Data.0.wd：Organization_Data.wd：Organization_Name wd：Organization_Data.wd：Worker_Organization_Data.0.wd：Organization_Data.wd：Organization_Type_Reference.wd：ID.1。$ wd：Organization_Data.wd：Worker_Organization_Data.0.wd：Organization_Data.wd：Organization_Subtype_Reference.wd：ID.1.$ wd：Qualification_Data.wd：Education.0.wd：School_Name wd：Qualification_Data.wd：External_Job_History.0.wd：Job_History_Data.wd：Job_Title wd：Qualification_Data.wd：External_Job_History.0.wd：Company wd：Management_Chain_Data.wd：Management_Chain_Data.0.wd Employee_ID主要工作电子邮件wd：Organization_Type_Reference_Cost_Center_ID wd：Organization_Type_Reference_Cost_Center_Name wd：Organization_Type_Reference_Company wd：Organization_Subtype_Reference_Department wd：Organization_Subtype_Reference_Division wd：Universal_ID wd：Integration_Field_Override_Data.3.wd：Value：Value wd：Worker_Job_Data.0.wd：Worker.Data wd：Business_Site_Summary_Data.wd：Address_Data.0.wd：Country_Region_Descriptor wd：Employment_Data.wd：Worker_Job_Data.0.wd：Position_Data.wd：Business_Site_Summary_Data.wd：Address_Data.0.wd：Country_Region_Reference.wd：ID.2。$ wd：Personal_Data.wd：Contact_Data.wd：Address_Data.0.wd：Unsicillity
 
 +++
 

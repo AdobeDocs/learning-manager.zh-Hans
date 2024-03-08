@@ -3,14 +3,13 @@ description: 了解管理员可配置的 Adobe Learning Manager 帐户设置。
 jcr-language: en_us
 title: 设置
 contentowner: manochan
-source-git-commit: 063f0f469d40a929d109624c3303ba26f5dd1ad3
+exl-id: a563d955-f67e-4218-88df-625cde673601
+source-git-commit: 3047145d9f6940c2d941fdf2c8e878369c858b0f
 workflow-type: tm+mt
-source-wordcount: '3815'
-ht-degree: 68%
+source-wordcount: '3980'
+ht-degree: 65%
 
 ---
-
-
 
 # 设置
 
@@ -421,10 +420,26 @@ ht-degree: 68%
    <td>
     <p>讲师管理<br></p></td>
    <td>
-    <p>启用此设置可限制在创建课堂/虚拟教室会话时可以选择的讲师列表。 所有拥有讲师权限的用户只能被指定为任何会话中的讲师。 此限制不适用于迁移工作流程。<br></p></td>
+    <p>启用此设置可限制在创建课堂/虚拟教室会话时可以选择的讲师列表。 所有拥有讲师权限的用户只能被指定为任何会话中的讲师。 此限制不适用于迁移工作流程。<br></p>
+  </td>
+  <tr>
+    <td>
+      <p>技能导入</p>
+    </td>
+    <td>
+      <p>如果启用，您可以选择外部来源来导入技能。 在初次运行期间，会将现有学习资源的技能导入技能存储库。 对于所有后续导入的学习资源，将只为新导入的项目将技能导入到技能存储库。
+      启用该选项后，操作将不可逆。 以后无法禁用或更改为其他源。
+      </p>
+    </td>
+  </tr>
   </tr>
  </tbody>
 </table>
+
+>[!NOTE]
+>
+>启用技能导入设置后，帐户布局无法切换到“经典”。 即，启用技能导入后，切换到经典帐户处于禁用状态。
+
 
 ## 基于 AI 的推荐
 
@@ -578,6 +593,13 @@ Learning Manager支持私人内容文件夹。 管理员可以使用自定义角
 * 地区
 
 <!--![Add classroom locations](assets/add-classroom-csv.png)-->
+
+### 设置 {#admin-classroom-settings}
+
+选择 **编辑** 要更改以下项：
+
+* **允许作者创建位置**：启用后，作者创建的所有位置都将列在“所有位置”选项卡下。 学习者还将在目录和日历过滤器下看到这些位置。
+* **允许作者修改和删除位置**：启用后，作者将能够修改和删除所有教室位置。 作者的修改将反映在整个平台中，包括报告。
 
 ## 常见问题解答 {#frequentlyaskedquestions}
 

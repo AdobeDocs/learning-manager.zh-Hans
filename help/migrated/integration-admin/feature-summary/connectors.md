@@ -3,14 +3,13 @@ description: 了解如何在 Adobe Learning Manager 中集成各种连接器
 jcr-language: en_us
 title: Adobe Learning Manager 连接器
 contentowner: jayakarr
-source-git-commit: dfed4c72476066aa2446542f3cc50c01fbe8e02b
+exl-id: 1f44934b-6a2b-484d-bc7f-d0f23e3008ca
+source-git-commit: d857ee5d17156e47d20deba22ae88739f82ac3e8
 workflow-type: tm+mt
 source-wordcount: '15183'
 ht-degree: 64%
 
 ---
-
-
 
 # Adobe Learning Manager 连接器
 
@@ -957,11 +956,11 @@ When you create a Zoom Server-to-Server OAuth app to be used in Adobe Learning M
 
 Adobe Learning Manager requires the scopes below and the scopes must be selected in the OAuth app.
 
-* View all user meetings /meeting:read:admin
-* View and manage all user meetings /meeting:write:admin
-* View report data /report:read:admin
-* View all user information /user:read:admin
-* View users' information and manage users /user:write:admin-->
+* View all user meetings `/meeting:read:admin`
+* View and manage all user meetings `/meeting:write:admin`
+* View report data `/report:read:admin`
+* View all user information `/user:read:admin`
+* View users' information and manage users `/user:write:admin`-->
 
 ## Box 连接器 {#boxconnector}
 

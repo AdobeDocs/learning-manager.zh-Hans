@@ -4,10 +4,10 @@ title: 从外部来源导入技能
 description: 使用相应的连接器从内容提供商(例如LinkedIn和Go1)导入技能。  导入的技能将添加到Learning Manager中管理员定义的技能中，供作者在创建课程的工作流程中使用。
 contentowner: saghosh
 exl-id: 3bcd8fc6-16e4-4f66-a5c6-15b3d606f0c2
-source-git-commit: 3047145d9f6940c2d941fdf2c8e878369c858b0f
+source-git-commit: b6228ff242d9fe483de8ea31d7a40935405bda90
 workflow-type: tm+mt
-source-wordcount: '452'
-ht-degree: 1%
+source-wordcount: '445'
+ht-degree: 0%
 
 ---
 
@@ -32,13 +32,13 @@ ht-degree: 1%
 
 您无法编辑技能的名称、说明并为外部技能添加级别。 但是，您可以添加域、徽章并编辑积分。
 
-#### 报告更改
+#### 报告
 
-我们添加了一个新列 **来源** 值 — 内部、LinkedIn学习、Go1（表示技能导入的来源）。
+列 **来源** 值 — 内部、LinkedIn学习、Go1（表示技能导入的来源）。
 
 最近添加的技能将位于顶部。
 
-在“课程设置”页面中，我们添加了一列新内容 **分配者** 包含值、内部和内容提供方。
+在“课程设置”页面中， **分配者** 包含值、内部和内容提供方。
 
 
 ## 集成管理员工作流程

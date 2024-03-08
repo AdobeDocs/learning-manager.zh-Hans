@@ -4,7 +4,7 @@ title: 从外部来源导入技能
 description: 使用相应的连接器从内容提供商(例如LinkedIn和Go1)导入技能。  导入的技能将添加到Learning Manager中管理员定义的技能中，供作者在创建课程的工作流程中使用。
 contentowner: saghosh
 exl-id: 3bcd8fc6-16e4-4f66-a5c6-15b3d606f0c2
-source-git-commit: b6228ff242d9fe483de8ea31d7a40935405bda90
+source-git-commit: fb2d642c90fa36d3db15d7da99fe9c97908ce0e8
 workflow-type: tm+mt
 source-wordcount: '445'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 1. 在 **技能导入** 部分，选择 **启用**. 如果已启用，则可以选择要导入的外部源 **技能**. 在初次运行期间，会将现有学习资源的技能导入技能存储库。 对于所有后续导入的学习资源，将只为新导入的项目将技能导入到技能存储库。
 1. 从下拉列表中选择内容提供商。
 
-作为管理员，您只能将一个技能导入为源。
+作为管理员，您只能导入一项技能作为源。
 
 ### 默认技能级别
 

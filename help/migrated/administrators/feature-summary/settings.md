@@ -4,9 +4,9 @@ jcr-language: en_us
 title: 设置
 contentowner: manochan
 exl-id: a563d955-f67e-4218-88df-625cde673601
-source-git-commit: b6228ff242d9fe483de8ea31d7a40935405bda90
+source-git-commit: fb2d642c90fa36d3db15d7da99fe9c97908ce0e8
 workflow-type: tm+mt
-source-wordcount: '3983'
+source-wordcount: '3985'
 ht-degree: 65%
 
 ---
@@ -438,7 +438,7 @@ ht-degree: 65%
 
 >[!NOTE]
 >
->启用技能导入设置后，帐户布局无法切换到经典，即在 **技能导入** 选项已启用。
+>启用技能导入设置后，帐户布局无法切换到经典视图，即在 **技能导入** 选项已启用。
 
 
 ## 基于 AI 的推荐

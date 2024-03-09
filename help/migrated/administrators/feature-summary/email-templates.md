@@ -3,14 +3,13 @@ description: 培训活动中的事件会触发系统向学员发送电子邮件�
 jcr-language: en_us
 title: 电子邮件模板
 contentowner: manochan
-source-git-commit: 91066c86891f8efbd34fc96178decdd9ee120d1e
+exl-id: acc85500-2ed1-47a4-8e65-6e1b8ef7d156
+source-git-commit: f98b053e1d63841c232380de74170f8a14067473
 workflow-type: tm+mt
-source-wordcount: '1478'
-ht-degree: 60%
+source-wordcount: '1520'
+ht-degree: 58%
 
 ---
-
-
 
 # 电子邮件模板
 
@@ -219,6 +218,14 @@ Adobe Learning Manager 中的电子邮件模板现在包括完全可编辑的部
 * 编辑电子邮件页脚。 页脚区域包含帐户URL、签名以及用户添加的任何自由格式文本的预定义变量。
 
 这些模板还支持高级编辑功能，例如在从 Microsoft Word 复制粘贴时保留内容格式。
+
+### 设置实例
+
+在本培训中，您将了解如何设置实例默认值、添加新实例、停用和重新打开实例以及为实例配置电子邮件模板。
+
+[![按钮](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=P3KMQNZS&amp;mv=display&amp;mv2=display#/course/8318911)
+
+如果您无法启动培训，请写信至 <almacademy@adobe.com>.
 
 ## 内联邀请 {#inlineinvitations}
 

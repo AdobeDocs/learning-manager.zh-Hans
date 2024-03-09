@@ -3,14 +3,13 @@ jcr-language: en_us
 title: 目录
 description: 目录包含学习内容 — 课程、学习计划和认证。 目录用于向学习者提供访问自定义学习集的权限。 您可以在创建新目录时将学习与目录相关联。
 contentowner: manochan
-source-git-commit: 192e68c115b7d38682e4214c0f8d14fa91e4bd3c
+exl-id: 5c4c147f-d389-4d8a-9480-5f3254d1aadf
+source-git-commit: f98b053e1d63841c232380de74170f8a14067473
 workflow-type: tm+mt
-source-wordcount: '2397'
-ht-degree: 76%
+source-wordcount: '2429'
+ht-degree: 75%
 
 ---
-
-
 
 # 目录
 
@@ -132,6 +131,14 @@ ht-degree: 76%
 管理员可与公司的内部用户或任何外部用户共享目录。但是，共享是互相排斥的。换句话说，内部共享目录不能共享给外部组，反之亦然。
 
 目录中支持共享的学习对象包括课程、学习计划、工作辅助和认证。
+
+### 共享目录
+
+本培训将教您如何与内部用户组和外部AdobeLearning Manager帐户共享目录。
+
+[![按钮](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=PGRQQ9SP&amp;mv=display&amp;mv2=display#/course/8318924)
+
+如果您无法启动培训，请写信至 <almacademy@adobe.com>.
 
 ## 内部共享目录 {#int}
 
@@ -340,4 +347,3 @@ ht-degree: 76%
 禁用默认目录并仅启用已创建并授予外部用户访问权的目录。
 
 +++
-

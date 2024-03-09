@@ -3,14 +3,13 @@ description: 了解 Adobe Learning Manager 应用程序中与管理员角色相�
 jcr-language: en_us
 title: 报告
 contentowner: manochan
-source-git-commit: 275e019d077104445e7f5489e6cd07ac9f3c9084
+exl-id: 31b176b7-4b8f-4851-a0c5-4eee58bceb41
+source-git-commit: f98b053e1d63841c232380de74170f8a14067473
 workflow-type: tm+mt
-source-wordcount: '6502'
-ht-degree: 64%
+source-wordcount: '6624'
+ht-degree: 63%
 
 ---
-
-
 
 # 报告
 
@@ -580,6 +579,14 @@ Adobe Learning Manager 支持四种主要类型的报告，例如完成、花费
 
 您可以通过订阅感兴趣的报告以一封电邮形式接收。
 
+### 设置电子邮件订阅
+
+在本培训中，您将了解如何为信息板报告设置电子邮件订阅。
+
+[![按钮](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=PLHRQ62N&amp;mv=display&amp;mv2=display#/course/8318927)
+
+如果您无法启动培训，请写信至 <almacademy@adobe.com>.
+
 向内 **[!UICONTROL 报告]** 页面中，单击  **[!UICONTROL 订阅]** 选项卡。 此时会显示订阅页面。
 
 要从下拉列表中选择报告名称，请在报告字段中键入报告名称。 从下拉列表中选择电子邮件的频率。您可以添加电子邮件的主题并提供备用电子邮件 ID。
@@ -600,6 +607,7 @@ Adobe Learning Manager 支持四种主要类型的报告，例如完成、花费
 * 用户审查追踪
 * 登录/访问报告
 * 游戏成绩单
+* 游戏审查追踪
 
 ## 学习者成绩单 {#learnertranscripts}
 
@@ -841,6 +849,33 @@ Excel 报告中学习者成绩单的“必修积分”和“已修积分”列�
 
    管理员重置游戏后，学习者的所有点数会相应重置。
 
+## 游戏审核记录报告 {#gamification-audit-trail}
+
+此报告包含学习者因各规则而获得的游戏点数的历史记录和原因。
+
+### 下载报告
+
+1. 选择游戏审查追踪URL。
+1. 在 **游戏审核记录** 在弹出窗口中，选择日期范围。
+1. 选择 **生成**.
+
+报告会下载为CSV文件。 该文件包含以下列：
+
+* 名称
+* 电子邮件/UUID、
+* 状态
+* 操作
+* 点，
+* 平衡点
+* 规则/任务
+* 规则/任务子任务，
+* 规则/任务详细信息
+* 文字，
+* 名称，
+* 实例名称实现日期（UTC时区）
+* 规则/任务开始时间
+* 规则/任务结束时间
+
 ## 注册和取消注册报告 {#enrollmentandunenrollmentreport}
 
 管理员和经理可以提取报告，了解已注册和已取消注册的学习者。 管理员可查看已注册或已取消注册课程、学习计划或认证的实例的任何学习者、管理员或经理，并导出报告。而作为经理，您只能获取团队成员的报告。 经理无法在经理应用程序中将已删除的学习者或您自己的姓名视为已注册或已取消注册的学习者。
@@ -900,7 +935,7 @@ Learning Manager支持培训报告功能，管理员可以通过该功能下载�
 ![](assets/more-options.png)
 *其他选项*
 
-## 会话摘要报告
+## 会话摘要报告 {#session-summary-report}
 
 “会话摘要报告”包含在指定日期内为学习者计划的所有会话。
 
@@ -925,17 +960,17 @@ Learning Manager支持培训报告功能，管理员可以通过该功能下载�
 * 名额数
 * 位置
 * 实例名称
-
 * 课程名称
 * 课程 ID
 * 讲师姓名
 * 讲师电子邮件
 * 注册计数
-
 * 会话类型
 * 轮候表限制
 * 轮候表数量
 * 轮候表用户的电子邮件
+* 位置信息
+* 位置所属地区
 
 ## 讲师利用率报告
 

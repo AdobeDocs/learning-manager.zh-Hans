@@ -3,14 +3,13 @@ description: 此文档中包含的“帮助”可用于创建课程模块、实�
 jcr-language: en_us
 title: 创建课程模块、实例和学习计划
 contentowner: manochan
-source-git-commit: 0052ccb2f5a8f9617bca2c7bad91c0cd18338b66
+exl-id: aba7417b-26a0-4160-878c-5814f84e5155
+source-git-commit: f98b053e1d63841c232380de74170f8a14067473
 workflow-type: tm+mt
-source-wordcount: '4544'
-ht-degree: 65%
+source-wordcount: '4604'
+ht-degree: 64%
 
 ---
-
-
 
 # 创建课程模块、实例和学习计划
 
@@ -23,6 +22,16 @@ ht-degree: 65%
 作者可以创建课程。学习者可以参加课程，管理员可根据课程的参加情况跟踪学习者的表现。管理员可查看作者创建的课程并执行本部分中解释的一些活动。作为管理员，您可以为学习者创建包含预定义课程集的专属学习计划。
 
 ## 创建课程实例 {#createinstanceofacourse}
+
+### 管理实例
+
+在本培训中，您将了解如何编辑实例详细信息和实例属性。
+
+[![按钮](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=P79NQK8R&amp;mv=display&amp;mv2=display#/course/8318912)
+
+如果您无法启动培训，请写信至 <almacademy@adobe.com>.
+
+### 如何创建实例
 
 作者创建课程后，您可以创建该课程的实例。 您可以通过创建课程实例，在不同时间段向学习者提供相同课程。 学习者可以选择任何实例并进行注册。 您可以对每个实例进行配置，实现个性化的徽章、反馈和其他设置。
 
@@ -105,6 +114,14 @@ ht-degree: 65%
 1. 单击&#x200B;**[!UICONTROL “保存”]**&#x200B;后，您将看到公告已成功创建的确认消息。 如需发布公告，请单击&#x200B;**[!UICONTROL “立即发布”]**。
 
    ![公告创建成功](assets/announcement-successful.png)
+
+### 将学习者注册到课程
+
+在本培训中，您将学习如何注册、取消注册和重新注册学习者。
+
+[![按钮](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=PC1PQFJQ&amp;mv=display&amp;mv2=display#/course/8318916)
+
+如果您无法启动培训，请写信至 <almacademy@adobe.com>.
 
 ### 在各种实例中注册学习者
 

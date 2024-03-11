@@ -3,14 +3,13 @@ description: 了解AdobeLearning Manager 2024年3月版(tne)的新增功能和�
 jcr-language: en_us
 title: 新功能摘要
 contentowner: jayakarr
-source-git-commit: c58ebebeb671bdb47a752b8f3a9ab673a638dd80
+exl-id: 603f1f1c-bf8d-4807-b9f7-b10ded19a91e
+source-git-commit: e1ef2082329a061fc8297a791c080185488b165b
 workflow-type: tm+mt
-source-wordcount: '3528'
+source-wordcount: '3600'
 ht-degree: 1%
 
 ---
-
-
 
 # 新功能摘要 {#new-features-summary}
 
@@ -376,6 +375,14 @@ AdobeLearning Manager移动应用程序现在支持白色标签 — 这意味着
 我们想告诉您，Bluejeans已于2024年2月生命周期结束(EOL)。 2024年2月之后，Bluejeans将不再收到更新或支持。 我们的CSAM和支持团队将为您解答在此过渡期内可能遇到的任何问题或顾虑。
 
 视图 [AdobeLearning Manager中的连接器](integration-admin/feature-summary/connectors.md) 有关配置连接器的详细信息。
+
+### 登录访问报告更改
+
+Login Access报告仅在过去五个季度可用。 如果任何集成管理员请求按需下载与相关的统一导出 **登录访问权限** 如果选中，AdobeLearning Manager会显示错误消息。 但是，对其他报告没有影响。
+
+### ADFS更改
+
+根据映射，ADFS中的“员工类型”和“员工ID”字段现在可在AdobeLearning Manager上使用。
 
 ## 此版本中的 API 更改
 

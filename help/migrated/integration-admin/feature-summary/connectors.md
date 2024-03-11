@@ -4,9 +4,9 @@ jcr-language: en_us
 title: Adobe Learning Manager 连接器
 contentowner: jayakarr
 exl-id: 1f44934b-6a2b-484d-bc7f-d0f23e3008ca
-source-git-commit: d857ee5d17156e47d20deba22ae88739f82ac3e8
+source-git-commit: 1d36ad7f4b50d76f73eb1d24313ada78264e6ad3
 workflow-type: tm+mt
-source-wordcount: '15183'
+source-wordcount: '15243'
 ht-degree: 64%
 
 ---
@@ -1946,15 +1946,22 @@ Microsoft Teams 连接器可连接 Adobe Learning Manager 和 Microsoft Teams �
 
 ## 培训数据访问
 
+
+>[!IMPORTANT]
+>
+>仅当AdobeLearning Manager作为Adobe Experience Manager的附加项出售时，此特定功能才可用。 课程数据将在24小时后失效。
+
+
 >[!NOTE]
 >
->**仅当 Adobe Learning Manager 作为 Adobe Experience Manage 的附带内容出售时，此特定功能才可用。**
+>本节重点介绍基础架构的工作原理，但如果您需要构建无头体验或基于AEM的无登录体验，请联系我们。 我们将为您建议正确的处理方式。 此功能目前无法作为自助服务使用。
+
 
 通过 Training Data Access 连接器，基于 AEM 站点的自定义用户界面可检索并向学习者呈现培训信息，还有助于轻松快速地搜索。
 
 连接器将训练元数据导出到数据存储和检索解决方案。 您可以将基于 AEM 站点的用户界面配置为使用这两个服务来检索培训数据、呈现网页并为学习者提供优化的培训搜索功能。
 
-例如，基于AEM Sites的非登录界面可以使用导出的元数据来帮助学习者搜索、浏览和访问显示培训信息的培训页面
+本文重点介绍基础架构的工作原理，但在构建无头体验或基于AEM的无登录体验时，请联系我们。 我们将为您建议正确的处理方式。 此功能目前无法作为自助服务使用。
 
 启用此连接器后，您可以构建和渲染基于 AEM 站点的网页，并通过 AEM 为学习者提供自定义体验，学习者可通过公共 API（无头 LMS）获取课程信息。
 

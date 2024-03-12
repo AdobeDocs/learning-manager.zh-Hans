@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Adobe Learning Manager 连接器
 contentowner: jayakarr
 exl-id: 1f44934b-6a2b-484d-bc7f-d0f23e3008ca
-source-git-commit: 1d36ad7f4b50d76f73eb1d24313ada78264e6ad3
+source-git-commit: 59d5e166747b332833ca68344691008670219366
 workflow-type: tm+mt
-source-wordcount: '15243'
-ht-degree: 64%
+source-wordcount: '15334'
+ht-degree: 63%
 
 ---
 
@@ -745,6 +745,12 @@ Adobe Learning Manager 管理员可在导入用户前先对其过滤。例如，
 >[!NOTE]
 >
 >使用同一 Workday 帐户无法同时导出多个 Adobe Learning Manager 帐户中的技能。
+
+#### 注意事项
+
+* 确保员工的UUID、电子邮件地址和姓名在多个Workday集成中是唯一的。 不正确的值将导致连接失败。
+* 任何面向LMS管理员的客户端都不能删除通过Workday于填充的UUID字段。 如果要更改该值，请联系AdobeLearning Manager入门或支持团队。
+* “用户清除”选项也可能不起作用，因为“用户清除”每次运行仅支持50个用户进行清除。 通过UUID上传用户时请格外谨慎。
 
 ### 计划 {#Scheduling-1}
 

@@ -1,15 +1,15 @@
 ---
 jcr-language: en_us
-title: AdobeLearning Manager中的API弃用
+title: AdobeLearning Manager移动应用程序中的白色标签
 description: 白色标签是一种用您自己的品牌重塑应用程序或服务，并像原创者一样对其进行自定义的做法。 在AdobeLearning Manager中，您可以在移动应用程序上应用白色标签，这样就可以重新品牌化应用程序，并使您的用户可以使用自己的品牌。
 contentowner: saghosh
-source-git-commit: 7bd9877aa32c78988a5195116d2a0f25ded05c90
+exl-id: f37c86e6-d4e3-4095-9e9d-7a5cd0d45e43
+source-git-commit: 8fe01ca3c0e11d5d62645f4fa7695fce504e0da2
 workflow-type: tm+mt
-source-wordcount: '1049'
+source-wordcount: '1051'
 ht-degree: 0%
 
 ---
-
 
 # AdobeLearning Manager移动应用程序中的白色标签
 

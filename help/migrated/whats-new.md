@@ -4,9 +4,9 @@ jcr-language: en_us
 title: 新功能摘要
 contentowner: jayakarr
 exl-id: 603f1f1c-bf8d-4807-b9f7-b10ded19a91e
-source-git-commit: e1ef2082329a061fc8297a791c080185488b165b
+source-git-commit: 08721247d60f3c35f04aa4434c6b0a795be59b2e
 workflow-type: tm+mt
-source-wordcount: '3600'
+source-wordcount: '3661'
 ht-degree: 1%
 
 ---
@@ -365,6 +365,23 @@ ht-degree: 1%
 AdobeLearning Manager移动应用程序现在支持白色标签 — 这意味着您现在可以发布自己的品牌推广应用程序。
 
 在中查看白色标签 [AdobeLearning Manager移动应用程序](white-label.md) 了解更多信息。
+
+### 迁移CSV中的新列
+
+在此版本中，以下迁移CSV中增加了一列（可选） uniqueLoId。
+
+* certification.csv
+* course.csv
+* learning_program.csv
+
+uniqueLoId列不适用于工作辅助CSV。
+
+>[!IMPORTANT]
+>
+>列值在整个帐户中必须是唯一的。 您不能在课程或认证中使用相同的值。
+
+从下载CSV [迁移手册](integration-admin/feature-summary/migration-manual.md#csv-specifications-and-sample-csvs).
+
 
 ### 应用程序评级
 

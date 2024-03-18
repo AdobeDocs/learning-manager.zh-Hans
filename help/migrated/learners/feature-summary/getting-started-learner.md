@@ -3,14 +3,13 @@ jcr-language: en_us
 title: 学习者快速入门指南
 description: 使用“开始使用”页面浏览AdobeLearning Manager的关键学习路径。
 contentowner: manochan
-source-git-commit: 8635072782253cbac3f913953797cae7c0bc5ef4
+exl-id: e8f8dced-0772-415f-8021-6c1b63fec7a0
+source-git-commit: bd050c0b0cf2bb7da66d0f2ce3af1cf0d8be4f64
 workflow-type: tm+mt
 source-wordcount: '666'
 ht-degree: 77%
 
 ---
-
-
 
 # 学习者快速入门指南
 
@@ -26,7 +25,7 @@ Adobe Learning Manager 中的学习者应用程序完全由小组件构成，只
 
 **我的学习**：您可以按类型和截止日期查看并单击学习对象。单击“我的学习”小组件圆圈可直接转至学习对象类型，或按截止日期查看学习对象。
 
-**我的技能**：您还可以在页面右上角查看技能图。请参阅  [技能图](skills-levels.md)功能，以获取更多信息。
+**我的技能**：您还可以在页面右上角查看技能图。请参阅  [技能图](skills-levels.md) 功能，以获取更多信息。
 
 **学习对象小组件**：位于“我的学习”下方，显示了用户的学习对象。在“我的学习”下方，您可以查看所有  [课程](courses.md)，  [学习计划](learning-programs.md) 和  [认证](certifications.md) 由您注册或分配给您的模板。 您可以直接开始使用某个学习对象，或通过此小组件重新访问某个学习对象。
 

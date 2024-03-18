@@ -4,7 +4,7 @@ jcr-language: en_us
 title: 新功能摘要
 contentowner: jayakarr
 exl-id: 603f1f1c-bf8d-4807-b9f7-b10ded19a91e
-source-git-commit: 08721247d60f3c35f04aa4434c6b0a795be59b2e
+source-git-commit: 42d595e167663cb368e3597cfc4d9a49313ff46d
 workflow-type: tm+mt
 source-wordcount: '3661'
 ht-degree: 1%
@@ -368,7 +368,7 @@ AdobeLearning Manager移动应用程序现在支持白色标签 — 这意味着
 
 ### 迁移CSV中的新列
 
-在此版本中，以下迁移CSV中增加了一列（可选） uniqueLoId。
+在此版本中，以下迁移CSV中有一个新的可选列uniqueLoId。
 
 * certification.csv
 * course.csv

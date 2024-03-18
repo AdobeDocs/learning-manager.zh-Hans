@@ -1,15 +1,14 @@
 ---
-description: 本参考手册适用于希望将现有 LMS 迁移到 Adobe Learning Manager LMS 的集成管理员
+description: 本参考手册适用于希望将现有LMS迁移到Learning Manager LMS的集成管理员。
 jcr-language: en_us
 title: 迁移手册
-source-git-commit: fc6ebb67037c5c75f1b3b66bcf5a23b08532b3bb
+exl-id: bfdd5cd8-dc5c-4de3-8970-6524fed042a8
+source-git-commit: 0a5c51c6d56de2c9e2404ba6ddac5a82a62174a5
 workflow-type: tm+mt
 source-wordcount: '3614'
-ht-degree: 73%
+ht-degree: 72%
 
 ---
-
-
 
 # 迁移手册
 
@@ -576,4 +575,3 @@ Adobe Learning Manager 会识别并记住个人用户的加入方式，例如：
 
 * [CSV 上传常见问题解答](/help/migrated/administrators/add-users-in-bulk.md)
 * [有关添加用户的功能帮助](/help/migrated/administrators/feature-summary/add-users-user-groups.md)
-

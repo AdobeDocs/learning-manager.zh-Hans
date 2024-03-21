@@ -3,14 +3,13 @@ description: 了解 Adobe Learning Manager 中的新功能和增强功能
 jcr-language: en_us
 title: 新功能摘要
 contentowner: jayakarr
-source-git-commit: 35dc1f0880793a3f26ee70a3e9993d7520866b44
+exl-id: ae9251b6-5326-42c2-881e-2ab3393d9e17
+source-git-commit: 8f7793ff878a13560ac556440fa1c18dc7675db9
 workflow-type: tm+mt
-source-wordcount: '26196'
+source-wordcount: '26225'
 ht-degree: 72%
 
 ---
-
-
 
 # 新功能摘要
 
@@ -24,13 +23,22 @@ ht-degree: 72%
  </tbody>
 </table>-->
 
-+++更新95：AdobeLearning Manager 2023年11月版
++++更新96：AdobeLearning Manager 2024年3月版
 
 **发行日期：** 2023年11月18日
 
 ## 此版本中新增的功能
 
 查看[“Adobe Learning Manager 新增功能”](/help/migrated/whats-new.md)了解更多信息。
++++
+
++++更新95：AdobeLearning Manager 2023年11月版
+
+**发行日期：** 2023年11月18日
+
+## 此版本中新增的功能
+
+查看[“Adobe Learning Manager 新增功能”](https://experienceleague.adobe.com/en/docs/learning-manager/using/introduction/whats-new-november-2023)了解更多信息。
 +++
 
 +++更新94

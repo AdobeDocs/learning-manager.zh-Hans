@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Adobe Learning Manager 连接器
 contentowner: jayakarr
 exl-id: 1f44934b-6a2b-484d-bc7f-d0f23e3008ca
-source-git-commit: 04ebf3d2c894588767ab80855325f77acfcc5a85
+source-git-commit: 70d0d6acbcb84ea49539e3a295277cbc342b3246
 workflow-type: tm+mt
-source-wordcount: '15326'
-ht-degree: 63%
+source-wordcount: '15302'
+ht-degree: 64%
 
 ---
 
@@ -1559,89 +1559,89 @@ Adobe Learning Manager 提供连接到自定义 FTP 位置的功能。
 
 ## 注册应用程序的步骤 {#stepstoregisteryourapplication}
 
-1. 单击 Azure Active Directory。 点击 **[!UICONTROL 添加]** > **[!UICONTROL 应用程序注册]**.
+* 单击 Azure Active Directory。 点击 **[!UICONTROL 添加]** > **[!UICONTROL 应用程序注册]**.
 
-   <!--![](assets/add-app-registration.png)-->
-   *添加应用程序注册*
+  <!--![](assets/add-app-registration.png)-->
+  <!-- *Add app registration*-->
 
-1. 输入应用程序名称。
+* 输入应用程序名称。
 
-   <!--![](assets/register-app.png)-->
-   *输入应用程序的名称*
+  <!--![](assets/register-app.png)-->
+  <!--*Enter the name of the application*-->
 
-   单击&#x200B;**[!UICONTROL “注册”]**。
+  单击&#x200B;**[!UICONTROL “注册”]**。
 
-1. 在右侧窗格中，选择&#x200B;**[!UICONTROL “证书和密钥”]**。
+* 在右侧窗格中，选择&#x200B;**[!UICONTROL “证书和密钥”]**。
 
-   <!--![](assets/add-client-secret.png)-->
+  <!--![](assets/add-client-secret.png)-->
 
-   *选择“证书和密钥”*
+  <!--*Select Certificates and Secrets*-->
 
-1. 添加客户端密钥。
+* 添加客户端密钥。
 
-   <!--![](assets/add-description.png)-->
+  <!--![](assets/add-description.png)-->
 
-   *添加客户端密钥*
+  <!--*Add a client secret*-->
 
-1. 为密钥添加描述，并将其到期时间设置为 24 个月。
+* 为密钥添加描述，并将其到期时间设置为 24 个月。
 
-<!-- ![](assets/copy-values.png)-->
+  <!-- ![](assets/copy-values.png)-->
 
-*添加描述*
+  <!--*Add description*-->
 
-1. 例如，将值和密钥复制到记事本。
+* 例如，将值和密钥复制到记事本。
 
-<!-- ![](assets/copy-secret.png)-->
+  <!-- ![](assets/copy-secret.png)-->
 
-*复制值和密钥*
+  <!--*Copy value and secret key*-->
 
-1. 选择&#x200B;**“API 权限”**。
+* 选择&#x200B;**“API 权限”**。
 
-   <!--![](assets/click-api-permission.png)-->
+  <!--![](assets/click-api-permission.png)-->
 
-<!-- *Left pane containing API Permissions*-->
+  <!-- *Left pane containing API Permissions*-->
 
-1. 选择&#x200B;**“添加权限”**。 此外，请启用选项&#x200B;**“授予管理员许可”**。
+* 选择&#x200B;**“添加权限”**。 此外，请启用选项&#x200B;**“授予管理员许可”**。
 
-   ![](assets/add-permission.png)
+  ![](assets/add-permission.png)
 
-   *添加权限*
+  *添加权限*
 
-1. 选择&#x200B;**“Microsoft Graph”**。
+* 选择&#x200B;**“Microsoft Graph”**。
 
-   <!--![](assets/ms-graph.png)-->
+  <!--![](assets/ms-graph.png)-->
 
-   <!--*Select Microsoft Graph*-->
+  <!--*Select Microsoft Graph*-->
 
-1. 选择&#x200B;**“应用程序权限”**。
+* 选择&#x200B;**“应用程序权限”**。
 
-   ![](assets/request-api-permission.png)
+  ![](assets/request-api-permission.png)
 
-   *选择应用程序权限*
+  *选择应用程序权限*
 
-1. 搜索&#x200B;*“目录”*&#x200B;并选择&#x200B;**“读取目录数据”**。
+* 搜索&#x200B;*“目录”*&#x200B;并选择&#x200B;**“读取目录数据”**。
 
-   ![](assets/read-directory-data.png)
+  ![](assets/read-directory-data.png)
 
-   *选择读取目录数据*
+  *选择读取目录数据*
 
-1. 输入&#x200B;*“用户”*&#x200B;作为搜索词。
+* 输入&#x200B;*“用户”*&#x200B;作为搜索词。
 
-   ![](assets/search-user.png)
+  ![](assets/search-user.png)
 
-   *输入搜索词*
+  *输入搜索词*
 
-1. 选择&#x200B;**“读取所有用户的完整个人资料”**。
+* 选择&#x200B;**“读取所有用户的完整个人资料”**。
 
-   ![](assets/select-read-all.png)
+  ![](assets/select-read-all.png)
 
-   *选择“读取所有用户的完整个人资料”*
+  *选择“读取所有用户的完整个人资料”*
 
-1. 选择&#x200B;**“添加权限”**。
+* 选择&#x200B;**“添加权限”**。
 
-   <!--![](assets/select-add-permission.png)-->
+  <!--![](assets/select-add-permission.png)-->
 
-<!-- *Select Add Permissions*-->
+  <!-- *Select Add Permissions*-->
 
 ### “ADFS配置”页面
 

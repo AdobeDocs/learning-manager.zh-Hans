@@ -4,9 +4,9 @@ jcr-language: en_us
 title: Adobe Learning Manager 连接器
 contentowner: jayakarr
 exl-id: 1f44934b-6a2b-484d-bc7f-d0f23e3008ca
-source-git-commit: 59d5e166747b332833ca68344691008670219366
+source-git-commit: 04ebf3d2c894588767ab80855325f77acfcc5a85
 workflow-type: tm+mt
-source-wordcount: '15334'
+source-wordcount: '15326'
 ht-degree: 63%
 
 ---
@@ -1561,45 +1561,45 @@ Adobe Learning Manager 提供连接到自定义 FTP 位置的功能。
 
 1. 单击 Azure Active Directory。 点击 **[!UICONTROL 添加]** > **[!UICONTROL 应用程序注册]**.
 
-   ![](assets/add-app-registration.png)
+   <!--![](assets/add-app-registration.png)-->
    *添加应用程序注册*
 
 1. 输入应用程序名称。
 
-   ![](assets/register-app.png)
+   <!--![](assets/register-app.png)-->
    *输入应用程序的名称*
 
    单击&#x200B;**[!UICONTROL “注册”]**。
 
 1. 在右侧窗格中，选择&#x200B;**[!UICONTROL “证书和密钥”]**。
 
-   ![](assets/add-client-secret.png)
+   <!--![](assets/add-client-secret.png)-->
 
    *选择“证书和密钥”*
 
 1. 添加客户端密钥。
 
-   ![](assets/add-description.png)
+   <!--![](assets/add-description.png)-->
 
    *添加客户端密钥*
 
 1. 为密钥添加描述，并将其到期时间设置为 24 个月。
 
-   ![](assets/copy-values.png)
+<!-- ![](assets/copy-values.png)-->
 
-   *添加描述*
+*添加描述*
 
 1. 例如，将值和密钥复制到记事本。
 
-   ![](assets/copy-secret.png)
+<!-- ![](assets/copy-secret.png)-->
 
-   *复制值和密钥*
+*复制值和密钥*
 
 1. 选择&#x200B;**“API 权限”**。
 
-   ![](assets/click-api-permission.png)
+   <!--![](assets/click-api-permission.png)-->
 
-   *包含API权限的左侧窗格*
+<!-- *Left pane containing API Permissions*-->
 
 1. 选择&#x200B;**“添加权限”**。 此外，请启用选项&#x200B;**“授予管理员许可”**。
 
@@ -1609,9 +1609,9 @@ Adobe Learning Manager 提供连接到自定义 FTP 位置的功能。
 
 1. 选择&#x200B;**“Microsoft Graph”**。
 
-   ![](assets/ms-graph.png)
+   <!--![](assets/ms-graph.png)-->
 
-   *选择Microsoft Graph*
+   <!--*Select Microsoft Graph*-->
 
 1. 选择&#x200B;**“应用程序权限”**。
 
@@ -1639,9 +1639,11 @@ Adobe Learning Manager 提供连接到自定义 FTP 位置的功能。
 
 1. 选择&#x200B;**“添加权限”**。
 
-   ![](assets/select-add-permission.png)
+   <!--![](assets/select-add-permission.png)-->
 
-   *选择“添加权限”*
+<!-- *Select Add Permissions*-->
+
+### “ADFS配置”页面
 
 1. 在 Adobe Learning Manager 的 ADFS 配置页面中，输入先前获得的客户端 ID 和客户端密钥。
 

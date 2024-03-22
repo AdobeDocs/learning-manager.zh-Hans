@@ -3,14 +3,13 @@ jcr-language: en_us
 title: 安装 Salesforce 程序包
 description: Learning Manager提供Salesforce应用程序包。 在 SFDC 中安装和配置程序包后，销售员工便可以在 SFDC 门户中开展培训活动。 SFDC 用户可利用此应用直接在 SFDC 门户中探索新培训、查看推荐内容及参加培训。 用户还可以直接在SFDC门户的应用中以刊头的形式收到管理员发送的公告。
 contentowner: saghosh
-source-git-commit: ab6737e8b43222a6538921b0628a504a5f15859d
+exl-id: 2b1c32e7-81af-4c13-a2bd-66684cde084e
+source-git-commit: 970c5f46d6af49bfcca09f88f3d0ece1168fe442
 workflow-type: tm+mt
 source-wordcount: '979'
 ht-degree: 51%
 
 ---
-
-
 
 # 安装 Salesforce 程序包
 
@@ -48,7 +47,7 @@ Learning Manager提供Salesforce应用程序包。 在 SFDC 中安装和配置�
 >
 >仅在Salesforce Lightning视图中支持AdobeLearning Manager应用程序。
 
-1. 启动  [Learning Manager程序包URL](https://nam04.safelinks.protection.outlook.com/?url=https%3A%2F%2Ftest.salesforce.com%2Fpackaging%2FinstallPackage.apexp%3Fp0%3D04t1k0000008YWn&amp;data=04%7C01%7Ckillamse%40adobe.com%7Cf588f553fc694d2edee108d9a5c74711%7Cfa7b1b5a7b34438794aed2c178decee1%7C0%7C0%7C637723097572585825%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C1000&amp;sdata=mhYKVdwvS4F7WPruy0Kvw%2FsqgWxzTQpaZJyEACu8CNw%3D&amp;reserved=0).
+1. 启动  [Learning Manager程序包URL](https://test.salesforce.com/packaging/installPackage.apexp?p0=04tDb000000LRvP).
 1. 在 **登录** 页面，单击 **[!UICONTROL 使用自定义域]**.
 
 1. 输入程序包URL，然后单击 **[!UICONTROL 继续]**. 必须在安装页面选中“仅限管理员安装”选项。 请勿更改此选项。

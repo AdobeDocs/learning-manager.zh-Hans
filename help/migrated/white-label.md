@@ -4,9 +4,9 @@ title: AdobeLearning Manager移动应用程序中的白色标签
 description: 白色标签是一种用您自己的品牌重塑应用程序或服务，并像原创者一样对其进行自定义的做法。 在AdobeLearning Manager中，您可以在移动应用程序上应用白色标签，这样就可以重新品牌化应用程序，并使您的用户可以使用自己的品牌。
 contentowner: saghosh
 exl-id: f37c86e6-d4e3-4095-9e9d-7a5cd0d45e43
-source-git-commit: 5e4008c0811305db86e94f8105ae778fa2cfac83
+source-git-commit: 8228a6b78362925f63575098602b33d3ee645812
 workflow-type: tm+mt
-source-wordcount: '1051'
+source-wordcount: '1177'
 ht-degree: 0%
 
 ---
@@ -201,10 +201,19 @@ AdobeLearning Manager移动应用程序现在支持白色标签 — 这意味着
 
 </table>
 
+>[!NOTE]
+>
+>向您的CSAM提供数据，以便他们可以将数据添加到您的自定义应用程序二进制文件中。
 
-#### 更新站点关联
+
+#### 更新站点关联以处理自定义深度链接
 
 如果您使用自定义域或learningmanager\*.adobe.com作为主机，则无需执行任何操作。 但是，如果对URL使用自定义解决方案或特定主机名，请添加站点关联文件。
+
+>[!CAUTION]
+>
+>如果文件不存在，则深度链接将不起作用。 确保文件存在。
+
 
 有关更多信息，请参阅以下链接：
 
@@ -212,9 +221,16 @@ AdobeLearning Manager移动应用程序现在支持白色标签 — 这意味着
 
 - [iOS](https://learningmanager.adobe.com/.well-known/apple-app-site-association)
 
-## 生成推送通知证书
+## 生成推送通知
 
-### iOS上的推送通知证书
+向Android和iOS应用程序发送推送通知需要两种不同的机制。
+
+* 对于iOS，请生成推送通知证书。
+* 对于Android，请提供从Firebase项目生成的服务器密钥。
+
+按照以下说明在Firebase中设置项目：
+
+### 在iOS上推送通知
 
 在iOS应用程序开发中，推送通知证书是由Apple颁发的加密凭据，允许服务器通过Apple的推送通知服务(APN)将推送通知安全地发送到iOS设备。
 
@@ -241,19 +257,24 @@ Android和iOS都使用Firebase Cloud Messaging (FCM)作为向设备发送推送�
 
 - openssl s_client -connect gateway.sandbox.push.apple.com:2195 -cert myapnsappcert.pem -key myapnappkey.pem 
 ```
-
 如果可以连接到服务器，则已创建的证书有效。 从myapnappkey.pem文件中，复制证书和私钥值。
 
-1. 联系CSM团队，获取添加到AWS上SNS服务的文件。 用户必须在SNS服务中注册推送通知的条目，这将要求他们共享上面生成的证书以进行验证。
+### 在Android上推送通知
+
+在Firebase中设置项目，并与CSAM共享服务器密钥。
+
+联系CSM团队，获取添加到AWS上SNS服务的文件。 用户必须在SNS服务中注册推送通知的条目，这将要求他们共享上面生成的证书以进行验证。
 
 >[!NOTE]
 >
 >对于Android，用户需要提供他们为Android创建的Firebase项目中的服务器密钥，以便在SNS服务中添加条目。
 
 
-## 将项目添加到Firebase
+## 在Firebase中创建项目
 
 ### Android
+
+将您在上述步骤中创建的相同项目重新用于推送通知。
 
 [添加项目](https://learn.microsoft.com/en-us/xamarin/android/data-cloud/google-messaging/firebase-cloud-messaging) 在Firebase中，并检索 ***google-services.json*** 文件。
 
@@ -261,19 +282,24 @@ Android和iOS都使用Firebase Cloud Messaging (FCM)作为向设备发送推送�
 
 [添加项目](https://firebase.google.com/docs/ios/setup) 到Firebase并检索 ***GoogleService-Info.plist*** 文件。
 
+>[!IMPORTANT]
+>
+>将文件发送到AdobeLearning Manager CSAM团队，以将其包含在应用程序二进制文件的构建中。
+
+
 ## 生成已签名的二进制文件
 
 ### iOS
 
 ```
-sh""" xcodebuild -exportArchive -archivePath ./mobile-app-embedding-immersive/build/ios/archive/Runner.xcarchive -exportPath "ipa_path/" -exportOptionsPlist ./deviceAppBuildScripts/${ExportFile} 
+sh""" xcodebuild -exportArchive -archivePath Runner.xcarchive -exportPath "ipa_path/" -exportOptionsPlist ./deviceAppBuildScripts/${ExportFile} 
 
 mv ipa_path/*.ipa "${env.AppName}_signed.ipa" """ 
 ```
 
 >[!NOTE]
 >
->您需要具备XCode 14.2或更高版本才能构建已签名的二进制文件。
+>您需要具备XCode 15.2或更高版本才能构建已签名的二进制文件。
 
 
 ## Android

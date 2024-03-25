@@ -4,7 +4,7 @@ title: AdobeLearning Manager移动应用程序中的白色标签
 description: 白色标签是一种用您自己的品牌重塑应用程序或服务，并像原创者一样对其进行自定义的做法。 在AdobeLearning Manager中，您可以在移动应用程序上应用白色标签，这样就可以重新品牌化应用程序，并使您的用户可以使用自己的品牌。
 contentowner: saghosh
 exl-id: f37c86e6-d4e3-4095-9e9d-7a5cd0d45e43
-source-git-commit: 8228a6b78362925f63575098602b33d3ee645812
+source-git-commit: c3d1deef5809fca8c1a6b482be4159d02ebaf701
 workflow-type: tm+mt
 source-wordcount: '1177'
 ht-degree: 0%
@@ -217,9 +217,8 @@ AdobeLearning Manager移动应用程序现在支持白色标签 — 这意味着
 
 有关更多信息，请参阅以下链接：
 
-- [Android](https://learningmanager.adobe.com/.well-known/assetlinks.json)
-
-- [iOS](https://learningmanager.adobe.com/.well-known/apple-app-site-association)
+* [Android](https://learningmanager.adobe.com/.well-known/assetlinks.json)
+* [iOS](https://learningmanager.adobe.com/.well-known/apple-app-site-association)
 
 ## 生成推送通知
 
@@ -257,6 +256,7 @@ Android和iOS都使用Firebase Cloud Messaging (FCM)作为向设备发送推送�
 
 - openssl s_client -connect gateway.sandbox.push.apple.com:2195 -cert myapnsappcert.pem -key myapnappkey.pem 
 ```
+
 如果可以连接到服务器，则已创建的证书有效。 从myapnappkey.pem文件中，复制证书和私钥值。
 
 ### 在Android上推送通知
@@ -324,5 +324,5 @@ CSM团队将与客户共享该构建。
 
 ## 无法自定义的内容
 
-- “更新密码”屏幕
-- 创建帐户屏幕
+* “更新密码”屏幕
+* 创建帐户屏幕

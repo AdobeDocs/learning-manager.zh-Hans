@@ -4,7 +4,7 @@ title: AdobeLearning Manager移动应用程序中的白色标签
 description: 白色标签是一种用您自己的品牌重塑应用程序或服务，并像原创者一样对其进行自定义的做法。 在AdobeLearning Manager中，您可以在移动应用程序上应用白色标签，这样就可以重新品牌化应用程序，并使您的用户可以使用自己的品牌。
 contentowner: saghosh
 exl-id: f37c86e6-d4e3-4095-9e9d-7a5cd0d45e43
-source-git-commit: c3d1deef5809fca8c1a6b482be4159d02ebaf701
+source-git-commit: b649255ce7b3f3e0676f785003d3af60c50520a0
 workflow-type: tm+mt
 source-wordcount: '1177'
 ht-degree: 0%
@@ -292,7 +292,7 @@ Android和iOS都使用Firebase Cloud Messaging (FCM)作为向设备发送推送�
 ### iOS
 
 ```
-sh""" xcodebuild -exportArchive -archivePath Runner.xcarchive -exportPath "ipa_path/" -exportOptionsPlist ./deviceAppBuildScripts/${ExportFile} 
+sh""" xcodebuild -exportArchive -archivePath Runner.xcarchive -exportPath "ipa_path/" -exportOptionsPlist {ExportFile} 
 
 mv ipa_path/*.ipa "${env.AppName}_signed.ipa" """ 
 ```

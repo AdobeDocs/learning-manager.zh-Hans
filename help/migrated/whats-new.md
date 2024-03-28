@@ -4,7 +4,7 @@ jcr-language: en_us
 title: 新功能摘要
 contentowner: jayakarr
 exl-id: 603f1f1c-bf8d-4807-b9f7-b10ded19a91e
-source-git-commit: 1bdbabfd0b2e365c713d9beb393e7413cd15a9fd
+source-git-commit: 5828af43214a643b64153ed33c2858c13d9aca10
 workflow-type: tm+mt
 source-wordcount: '3764'
 ht-degree: 1%
@@ -245,7 +245,7 @@ ht-degree: 1%
 
 ### 用户组
 
-#### 管理员 — 学习者页面
+#### 管理员：学习者页面
 
 搜索任何用户时， **下载学习者** 和 **导出** 选项会下载相同的报告。 同时，在搜索用户组时，您现在可以从该用户组下载筛选后的用户。 搜索用户组时， **下载学习者列表** 更改为 **下载用户组的学习者列表** 该 **导出** 再次使用该选项可下载整个列表。
 

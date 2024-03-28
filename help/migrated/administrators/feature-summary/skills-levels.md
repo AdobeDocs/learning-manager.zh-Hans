@@ -3,14 +3,13 @@ description: 创建、分配和修改技能和级别。
 jcr-language: en_us
 title: 创建、修改技能和级别
 contentowner: manochan
-source-git-commit: 0052ccb2f5a8f9617bca2c7bad91c0cd18338b66
+exl-id: b1461900-43e8-4e9d-bef1-a55c44d3bc8b
+source-git-commit: b882c22da029cdc4c8bcc4ab1b6d861f06f83f0f
 workflow-type: tm+mt
-source-wordcount: '1718'
-ht-degree: 80%
+source-wordcount: '1721'
+ht-degree: 79%
 
 ---
-
-
 
 # 创建、修改技能和级别
 
@@ -32,7 +31,7 @@ Adobe Learning Manager 能让您使用技能图根据学习者的技能集来查
 
 要添加技能，请执行以下步骤：
 
-1. 在左侧窗格中，单击&#x200B;**[!UICONTROL “技能”]**。为技能命名并添加描述。
+1. 在左侧窗格中，选择 **[!UICONTROL 技能]** > **[!UICONTROL 添加]** > **[!UICONTROL 添加密钥]**. 为技能命名并添加描述。
 
    ![](assets/add-skill-name-anddescription.png)
 

@@ -3,14 +3,13 @@ jcr-language: en_us
 title: 徽章
 description: 徽章是一种成就度量，员工在完成课程后即可获得。 AdobeLearning Manager推出了名为“徽章”的电子学习概念。 全球各地的专业人士可将这些徽章用于表现其掌握了特定技能或学习成就。
 contentowner: manochan
-source-git-commit: 46afb6603456ced9d7e2aaf98d07ec92fee30c0b
+exl-id: c056e5d0-d646-4d15-979d-bae57c627eab
+source-git-commit: b882c22da029cdc4c8bcc4ab1b6d861f06f83f0f
 workflow-type: tm+mt
-source-wordcount: '174'
+source-wordcount: '173'
 ht-degree: 41%
 
 ---
-
-
 
 # 徽章
 
@@ -26,7 +25,7 @@ ht-degree: 41%
    >
    >默认情况下，我们会提供一份示例徽章的列表。
 
-1. 点击 **[!UICONTROL 添加徽章]** 在页面的右上角。 此时会显示“添加徽章”对话框。
+1. 点击 **[!UICONTROL 添加]** 在页面的右上角。 此时会显示“添加徽章”对话框。
 
    ![](assets/add-badge1.png)
 

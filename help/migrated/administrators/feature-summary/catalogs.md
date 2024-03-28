@@ -4,7 +4,7 @@ title: 目录
 description: 目录包含学习内容 — 课程、学习计划和认证。 目录用于向学习者提供访问自定义学习集的权限。 您可以在创建新目录时将学习与目录相关联。
 contentowner: manochan
 exl-id: 5c4c147f-d389-4d8a-9480-5f3254d1aadf
-source-git-commit: f98b053e1d63841c232380de74170f8a14067473
+source-git-commit: b882c22da029cdc4c8bcc4ab1b6d861f06f83f0f
 workflow-type: tm+mt
 source-wordcount: '2429'
 ht-degree: 75%
@@ -226,19 +226,19 @@ ht-degree: 75%
    <td>
     <p><strong>认证</strong></p></td>
    <td>
-    <p>认证对象的所有属性，但badgeId除外，认证即将弃用</p></td>
+    <p>认证对象的所有属性，但badgeId除外，认证已弃用</p></td>
   </tr>
   <tr>
    <td>
     <p><strong>徽章</strong></p></td>
    <td>
-    <p>徽章的名称及停用</p></td>
+    <p>徽章的名称和停用</p></td>
   </tr>
   <tr>
    <td>
     <p><strong>类别 </strong></p></td>
    <td>
-    <p>名称、描述、颜色和类别报废、新级别的添加</p></td>
+    <p>类别的名称、描述、颜色和停用、新级别的添加</p></td>
   </tr>
   <tr>
    <td>

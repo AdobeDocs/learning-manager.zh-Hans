@@ -3,14 +3,13 @@ description: 了解如何在 Adobe Learning Manager 应用程序中添加用户�
 jcr-language: en_us
 title: 添加用户和创建用户组
 contentowner: manochan
-source-git-commit: 0534bd52c80b77d985cfe715f74054f3aabac9a2
+exl-id: 7df98f2b-c422-4733-8ce4-5489506d4fdf
+source-git-commit: b882c22da029cdc4c8bcc4ab1b6d861f06f83f0f
 workflow-type: tm+mt
 source-wordcount: '4000'
 ht-degree: 62%
 
 ---
-
-
 
 # 添加用户和创建用户组
 
@@ -610,7 +609,7 @@ CSV 包含以下字段：
 
 +++如何创建自定义用户组？
 
-点击 **[!UICONTROL 用户]** > **[!UICONTROL 用户组]** 在“用户组”页面上，单击 **[!UICONTROL 添加]**. 在“添加用户组”对话框中，以个人和团队形式添加用户。
+点击 **[!UICONTROL 用户]** > **[!UICONTROL 用户组]** 在“用户组”页面上，单击 **[!UICONTROL 添加]**. 在“添加用户组”对话框中，单独添加用户和以团队形式添加用户。
 
 ![](assets/custom-user-group.png)
 

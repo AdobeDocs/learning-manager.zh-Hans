@@ -3,14 +3,13 @@ description: 使用 Adobe Learning Manager 下载学习者成绩单并管理报�
 jcr-language: en_us
 title: 学习者成绩单
 contentowner: jayakarr
-source-git-commit: 0052ccb2f5a8f9617bca2c7bad91c0cd18338b66
+exl-id: f88ad02c-6d36-41e7-9d83-0ebc70d98d63
+source-git-commit: b882c22da029cdc4c8bcc4ab1b6d861f06f83f0f
 workflow-type: tm+mt
-source-wordcount: '1910'
-ht-degree: 67%
+source-wordcount: '1912'
+ht-degree: 66%
 
 ---
-
-
 
 # 学习者成绩单
 
@@ -22,7 +21,7 @@ ht-degree: 67%
 
 1. 要生成学习者成绩单，请单击 **[!UICONTROL 报告]** 在管理员登录的左侧窗格中。
 
-   “管理员”会导航到&#x200B;**[!UICONTROL 报告]**&#x200B;页面内的“Excel 报告”选项卡。
+   “管理员”将导航到 **[!UICONTROL 自定义报告]** > **[!UICONTROL Excel报告]** 选项卡内部 **[!UICONTROL 报告]** 页面。
 
 1. 单击链接 **[!UICONTROL 学习者成绩单]**.
 

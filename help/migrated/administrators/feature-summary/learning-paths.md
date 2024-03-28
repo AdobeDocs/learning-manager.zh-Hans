@@ -3,14 +3,13 @@ jcr-language: en_us
 title: 学习路径
 description: 在 Adobe Learning Manager 中为管理员创建学习计划。
 contentowner: saghosh
-source-git-commit: f3e751215d0bcf65be4fbca59d5373011f195366
+exl-id: 31f1d66f-4da1-49d2-8ec1-995fd2ebeadb
+source-git-commit: b882c22da029cdc4c8bcc4ab1b6d861f06f83f0f
 workflow-type: tm+mt
-source-wordcount: '1940'
+source-wordcount: '1941'
 ht-degree: 42%
 
 ---
-
-
 
 # 学习路径
 
@@ -132,9 +131,9 @@ ht-degree: 42%
 
 有以下三个选项：
 
-1. **[!UICONTROL 所有级别的课程和学习路径（默认情况下处于选中状态）]：** 无论在学习路径中的级别如何，只要存在未完成的课程，学习者就会收到相应通知。
+1. **[!UICONTROL 所有技能级别的课程和学习路径（默认情况下处于选中状态）]：** 无论在学习路径中的级别如何，只要存在未完成的课程，学习者就会收到相应通知。
 1. **[!UICONTROL 根学习路径]：** 如果父学习路径下存在任何未完成的课程，学习者便会收到相应通知。
-1. **[!UICONTROL 学习路径且只能进行一级嵌套]：** 如果课程是父学习路径的第一个子项，且尚未完成，则学习者会收到由该课程发送的通知。
+1. **[!UICONTROL 学习路径+仅限第一技能级别儿童]：** 如果课程是父学习路径的第一个子项，且尚未完成，则学习者会收到由该课程发送的通知。
 
 系统会根据上述选项触发通知提醒。 默认情况下，选项 **[!UICONTROL 所有级别的课程和学习路径]** 已为实例启用。
 

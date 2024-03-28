@@ -3,14 +3,13 @@ description: 游戏是指在非游戏环境中通过使用游戏思维和游戏�
 jcr-language: en_us
 title: 游戏
 contentowner: manochan
-source-git-commit: 46afb6603456ced9d7e2aaf98d07ec92fee30c0b
+exl-id: c7871a50-3f7c-46e0-8f9d-afc83b0032d6
+source-git-commit: b882c22da029cdc4c8bcc4ab1b6d861f06f83f0f
 workflow-type: tm+mt
-source-wordcount: '1418'
+source-wordcount: '1419'
 ht-degree: 67%
 
 ---
-
-
 
 # 游戏
 
@@ -76,7 +75,7 @@ Adobe Learning Manager 可以让您在内容中应用结构化游戏层，以吸
 
 ## 禁用游戏 {#disablegamification}
 
-点击 [!UICONTROL **游戏**] > [!UICONTROL **游戏功能**]. 您可以通过此功能为学习者分别启用游戏功能和排行榜。 根据需要选择“为内部学习者启用”或“为外部学习者启用”，然后单击“确定”。 当您再次启用游戏时，所有点数都会保留。
+点击 [!UICONTROL **游戏**] > **[!UICONTROL 设置]** > [!UICONTROL **游戏功能**]. 您可以通过此功能为学习者分别启用游戏功能和排行榜。 根据需要选择“为内部学习者启用”或“为外部学习者启用”，然后单击“确定”。 当您再次启用游戏时，所有点数都会保留。
 
 ![](assets/gamification-feature.png)
 

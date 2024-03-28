@@ -3,14 +3,13 @@ description: 管理员可以启用、禁用并监测社交学习中的活动。�
 jcr-language: en_us
 title: 以管理员身份监测并审阅社交学习
 contentowner: kuppan
-source-git-commit: 46afb6603456ced9d7e2aaf98d07ec92fee30c0b
+exl-id: 83f0b494-d129-4fdf-a204-b5efeaaa168a
+source-git-commit: 3af4224f82f14342a298ce39088be874a2372817
 workflow-type: tm+mt
 source-wordcount: '3604'
 ht-degree: 63%
 
 ---
-
-
 
 # 以管理员身份监测并审阅社交学习
 
@@ -265,9 +264,9 @@ ht-degree: 63%
 * **[!UICONTROL 复制]：** 单击此按钮即可复制所有语言的标题和副标题。
 * **[!UICONTROL 重置]：** 单击此按钮即可恢复为原始字幕和副标题。
 
-在“社交学习”主页上，管理员提供的信息显示为页面标题。
+  在“社交学习”主页上，管理员提供的信息显示为页面标题。
 
-<!--![](assets/banner-learner.png)-->
+  <!--![](assets/banner-learner.png)-->
 
 ## 趋势 {#trends}
 

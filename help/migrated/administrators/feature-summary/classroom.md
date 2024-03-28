@@ -3,14 +3,13 @@ jcr-language: en_us
 title: 添加教室位置
 description: 管理员现可设置教室位置库。 对于每个教室位置，管理员可以设置包括位置名称、名额限制以及位置 URL 等附加信息在内的元数据。 然后，作者和管理员可以使用这些预配置的教室位置来设置讲师主导的培训活动（教室模块）。
 contentowner: saghosh
-source-git-commit: 46afb6603456ced9d7e2aaf98d07ec92fee30c0b
+exl-id: 51a1e38f-d4e2-4c19-bbf7-6696505c0dfd
+source-git-commit: b882c22da029cdc4c8bcc4ab1b6d861f06f83f0f
 workflow-type: tm+mt
-source-wordcount: '1222'
-ht-degree: 78%
+source-wordcount: '1240'
+ht-degree: 77%
 
 ---
-
-
 
 # 教室
 
@@ -26,13 +25,14 @@ ht-degree: 78%
 
 1. 在管理员应用程序（面向管理员角色的UI）中，单击 **[!UICONTROL 设置]** > **[!UICONTROL 教室位置]**.
 
-1. 单击 **[!UICONTROL 添加更多]** 按钮。
+1. 点击 **[!UICONTROL 添加]** > **[!UICONTROL 新位置]**.
 
 1. 在&#x200B;**[!UICONTROL “教室位置”]**&#x200B;对话框中，输入以下详细信息：
 
-   * 输入&#x200B;**[!UICONTROL “教室位置名称”]**。 请使用唯一名称； 否则，Adobe Learning Manager 会显示错误消息。
+   * 键入 **[!UICONTROL 位置名称]**. 请使用唯一名称； 否则，Adobe Learning Manager 会显示错误消息。
    * 在&#x200B;**[!UICONTROL “位置信息”]**&#x200B;字段中输入位置描述。 该字段为可选项。
    * 输入&#x200B;**[!UICONTROL “位置 URL”]**。 学习者可以在教室详细信息中看到此信息。 如有需要，此 URL 也可以是地图位置 URL。 这是一个可选字段。
+   * 键入并选择 **[!UICONTROL 地点区域]**. 此字段为可选字段。
    * 在&#x200B;**[!UICONTROL “名额限制”]**&#x200B;字段中输入可用名额数。 此字段表示教室的座席容量。 实际创建讲师主导的培训活动时，可更改此值。
 
    ![](assets/add-classroom-location.png)
@@ -59,6 +59,8 @@ ht-degree: 78%
 
 该 **[!UICONTROL 今后的会议]** 字段显示 **零** 当教室未用于任何会话或教室与过去会话相关联时。
 
+**[!UICONTROL 名额限制]**  — 显示教室的座席容量。
+
 **位置URL**  — 创建教室位置时提供的URL。
 
 **位置信息**  — 创建教室时提供的教室信息。
@@ -67,7 +69,7 @@ ht-degree: 78%
 
 您还可以导入包含教室信息的 CSV，以此添加一个或多个教室位置。
 
-向内 **[!UICONTROL 管理员应用程序]** > **[!UICONTROL 设置]** > **[!UICONTROL 教室位置]**&#x200B;中，单击 **[!UICONTROL 导入位置CSV]** 按钮。 浏览至包含 CSV 文件的位置，然后选择该文件。
+向内 **[!UICONTROL 管理员应用程序]** > **[!UICONTROL 设置]** > **[!UICONTROL 教室位置]** > **[!UICONTROL 添加]**&#x200B;中，单击 **[!UICONTROL 批量导入位置]** 按钮。 浏览至包含 CSV 文件的位置，然后选择该文件。
 
 CSV 文件使用以下字段存储一个或多个教室位置的相关详细信息：
 

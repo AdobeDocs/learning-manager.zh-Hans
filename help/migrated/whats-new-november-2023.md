@@ -1,7 +1,8 @@
 ---
 title: 此版本中新增的功能
 description: 了解AdobeLearning Manager 2023年11月版的新增功能和增强功能。
-source-git-commit: 1b0a89bf14ed4e48c3da925686d5e2becd94e320
+exl-id: d670dc47-d57f-464a-bee8-064cc16e59f9
+source-git-commit: 447a4e041d74cf086afada3794ac08a04e70c2ca
 workflow-type: tm+mt
 source-wordcount: '2373'
 ht-degree: 70%
@@ -168,11 +169,48 @@ Adobe Learning Manager 改进了对支持客户和合作伙伴的帐户的建议
 
 自定义管理员可以根据定义的范围访问以下报告：
 
-| 报告 | 可用性 | 适用范围 |
+<table>
+    <tbody>
+        <tr>
+            <td>
+    <p style="text-align: left;"><b>报告</b></p></td>
+   <td>
+    <p style="text-align: left;"><b>可用性</b></p></td>
+   <td>
+    <p style="text-align: left;"><b>适用范围</b></p></td>
+        </tr>
+    <tr>
+   <td>
+    <p>内容审查追踪</p></td>
+   <td>
+    <p>是</p></td>
+   <td>
+    <p>完整目录</p></td>
+  </tr>
+  <tr>
+   <td>
+    <p>用户审查追踪</p></td>
+   <td>
+    <p>是</p></td>
+   <td>
+    <p>完整用户</p></td>
+  </tr>
+  <tr>
+   <td>
+    <p>登录访问权限</p></td>
+   <td>
+    <p>是</p></td>
+   <td>
+    <p>完整用户</p></td>
+  </tr>
+    </tbody>
+</table>
+
+<!--| Report | Available | Scope |
 |--- |--- |
-| 内容审查追踪 | 是 | 完整目录 |
-| 用户审查追踪 | 是 | 完整用户 |
-| 登录访问权限 | 是 | 完整用户 |
+| Content Audit Trail | Yes | Full Catalog |
+| User Audit Trail | Yes | Full User |
+|Login Access | Yes | Full User |-->
 
 ## 增强了 Connect 集成
 

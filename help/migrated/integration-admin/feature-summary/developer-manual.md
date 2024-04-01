@@ -3,14 +3,13 @@ jcr-language: en_us
 title: 应用程序开发人员手册
 description: Adobe Learning Manager V1 API 现已弃用。 V1 API 将自 2021 年 2 月 28 日起停用。我们建议您使用V2 API与Learning Manager交互。
 contentowner: jayakarr
-source-git-commit: 956c119a5650b535a906157dc4d36f2ff075cf01
+exl-id: fa9313ac-67de-4467-9253-7eeabcf14204
+source-git-commit: 447a4e041d74cf086afada3794ac08a04e70c2ca
 workflow-type: tm+mt
 source-wordcount: '3385'
 ht-degree: 62%
 
 ---
-
-
 
 # 应用程序开发人员手册
 

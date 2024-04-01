@@ -3,14 +3,13 @@ description: 要了解如何在 Adobe Learning Manager 中创建课程、认证�
 jcr-language: en_us
 title: 创建、修改和发布课程
 contentowner: manochan
-source-git-commit: 147e9edfe323f3d0851880cd401067daa1cee84f
+exl-id: c5257796-0afa-4021-bd17-d3f1e9a86948
+source-git-commit: 447a4e041d74cf086afada3794ac08a04e70c2ca
 workflow-type: tm+mt
 source-wordcount: '6843'
 ht-degree: 75%
 
 ---
-
-
 
 # 创建、修改和发布课程
 
@@ -70,6 +69,7 @@ Adobe Learning Manager 允许作者使用一个或多个与虚拟培训、自学
    注意：配置Adobe Commerce连接器后，此选项才会启用。
 
 1. 如果希望学习者能够取消注册您的课程，请选中&#x200B;**“学习者可自行取消注册”**&#x200B;复选框。
+
 1. **实例配置**
 
    如果启用此选项，则处于“进行中”状态的学习者可以访问其他实例并在那里注册。 学习者还可以保留上一个实例的进度。
@@ -898,4 +898,3 @@ Adobe Learning Manager 能让您轻松快速找到您想选择的课程。您可
 不能，上传到Learning Manager的内容是已发布的zip文件，而不是源文件。 因此，即使下载了内容，也无法在创作工具中进行编辑。 您需要源文件来编辑内容。
 
 +++
-

@@ -3,14 +3,13 @@ jcr-language: en_us
 title: 将 Adobe Learning Manager 与 AEM 集成
 description: Learning Manager是学习管理系统，具有内置的学习内容管理系统。 用户通过将学习内容上传至 Adobe Learning Manager 来对其进行管理，以便 Adobe Learning Manager 执行版本控制、将学习内容分配至相应课程、定义对学习者的可见性、跟踪使用情况并向管理员报告。
 contentowner: saghosh
-source-git-commit: 46afb6603456ced9d7e2aaf98d07ec92fee30c0b
+exl-id: 61fae7bd-1703-4ed1-9bd9-07387d67a91c
+source-git-commit: 447a4e041d74cf086afada3794ac08a04e70c2ca
 workflow-type: tm+mt
-source-wordcount: '1077'
+source-wordcount: '1078'
 ht-degree: 45%
 
 ---
-
-
 
 # 将 Adobe Learning Manager 与 AEM 集成
 

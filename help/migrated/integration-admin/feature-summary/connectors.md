@@ -4,7 +4,7 @@ jcr-language: en_us
 title: Adobe Learning Manager 连接器
 contentowner: jayakarr
 exl-id: 1f44934b-6a2b-484d-bc7f-d0f23e3008ca
-source-git-commit: 70d0d6acbcb84ea49539e3a295277cbc342b3246
+source-git-commit: 447a4e041d74cf086afada3794ac08a04e70c2ca
 workflow-type: tm+mt
 source-wordcount: '15302'
 ht-degree: 64%
@@ -897,7 +897,7 @@ Adobe Learning Manager 管理员可在导入用户前先对其过滤。例如，
 
    *创建连接*
 
-1. 如果要直接将miniOrnage用户导入成为Learning Manager内部用户，请使用 **[!UICONTROL 导入内部用户]** 选项。
+1. 如果要直接将miniOrange用户导入成为Learning Manager内部用户，请使用 **[!UICONTROL 导入内部用户]** 选项。
 
    ![](assets/import-users.png)
 

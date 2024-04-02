@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Adobe Learning Manager 连接器
 contentowner: jayakarr
 exl-id: 1f44934b-6a2b-484d-bc7f-d0f23e3008ca
-source-git-commit: 447a4e041d74cf086afada3794ac08a04e70c2ca
+source-git-commit: ec8d204ba7d85fab84c7d1db4a1ba741f363566c
 workflow-type: tm+mt
-source-wordcount: '15302'
-ht-degree: 64%
+source-wordcount: '15572'
+ht-degree: 63%
 
 ---
 
@@ -919,54 +919,54 @@ Adobe Learning Manager 管理员可在导入用户前先对其过滤。例如，
 
 1. 完成导入后，您将收到一条通知。如要查看或编辑导入日志，请单击&#x200B;**[!UICONTROL 用户 > 导入日志。]**
 
-#### 删除连接 {#deleteaconnection}
+<!-- #### Delete a connection {#deleteaconnection}
 
-要删除已建立的miniOrange连接，请执行以下步骤。
+To delete an established  miniOrange  connection, follow these steps. -->
 
-<!---## Video conferencing connectors (Bluejeans Meetings and Zoom) {#bluejeansconnector}
+## Zoom连接器 {#zoom-connector}
 
-You can now integrate Learning Manager with BlueJeans and Zoom connectors and use them to host classes.  The connector enables you to set up video conferencing meetings/classes with the learners.
+您可以将Learning Manager与Zoom连接器集成，并使用它们来主持课程。  通过该连接器，您可以与学习者一起设置视频会议会议/课程。
 
-To set up and use the connector, follow these steps.
+如要设置和使用连接器，请按照下列步骤操作。
 
-1. In Learning Manager  home page , hover the mouse over the BlueJeans/Zoom thumbnail. A menu appears. Click  **[!UICONTROL Connect]** option from the menu.
+1. 在Learning Manager主页中，将鼠标悬停在“缩放”缩览图上。 此时会显示菜单。点击  **[!UICONTROL Connect]** 选项。
 
-   ![](assets/connectors.png)
+   <!-- ![](assets/connectors.png)
 
-   *Zoom connector tile*
+   *Zoom connector tile* -->
 
-1. The BlueJeans/ Zoom connector page opens. Enter the details of your account into respective fields to integrate and synchronize the user feed. You can get the details from the administrator of your connector account.
+1. Zoom连接器页面即会打开。 在相应字段中输入帐户的详细信息，以集成和同步用户订阅源。 您可以从您连接器帐户的管理员处获取这些详细信息。
 
-   ![](assets/bluejeans-connecotrpage.png)
-   *Connect to BlueJeans/ Zoom*
+   <!-- ![](assets/bluejeans-connecotrpage.png)
+   *Connect to BlueJeans/ Zoom* -->
 
    >[!NOTE]
    >
-   >As a learner, while enabling the connector, use the same email id used for your Learning Manager account to enable user feeds back into Learning Manager.
+   >作为学习者，启用连接器时，应使用您的 Adobe Learning Manager 帐户所用的电子邮件 ID 来启用将用户订阅源发送回 Adobe Learning Manager。
 
-1. Once the connection is established, as an Author, create a VC course with BlueJeans/ Zoom as the conferencing system.
+1. 建立连接后，作为作者，即可使用Zoom创建VC课程作为会议系统。
 
-   ![](assets/vc.jpg)
+   <!-- ![](assets/vc.jpg)
    
-   *Create a VC course*
+   *Create a VC course* -->
 
-1. Administrators, managers, and learners can enroll learners  to  the created course. Upon enrollment, the learner receives an email. The learner can sign in to their Learning Manager account to view the program details and take the course.
-1. When the course is complete, the completion report is sent to Learning Manager. The administrator can see the completion report to check the attendance and score of the learners.
+1. 管理员、经理和学习者均可为已创建的课程注册学习者。 注册后，学习者会收到一封电子邮件。学习者便可登录其 Adobe Learning Manager 帐户来查看计划的详细信息，并参加课程学习。
+1. 课程完成后，完成报告将被发送至 Adobe Learning Manager。管理员可查阅完成报告，检查学习者的出勤和得分。
 
    ![](assets/attendence-and-scoringreport.png)
-   *Attendance and scoring report*
+   *出勤和得分报告*
 
-### Create a zoom server-to-server OAuth app
+### 创建缩放服务器到服务器OAuth应用程序
 
-When you create a Zoom Server-to-Server OAuth app to be used in Adobe Learning Manager, you must add scopes required by Adobe Learning Manager while creating the connection.
+创建用于AdobeLearning Manager的缩放服务器到服务器OAuth应用程序时，必须在创建连接时添加AdobeLearning Manager所需的范围。
 
-Adobe Learning Manager requires the scopes below and the scopes must be selected in the OAuth app.
+Adobe Learning Manager 需要获取以下范围，并且必须在 OAuth 应用中选择这些范围。
 
-* View all user meetings `/meeting:read:admin`
-* View and manage all user meetings `/meeting:write:admin`
-* View report data `/report:read:admin`
-* View all user information `/user:read:admin`
-* View users' information and manage users `/user:write:admin`-->
+* 查看所有用户会议 `/meeting:read:admin`
+* 查看和管理所有用户会议 `/meeting:write:admin`
+* 查看报告数据 `/report:read:admin`
+* 查看所有用户信息 `/user:read:admin`
+* 查看用户信息并管理用户 `/user:write:admin`
 
 ## Box 连接器 {#boxconnector}
 

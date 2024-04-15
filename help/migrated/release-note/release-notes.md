@@ -1,7 +1,7 @@
 ---
-description: AdobeLearning Manager发行说明
+description: Adobe Learning Manager发行说明
 jcr-language: en_us
-title: AdobeLearning Manager发行说明
+title: Adobe Learning Manager发行说明
 contentowner: jayakarr
 exl-id: ae9251b6-5326-42c2-881e-2ab3393d9e17
 source-git-commit: 5525aa6f5b4c795e4ffbd008e9fe865abfbe4980
@@ -11,7 +11,7 @@ ht-degree: 72%
 
 ---
 
-# AdobeLearning Manager发行说明
+# Adobe Learning Manager发行说明
 
 <!--<table>
  <tbody>
@@ -23,7 +23,7 @@ ht-degree: 72%
  </tbody>
 </table>-->
 
-+++更新96：AdobeLearning Manager 2024年3月版
++++更新96：Adobe Learning Manager 2024年3月版
 
 **发行日期：** 2024年3月16日
 
@@ -32,7 +32,7 @@ ht-degree: 72%
 查看[“Adobe Learning Manager 新增功能”](/help/migrated/whats-new.md)了解更多信息。
 +++
 
-+++更新95：AdobeLearning Manager 2023年11月版
++++更新95：Adobe Learning Manager 2023年11月版
 
 **发行日期：** 2023年11月18日
 
@@ -51,7 +51,7 @@ ht-degree: 72%
 * 在社交媒体上更改视频的质量和播放速度。
 +++
 
-+++更新93：AdobeLearning Manager 2023年7月版
++++更新93：Adobe Learning Manager 2023年7月版
 
 **发行日期：** 2023年7月10日
 
@@ -104,7 +104,7 @@ Adobe Learning Manager 引入了一个经改良的全新课程推荐系统。 �
 
 ### 本次更新中修复的错误
 
-* Play Store的AdobeLearning Manager移动应用程序描述错误的说明了学习者可以离线参加课程。
+* Play Store的Adobe Learning Manager移动应用程序描述误将学习者可离线参加课程。
 * 将内容（module_version.csv和course_module.csv）从LinkedIn迁移到AdobeLearning Manager时出现问题。
 * 如果帐户处于非活动状态且是在三年多前创建的，则无论用户的状态如何，该帐户的所有用户都将被GDPR删除。
 * 在讲师应用程序中，当您将会话中的轮候表限制设置为零并保存会话时，用户界面会错误显示“不适用”而非零。
@@ -145,7 +145,7 @@ Adobe Learning Manager 引入了一个经改良的全新课程推荐系统。 �
 
 **支持“混合”会话**
 
-AdobeLearning Manager现在支持创建“混合”讲师指导培训(ILT)会话。 可创建包含可选位置信息的虚拟 ILT 会话，以便学习者在位置方便的情况下也可以参加面对面会话。
+Adobe Learning Manager现在支持创建“混合”讲师指导培训(ILT)课程的功能。 可创建包含可选位置信息的虚拟 ILT 会话，以便学习者在位置方便的情况下也可以参加面对面会话。
 
 **更好地跟踪教室和虚拟ILT的进度**
 
@@ -375,7 +375,7 @@ Microsoft Teams 上的新 Adobe Learning Manager 应用程序旨在加强工作�
 
 **发行日期：** 2022年11月5日
 
-**注：** 在此版本的AdobeLearning Manager中，拥有非活动帐户的用户无法再使用子域访问其帐户。 可以使用帐户ID或通过使用acapindex.html页面并输入电子邮件ID来访问帐户。
+**注：** 在此版本的Adobe Learning Manager中，拥有非活动帐户的用户无法再使用子域访问其帐户。 可以使用帐户ID或通过使用acapindex.html页面并输入电子邮件ID来访问帐户。
 
 ### 此版本中新增的功能
 
@@ -468,11 +468,11 @@ Microsoft Teams 上的新 Adobe Learning Manager 应用程序旨在加强工作�
 * 学习者查看通知时会出现 HTML 代码，这会影响他们的使用体验。
 * 在信息板中，学习时间错误地显示为零小时。
 
-## 更新：AdobeLearning Manager将更名为AdobeLearning Manager
+## 更新： Adobe Learning Manager将更名为Adobe Learning Manager
 
 本次更新涉及即将发生的更改，并帮助您作好准备。
 
-**AdobeLearning Manager产品将于2022年7月更名为AdobeLearning Manager**. 这是一项战略工作，旨在更准确地反映产品与特定业务优先顺序的对应关系。
+**Adobe Learning Manager作为一种产品将于2022年7月更名为Adobe Learning Manager**. 这是一项战略工作，旨在更准确地反映产品与特定业务优先顺序的对应关系。
 
 产品团队正在采取一切措施，确保您使用平台时不会受到影响。 您可以继续照常使用产品。 7 月份，平台的管理员可能会在某些屏幕中注意到新的品牌名称。
 
@@ -779,7 +779,7 @@ Learning Manager为所有管理员和经理提供合规性信息板。 经理发
 
 +++更新66 - 2021年8月版Learning Manager
 
-该 **2021年8月** **Adobe学习管理器版本** 侧重于改进学习者体验、报告和管理工作流程。 其中一些亮点如下：
+该 **2021年8月** **Adobe Learning Manager版本** 侧重于改进学习者体验、报告和管理工作流程。 其中一些亮点如下：
 
 * **内容市场：** Learning Manager现提供70000多门来自不同领域的课程，如技术、管理、领导力等。
 * **增强的辅助功能支持：** 通过强化键盘导航、屏幕阅读器功能和对比度合规性，增强对学习者角色的辅助功能支持。
@@ -2034,7 +2034,7 @@ Adobe Learning Manager 移动应用程序现支持 Android 7 及更高版本的�
 
 2018 年 3 月版本的 Adobe Learning Manager 将推出诸多精彩的全新功能和增强功能。它为您带来了生成用户审核追踪报告和登录/访问报告等功能，可为学习者提供选择课程实例的功能，并增强了教室和虚拟教室的功能，等等。 此发行版还修复了一些错误并提升了整体性能。
 
-要阅读本发行版中的所有新增功能，请参阅  [AdobeLearning Manager新增功能](../whats-new.md).
+要阅读本发行版中的所有新增功能，请参阅  [Adobe Learning Manager的新增功能](../whats-new.md).
 
 ### 已知问题 {#KnownIssue-1}
 

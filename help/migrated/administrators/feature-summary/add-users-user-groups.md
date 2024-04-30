@@ -4,7 +4,7 @@ jcr-language: en_us
 title: 添加用户和创建用户组
 contentowner: manochan
 exl-id: 7df98f2b-c422-4733-8ce4-5489506d4fdf
-source-git-commit: b882c22da029cdc4c8bcc4ab1b6d861f06f83f0f
+source-git-commit: 11bdb71c7d584a69ce1bb5acafa7dbcebcdbfe85
 workflow-type: tm+mt
 source-wordcount: '4000'
 ht-degree: 62%
@@ -15,15 +15,22 @@ ht-degree: 62%
 
 了解如何在 Adobe Learning Manager 应用程序中添加用户或用户组。
 
+
 <!--![](assets/user-mgmt-new.png)-->
 
 ## 管理用户组
 
-在本培训中，您将了解如何按姓名、电子邮件ID以及合并多个自动生成的用户组来创建用户组。
+>[!INFO]
+>
+>在本培训中，您将了解如何按姓名、电子邮件ID以及合并多个自动生成的用户组来创建用户组。<br><br>
+[![按钮](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=QLD1P6BS&amp;mv=display&amp;mv2=display#/course/7555694)
+
+
+<!--[Launch training](https://learningmanager.adobe.com/app/learner?accountId=98632&sdid=QLD1P6BS&mv=display&mv2=display#/course/7555694)-->
 
 <!--In this training, you will learn how to create a user group by names, email IDs, and combining multiple auto-generated user groups.-->
 
-[![按钮](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=QLD1P6BS&amp;mv=display&amp;mv2=display#/course/7555694)
+<!--[![button](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&sdid=QLD1P6BS&mv=display&mv2=display#/course/7555694)-->
 
 如果您无法启动培训，请写信至 <almacademy@adobe.com>.
 
@@ -44,7 +51,7 @@ ht-degree: 62%
 
 ## 添加单个用户 {#addasingleuser}
 
-使用单个用户选项将内部学习者添加到AdobeLearning Manager。
+使用单个用户选项将内部学习者添加到Adobe Learning Manager。
 
 [![按钮](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=QGMZPB2T&amp;mv=display&amp;mv2=display#/course/7555534)
 
@@ -164,7 +171,7 @@ ht-degree: 62%
 
 如果您无法启动培训，请写信至 <almacademy@adobe.com>.
 
-AdobeLearning Manager的用户属性及其值需区分大小写。 **例如**，区分大小写时，用户属性为“location”，其值“PARIS”将予以保留并以相同方式显示。 如果出现任何问题，管理员现在可以编辑属性名称和值，以更正任何有关大小写的错误。
+Adobe Learning Manager保留用户属性及其值的大小写区分性。 **例如**，区分大小写时，用户属性为“location”，其值“PARIS”将予以保留并以相同方式显示。 如果出现任何问题，管理员现在可以编辑属性名称和值，以更正任何有关大小写的错误。
 
 管理员可以通过访问 **[!UICONTROL 管理员应用程序]** > **[!UICONTROL 用户]** > **[!UICONTROL 用户组]** 然后点击组名。
 

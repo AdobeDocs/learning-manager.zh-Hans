@@ -4,16 +4,16 @@ jcr-language: en_us
 title: 新功能摘要
 contentowner: jayakarr
 exl-id: 603f1f1c-bf8d-4807-b9f7-b10ded19a91e
-source-git-commit: 5828af43214a643b64153ed33c2858c13d9aca10
+source-git-commit: 68c5bad63c997162d5a8bab3003543d89e3959ad
 workflow-type: tm+mt
-source-wordcount: '3764'
+source-wordcount: '3861'
 ht-degree: 1%
 
 ---
 
 # 新功能摘要 {#new-features-summary}
 
-了解AdobeLearning Manager 2024年3月版的新增功能和增强功能。
+了解Adobe Learning Manager 2024年3月版的新增功能和增强功能。
 
 ## 此版本中新增的功能 {#whatsnewandchanged}
 
@@ -66,7 +66,7 @@ ht-degree: 1%
 
 #### 课程或学习路径
 
-如果注册数量很大，则AdobeLearning Manager不会显示学习者数量。 系统会显示一个图标，供您选择、查看学习者数量并导航至学习者页面。
+如果注册数量很大，Adobe Learning Manager将不会显示学习者数量。 系统会显示一个图标，供您选择、查看学习者数量并导航至学习者页面。
 
 学习者数量将显示为一个近似值。 例如，如果学习者数量超过50,000，则值将显示为50K+。
 
@@ -86,9 +86,9 @@ ht-degree: 1%
 
 ### 管理员 — 认证页面
 
-在AdobeLearning Manager的当前版本中，如果注册认证的用户数量较多，则自 **状态** 下拉菜单已禁用。
+在Adobe Learning Manager的当前版本中，如果注册认证的用户数量较多，则自 **状态** 下拉菜单已禁用。
 
-在此版本的AdobeLearning Manager中，如果注册用户数量较多， **状态** 下拉菜单仅显示两个选项 —  **已注册** 和 **取消注册**. 选项 **已注册** 默认情况下处于选中状态。 如果您选择 **取消注册**，此时会显示取消注册的学习者列表。
+在此版本的Adobe Learning Manager中，如果注册用户数量较多，则 **状态** 下拉菜单仅显示两个选项 —  **已注册** 和 **取消注册**. 选项 **已注册** 默认情况下处于选中状态。 如果您选择 **取消注册**，此时会显示取消注册的学习者列表。
 
 #### 用户组更改
 
@@ -235,7 +235,7 @@ ht-degree: 1%
 * 搜索栏的外观。
 * 在学习应用程序中添加了过滤器标签。
 
-要启用搜索功能，请联系AdobeLearning Manager的CSAM团队。
+要启用搜索功能，请与Adobe Learning Manager的CSAM团队联系。
 
 ## 用户界面更改 {#ui-changes}
 
@@ -287,7 +287,7 @@ ht-degree: 1%
 
 ## 清单增强功能
 
-在2024年3月版AdobeLearning Manager中，对清单工作流程进行了以下增强：
+在2024年3月版的Adobe Learning Manager中，对清单工作流程进行了以下增强：
 
 ### 不允许在未能通过核对表时取得进展
 
@@ -326,7 +326,7 @@ ht-degree: 1%
 * 新会话会添加到课程中，或者
 * 现有会话已更改。
 
-在2024年3月版AdobeLearning Manager中，新增更改如下：
+在Adobe Learning Manager 2024年3月版中，新增更改如下：
 
 * 已更新会话详细信息和会话邀请（适用于学习者和讲师）
    * 对于以后的会话，请发送电子邮件至 **已更新会话详细信息**， **会话邀请** 已注册的学习者和当前讲师的学习者体验将弃用。 对于过去的会话，请发送电子邮件至 **已更新会话详细信息** 和 **会话邀请** 对于已注册的学习者和当前讲师将保持原样。
@@ -344,7 +344,7 @@ ht-degree: 1%
 
 ### 隐藏讲师提交的内容
 
-学习者使用文件提交工作流程上传文件后，如果讲师未对提交内容执行任何操作（批准或拒绝），则会在预定义的天数后从视图中隐藏提交URL。 请联系AdobeLearning Manager的CSAM团队以设置或更改天数。
+学习者使用文件提交工作流程上传文件后，如果讲师未对提交内容执行任何操作（批准或拒绝），则会在预定义的天数后从视图中隐藏提交URL。 联系Adobe Learning Manager的CSAM团队以设置或更改天数。
 
 ### 产品术语更改
 
@@ -374,11 +374,11 @@ ht-degree: 1%
 
 在此版本中，状态更改为 **尚未标记**.
 
-### AdobeLearning Manager中的白色标签
+### Adobe Learning Manager中的白色标签
 
-AdobeLearning Manager移动应用程序现在支持白色标签 — 这意味着您现在可以发布自己的品牌推广应用程序。
+Adobe Learning Manager移动应用程序现在支持白色标签 — 这意味着您现在可以按自己的品牌发布该应用程序。
 
-在中查看白色标签 [AdobeLearning Manager移动应用程序](white-label.md) 了解更多信息。
+在中查看白色标签 [Adobe Learning Manager移动应用程序](white-label.md) 了解更多信息。
 
 ### 迁移CSV中的新列
 
@@ -388,7 +388,21 @@ AdobeLearning Manager移动应用程序现在支持白色标签 — 这意味着
 * course.csv
 * learning_program.csv
 
-uniqueLoId列不适用于工作辅助CSV。
+>[!NOTE]
+>
+>该 **uniqueLoId** 列是可选的。
+
+
+如果您要执行迁移以更新现有课程、学习计划或认证，请通过以下操作来更新课程、学习计划或认证： **uniqueLOID** s被添加到“作者”应用程序。
+
+迁移时，您必须更新 **uniqueLOID** 课程、学习计划或认证的CSV中的值，即使它是可选列。
+
+如果 **uniqueLoId** 在更新现有课程、学习计划或认证时，如果在执行迁移之前未添加列，则 **uniqueLOID** s，然后迁移后 **uniqueLOID** 值将被NULL值覆盖。
+
+>[!NOTE]
+>
+>uniqueLoId列不适用于工作辅助CSV。
+
 
 >[!IMPORTANT]
 >
@@ -399,21 +413,21 @@ uniqueLoId列不适用于工作辅助CSV。
 
 ### 应用程序评级
 
-学习者可以针对AdobeLearning Manager应用程序提供反馈，以进一步增强应用程序体验。 如果学习者给四星级或更多星级评分，则会显示弹出窗口，要求学习者在Play Store或App Store上为应用程序评分。
+学习者可以针对Adobe Learning Manager应用程序提供反馈，以进一步增强应用程序体验。 如果学习者给四星级或更多星级评分，则会显示弹出窗口，要求学习者在Play Store或App Store上为应用程序评分。
 
 ### Bluejeans的生命周期已于2024年2月结束(EOL)
 
 我们想告诉您，Bluejeans已于2024年2月生命周期结束(EOL)。 2024年2月之后，Bluejeans将不再收到更新或支持。 我们的CSAM和支持团队将为您解答在此过渡期内可能遇到的任何问题或顾虑。
 
-视图 [AdobeLearning Manager中的连接器](integration-admin/feature-summary/connectors.md) 有关配置连接器的详细信息。
+视图 [Adobe Learning Manager中的连接器](integration-admin/feature-summary/connectors.md) 有关配置连接器的详细信息。
 
 ### 登录访问报告更改
 
-Login Access报告仅在过去五个季度可用。 如果任何集成管理员请求按需下载与相关的统一导出 **登录访问权限** 如果选中，AdobeLearning Manager会显示错误消息。 但是，对其他报告没有影响。
+Login Access报告仅在过去五个季度可用。 如果任何集成管理员请求按需下载与相关的统一导出 **登录访问权限** 如果选中，Adobe Learning Manager将显示一条错误消息。 但是，对其他报告没有影响。
 
 ### ADFS更改
 
-根据映射，ADFS中的“员工类型”和“员工ID”字段现在可在AdobeLearning Manager上使用。
+基于映射，ADFS中的“员工类型”和“员工ID”字段现在可在Adobe Learning Manager上使用。
 
 ## 此版本中的 API 更改
 
@@ -513,7 +527,7 @@ learningObjectResource中的新属性isExpiredSubmission ，它显示资源中�
 
 ### 已弃用的API
 
-视图 [AdobeLearning Manager中的API弃用](api-deprecations-list.md) 以获取产品中所有已弃用API的累积列表。
+视图 [Adobe Learning Manager中的API弃用](api-deprecations-list.md) 以获取产品中所有已弃用API的累积列表。
 
 ## 本次更新中修复的错误 {#bug-fixes}
 
@@ -543,7 +557,7 @@ learningObjectResource中的新属性isExpiredSubmission ，它显示资源中�
 
 ## 系统要求
 
-视图 [AdobeLearning Manager系统要求](system-requirements.md).
+视图 [Adobe Learning Manager系统要求](system-requirements.md).
 
 ## Adobe Learning Manager 的早期版本
 

@@ -4,9 +4,9 @@ jcr-language: en_us
 title: 添加用户和创建用户组
 contentowner: manochan
 exl-id: 7df98f2b-c422-4733-8ce4-5489506d4fdf
-source-git-commit: 82a327fa4a472f58319528a11e427549bd4bd728
+source-git-commit: 18feaeb3a5d1995385a792696cdc536afaceac41
 workflow-type: tm+mt
-source-wordcount: '4000'
+source-wordcount: '3978'
 ht-degree: 62%
 
 ---
@@ -20,12 +20,12 @@ ht-degree: 62%
 
 ## 管理用户组
 
->[!INFO]
+<!-- >[!INFO]
 >
->在本培训中，您将了解如何按姓名、电子邮件ID以及合并多个自动生成的用户组来创建用户组。<br/><br/>
+>In this training, you will learn how to create a user group by names, email IDs, and combining multiple auto-generated user groups.
+[![button](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&sdid=QLD1P6BS&mv=display&mv2=display#/course/7555694) -->
+
 [![按钮](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=QLD1P6BS&amp;mv=display&amp;mv2=display#/course/7555694)
-
-
 <!--[Launch training](https://learningmanager.adobe.com/app/learner?accountId=98632&sdid=QLD1P6BS&mv=display&mv2=display#/course/7555694)-->
 
 <!--In this training, you will learn how to create a user group by names, email IDs, and combining multiple auto-generated user groups.-->

@@ -4,9 +4,9 @@ jcr-language: en_us
 title: 设置
 contentowner: manochan
 exl-id: a563d955-f67e-4218-88df-625cde673601
-source-git-commit: fb2d642c90fa36d3db15d7da99fe9c97908ce0e8
+source-git-commit: b72a838ede9fb299e5735539931fba2b85f59ef1
 workflow-type: tm+mt
-source-wordcount: '3985'
+source-wordcount: '3992'
 ht-degree: 65%
 
 ---
@@ -17,11 +17,16 @@ ht-degree: 65%
 
 您可以更改管理员个人资料设置并更新自己的帐户设置。查看个人资料信息，添加/更改个人资料照片并修改 **[!UICONTROL 关于我]** 内容。 更新公司信息，为用户设置登录方法，并通过帐户设置来设置连接集成。
 
-## 配置AdobeLearning Manager
+## 配置您的Adobe Learning Manager
 
 本培训介绍了帐户级别设置的基础知识。
 
 [![按钮](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=PYPVPSZY&amp;mv=display&amp;mv2=display#/course/7476018)
+
+>[!NOTE]
+>
+>这是一个示例按钮 <br>[![按钮](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=PYPVPSZY&amp;mv=display&amp;mv2=display#/course/7476018)</br>
+
 
 
 如果您无法启动培训，请写信至 <almacademy@adobe.com>.

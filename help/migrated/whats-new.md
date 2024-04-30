@@ -4,7 +4,7 @@ jcr-language: en_us
 title: 新功能摘要
 contentowner: jayakarr
 exl-id: 603f1f1c-bf8d-4807-b9f7-b10ded19a91e
-source-git-commit: 68c5bad63c997162d5a8bab3003543d89e3959ad
+source-git-commit: e21eb23c9b99ef5737ca105edede0eea7186ed02
 workflow-type: tm+mt
 source-wordcount: '3861'
 ht-degree: 1%
@@ -401,7 +401,7 @@ Adobe Learning Manager移动应用程序现在支持白色标签 — 这意味�
 
 >[!NOTE]
 >
->uniqueLoId列不适用于工作辅助CSV。
+>这栏， **uniqueLoId**，不适用于工作辅助CSV。
 
 
 >[!IMPORTANT]

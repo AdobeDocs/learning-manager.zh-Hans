@@ -3,10 +3,10 @@ description: 了解如何创建内容以作为与课程对应的自学内容。
 jcr-language: en_us
 title: 内容库
 exl-id: cc19eca6-6b47-44b2-ad23-2d7ad8975f65
-source-git-commit: c1231f48c87c14f7b3acd23b0c0d5e93f0cc692c
+source-git-commit: c006f4e231a2249acb53fdd915f0130fbed200f8
 workflow-type: tm+mt
-source-wordcount: '3124'
-ht-degree: 57%
+source-wordcount: '3239'
+ht-degree: 56%
 
 ---
 
@@ -234,7 +234,20 @@ WebVTT支持不可用于：
 1. 为测验添加徽标和背景。
 1. 在页面右上角，选择 **发布**.
 
-测验即会被添加到内容库。 与内容库中的任何内容一样，您可以弃用测验，然后将其删除。
+要以不同语言添加测验，请按照以下步骤操作：
+
+1. 要为不同的语言添加测验，请选择 **添加新语言** 选项卡，然后选择所需的语言。 使用此方法，您可以添加支持多种语言的内容。
+
+   ![](assets/add-new-languagetab.png)
+
+   *为内容添加新语言*
+
+1. 对其他新语言重复内容上传流程。
+1. 如果要删除一种语言，请选择 **[!UICONTROL 添加新语言]** 按Tab键，然后清除所选内容。
+
+   完成更改后，单击 **[!UICONTROL 保存]**. 现在，您就可以使用库中的新内容了。
+
+测试将添加到 **[!UICONTROL 内容库]**. 与内容库中的任何内容一样，您可以弃用测验，然后将其删除。
 
 
 ## 添加到文件夹 {#add-folder}
@@ -430,6 +443,11 @@ WebVTT支持不可用于：
 * 选择“操作 > 弃用”。
 
 任何学习对象中正在使用的内容不会受到影响。学习者仍可继续访问该内容。
+
+>[!NOTE]
+>
+>您还可以从 **[!UICONTROL 已弃用]** 部分，导航到 **[!UICONTROL 内容库]** > **[!UICONTROL 已弃用]** 并选择 **[!UICONTROL 添加内容]**. 有关更多详细信息，请参阅 [添加静态内容](content-library.md#addstaticcontent).
+
 
 ## 重新发布已弃用的内容 {#republishretiredcontent}
 

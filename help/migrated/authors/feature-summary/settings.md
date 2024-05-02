@@ -3,14 +3,13 @@ jcr-language: en_us
 title: 设置
 description: 查看个人资料信息，添加/更改个人资料照片并修改“关于我”内容。
 contentowner: manochan
-source-git-commit: 147e9edfe323f3d0851880cd401067daa1cee84f
+exl-id: 30a571de-22fc-4ce7-99c0-08e17665c340
+source-git-commit: c006f4e231a2249acb53fdd915f0130fbed200f8
 workflow-type: tm+mt
-source-wordcount: '85'
-ht-degree: 8%
+source-wordcount: '148'
+ht-degree: 4%
 
 ---
-
-
 
 # 设置
 
@@ -20,7 +19,13 @@ ht-degree: 8%
 
 ## 帐户设置 {#accountsettings}
 
-1. 单击右上角的下拉箭头，在照片/帐户旁边选择 **配置文件设置**.
-1. 在弹出对话框中，可以将鼠标悬停在照片上并单击 **编辑** 在个人资料照片区域。
+1. 选择右上角的下拉箭头，在照片/帐户旁边选择 **配置文件设置**.
+1. 在弹出对话框中，可以将鼠标悬停在照片上并选择 **编辑** 在个人资料照片区域。
 1. 添加/修改 **关于我** 点击它下面的文本区域。
+1. 修改以下设置：
+   * **界面语言**：可以从下拉菜单中选择ALM界面语言
+   * **内容语言**：您可以选择内容在播放器中显示的默认语言。 您可以在播放器中查看可用的语言。
+   * **时区**：选择时区
+   * **[!UICONTROL 偏好设置]**：单击模块即可注册并启动培训。
+   * 成绩单：您可以下载学习成绩单。
 1. 单击&#x200B;**[!UICONTROL “保存”]**。

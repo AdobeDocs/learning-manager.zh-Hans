@@ -2,14 +2,13 @@
 jcr-language: en_us
 title: 工作辅助
 description: 工作辅助是一个培训内容知识库，可供学习者访问，无需任何注册或完成标准。 学习者可参考这些工作辅助，获取在公司内执行任何活动或任务的相关协助。
-source-git-commit: 147e9edfe323f3d0851880cd401067daa1cee84f
+exl-id: c8e925ee-2e40-4a71-9b8e-42a1b49d01bc
+source-git-commit: c006f4e231a2249acb53fdd915f0130fbed200f8
 workflow-type: tm+mt
-source-wordcount: '514'
-ht-degree: 73%
+source-wordcount: '590'
+ht-degree: 66%
 
 ---
-
-
 
 # 工作辅助
 
@@ -35,6 +34,19 @@ ht-degree: 73%
 1. 单击&#x200B;**[!UICONTROL “保存”]**。
 
    此时即发布了工作辅助。
+
+## 添加不同语言的工作辅助 {#addcontentfordifferentlanguages}
+
+1. 要添加不同语言的工作辅助，请选择 **添加新语言** 选项卡，然后选择所需的语言。 使用此方法，您可以添加支持多种语言的内容。
+
+   ![](assets/add-new-languagetab.png)
+
+   *为内容添加新语言*
+
+1. 对新语言重复执行工作辅助上传流程。
+1. 如果要删除一种语言，请选择添加新语言选项卡，然后清除您的选择。
+
+   完成更改后，选择保存。
 
 ## 受支持的工作辅助类型 {#typesofsupportedjobaids}
 

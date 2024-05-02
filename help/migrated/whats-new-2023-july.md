@@ -2,9 +2,10 @@
 title: 此版本（2023年7月）的新增功能
 description: 了解 Adobe Learning Manager 中的新功能和增强功能
 hidefromtoc: true
-source-git-commit: c55f9448082c9971c065eec95b59992db95e53dc
+exl-id: c6f192b6-f377-47b2-9151-516ac8179543
+source-git-commit: f9b8fbb8ae2ac1a197ccc3e7766a645c7d9e8078
 workflow-type: tm+mt
-source-wordcount: '2052'
+source-wordcount: '2059'
 ht-degree: 67%
 
 ---
@@ -59,7 +60,7 @@ argument_object=
 
 ## Outlook中针对课堂和虚拟会话的提醒
 
-通过AdobeLearning Manager创建、已添加到学习者Outlook日历中的教室和虚拟教室会话，现在支持来自Outlook的提醒（与Outlook中的会议提醒类似）。
+在Adobe Learning Manager中创建的已添加到学习者Outlook日历中的教室和虚拟教室会话，现在支持来自Outlook的提醒（与Outlook中的会议提醒类似）。
 
 ## 为课程指定技能的增强功能
 
@@ -530,7 +531,11 @@ Ids = 要删除的 ID 列表
 
 在此版本中，我们为英语区域设置添加了词干，其中包括以下变体 — en_US、en_AU、en_GB。
 
-如果搜索结果中要求词干提取，则会提及词干属性。 默认情况下，该选项设置为False
+如果搜索结果中要求词干提取，则会提及词干属性。 默认情况下，该选项设置为False。
+
+API查询参数：
+
+matchType=phrase_and_match stemmed=true
 
 ### 删除 V1 端点
 

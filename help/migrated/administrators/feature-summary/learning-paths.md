@@ -4,9 +4,9 @@ title: 学习路径
 description: 在 Adobe Learning Manager 中为管理员创建学习计划。
 contentowner: saghosh
 exl-id: 31f1d66f-4da1-49d2-8ec1-995fd2ebeadb
-source-git-commit: b882c22da029cdc4c8bcc4ab1b6d861f06f83f0f
+source-git-commit: 6f23c53b14d2c787e1c6ecb4eea9a3dc06f8e584
 workflow-type: tm+mt
-source-wordcount: '1941'
+source-wordcount: '1970'
 ht-degree: 42%
 
 ---
@@ -56,6 +56,10 @@ ht-degree: 42%
 ![](assets/add-skills.png)
 
 为“学习路径”分配徽章。 从可用徽章列表中挑选一枚徽章。
+
+从中选择产品、角色和角色级别 **[!UICONTROL 推荐]** 部分，向对这些产品和角色表示感兴趣的用户推荐此学习路径。
+
+![](assets/recommend-for.png)
 
 选择章节和培训的排序类型，根据个人喜好选择“有序”或“无序”。
 

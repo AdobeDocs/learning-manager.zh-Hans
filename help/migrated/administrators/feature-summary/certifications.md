@@ -3,14 +3,13 @@ description: 了解如何创建认证、注册学习者和编辑已发布的认�
 jcr-language: en_us
 title: 认证
 contentowner: manochan
-source-git-commit: 0052ccb2f5a8f9617bca2c7bad91c0cd18338b66
+exl-id: 406d1c33-aac3-47e1-9b32-83874976ce54
+source-git-commit: 6f23c53b14d2c787e1c6ecb4eea9a3dc06f8e584
 workflow-type: tm+mt
-source-wordcount: '991'
-ht-degree: 70%
+source-wordcount: '1020'
+ht-degree: 68%
 
 ---
-
-
 
 # 认证
 
@@ -103,6 +102,10 @@ ht-degree: 70%
  </tbody>
 </table>
 
+从中选择产品、角色和角色级别 **[!UICONTROL 推荐]** 部分，向对这些产品和角色表示感兴趣的用户推荐此学习路径。
+
+![](assets/recommend-for.png)
+
 选择要添加至认证的课程 **[!UICONTROL 课程]** > **[!UICONTROL 目录]** 选项卡。
 
 将鼠标悬停在每个课程磁贴上，单击+以将其添加到认证中。 点击 **[!UICONTROL 预览]** 在添加课程之前，以学习者身份查看课程。
@@ -165,6 +168,8 @@ ht-degree: 70%
 要编辑已发布的认证，请单击认证卡，然后单击 **[!UICONTROL 编辑]** 在页面的右上角。
 
 在编辑认证的各部分内容时，如果必须移出页面，则需要重新发布认证。此时会显示确认对话框，要求您重新发布认证。
+
+![](assets/edit-a-certificate.png)
 
 ## 订阅 {#subscription}
 

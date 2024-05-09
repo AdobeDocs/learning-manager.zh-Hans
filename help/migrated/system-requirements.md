@@ -1,61 +1,17 @@
 ---
 jcr-language: en_us
 title: 系统要求
-description: AdobeLearning Manager系统要求
+description: Adobe Learning Manager系统要求
 contentowner: dvenkate
-source-git-commit: 1b90528ec5675c67dcc9b8d86f2a5b8b82f7f5e4
+exl-id: 3bf9818a-4b86-47e9-9b86-1c32b8bfee3a
+source-git-commit: 037619bb6157f6b4fc3a739571f4766b2d634900
 workflow-type: tm+mt
-source-wordcount: '611'
+source-wordcount: '565'
 ht-degree: 65%
 
 ---
 
-
-# AdobeLearning Manager系统要求
-
-## Windows {#windows}
-
-Microsoft Windows 7、8、10（仅限64位版本）。
-
-## macOS {#macos}
-
-macOS X 10.12、10.13、10.14、10.15
-
-## 内存
-
-建议使用 8 GB 或更大。
-
-## 显示屏
-
-支持的最低分辨率：1024 x 720。
-
-## 磁盘空间
-
-至少需要 5 GB 可用硬盘空间。
-
-## 录制内容
-
-* 音频录制需要麦克风。
-* 视频录制需要网络摄像头。
-
-## 其他
-
-使用该应用程序时需要连接互联网并使用 Adobe Learning Manager 学习者帐户。
-
-## 浏览器要求
-
-IE 11 浏览器不支持沉浸式布局主页。
-
-* Google Chrome 43 及更高版本。
-* Edge、Safari（版本 13 及更高版本）及 Firefox 的最新版本。
-* Internet Explorer版本11及更高版本
-
-## 推荐的图像大小 {#recommendedsizeofimages}
-
-* 刊头：1280 x 360 像素。
-* 目录卡中的图像：280 x 100像素
-* 训练卡大小：300 x 240像素
-* 社交横幅：1600 x 240 像素
+# Adobe Learning Manager系统要求
 
 ## 桌面
 
@@ -114,6 +70,25 @@ Intel® CoreTM i5或更快版本。
 >[!NOTE]
 >
 >Adobe Learning Manager 移动应用程序仅支持学习者角色。
+
+## 其他
+
+使用该应用程序时需要连接互联网并使用 Adobe Learning Manager 学习者帐户。
+
+## 浏览器要求
+
+IE 11 浏览器不支持沉浸式布局主页。
+
+* Google Chrome 43 及更高版本。
+* Edge、Safari（版本 13 及更高版本）及 Firefox 的最新版本。
+* Internet Explorer版本11及更高版本
+
+## 推荐的图像大小 {#recommendedsizeofimages}
+
+* 刊头：1280 x 360 像素。
+* 目录卡中的图像：280 x 100像素
+* 训练卡大小：300 x 240像素
+* 社交横幅：1600 x 240 像素
 
 ## 最大内容大小 {#maximumcontentsize}
 

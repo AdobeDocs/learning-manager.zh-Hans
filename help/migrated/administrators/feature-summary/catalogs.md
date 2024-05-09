@@ -4,9 +4,9 @@ title: 目录
 description: 目录包含学习内容 — 课程、学习计划和认证。 目录用于向学习者提供访问自定义学习集的权限。 您可以在创建新目录时将学习与目录相关联。
 contentowner: manochan
 exl-id: 5c4c147f-d389-4d8a-9480-5f3254d1aadf
-source-git-commit: b882c22da029cdc4c8bcc4ab1b6d861f06f83f0f
+source-git-commit: 037619bb6157f6b4fc3a739571f4766b2d634900
 workflow-type: tm+mt
-source-wordcount: '2429'
+source-wordcount: '2453'
 ht-degree: 75%
 
 ---
@@ -56,7 +56,7 @@ ht-degree: 75%
    *创建目录*
 
    您可以添加多个课程到目录。
-
+1. 您可以按技能、角色和语言筛选课程。 选定的课程会推荐给对这些技能和角色感兴趣的学习者。
 1. 保存更改。 返回目录列表，然后单击列表中的新目录。
 1. 在新目录的页面上，单击左窗格中的&#x200B;**[!UICONTROL “内容”]**。
 
@@ -134,7 +134,7 @@ ht-degree: 75%
 
 ### 共享目录
 
-本培训将教您如何与内部用户组和外部AdobeLearning Manager帐户共享目录。
+本培训将教您如何与内部用户组和外部Adobe Learning Manager帐户共享目录。
 
 [![按钮](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=PGRQQ9SP&amp;mv=display&amp;mv2=display#/course/8318924)
 

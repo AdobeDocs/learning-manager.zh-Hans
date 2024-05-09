@@ -3,14 +3,13 @@ jcr-language: en_us
 title: 管理 CSV 文件中的自定义角色
 description: 集成管理员可以通过 CSV 在其账户中批量添加多个自定义角色，并可将相应的角色分配给不同的用户。此方法可以自动创建相关自定义角色。
 contentowner: saghosh
-source-git-commit: ab6737e8b43222a6538921b0628a504a5f15859d
+exl-id: fce2f457-2834-491a-8331-64086f5a51b5
+source-git-commit: 0d318715e120b20b27f4876ad47868bef47bdb7c
 workflow-type: tm+mt
-source-wordcount: '908'
-ht-degree: 86%
+source-wordcount: '907'
+ht-degree: 83%
 
 ---
-
-
 
 # 管理 CSV 文件中的自定义角色
 
@@ -18,7 +17,7 @@ ht-degree: 86%
 
 您可以通过 Adobe Learning Manager FTP 和 Box 连接器来配置角色。
 
-在登录 Box 或 ExaVault 存储账户后，集成管理员可以在账户中添加以下 csv：
+登录Box存储帐户后，集成管理员可以在帐户中添加以下csv：
 
 * role.csv
 * user_role.csv
@@ -26,7 +25,8 @@ ht-degree: 86%
 要开始使用，请下载 csv 并根据您的要求更改相应的值。
 
 **role.csv**
-[示例文件 — role.csv](assets/role.csv) [示例文件 — user_role.csv](assets/user-role.csv)
+* 示例文件： [role.csv](assets/role.csv)
+* 示例文件： [user_role.csv](assets/user_role.csv)
 
 <table>
  <tbody>
@@ -143,7 +143,7 @@ ht-degree: 86%
 * 学习计划
 * 电子邮件模板
 
-## 在帐户中添加角色 CSV {#addtherolecsvsintheaccount}
+## 在帐户中添加角色CSV {#addtherolecsvsintheaccount}
 
 在 Box 帐户中，选择&#x200B;**“导入 > 用户 > 内部”**，然后上传文件 role.csv 和 user_role.csv。
 

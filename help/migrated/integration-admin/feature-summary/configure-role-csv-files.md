@@ -4,7 +4,7 @@ title: 管理 CSV 文件中的自定义角色
 description: 集成管理员可以通过 CSV 在其账户中批量添加多个自定义角色，并可将相应的角色分配给不同的用户。此方法可以自动创建相关自定义角色。
 contentowner: saghosh
 exl-id: fce2f457-2834-491a-8331-64086f5a51b5
-source-git-commit: 0d318715e120b20b27f4876ad47868bef47bdb7c
+source-git-commit: 5f2b5fb60856b77b53edaea014639087eb1a8fcf
 workflow-type: tm+mt
 source-wordcount: '907'
 ht-degree: 83%

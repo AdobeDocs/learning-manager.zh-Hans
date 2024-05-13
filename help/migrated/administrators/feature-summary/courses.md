@@ -4,7 +4,7 @@ jcr-language: en_us
 title: 创建课程模块、实例和学习计划
 contentowner: manochan
 exl-id: aba7417b-26a0-4160-878c-5814f84e5155
-source-git-commit: b882c22da029cdc4c8bcc4ab1b6d861f06f83f0f
+source-git-commit: d13c8ffc2168d51cc6961ad8d502de36955024b7
 workflow-type: tm+mt
 source-wordcount: '4613'
 ht-degree: 65%
@@ -25,9 +25,10 @@ ht-degree: 65%
 
 ### 管理实例
 
-在本培训中，您将了解如何编辑实例详细信息和实例属性。
+>[!INFO]
+>
+>在本培训中，您将了解如何编辑实例详细信息和实例属性。<br><br>[![按钮](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=P79NQK8R&amp;mv=display&amp;mv2=display#/course/8318912)</br></br>
 
-[![按钮](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=P79NQK8R&amp;mv=display&amp;mv2=display#/course/8318912)
 
 如果您无法启动培训，请写信至 <almacademy@adobe.com>.
 
@@ -638,7 +639,7 @@ Adobe Learning Manager 管理员可以向学习者分享二维码，以便快速
 
 **已弃用**  — 发布课程后，如果作者不希望课程继续显示在学习者的课程目录中，可将其移动至弃用状态。 在此状态下，您也可以重新发布或删除课程。
 
-**已删除**  — 课程从AdobeLearning Manager应用程序中完全移除后，即显示为删除状态。 课程只有处于草稿状态时，作者才能将其删除。您还可以从已弃用状态中删除课程。
+**已删除**  — 课程从Adobe Learning Manager应用程序中完全移除后，即为删除状态。 课程只有处于草稿状态时，作者才能将其删除。您还可以从已弃用状态中删除课程。
 
 ![](assets/lifecycle-03.png)
 

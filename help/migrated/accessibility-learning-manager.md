@@ -4,14 +4,13 @@ title: Adobe Learning Manager 中的辅助功能
 description: 本文档概述 Adobe Learning Manager 学习管理系统为残障学习者提供的辅助功能支持。它还为用户提供平台的导航选项和辅助功能。
 contentowner: saghosh
 preview: true
-source-git-commit: 92b3c83ec04de927f9066db6b79e8b19872d2b46
+exl-id: 1c26c12f-e63e-4d28-b28a-b1e3597d7ce1
+source-git-commit: 6f7442f2cfa4bc8c564e1eccc3a6aabf00958d77
 workflow-type: tm+mt
 source-wordcount: '932'
 ht-degree: 71%
 
 ---
-
-
 
 # Adobe Learning Manager 中的辅助功能
 
@@ -19,7 +18,7 @@ ht-degree: 71%
 
 Learning Manager遵循W3C的WCAG 2.1 A级和AA级平台辅助功能标准。
 
-AdobeLearning Manager的“学习者”角色支持学习者探索此平台并利用以下关键辅助功能：
+Adobe Learning Manager的“学习者”角色支持学习者探索此平台并利用以下关键辅助功能：
 
 * 屏幕阅读器
 * 键盘
@@ -151,8 +150,8 @@ Adobe Learning Manager 的“学习者”角色还支持其他几项辅助功能
 
 有关更多信息，请参阅：
 
-* [学习者的辅助功能一致性报告](https://www.adobe.com/accessibility/compliance/adobe-captivate-prime-web-2019-learner-portal-acr.html)
-* [所有角色的辅助功能一致性报告](https://www.adobe.com/accessibility/compliance/adobe-captivate-prime-web-2019-acr.html)
+* [学习者的辅助功能一致性报告](https://www.adobe.com/accessibility/compliance/adobe-captivate-prime-web-2022-learner-portal-acr.html)
+* [所有角色的辅助功能一致性报告](https://www.adobe.com/accessibility/compliance/adobe-captivate-prime-web-2022-acr.html)
 
 ## Learning Manager热门工作流程（学习者角色） {#captivateprimetopworkflowslearnerrole}
 
@@ -168,7 +167,7 @@ Adobe Learning Manager 的“学习者”角色还支持其他几项辅助功能
 
 1. 确定培训后，点击 `kbd ENTER`以导航至培训页面。
 
-## 在AdobeLearning Manager中使用培训 {#consumeatraininginadobecaptivateprime}
+## 在Adobe Learning Manager中使用培训 {#consumeatraininginadobecaptivateprime}
 
 1. 确定培训后，使用 `kbd Tab`或 `kbd Shift + Tab` 导航至注册/开始按钮。 按钮状态取决于该培训的注册状态。
 

@@ -1,19 +1,19 @@
 ---
 jcr-language: en_us
-title: Adobe Learning Manager 中的 API 弃用
-description: 随着 Adobe Learning Manager 中 API 的发展，API 会定期重组或升级。 当 API 发展时，旧的 API 将被弃用并最终被删除。 此页面包含从已弃用的 API 版本迁移到更新、更稳定的 API 版本时需要了解的信息。
+title: Adobe Learning Manager中的API弃用
+description: 随着Adobe Learning Manager中API的发展，API会定期进行重新组织或升级。 当API不断发展变化时，旧版API会遭到弃用并最终被删除。 本页包含从已弃用的API版本迁移到更新且更稳定的API版本时需要了解的信息。
 contentowner: saghosh
-source-git-commit: 01cdcd816fe101af55adf0902f4e3660a1a098ce
+exl-id: 0fe9a3cb-9114-42d6-81ae-1a4f28c984fa
+source-git-commit: dd0b8aecbe54d6aecf17e4d9acec5769e7302ecd
 workflow-type: tm+mt
-source-wordcount: '847'
-ht-degree: 21%
+source-wordcount: '897'
+ht-degree: 20%
 
 ---
 
+# Adobe Learning Manager中的API弃用和更改
 
-# Adobe Learning Manager 中的 API 弃用和更改
-
-## API在AdobeLearning Manager 2024年3月版中的弃用功能
+## Adobe Learning Manager 2024年3月版中的API弃用
 
 <!-- ### Changes in Rate Limits
 
@@ -53,13 +53,13 @@ The following table lists the rate and burst limits for the APIs.
 </table>
 -->
 
-### 对偏移限制的更改
+### 偏移限制的更改
 
-由于偏移值检索了大量记录并降低了整体性能，因此我们强制实施了 500 **条记录的限制**。在下一版本中，对于管理员和学习者， **GET 用户** API 最多 **将返回 500** 条记录。
+由于偏移值检索到大量记录并减慢了整体性能，因此我们强制实施了 **500** 记录。 在下一版本中，管理员和学习者均 **GET用户** API最多可返回 **500** 记录。
 
-如果需要获取更多记录，请使用 **GET 作业** API。
+如果需要获取更多记录，请使用 **GET职位** API。
 
-抵消限制的更改适用于所有新客户。 对于现有客户，适用 90 天规则。
+对方限额之变动适用于所有新客户。 对于现有客户，适用90天规则。
 
 ### 排除路径
 
@@ -87,8 +87,8 @@ The following table lists the rate and burst limits for the APIs.
    * 新路径：
       * enrollment.instances.subLoInstances
 
-* /入学 人数
-   * 弃用路径：
+* /enrollments
+   * 已弃用的路径：
       * loInstance.learningObject.enrollment
    * 新路径：
       * loInstance.learningObject
@@ -103,9 +103,9 @@ The following table lists the rate and burst limits for the APIs.
 
 目前，在学习对象摘要端点中，您将获取所有可能实例的数量。 例如，对于某个课程，您可以在响应中查看注册和轮候表的数目， **GET/learningObjects/{loId}/instances/{loInstanceId}/summary**. 然后，您可以在响应中查看completionCount和enrollmentCount。 如果课程是虚拟教室或教室，您还可以查看其名额限制和轮候表限制。
 
-检索完成和注册计数的过程计算上很昂贵，因此计算是在请求的基础上进行的。 如果缓存中不存在数据，则会重新加载数据，这会占用大量计算。 如果注册了某个课程的用户很多，则计数将会很大，并且会切实影响 CPU 性能。
+检索完成和注册计数的过程计算上很昂贵，因此计算是在请求的基础上进行的。 如果高速缓存中不存在数据，则会重新加载数据，这会占用大量计算资源。 如果课程中有许多用户注册，则课程数量会很大，并会对CPU性能产生有效影响。
 
-在下一版本的 Adobe Learning Manager 的 LO 实例摘要端点中，将缓存 completionCount、enrollmentCount、seatLimit 和 waitlistCount。 缓存的信息将一直保留到注册或取消注册发生更改为止。 对于超过1000个注册的帐户，我们将假定这些估计帐户，并使所有现有帐户和新帐户的结果无效。
+在下一个版本的Adobe Learning Manager中，学习对象实例摘要端点中的completionCount、enrollmentCount、seatLimit和waitlistCount会进行缓存。 在注册或取消注册发生更改之前，缓存信息会一直保留。 对于超过1000个注册的帐户，我们将假定这些估计帐户，并使所有现有帐户和新帐户的结果无效。
 
 >[!NOTE]
 >
@@ -113,7 +113,7 @@ The following table lists the rate and burst limits for the APIs.
 
 ### 按名称排序
 
-在下一版本的 Adobe Learning Manager 中，以下 API 的排序字段中弃用了 name 和 –name：
+在Adobe Learning Manager的下一个版本中，以下API的排序字段中的name和 — name已弃用：
 
 * GET/userGroups/{userGroupId}/users
 * GET/users
@@ -123,11 +123,11 @@ The following table lists the rate and burst limits for the APIs.
 >对于所有现有帐户和新帐户，不再支持按名称和 — name排序。
 
 
-## API在AdobeLearning Manager 2023年11月版中的弃用功能
+## Adobe Learning Manager 2023年11月版中的API弃用
 
 ### 覆盖标志
 
-在2023年11月版AdobeLearning Manager中，我们已停用API的覆盖标志。 覆盖标志不是公共 API 规范的一部分，旨在用于后端测试。 现已停止为学习者 API 应用该标志。 但是，该标记对管理员 API 仍然有效。
+在2023年11月版Adobe Learning Manager中，我们已停止使用API中的override标志。 覆盖标志不是公共 API 规范的一部分，旨在用于后端测试。 现已停止为学习者 API 应用该标志。 但是，该标记对管理员 API 仍然有效。
 
 我们之所以弃用“学习者API”旗标，是因为覆盖旗标正通过“学习者API”获取大量数据。
 
@@ -135,7 +135,7 @@ The following table lists the rate and burst limits for the APIs.
 
 _/primeapi/v2/users？page[偏移]=0&amp;page[限制]=10&amp;sort=id&amp;override=TRUE_
 
-### 基于技能的新建议的 API 更改
+### 针对基于技能的新建议的API更改
 
 Adobe Learning Manager 改进了对支持客户和合作伙伴的帐户的建议。 推荐算法的改进以及课程、学习路径和认证排名算法的变化为内容发现提供了更好的用户体验。
 
@@ -143,8 +143,13 @@ Adobe Learning Manager 改进了对支持客户和合作伙伴的帐户的建议
 
 配对组现在已成为帐户，学习者将看到一个显示组内趋势主题的字符串。 所有建议都附有说明。 例如，如果您正在查看有关某个主题的内容，信息条上的信息卡将显示建议该课程的原因。
 
-### 通知公告报告的变化
+### 通知公告变更报告
 
-在早期版本的 Adobe Learning Manager 中，通知通知报告没有任何过滤器。 Adobe Learning Manager 已下载帐户中的所有通知。
+在Adobe Learning Manager的早期版本中，“通知公告”报告没有任何过滤器。 Adobe Learning Manager 已下载帐户中的所有通知。
 
-在 2023 年 11 月版本中，我们添加了一个日期筛选器，您可以使用该筛选器在指定时间段内下载通知。  但是，您只能下载过去六个月的报告。
+在2023年11月版中，我们添加了一个日期过滤器，您可以使用该过滤器在指定时间段内下载通知。  但是，您只能下载最近六个月的报告。
+
+### GET/users终结点中的高偏移值已弃用
+
+为了改进系统性能并更有效地管理资源利用率，Adobe在GET/users端点中为两者都弃用了高偏移值 **管理员** 和 **学习者** 范围。 我们建议使用 **作业API** 以检索具有偏移值的记录。
+

@@ -4,10 +4,10 @@ jcr-language: en_us
 title: 创建课程模块、实例和学习计划
 contentowner: manochan
 exl-id: aba7417b-26a0-4160-878c-5814f84e5155
-source-git-commit: d13c8ffc2168d51cc6961ad8d502de36955024b7
+source-git-commit: dee0b611b2c3bae05bfabfb7a6df82b8bcb81b6c
 workflow-type: tm+mt
-source-wordcount: '4613'
-ht-degree: 65%
+source-wordcount: '4659'
+ht-degree: 64%
 
 ---
 
@@ -96,6 +96,18 @@ ht-degree: 65%
    *恢复实例*
 
 1. 该实例现在恢复为活动模式。
+
+## 删除实例
+
+管理员可使用以下方式删除实例 **删除此实例** 选项。 如果存在与之链接的会话或任何学习者已注册该会话，则无法删除实例。
+
+![](assets/delete-this-instance.png)
+
+*删除实例*
+
+>[!NOTE]
+>
+>不能删除默认实例。
 
 ## 发送实例级电子邮件
 

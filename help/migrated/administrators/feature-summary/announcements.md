@@ -2,14 +2,13 @@
 jcr-language: en_us
 title: 公告
 description: 公告是一种多媒体消息(文本、图像或视频)，由管理员向一组特定用户进行广播。
-source-git-commit: 0052ccb2f5a8f9617bca2c7bad91c0cd18338b66
+exl-id: 313ac2c6-05c0-4941-8d71-9c664099bb5c
+source-git-commit: 69ef7d1e27fac3db49cbb4b9f9403f74e146efb5
 workflow-type: tm+mt
-source-wordcount: '1018'
-ht-degree: 70%
+source-wordcount: '1021'
+ht-degree: 69%
 
 ---
-
-
 
 # 公告
 
@@ -29,6 +28,11 @@ ht-degree: 70%
 1. 作为管理员用户，单击左侧窗格中的“公告” 。
 1. 单击页面右上角的“添加”。
 1. 从“类型”下拉列表中，选择 **“作为通知”** 选项。
+
+![](assets/as-notofocation.png)
+
+*自定义通知*
+
 1. 在“消息”字段中，添加公告内容。 您还可以在此处为公告添加 URL。 但是，您所添加的 URL 必须为 HTML 格式。
 
    例如，  `code <a href="http://www.w3schools.com" target="_blank">Visit W3Schools</a>.`

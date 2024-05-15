@@ -4,10 +4,10 @@ title: 学习路径
 description: 在 Adobe Learning Manager 中为管理员创建学习计划。
 contentowner: saghosh
 exl-id: 31f1d66f-4da1-49d2-8ec1-995fd2ebeadb
-source-git-commit: 6f23c53b14d2c787e1c6ecb4eea9a3dc06f8e584
+source-git-commit: 69ef7d1e27fac3db49cbb4b9f9403f74e146efb5
 workflow-type: tm+mt
-source-wordcount: '1970'
-ht-degree: 42%
+source-wordcount: '1329'
+ht-degree: 37%
 
 ---
 
@@ -49,17 +49,27 @@ ht-degree: 42%
 
 *添加新学习路径*
 
+在 **注册类型** 选项，选择 **自行注册** 或 **管理员注册**.
+
+>[!NOTE]
+>
+>如果您选择 **管理员注册** 或者，学习者只能看到经理指派或经理批准的课程。 学习者将无法在“推荐”部分中查看学习路径。
+
 创建“学习路径”后，选择新创建的“学习路径”，并在路径中添加课程。
 
 您可以添加技能并为“学习路径”分配徽章。 要添加技能，请从中选择所需技能 **[!UICONTROL 挑选技能]** 下拉列表。 然后选择一项或多项技能的级别。
 
 ![](assets/add-skills.png)
 
+*添加技能*
+
 为“学习路径”分配徽章。 从可用徽章列表中挑选一枚徽章。
 
 从中选择产品、角色和角色级别 **[!UICONTROL 推荐]** 部分，向对这些产品和角色表示感兴趣的用户推荐此学习路径。
 
 ![](assets/recommend-for.png)
+
+*推荐*
 
 选择章节和培训的排序类型，根据个人喜好选择“有序”或“无序”。
 
@@ -141,6 +151,20 @@ ht-degree: 42%
 
 系统会根据上述选项触发通知提醒。 默认情况下，选项 **[!UICONTROL 所有级别的课程和学习路径]** 已为实例启用。
 
+## 订阅
+
+您可以订阅各个学习路径，以直接在您的收件箱中接收包括测验分数和学习者状态在内的完整数据。
+
+请执行以下步骤：
+
+1. 转到“任何学习路径”>“订阅”。
+1. 选择“添加更多”。
+1. 选择详细信息，并键入接收报告的电子邮件ID。
+
+![](assets/subscriptions.png)
+
+*订阅单个学习路径*
+
 ## 重要说明
 
 请注意，发布之后，现有的“学习计划”功能将更名为“学习路径”。 如果您希望继续将其称为“学习计划”，我们建议您使用“术语”功能应用所需术语。 您可以此种方式继续使用“学习计划”一词。
@@ -151,76 +175,76 @@ ht-degree: 42%
 
 该 **[!UICONTROL 设置]** > **[!UICONTROL 常规]** 页面中存在启用“学习路径”的新选项。 如果启用此选项，您可以在学习路径中添加课程和学习计划。 此选项一经启用，便无法更改。
 
-## 其他与学习路径相关的详细信息
+<!-- ## Other Learning Path-related details 
 
-### “学习路径”选项在“管理员设置”中禁用/取消选中
+### Learning Path option is disabled/unchecked in Admin Settings
 
-**使用本机 Web 应用的帐户**
+**Accounts using Native Web apps**
 
-**学习者**
+**Learners**
 
-* 默认情况下，学习者会注意到术语从“学习计划”变为“学习路径”。 这一改动的目的是为了让界面更加直观。 如果您不想进行此更改，请参阅以下要点。
+* By default, learners will notice a change in terminology from "Learning Program" to Learning Path". This has been done to make the interface more intuitive. If you do not want this change, refer to the below points.  
 
-* 但是，如果您已使用“自定义术语”功能将术语“学习计划”替换为自定义文本，则UI中不会反映此更改。
-* 如果您尚未使用“自定义术语”功能，但现在希望保留“学习计划”这一术语，则可以通过发布后的“自定义术语”功能实现。
+* This change however will not be reflected in the UI if you have already used the 'Custom Terminology" function to replace the terminology "Learning Programs" with some custom text. 
+* In case you had not used the Custom Terminology function yet but now wish to retain "Learning Programs" as the terminology, you can do so via the 'Custom Terminology' feature post the release.
 
-* 昔日“学习计划”的整体观感如今更富视觉效果，令人耳目一新。
+* The overall cosmetic look and feel of erstwhile 'Learning Programs' will get updated to a more visually rich look and feel.
 
-**作者和管理员**
+**Authors and Admins**
 
-* 管理员/作者应用中的术语与学习者应用中的术语一致。
-* 作者和管理员创建、更新昔日“学习计划”对象的UI现已焕然一新。 功能没有任何缺失，只是执行操作的用户界面更为直观。 即使您选择不启用“学习路径的扩展功能”，您的帐户中也会反映这些UI更改，而功能不会有任何缺失。
+* The terminology within the Admin/Author apps is the same as that of learners.
+* The UI for Authors and Admins to create, update the erstwhile 'Learning Program' objects will now be updated to the new UI. There is no loss of functionality, just that the User Interface to do the operation will be much more intuitive. These UI changes will reflect in your account, even if you have chosen not to enable 'Extended Features of Learning Path', with no loss in functionality. 
 
-* 请注意，任何现有的“学习计划”对象都不会发生变化，因此不会对学习者产生影响（上述术语点除外）。 作者/管理员可能会注意到其现有对象中名为“章节”的默认分组，就功能而言，该分组不会产生任何实质性影响。 作者/管理员还会看到如技能、工作辅助等新增功能。 但是您尚未使用这些功能，在您实际使用这些功能之前，并不会对学习者端产生任何影响。
+* Note that any existing Learning Program objects will not change so there is no impact on learners (other than the terminology point noted above). Authors/Admins might notice a default grouping called "Section" within their existing objects, which would be of no material impact as far as functionality goes. Authors/Admins will also see added functionalities like Skills, Job Aids etc. But as you haven't used it yet, it will not create any impact on the learner side till you actually start using it.
 
-**报告的角色**
+**Reporting**
 
-* 如果未启用“学习路径”选项，则“学习者成绩单”报告结构不会因“学习路径”发生任何变化。 但是，如先前通知中所述（请参阅先前通信中共享的表格）；发布之后，“学习者成绩单”的最右端会立即添加一个新列。
+* If you do not enable the option, Learning Path , there are no changes in the Learner Transcript report structure due to Learning Path. But as communicated in earlier notice (refer to the table shared in earlier communication); one new column will get added to the extreme right of the Learner Transcript immediately after the release.
 
-**使用无头LMS的帐户**
+**Accounts using Headless LMS**
 
-**学习者**
+**Learners**
 
-* 无头界面中的学习者没有任何变化。 用于生成报告的API也没有直接变化。
+* There are no changes for learners in headless interface. APIs as well that are used to generate the reports does not have immediate changes. 
 
-**作者和管理员**
+**Authors and Admins**
 
-* 与上述作者/管理员所做变动相同。
+* Same changes as that of Authors/Admins stated above.
 
-**报告的角色**
+**Reporting**
 
-* 与上述报告所做变动相同。
+* Same changes as that of Reporting stated above.
 
-### “学习路径”选项在“管理员设置”中启用/选中
+### Learning Paths option is enabled/checked in Admin Settings
 
-**使用本机 Web 应用的帐户**
+**Accounts using Native Web apps**
 
-**学习者**
+**Learners**
 
-* 与禁用该选项后学习者所做变动相同。
-* 当您开始使用学习路径的扩展功能时，具有嵌入式路径和章节的更复杂路径、完成路径时所获得的技能和徽章、路径级别的资源等优势，均对学习者大有裨益。
+* Same changes as that of Learners when the option is disabled.
+* As you start using the extended functionality of Learning Paths, Learners will benefit from seeing more elaborate paths with embedded paths and sections, Skills and badges being earned on path completion, resources at path level, and other benefits.
 
-**作者和管理员**
+**Authors and Admins**
 
-* 与禁用该选项后作者/管理员所做变动相同。
+* Same changes as that of Authors and Admins when the option is disabled.
 
-* 用户可在精心设计路径时获得更多功能。 您可以定义学习者在完成路径时自动达到的技能级别（不必关注级别积分的计算过程）。 可以在路径级别添加资源（暂不可用）。 可以创建章节，每个章节可包括共 Y 个选项中的 X 个选项。 可以将学习路径嵌入到另一学习路径中（支持一个层次结构级别）
+* Users will get more functionality in crafting elaborate paths. You can define Skill-Levels that would automatically be achieved by a learner on completion of path (not have to focus on the arithmetic of Credits for the levels). Resources can be added at the path level (Not possible as of today). Sections can be created with each section having the ability to have X of Y options. One can embed a Learning Path within another Learning Path (one level of hierarchy supported)
 
-**报告的角色**
+**Reporting**
 
-* “学习者成绩单”和“内容报告”结构中会新增几列，以加入在路径中嵌入路径的新功能。 这可能会影响您为将此数据导出到 Adobe Learning Manager 之外的自定义数据仓库/数据库而编写的集成代码。先前通信中提供的表格已传达此信息。
+* A few new columns will get added to the 'Learner Transcript' and 'Content Report' structures to incorporate the new feature of embedding of paths within paths. This may impact integration code that you may have written to export this data to your custom data warehouse/DB outside Learning Manager. This information is communicated in the table provided in earlier communication.
 
-**使用无头LMS的帐户**
+**Accounts using Headless LMS**
 
-**学习者**
+**Learners**
 
-* 用于构建无头界面的 API 不会发生变化，因此，若不更改无头 LMS 实现，则学习者不会发生任何变化。
-* 如果您创建新的学习路径，并开始使用学习路径的扩展功能，则必须对无头 LMS 实现进行更改，以在学习者应用中反映这些改动。 您可以利用 Adobe Learning Manager API 执行此操作。
+* There is no change for your learners, unless you make changes to your headless LMS implementation, as the APIs on which you have built your headless interface will not be changing.
+* If you do start using the extended features of Learning Paths by creating new Learning Paths, however you will have to make changes to the headless LMS implementation to reflect those on your learner app. The Learning Manager APIs will allow you to do that.
 
-**作者和管理员**
+**Authors and Admins**
 
-* 与上述作者/管理员所做变动相同。
+* Same changes as that of Authors/Admins stated above.
 
-**报告的角色**
+**Reporting**
 
-* 与上述报告所做变动相同。
+* Same changes as that of Reporting stated above. -->

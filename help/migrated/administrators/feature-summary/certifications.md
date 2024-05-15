@@ -4,10 +4,10 @@ jcr-language: en_us
 title: 认证
 contentowner: manochan
 exl-id: 406d1c33-aac3-47e1-9b32-83874976ce54
-source-git-commit: 6f23c53b14d2c787e1c6ecb4eea9a3dc06f8e584
+source-git-commit: 69ef7d1e27fac3db49cbb4b9f9403f74e146efb5
 workflow-type: tm+mt
-source-wordcount: '1020'
-ht-degree: 68%
+source-wordcount: '1024'
+ht-degree: 67%
 
 ---
 
@@ -106,6 +106,8 @@ ht-degree: 68%
 
 ![](assets/recommend-for.png)
 
+*推荐*
+
 选择要添加至认证的课程 **[!UICONTROL 课程]** > **[!UICONTROL 目录]** 选项卡。
 
 将鼠标悬停在每个课程磁贴上，单击+以将其添加到认证中。 点击 **[!UICONTROL 预览]** 在添加课程之前，以学习者身份查看课程。
@@ -170,6 +172,8 @@ ht-degree: 68%
 在编辑认证的各部分内容时，如果必须移出页面，则需要重新发布认证。此时会显示确认对话框，要求您重新发布认证。
 
 ![](assets/edit-a-certificate.png)
+
+*编辑证书*
 
 ## 订阅 {#subscription}
 

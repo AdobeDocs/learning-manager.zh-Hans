@@ -1,13 +1,13 @@
 ---
 title: 从 Adobe FTP Manager 过渡
-description: AdobeLearning Manager支持使用AWS传输系列的SFTP协议的新连接器。 可以将任何开源 FTP 客户端替换为 Adobe FTP Manager。
-source-git-commit: aa8030e7e1d0ad72b76fb48a34e7b15ddf178a0b
+description: Adobe Learning Manager支持使用AWS传输系列的SFTP协议的新连接器。 可以将任何开源 FTP 客户端替换为 Adobe FTP Manager。
+exl-id: c5674e61-9e3d-45e5-9f3c-e0aa15ec2dac
+source-git-commit: 521b71f87545c513f844b6e216fa3ffc1fac95a0
 workflow-type: tm+mt
 source-wordcount: '1041'
 ht-degree: 68%
 
 ---
-
 
 # 从 Adobe FTP Manager 过渡
 
@@ -172,3 +172,5 @@ Adobe Learning Manager 支持使用 AWS Transfer 系列 SFTP 协议的新连接�
 
 * 对于从外部旧系统迁移到 Adobe Learning Manager 的课程，系统会在当前项目中完成课程 ID 映射。 仅当您想要更新同一项目中的相同课程时才可以这样做。 关闭项目后，您将无法修改其详细信息。
 * 对于基于 API 的迁移项目，您不得关闭项目。
+
+<!--[ALM Whitepaper](assets/alm-security-whitepaper.pdf) -->

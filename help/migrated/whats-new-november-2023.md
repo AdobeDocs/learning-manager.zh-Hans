@@ -1,8 +1,8 @@
 ---
 title: 此版本中新增的功能
-description: 了解AdobeLearning Manager 2023年11月版的新增功能和增强功能。
+description: 了解Adobe Learning Manager 2023年11月版的新增功能和增强功能。
 exl-id: d670dc47-d57f-464a-bee8-064cc16e59f9
-source-git-commit: 447a4e041d74cf086afada3794ac08a04e70c2ca
+source-git-commit: eed6dd4d31a62d10a6b2901c48f14e3f4fe571d8
 workflow-type: tm+mt
 source-wordcount: '2373'
 ht-degree: 70%
@@ -13,7 +13,7 @@ ht-degree: 70%
 
 ## 改进后的用户界面
 
-AdobeLearning Manager用户界面已进行了一些更新，可提供更整洁、更现代的体验。 改进了管理员和作者角色的登陆页面，并且已针对所有角色更新用户界面主题。 但是，菜单、按钮或链接的位置未做任何更改，您将能够准确找到它们以前所在的位置。
+Adobe Learning Manager用户界面经过了一些更新，可提供更干净、更现代的体验。 改进了管理员和作者角色的登陆页面，并且已针对所有角色更新用户界面主题。 但是，菜单、按钮或链接的位置未做任何更改，您将能够准确找到它们以前所在的位置。
 
 主题更新将自动应用于使用默认主题的帐户。 用户界面主题更新不会影响已修改自定义主题的帐户。 此类帐户需要切换回默认主题才能获取新的主题更新。
 
@@ -66,7 +66,7 @@ AdobeLearning Manager用户界面已进行了一些更新，可提供更整洁�
 
 ### 通知公告报告中的更改
 
-在早期版本的AdobeLearning Manager中，“通知公告”报告没有任何过滤器。 Adobe Learning Manager 已下载帐户中的所有通知。
+在Adobe Learning Manager的早期版本中，“通知公告”报告没有任何过滤器。 Adobe Learning Manager 已下载帐户中的所有通知。
 
 在此版本中，我们添加了一个日期过滤器，您可以使用该过滤器在指定的时间段内下载通知。  但是，您只能下载最近六个月的报告。
 
@@ -230,7 +230,7 @@ Adobe Learning Manager 改进了对支持客户和合作伙伴的帐户的建议
 
 ## 限制旧版信息板报告处理
 
-当管理员尝试绘制信息板报告时，如果绘制时间过长（超过2.5分钟），AdobeLearning Manager会显示以下消息：
+当管理员尝试绘制信息板报告时，如果报告绘制时间过长（超过2.5分钟），Adobe Learning Manager会显示以下消息：
 
 ![旧版报告图像](assets/error-message.png)
 *报告花费太长时显示的错误消息*
@@ -273,7 +273,7 @@ Adobe Learning Manager 改进了对支持客户和合作伙伴的帐户的建议
 
 ### 突出显示结果
 
-在即将发布的AdobeLearning Manager版本中，例如，在/search API中，我们将highlightResults的默认值更改为false。
+在即将发布的Adobe Learning Manager版本中，例如，在/search API中，我们将把highlightResults的默认值更改为false。
 
 此外，我们还会将snippetTypes的默认值更改为courseName。 如果highlightResults为True，则此操作只会突出显示搜索中的课程名称。
 

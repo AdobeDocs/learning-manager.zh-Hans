@@ -3,14 +3,13 @@ description: 阅读以了解 Adobe Learning Manager 中与讲师相关的常见�
 jcr-language: en_us
 title: 讲师常见问题解答
 contentowner: shhivkum
-source-git-commit: 864b1796f1ca99ae7b5643e8c58d1756ff2461a1
+exl-id: 1120516c-461a-498d-a5ae-cacc1e87e081
+source-git-commit: fe51f56d0528b469ea13f3fb780886d6dd6f2e3d
 workflow-type: tm+mt
 source-wordcount: '316'
 ht-degree: 85%
 
 ---
-
-
 
 # 讲师常见问题解答
 
@@ -49,4 +48,3 @@ ht-degree: 85%
 讲师只能查看和编辑已向其指定的会话的详细信息， 无法修改任何其他会话的详细信息或与会者列表。
 
 +++
-

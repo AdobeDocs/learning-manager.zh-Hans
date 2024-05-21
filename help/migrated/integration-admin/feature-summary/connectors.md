@@ -4,9 +4,9 @@ jcr-language: en_us
 title: Adobe Learning Manager 连接器
 contentowner: jayakarr
 exl-id: 1f44934b-6a2b-484d-bc7f-d0f23e3008ca
-source-git-commit: ec8d204ba7d85fab84c7d1db4a1ba741f363566c
+source-git-commit: f7333304fe42b0b05ed342bb2f41822f15da909d
 workflow-type: tm+mt
-source-wordcount: '15572'
+source-wordcount: '15590'
 ht-degree: 63%
 
 ---
@@ -34,7 +34,7 @@ Adobe Learning Manager 还提供 Lynda、getAbstract 和 Havard 管理系统连�
 
 >[!NOTE]
 >
->在2022年11月版AdobeLearning Manager中，Zoom已弃用 [2023年6月之前进行JWT身份验证](https://marketplace.zoom.us/docs/guides/auth/jwt/). 因此，带 JWT 的 Zoom 连接器将继续运行至 6 月，但我们建议用户创建服务器到服务器 OAuth 应用程序，以替换帐户中的功能。默认情况下，所有新连接都将拥有 Zoom OAuth 身份验证。
+>在2022年11月版Adobe Learning Manager中，Zoom已被弃用 [2023年6月之前进行JWT身份验证](https://marketplace.zoom.us/docs/guides/auth/jwt/). 因此，带 JWT 的 Zoom 连接器将继续运行至 6 月，但我们建议用户创建服务器到服务器 OAuth 应用程序，以替换帐户中的功能。默认情况下，所有新连接都将拥有 Zoom OAuth 身份验证。
 
 ## Salesforce 连接器 {#sfconnector}
 
@@ -152,6 +152,10 @@ Learning Manager支持将学习记录（如成绩单、用户报告、技能报�
 1. 在 Salesforce 中为自定义对象重命名。
 1. 选择活动，然后单击&#x200B;**[!UICONTROL 保存]**。
 
+>[!NOTE]
+>
+>请确保系统管理员已获得对软件包安装后添加的所有活动字段的访问权限。
+
 **将活动与下列对象链接：** 选择要导出的部分（“用户”或“联系人”）。 如果您选择“联系人”对象，则Learning Manager中存在、但不在Salesforce中的用户将在Salesforce中创建。
 
 ![](assets/link-events.png)
@@ -195,7 +199,7 @@ Learning Manager提供Salesforce应用程序包。 在 SFDC 中安装和配置�
 
 >[!NOTE]
 >
->仅在Salesforce Lightning视图中支持AdobeLearning Manager应用程序。
+>仅在Salesforce Lightning视图中支持Adobe Learning Manager应用程序。
 
 1. 启动 [Learning Manager程序包URL](https://login.salesforce.com/packaging/installPackage.apexp?p0=04t1k0000008WOQ).
 1. 在 **登录** 页面，单击 **[!UICONTROL 使用自定义域]**.
@@ -280,7 +284,7 @@ Adobe Learning Manager 应用程序也适用于任何使用 Salesforce 帐户的
 
 选择用户并为其分配相应权限。 学习者现在可以访问 Adobe Learning Manager 应用程序。
 
-首先，选择一个配置文件（例如，用户的“标准配置文件”），然后单击该配置文件。 点击 **[!UICONTROL 编辑]** 在 **自定义应用程序设置** 部分，启用该复选框 **AdobeLearning Manager**. 启用后用户便可访问该应用。
+首先，选择一个配置文件（例如，用户的“标准配置文件”），然后单击该配置文件。 点击 **[!UICONTROL 编辑]** 在 **自定义应用程序设置** 部分，启用该复选框 **Adobe Learning Manager**. 启用后用户便可访问该应用。
 
 在&#x200B;**“自定义选项卡设置”**&#x200B;部分的&#x200B;**“学习者主页”**&#x200B;下拉列表中，选择&#x200B;**“默认启用”**&#x200B;选项。
 
@@ -379,14 +383,14 @@ Adobe Learning Manager 应用程序也适用于任何使用 Salesforce 帐户的
 
 成功建立连接后，您便可以映射 CSV 文件中的各列。它被放置在 FTP 文件夹中，以对应 Adobe Learning Manager 的相应属性。此步骤为必须操作。
 
-1. 在“映射属性”页面中，您可以在左侧看见Learning Manager的预期各列，在右侧看见CSV各列名称。 首先，您会在右侧看见一个空的选择框。通过单击 **选择文件**.
-1. 上述步骤会在右侧的选择下拉列表中填写所有 CSV 列名称。选择映射到Learning Manager列名称的相应列名称。
+1. 在“映射属性”页面中，您可以在左侧看见Learning Manager的预期各列，在右侧看见CSV各列名称。 首先，您会在右侧看见一个空的选择框。单击“选择文件&#x200B;**”**&#x200B;导入任何模板 CSV。
+1. 上述步骤会在右侧的选择下拉列表中填写所有 CSV 列名称。选择要映射到学习管理器列名称的相应列名称。
 
    >[!NOTE]
    >
    >经理字段必须映射到电子邮件地址类型的字段。在能够使用连接器之前，必须映射所有列。
 
-1. 点击 **[!UICONTROL 保存]** 完成映射后。
+1. 完成映射后单击“ **[!UICONTROL 保存]** ”。
 
    连接器现在可以使用了。已配置的帐户在管理员应用程序中显示为数据源，以便管理员安排导入或用于按需同步。
 
@@ -394,15 +398,15 @@ Adobe Learning Manager 应用程序也适用于任何使用 Salesforce 帐户的
 
 +++
 
-+++使用Learning Manager FTP连接器
++++使用学习管理器 FTP 连接器
 
-1. 必须将来自外部系统的CSV文件放在以下路径中：
+1. 必须将来自外部系统的 CSV 文件放在以下路径中：
 
    `code $OPERATION$/$OBJECT_TYPE$/$SUB_OBJECT_TYPE$/data.csv`
 
    >[!NOTE]
    >
-   >在2016年7月版中，仅允许导入用户。 因此，如要使用FTP连接器，请确保已将CSV文件放入以下文件夹：
+   >在 2016 年 7 月发行版中，仅允许导入用户。 因此，要使用 FTP 连接器，请确保将 CSV 文件放置在以下文件夹中：
 
    `code Home/import/user/internal/*.csv`
 
@@ -491,7 +495,7 @@ Adobe Learning Manager 应用程序也适用于任何使用 Salesforce 帐户的
 
 +++
 
-如要打开已导出文件所处的“导出”文件夹，请打开“用户技能”页面中提供的“FTP文件夹”链接，如下所示：
+要打开已导出文件所处的“导出”文件夹，请打开“用户技能”页面中提供的“FTP 文件夹”链接，如下所示。
 
 ![](assets/ftp-folder.png)
 *用于查看文件的FTP文件夹*
@@ -507,17 +511,17 @@ Adobe Learning Manager 应用程序也适用于任何使用 Salesforce 帐户的
 
 ![](assets/on-demand-report.png)
 
-**配置**：您可以使用此选项来计划安排报告的提取。 选中“启用计划”选框，然后指定开始日期和时间。您还可以指定生成和发送报告的时间间隔。
+**配置**：此选项允许您计划报表的提取。 选中“启用计划”选框，然后指定开始日期和时间。您还可以指定生成和发送报告的时间间隔。
 
 ![](assets/configure-report.png)
 
 +++
 
-如要打开已导出文件位于FTP中的“导出”文件夹，请打开“学习者成绩单”页面中提供的“FTP文件夹”链接，如下所示
+如要打开已导出文件位于 FTP 中的“导出”文件夹，请打开“学习者成绩单”页面中提供的“FTP 文件夹”链接，如下所示：
 
-自动导出的文件出现在以下位置 **Home/export/&#42;FTP_location&#42;**
+自动导出的文件位于位置 **“主页/导出/&#42;FTP_location&#42;**
 
-自动导出文件的标题为 **learner_transcript_&#42;日期自&#x200B;&#42;_收件人_&#42;终止日期&#42;.csv**
+自动导出文件的标题&#x200B;**为learner_transcript_从日期到&#x200B;&#42;__&#42;现在.csv&#42;&#42;**
 
 ![](assets/exported-file.png)
 
@@ -632,7 +636,7 @@ getAbstract.com 的企业用户可使用 getAbstract 连接器供其学习者找
 
    ![](assets/getabstractschedulepage.png)
 
-   *为Learning Manager配置getAbstract连接器*
+   *为学习管理器配置 getAbstract 连接器*
 
 1. 在左侧窗格中，单击“配置”。 执行以下任一操作：
 
@@ -717,7 +721,7 @@ Harvard ManageMentor 的企业用户可以使用 Harvard ManageMentor 连接器�
 
    请参阅以下两个用于此连接器的用户订阅源和课程订阅源文件样本：
 
-   * [Harvard ManageMentor连接器的课程元数据文件](assets/hmm12-metadata.xlsx)
+   * [用于 Harvard ManageMentor 连接器的课程元数据文件](assets/hmm12-metadata.xlsx)
    * [用于 Harvard ManageMentor 连接器的用户订阅源。](assets/client-hmm12-20170304.xlsx)
 
 ## Workday 连接器 {#workdayconnector}
@@ -728,7 +732,7 @@ Harvard ManageMentor 的企业用户可以使用 Harvard ManageMentor 连接器�
 
 #### 映射属性
 
-集成管理员可以选择Workday列并将其映射到相应的Learning Manager组属性。 映射完成后，相同映射就能用在随后的用户导入中。如果管理员想要针对导入用户使用不同的映射，则可以对其进行重新配置。
+集成管理员可以选择 Workday 列并将其映射到相应学习管理器的组属性。 映射完成后，相同映射就能用在随后的用户导入中。如果管理员想要针对导入用户使用不同的映射，则可以对其进行重新配置。
 
 #### 自动导入用户
 
@@ -749,7 +753,7 @@ Adobe Learning Manager 管理员可在导入用户前先对其过滤。例如，
 #### 注意事项
 
 * 确保员工的UUID、电子邮件地址和姓名在多个Workday集成中是唯一的。 不正确的值将导致连接失败。
-* 任何面向LMS管理员的客户端都不能删除通过Workday于填充的UUID字段。 如果要更改该值，请联系AdobeLearning Manager入门或支持团队。
+* 任何面向LMS管理员的客户端都不能删除通过Workday于填充的UUID字段。 如果要更改该值，请联系Adobe Learning Manager入门或支持团队。
 * “用户清除”选项也可能不起作用，因为“用户清除”每次运行仅支持50个用户进行清除。 通过UUID上传用户时请格外谨慎。
 
 ### 计划 {#Scheduling-1}
@@ -791,14 +795,14 @@ Adobe Learning Manager 管理员可在导入用户前先对其过滤。例如，
    >
    >您也可以将多个 Workday 连接同步到您的 Adobe Learning Manager 帐户。
 
-在“概述”页面中，您可以指定集成的连接名称。 选择您要采取的操作，您可从以下选项中选择：
+在“摘要”页面中，您可以指定集成的连接名称。 选择您要采取的操作，您可从以下选项中选择：
 
 * 导入内部用户
 * 导出用户技能 - 配置计划
 * 导出用户技能 - 按需
 
 ![](assets/overview.png)
-*Workday概述*
+*Workday 概述*
 
 ### 导入
 
@@ -819,21 +823,59 @@ Adobe Learning Manager 管理员可在导入用户前先对其过滤。例如，
 
 选择 **排除临时工** 复选框，以防止导入经理提供的临时工作人员。
 
-Workday 有四个级别，而 Adobe Learning Manager 有两个级别。Workday中的四个级别是技能配置文件类别、技能配置文件、技能项目类别和技能项目。 您的技能名称以及Learning Manager的级别将一同映射到Workday的技能项目之下。
+Workday 有四个级别，而 Adobe Learning Manager 有两个级别。Workday 中的四个级别分别是技能配置文件类别、技能配置文件、技能项目类别和技能项目。 您的技能名称以及Learning Manager的级别将一同映射到Workday的技能项目之下。
 
 >[!NOTE]
 >
 >您可以添加其他 Workday 属性。 联系您的 CSAM 以添加属性。
 
-+++支持的Workday属性列表
++++支持的 Workday 属性列表
 
-wd：User_ID wd：Worker_ID管理器wd：Personal_Data.wd：Name_Data.wd：Preferred_Name_Data.wd：Name_Detail_Data.@wd：Formatted_Name wd：Personal_Data.wd：Name_Data.wd：Legal_Name_Data.wd：Name_Detail_Data.@wd：Formatted_Name wd：Personal_Data.wd：Name_Data.wd：Legal_Name_Data.wd：Name_Detail_Data.wd：Prefix_Data.wd：Title_Descriptor wd：Personal_Data.wd：Name_Detail_Data.wd：Prefix_Data.wd：Title_Descriptor wd：Personal_Data.wd：Preferred_Name_Data.wd name_Detail_Data.wd：First_Name wd：Personal_Data.wd：Name_Data.wd：Preferred_Name_Data.wd：Name_Detail_Data.wd：Last_Name wd：Personal_Data.wd：Name_Data.wd：Legal_Name_Data.wd：Name_Detail_Data.wd：First_Name wd：Legal_Name_Data.wd ：Last_Name wd：Personal_Data.wd：Contact_Data.wd：Address_Data.0。@wd：Formatted_Address wd：Personal_Data.wd：Contact_Data.wd：Address_Data.0.wd：Postal_Code wd：Personal_Data.wd：Contact_Data.wd：Email_Address_Data.0.wd：Personal_Data.wd：Country_Region_Descriptor wd：Personal_Data.wd：Phone_Data.0。@wd：Formatted_Phone wd：Personal_Data.wd：Contact_Data.wd：Phone_Data.0.wd：Country_ISO_Code wd：Personal_Data.wd：Contact_Data.wd：International_Phone_Code wd：Personal_Data.wd：Contact_Data.wd：Phone_Number wd：Personal_Data.wd：Primary_Nationality_Reference.wd：ID.1。$ wd：Personal_Data.wd：Gender_Reference.wd：ID.1.$ wd：Personal_Data.wd：Identification_Data.wd：National_ID.0.wd：National_ID_Data.wd：ID wd：Personal_Data.wd：Identification_Data.wd：Custom_ID.0.wd：Custom_ID_Data.wd：ID wd：User_Account_Data.wd：Default_Display_Language_Reference.wd.wd：ID.ID.1.$ wd：Role_Data.wd：Organization_Role_Data.wd：Organization_Role.0.wd：Organization_Role_Reference.wd：ID.1.$ wd：Employment_Data.wd：Worker_Job_Data.0.wd：Position_Data.wd：Position_Title wd：Employment_Data.wd：Worker_Job_Data.0.wd：Business_Title wd：Employment_Data.wd：Worker_Job_Data.0.wd：Position_Data.wd：Name wd：Employment_Data.wd：Worker_Job_Data.0.wd Position_Data.wd：Business_Site_Summary_Data.wd：Address_Data。@wd：Formatted_Address wd：Employment_Data.wd：Worker_Job_Data.0.wd：Position_Data.wd：Job_Classification_Summary_Data.0.wd：Job_Classification_Reference.wd：ID.1。$ wd：Employment_Data.wd：Worker_Job_Data.0.wd：Position_Data.wd：Job_Classification_Summary_Data.0.wd：Job_Group_Reference.wd：ID.1.$ wd：Employment_Data.wd：Worker_Job_Data.0.wd：Position_Data.wd：Work_Space__Reference.wd：ID.1.$ wd：Employment_Data.wd：Worker_Job_Data.0.wd：Position_Data.wd：Job_Profile_Summary_Data.wd：Job_Family_Reference.0.wd：ID.1.$ wd：Employment_Data.wd：Worker_Job_Data.0.wd：Position_Data.wd：Job_Profile_Summary_Data.wd：Job_Profile_Name wd：Employment_Data.wd：Worker_Job_Data.0.wd：Position_Data.wd：Job_Profile_Summary_Data.wd：Job_Profile_Reference.wd：ID.1。$ wd：Employment_Data.wd：Worker_Job_Data.0.wd：Position_Data.wd：Business_Site_Summary_Data.wd：Address_Data.0.wd：Country_Reference.wd：ID.2.$ wd：Employment_Data.wd：Worker_Job_Data.0.wd：Position_Data.wd：Worker_Type_Reference.wd：ID.1.$ wd：Employment_Data.wd：Worker_Job_Data.0.wd：Position_Data.wd：Business_Site_Summary_Data.wd：Address_Data.0.@wd：Formatted_Address wd：Employment_Data.wd：Worker_Job_Data.0.wd：Position_Data.wd：Job_Profile_Summary_Data.wd：Management_Level_Reference.wd：ID.1。$ wd：Employment_Data.wd：Worker_Status_Data.wd：Active wd：Employment_Data.wd：Worker_Status_Data.wd：Active_Status_Date wd：Employment_Data.wd：Worker_Status_Data.wd：Hire_Date wd：Employment_Data.wd：Original_Hill_Date wd：Employment_Data.wd：Retireposal_Data.wd worker_Status_Data.wd：Retirement_Date wd：Employment_Data.wd：Worker_Status_Data.wd：已终止wd：Employment_Data.wd：Worker_Status_Data.wd：Termination_Date wd：Employment_Data.wd：Worker_Last_Day_of_Work wd：Organization_Data.0.wd：Organization_Code：Organization_Data.wd Worker_Organization_Data.0.wd：Organization_Data.wd：Organization_Name wd：Organization_Data.wd：Worker_Organization_Data.0.wd：Organization_Data.wd：Organization_Type_Reference.wd：ID.1。$ wd：Organization_Data.wd：Worker_Organization_Data.0.wd：Organization_Data.wd：Organization_Subtype_Reference.wd：ID.1.$ wd：Qualification_Data.wd：Education.0.wd：School_Name wd：Qualification_Data.wd：External_Job_History.0.wd：Job_History_Data.wd：Job_Title wd：Qualification_Data.wd：External_Job_History.0.wd：Company wd：Management_Chain_Data.wd：Management_Chain_Data.0.wd Employee_ID主要工作电子邮件wd：Organization_Type_Reference_Cost_Center_ID wd：Organization_Type_Reference_Cost_Center_Name wd：Organization_Type_Reference_Company wd：Organization_Subtype_Reference_Department wd：Organization_Subtype_Reference_Division wd：Universal_ID wd：Integration_Field_Override_Data.3.wd：Value：Value wd：Worker_Job_Data.0.wd：Worker.Data wd：Business_Site_Summary_Data.wd：Address_Data.0.wd：Country_Region_Descriptor wd：Employment_Data.wd：Worker_Job_Data.0.wd：Position_Data.wd：Business_Site_Summary_Data.wd：Address_Data.0.wd：Country_Region_Reference.wd：ID.2。$ wd：Personal_Data.wd：Contact_Data.wd：Address_Data.0.wd：Unsicillity
+wd：User_ID wd：Worker_ID管理器wd：Personal_Data.wd：Name_Data.wd：Preferred_Name_Data.wd：Name_Detail_Data.@wd：Formatted_Name wd：Personal_Data.wd：Name_Data.wd：Legal_Name_Data.wd：Name_Detail_Data.@wd：Formatted_Name wd：Personal_Data.wd：Name_Data.wd：Legal_Name_Data.wd：Name_Detail_Data.wd：Prefix_Data.wd：Title_Descriptor wd：Personal_Data.wd：Name_Detail_Data.wd：Prefix_Data.wd：Title_Descriptor wd：Personal_Data.wd：Preferred_Name_Data.wd name_Detail_Data.wd：First_Name wd：Personal_Data.wd：Name_Data.wd：Preferred_Name_Data.wd：Name_Detail_Data.wd：Last_Name wd：Personal_Data.wd：Name_Data.wd：Legal_Name_Data.wd：Name_Detail_Data.wd：First_Name wd：Legal_Name_Data.wd ：Last_Name wd：Personal_Data.wd：Contact_Data.wd：Address_Data.0。@wd：Formatted_Address wd：Personal_Data.wd：Contact_Data.wd：Address_Data.0.wd：Postal_Code wd：Personal_Data.wd：Contact_Data.wd：Email_Address_Data.0.wd：Personal_Data.wd：Country_Region_Descriptor wd：Personal_Data.wd：Phone_Data.0。@wd：Formatted_Phone wd：Personal_Data.wd：Contact_Data.wd：Phone_Data.0.wd：Country_ISO_Code wd：Personal_Data.wd：Contact_Data.wd：International_Phone_Code wd：Personal_Data.wd：Contact_Data.wd：Phone_Number wd：Personal_Data.wd：Primary_Nationality_Reference.wd：ID.1。$ wd：Personal_Data.wd：Gender_Reference.wd：ID.1.$ wd：Personal_Data.wd：Identification_Data.wd：National_ID.0.wd：National_ID_Data.wd：ID wd：Personal_Data.wd：Identification_Data.wd：Custom_ID.0.wd：Custom_ID_Data.wd：ID wd：User_Account_Data.wd：Default_Display_Language_Reference.wd.wd：ID.ID.1.$ wd：Role_Data.wd：Organization_Role_Data.wd：Organization_Role.0.wd：Organization_Role_Reference.wd：ID.1.$ wd：Employment_Data.wd：Worker_Job_Data.0.wd：Position_Data.wd：Position_Title wd：Employment_Data.wd：Worker_Job_Data.0.wd：Business_Title wd：Employment_Data.wd：Worker_Job_Data.0.wd：Position_Data.wd：Name wd：Employment_Data.wd：Worker_Job_Data.0.wd Position_Data.wd：Business_Site_Summary_Data.wd：Address_Data。@wd：Formatted_Address
+wd：Employment_Data.wd：Worker_Job_Data.0.wd：Position_Data.wd：Job_Classification_Summary_Data.0.wd：Job_Classification_Reference.wd：ID.1.$
+wd：Employment_Data.wd：Worker_Job_Data.0.wd：Position_Data.wd：Job_Classification_Summary_Data.0.wd：Job_Group_Reference.wd：ID.1.$
+wd：Employment_Data.wd：Worker_Job_Data.0.wd：Position_Data.wd：Work_Space__Reference.wd：ID.1.$
+wd：Employment_Data.wd：Worker_Job_Data.0.wd：Position_Data.wd：Job_Profile_Summary_Data.wd：Job_Family_Reference.0.wd：ID.1.$
+wd：Employment_Data.wd：Worker_Job_Data.0.wd：Position_Data.wd：Job_Profile_Summary_Data.wd：Job_Profile_Name
+wd：Employment_Data.wd：Worker_Job_Data.0.wd：Position_Data.wd：Job_Profile_Summary_Data.wd：Job_Profile_Reference.wd：ID.1.$
+wd：Employment_Data.wd：Worker_Job_Data.0.wd：Position_Data.wd：Business_Site_Summary_Data.wd：Address_Data.0.wd：Country_Reference.wd：ID.2.$
+wd：Employment_Data.wd：Worker_Job_Data.0.wd：Position_Data.wd：Worker_Type_Reference.wd：ID.1.$
+wd：Employment_Data.wd：Worker_Job_Data.0.wd：Position_Data.wd：Business_Site_Summary_Data.wd：Address_Data.0.@wd：Formatted_Address
+wd：Employment_Data.wd：Worker_Job_Data.0.wd：Position_Data.wd：Job_Profile_Summary_Data.wd：Management_Level_Reference.wd：ID.1.$
+wd：Employment_Data.wd：Worker_Status_Data.wd：Active
+wd：Employment_Data.wd：Worker_Status_Data.wd：Active_Status_Date
+wd：Employment_Data.wd：Worker_Status_Data.wd：Hire_Date
+wd：Employment_Data.wd：Worker_Status_Data.wd：Original_Hire_Date
+wd：Employment_Data.wd：Worker_Status_Data.wd：已停用
+wd：Employment_Data.wd：Worker_Status_Data.wd：Retirement_Date
+wd：Employment_Data.wd：Worker_Status_Data.wd：已终止
+wd：Employment_Data.wd：Worker_Status_Data.wd：Termination_Date
+wd：Employment_Data.wd：Worker_Status_Data.wd：Termination_Last_Day_of_Work
+wd：Organization_Data.wd：Worker_Organization_Data.0.wd：Organization_Data.wd：Organization_Code
+wd：Organization_Data.wd：Worker_Organization_Data.0.wd：Organization_Data.wd：Organization_Name
+wd：Organization_Data.wd：Worker_Organization_Data.0.wd：Organization_Data.wd：Organization_Type_Reference.wd：ID.1.$
+wd：Organization_Data.wd：Worker_Organization_Data.0.wd：Organization_Data.wd：Organization_Subtype_Reference.wd：ID.1.$
+wd：Qualification_Data.wd：Education.0.wd：School_Name
+wd：Qualification_Data.wd：External_Job_History.0.wd：Job_History_Data.wd：Job_Title
+wd：Qualification_Data.wd：External_Job_History.0.wd：Job_History_Data.wd：Company
+wd：Management_Chain_Data.wd：Worker_Supervisory_Management_Chain_Data.wd：Management_Chain_Data.0.wd：Manager.Employee_ID
+主要工作电子邮件
+WD：Organization_Type_Reference_Cost_Center_ID
+WD：Organization_Type_Reference_Cost_Center_Name
+WD：Organization_Type_Reference_Company
+WD：Organization_Subtype_Reference_Department
+WD：Organization_Subtype_Reference_Division
+WD：Universal_ID
+wd：Integration_Field_Override_Data.3.wd：值
+wd：Employment_Data.wd：Worker_Job_Data.0.wd：Position_Data.wd：Business_Site_Summary_Data.wd：Address_Data.0.wd：Country_Region_Descriptor
+wd：Employment_Data.wd：Worker_Job_Data.0.wd：Position_Data.wd：Business_Site_Summary_Data.wd：Address_Data.0.wd：Country_Region_Reference.wd：ID.2.$
+wd：Personal_Data.wd：Contact_Data.wd：Address_Data.0.wd：市政当局
 
 +++
 
 ### 导出
 
-您可以将出用户达成的全部技能从 Adobe Learning Manager 导出到 Workday。仅会导出所有活动用户技能，Adobe Learning Manager 不导出弃用的技能。您还可以连接多个Learning Manager\
+您可以将出用户达成的全部技能从 Adobe Learning Manager 导出到 Workday。仅会导出所有活动用户技能，Adobe Learning Manager 不导出弃用的技能。您还可以连接多个学习管理器\
 连接到同一Workday连接器。 如果两个Learning Manager帐户中的技能名称相同，则它们会被映射到Workday中的相同技能。 在Workday中更新技能之前，如果两个Learning Manager帐户使用的是同一个Workday帐户，则建议对所有Learning Manager帐户中的技能名称进行更新。
 
 +++用户技能 — 配置
@@ -958,7 +1000,7 @@ To delete an established  miniOrange  connection, follow these steps. -->
 
 ### 创建缩放服务器到服务器OAuth应用程序
 
-创建用于AdobeLearning Manager的缩放服务器到服务器OAuth应用程序时，必须在创建连接时添加AdobeLearning Manager所需的范围。
+创建要在Adobe Learning Manager中使用的Zoom服务器到服务器OAuth应用程序时，必须在创建连接时添加Adobe Learning Manager所需的范围。
 
 Adobe Learning Manager 需要获取以下范围，并且必须在 OAuth 应用中选择这些范围。
 
@@ -1402,7 +1444,7 @@ Learning Manager可汇总用户数据、学习者成绩单、游戏、反馈报�
 
 培训报告包含两个附加字段：
 
-* 已分享课程反馈的用户数量
+* 分享课程反馈的用户数
 * 课程的平均星级评分
 
 ### 筛选学习者成绩单的状态 {#lt-status}
@@ -1423,7 +1465,7 @@ Learning Manager可汇总用户数据、学习者成绩单、游戏、反馈报�
 
 ### 下载 Power BI 模板 {#template}
 
-Learning Manager还提供了现成的Power BI模板。 这些模板为AdobeLearning Manager帐户管理员提供了更出色的分析能力。
+Learning Manager还提供了现成的Power BI模板。 这些模板为Adobe Learning Manager帐户管理员提供了更出色的分析能力。
 
 您可以下载模板、导出相关报告并使用这些可用模板轻松绘制报告。
 
@@ -1507,7 +1549,7 @@ Learning Manager还提供了现成的Power BI模板。 这些模板为AdobeLearn
 >
 >要设置自定义 FTP，请与 CSM 联系。 CSM 将提供设置 FTP 所需的详细信息。
 >
->设置FTP涉及前置时间，并且需要IT支持来允许IP和端口列表，以及在FTP服务器上创建具有特定权限的特定文件夹。
+>设置 FTP 需要提前期，并且需要 IT 支持以允许 IP 和端口列表，并在 FTP 服务器上创建具有特定权限的某些文件夹。
 
 Adobe Learning Manager 提供连接到自定义 FTP 位置的功能。
 
@@ -1643,7 +1685,7 @@ Adobe Learning Manager 提供连接到自定义 FTP 位置的功能。
 
   <!-- *Select Add Permissions*-->
 
-### “ADFS配置”页面
+### ADFS 配置页面
 
 1. 在 Adobe Learning Manager 的 ADFS 配置页面中，输入先前获得的客户端 ID 和客户端密钥。
 
@@ -1655,21 +1697,21 @@ Adobe Learning Manager 提供连接到自定义 FTP 位置的功能。
 
 #### 映射属性
 
-集成管理员可以选择ADFS属性并将其映射到相应的Learning Manager组属性。 映射完成后，相同映射就能用在随后的用户导入中。如果管理员想要针对导入用户使用不同的映射，则可以对其进行重新配置。
+集成管理员可以选择 ADFS 属性并将其映射到相应学习管理器的组属性。 映射完成后，相同映射就能用在随后的用户导入中。如果管理员想要针对导入用户使用不同的映射，则可以对其进行重新配置。
 
 #### 自动导入用户
 
-用户导入操作能让Learning Manager管理员从ADFS获取员工详细信息，并自动将其导入Learning Manager。
+用户导入过程允许学习管理器管理员从 ADFS 提取员工详细信息，并自动将其导入学习管理器。
 
 #### 过滤用户
 
-Learning Manager管理员可在导入用户前先对其过滤。 例如，Adobe Learning Manager 管理员可以选择导入一位或多位经理属下层次结构中的所有用户。
+学习经理管理员可以在导入用户之前对用户应用筛选。 例如，Adobe Learning Manager 管理员可以选择导入一位或多位经理属下层次结构中的所有用户。
 
-要设置ADFS连接器，请联系Learning Manager CSM团队。
+要设置 ADFS 连接器，请联系学习管理器 CSM 团队。
 
 ## 配置 ADFS 连接器 {#configureadfsconnector}
 
-1. 在Learning Manager主页，将鼠标悬停在ADFS卡片/缩略图上方。 此时会显示菜单。点击菜单中的连接条目。
+1. 在学习管理器主页中，将鼠标悬停在 ADFS 卡/缩略图上。 此时会显示菜单。点击菜单中的连接条目。
 
    ![](assets/adfs1.jpg)
 
@@ -1722,7 +1764,7 @@ Learning Manager管理员可在导入用户前先对其过滤。 例如，Adobe 
 
 1. 点击 **[!UICONTROL 集成]**.
 
-   验证电子邮件ID后，Learning Manager会显示消息“Connect成功集成”。 您可以使用 Adobe Connect 自动查看虚拟教室课程。
+   对电子邮件 ID 进行身份验证后，学习管理器将显示消息“连接已成功集成”。 您可以使用 Adobe Connect 自动查看虚拟教室课程。
 
    **在 Connect 帐户管理员对其电子邮件 ID 进行身份验证后，系统会将请求交予 Adobe Connect 后端团队进行审批。通常需要一两天时间才能批准和设置集成。**
 
@@ -1751,7 +1793,7 @@ Learning Manager管理员可在导入用户前先对其过滤。 例如，Adobe 
 Adobe Learning Manager 现在还允许学习者通过身份验证进入 Connect 会议室加入虚拟会话。
 
 ![](assets/adobe-connect-authentication.png)
-*Adobe Connect身份验证*
+*Adobe Connect 身份验证*
 
 使用 Adobe Connect 创建虚拟教室模块时，可选择一个长期教室。如果选择&#x200B;**“无”**，则动态会议室的创建和以前一样。
 
@@ -1776,9 +1818,9 @@ Adobe Learning Manager 现在还允许学习者通过身份验证进入 Connect 
 * Connect 中的主持人负责创建课程并上传包含测验的交互式内容。
 * 主持人创建&#x200B;**“虚拟教室”**&#x200B;培训并保存 VC 培训。 主持人可以将上述所建课程链接至 VC，或者在会话期间使用 Connect 应用程序的&#x200B;**“共享课程”**&#x200B;选项来共享课程。
 
-**Learning Manager — 作者**
+**学习管理器 - 作者**
 
-* 作者在Learning Manager中创建课程，模块类型为 **虚拟教室。**
+* 作者在学习管理器中创建模块类型为 **虚拟教室的课程。**
 * 从&#x200B;**“会议系统”**&#x200B;下拉列表中将 Connect 选为 VC 提供方。
 * 选择“长期会议”课程，然后选择主持人在 Connect 中所创建的 VC 教室。 选择讲师。 保存并发布课程。
 
@@ -1950,14 +1992,14 @@ Microsoft Teams 连接器可连接 Adobe Learning Manager 和 Microsoft Teams �
 
 通过用户完成情况自动同步流程，Adobe Learning Manager 管理员可自动获取 Teams 会议的完成记录和录制 URL。
 
-有关详细信息，请参阅  [**在AdobeLearning Manager中安装Microsoft Teams连接器**](install-microsoft-teams-connector.md).
+有关详细信息，请参阅  [**在Adobe Learning Manager中安装Microsoft Teams连接器**](install-microsoft-teams-connector.md).
 
 ## 培训数据访问
 
 
 >[!IMPORTANT]
 >
->仅当AdobeLearning Manager作为Adobe Experience Manager的附加项出售时，此特定功能才可用。 课程数据将在24小时后失效。
+>仅当Adobe Learning Manager作为Adobe Experience Manager的附加项出售时，此特定功能才可用。 课程数据将在24小时后失效。
 
 
 >[!NOTE]
@@ -2020,7 +2062,7 @@ Microsoft Teams 连接器可连接 Adobe Learning Manager 和 Microsoft Teams �
 
 >[!NOTE]
 >
->仅当AdobeLearning Manager作为Adobe Experience Manager的插件出售时，此特定功能才可用。
+>仅当Adobe Learning Manager作为Adobe Experience Manager的附加项出售时，此特定功能才可用。
 
 >[!NOTE]
 >
@@ -2083,7 +2125,7 @@ Adobe Commerce 管理员将 Adobe Learning Manager 配置为集成。
 
 >[!NOTE]
 >
->在2024年3月版AdobeLearning Manager中，我们引入了对 [Adobe Commerce 2.4.6](https://experienceleague.adobe.com/docs/commerce-operations/release/notes/adobe-commerce/2-4-6.html?lang=en).
+>在2024年3月版Adobe Learning Manager中，我们引入了对 [Adobe Commerce 2.4.6](https://experienceleague.adobe.com/docs/commerce-operations/release/notes/adobe-commerce/2-4-6.html?lang=en).
 
 
 1. 点击 **[!UICONTROL 导出培训元数据]** > **[!UICONTROL 按需]**.
@@ -2126,7 +2168,7 @@ Adobe Learning Manager 支持电子商务买卖培训。 在此处，用户可�
 
 此集成的主要目标如下：
 
-* 用户可以通过在AdobeLearning Manager或无头学习界面上销售课程来创造收入。
+* 用户可以通过在Adobe Learning Manager或无头学习界面上销售课程来创造收入。
 * 启用与平台的Adobe Commerce集成，以使用Learning Manager的本机应用程序和AEM销售课程。
 * 允许Learning Manager的客户以付费课程的形式提供正式学习。
 * 学习者可以在决定购买培训之前预览课程。

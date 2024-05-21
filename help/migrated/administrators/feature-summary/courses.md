@@ -4,10 +4,10 @@ jcr-language: en_us
 title: 创建课程模块、实例和学习计划
 contentowner: manochan
 exl-id: aba7417b-26a0-4160-878c-5814f84e5155
-source-git-commit: dee0b611b2c3bae05bfabfb7a6df82b8bcb81b6c
+source-git-commit: 90ebde8049357a4798aa9b23edfa57b8667d6232
 workflow-type: tm+mt
-source-wordcount: '4659'
-ht-degree: 64%
+source-wordcount: '4746'
+ht-degree: 63%
 
 ---
 
@@ -206,6 +206,14 @@ Excel 文件包含每个实例的工作表。 工作表中包含以下字段：
 ![](assets/escalation-notification.png)
 
 *设置升级级别*
+
+## 轮候表
+
+当教室课程名额有限时，轮候表部分允许学习者根据其注册顺序进行轮候。 管理员可以通过选择轮候学习者并分配超过初始限制的名额来管理这种情况。 管理员分配名额后，学习者即可立即注册该课程。
+
+## 讨论区
+
+“讨论区”功能允许学习者查看课程讨论。 作为管理员，您可以根据需要删除任何注释。 管理员可以在课程设置下启用此选项。
 
 ## 课程审阅 {#coursemoderation}
 

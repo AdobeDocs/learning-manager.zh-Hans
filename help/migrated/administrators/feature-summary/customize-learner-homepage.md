@@ -3,14 +3,13 @@ jcr-language: en_us
 title: 自定义学习者主页
 description: 管理员可以自定义学习者主页，使其更与时俱进、更以内容为导向且更加个性化。
 contentowner: saghosh
-source-git-commit: 0534bd52c80b77d985cfe715f74054f3aabac9a2
+exl-id: 1551d240-fa07-4b7b-a06e-61b2bd3bff74
+source-git-commit: 90ebde8049357a4798aa9b23edfa57b8667d6232
 workflow-type: tm+mt
-source-wordcount: '1158'
+source-wordcount: '1157'
 ht-degree: 45%
 
 ---
-
-
 
 # 自定义学习者主页
 
@@ -85,7 +84,7 @@ ht-degree: 45%
 
 ![](assets/option-immersive.png)
 
-*经典体验的选择*
+*学习者主页设置*
 
 沉浸式布局是所有新帐户的默认布局。 布局由管理员可以启用或禁用的小组件控制。 小组件放置方式不同，系统会在学习者主页上显示相同内容。
 
@@ -244,7 +243,7 @@ ht-degree: 45%
    <td>
     <p>自定义</p></td>
    <td>
-    <p>AdobeLearning Manager允许您自定义帐户，从而为用户提供更丰富的使用体验。<br></p></td>
+    <p>Adobe Learning Manager允许您自定义帐户，从而为用户提供更丰富的使用体验。<br></p></td>
   </tr>
   <tr>
    <td>

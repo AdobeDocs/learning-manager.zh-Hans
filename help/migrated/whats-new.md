@@ -4,9 +4,9 @@ jcr-language: en_us
 title: 新功能摘要
 contentowner: jayakarr
 exl-id: 603f1f1c-bf8d-4807-b9f7-b10ded19a91e
-source-git-commit: e21eb23c9b99ef5737ca105edede0eea7186ed02
+source-git-commit: 90ebde8049357a4798aa9b23edfa57b8667d6232
 workflow-type: tm+mt
-source-wordcount: '3861'
+source-wordcount: '3903'
 ht-degree: 1%
 
 ---
@@ -14,6 +14,18 @@ ht-degree: 1%
 # 新功能摘要 {#new-features-summary}
 
 了解Adobe Learning Manager 2024年3月版的新增功能和增强功能。
+
+了解一些Adobe Learning Manager的最新功能，例如：
+
+1. 从外部来源导入技能
+1. 多品牌支持
+1. 清单重新评估活动模块
+1. 白标移动学习应用程序
+
+>[!NOTE]
+>
+>查看此项 [网络研讨会](https://learningmanager.adobe.com/app/learner?accountId=98632#/course/9212121) 以详细了解此版本中的新增功能。
+
 
 ## 此版本中新增的功能 {#whatsnewandchanged}
 
@@ -320,7 +332,7 @@ ht-degree: 1%
 
 ### 与会话相关的电子邮件通知
 
-在较低版本的AdobeLearning Manager中，学习者在以下情况下未收到与会话相关的电子邮件、会话详细信息已更新、会话邀请和会话提醒：
+在较低版本的Adobe Learning Manager中，学习者在以下情况下没有收到与会话相关的电子邮件、会话详细信息已更新、会话邀请和会话提醒：
 
 * 学习者已完成课程，
 * 新会话会添加到课程中，或者
@@ -370,7 +382,7 @@ ht-degree: 1%
 
 ### Connect VC中的更改
 
-在当前版本的AdobeLearning Manager中，系统会标记学习者 **未参加** 注册加入Connect VC会话，但不符合完成标准。
+在当前版本的Adobe Learning Manager中，学习者被标记 **未参加** 注册加入Connect VC会话，但不符合完成标准。
 
 在此版本中，状态更改为 **尚未标记**.
 

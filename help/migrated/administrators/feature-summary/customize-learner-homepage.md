@@ -4,10 +4,10 @@ title: 自定义学习者主页
 description: 管理员可以自定义学习者主页，使其更与时俱进、更以内容为导向且更加个性化。
 contentowner: saghosh
 exl-id: 1551d240-fa07-4b7b-a06e-61b2bd3bff74
-source-git-commit: 90ebde8049357a4798aa9b23edfa57b8667d6232
+source-git-commit: f09c93374673a3da92199d5bbc858f934d6cbba2
 workflow-type: tm+mt
-source-wordcount: '1157'
-ht-degree: 45%
+source-wordcount: '1139'
+ht-degree: 46%
 
 ---
 
@@ -137,6 +137,12 @@ ht-degree: 45%
   </tr>
   <tr>
    <td>
+    <p>显示截止日期的注册</p></td>
+   <td>
+    <p>显示过期、即将截止或即将到来的注册信息。 </p></td>
+  </tr>
+  <tr>
+   <td>
     <p>游戏</p></td>
    <td>
     <p>根据学习活动显示排行榜。</p></td>
@@ -159,24 +165,24 @@ ht-degree: 45%
       <p>其次，管理员还可决定推荐是立即生效还是在指定日期生效。</p></li>
     </ul></td>
   </tr>
-  <tr>
+  <!--<tr>
    <td>
-    <p>根据感兴趣领域推荐</p></td>
+    <p>Recommendation based on area of interest</p></td>
    <td>
-    <p>根据学习者选择的兴趣领域显示学习对象。 推荐由机器学习算法驱动。</p></td>
-  </tr>
+    <p>Displays Learning Objects based on the learner's chosen area of interest. The recommendation is driven by a Machine Learning algorithm.</p></td>
+  </tr>-->
   <tr>
    <td>
     <p>按目录浏览<br></p></td>
    <td>
     <p>在主页上平铺显示目录。 </p></td>
   </tr>
-  <tr>
+  <!--<tr>
    <td>
-    <p>根据同事的活动推荐<br></p></td>
+    <p>Recommendation based on peer activity<br></p></td>
    <td>
-    <p>根据学习者的同事当前参加的培训活动显示培训。 这同样由机器学习算法驱动。</p></td>
-  </tr>
+    <p>Displays training based on what a learner's peers are taking. This is again driven by a Machine Learning algorithm.</p></td>
+  </tr>-->
  </tbody>
 </table>
 
@@ -277,3 +283,8 @@ ht-degree: 45%
   </tr>
  </tbody>
 </table>
+
+>[!NOTE]
+>
+>对于新帐户，“学习者主页”、“培训类型”和“推荐范围”设置将不可见。
+

@@ -1,19 +1,19 @@
 ---
 jcr-language: en_us
 title: AdobeLearning Manager移动应用程序中的白色标签
-description: 白色标签是一种用您自己的品牌重塑应用程序或服务，并像原创者一样对其进行自定义的做法。 在AdobeLearning Manager中，您可以在移动应用程序上应用白色标签，这样就可以重新品牌化应用程序，并使您的用户可以使用自己的品牌。
+description: 白色标签是一种用您自己的品牌重塑应用程序或服务，并像原创者一样对其进行自定义的做法。 在Adobe Learning Manager中，可将白色标签应用于移动应用程序，以便重新品牌化应用程序并使您的用户可使用自己的品牌。
 contentowner: saghosh
 exl-id: f37c86e6-d4e3-4095-9e9d-7a5cd0d45e43
-source-git-commit: 3af4224f82f14342a298ce39088be874a2372817
+source-git-commit: 73d908674e6c32dafa4f9502634c42ec73fc3b6c
 workflow-type: tm+mt
-source-wordcount: '1177'
+source-wordcount: '1205'
 ht-degree: 0%
 
 ---
 
 # AdobeLearning Manager移动应用程序中的白色标签
 
-AdobeLearning Manager移动应用程序现在支持白色标签 — 这意味着您现在可以发布自己的品牌推广应用程序。
+Adobe Learning Manager移动应用程序现在支持白色标签 — 这意味着您现在可以按自己的品牌发布该应用程序。
 
 ## 如何开始准备启动贴有白色标签的应用程序
 
@@ -29,7 +29,7 @@ AdobeLearning Manager移动应用程序现在支持白色标签 — 这意味着
 
 ## 概述
 
-白色标签是一种用您自己的品牌重塑应用程序或服务，并像原创者一样对其进行自定义的做法。 在AdobeLearning Manager中，您可以在移动应用程序上应用白色标签，这样就可以重新品牌化应用程序，并使您的用户可以使用自己的品牌。
+白色标签是一种用您自己的品牌重塑应用程序或服务，并像原创者一样对其进行自定义的做法。 在Adobe Learning Manager中，可将白色标签应用于移动应用程序，以便重新品牌化应用程序并使您的用户可使用自己的品牌。
 
 ## 可自定义的内容
 
@@ -121,7 +121,7 @@ AdobeLearning Manager移动应用程序现在支持白色标签 — 这意味着
 
   <td>
 
-  <p>应用程序图标为png。 此图标将显示在您的应用程序上。 名称的格式为account-id_appIcon.png。</p></td>
+  <p>应用程序图标为png。 此图标将显示在您的应用程序上。 名称的格式为account-id_appIcon.png。 应用程序图标的尺寸为512 × 512像素。</p></td>
 
   </tr>
 
@@ -133,7 +133,7 @@ AdobeLearning Manager移动应用程序现在支持白色标签 — 这意味着
 
   <td>
 
-  <p>对于应用程序的启动屏幕，请提供图像(png)，当用户启动应用程序时会显示该图像。 名称的格式为account-id_splashIcon.png。</p></td>
+  <p>对于应用程序的启动屏幕，请提供图像(png)，当用户启动应用程序时会显示该图像。 名称的格式为account-id_splashIcon.png。 方形初始屏幕的尺寸为1052 × 1052像素，圆形初始屏幕的尺寸为768 x 768像素。</p></td>
 
   </tr>
 
@@ -284,7 +284,7 @@ Android和iOS都使用Firebase Cloud Messaging (FCM)作为向设备发送推送�
 
 >[!IMPORTANT]
 >
->将文件发送到AdobeLearning Manager CSAM团队，以将其包含在应用程序二进制文件的构建中。
+>将文件发送到Adobe Learning Manager CSAM团队，以包含在应用程序二进制文件的构建中。
 
 
 ## 生成已签名的二进制文件

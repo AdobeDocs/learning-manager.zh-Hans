@@ -4,10 +4,10 @@ jcr-language: en_us
 title: 目录
 contentowner: manochan
 exl-id: 5e62995c-6471-47e9-9e6c-06ac5c5586bc
-source-git-commit: 2a841234cd829d2a477d44e9cca095370ee25e51
+source-git-commit: 6862dc1958a34a369f0e0e7218f28151a47beb3b
 workflow-type: tm+mt
-source-wordcount: '294'
-ht-degree: 22%
+source-wordcount: '244'
+ht-degree: 12%
 
 ---
 
@@ -19,14 +19,14 @@ ht-degree: 22%
 
 学习者可以在“ **默认目录**. 根据每个学习者的角色、职务、用户组、个人资料等，这些学习对象均是唯一的。
 
-您可以根据相关技能和学习对象类型(自学、混合、教室、虚拟教室、活动)来过滤学习对象的列表。您还可以使用左窗格中的选项进行筛选，例如按学习对象、按技能以及按完成状态。
+您可以根据不同类别（如“产品”、“工作角色”、“类型”、“所需时间”、“技能”和“关键字”）对学习对象进行排序。 您还可以使用左窗格中的选项进行筛选，例如按学习对象、按技能以及按完成状态。
 
 使用页面顶部的搜索栏输入熟悉的学习对象名称。 学习者可以选择此项，在网格和列表视图之间切换 ![](assets/icon-list.png) 图标。
 
 ![](assets/catalogs.png)
 *查看目录*
 
-作为学习者，您可以根据培训形式（例如，“教室”、“自学”或“虚拟教室”）筛选培训。 此外，学习者还可以根据培训持续时间筛选培训。 现在，管理员可以启用/禁用可用的“技能级别”过滤器。
+<!--As a learner, you can  filter training based on the format of training, for example, Classroom, Self-paced, or Virtual Classroom. In addition, the learner can also filter the trainings based on Training Duration. Skill Levels filter which is already available, can now be enabled/disabled by Administrator. -->
 
 ![](assets/image014.png)
 

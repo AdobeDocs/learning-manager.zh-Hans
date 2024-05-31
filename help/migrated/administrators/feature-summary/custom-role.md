@@ -4,7 +4,7 @@ title: 自定义角色
 description: “学习路径”功能可帮助您定义自定义角色并将特定责任分配给一组用户。 利用此功能，您可以分配个人现有角色权限之外的责任。
 contentowner: dvenkate
 exl-id: dcc84f91-4e51-4ae2-b7cb-9eb29b398bc1
-source-git-commit: 447a4e041d74cf086afada3794ac08a04e70c2ca
+source-git-commit: 6862dc1958a34a369f0e0e7218f28151a47beb3b
 workflow-type: tm+mt
 source-wordcount: '2223'
 ht-degree: 63%
@@ -224,7 +224,7 @@ ht-degree: 63%
 
 1. **用户：** 使用此选项可确定向哪些用户分配此角色。 您可以使用搜索框选择一个或多个用户。
 
-   **将用户添加到自定义角色CSV上传：** 要通过CSV更新添加用户，请将CustomRole列添加到管理员用于导入用户的.csv文件。 在要为其分配自定义角色的用户的CustomRole列下输入用户的角色。 要上传CSV文件，请单击  **[!UICONTROL 添加>上传CSV]**.
+   **将用户添加到自定义角色CSV上传：** 要通过CSV上传添加用户，请将CustomRole列添加到管理员用于导入用户的.csv文件。 在要为其分配自定义角色的用户的CustomRole列下输入用户的角色。 要上传CSV文件，请单击  **[!UICONTROL 添加>上传CSV]**.
 
    CustomRole列注意：
 

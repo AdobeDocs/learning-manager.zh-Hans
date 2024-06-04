@@ -4,7 +4,7 @@ title: 自定义角色
 description: “学习路径”功能可帮助您定义自定义角色并将特定责任分配给一组用户。 利用此功能，您可以分配个人现有角色权限之外的责任。
 contentowner: dvenkate
 exl-id: dcc84f91-4e51-4ae2-b7cb-9eb29b398bc1
-source-git-commit: 6862dc1958a34a369f0e0e7218f28151a47beb3b
+source-git-commit: 890775dafffd3b9d717c39507490977f51f163d4
 workflow-type: tm+mt
 source-wordcount: '2223'
 ht-degree: 63%
@@ -224,7 +224,7 @@ ht-degree: 63%
 
 1. **用户：** 使用此选项可确定向哪些用户分配此角色。 您可以使用搜索框选择一个或多个用户。
 
-   **将用户添加到自定义角色CSV上传：** 要通过CSV上传添加用户，请将CustomRole列添加到管理员用于导入用户的.csv文件。 在要为其分配自定义角色的用户的CustomRole列下输入用户的角色。 要上传CSV文件，请单击  **[!UICONTROL 添加>上传CSV]**.
+   **将用户添加到自定义角色CSV上传：** 要通过CSV更新添加用户，请将CustomRole列添加到管理员用于导入用户的.csv文件。 在要为其分配自定义角色的用户的CustomRole列下输入用户的角色。 要上传CSV文件，请单击  **[!UICONTROL 添加>上传CSV]**.
 
    CustomRole列注意：
 
@@ -483,3 +483,4 @@ Learning Manager已支持使用自定义角色授予内容库访问权限。 所
 
 点击 **[!UICONTROL 用户]** > **[!UICONTROL 自定义角色]**. 在“自定义角色”页面，单击&#x200B;**[!UICONTROL “创建角色”]**。 输入自定义角色的姓名并设置角色权限。 有关更多信息，请参阅[创建自定义角色](custom-role.md#create-role)。
 +++
+

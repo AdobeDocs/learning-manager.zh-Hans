@@ -4,9 +4,9 @@ jcr-language: en_us
 title: 添加用户和创建用户组
 contentowner: manochan
 exl-id: 7df98f2b-c422-4733-8ce4-5489506d4fdf
-source-git-commit: 06b75b0ab591b7045ec3cc7e8b1c20b36e3de649
+source-git-commit: 890775dafffd3b9d717c39507490977f51f163d4
 workflow-type: tm+mt
-source-wordcount: '4016'
+source-wordcount: '4050'
 ht-degree: 61%
 
 ---
@@ -78,6 +78,14 @@ ht-degree: 61%
 1. 要在 Adobe Learning Manager 中添加新用户，请单击&#x200B;**[!UICONTROL “添加”]**。添加用户后，用户会收到验证邮件。然后，学习者激活帐户并开始使用 Adobe Learning Manager。如果您需要向Learning Manager帐户添加有限数量的学习者，此工作流程非常有用。 但是，如果您计划注册一个大型公司的所有员工，您可以一次性完成添加。有关更多信息，请参阅下一节。
 
 ## 批量添加用户 {#addusersinbulk}
+
+### 管理用户
+
+在本培训中，您将了解如何分配和删除角色、发送欢迎电子邮件以及删除和清除用户。
+
+[![按钮](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=4X3B8VJ2&amp;mv=display&amp;mv2=display#/course/7555586)
+
+如果您无法启动培训，请写信至 <almacademy@adobe.com>.
 
 通常，大多数公司使用人力资源管理系统 (HRMS) 来维护所有员工记录，例如，职务、位置、加入日期或员工层级。您可以将此数据导出为 CSV 格式。要导入 CSV，请按以下步骤操作：
 

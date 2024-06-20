@@ -4,9 +4,9 @@ title: 从外部来源导入技能
 description: 使用相应的连接器从内容提供商(例如LinkedIn和Go1)导入技能。  导入的技能将添加到Learning Manager中管理员定义的技能中，供作者在创建课程的工作流程中使用。
 contentowner: saghosh
 exl-id: 3bcd8fc6-16e4-4f66-a5c6-15b3d606f0c2
-source-git-commit: 64d63c46fc0f9e5daada1eb391e720dc45fbab89
+source-git-commit: 260b413b7bb739dc57504df57a6bd2d6a35df161
 workflow-type: tm+mt
-source-wordcount: '526'
+source-wordcount: '516'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,7 @@ ht-degree: 0%
 
 ### 默认课程技能和积分
 
-导入技能后，系统会将它们添加到从被选为技能源的源导入的学习资源中。 例如，如果您的技能来源是LinkedIn Learning，则从LinkedIn Learning导入的所有学习资源都将具备该资源提供的技能。 导入学习资源时，每个学习资源的默认积分为10个。 如果要更改此设置，请联系您的CSM。
+导入技能后，系统会将它们添加到从被选为技能源的源导入的学习资源中。 例如，如果您的技能来源是LinkedIn Learning，则从LinkedIn Learning导入的所有学习资源都将具备该资源提供的技能。 导入学习资源时，每个学习资源的默认积分为10个。
 
 #### 报告
 

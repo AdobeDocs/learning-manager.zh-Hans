@@ -4,9 +4,9 @@ title: AdobeLearning Manager移动应用程序中的白色标签
 description: 白色标签是一种用您自己的品牌重塑应用程序或服务，并像原创者一样对其进行自定义的做法。 在Adobe Learning Manager中，可将白色标签应用于移动应用程序，以便重新品牌化应用程序并使您的用户可使用自己的品牌。
 contentowner: saghosh
 exl-id: f37c86e6-d4e3-4095-9e9d-7a5cd0d45e43
-source-git-commit: 73d908674e6c32dafa4f9502634c42ec73fc3b6c
+source-git-commit: c056c126a61f16198d42b3a73a3b009a58bd641c
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '1349'
 ht-degree: 0%
 
 ---
@@ -23,9 +23,9 @@ Adobe Learning Manager移动应用程序现在支持白色标签 — 这意味�
 
 1. 分配技术资源，该资源能够：
 
-* 正在生成推送通知证书文件。
-* 签署ALM团队提供的应用程序二进制文件。
-* 上传和管理发布过程。 发布过程要求您的应用程序管理员与app/play store团队之间进行通信，以确保您的应用程序符合所有发布准则。 从ALM中，您将收到完全兼容的应用程序二进制文件。
+   * 正在生成推送通知证书文件。
+   * 签署ALM团队提供的应用程序二进制文件。
+   * 上传和管理发布过程。 发布过程要求您的应用程序管理员与app/play store团队之间进行通信，以确保您的应用程序符合所有发布准则。 从ALM中，您将收到完全兼容的应用程序二进制文件。
 
 ## 概述
 
@@ -39,165 +39,211 @@ Adobe Learning Manager移动应用程序现在支持白色标签 — 这意味�
 
 <table>
 
-    <tbody>
-
-    <tr>
-
-   <td>
-
-    <p>帐户ID</p></td>
-
-   <td>
-
-    <p>您帐户的ID。 请注意，属于任何其他帐户的学习者将无法访问带白色标签的应用程序。</p></td>
-
-  </tr>
+ <tbody>
 
   <tr>
 
    <td>
 
-    <p>其他帐户ID</p></td>
+    <p>帐户ID</p>
+
+   </td>
 
    <td>
 
-    <p>如果需要，可添加多个帐户（子域）。 将子域添加为用逗号分隔且不含空格的形式。 例如，acc01、acc02、acc03等等。<br> <b>注：</b> 指定子域时需要添加帐户ID。</br> </p></td>
+    <p>您帐户的ID。 请注意，属于任何其他帐户的学习者将无法访问带白色标签的应用程序。</p>
+
+   </td>
 
   </tr>
 
   <tr>
 
-  <td>
+   <td>
 
-  <p>应用程序名称</p></td>
+    <p>其他帐户ID</p>
 
-  <td>
+   </td>
 
-  <p>要用于应用程序的名称。</p></td>
+   <td>
 
-  </tr>
+    <p>如果需要，可添加多个帐户（子域）。 将子域添加为用逗号分隔且不含空格的形式。 例如，acc01、acc02、acc03等等。<br> <b>注：</b> 指定子域时需要添加帐户ID。</br> </p>
 
-  <tr>
-
-  <td>
-
-  <p>应用程序简称</p></td>
-
-  <td>
-
-  <p>如果应用程序名称较长，则为应用程序提供一个显示在设备上的简称。</p></td>
-
-  </tr>
-
-   <tr>
-
-  <td>
-
-  <p>内部应用程序名称</p></td>
-
-  <td>
-
-  <p>操作系统用来标识应用程序的名称。 通常使用的格式为：com.company-name.product-name。</p></td>
+   </td>
 
   </tr>
 
   <tr>
 
-  <td>
+   <td>
 
-  <p>内部应用程序名称 — iOS</p></td>
+    <p>应用程序名称</p></td>
 
-  <td>
+   <td>
 
-  <p>如果用户使用的是iOS，请使用其他方法命名应用程序。 我们建议为iOS和Android使用相同的名称。</p></td>
+    <p>要用于应用程序的名称。</p>
 
-  </tr>
-
-  <tr>
-
-  <td>
-
-  <p>应用程序图标</p></td>
-
-  <td>
-
-  <p>应用程序图标为png。 此图标将显示在您的应用程序上。 名称的格式为account-id_appIcon.png。 应用程序图标的尺寸为512 × 512像素。</p></td>
+   </td>
 
   </tr>
 
   <tr>
 
-  <td>
+   <td>
 
-  <p>应用程序启动屏幕</p></td>
+    <p>应用程序简称</p>
 
-  <td>
+   </td>
 
-  <p>对于应用程序的启动屏幕，请提供图像(png)，当用户启动应用程序时会显示该图像。 名称的格式为account-id_splashIcon.png。 方形初始屏幕的尺寸为1052 × 1052像素，圆形初始屏幕的尺寸为768 x 768像素。</p></td>
+   <td>
 
-  </tr>
+    <p>如果应用程序名称较长，则为应用程序提供一个显示在设备上的简称。</p>
 
-  <tr>
-
-  <td>
-
-  <p>客户端ID和客户端密钥</p></td>
-
-  <td>
-
-  <p>您帐户的集成管理员在注册应用程序时提供详细信息。 集成管理员必须使用以下内容：<ul><li>学习者：读取，学习者：写入为角色</li><li>内部应用程序name://redirect作为重定向URL</li></ul></p></td>
+   </td>
 
   </tr>
 
   <tr>
 
-  <td>
+   <td>
 
-  <p>账户标志</p></td>
+    <p>内部应用程序名称</p></td>
 
-  <td>
+   <td>
 
-  <p>托管您组织的徽标的URL。 提供内容链接作为帐户徽标。 URL需要进行Web编码。</p></td>
+    <p>操作系统用来标识应用程序的名称。 通常使用的格式为：com.company-name.product-name。</p>
 
-  </tr>
-
-  <tr>
-
-  <td>
-
-  <p>应用程序的App store ID (iOS)</p></td>
-
-  <td>
-
-  <p>实施强制更新所需的ID。 应用程序需要知道学习者应被重定向到App Store才能更新应用程序。</p></td>
-
-  </tr>
-
-   <tr>
-
-  <td>
-
-  <p>应用程序的Google play store id (Android)</p></td>
-
-  <td>
-
-  <p>实施强制更新所需的ID。</p></td>
+   </td>
 
   </tr>
 
   <tr>
 
-  <td>
+   <td>
 
-  <p>用于深层链接的主机名</p></td>
+    <p>内部应用程序名称 — iOS</p>
 
-  <td>
+   </td>
 
-  <p>要托管深层链接，请使用learningmanager。 如果要使用另一个主机名URL作为深层链接，请提供主机的URL。 例如，learningmanager.adobe.com。</p></td>
+   <td>
+
+    <p>如果用户使用的是iOS，请使用其他方法命名应用程序。 我们建议为iOS和Android使用相同的名称。</p>
+
+   </td>
 
   </tr>
 
-    </tbody>
+  <tr>
+
+   <td>
+
+    <p>应用程序图标</p>
+
+   </td>
+
+   <td>
+
+    <p>应用程序图标为png。 此图标将显示在您的应用程序上。 名称的格式为account-id_appIcon.png。 应用程序图标的尺寸为512 × 512像素。</p>
+
+   </td>
+
+  </tr>
+
+  <tr>
+
+   <td>
+
+    <p>应用程序启动屏幕</p></td>
+
+   <td>
+
+    <p>对于应用程序的启动屏幕，请提供图像(png)，当用户启动应用程序时会显示该图像。 名称的格式为account-id_splashIcon.png。 方形初始屏幕的尺寸为1052 × 1052像素，圆形初始屏幕的尺寸为768 x 768像素。</p>
+
+   </td>
+
+  </tr>
+
+  <tr>
+
+   <td>
+
+    <p>客户端ID和客户端密钥</p>
+
+   </td>
+
+   <td>
+
+    <p>您帐户的集成管理员在注册应用程序时提供详细信息。 集成管理员必须使用以下内容：<ul><li>学习者：读取，学习者：写入为角色</li><li>内部应用程序name://redirect作为重定向URL</li></ul></p>
+
+   </td>
+
+  </tr>
+
+  <tr>
+
+   <td>
+
+    <p>账户标志</p>
+
+   </td>
+
+   <td>
+
+    <p>托管您组织的徽标的URL。 提供内容链接作为帐户徽标。 URL需要进行Web编码。</p>
+
+   </td>
+
+  </tr>
+
+  <tr>
+
+   <td>
+
+    <p>应用程序的App store ID (iOS)</p>
+
+   </td>
+
+   <td>
+
+    <p>实施强制更新所需的ID。 应用程序需要知道学习者应被重定向到App Store才能更新应用程序。</p>
+
+   </td>
+
+  </tr>
+
+  <tr>
+
+   <td>
+
+    <p>应用程序的Google play store id (Android)</p>
+
+   </td>
+
+   <td>
+
+    <p>实施强制更新所需的ID。</p>
+
+   </td>
+
+  </tr>
+
+  <tr>
+
+   <td>
+
+    <p>用于深层链接的主机名</p>
+
+   </td>
+
+   <td>
+
+    <p>要托管深层链接，请使用learningmanager。 如果要使用另一个主机名URL作为深层链接，请提供主机的URL。 例如，learningmanager.adobe.com。</p>
+
+   </td>
+
+  </tr>
+
+ </tbody>
 
 </table>
 
@@ -261,16 +307,31 @@ Android和iOS都使用Firebase Cloud Messaging (FCM)作为向设备发送推送�
 
 ### 在Android上推送通知
 
-在Firebase中设置项目，并与CSAM共享服务器密钥。
+对于Android，用户需要提供来自Firebase项目的services.json文件，以便在SNS服务中添加条目。
 
-联系CSM团队，获取添加到AWS上SNS服务的文件。 用户必须在SNS服务中注册推送通知的条目，这将要求他们共享上面生成的证书以进行验证。
+在Firebase中创建项目，并将services.json文件共享给CSM团队。 SNS中基于令牌的条目需要此文件。 请注意，不再使用服务器密钥。 请参阅 [在Firebase中创建项目](#create-project-in-firebase).
 
->[!NOTE]
->
->对于Android，用户需要提供他们为Android创建的Firebase项目中的服务器密钥，以便在SNS服务中添加条目。
+要下载services.json文件，请执行以下步骤：
 
+1. 登录到 **Firebase** 控制台。
+1. 转到“ ” **项目设置** 并选择 **云消息**.
+1. 查找 **Firebase Cloud Messaging API** 并选择 **管理服务帐户**.
+1. 在 **服务客户计数** 页面中，选择 **服务帐户** 左侧面板中。
+1. 查找您的项目条目，然后选择 **管理详细信息** 在操作下。
 
-## 在Firebase中创建项目
+   >[!NOTE]
+   >
+   >   项目条目格式将为&lt;-accountname->@appspot.gserviceaccount.com。
+
+1. 转至 **键** 制表符并选择 **添加密钥**.
+1. 如果没有密钥，请选择 **创建新密钥** 并选择 **JSON** 作为键类型。 这将生成并下载JSON文件。
+1. 如果已有密钥，请选择 **上传现有密钥**，粘贴密钥，然后上传。 这将生成并下载JSON文件。
+
+<!-- Set up a project in Firebase and share the server key with the CSAM.-->
+
+联系CSM团队并共享JSON文件，以将条目添加到AWS上的SNS服务。 用户必须在SNS服务中注册推送通知的条目，这将要求他们共享上面生成的证书以进行验证。
+
+## 在Firebase中创建项目 {#create-project-in-firebase}
 
 ### Android
 

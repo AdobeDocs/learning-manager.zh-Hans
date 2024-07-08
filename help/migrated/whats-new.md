@@ -1,16 +1,16 @@
 ---
 description: 了解 Adobe Learning Manager 2024 年 7 月版中的新增功能和增强功能
 jcr-language: en_us
-title: 此版本中新增的功能
-source-git-commit: 7be69e68f3b8970e090c8eccd25771cd2e5e99f1
+title: 新功能摘要
+source-git-commit: 7e3b19d29b9de23ea489c5651ef0aef1d4ec3005
 workflow-type: tm+mt
-source-wordcount: '2170'
-ht-degree: 3%
+source-wordcount: '2178'
+ht-degree: 2%
 
 ---
 
 
-# 此版本中新增的功能 {#whatsnewandchanged}
+# 新功能摘要 {#new-features-summary}
 
 了解 Adobe Learning Manager 2024 年 7 月版中的新增功能和增强功能。
 
@@ -77,7 +77,7 @@ _新的用户界面_
 
 ### 此版本中的更改内容
 
-客户可以购买高级计划来构建这种高度可扩展的非登录体验。 这种非记录体验由“培训数据访问](/help/migrated/integration-admin/feature-summary/connectors.md#training-data-access)”[提供支持，可使用 Adobe Learning Manager API 提供有关座位限制、占用座位、轮候名单限制和轮候表计数的实时数据。客户可以使用这些 API 为非登录学习者提供搜索和过滤功能以及完整的课程摘要。
+客户可以购买高级计划来构建这种高度可扩展的非登录体验。 这种非记录体验由“培训数据访问](/help/migrated/integration-admin/feature-summary/connectors.md#training-data-access)”[提供支持，可使用 Adobe Learning Manager API 提供有关座位限制、占用座位、轮候名单限制和轮候表计数的实时数据。客户可以使用这些 API 为非登录学习者提供搜索和过滤功能以及完整的课程摘要。 有关 API 的更多信息，请参阅此文章 [非登录 API](/help/migrated/integration-admin/feature-summary/non-logged-in-apis.md) 。
 
 >[!NOTE]
 >
@@ -337,4 +337,4 @@ curl --location 'https://example.com/primeapi/v2/learningObjects/learningProgram
 ## Adobe Learning Manager 的早期版本
 
 * [2024 年 3 月版](/help/migrated/whats-new-march-2024.md)
-* [2024 年 11 月版](/help/migrated/whats-new-november-2023.md)
+* [2023 年 11 月版](/help/migrated/whats-new-november-2023.md)

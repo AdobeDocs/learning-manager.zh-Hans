@@ -3,20 +3,19 @@ description: 了解如何通过经理信息板查看和跟踪学习情况。
 jcr-language: en_us
 title: 经理信息板
 contentowner: kuppan
-source-git-commit: a495c86f8dff3ebc51e7700a3f3bcf7ce57d1311
+exl-id: 32d017bf-ee5a-4749-947d-0d62b32d6f38
+source-git-commit: 2a679ba595c6958d436f8a1db0196b8dbc7d30cf
 workflow-type: tm+mt
-source-wordcount: '1474'
-ht-degree: 68%
+source-wordcount: '1432'
+ht-degree: 49%
 
 ---
-
-
 
 # 经理信息板
 
 了解如何通过经理信息板查看和跟踪学习情况。
 
-经理在团队的学习计划中起着重要作用。 为更好地提供指导，学习平台为经理提供了信息板视图，用于跟踪团队的学习情况。
+管理者在团队的学习计划中发挥着重要作用。 为更好地提供指导，学习平台为经理提供了信息板视图，用于跟踪团队的学习情况。
 
 ![](assets/dashboard-final.png)
 
@@ -40,9 +39,9 @@ ht-degree: 68%
 
 ![](assets/ls-team-view.png)
 
-*“团队视图”显示团队、其成员及其各自的注册情况*
+*团队视图显示团队、团队成员及其各自的注册*
 
-单击团队名称（例如，Venkatesh的团队）时，您可以查看Venkatesh团队的成员以及学习对象的注册、进展和完成的总数。
+单击团队名称（例如 Venkatesh 的团队）后，您可以查看 Venkatesh 团队中的成员以及学习对象的注册、进度和完成总数。
 
 ![](assets/ls-click-team-names.png)
 
@@ -60,11 +59,11 @@ ht-degree: 68%
 
 *查看课程和学习摘要*
 
-在进一步单击每个学习的注册、进展或完成数时，您可以查看以下详细信息：人员、注册/完成日期、到期日期和进度。
+进一步单击每项学习的注册数、进度数或完成数后，您可以查看以下详细信息：人员、注册/完成日期、截止日期和进度。
 
 ![](assets/ls-team-view-on-furtherclickingthevaluesforalearning.png)
 
-*查看注册/完成日期、到期日期和进度*
+*查看注册/完成日期、截止日期和进度*
 
 ## 学习项目视图 {#learningsview}
 
@@ -76,81 +75,132 @@ ht-degree: 68%
 
 ![](assets/ls-learnings-view-onfurtherclickingvalues.png)
 
-*学习视图*
+*“学习”视图*
 
 ## 导出报告 {#exportreport}
 
-要生成Excel报告，请单击 **[!UICONTROL 动作] > [!UICONTROL 举报]**
+若要生成 Excel 报告，请选择“操作]”**[!UICONTROL >[!UICONTROL “报告]**
 
 ## 合规状态 {#compliancestatus}
 
-经理可以在合规性信息板中查看已配置学习的团队整体合规性状态。 学习项目列表为可配置型，经理可选择具体的学习项目以跟踪合规状态。
+在合规性仪表板中，经理可以跨特定类别（例如，销售、营销和法律）查看团队配置学习的整体合规性状态。 管理员可以创建包含合规性课程、学习路径或认证的仪表板，并与经理共享。 经理可以在其实例中查看管理员共享的信息板。
 
-在此信息板中，经理还可以查看某个选定学习对象处于以下不同状态的学习者人数：合规、在安全截止日期内、临近截止日期和不合规。
+### 查看仪表板
 
-截止日期为已完成的学习对象可在合规性信息板中配置以进行跟踪。
+要查看仪表板，请从经理应用程序中选择 **[!UICONTROL 合规性仪表板]** 。
 
-**合规**：显示在截止日期内已完成该学习对象的学习者人数。
+![](assets/compliance-dashboard-manager.png)
+_合规性仪表板-管理器应用_
 
-**安全截止日期**：显示该学习对象的可用完成时间多于 30 天的学习者人数。
+合规性仪表板包括以下合规性状态：
 
-**临近截止日期**：显示该学习对象的可用完成时间少于 30 天的学习者人数。
+* **[!UICONTROL 不合规学员]**：显示错过截止日期的学员数量。
+* **[!UICONTROL 临近截止日期]**&#x200B;的学习者：显示截止日期在 30 天内的学习者数量。
+* **[!UICONTROL 具有安全截止日期]**&#x200B;的学习者：显示截止日期较远（超过 30 天）的学习者数量。
+* **[!UICONTROL 完全合规的]**&#x200B;学习者：显示完全合规的学习者的数量。
+* **[!UICONTROL 未在任何地方注册的]**&#x200B;学习者：显示未注册任何课程、学习路径或认证的学习者数量。
 
-**不合规**：显示未在截止日期内完成该学习对象的学习者人数。
+### 电子邮件管理员和学习者
+
+**管理多个团队**
+
+如果您管理多个团队，则可以通过选择“**[!UICONTROL 团队视图]**”部分中的“电子邮件管理器&#x200B;]**”选项，向**[!UICONTROL &#x200B;经理通知团队成员的学习状态。
+
+![](assets/email-managers.png)
+_电子邮件管理器_
+
+**[!UICONTROL 电子邮件管理器]**&#x200B;为您提供以下选项：
+
+* **[!UICONTROL 向不合规学习者]**&#x200B;发送电子邮件经理：通知团队成员错过截止日期的经理。
+* **[!UICONTROL 向临近截止日期]**&#x200B;的学习者发送电子邮件经理：通知团队成员有截止日期的经理。
+
+**管理单个团队**
+
+如果您管理单个团队，则可以通过选择&#x200B;**[!UICONTROL “团队视图]**”部分中的“向学习者&#x200B;]**发送电子邮件”选项来通知学习者**[!UICONTROL &#x200B;其学习状态。
+
+![](assets/email-learners.png)
+_向学习者发送电子邮件_
+
+“ **[!UICONTROL 电子邮件学习者]** ”选项提供以下选项：
+
+* **[!UICONTROL 向不合规的学习者]**&#x200B;发送电子邮件：通知错过截止日期的学习者。
+* **[!UICONTROL 向临近截止日期]**&#x200B;的学习者发送电子邮件：通知截止日期即将到来的学习者。
+
+### 下载报告
+
+如需下载报告，请执行以下步骤：
+
+1. 在经理应用程序中，转到 **[!UICONTROL 合规性仪表板]** > **[!UICONTROL 团队视图]**。
+1. 选择“下载报告&#x200B;]**”**[!UICONTROL &#x200B;以将仪表板另存为报告。这使您可以跟踪团队的整体学习进度。
+
+![](assets/download-report.png)
+_下载报告_
+
+<!--On this dashboard, managers can also view the learners who are compliant, in a safe deadline, approaching deadline, and non-compliant for a selected learning object. 
+
+Learning Objects with completion deadlines can be configured in compliance dashboard for tracking. 
+
+**Compliant**: Displays the number of learners who have completed the learning object within completion deadline.
+
+**Safe deadline**: Displays the number of learners who have less than 30 days available to complete a learning object.
+
+**Upcoming Deadline**: Displays the number of learners with more than 30 days available to complete a learning object.
+
+**Non-compliant**: Displays the number of learners who did not complete the learning object within the completion deadline.
 
 ![](assets/cs-dashboard.png)
 
-*查看合规性信息板*
+*View compliance dashboard*
 
-## 团队视图 {#TeamView-1}
+## Team View {#TeamView-1}
 
-显示各个团队的课程合规状态。“团队视图”表中“合规”、“安全截止日期”、“临近截止日期”和“不合规”等列。
+Displays the compliance status of a course for respective teams. Compliant, Safe Deadline, Upcoming Deadline, and Non-Compliant are columns in the Team View table.
 
 ![](assets/cs-team-view.png)
 
-*各团队课程的合规性状态*
+*compliance status of a course for respective teams*
 
-要显示团队成员的名称及其状态为合规、安全截止日期、即将到来的截止日期和不符合的课程的个人数量，请单击表中的相应值。
+To display names of the members in a team and the individual number of courses for which their status is Compliant, in Safe Deadline, reaching Upcoming Deadline, and Non Compliant, click the corresponding values in the table.
 
 ![](assets/cs-team-view-on-clickingthenumber.png)
 
-*选择单个团队*
+*Select individual teams*
 
-进一步单击“合规”、“安全截止日期”、“临近截止日期”和“不合规”列中的值，可显示相应的课程详细信息：学习对象名称、注册/完成日期、到期日期和进度百分比。
+On further clicking the values in the compliant, safe deadline, upcoming deadline, and non-compliant column, the corresponding course details are displayed: Learning object name, enrollment/ completion date, due date, and progress in percentage.
 
 ![](assets/cs-team-view-on-furtherclickingvaluesincompliantstatus.png) ![](assets/cs-team-view-on-furtherclickingvaluesinsafedeadlinestatus.png)
 
-*查看课程进度*
+*View progress of courses*
 
-## 学习项目视图 {#LearningsView-1}
+## Learnings View {#LearningsView-1}
 
-在合规状态学习项目视图中，会显示学习对象列表以及状态分别为“合规”、“在安全截止日期内”、“临近截止日期”或“不合规”的团队成员人数。
+In the Compliance Status Learnings View, the list of Learning Objects and the corresponding number of team members that are Compliant, within a Safe Deadline, have an Upcoming Deadline, or are Non Compliant is displayed.
 
 ![](assets/cs-learnings-view.png)
 
-*查看截止日期和合规性状态*
+*View deadline and compliance status*
 
-进一步单击“合规”、“安全截止日期”、“临近截止日期”和“不合规”列中的值，可显示以下数据：人员、注册日期、完成日期和进度。
+On further clicking the values in the compliant, safe deadline, upcoming deadline, and non compliant columns, the following data is displayed: People, Enrollment Date, Completion date, and Progress.
 
 ![](assets/cs-learnings-view-onfurtherclickingvalues.png)
 
-*查看合规性详细信息*
+*View details of compliance*
 
-## 导出数据和发送电子邮件 {#exportdataampsendemails}
+## Export data & send emails {#exportdataampsendemails}
 
-* 要导出团队和学习视图的合规性状态，请单击 **[!UICONTROL 动作]** > **[!UICONTROL 导出]**.
+* To export the compliance status for team and learnings view, click **[!UICONTROL Actions]** > **[!UICONTROL Export]**.
 
-* 要向团队成员发送电子邮件，请单击 **[!UICONTROL 动作]** > **[!UICONTROL 发送电子邮件]**.
+* To send an email to team members, click **[!UICONTROL Actions]** > **[!UICONTROL Send Email]**.
 
 ![](assets/cs-send-email-andexport.png)
 
-*导出和通过电子邮件发送数据*
+*Export and email data*-->
 
 ## 团队技能 {#teamskills}
 
-经理可以查看技能完成图并配置不同级别的技能完成预测。技能下拉列表中列有五项技能。经理可了解团队成员所获得的专业知识，确定掌握某些技能的优秀人才。
+经理可以查看技能完成图并配置不同级别的技能完成预测。技能下拉列表包含五项技能。 经理了解团队成员获得的专业知识，并识别某些技能的强大人才。
 
-经理还可以通过时间轴设定团队技能目标并预测团队中特定比例的成员掌握某项技能所需的时间，推动相应团队技能的提升。
+经理还可以通过设定目标并预测在时间轴内达到团队特定百分比的技能所需的时间来推动团队中的某些技能。
 
 此预测基于系统计算，用于展望某项特定技能的提升进度。
 
@@ -160,7 +210,7 @@ ht-degree: 68%
 
 要查看团队的技能状态，请执行以下步骤：
 
-1. 点击 **[!UICONTROL 团队技能]** 从左侧窗格中的“我的团队视图”部分。
+1. 单击左侧窗格中“我的团队视图”部分下的“团队技能&#x200B;]**”。**[!UICONTROL 
 1. 要查看显示的技能，请单击技能过滤器，从下拉列表中选择一个。
 1. 要选择级别（级别 1、级别 2 或级别 3），请单击级别下拉菜单。
 1. 根据所选的技能和级别，屏幕上会显示相应的技能状态图表。在该图表上悬停鼠标，您可以查看以下技能状态的比例：**“正在进行”**&#x200B;和&#x200B;**“已获得”**。
@@ -179,13 +229,13 @@ ht-degree: 68%
 
    *选择“配置”超链接*
 
-1. 在配置弹出对话框中，对于要配置的技能，在 **目标完成率%** 字段，以及希望达到目标完成比例(%)的日期 **目标日期** field.****
+1. 在配置弹出对话框中，对于要配置的技能，在“**目标完成百分比”字段中输入百分比值，在“**&#x200B;目标日期&#x200B;**”**&#x200B;字段中输入要达到目标完成百分比的日期。****
 
    ![](assets/configure-tracker.png)
 
    *输入目标完成百分比*
 
-1. 要查看预测结果，请单击&#x200B;**“预计”**&#x200B;按钮。输出结果如下图所示。
+1. 要查看预测结果，请单击&#x200B;**“预计”**&#x200B;按钮。输出如下面的屏幕截图所示。
 
    ![](assets/skill-tracker-output.png)
 
@@ -207,7 +257,7 @@ ht-degree: 68%
 
 ![](assets/2-solid-line.png)
 
-*查看技能的当前日期和团队完成百分比级别*
+*查看技能的当前日期和团队完成百分比*
 
 线上的第三点显示预期目标完成比例 (%) 和目标完成日期。
 
@@ -223,25 +273,25 @@ ht-degree: 68%
 
 ![](assets/1-dotted-line.png)
 
-*查看技能的团队完成比例%和预计团队完成比例%*
+*查看技能的团队完成百分比和预计团队完成百分比*
 
 第二个点显示某项技能的预计团队完成比例 (%) 应达到的日期。
 
 ![](assets/2-dotted-line.png)
 
-*查看某个技能的预计团队完成比例%的完成日期*
+*查看技能达到预计团队完成百分比的日期*
 
 预测线上的第三个点显示在技能跟踪器中提供的目标日期应达到的团队完成比例 (%)。
 
 ![](assets/3-dotted-line.png)
 
-*查看在技能跟踪器中提供的目标日期实现的团队完成率%*
+*查看在技能跟踪器中提供的目标日期实现的团队完成百分比*
 
 在图表下方会显示一个表格，其中包含团队视图以及已注册、已获得和正在进行的技能数。如果学习项目有完成日期，同样会显示预计完成日期。
 
 ![](assets/ts-details.png)
 
-*包含团队视图以及已注册、已习得和正在学习的技能数量的表*
+*包含团队视图以及已注册、已获得和正在学习的技能数的表格*
 
 单击团队名称，会显示一个列表，其中包含已注册该技能的成员人数、技能状态和完成日期。
 
@@ -249,7 +299,7 @@ ht-degree: 68%
 
 *查看成员列表*
 
-单击团队时，您可以查看其中的成员以及所选技能的相应详细信息，例如，已注册、状态（进行中还是已习得）以及完成日期（如果已设置）。
+单击团队后，您可以查看团队中的成员以及所选技能的相应详细信息，如已注册时间、状态（进行中还是已达到）以及完成日期（如果已设置）。
 
 ![](assets/on-clicking-the-teamnames.png)
 
@@ -261,7 +311,7 @@ ht-degree: 68%
 
 ## 导出报告 {#Exportreport-1}
 
-* 点击 **[!UICONTROL 动作]** > **[!UICONTROL 导出]** 将数据导出为excel文件。
+* 单击“操作&#x200B;]**”>**[!UICONTROL “导出&#x200B;]**”**[!UICONTROL ，将数据导出为 excel 文件。
 
 ![](assets/export-report.png)
 

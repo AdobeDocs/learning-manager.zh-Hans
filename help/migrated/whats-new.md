@@ -1,577 +1,340 @@
 ---
-description: 了解AdobeLearning Manager 2024年3月版(tne)的新增功能和增强功能
+description: 了解 Adobe Learning Manager 2024 年 7 月版中的新增功能和增强功能
 jcr-language: en_us
-title: 新功能摘要
-contentowner: jayakarr
-exl-id: 603f1f1c-bf8d-4807-b9f7-b10ded19a91e
-source-git-commit: 90ebde8049357a4798aa9b23edfa57b8667d6232
+title: 此版本中新增的功能
+source-git-commit: 7be69e68f3b8970e090c8eccd25771cd2e5e99f1
 workflow-type: tm+mt
-source-wordcount: '3903'
-ht-degree: 1%
+source-wordcount: '2170'
+ht-degree: 3%
 
 ---
 
-# 新功能摘要 {#new-features-summary}
 
-了解Adobe Learning Manager 2024年3月版的新增功能和增强功能。
+# 此版本中新增的功能 {#whatsnewandchanged}
 
-了解一些Adobe Learning Manager的最新功能，例如：
+了解 Adobe Learning Manager 2024 年 7 月版中的新增功能和增强功能。
 
-1. 从外部来源导入技能
-1. 多品牌支持
-1. 清单重新评估活动模块
-1. 白标移动学习应用程序
+## 合规性仪表板中的增强功能
 
->[!NOTE]
->
->查看此项 [网络研讨会](https://learningmanager.adobe.com/app/learner?accountId=98632#/course/9212121) 以详细了解此版本中的新增功能。
+### 什么是合规性仪表板？ {#whatiscompliancedashboard}
 
+使用 Adobe Learning Manager **中的**&#x200B;合规性信息板&#x200B;]**，**[!UICONTROL &#x200B;经理可以监控学习者实现学习目标的进度。他们可以检查团队成员是否在截止日期前完成并跟上他们的学习过程，这有助于确保合规性。 管理员可以设置合规性信息板并与经理共享。
 
-## 此版本中新增的功能 {#whatsnewandchanged}
+要在“管理员”应用程序中访问合规性信息板，请选择“学习摘要”**[!UICONTROL >“报告]**”>**[!UICONTROL **[!UICONTROL “合规性信息板&#x200B;]**”。]**
 
-### 从外部来源导入技能
+### 版本中发生的变化
 
-使用相应的连接器从内容提供商(例如LinkedIn和Go1)导入技能。 此增强功能是Learning Manager集成外部技能云和人才管理系统的能力目标的一部分。 导入的技能将添加到Learning Manager中管理员定义的技能中，供作者在创建课程的工作流程中使用。 此外，还增强了整个平台的技能搜索功能，以便在帐户拥有大量技能时提供更好的搜索体验。
+通过增强的合规性信息板，管理员和经理可以查看与其特定类别（例如，销售、市场营销和法律）相关的合规性类型课程、学习路径或认证。 管理员可以将自定义合规性课程分类为特定类别。 自定义合规性类别由目录标签提供支持。  管理员可以创建课程信息板并将其共享给经理。 然后，经理可以在各自的实例上查看相同的仪表板。 此外，还增强了合规性仪表板的用户界面和合规性电子邮件通知。![](assets/compliance-dashboard-admin.png)
 
-视图 [导入技能](administrators/feature-summary/import-skills-external-sources.md) 了解更多信息。
+#### 工作流
 
-### 自定义品牌
+以下是使用增强的合规性信息板的步骤：
 
-您现在可以根据帐户中提供的用户组自定义某些UI元素，即组织名称、徽标和UI主题。 例如，具有多个部门的组织可以设置自定义徽标和要为每个部门显示的UI主题。
+| 角色 | 任务 | 更多信息 |
+|---|---|---|
+| 管理员 | 创建自定义合规性标签 | 请参阅此文章 [创建自定义合规性标签](/help/migrated/administrators/feature-summary/reports.md#compliance-dashboard) ，了解更多信息 |
+| 作者 | 将这些标签添加到课程 | 有关详细信息，请参阅此文章 [向课程/学习路径/认证](/help/migrated/authors/feature-summary/courses.md#add-compliance-labels-to-courselearning-pathcertification) 添加合规性标签。 |
+| 管理员 | 创建包含合规性课程的仪表板并与经理共享 | 有关详细信息，请参阅此文章 [创建和共享合规性仪表板](/help/migrated/administrators/feature-summary/reports.md#create-and-share-a-compliance-dashboard) 。 |
+| 经理 | 查看合规性仪表板 | 有关详细信息，请参阅此文章[合规性状态](/help/migrated/managers/feature-summary/manager-dashboard.md#compliance-status) |
 
->[!NOTE]
->
->此多个品牌推广功能不适用于管理员视图。 他们始终会在帐户中看到组织级别的品牌推广。 这是由于这是面向学习者的功能，管理员可能不希望将其添加到帐户中。
-
-视图 [多个自定义品牌](administrators/feature-summary/themes.md#multiple-branding) 了解更多信息。
-
-
-## 拥有大量用户群的帐户的更改
-
-### 管理员 — 课程或学习路径页面
-
-如果注册课程的学习者人数很多（例如，超过50,000人），则不会显示学习者列表。 您可以在以下位置搜索学习者 *搜索学习者* 搜索栏或选择 **下载** 单击搜索栏顶部的链接以下载学习者列表。
-
-### 管理员 — 学习者页面
-
-搜索任何用户时， **下载学习者** 和 **导出** 选项会下载相同的报告。 同时，在搜索用户组时，您现在可以从该用户组下载筛选后的用户。 搜索用户组时， **下载学习者列表** 更改为 **下载用户组的学习者列表** 该 **导出** 再次使用该选项可下载整个列表。
-
-### 管理员 — 用户页面
-
-#### 内部用户
-
-如果用户数量超过50,000，随后将显示一条消息，下载数据以进行更详细的分析。 搜索栏现在突出显示，并会以格式显示用户 *姓名，电子邮件 | UUID*.
-
->[!NOTE]
->
->只有为帐户启用了UUID时，才会显示UUID。
-
-#### 外部用户
-
-对于外部用户，同样的行为同样适用。 如果用户数量很大，您可以下载这些用户，也可以在以格式进行搜索后检索用户的详细信息 *姓名，电子邮件 | UUID*.
-
-#### “用户清理”页面
-
-在“用户清理”页面上，对于已删除的用户，我们删除了 **删除日期**. 您只能对UUID进行排序。
-
-### 管理员 — 实例页面
-
-#### 课程或学习路径
-
-如果注册数量很大，Adobe Learning Manager将不会显示学习者数量。 系统会显示一个图标，供您选择、查看学习者数量并导航至学习者页面。
-
-学习者数量将显示为一个近似值。 例如，如果学习者数量超过50,000，则值将显示为50K+。
-
-### 管理员 — L1/L3页面
-
-在“L1反馈”页面上，如果课程注册数量很大，则不会显示学习者列表。 相反，您可以导出用户列表以便稍后进行更详细的分析。
-
-搜索支持预先输入，结果仅限于选定的实例。
-
-#### “出席情况与得分”页面
-
-在该页面上，当您搜索用户时，将在所有可用实例上执行搜索。 但是，结果适用于选定的实例。
-
-在“出席情况”页面上，如果您搜索用户组，而用户组中的用户数超过10,000（不考虑注册），则您只能执行批量级别操作。 您将无法查看用户列表。
-
-如果用户组中的用户数少于10,000，则您可以执行单个用户级别操作以及批量级别操作。 在这种情况下，不会禁用用户列表。
-
-### 管理员 — 认证页面
-
-在Adobe Learning Manager的当前版本中，如果注册认证的用户数量较多，则自 **状态** 下拉菜单已禁用。
-
-在此版本的Adobe Learning Manager中，如果注册用户数量较多，则 **状态** 下拉菜单仅显示两个选项 —  **已注册** 和 **取消注册**. 选项 **已注册** 默认情况下处于选中状态。 如果您选择 **取消注册**，此时会显示取消注册的学习者列表。
-
-#### 用户组更改
-
-对于用户组，如果用户组中的用户数少于例如50,000，则 **状态** 下拉菜单显示所有选项 — “已认证”、“已分配”和“即将过期”。
-
-如果用户组中的用户数量很大，则 **状态** 下拉菜单仅显示两个选项 —  **已注册** 和 **取消注册**，根据新的设计。
-
-### 比较表
-
-<table>
-    <tbody>
-        <tr>
-            <td><b>页面</b></td>
-            <td><b>阈值更改之前</b></td>
-            <td><b>阈值更改之后</b></td>
-        </tr>
-        <tr>
-            <td>管理员课程实例</td>
-            <td>实例按如下设计显示：
-            <ul>
-                <li>模块</li>
-                <li>已注册的学习者</li>
-                <li>会话</li>
-                <li>徽章</li>
-                <li>已启用 L1 反馈</li>
-                <li>通知警报</li>
-                <li>游戏点数</li>
-                <li>二维码</li>
-                <li>学习路径扩展</li>
-            </ul>
-            <td>
-                <ul>
-                    <li>如果注册数量超过预定义的阈值，ALM将不会显示计数；它将会用一个图标替换计数，单击该图标将显示实际学习者数量以及可将您引导到“学习者”页面的链接。</li>
-                    <li>注册数量将以近似格式显示。 例如，如果数字大于50,000，则课程级别的计数将显示为50K+。</li>
-                </ul>
-            </td>
-        </tr>
-        <tr>
-            <td>管理员 — 学习者页面</td>
-            <td>
-                    <ul>
-                        <li>此时会显示每个实例的学习者列表。</li>
-                        <li>您可以搜索注册课程的用户或用户组。</li>
-                        <li>导出的报告不包含任何用户组过滤器。</li>
-                    </ul>
-            </td>
-            <td>
-                <ul>
-                    <li>实例选择被禁用。</li>
-                    <li>下载学习者列表还可以下载除一个案例外的相同数据。 如果您搜索用户组，然后选择“下载学习者列表”，则将下载该用户组数据。</li>
-                </ul>
-            </td>
-        </tr>
-        <tr>
-            <td>管理员 — L1/L3反馈页面</td>
-            <td>
-                <p>现有行为没有变化</p>
-            </td>
-            <td>
-                <ul>
-                    <li>实例选择被禁用。</li>
-                    <li>如果课程注册人数超过50K，ALM不会列出学习者，并且只显示搜索栏。 如果注册少于50K，ALM会显示学习者列表和搜索栏。</li>
-                    <li>默认情况下，列表处于禁用状态。</li>
-                </ul>
-            </td>
-        </tr>
-        <tr>
-            <td>“管理员 — 出席情况与得分”页面</td>
-            <td>
-                <p>现有行为没有变化</p>
-            </td>
-            <td>
-                <ul>
-                    <li>搜索用户时，会禁用实例选择。</li>
-                    <li>如果用户数量超过50,000，则会出现另一条消息，用于下载数据以便稍后进行更详细的分析。 搜索栏现在突出显示，并以“名称”、“电子邮件”格式显示用户 | UUID。</li>
-                    <li>如果无论注册与否，用户组中的用户数少于10,000，则您可以执行单个用户级别操作以及批量级别操作。 在这种情况下，不会禁用用户列表。</li>
-                </ul>
-            </td>
-        </tr>
-        <tr>
-            <td>管理员 — L2测验分数页面</td>
-            <td>
-                    <ul>
-                        <li>还实现了用户搜索。</li>
-                    </ul>
-            </td>
-            <td>
-                <ul>
-                    <li>还实现了用户搜索。 在学习对象级别进行预先输入搜索时，列表将过滤到当前选定的实例。</li>
-                </ul>
-            </td>
-        </tr>
-        <tr>
-            <td>管理员 — 用户页面（内部、外部）</td>
-            <td>
-                    <ul>
-                        <li>搜索用户时将显示电子邮件ID。</li>
-                    </ul>
-            </td>
-            <td>
-                <ul>
-                    <li>如果用户数量超过50,000，则会出现一条附加消息，用于下载数据以供稍后进行更详细的分析。 搜索栏现在突出显示，并以“名称”、“电子邮件”格式显示用户 | UUID。</li>
-                    <li>在“用户清理”页面上，对于已删除的用户，我们已于**删除日期**删除了排序功能。 您只能对UUID进行排序。</li>
-                </ul>
-            </td>
-        </tr>
-        <tr>
-            <td>讲师 — 提交</td>
-            <td>
-                    <ul>
-                        <li>对要提交的模块进行分页。</li>
-                        <li>讲师现在可以按照状态、结束审阅、待提交、通过和失败筛选学习者的文件提交。 </li>
-                    </ul>
-            </td>
-            <td>
-                <ul>
-                    <li>您只能搜索该实例中的用户，而不能搜索用户组。</li>
-                </ul>
-            </td>
-        </tr>
-        <tr>
-            <td>以学习者页面模式预览</td>
-            <td>
-                    <ul>
-                        <li>计数包括来自高阶注册的数据。</li>
-                    </ul>
-            </td>
-            <td>
-                <ul>
-                    <li>计数不包括来自高阶注册的数据。</li>
-                </ul>
-            </td>
-        </tr>
-    </tbody>
-</table>
-
-## 高级搜索功能
-
-在此版本中，我们增强了搜索体验。 检索结果不仅基于元数据，而且基于语义，基于内容内搜索，以得到基于精度、最近性和相关内容的结果。
-
-此更改反映在以下方面：
-
-* 目录和“我的学习”页面：课程、学习路径和认证上的悬停操作已被删除。
-* 搜索栏的外观。
-* 在学习应用程序中添加了过滤器标签。
-
-要启用搜索功能，请与Adobe Learning Manager的CSAM团队联系。
-
-## 用户界面更改 {#ui-changes}
-
-### 课程创建页面
-
-将课程映射至技能级别时，技能列表为搜索优先。 换句话说，就是搜索技能，您会看到与搜索词相匹配的技能列表。
-
-### 用户组
-
-#### 管理员：学习者页面
-
-搜索任何用户时， **下载学习者** 和 **导出** 选项会下载相同的报告。 同时，在搜索用户组时，您现在可以从该用户组下载筛选后的用户。 搜索用户组时， **下载学习者列表** 更改为 **下载用户组的学习者列表** 该 **导出** 再次使用该选项可下载整个列表。
-
-## 对报告的更改
-
-* “培训报告”中的“标签”和“技能”列更改为“标签和技能”。
-* 已添加报告 [游戏审核记录](administrators/feature-summary/reports.md#gamification-audit-trail).
-* 如果帐户包含280000个以上分配给技能的学习者，则系统会将技能学习者报告下载为压缩的csv文件。
-如果帐户中的学习者不足250000人，则会将同一报告下载为CSV。
-在管理员页面上，选择 **管理员** > **技能** > **技能** > **学习者**. 报告会下载为CSV。
-* 该 [会话摘要报告](administrators/feature-summary/reports.md#session-summary-report) 有两个新列 — “地点信息”和“地点区域”。
-
-## 教室创建的更改
-
-基于 [管理员设置](administrators/feature-summary/classroom.md#classroom-settings)，作为作者，您可以 [创建、修改和删除位置](administrators/feature-summary/classroom.md#add-classroom-location).
-
->[!NOTE]
->
->添加位置和目录标签时，作者（在课程创建页面中）和管理员（在实例页面中）将分别看到自动填充的位置列表和目录标签。
-
-作为管理员，您可以对作者实施限制以修改或删除教室位置。 视图 [教室设置](administrators/feature-summary/classroom.md#classroom-settings) 了解更多信息。
-
-## 灵活学习路径的更改
-
-中的所有帐户（新旧帐户）都将开始在学习者应用程序中纳入注册截止日期、取消注册截止日期和名额限制，以获得灵活的学习路径。
-学习者现在无需选择课程任何实例即可注册灵活学习路径。
-
-## 学习计划的新触发器
-
-新触发器已添加到“学习计划设置”页面。 作者和管理员现在可以在学习者未能通过课程模块时触发操作。
-
-视图 [学习方案](administrators/feature-summary/learning-plans.md) 了解更多信息。
-
-## 新提交状态
-
-讲师现在可以按照状态、结束审阅、待提交、通过和失败筛选学习者的文件提交。
-
-视图 [提交状态](instructors/feature-summary/learners.md#filter-file-submissions) 了解更多信息。
-
-## 清单增强功能
-
-在2024年3月版的Adobe Learning Manager中，对清单工作流程进行了以下增强：
-
-### 不允许在未能通过核对表时取得进展
-
-创建清单时，作者可以选择 **启用** （位于必修清单部分）。 如果学习者未通过核对表，这样做可防止其继续学习模块。 他们只有通过检查表才能继续。
-
-然后，清单审阅者（如讲师或经理）可以检查清单的状态。 审阅者还可以无序审阅学习者的清单。
-
-### 对清单的重新评估
-
-创建清单时，作者可以选择 **启用** 在重新评估部分中。 经理或讲师可通过此流程对学习者进行重新评估，直到其通过清单为止。
-
-如果模块为必修模块，则默认情况下会选中“重新评估”复选框。
-
-启用重新评估后，讲师或经理还可以将清单的状态从“未通过”更改为“已通过”。
-
-在“清单”页面上，讲师可以看到“待定”状态的学习者数量。 作为讲师，您可以对学习者进行评估，以及不及格。 如果学习者处于失败状态，您只能在未启用重新评估时查看清单。
-
-这意味着 **启用** 创建核对清单时，“重新评估”部分中的复选框未选中。 如果选中此复选框，则您可以在“讲师清单”页面上看到“查看/重新评估”按钮。
-
-选择该按钮后，您可以重新评估学习者并将其标记为通过或失败。
-
->[!NOTE]
->
->“重新评估”和“将清单设为必填”这两个功能仅适用于新创建的模块。 发布课程后，无法打开/关闭它们。
-
-
-视图 [创建清单](authors/feature-summary/courses.md#checklist-fail) 了解更多信息。
-
-## 其他增强功能
-
-### 与会话相关的电子邮件通知
-
-在较低版本的Adobe Learning Manager中，学习者在以下情况下没有收到与会话相关的电子邮件、会话详细信息已更新、会话邀请和会话提醒：
-
-* 学习者已完成课程，
-* 新会话会添加到课程中，或者
-* 现有会话已更改。
-
-在Adobe Learning Manager 2024年3月版中，新增更改如下：
-
-* 已更新会话详细信息和会话邀请（适用于学习者和讲师）
-   * 对于以后的会话，请发送电子邮件至 **已更新会话详细信息**， **会话邀请** 已注册的学习者和当前讲师的学习者体验将弃用。 对于过去的会话，请发送电子邮件至 **已更新会话详细信息** 和 **会话邀请** 对于已注册的学习者和当前讲师将保持原样。
-* 提醒电子邮件（适用于管理员和学习者）
-   * 仅供以后的会议使用 **会话提醒** 将发送电子邮件。
-
->[!NOTE]
->
->这些邮件不取决于会话和课程的完成情况。
-
-
-### AEM参考站点更改
-
-在AEM参考站点中，我们添加了对向学习者访问令牌添加管理员刷新令牌的支持。
-
-### 隐藏讲师提交的内容
-
-学习者使用文件提交工作流程上传文件后，如果讲师未对提交内容执行任何操作（批准或拒绝），则会在预定义的天数后从视图中隐藏提交URL。 联系Adobe Learning Manager的CSAM团队以设置或更改天数。
-
-### 产品术语更改
-
-我们已添加列 *实例* 和 *学习者* 到产品术语词汇表。
-
-### 移动应用程序更改
-
-在此移动应用程序版本中，学习者可以计划和管理过期课程提醒。 单击逾期提醒通知可让您访问以下选项：
-
-* 取消
-* 转到课程
-* 3天后再次提醒我
-* 一周后再次提醒我
-
-在Android上：单击推送通知会将您定向到 **课程概述** 页面。
-在iOS上：单击推送通知会将您引导至应用程序的主页。 这是iOS中的已知限制。
-
-### Salesforce上学习者应用程序中的核对表更改
-
-如果学习者未通过清单，将无法继续参加下一模块或课程。 选中“必修清单”复选框后，如果学习者未通过清单，就无法继续学习课程。
-
-与Web应用程序一样，如果学习者未通过Salesforce应用程序上的清单，他们将看到一条消息，并且不会继续操作。
-
-### Connect VC中的更改
-
-在当前版本的Adobe Learning Manager中，学习者被标记 **未参加** 注册加入Connect VC会话，但不符合完成标准。
-
-在此版本中，状态更改为 **尚未标记**.
-
-### Adobe Learning Manager中的白色标签
-
-Adobe Learning Manager移动应用程序现在支持白色标签 — 这意味着您现在可以按自己的品牌发布该应用程序。
-
-在中查看白色标签 [Adobe Learning Manager移动应用程序](white-label.md) 了解更多信息。
-
-### 迁移CSV中的新列
-
-在此版本中，以下迁移CSV中有一个新的可选列uniqueLoId。
-
-* certification.csv
-* course.csv
-* learning_program.csv
-
->[!NOTE]
->
->该 **uniqueLoId** 列是可选的。
-
-
-如果您要执行迁移以更新现有课程、学习计划或认证，请通过以下操作来更新课程、学习计划或认证： **uniqueLOID** s被添加到“作者”应用程序。
-
-迁移时，您必须更新 **uniqueLOID** 课程、学习计划或认证的CSV中的值，即使它是可选列。
-
-如果 **uniqueLoId** 在更新现有课程、学习计划或认证时，如果在执行迁移之前未添加列，则 **uniqueLOID** s，然后迁移后 **uniqueLOID** 值将被NULL值覆盖。
-
->[!NOTE]
->
->这栏， **uniqueLoId**，不适用于工作辅助CSV。
-
+## 学习者用户界面改版
 
 >[!IMPORTANT]
 >
->列值在整个帐户中必须是唯一的。 您不能在课程或认证中使用相同的值。
+>新的学习者 UI 将分阶段发布。
 
-从下载CSV [迁移手册](integration-admin/feature-summary/migration-manual.md#csv-specifications-and-sample-csvs).
+**学习者用户界面**&#x200B;已更新，设计更加优雅和现代。**[!UICONTROL 学习者主页]**、**[!UICONTROL 我的学习]**、**[!UICONTROL 目录]**&#x200B;和&#x200B;**[!UICONTROL 课程概述]**&#x200B;登录页面焕然一新。课程卡还具有以现代方式显示详细信息的新设计。 将鼠标悬停在课程卡片上会显示课程描述和发布日期。
 
+>[!NOTE]
+>
+>改进后的用户界面仅适用于沉浸式布局。 移动网站或应用程序尚不支持这些更改，并将在未来的版本中进行更新。
 
-### 应用程序评级
+![](assets/old-ui.png)
+_旧用户界面_
 
-学习者可以针对Adobe Learning Manager应用程序提供反馈，以进一步增强应用程序体验。 如果学习者给四星级或更多星级评分，则会显示弹出窗口，要求学习者在Play Store或App Store上为应用程序评分。
+![](assets/new-ui.png)
+_新的用户界面_
 
-### Bluejeans的生命周期已于2024年2月结束(EOL)
+### 此版本中的更改内容
 
-我们想告诉您，Bluejeans已于2024年2月生命周期结束(EOL)。 2024年2月之后，Bluejeans将不再收到更新或支持。 我们的CSAM和支持团队将为您解答在此过渡期内可能遇到的任何问题或顾虑。
+**实现外观现代化**
 
-视图 [Adobe Learning Manager中的连接器](integration-admin/feature-summary/connectors.md) 有关配置连接器的详细信息。
+全新的视觉元素符合现代设计趋势，使产品看起来直观而吸引人。 这包括新的刊头、侧面板和外观现代的小部件。
 
-### 登录访问报告更改
+**增强的用户体验**
 
-Login Access报告仅在过去五个季度可用。 如果任何集成管理员请求按需下载与相关的统一导出 **登录访问权限** 如果选中，Adobe Learning Manager将显示一条错误消息。 但是，对其他报告没有影响。
+学习者现在可以在以下页面上查看类似的卡片视图：主页、目录、我的学习和课程概述页面，提供统一的体验。
 
-### ADFS更改
+查看 [学习者主页](/help/migrated/learners/feature-summary/learner-home-page.md) 了解更多信息。
 
-基于映射，ADFS中的“员工类型”和“员工ID”字段现在可在Adobe Learning Manager上使用。
+**课程发布日期的更改**
+
+借助此项增强功能，导入到 Adobe Learning Manager 中的 LinkedIn 和 Go1 课程的发布日期将成为 LinkedIn 和 Go1 的实际发布日期。 您也可以在用户界面上查看 LinkedIn 和 Go1 课程的实际发布日期。 有关详细信息，请查看 [课程卡](/help/migrated/learners/feature-summary/learner-home-page.md#course-cards) 。
+
+## 对未登录体验的更新
+
+通过未登录体验，您可以为未登录的客户创建实时体验。 这可以作为其营销活动的登录页面，提供足够的信息来鼓励注册。
+
+### 此版本中的更改内容
+
+客户可以购买高级计划来构建这种高度可扩展的非登录体验。 这种非记录体验由“培训数据访问](/help/migrated/integration-admin/feature-summary/connectors.md#training-data-access)”[提供支持，可使用 Adobe Learning Manager API 提供有关座位限制、占用座位、轮候名单限制和轮候表计数的实时数据。客户可以使用这些 API 为非登录学习者提供搜索和过滤功能以及完整的课程摘要。
+
+>[!NOTE]
+>
+>请联系支持团队或CSAM购买高级计划。
+
+## 支持多个库存单位 （SKU）
+
+学习者现在可以将多个课程、学习路径或认证添加到购物车并一起购买。
+
+### 版本中发生的变化
+
+以前，学习者一次只能购买一门课程。 在此版本的 **Adobe Learning Manager** 中，他们可以使用购物车一次购买多个课程、学习路径或认证。
+
+此功能仅在学习者应用程序（现有 UI、新学习者 UI 和移动沉浸式应用程序）中可用。
+
+查看 [ALM 中的多项目购物车](/help/migrated/learners/feature-summary/multi-item-cart.md)
+
+## 流体播放器中的 HTML5 内容支持
+
+**Adobe Learning Manager** 现在支持将 HTML5 内容作为 .zip 文件上传到内容库。 上传后，这些文件可以作为模块包含在课程中。 此外，作者还可以定义自学 HTML5 模块的完成条件，允许学习者标记完成或在启动时自动完成。
+
+### 此版本中的更改内容
+
+Adobe Learning Manager 现在支持在自学课程中支持 HTML5 的内容。 作者可以将 HTML5 内容作为.zip文件添加到自学内容中。 学习者可以在流体播放器中查看 HTML5 内容。 借助这项新功能，学习者现在可以直接在流体播放器中将课程标记为已完成 对于自定进度的课程。 有关详细信息，请查看 [内容库中](/help/migrated/authors/feature-summary/content-library.md#add-html5-file-type-in-the-content-library) 的“添加 HTML5 文件类型”。
+
+借助新的增强功能，只要作者已将完成条件设置为新选项 **[!UICONTROL 启动内容]**，那么在访问 URL 时，带有外部链接的课程将自动标记为已完成。 “活动模块”页面中添加了“完成条件&#x200B;]**”这个新选项**[!UICONTROL ，作者可以在这里设置外部链接的完成条件。有关详细信息，请查看 [活动模块](/help/migrated/authors/feature-summary/courses.md#add-html-link-in-the-activity-module) 中的“添加 HTML”链接。
+
+![](assets/completion-criteria-activity-module.png)
+_完成条件选项 - 活动模块_
+
+## 移动应用程序上的课程逾期推送通知
+
+学习者在错过课程截止日期时会收到推送通知。 借助这项新的增强功能，学习者现在可以选择将提醒暂停 24 小时，或者在下周收到每个逾期提醒时收到提醒。 这仅适用于截止日期逾期通知。 查看 安排 [推送通知](/help/migrated/learners/feature-summary/user-notifications.md#schedule-the-push-notification)
 
 ## 此版本中的 API 更改
 
-### 学习者API
+### 搜索 API
 
-在此版本中，我们为学习者添加了API支持，以在用户组级别查看品牌徽标和个性化主题。
+搜索 API 包括以下更改：
 
-API /account和/user？include=account返回四个字段，这些字段将被覆盖（特定于用户属于logoUrl、logoStyling和themeData的活动字段）。
+学习者可以使用 API 在 ```GET /search``` 目录过滤器中搜索标签。 学习者可以通过选择 ```tag``` 参数值 ```filter.loTypes``` 来搜索标签。
 
-### 新建属性
+**示例卷曲**
 
-learningObjectResource中的新属性isExpiredSubmission ，它显示资源中的提交是否已过期。
+```
+curl -X GET --header 'Accept: application/vnd.api+json' --header 'Authorization: oauth 5a858f23924f4feafa38ae8d6c4d97b6' 'https://example.com/primeapi/v2/search?page[limit]=10&query=Business&autoCompleteMode=true&filter.loTypes=tag&sort=relevance&filter.ignoreEnhancedLP=true&matchType=phrase&persistSearchHistory=true&stemmed=false&highlightResults=true'
+```
 
-* GET/account API：返回新属性 **expireSubmissionDuration** X，其中X是设置的天数。 如果未设置，将返回0
-* 包含资源的GET/学习对象API包含新属性 **isExpiredSubmission**“是非题。
-   * 如果提交已过期且未显示“submissionUrl”，则为True。
-   * 如果为False，则提交不会过期，并提取“submissionUrl”。
+以下 API 中添加了新的过滤器、可用座位、可用候补名单和时间范围过滤器： ```GET /search``` 和 `GET /learningObjects`。
 
-### 清单中的API更改
+新的过滤器 `filter.session.includeEnrollmentDeadline` 已添加到以下 API ```GET /search```中。
 
-课程可能包含几个模块，其中清单属于此类模块。 此清单模块由讲师评估，根据评估结果可标记为“失败”或“成功”。
+### 帐户接口
 
-但在这两种情况下，清单状态都会标记为“已完成”，因此课程会被标记为“已完成”。
+在 API 中添加```GET /account```了新列 `custom_injections`、 `showComplianceLabel`和`complianceLabelDefaultID`，以获取用户终端节点的账户数据。
 
-在此版本中，学习对象API包含参数 *isChecklistMandatory*. 如果值为True，则清单为必填项。
+### 学习对象 API
 
-### 支持多个区域设置
+以下是本次更新中对学习对象 API 所做的更改：
 
-管理员现在可以使用他们选择的语言下载L1反馈报告。 但是，您尚无法下载Power BI的L1反馈报告。 在API请求中，使用参数preferredLocale指定您选择的区域设置。
+新的响应旧作者 ID 和 API 下 `authorDetails` 添加的其他 `GET /learningObjects` 详细信息。 此外，还添加了一个新的过滤器 `filter.authors`，用于过滤旧版作者及其课程。
 
-### 实例汇总计数中的更改
+调用 `effectivenessIndex` 的新属性将帮助您获取课程效果数据。
 
-这适用于教室/虚拟教室课程注册数超过1000的帐户。
+**示例卷曲**
 
-如果数字小于1000，则注册将使缓存失效，并在GET摘要API调用中返回更新的值，例如，注册数、完成数和seatLimit。
+```
+curl --location 'https://example.com/primeapi/v2/learningObjects/course%3A9790045?enforcedFields%5BlearningObject%5D=effectivenessData' \
+--header 'Accept: application/vnd.api+json' \
+--header 'Authorization: oauth 598665ab5c8a99bea0e774d9faf7f3ca'
+```
 
-如果帐户已启用此功能，并且注册次数超过1000，则从缓存中检索值。
+新的响应 `whoShouldTake`提供了有关谁应该参加本课程的详细信息，已添加到以下 API 中： `POST /learningObjects/query`、 `GET /learningObjects/{id}`和 `GET /learningObjects`。
 
-### 已弃用的路径
+**示例卷曲**
 
-目前，Learning Manager API遵循图形数据结构，允许您通过遍历include的API模型来获取数据。 即使您最多可以跨越7个级别的API，使用单个API调用获取数据在计算上仍然非常昂贵。
+```
+curl -X GET --header 'Accept: application/vnd.api+json' --header 'Authorization: oauth 28a83fb8c87579af8ebc4434cc80f0c0' 'https://example.com/primeapi/v2/learningObjects/course%3A1131255' 
+```
 
-我们建议所有现有客户和新客户多次发起小型呼叫，而不是一次大型呼叫。 此方法将防止在调用中加载不需要的数据。
+新的响应 `waitlistLimit`提供了有关候补名单限制的详细信息，已添加到 API 中 `GET /learningObjects` 。
 
-#### 已弃用的路径
+提供学习对象总数的新响应 `count` 已添加到 API `GET/ learningObjects` 和 `POST/ learningObjects/query`中。
 
-以下路径已弃用：
+新的响应， `catalogFieldId` `fieldValueId` 并已添加到 `catalogLabels` API 中 `GET/ learningObjects` 。
 
-* /learningObjects
-   * 已弃用的路径：
-      * enrollment.loInstance.loResources.resources
-      * instances.loResources.resources
-   * 现有路径：
-      * enrollment.loInstance
-      * instances.loResources
-* /learningObject/{id}
-   * 已弃用的路径：
-      * enrollment.instances.subLoInstances.learningObject
-   * 现有路径：
-      * enrollment.instances.subLoInstances
-* /enrollments
-   * 已弃用的路径：
-      * loInstance.learningObject.enrollment
-   * 新路径：
-      * loInstance.learningObject
-* /learningObject/{id}
-   * 已弃用的路径：
-      * instance.subLoInstances.learningObject.enrollment.loResourceGrades
-   * 新路径：
-      * instance.subLoInstances
+学习者可在 API `GET /preview/learningObjects`中获取目录标签值。
 
-### 作业API的登录访问权限和用户审核报告存档更改
+### 获取市场数量的新 API
 
-在此版本中，作业API最多会保留登录访问报告五个季度以及用户审核报告六个月。 如果要下载早于此时间段的数据，必须传递归档参数，并指定季度和年。 请参阅示例有效负载。
+在此版本中，添加了一个新的 API `GET /search/marketplace/count` 。 这有助于您获取内容市场中可用学习对象的计数。
+
+**示例卷曲**
+
+```
+curl -X GET --header 'Accept: application/vnd.api+json' --header 'Authorization: oauth d8631c7b0e3b5d2ae00422ef30aaecfc' 'https://example.com/primeapi/v2/search/marketplace/count?query=course'
+```
+
+**示例响应**
 
 ```
 {
-    "data": {
-        "type": "job",
-        "attributes": {
-            "description": "description of your choice",
-            "jobType": "generateLoginAccessReport",
-            "payload": {
-                "fromDate": "2023-04-01T18:30:00.000Z",
-                "toDate": "2023-04-30T18:30:00.000Z",
-                "archive": {
-                    "quarter": "4",
-                    "year": "2021"
-                }
-            }
-        }
-    }
+  "count": 54910
 }
 ```
 
-如果您尝试下载 **登录访问权限** 如果报告超出五个季度，则会显示错误消息。 如果您尝试下载 **用户审核** 那份报告要超过六个月。
+### 学习对象实例 API
 
-### 已弃用的API
+以下是此更新中对学习对象实例 API 所做的更改：
 
-视图 [Adobe Learning Manager中的API弃用](api-deprecations-list.md) 以获取产品中所有已弃用API的累积列表。
+在此版本中，学习对象实例 API `GET /learningObjects/{loId}/instances/{loInstanceId}`中添加了一个名为的新`gamificationEnabled`密钥。
 
-## 本次更新中修复的错误 {#bug-fixes}
+**示例卷曲**
 
-* 当学习者注册了某个课程，然后尝试注册另一门课程时，系统会显示警告消息。
-* 即使在删除用户组后，该用户组仍会在搜索中显示。
-* 当用户触发包含大量数据的学习者成绩单时，学习者成绩单队列会遭到阻止，并阻止新的请求。
-* 如果子帐户请求其父帐户共享报告，则父帐户无法执行此操作。
-* 课程和学习路径中的URL重定向至错误位置。
-* 学习者单击目录页面上的课程链接，间歇地查看其他课程的课程实例。
-* 该 **取消注册** 按钮不会在首次注册后按预期显示，但按钮会在刷新后显示。
-* 无法保存内容或其名称中包含空格的测验。
-* 在经理批准的课程中，您可以重新注册用户组中的学习者。
-* 在某些情况下，如果您尝试添加其他活动字段，则会显示错误消息：“无法保存活动字段。”。
-* 文本溢出“相关课程”部分中课程卡中的课程名称。
-* 切换实例并将学习者注册到该实例后，旧实例仍存在于Outlook日历中。
-* 当配对帐户的学习者尝试选择课程缩略图时，系统会显示错误消息。
-* 学习者注册课程时，会收到多个注册通知。
-* 如果用户手动更改在连接器中创建的目录的名称，则会创建新目录，并将课程发布到错误的目录。
-* 属于非活动帐户的用户仍会收到订阅电子邮件。
+```
+curl --location 'http://example.com/acapapi/primeapi/v2/learningObjects/learningProgram:12756/instances/learningProgram:12756_15644' 
+```
 
-### 与API相关的错误修复
+`gamificationSettings`上述 API 的新属性，用于获取游戏设置的详细信息。例如： `GET /learningObjects/{loId}/instances/{loInstanceId}/gamificationSettings`.
 
-* APIGET/用户不检索经理的详细信息。
-* 在某个帐户中，在计划停机时间通过计划的FTP用户导入创建了用户。
-* 在移动应用程序或沉浸模式下，删除或弃用课程实例并选择下一个活动实例后， **登记感兴趣内容** 按钮显示，而不是 **注册**.
-* 当配对帐户的学习者尝试使用“学习对象API”选择课程缩略图时，会显示错误403“禁止”。
+**示例卷曲**
+
+```
+curl --location 'http://example.com/acapapi/primeapi/v2/learningObjects/learningProgram:103852/instances/learningProgram:103852_103526/gamificationSettings'
+```
+
+`leaderboard`上述 API 的新属性，用于获取游戏设置的详细信息。例如： `GET /learningObjects/{loId}/instances/{loInstanceId}/leaderboard`.
+
+**示例卷曲**
+
+```
+curl --location 'https://example.com/primeapi/v2/learningObjects/learningProgram:106339/instances/learningProgram:106339_105775/leaderboard' \
+--header 'Accept: application/vnd.api+json' \
+--header 'Authorization: oauth de4b5ee6efdd42375130db27ff503dd4'
+```
+
+### 对偏移限制的更改
+
+为了提高系统性能并更有效地管理资源利用率，Adobe 已弃用 GET /users 端点中管理员和学习者范围的高偏移值。 建议使用作业 API 检索具有偏移值的记录。
+
+### 已弃用的 API
+
+在 Adobe Learning Manager](/help/migrated/api-deprecations-list.md) 中查看 [API 弃用情况，获取产品中所有已弃用 API 的累积列表。
+
+## 对报告的更改
+
+### 合规性信息板
+
+在此版本中，合规性信息板报告新增了两列：
+
+* 状态
+* 合规类型
+
+这是对现有列的补充：
+
+* 用户名
+* 用户电子邮件
+* 学习计划/认证/课程
+* 类型
+* 注册日期（UTC 时区）
+* 截止日期（UTC 时区）
+* 完成日期（UTC 时区）
+* 进度百分比
+
+### 培训报告
+
+管理员>报告>自定义报告&#x200B;**和**&#x200B;作业 API **中的**&#x200B;培训报告包含名为“技能”**和**“标记”**的**&#x200B;列。 **** ****&#x200B;这些列现在重命名为&#x200B;**“技能和****标记**”。
+
+### 内容审核报告
+
+在此版本中， **[!UICONTROL 内容审核跟踪]** 报告现在在“修改类型”列中包含以下新属性：
+
+* 用户组添加
+* 删除用户组
+* 自定义标签添加
+* 自定义标签删除
+* 共享目录添加
+* 删除共享目录
+* 共享目录更新
+
+## 此更新中修复的错误
+
+**活动提交**
+
+* 尝试将文件重新上载到活动提交模块失败，网络调用中出现错误 500。
+
+**API**
+
+* 如果多个讲师具有相同的电子邮件地址，则创建 Connect VC 会议将失败。
+* 注册到学习路径后，MS Teams VC 会在“概述”页上显示不正确的 URL。
+* 作为作业 API 响应的一部分提供的用户报告预签名 URL 将在 6 小时后过期。
+* 生成课程注册报告时，“课程名称”列显示的课程名称不正确。
+* 当然，迁移工作者在调用批量 API 时无法发送唯一的 lo id，但该 id 被删除了。
+* 当课程包含在用户可以访问的特定目录中时（默认目录处于禁用状态时），尽管设置阻止未注册的学习者查看课程，您仍可以通过学习对象/ID 端点检索课程的元数据。
+* 在 GET /learningObject API 中，当技能名称中包含逗号时，技能筛选器无法按预期工作。
+* SFTP 的数据保留工作线程中文件的时间戳元数据不一致。
+* 如果删除并重新配置了任何连接器，则项目迁移状态显示为已关闭。
+* 培训报告将“标记”作为列标题，而不是“标记”。
+* 如果目录处于禁用状态，并且导出的任何课程只是已禁用目录的一部分，则 Commerce 连接器导出将失败。
+
+**认证**
+
+* 有时，将用户重新注册到定期认证会失败。
+
+**自定义角色**
+
+* 某些情况下，当自定义管理员尝试切换到讲师角色时，系统会显示错误 403 禁止显示。
+
+**电子邮件模板和通知**
+
+* 取消会话后，当从会话中移除最后一组讲师时，电子邮件通知将不会发送给该组讲师。
+* 创建虚拟讲师指导培训后，组织者不会收到 MS Teams 的电子邮件通知。 只有在发布课程并启用电子邮件模板后，才会触发电子邮件。
+* 有时，电子邮件模板包含不正确的日期格式和翻译。
+
+**学习者**
+
+* 当学习者注册了课程的多个实例并下载出勤报告时，该报告包含的信息不正确。
+* 如果其他用户的私人帖子被添加到公共故事中，用户可以查看这些帖子。
+* 在某些情况下，您无法取消为学习者注册认证。 尝试取消注册时会显示一条错误消息。
+* 即使管理员在仅选择一个课程后将其标记为已完成，认证仍标记为已完成。
+* 如果会话的结束时间更改为之前的日期，管理员无法将 VC 标记为完成。
+* 对于轮候名单上的学习者，会话出席报告显示为“未参加”。
+
+**学习者应用程序**
+
+* 将课程备注下载为 PDF 格式后，备注会随机显示。 他们不服从命令。
+
+**学习路径**
+
+* 在学习路径中选择技能后，当您选择文本字段时，下拉列表不会按预期显示。
+* 在某些情况下，您无法从学习路径中删除技能。
+
+**学习计划**
+
+* 如果灵活学习计划包含许多课程，则即使管理员将其标记为已完成，学习计划也不会完成。
+* 学习者更改实例时，注册报告中last_modified_by列不会更新。
+
+**举报**
+
+* 在某些情况下，管理员无法导出培训报告。
+* 当 SCORM 内容包含的问题或答案超过 32,767 个字符时，您将无法在 Excel 中下载课程测验报告。
+* 选择“重置游戏”后，获得关卡的日期不会重置。
+
+**搜索**
+
+* 目前，导出所有用户组后，已删除的用户组也会显示在输出中。
+* 由于间歇性搜索问题，无法搜索认证。
+
+## 此版本中的已知问题
+
+移动设备脱机播放器不加载 HTML5 内容。
 
 ## 系统要求
 
-视图 [Adobe Learning Manager系统要求](system-requirements.md).
+查看 [Adobe Learning Manager 系统要求](/help/migrated/system-requirements.md)。
 
 ## Adobe Learning Manager 的早期版本
 
-* [2023年11月版](whats-new-november-2023.md)
-* [2023年7月版](whats-new-2023-july.md)
+* [2024 年 3 月版](/help/migrated/whats-new-march-2024.md)
+* [2024 年 11 月版](/help/migrated/whats-new-november-2023.md)

@@ -4,9 +4,9 @@ title: 安装 Salesforce 程序包
 description: Learning Manager 提供了一个 Salesforce 应用程序包。 在 SFDC 中安装和配置程序包后，销售员工便可以在 SFDC 门户中开展培训活动。 SFDC 用户可利用此应用直接在 SFDC 门户中探索新培训、查看推荐内容及参加培训。 用户还可以在 SFDC 门户内的应用程序内以刊头的形式获得管理员发送的公告。
 contentowner: saghosh
 exl-id: 2b1c32e7-81af-4c13-a2bd-66684cde084e
-source-git-commit: dffa765061b35d4559388e4120e51943768c8db8
+source-git-commit: fb946ae98dce45156e2f4c1cf992319405403ea9
 workflow-type: tm+mt
-source-wordcount: '1054'
+source-wordcount: '1055'
 ht-degree: 47%
 
 ---
@@ -87,7 +87,7 @@ Learning Manager 提供了一个 Salesforce 应用程序包。 在 SFDC 中安�
 1. 在 Salesforce 控制台中，转到 **[!UICONTROL “设置]** ”> **[!UICONTROL “快速查找]**”。
 1. 搜索“ **[!UICONTROL 受信任的]** URL”，然后选择“ **[!UICONTROL 新建受信任的 URL]**”。
 1. 在“API 名称&#x200B;]**”**[!UICONTROL &#x200B;字段中键入名称。
-1. 将该 URL 添加为 `{}.adobe.com{*}`.
+1. 在 URL 字段中键入 `*.adobe.com` 内容。
 1. 选中 CSP 指令&#x200B;**中的所有**&#x200B;复选框并保存更改。
 1. 编辑 Salesforce 应用程序的刷新令牌并保存。
 1. 重新启动 Salesforce 应用程序。

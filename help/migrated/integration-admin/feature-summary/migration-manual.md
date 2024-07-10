@@ -1,9 +1,9 @@
 ---
-description: 本参考手册适用于希望将现有 LMS 迁移到 Adobe Learning Manager LMS 的集成管理员。
+description: 本参考手册适用于希望将现有LMS迁移到Adobe Learning Manager LMS的集成管理员。
 jcr-language: en_us
 title: 迁移手册
 exl-id: bfdd5cd8-dc5c-4de3-8970-6524fed042a8
-source-git-commit: 7be69e68f3b8970e090c8eccd25771cd2e5e99f1
+source-git-commit: 899ef06789f818e0286589263ebb5fad0c90c9d2
 workflow-type: tm+mt
 source-wordcount: '3617'
 ht-degree: 72%
@@ -18,7 +18,7 @@ ht-degree: 72%
 
 ## 使用场景 {#usagescenario}
 
-大型企业通常都有内部自有或由其他供应商提供的旧版学习管理系统。LMS 由企业培训内容和培训数据组成。 企业在购买学习管理器时，可能希望将现有的 LMS 内容和数据移动到学习管理器，以便既不丢失组织的任何旧数据，又能利用现代直观的 LMS 的优势。
+大型企业通常都有内部自有或由其他供应商提供的旧版学习管理系统。LMS由企业培训内容和培训数据组成。 企业购买Learning Manager后，可能希望将现有的LMS内容和数据移至Learning Manager，以便您能够利用现代直观的LMS的优势，同时不会丢失任何企业的旧数据。
 
 Adobe Learning Manager 提供了各种必要的工具和规范，可供公司的集成管理员设置并执行相关迁移任务。
 
@@ -26,36 +26,36 @@ Adobe Learning Manager 提供了各种必要的工具和规范，可供公司的
 
 ## 迁移过程 {#apidescription}
 
-本节中对迁移的先决条件、迁移过程中的关键步骤、迁移 Sprint、规范、数据和内容迁移步骤说明如下：
+迁移的先决条件、迁移过程中涉及的关键步骤、迁移Sprint、规范、数据和内容迁移步骤在本部分中介绍如下：
 
 ### 先决条件 {#prerequisites}
 
 Adobe Learning Manager 团队希望公司的集成管理员在进行迁移之前先执行以下任务：
 
 * 集成管理员提取现有 LMS 中的数据和内容，并将其转换为 Adobe Learning Manager 定义的文件格式。
-* Adobe Learning Manager 不支持在迁移时导入任何用户，并希望公司使用连接器导入用户。Adobe Systems 希望在迁移之前先配置好这些连接器。有关详细信息，请参阅 [学习管理器连接器帮助](connectors.md) 。
+* Adobe Learning Manager 不支持在迁移时导入任何用户，并希望公司使用连接器导入用户。Adobe Systems 希望在迁移之前先配置好这些连接器。请参阅 [Learning Manager连接器帮助](connectors.md) 了解更多信息。
 
 Adobe Learning Manager 建议，在将数据和内容迁移到 Adobe Learning Manager 生产环境之前，管理员可以先在试用帐户中测试一下迁移过程。
 
 ### 迁移过程中的关键步骤 {#keystepsofmigrationprocess}
 
-将内容和数据从现有 LMS 迁移到学习管理器所涉及的关键步骤如下：
+将内容和数据从现有LMS迁移到Learning Manager涉及的关键步骤如下：
 
 1. 集成管理员或合作伙伴应对需要迁移的现有 LMS 数据和内容进行评估。
 1. 集成管理员应对 Adobe Learning Manager 提供的用于引入数据和内容的工具和规范进行评估。
 1. 集成管理员应根据旧版 LMS 的功能编写相应的导出代码或手动从旧版 LMS 导出培训数据和内容。
 1. 在导出相关培训数据和内容后，集成管理员应对这些数据和内容进行分析和映射，以符合 Adobe Learning Manager 迁移规范。
-1. 集成管理员使用学习管理器提供的工具按以下顺序进行迁移：
+1. 集成管理员将使用Learning Manager提供的工具按以下顺序进行迁移：
 
    1. 将学习者迁移到 Adobe Learning Manager
-   1. 将培训内容转移到学习管理器和
+   1. 将培训内容传输到Learning Manager中
    1. 最后，将培训数据迁移到 Adobe Learning Manager。
 
 公司现在即可在 Adobe Learning Manager LMS 中使用旧版内容了。
 
 ### 迁移对象的范围 {#scopeofmigrationobjects}
 
-只能迁移以下学习对象的内容：
+您只能迁移以下学习对象的内容：
 
 * 模块
 * 徽章
@@ -83,11 +83,9 @@ Adobe Learning Manager 建议，在将数据和内容迁移到 Adobe Learning Ma
 * 工作辅助注册
 * 用户课程等级
 
-
-
 ### 迁移的关键概念 {#keyconceptsofmigration}
 
-以下简要介绍了学习管理器迁移过程的一些关键概念，仅供参考：
+为了便于您快速参考，我们简要介绍了Learning Manager迁移过程的一些关键概念，如下所示：
 
 **迁移项目**
 
@@ -107,7 +105,7 @@ Adobe Learning Manager 建议，在将数据和内容迁移到 Adobe Learning Ma
 
 **CSV 规范**
 
-Adobe Learning Manager 提供了一套[标准的 CSV 规范](migration-manual.md#main-pars_header_140933605)。最佳做法是，在迁移之前先完整了解这些 CSV 规范。组织的集成管理员可以分析现有数据格式并将其映射，以便与学习管理器提供的 CSV 模板项相匹配。
+Adobe Learning Manager 提供了一套[标准的 CSV 规范](migration-manual.md#main-pars_header_140933605)。最佳做法是，在迁移之前先完整了解这些 CSV 规范。公司的集成管理员可对现有的数据格式进行分析和映射，以便与Learning Manager提供的CSV模板项相匹配。
 
 **迁移项目标签**
 
@@ -119,7 +117,7 @@ Adobe Learning Manager 允许上传无内容的模块。Adobe Systems 会将其�
 
 ## CSV 规范和示例 CSV {#csv}
 
-标准的 CSV 规范如下所示，可用于映射现有的 LMS 迁移数据。单击 csv-specifications 和 sample-csvs 以下载 zip 文件。 下载的csv-specifications.zip包含 7 个 Excel 工作表文件。 这些 excel 工作表文件是带有说明的规范，便于您了解 .csv 文件的填写方法。 相应的 .csv 文件中应包含各个字段的数据，而这些数据应符合这些 .xlsx 文件中所述的规定格式。
+标准的 CSV 规范如下所示，可用于映射现有的 LMS 迁移数据。单击 csv-specifications 和 sample-csvs 以下载 zip 文件。 下载的csv-specifications.zip包含七个Excel工作表文件。 这些 excel 工作表文件是带有说明的规范，便于您了解 .csv 文件的填写方法。 相应的 .csv 文件中应包含各个字段的数据，而这些数据应符合这些 .xlsx 文件中所述的规定格式。
 
 <table border="1" cellspacing="0" cellpadding="0" width="100%">
  <tbody>
@@ -371,7 +369,7 @@ Adobe Learning Manager 允许上传无内容的模块。Adobe Systems 会将其�
     <p><br>
       user_course_grade.csv 的元数据</p></td>
    <td>
-    <p>在 .csv 文件中提供所需的学习者记录数据（即使这些并非必需数据）。如果没有此信息，即使处理了.csv以进行迁移，学习管理器应用程序也可能无法反映任何数据。 sample-csvs.zip文件包含七个.csv文件与上述类似的命名约定。</p></td>
+    <p>在 .csv 文件中提供所需的学习者记录数据（即使这些并非必需数据）。如果没有此信息，即使对.csv进行了迁移处理，Learning Manager应用程序也可能无法反映任何数据。 sample-csvs.zip文件中包含7个.csv文件，其命名约定同上。</p></td>
   </tr>
   <tr>
    <td>
@@ -387,7 +385,7 @@ Adobe Learning Manager 允许上传无内容的模块。Adobe Systems 会将其�
  </tbody>
 </table>
 
-Adobe Learning Manager 仅支持 UTF 8 和 32 位格式的日期和时间值。如果 CSV 文件中的日期超出范围（例如 2038-07-17T08:53:21.000Z 或 1980-04-17T08:13:25.322Z），则在迁移过程中可能会出错。
+Adobe Learning Manager 仅支持 UTF 8 和 32 位格式的日期和时间值。如果您在CSV文件中提及超出范围的日期为2038-07-17T08，则在迁移期间可能会出错:53:21.000Z或1980-04-17T08:13:25.322时。
 
 * [sample-csvs.zip](assets/sample-csvs.zip)
 * [csv_specifications.zip](assets/csv-specifications.zip)
@@ -406,12 +404,10 @@ Adobe Learning Manager 仅支持 UTF 8 和 32 位格式的日期和时间值。�
 * learning_program_instance.csv 依赖于 learning_program 和 learning_program_course.csv
 * learning_program_course.csv 依赖于 learning_program.csv
 * learning_program_enrollment.csv 依赖于 learning_program 和 learning_program_instance.csv
-* learning_program_instance_course_instance.csv取决于learning_program.csv、learning_program_instance.csv和course_instance.csv
-* certification_course.csv取决于certification.csv和course.csv
-* certification_commit.csv取决于certification.csv和certification_course.csv
+* learning_program_instance_course_instance.csv依赖于learning_program.csv、learning_program_instance.csv和course_instance.csv
+* certification_course.csv依赖于certification.csv和course.csv
+* certification_commit.csv依赖于certification.csv和certification_course.csv
 * certification_enrollment.csv 依赖于 certification.csv、certification_course.csv 和 certification_enrollment.csv
-
-
 
 ## 迁移程序 {#migrationprocedure}
 
@@ -419,11 +415,11 @@ Adobe Learning Manager 仅支持 UTF 8 和 32 位格式的日期和时间值。�
 
 * 在任何时间点，每个帐户只能有一个活动的迁移项目。在任何时间点，每个项目只能有一个活动的 Sprint。
 * 正在迁移的“运行”无法撤消。然而，您可以使用 Adobe Learning Manager 各项功能中的删除选项来撤消对相关数据或内容的迁移。
-* 迁移项目一旦启动，即会进入“迁移中”状态。 在迁移期间，除集成管理员角色之外，其他任何角色均无法登录 Adobe Learning Manager。
+* 迁移项目一旦开始，就会进入“迁移中”状态。 在迁移期间，除集成管理员角色之外，其他任何角色均无法登录 Adobe Learning Manager。
 
 ### 创建 FTP 和 Box 帐户 {#creatingftpandboxaccounts}
 
-迁移项目规划非常重要。建议将项目分解为多个 Sprint，并明确界定各个 Sprint 中需要迁移的内容。建议在每个 Sprint 完成后，进行一些数据验证，确保该 Sprint 中迁移的数据准确无误，而不要留到整个项目结束时进行一次大规模验证。在开始迁移项目 Sprint 之前，您需要分别向 FTP 和 Box 服务器上传相关的数据和内容 CSV 文件。如果您没有自定义 FTP 和 Box 帐户，可以创建它们。
+迁移项目规划非常重要。建议将项目分解为多个 Sprint，并明确界定各个 Sprint 中需要迁移的内容。建议在每个 Sprint 完成后，进行一些数据验证，确保该 Sprint 中迁移的数据准确无误，而不要留到整个项目结束时进行一次大规模验证。在开始迁移项目 Sprint 之前，您需要分别向 FTP 和 Box 服务器上传相关的数据和内容 CSV 文件。如果您没有自定义FTP和Box的帐户，则可以创建它们。
 
 <!--**Create FTP account**-->
 
@@ -441,25 +437,25 @@ A sample snapshot of project files and folder of FTP is shown below for your ref
 
 **将数据（.csv 文件）上传到 FTP 文件夹或 Box 文件夹**
 
-创建 FTP 或 Box 帐户是创建迁移项目的先决条件。因此，在此阶段，您可以在学习管理器应用程序中创建迁移项目和 Sprint。  请参阅 **本页中的数据和内容迁移过程** 部分以创建迁移项目。
+创建 FTP 或 Box 帐户是创建迁移项目的先决条件。因此，在此阶段，您可以在Learning Manager应用程序中创建迁移项目和Sprint。  请参阅 **数据和内容迁移过程** 部分，以创建迁移项目。
 
-在 FTP 或 Box 帐户中，单击项目文件夹名称，然后单击 Sprint 名称。在 Sprint 文件夹中，您可以上传需要迁移的 .csv 数据文件。要上传，请单击FTP或Box服务器顶部的“上传文件”按钮，然后拖放.csv文件。 以下是上传到 FTP 后的示例快照，仅供参考。
+在 FTP 或 Box 帐户中，单击项目文件夹名称，然后单击 Sprint 名称。在 Sprint 文件夹中，您可以上传需要迁移的 .csv 数据文件。要上传，请单击FTP或Box服务器顶部的“上传文件”按钮，然后删除.csv文件。 上传到FTP后的示例快照如下所示，供您参考。
 
 <!--![](assets/exavault-upload.png)-->
 
-可以返回到学习管理器迁移项目，单击“刷新&#x200B;]**”**[!UICONTROL ，然后查看迁移 Sprint 中列出的所有.csv数据类型。
+您可以返回到Learning Manager迁移项目，然后单击 **[!UICONTROL 刷新]** 并查看在迁移Sprint中列出的所有.csv数据类型。
 
 **将培训内容上传到内容文件夹**
 
-将现有 LMS 中的培训内容上传到 Box 帐户。 如果已创建了“迁移”项目和 Sprint，则 Box 帐户将会填充相应的“迁移”项目和 Sprint 名称。您可以按同一路径上传内容。请参阅 **本页中的数据和内容迁移过程** 部分以创建迁移项目。
+将现有 LMS 中的培训内容上传到 Box 帐户。 如果已创建了“迁移”项目和 Sprint，则 Box 帐户将会填充相应的“迁移”项目和 Sprint 名称。您可以按同一路径上传内容。请参阅 **数据和内容迁移过程** 部分，以创建迁移项目。
 
-您可以拖放内容文件，也可以单击&#x200B;**[!UICONTROL “上传”]**&#x200B;并选择计算机中的文件。如果内容文件过大，在上传时可能会出现一些延迟。 根据文件大小的不同，上传到 Box 帐户所需的时间会有所不同。
+您可以拖放内容文件，也可以单击&#x200B;**[!UICONTROL “上传”]**&#x200B;并选择计算机中的文件。如果内容文件过大，在上传时可能会出现一些延迟。 根据文件的大小，将文件上传到Box帐户所用的时间会有所不同。
 
-以下是将内容上传到 Box 帐户后的示例快照，仅供参考：
+上传内容后Box帐户的示例快照如下所示，仅供参考：
 
 ![](assets/box-account.png)
 
-*Box 中的文件帐户*
+*Box帐户中的文件*
 
 将文件上传到 Box 帐户后，请确保在 module_version.csv 文件中提供此 Box 内容文件的相对路径。这是指示模块内容路径的必需步骤。
 
@@ -467,44 +463,44 @@ A sample snapshot of project files and folder of FTP is shown below for your ref
 
 ![](assets/after-setup.jpg)
 
-*Box 帐户中的 CSV 位置*
+*Box帐户中的CSV位置*
 
 ## 数据和内容迁移程序 {#dataandcontentmigrationprocedure}
 
-将企业 LMS 数据和内容迁移到学习管理器的过程说明如下：
+将企业LMS数据和内容迁移到Learning Manager的过程说明如下：
 
-在开始迁移之前，应详细了解迁移过程的先决条件。 请参阅 [本页中的 CSV 规范和示例 CSV](migration-manual.md#main-pars_header_140933605) 部分，并为数据和内容迁移准备 CSV。
+在开始迁移之前，应详细了解迁移过程的先决条件。 请参阅 [CSV规范和示例CSV](migration-manual.md#main-pars_header_140933605) 部分，并为数据和内容迁移准备CSV。
 
-1. 以集成管理员身份登录学习管理器应用程序，然后单击左侧窗格中的“迁移&#x200B;]**”。**[!UICONTROL 
+1. 以集成管理员身份登录Learning Manager应用程序，然后单击 **[!UICONTROL 迁移]** 在左侧窗格中。
 
    此时会显示“迁移项目”主页。 如果公司已经创建了迁移项目，则可以在此页面中查看所有迁移项目的列表。
 
 1. 单击页面右上角的&#x200B;**[!UICONTROL “新建”]**&#x200B;可创建迁移项目。 或者，您也可以单击页面中的&#x200B;**[!UICONTROL “创建迁移项目”]**&#x200B;链接来创建迁移项目。 此时会显示“创建迁移项目”页面。
 
-   如果尚未创建 FTP 文件夹，系统将提示您在帐户中创建 FTP 文件夹。 在创建迁移项目之前，必须先完成这一步。
+   如果尚未创建FTP文件夹，系统将提示您在该帐户中创建一个FTP文件夹。 在创建迁移项目之前，必须先完成这一步。
 
    ![](assets/create-project.png)
-   *创建 FTP 文件夹*
+   *创建FTP文件夹*
 
    提供迁移项目的项目名称、项目标签、课程目录和描述。 单击&#x200B;**[!UICONTROL 创建]**。
 
    迁移数据项将通过此“迁移项目标签”进行识别。 如果没有特定的课程目录，请从下拉列表中选择默认目录。 您使用迁移项目所迁移的所有课程均包含在您此时选择的目录中。如果不选择任何目录，则迁移的所有课程均会包含在默认目录中。
 
-1. 此时会显示 Sprint 配置页面（如以下快照所示）。 您需要为迁移项目创建一个 Sprint。 选择 Sprint 名称并提供简要描述。 如果需要使用此 Sprint 进行内容迁移，则选择“是”。 单击“ **[!UICONTROL 下一步]**”。
+1. 此时会显示 Sprint 配置页面（如以下快照所示）。 您需要为迁移项目创建一个 Sprint。 选择 Sprint 名称并提供简要描述。 如果需要使用此 Sprint 进行内容迁移，则选择“是”。 点击 **[!UICONTROL 下一个]**.
 
    ![](assets/users-modified-sprint.png)
    *Sprint迁移*
 
-   选中标题为“ **自上次运行**&#x200B;后已添加或修改用户”的复选框，以将用户列表与学习管理器应用程序同步。 如果要向 Adobe Learning Manager 应用程序迁移内容和数据，则可能无需此操作。然而，如果先前迁移的 Sprint 与最新的 Sprint 之间存在时间差，则最好选择同步用户列表。此步骤可使学习管理器数据库与 LMS 用户同步。
+   选中带有标题的复选框 **自上次运行以来已添加或修改用户**，将用户列表与Learning Manager应用程序同步。 如果要向 Adobe Learning Manager 应用程序迁移内容和数据，则可能无需此操作。然而，如果先前迁移的 Sprint 与最新的 Sprint 之间存在时间差，则最好选择同步用户列表。此步骤可使Learning Manager数据库与您的LMS用户保持同步。
 
    建议在迁移 enrollment.csv 和 user_course_grade.csv 时执行此同步步骤。此步骤可让 Adobe Learning Manager 数据库与您的迁移数据库保持同步，并确保所有通过 Sprint 迁移其记录的用户在迁移数据库中处于可用状态。
 
-1. 您可以对已上传的数据和内容开始 Sprint 迁移了。 在开始“Sprint 运行”之前单击“刷新&#x200B;]**”链接，将**[!UICONTROL  FTP 和内容文件夹与学习管理器应用程序同步。
+1. 您可以对已上传的数据和内容开始 Sprint 迁移了。 点击 **[!UICONTROL 刷新]** “Sprint运行”之前的链接，以便将FTP和内容文件夹与Learning Manager应用程序同步。
 
    ![](assets/sprint1-filesupload.png)
-   *开始 Sprint 迁移*
+   *开始Sprint迁移*
 
-   单击 **[!UICONTROL 页面右上角的“开始]** ”。 在 Sprint 迁移过程中的任何时间点，单击“停止&#x200B;]**”**[!UICONTROL &#x200B;即可中止 Sprint 迁移。
+   点击 **[!UICONTROL 开始]** 在页面的右上角。 您可以单击 **[!UICONTROL 停止]** 在Sprint迁移过程中的任何时间点，中止Sprint迁移。
 
    每个 Sprint 数据项和内容均会显示各自的迁移状态。在迁移 Sprint 运行过程中，检查迁移的成功项和失败项数量。
 
@@ -513,14 +509,14 @@ A sample snapshot of project files and folder of FTP is shown below for your ref
    以下是进度对话框示例快照，仅供参考。 如快照所示，您可以查看每个迁移数据项的已处理记录数以及成功和失败项状态。单击失败项对应的“下载错误记录”即可下载和查看错误日志。 您可以修复 CSV 中的问题并再次通过 FTP 上传。
 
    ![](assets/sample-sprint-progress-status.png)
-   *查看冲刺进度*
+   *查看Sprint进度*
 
-   如果要查看迁移项目的所有 Sprint 列表，请单击左侧窗格中的 Sprint 列表。如以下示例快照所示，您可以查看所有 Sprint 的列表、每个 Sprint 的运行次数、开始日期、持续时间和完成状态。
+   如果要查看迁移项目的所有 Sprint 列表，请单击左侧窗格中的 Sprint 列表。您可以查看所有Sprint的列表、每个Sprint执行的运行数、开始日期、持续时间和完成状态，如下面的示例快照所示。
 
    ![](assets/sprint-list.png)
-   *查看冲刺列表*
+   *查看Sprint列表*
 
-1. 上传完最新的 CSV 后，您可以单击页面右上角的“重新运行”。“重新运行”会再次处理所有数据项，并忽略未做任何更改的项。如果对 Sprint 的数据项迁移结果感到满意，可单击页面顶部的按钮将该 Sprint 迁移标记为“完成”。 稍后可以对更多数据项执行新的 Sprint。 将 Sprint 标记为“完成”后，则无法“重新运行”。同样，一个迁移项目中可拥有任意数量的 Sprint。 如果对所有 Sprint 的迁移状态感到满意，可以单击“Sprint 列表”页面上的“标记项目完成&#x200B;**”**&#x200B;链接将迁移项目标记为“完成”。
+1. 上传完最新的 CSV 后，您可以单击页面右上角的“重新运行”。“重新运行”会再次处理所有数据项，并忽略未做任何更改的项。如果对 Sprint 的数据项迁移结果感到满意，可单击页面顶部的按钮将该 Sprint 迁移标记为“完成”。 稍后可以对更多数据项执行新的 Sprint。 将 Sprint 标记为“完成”后，则无法“重新运行”。同样，一个迁移项目中可拥有任意数量的 Sprint。 如果对所有Sprint的迁移状态感到满意，则可以通过单击 **将项目标记为完成** “Sprint列表”页面上的链接。
 
    在将迁移项目标记为“完成”之前，必须确保该项目的所有 Sprint 均已完成。 将迁移项目标记为“完成”后，将无法返回该项目并在其中创建任何 Sprint 或对该项目进行任何修改。您必须另外创建一个迁移项目，然后再向其中添加 Sprint。
 
@@ -540,11 +536,12 @@ A sample snapshot of project files and folder of FTP is shown below for your ref
 
 3-learning_program_enrollment.xlsx 中包含对 retrofit_learning_program_enrollment.csv 文件所需元数据的描述。
 
-4-user_course_grades.xlsx包含文件所需元数据retrofit_user_course_grades.csv说明。[csv-specifications.zip](assets/csv-specifications.zip)
+4-user_course_grades.xlsx — 包含retrofit_user_course_grades.csv文件所需的元数据说明。
+[csv-specifications.zip](assets/csv-specifications.zip)
 
 >[!NOTE]
 >
->UUID（通用唯一 ID）也是迁移 CSV 中的一列。
+>UUID（通用唯一ID）也是迁移csv中的一列。
 
 
 ## 解决迁移问题 {#troubleshootingmigrationissues}
@@ -559,16 +556,16 @@ A sample snapshot of project files and folder of FTP is shown below for your ref
 
 Adobe Learning Manager 为用户提供两种类型的唯一 ID：
 
-* 电子邮件 ID
+* 电子邮件ID
 * UUID（通用唯一 ID）
 
-Adobe Learning Manager 支持 UUID，方便公司对用户帐户进行灵活控制。作为管理员，如果拥有某个帐户中用户的 UUID，则可以修改该帐户中用户的电子邮件 ID。
+Adobe Learning Manager 支持 UUID，方便公司对用户帐户进行灵活控制。作为管理员，如果您拥有帐户中用户的UUID，则可以修改该帐户用户的电子邮件ID。
 
 **公司中 UUID 的使用场景**
 
-考虑一个场景：员工 A 以合同工身份加入名为“学习经理”的公司。 在合同期内，学习管理器公司可能不会提供公司电子邮件 ID 作为 ```A@example.com```，而可能只考虑该员工的个人电子邮件帐户，例如。 ```A@gmail.com```在 6 个月合同期满后，如果同一员工 A 以全职员工身份加入学习管理器，则学习管理器可能需要将其电子邮件 ID 更改为其公司电子邮件 ID： ```A@example.com```。
+考虑员工A加入名为Learning Manager的公司作为承包商的情况。 在合同期内，Learning Manager公司不得将公司电子邮件ID ```A@example.com```相反，公司可能只考虑员工的个人电子邮件帐户，例如， ```A@gmail.com```. 在完成6个月的合同期后，如果同一名员工A加入Learning Manager成为全职员工，则Learning Manager可能希望将他的电子邮件ID更改为其公司的电子邮件ID： ```A@example.com```.
 
-在上述方案中，拥有对用户帐户的 UUID 访问权限将使公司学习管理器受益。 学习管理器公司可以轻松地将员工 A 的个人电子邮件 ID 替换为公司电子邮件 ID。 与此帐户相关的员工记录则不受此更改的影响。
+在上述场景中，拥有UUID访问权限对于公司Learning Manager非常有益。 Learning Manager公司可轻松将员工A的个人电子邮件ID替换为官方电子邮件ID。 与此帐户相关的员工记录则不受此更改的影响。
 
 ## 个人用户识别 {#singleuseridentification}
 
@@ -579,11 +576,11 @@ Adobe Learning Manager 会识别并记住个人用户的加入方式，例如：
 
 ## 分配“经理”角色 {#assigningmanagerrole}
 
-您无法在 Adobe Learning Manager 中将“经理”角色直接分配给任何用户。仅当您将该帐户中的任何用户（例如 Y）的“经理”属性设置为 X 时，用户 X 才能成为学习经理。
+您无法在 Adobe Learning Manager 中将“经理”角色直接分配给任何用户。只有在该帐户中将任何用户（例如， Y ）的经理属性设置为X时，用户X才能成为Learning Manager经理。
 
 如果 X 是其他用户（例如 A、B 和 C）的“经理”，则在 X 从公司离职时，您需要确保将 A、B 和 C 的“经理”属性设置为新“经理”。 或者，您也可以暂时将这些用户的“经理”属性设置为“ROOT”，稍后再分配新的“经理”姓名。
 
-有关此主题的详细信息，请参阅以下帮助内容：
+有关此主题的更多信息，请参阅以下帮助内容：
 
 * [CSV 上传常见问题解答](/help/migrated/administrators/add-users-in-bulk.md)
 * [有关添加用户的功能帮助](/help/migrated/administrators/feature-summary/add-users-user-groups.md)

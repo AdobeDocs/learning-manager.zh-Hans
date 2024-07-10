@@ -4,10 +4,10 @@ title: 管理 CSV 文件中的自定义角色
 description: 集成管理员可以通过 CSV 在其账户中批量添加多个自定义角色，并可将相应的角色分配给不同的用户。此方法可以自动创建相关自定义角色。
 contentowner: saghosh
 exl-id: fce2f457-2834-491a-8331-64086f5a51b5
-source-git-commit: 5f2b5fb60856b77b53edaea014639087eb1a8fcf
+source-git-commit: f328076016d8c41455cad71f00d1dc9a1531e007
 workflow-type: tm+mt
-source-wordcount: '907'
-ht-degree: 83%
+source-wordcount: '905'
+ht-degree: 81%
 
 ---
 
@@ -19,14 +19,16 @@ ht-degree: 83%
 
 登录Box存储帐户后，集成管理员可以在帐户中添加以下csv：
 
+* user.csv
 * role.csv
 * user_role.csv
 
 要开始使用，请下载 csv 并根据您的要求更改相应的值。
 
-**role.csv**
 * 示例文件： [role.csv](assets/role.csv)
 * 示例文件： [user_role.csv](assets/user_role.csv)
+
+**role.csv**
 
 <table>
  <tbody>
@@ -147,10 +149,10 @@ ht-degree: 83%
 
 在 Box 帐户中，选择&#x200B;**“导入 > 用户 > 内部”**，然后上传文件 role.csv 和 user_role.csv。
 
-* 自定义角色CSV必须复制到文件夹“import->user->internal->user_role”中
-* 必须将用户CSV复制到“import->user->internal”文件夹中
+* 必须将role.csv和user_role.csv复制到文件夹中 **导入** > **用户** > **内部** > **user_role**.
+* 必须将user.csv复制到文件夹中 **导入** > **用户** > **内部**.
 
-两个 CSV 文件均必须通过 Box 或 FTP 上传，不得通过用户界面上传。
+两个CSV都必须仅通过Box上传，且无法通过UI上传。
 
 >[!NOTE]
 >

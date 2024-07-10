@@ -4,10 +4,10 @@ jcr-language: en_us
 title: 设置
 contentowner: manochan
 exl-id: a563d955-f67e-4218-88df-625cde673601
-source-git-commit: fbab332b92dd6d017c2517d7df09a4c37ce3f6bf
+source-git-commit: c62701848790d39a16826b11919f69c48a96e38a
 workflow-type: tm+mt
-source-wordcount: '3985'
-ht-degree: 65%
+source-wordcount: '3836'
+ht-degree: 66%
 
 ---
 
@@ -483,24 +483,6 @@ Adobe Learning Manager 将同事活动数据用作以个性化方式驱动推荐
 教室\
 虚拟教室\
 活动
-
-要重命名术语，请执行以下步骤。
-
-1. 以管理员身份单击 **[!UICONTROL 设置]** > **[!UICONTROL 常规]** > **[!UICONTROL 产品术语]**. 此时会打开产品术语选项。
-
-   ![](assets/product-terminology.png)
-
-   *重命名产品术语*
-
-1. 通过下载示例CSV文件，可以上传修改后的产品术语模板以进行更改。 要下载示例CSV文件，请单击 **[!UICONTROL 在此下载]** 选项。
-1. 下载的CSV文件包含集合A中的对象的名称。在列B中，选择要为各个对象指定的名称。 请注意更新名称的单复数形式并以 (|) 隔开。
-1. 您可以选择修改一行或多行。 您可以保留未修改的行，也可以在上传之前将其从 CSV 文件中删除。
-1. 上传修改后的CSV文件，然后单击 **[!UICONTROL 保存]**. 刷新 Adobe Learning Manager 即可反映您所做的更改。
-1. 要重置为默认术语，请单击 **[!UICONTROL 重置产品术语]**.
-
-   ![](assets/with-reset-option.png)
-
-   *重置产品术语*
 
 ## 个人资料设置 {#profilesettings}
 

@@ -2,35 +2,35 @@
 user-guide-title: Adobe Learning Manager 指南
 breadcrumb-title: Learning Manager
 user-guide-description: Adobe Learning Manager 的文档
-source-git-commit: 5769b88c430cc5c0cfccaa75ceaca4862ee7e52e
+source-git-commit: 6b26c48e3195b76b30bb837b37a40a1484d72c5d
 workflow-type: tm+mt
-source-wordcount: '599'
+source-wordcount: '601'
 ht-degree: 88%
 
 ---
 
 
-# 学习经理指南 {#using}
+# Learning Manager指南 {#using}
 
 * [Adobe Learning Manager 用户指南](user-guide.md)
 * 介绍 {#introduction}
    * [新功能摘要](whats-new.md)
-   * [2024 年 3 月新增功能](whats-new-march-2024.md)
-   * [新增功能 2023 年 11 月](whats-new-november-2023.md)
-   * [2023 年 7 月新增功能](whats-new-2023-july.md)
-   * [2023 年 4 月新增功能](whats-new-2023-april.md)
-   * [新增功能 2022 年 11 月](whats-new-2022-november.md)
+   * [2024年3月版新增功能](whats-new-march-2024.md)
+   * [新增功能2023年11月](whats-new-november-2023.md)
+   * [新增功能2023年7月](whats-new-2023-july.md)
+   * [新增功能2023年4月](whats-new-2023-april.md)
+   * [新增功能2022年11月](whats-new-2022-november.md)
    * [发行说明](release-note/release-notes.md)
    * [系统要求](system-requirements.md)
-   * [用于 AEM 站点的 ALM 引用站点包](adobe-learning-manager-integration-aem.md)
+   * [AEM Sites的ALM参考站点包](adobe-learning-manager-integration-aem.md)
    * [适用于 Microsoft Teams 的 Adobe Learning Manager 应用程序](adobe-learning-manager-app-microsoft-teams.md)
    * [Adobe Learning Manager 的 GDPR 合规性](kb/prime-gdpr.md)
    * [Adobe Learning Manager 中的辅助功能](accessibility-learning-manager.md)
    * [自定义域支持](custom-domain.md)
    * [Adobe Learning Manager 中的推荐](recommendations-adobe-learning-manager.md)
    * [从 Adobe FTP Manager 过渡](transition-from-ftp-manager.md)
-   * [Adobe Learning Manager 中的 API 弃用和更改](api-deprecations-list.md)
-   * [Adobe Learning Manager 中的白标](white-label.md)
+   * [Adobe Learning Manager中的API弃用和更改](api-deprecations-list.md)
+   * [Adobe Learning Manager中的白色标签](white-label.md)
 * 开始使用 {#get-started}
    * [管理员快速入门指南](administrators/feature-summary/getting-started-admin.md)
    * [作者快速入门指南](authors/feature-summary/getting-started-author.md)
@@ -80,13 +80,14 @@ ht-degree: 88%
    * [启用对共享目录的完全控制](administrators/feature-summary/shared-catalog-full-control.md)
    * [映射技能到技能域](administrators/feature-summary/curation-skills.md)
    * [本机可扩展性](administrators/feature-summary/native-extensibility.md)
-   * [多重注册](administrators/feature-summary/multiple-enrollment.md)
+   * [多注册](administrators/feature-summary/multiple-enrollment.md)
    * [学习者的未登录体验](administrators/feature-summary/non-logged-in-experience-learners.md)
    * [学习计划](administrators/feature-summary/learning-programs.md)
+   * [产品术语](administrators/feature-summary/product-terminology.md)
 * 集成管理员 {#integration}
    * [迁移手册](integration-admin/feature-summary/migration-manual.md)
    * [Adobe Learning Manager 连接器](integration-admin/feature-summary/connectors.md)
-   * [非登录 API](integration-admin/feature-summary/non-logged-in-apis.md)
+   * [未登录的API](integration-admin/feature-summary/non-logged-in-apis.md)
    * [将 Adobe Learning Manager 与 AEM 集成](integrate-aem-learning-manager.md)
    * [在 Adobe Learning Manager 中安装 Salesforce 程序包](integration-admin/feature-summary/install-salesforce-package.md)
    * [安装 Microsoft Teams 连接器](integration-admin/feature-summary/install-microsoft-teams-connector.md)
@@ -107,7 +108,7 @@ ht-degree: 88%
    * [如何选择课程模块？](authors/how-to-choose-modules.md)
    * [学习者预览](authors/feature-summary/fluidic-player.md)
    * [设置](authors/feature-summary/settings.md)
-* 教练 {#instructor}
+* 讲师 {#instructor}
    * [模块](instructors/feature-summary/modules.md)
    * [管理会话的学习者](instructors/feature-summary/learners.md)
 * 学习者 {#learner}
@@ -119,7 +120,7 @@ ht-degree: 88%
    * [学习计划](learners/feature-summary/learning-programs.md)
    * [认证](learners/feature-summary/certifications.md)
    * [工作辅助](learners/feature-summary/job-aids.md)
-   * [ALM 中的多项目购物车](learners/feature-summary/multi-item-cart.md)
+   * [ALM中的多物料购物车](learners/feature-summary/multi-item-cart.md)
    * [徽章](learners/feature-summary/badges.md)
    * [技能和级别](learners/feature-summary/skills-levels.md)
    * [游戏](learners/feature-summary/gamification.md)

@@ -1,12 +1,12 @@
 ---
-description: 阅读本文，了解如何在用户界面上设置术语。
+description: Adobe Learning Manager 的用户界面使用的是一套标准术语。 作为管理员，您可以修改术语以符合公司的需要。
 jcr-language: en_us
 title: 产品术语
 contentowner: chandrum
-source-git-commit: c62701848790d39a16826b11919f69c48a96e38a
+source-git-commit: b48e97151c95c55db72f91a2b187189c786d43ae
 workflow-type: tm+mt
-source-wordcount: '266'
-ht-degree: 65%
+source-wordcount: '278'
+ht-degree: 72%
 
 ---
 
@@ -80,6 +80,5 @@ _确认提示_
 术语更改不适用于：
 
 * 电子邮件模板(**[!UICONTROL 管理员]** > **[!UICONTROL 电子邮件模板]**)
-
 * 报告(**[!UICONTROL 管理员]** > **[!UICONTROL 报告]**)
 

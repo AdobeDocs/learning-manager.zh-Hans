@@ -3,14 +3,13 @@ jcr-language: en_us
 title: Adobe Connect 集成
 description: 作者可以在创建课程的过程中使用 Adobe Connect 创建虚拟教室课程。 要为 Adobe Learning Manager 帐户启用 Adobe Connect，请与所在公司的管理员联系。
 contentowner: jayakarr
-source-git-commit: 0052ccb2f5a8f9617bca2c7bad91c0cd18338b66
+exl-id: 13458f93-9ea7-4aab-8b33-3c4f4dd5886d
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '419'
 ht-degree: 70%
 
 ---
-
-
 
 # Adobe Connect 集成
 
@@ -18,13 +17,13 @@ ht-degree: 70%
 
 ## 配置 Adobe Connect {#configureadobeconnect}
 
-1. 以管理员身份登录，单击左侧窗格中的&#x200B;**[!UICONTROL “设置”]**&#x200B;以查看与公司相关的基本信息。点击 **[!UICONTROL Adobe Connect]** 在左侧窗格中。
+1. 以管理员身份登录，单击左侧窗格中的&#x200B;**[!UICONTROL “设置”]**&#x200B;以查看与公司相关的基本信息。单击左侧窗格中的&#x200B;**[!UICONTROL Adobe Connect]**。
 
    ![](assets/left-pane.png)
 
    *在左侧窗格中选择Adobe Connect*
 
-1. 点击 **[!UICONTROL 立即配置]** 链接进入 **[!UICONTROL Adobe Connect配置]** 部分。
+1. 单击&#x200B;**[!UICONTROL Adobe Connect配置]**&#x200B;部分中的&#x200B;**[!UICONTROL 立即配置]**&#x200B;链接。
 
    <!--![](assets/configure-now-connect.png)-->
 
@@ -39,7 +38,7 @@ ht-degree: 70%
 
    Adobe Learning Manager 仅支持 Adobe 托管的 Connect 帐户。示例：.adobeconnect.com。
 
-1. 点击 **[!UICONTROL 集成].**
+1. 单击&#x200B;**[!UICONTROL 集成].**
 
    验证电子邮件ID后，Learning Manager会显示消息“Connect成功集成”。 您可以使用 Adobe Connect 自动查看虚拟教室课程。
 
@@ -51,7 +50,7 @@ ht-degree: 70%
 
 如果虚拟教室课程的作者没有提供会话信息，那么管理员可提供会话详细信息。
 
-以管理员身份登录，单击虚拟教室课程名称。点击 **[!UICONTROL 实例]** ，然后单击 **[!UICONTROL 会话详细信息]**.  单击“会话详细信息”页面右上角的“编辑”图标以添加会话信息。
+以管理员身份登录，单击虚拟教室课程名称。单击左侧窗格中的&#x200B;**[!UICONTROL 实例]**，然后单击&#x200B;**[!UICONTROL 会话详细信息]**。  单击“会话详细信息”页面右上角的“编辑”图标以添加会话信息。
 
 ![](assets/session-creation-admin.png)
 

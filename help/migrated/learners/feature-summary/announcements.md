@@ -2,14 +2,13 @@
 jcr-language: en_us
 title: 公告
 description: 公告是一种多媒体消息(文本、图像或视频)，由管理员向一组特定用户进行广播。
-source-git-commit: ed7e28720cf521b629333dc48e530e0aa16b0ae1
+exl-id: 303cba0e-d654-41a6-87b4-a28bfc91d8c8
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '171'
 ht-degree: 61%
 
 ---
-
-
 
 # 公告
 
@@ -23,7 +22,7 @@ ht-degree: 61%
 
 ![](assets/pending-announcements.png)
 
-*待处理的公告通知*
+*等待公告的通知*
 
 单击“查看”时，会看到公告列表。公告列表示例如下:
 
@@ -38,4 +37,3 @@ ht-degree: 61%
 ![](assets/announcement-details.png)
 
 *查看公告的详细信息*
-

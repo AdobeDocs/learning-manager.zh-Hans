@@ -1,7 +1,7 @@
 ---
 jcr-language: en_us
 title: 作者快速入门指南
-description: 使用“快速入门”页面浏览AdobeLearning Manager的主要创作功能。
+description: 使用入门页面可浏览Adobe Learning Manager的主要创作功能。
 contentowner: manochan
 source-git-commit: 864b1796f1ca99ae7b5643e8c58d1756ff2461a1
 workflow-type: tm+mt

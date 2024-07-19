@@ -67,7 +67,7 @@ Adobe Learning Manager移动应用程序现在支持白色标签 — 这意味�
 
    <td>
 
-    <p>如果需要，可添加多个帐户（子域）。 将子域添加为用逗号分隔且不含空格的形式。 例如，acc01、acc02、acc03等等。<br> <b>注：</b> 指定子域时需要添加帐户ID。</br> </p>
+    <p>如果需要，可添加多个帐户（子域）。 将子域添加为用逗号分隔且不含空格的形式。 例如，acc01、acc02、acc03等等。<br> <b>注意：</b>指定子域时需要添加帐户ID。</br> </p>
 
    </td>
 
@@ -287,11 +287,11 @@ Android和iOS都使用Firebase Cloud Messaging (FCM)作为向设备发送推送�
 
 请按以下步骤操作：
 
-1. 生成或下载 **推送通知证书** 和私钥(.p12)。 欲了解更多信息，请参见 [Apple开发人员文档](https://developer.apple.com/documentation/usernotifications/setting_up_a_remote_notification_server/establishing_a_certificate-based_connection_to_apns).
+1. 生成或下载&#x200B;**推送通知证书**&#x200B;和私钥(.p12)。 有关详细信息，请参阅[Apple开发人员文档](https://developer.apple.com/documentation/usernotifications/setting_up_a_remote_notification_server/establishing_a_certificate-based_connection_to_apns)。
 
-1. 下载文件后安装p12文件。 使用密码安装在 **钥匙串访问**.
+1. 下载文件后安装p12文件。 使用密码安装在&#x200B;**钥匙串访问**&#x200B;中。
 
-1. 导航至 **我的证书** 并导出证书。 确保选择MIME类型.cer。
+1. 导航到&#x200B;**我的证书**&#x200B;并导出证书。 确保选择MIME类型.cer。
 
 1. 在有p12文件和cer文件可用时，请运行以下命令：
 
@@ -309,23 +309,23 @@ Android和iOS都使用Firebase Cloud Messaging (FCM)作为向设备发送推送�
 
 对于Android，用户需要提供来自Firebase项目的services.json文件，以便在SNS服务中添加条目。
 
-在Firebase中创建项目，并将services.json文件共享给CSM团队。 SNS中基于令牌的条目需要此文件。 请注意，不再使用服务器密钥。 请参阅 [在Firebase中创建项目](#create-project-in-firebase).
+在Firebase中创建项目，并将services.json文件共享给CSM团队。 SNS中基于令牌的条目需要此文件。 请注意，不再使用服务器密钥。 请参阅[在Firebase中创建项目](#create-project-in-firebase)。
 
 要下载services.json文件，请执行以下步骤：
 
-1. 登录到 **Firebase** 控制台。
-1. 转到“ ” **项目设置** 并选择 **云消息**.
-1. 查找 **Firebase Cloud Messaging API** 并选择 **管理服务帐户**.
-1. 在 **服务客户计数** 页面中，选择 **服务帐户** 左侧面板中。
-1. 查找您的项目条目，然后选择 **管理详细信息** 在操作下。
+1. 登录到&#x200B;**Firebase**&#x200B;控制台。
+1. 转到&#x200B;**项目设置**&#x200B;并选择&#x200B;**云消息**。
+1. 查找&#x200B;**Firebase Cloud Messaging API**&#x200B;并选择&#x200B;**管理服务帐户**。
+1. 在&#x200B;**服务帐户**&#x200B;页面中，选择左侧面板中的&#x200B;**服务帐户**。
+1. 查找您的项目条目，然后选择“操作”下的“**管理详细信息**”。
 
    >[!NOTE]
    >
    >   项目条目格式将为&lt;-accountname->@appspot.gserviceaccount.com。
 
-1. 转至 **键** 制表符并选择 **添加密钥**.
-1. 如果没有密钥，请选择 **创建新密钥** 并选择 **JSON** 作为键类型。 这将生成并下载JSON文件。
-1. 如果已有密钥，请选择 **上传现有密钥**，粘贴密钥，然后上传。 这将生成并下载JSON文件。
+1. 转到&#x200B;**密钥**&#x200B;选项卡，然后选择&#x200B;**添加密钥**。
+1. 如果没有密钥，请选择&#x200B;**创建新密钥**，然后选择&#x200B;**JSON**&#x200B;作为密钥类型。 这将生成并下载JSON文件。
+1. 如果已有密钥，请选择&#x200B;**上传现有密钥**，粘贴该密钥，然后上传。 这将生成并下载JSON文件。
 
 <!-- Set up a project in Firebase and share the server key with the CSAM.-->
 
@@ -337,11 +337,11 @@ Android和iOS都使用Firebase Cloud Messaging (FCM)作为向设备发送推送�
 
 将您在上述步骤中创建的相同项目重新用于推送通知。
 
-[添加项目](https://learn.microsoft.com/en-us/xamarin/android/data-cloud/google-messaging/firebase-cloud-messaging) 在Firebase中，并检索 ***google-services.json*** 文件。
+[在Firebase中添加项目](https://learn.microsoft.com/en-us/xamarin/android/data-cloud/google-messaging/firebase-cloud-messaging)并检索&#x200B;***google-services.json***&#x200B;文件。
 
 ### iOS
 
-[添加项目](https://firebase.google.com/docs/ios/setup) 到Firebase并检索 ***GoogleService-Info.plist*** 文件。
+[将项目](https://firebase.google.com/docs/ios/setup)添加到Firebase并检索&#x200B;***GoogleService-Info.plist***&#x200B;文件。
 
 >[!IMPORTANT]
 >
@@ -373,13 +373,13 @@ sh""" ~/Library/Android/sdk/build-tools/30.0.3/apksigner sign --ks $storeFile --
 >
 >您需要使用Android sdk生成工具来生成已签名的二进制文件。
 
-**后续操作**
+**后续内容**
 
 生成二进制文件后，将二进制文件推送到Play Store或App Store中。
 
 ## 如何应用更改
 
-将所需的资源和文件发送给CSM团队。 然后，CSM团队将填写 [窗体](https://forms.office.com/r/bJRRaRBvSh) 进行必要的更改并附加所需的资源。 然后，该团队将进行审查并向工程团队通知相关更改。 然后，工程团队将生成生成版本并与CSM团队共享。
+将所需的资源和文件发送给CSM团队。 然后，CSM团队使用所需的更改填写[表单](https://forms.office.com/r/bJRRaRBvSh)并附加所需的资源。 然后，该团队将进行审查并向工程团队通知相关更改。 然后，工程团队将生成生成版本并与CSM团队共享。
 
 CSM团队将与客户共享该构建。
 

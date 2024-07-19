@@ -3,14 +3,13 @@ jcr-language: en_us
 title: 目录标签
 description: 借助目录标签，您可以使用特定字段标记学习对象并应用一个或多个值。如果启用，管理员和作者便可以设置目录标签和值，并将其链接到学习对象。
 contentowner: dvenkate
-source-git-commit: ccdb222228f76fdae63ebb0a808824ad6ac1db7f
+exl-id: 966d163d-7878-44f4-afdc-38eb95996229
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '331'
 ht-degree: 85%
 
 ---
-
-
 
 # 目录标签
 
@@ -20,14 +19,14 @@ ht-degree: 85%
 
 要启用目录标签，请执行以下步骤：
 
-* 以管理员身份打开 **[!UICONTROL 设置]** > **[!UICONTROL 常规]** > **[!UICONTROL 显示目录标签]**.
+* 以管理员身份打开&#x200B;**[!UICONTROL 设置]** > **[!UICONTROL 常规]** > **[!UICONTROL 显示目录标签]**。
 * 勾选复选框以启用标签。
 
 ## 添加目录标签 {#addcataloglabels}
 
 要添加目录标签，请执行以下步骤：
 
-1. 打开  **[!UICONTROL 设置]** > **[!UICONTROL 目录标签]** 在 **[!UICONTROL 高级]** 选项。 [!UICONTROL “目录标签”]页面随即打开。
+1. 在&#x200B;**[!UICONTROL 高级]**&#x200B;选项下打开&#x200B;**[!UICONTROL 设置]** > **[!UICONTROL 目录标签]**。 [!UICONTROL “目录标签”]页面随即打开。
 
    ![](assets/catalog-labels-page.png)
 
@@ -48,8 +47,8 @@ ht-degree: 85%
 1. 从左窗格打开&#x200B;**[!UICONTROL 目录]**。“目录”页面随即打开，其中会显示目录列表。
 1. 选择目录并应用到标签。
 1. 从左窗格打开目录标签。
-1. 点击 **[!UICONTROL 编辑]** 右上角的。 该页面会显示可用目录标签的列表。
+1. 单击右上角的&#x200B;**[!UICONTROL “编辑”]**。 该页面会显示可用目录标签的列表。
 1. 要添加标签到目录，请单击&#x200B;**[!UICONTROL “添加到目录”]**。
-1. 要删除已添加到目录中的现有标签，请单击 **[!UICONTROL 移除]**.
+1. 要删除已添加到目录中的现有标签，请单击&#x200B;**[!UICONTROL 删除]**。
 
 将自定义字段添加到目录中后，该字段即会应用于目录中的所有学习对象。

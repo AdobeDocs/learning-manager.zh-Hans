@@ -55,9 +55,9 @@ The following table lists the rate and burst limits for the APIs.
 
 ### 偏移限制的更改
 
-由于偏移值检索到大量记录并减慢了整体性能，因此我们强制实施了 **500** 记录。 在下一版本中，管理员和学习者均 **GET用户** API最多可返回 **500** 记录。
+由于偏移值检索的记录数量过多并且降低了整体性能，因此我们强制实施了&#x200B;**500**&#x200B;条记录的限制。 在下一个版本中，管理员和学习者的&#x200B;**GET用户** API最多可返回&#x200B;**500**&#x200B;条记录。
 
-如果需要获取更多记录，请使用 **GET职位** API。
+如果需要获取更多记录，请使用&#x200B;**GET作业** API。
 
 <!--### Exclude paths 
 
@@ -79,7 +79,7 @@ We want to enforce these restrictions on new accounts and maintain a whitelist o
       * enrollment.loInstance.loResources
       * instances.loResources
 
-* /learningObject/{id}
+* /learningObjects/{id}
    * 已弃用的路径：
       * enrollment.instances.subLoInstances.learningObject
    * 新路径：
@@ -91,7 +91,7 @@ We want to enforce these restrictions on new accounts and maintain a whitelist o
    * 新路径：
       * loInstance.learningObject
 
-* /learningObject/{id}
+* /learningObjects/{id}
    * 已弃用的路径：
       * instance.subLoInstances.learningObject.enrollment.loResourceGrades
    * 新路径：
@@ -113,7 +113,7 @@ In the next release of Adobe Learning Manager, in the LO Instance summary endpoi
 
 在Adobe Learning Manager的下一个版本中，以下API的排序字段中的name和 — name已弃用：
 
-* GET/userGroups/{userGroupId}/users
+* /userGroups/{userGroupId}/usersGET
 * GET/users
 
 >[!NOTE]
@@ -131,7 +131,7 @@ In the next release of Adobe Learning Manager, in the LO Instance summary endpoi
 
 今后，以下学习者 API 将停止运行，因为这些 API 具有覆盖标志。
 
-_/primeapi/v2/users？page[偏移]=0&amp;page[限制]=10&amp;sort=id&amp;override=TRUE_
+_/primeapi/v2/users？page[offset]=0&amp;page[limit]=10&amp;sort=id&amp;override=TRUE_
 
 ### 针对基于技能的新建议的API更改
 
@@ -149,5 +149,5 @@ Adobe Learning Manager 改进了对支持客户和合作伙伴的帐户的建议
 
 ### GET/users终结点中的高偏移值已弃用
 
-为了改进系统性能并更有效地管理资源利用率，Adobe在GET/users端点中为两者都弃用了高偏移值 **管理员** 和 **学习者** 范围。 我们建议使用 **作业API** 以检索具有偏移值的记录。
+为了提高Adobe性能并更有效地管理资源利用率，**管理员**&#x200B;和&#x200B;**学习者**&#x200B;作用域的GET/users端点中均弃用了高偏移值。 我们建议使用&#x200B;**作业API**&#x200B;检索具有偏移值的记录。
 

@@ -3,14 +3,13 @@ description: Adobe Learning Manager 中的颜色主题和品牌
 jcr-language: en_us
 title: 颜色主题
 contentowner: jayakarr
-source-git-commit: 83623b7466ea13fbb2cefcbdefe3582f4866e214
+exl-id: 8616e38a-023f-4acb-ac68-df71a5153ad2
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '1195'
 ht-degree: 44%
 
 ---
-
-
 
 # 颜色主题
 
@@ -24,17 +23,17 @@ Adobe Learning Manager 可让您更改应用程序的外观以符合所在组织
 
 [![按钮](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=QBWYPFSV&amp;mv=display&amp;mv2=display#/course/8318823)
 
-如果您无法启动培训，请写信至 <almacademy@adobe.com>.
+如果您无法启动培训，请写入<almacademy@adobe.com>。
 
 ## 品牌推广 {#branding}
 
-点击 **[!UICONTROL 品牌化]** 在左侧窗格中更新公司名称，更改子域、日志样式和主题。 点击 **[!UICONTROL 编辑]** 修改每个主题的内容。
+单击左侧窗格中的&#x200B;**[!UICONTROL 品牌推广]**&#x200B;以更新所在组织的名称、更改相关子域、日志样式和主题。 单击每个主题旁边的&#x200B;**[!UICONTROL “编辑”]**&#x200B;以修改内容。
 
 ## 徽标样式 {#logostyling}
 
-点击 **[!UICONTROL 编辑]** 在Learning Manager应用程序上设置所需徽标与公司名称的外观。
+单击&#x200B;**[!UICONTROL 编辑]**&#x200B;以在Learning Manager应用程序上设置所需徽标和公司名称的外观。
 
-单击 **[!UICONTROL “上传新徽标”]**，然后从计算机中选择要上传的徽标。 您可在下面预览徽标与公司名称的外观。 根据需要的标题样式，然后单击 **[!UICONTROL 保存]**.
+单击 **[!UICONTROL “上传新徽标”]**，然后从计算机中选择要上传的徽标。 您可在下面预览徽标与公司名称的外观。 根据需要的标题样式，然后单击“**[!UICONTROL 保存]**”。
 
 ## 主题 {#themes}
 
@@ -42,7 +41,7 @@ Adobe Learning Manager 可让您更改应用程序的外观以符合所在组织
 
 **“挑选主题”**
 
-单击 **[!UICONTROL 显示提示]** 在此部分下方，显示图像的提示，如下所示。
+单击此部分下方的&#x200B;**[!UICONTROL 显示提示]**&#x200B;以显示该图像的提示，如下所示。
 
 ![](assets/themes-preview-images.png)
 
@@ -68,11 +67,11 @@ Learning Manager应用程序为用户提供了五个颜色主题选项：
 
 您可以自定义主题的顶部栏颜色、重点色（例如左侧窗格中的图标颜色）、原色和侧边栏亮度（Prime 默认主题除外）。
 
-在 **[!UICONTROL 主要颜色]** 拾色器，您可以选择用于沉浸式用户界面的颜色。
+在&#x200B;**[!UICONTROL 原色]**&#x200B;拾色器中，您可以选择用于沉浸式用户界面的颜色。
 
 要进行自定义，请从左侧窗格中选择主题类型，然后单击位于品牌颜色和侧边栏图标颜色旁边的方框。 单击侧边栏中的侧边栏亮度，前后拖动以调整亮度。 修改这些选项时，请观察上述图像中的预览。
 
-点击 **[!UICONTROL 重置主题]** 恢复主题的原始设置。 点击 **[!UICONTROL 保存]** 完成更改之后。
+单击&#x200B;**[!UICONTROL 重置主题]**&#x200B;以还原主题的原始设置。 完成更改后单击“**[!UICONTROL 保存]**”。
 
 **“实时预览”**
 
@@ -80,9 +79,9 @@ Learning Manager应用程序为用户提供了五个颜色主题选项：
 
 ![](assets/live-theme-preview.png)
 
-*“实时预览”弹出窗口*
+*实时预览弹出窗口*
 
-从下拉列表中选择所需的主题，调整设置，然后单击 **[!UICONTROL “预览”]** 以查看应用程序中的实时更改。 现在，您可以浏览应用程序的所有功能并看到相关更改。 您还可以在实时预览时更改自己的角色。 如果对更改满意，您可返回实时主题预览弹窗功能，然后单击 **[!UICONTROL 应用主题]**.
+从下拉列表中选择所需的主题，调整设置，然后单击 **[!UICONTROL “预览”]** 以查看应用程序中的实时更改。 现在，您可以浏览应用程序的所有功能并看到相关更改。 您还可以在实时预览时更改自己的角色。 如果对更改满意，您可返回实时主题预览弹窗功能，然后单击&#x200B;**[!UICONTROL 应用主题]**。
 
 在预览实时更改时，实时主题预览弹窗仍会显示在屏幕底部。 您可以选择将其最小化。
 
@@ -90,8 +89,8 @@ Learning Manager应用程序为用户提供了五个颜色主题选项：
 
 以下是如何实施多个品牌推广的：
 
-1. 在管理员应用程序上，选择 **品牌化** 在左侧窗格中。
-1. 选择 **编辑** 在“多个品牌”部分。
+1. 在管理员应用上，选择左侧窗格中的&#x200B;**“品牌推广”**。
+1. 在“多个品牌”部分中选择“**编辑**”。
 1. 选择切换按钮并启用它。
 
 ### 内部用户
@@ -123,7 +122,7 @@ Learning Manager应用程序为用户提供了五个颜色主题选项：
 
 Adobe Learning Manager 现在允许您自定义帐户，从而提供更丰富的用户体验。
 
-下面的列表显示了可自定义的组件。 如需自定义帐户，请联系Learning Manager  [支持](mailto:captivateprimesupport@adobe.com).
+下面的列表显示了可自定义的组件。 要自定义帐户，请联系Learning Manager [支持](mailto:captivateprimesupport@adobe.com)。
 
 <table>
  <tbody>
@@ -153,7 +152,7 @@ Adobe Learning Manager 现在允许您自定义帐户，从而提供更丰富的
     <ul>
      <li>用户将鼠标指针移至Learning Manager网页后，屏幕上即会显示已应用的自定义图像。<br></li>
      <li>建议大小 — 16x16或24x24像素</li>
-     <li>建议的图像格式 — PNG，JPG</li>
+     <li>建议的图像格式 — PNG、JPG</li>
     </ul></td>
   </tr>
   <tr>
@@ -189,9 +188,9 @@ Adobe Learning Manager 现在允许您自定义帐户，从而提供更丰富的
 
 ## 配置推荐设置 {#configurerecommendationsettings}
 
-开 **品牌化** > **常规**，您可以为内部和外部学习者配置推荐范围，并允许学习者在学习者主页上选择技能。
+在&#x200B;**品牌推广** > **常规**&#x200B;中，您可以为内部和外部学习者配置推荐范围，并允许学习者在学习者主页上选择技能。
 
-在 **常规** 页面中，您可以选择以下选项：
+在“**常规**”页面上，您可以选择以下选项：
 
 <table>
  <tbody>
@@ -211,19 +210,19 @@ Adobe Learning Manager 现在允许您自定义帐户，从而提供更丰富的
    <td>
     <p>“推荐作用域设置”<br></p></td>
    <td>
-    <p>选择一或多个活动字段。 对于“<strong>自定义</strong>”，您至多可以选择一个活动字段。 为了 <strong>业界公认</strong>，您至多可以选择五个活动字段。<br></p></td>
+    <p>选择一或多个活动字段。 对于“<strong>自定义</strong>”，您至多可以选择一个活动字段。 对于<strong>Industry Aligned</strong>，您至多可以选择五个活动字段。<br></p></td>
   </tr>
   <tr>
    <td>
     <p>帮助学习者探索感兴趣的领域</p></td>
    <td>
-    <p>仅适用于“经典”体验。 选择 <strong>是 </strong>或 <strong>否</strong>.<br></p></td>
+    <p>仅适用于“经典”体验。 选择<strong>“是”</strong>或<strong>“否”</strong>。<br></p></td>
   </tr>
   <tr>
    <td>
     <p>提示用户选择感兴趣的领域（技能） <br></p></td>
    <td>
-    <p>仅适用于沉浸式体验。 选择 <strong>是</strong> 或 <strong>否</strong>. </p></td>
+    <p>仅适用于沉浸式体验。 选择<strong>是</strong>或<strong>否</strong>。 </p></td>
   </tr>
  </tbody>
 </table>

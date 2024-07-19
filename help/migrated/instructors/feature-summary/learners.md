@@ -3,14 +3,13 @@ description: 阅读本文可了解如何管理与会者、为会话发送课程�
 jcr-language: en_us
 title: 管理会话的学习者
 contentowner: shhivkum
-source-git-commit: c4ea252656bfbe86a0d69ffdb21dba46783d5848
+exl-id: 2f4f8589-2350-4683-a141-809084d6309a
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '925'
 ht-degree: 91%
 
 ---
-
-
 
 # 管理会话的学习者
 
@@ -20,7 +19,7 @@ ht-degree: 91%
 
 作为讲师，您可以看到包含待处理审核的会话或模块。
 
-在“会话/模块”页面上，您可以看到一列 **审核待处理** 该图显示了相应会话/活动的待处理审核数。
+在“会话/模块”页面上，您可以看到一个列&#x200B;**“待处理审核”**，其中显示相应会话/活动的待处理审核数。
 
 ## 管理会话的轮候表 {#managewaitlistforyoursession}
 
@@ -38,7 +37,7 @@ ht-degree: 91%
 
    您确认的学习者会添加到“已确认学习者”列表中。
 
-讲师可以从会话中取消注册学习者。这也会将他们从相应的学习中取消注册。选择&#x200B;**[!UICONTROL 轮候表]**&#x200B;选项卡。使用复选框选择要取消注册的学习者。要取消注册，请选择 **[!UICONTROL 动作]** > **[!UICONTROL 取消注册学习者]**.
+讲师可以从会话中取消注册学习者。这也会将他们从相应的学习中取消注册。选择&#x200B;**[!UICONTROL 轮候表]**&#x200B;选项卡。使用复选框选择要取消注册的学习者。要取消注册，请选择&#x200B;**[!UICONTROL 操作]** > **[!UICONTROL 取消注册学习者]**。
 
 ![](assets/unenroll-learners.png)
 *取消注册学习者*
@@ -77,7 +76,7 @@ ht-degree: 91%
 注意此 PDF 右上角的一个二维码。此功能允许每个学习者使用 Adobe Learning Manager 手机应用扫描该二维码以打卡出勤。
 
 ![](assets/exportpdf.png)
-*扫描二维码以标记与会者*
+*扫描QR代码以标记与会者*
 
 ## 批准或拒绝提交内容 {#approveorrejectsubmissions}
 

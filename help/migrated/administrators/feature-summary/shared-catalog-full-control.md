@@ -1,16 +1,15 @@
 ---
 jcr-language: en_us
 title: 启用对共享目录的完全控制
-description: 在AdobeLearning Manager中启用对共享目录的完全控制
+description: 在Adobe Learning Manager中启用对共享目录的完全控制
 contentowner: saghosh
-source-git-commit: 46afb6603456ced9d7e2aaf98d07ec92fee30c0b
+exl-id: 231ba348-d777-4b13-98b0-06572b0ac7ed
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '791'
 ht-degree: 89%
 
 ---
-
-
 
 # 启用对共享目录的完全控制
 
@@ -73,7 +72,7 @@ ht-degree: 89%
 
 ## 重置课程 {#resetcourse}
 
-1. 在链接已断开的目录卡上，单击 **[!UICONTROL 重置课程]**.
+1. 在链接已断开的目录卡上，单击&#x200B;**[!UICONTROL 重置课程]**。
 
 <!-- ![](assets/reset-course.png)-->
 

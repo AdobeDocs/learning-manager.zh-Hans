@@ -3,22 +3,21 @@ jcr-language: en_us
 title: iPad 和 Android 平板电脑用户
 description: iPand和Android平板电脑用户
 contentowner: manochan
-source-git-commit: 864b1796f1ca99ae7b5643e8c58d1756ff2461a1
+exl-id: 61d7df21-1b45-4dc8-acc2-b360d35e7e4f
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '254'
 ht-degree: 72%
 
 ---
 
-
-
 # iPad 和 Android 平板电脑用户
 
-在iPad或Android平板电脑上的Learning Manager应用程序中，以学习者身份登录后，您将看到以下内容 **主页** 屏幕：
+在iPad或Android平板电脑上的Learning Manager应用程序中，以学习者身份登录后，您将看到以下&#x200B;**主页**&#x200B;屏幕：
 
 ![](assets/screenshot-2015-08-07-12-24-40-e1439211134842.png)
 
-要导航至学习和目录功能，请点击 **菜单** 下拉列表并选择相应的选项。
+若要浏览到学习和目录功能，请点击&#x200B;**菜单**&#x200B;下拉列表并选择相应的选项。
 
 ![](assets/menu-ipad.png)
 
@@ -37,7 +36,7 @@ ht-degree: 72%
 
 您可以定期监控设备的存储空间。
 
-点按应用程序右上角的配置文件图标，然后点按 **设备存储** 菜单选项。
+点击应用程序右上角的配置文件图标，然后点击&#x200B;**设备存储空间**&#x200B;菜单选项。
 
 ![](assets/app-device-storage.png)
 

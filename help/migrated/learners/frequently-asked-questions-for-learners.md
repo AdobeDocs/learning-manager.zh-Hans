@@ -1,7 +1,7 @@
 ---
 jcr-language: en_us
 title: 学习者常见问题解答
-description: AdobeLearning Manager学习者的常见问题解答
+description: Adobe Learning Manager学习者常见问题解答
 contentowner: admin
 preview: true
 source-git-commit: 8b29ac996962e7ce8fbda51f3421c9a5f248fcf6
@@ -32,7 +32,7 @@ ht-degree: 56%
 
 是的，您可以通过 iPad、Android 平板电脑和智能手机访问脱机内容。
 
-有关脱机访问的更多信息，请参阅  [iPad和Android平板电脑用户](feature-summary/ipad-android-tablet-users.md) 功能。
+有关离线访问的更多信息，请参阅[iPad和Android平板电脑用户](feature-summary/ipad-android-tablet-users.md)功能。
 
 +++
 
@@ -48,7 +48,7 @@ ht-degree: 56%
 
 可以，您可以将自己的学习点数与同事的进行对比。将鼠标悬停在配置文件圆圈上。您可以在此查看自己的点数。要查看“排行榜”对话框，请单击“转到排行榜”。 在此对话框中，您可以查看与您等级相近的同事列表。
 
-有关更多信息，请参阅  [排行榜](feature-summary/gamification.md)功能。
+有关更多信息，请参阅[排行榜](feature-summary/gamification.md)功能。
 
 +++
 
@@ -68,7 +68,7 @@ ht-degree: 56%
 
 +++“学习”和“目录”有何区别？
 
-在“学习”选项卡中，您可以查看所有  [课程](feature-summary/courses.md)，  [学习计划](feature-summary/learning-programs.md) 和  [认证](feature-summary/certifications.md) 由您注册或分配给您的模板。 您还可以单击“转到学习”链接来移动至学习选项卡。
+在“学习”选项卡中，您可以查看所有您注册或分配给您的[课程](feature-summary/courses.md)、[学习计划](feature-summary/learning-programs.md)和[认证](feature-summary/certifications.md)。 您还可以单击“转到学习”链接来移动至学习选项卡。
 
 在“目录”选项卡中，您可以看到适用于公司帐户中您的角色的所有课程、学习计划和认证。 您还可以单击“转到目录”链接来移动到“目录”选项卡。
 
@@ -94,7 +94,7 @@ ht-degree: 56%
 
 若要查看技能，请在登录页面右上角的技能图区域，单击任一技能名称。此时会显示技能，同时旁边还会显示学习者掌握的级别。
 
-有关更多信息，请参阅  [技能和级别](feature-summary/skills-levels.md) 功能。
+有关更多信息，请参阅[技能和级别](feature-summary/skills-levels.md)功能。
 
 +++
 
@@ -102,7 +102,7 @@ ht-degree: 56%
 
 是的，您可以在智能手机、iPad或任何其他Android平板电脑上访问Learning Manager。
 
-有关此功能的更多信息，请参阅  [iPad和Android应用程序用户](feature-summary/ipad-android-tablet-users.md) 功能。
+有关此功能的更多信息，请参阅[iPad和Android应用程序用户](feature-summary/ipad-android-tablet-users.md)功能。
 
 +++
 
@@ -110,19 +110,19 @@ ht-degree: 56%
 
 可以，您可以使用 iPad 访问 Adobe Learning Manager。您可以从 App Store 或 Google Play 下载应用程序。
 
-使用 iPad 或 Android 平板电脑只能访问学习者角色功能。您还可以离线参加课程，并在重新联机后同步应用程序。有关更多信息，请参阅  [iPad和Android应用程序用户](feature-summary/ipad-android-tablet-users.md) 功能
+使用 iPad 或 Android 平板电脑只能访问学习者角色功能。您还可以离线参加课程，并在重新联机后同步应用程序。有关更多信息，请参阅[iPad和Android应用程序用户](feature-summary/ipad-android-tablet-users.md)功能
 
 +++
 
 +++无法登录Learning Manager。 该怎么办？
 
-如果拥有 Adobe ID，可以登录 Adobe Learning Manager。按照中的说明进行操作  [用户登录](feature-summary/user-login.md) 功能，了解有关如何登录应用程序的更多信息。 如果问题仍然存在，请与我们的支持团队联系。
+如果拥有 Adobe ID，可以登录 Adobe Learning Manager。按照[用户登录](feature-summary/user-login.md)功能中的说明获得有关如何登录应用程序的更多信息。 如果问题仍然存在，请与我们的支持团队联系。
 
 +++
 
 +++如何达到技能级别？
 
-达到新的技能级别后就会获得积分。积分与技能级别互相关联。有关技能和级别的更多信息，请参阅  [技能和级别](feature-summary/skills-levels.md) 功能。
+达到新的技能级别后就会获得积分。积分与技能级别互相关联。有关技能和级别的更多信息，请参阅[技能和级别](feature-summary/skills-levels.md)功能。
 
 +++
 
@@ -140,9 +140,9 @@ ht-degree: 56%
 
 +++积分与游戏点数有何区别？
 
-达到新的技能级别后就会获得积分。积分与技能级别互相关联。有关积分、技能和级别的更多信息，请参阅  [技能和级别](feature-summary/skills-levels.md) 功能。
+达到新的技能级别后就会获得积分。积分与技能级别互相关联。有关积分、技能和级别的更多信息，请参阅[技能和级别](feature-summary/skills-levels.md)功能。
 
-每完成一项任务，您就会获得游戏点数。 Learning Manager中目前共有六个游戏任务。 完成每个任务后，您会获得与该任务相关联的特定点数。 有关更多信息，请参阅  [游戏](feature-summary/gamification.md) 功能。
+每完成一项任务，您就会获得游戏点数。 Learning Manager中目前共有六个游戏任务。 完成每个任务后，您会获得与该任务相关联的特定点数。 有关更多信息，请参阅[游戏](feature-summary/gamification.md)功能。
 
 +++
 
@@ -154,7 +154,7 @@ Adobe Learning Manager 推出了名为“徽章”的电子学习概念。除了
 
 根据公司定义的特定条件，通常是在成功完成课程或学习对象后将徽章指定给学习者。
 
-有关更多信息，请参阅  [徽章](feature-summary/badges.md) 功能。
+有关更多信息，请参阅[徽章](feature-summary/badges.md)功能。
 
 +++
 
@@ -164,7 +164,7 @@ Adobe Learning Manager 推出了名为“徽章”的电子学习概念。除了
 
 若要开始学习计划，请单击指定给您的计划。您可以查看该特定计划的详细信息。
 
-A **启动程序** 按钮显示在学习计划页面的右上角。 点击 **[!UICONTROL 启动程序]** 开始课程。
+学习计划页面的右上角将显示&#x200B;**开始计划**&#x200B;按钮。 单击&#x200B;**[!UICONTROL 开始计划]**&#x200B;以开始课程。
 
 +++
 
@@ -181,7 +181,7 @@ A **启动程序** 按钮显示在学习计划页面的右上角。 点击 **[!U
 
 您可以在个人资料中查看当前级别点数，并视情况制定更高点数目标。
 
-请参阅  [游戏功能](feature-summary/gamification.md) 了解更多信息。
+有关更多信息，请参阅[游戏功能](feature-summary/gamification.md)。
 
 +++
 
@@ -189,7 +189,7 @@ A **启动程序** 按钮显示在学习计划页面的右上角。 点击 **[!U
 
 Learning Manager中的所有课程均可在浏览器中播放。 您可以使用Learning Manager的流体播放器全屏查看课程。
 
-请参阅  [流体播放器功能](feature-summary/fluidic-player.md) 了解有关Player的更多信息。
+有关播放器的更多信息，请参阅[流体播放器功能](feature-summary/fluidic-player.md)。
 
 [我可以导出个人备注吗？](frequently-asked-questions-for-learners.md)
 
@@ -225,10 +225,10 @@ Learning Manager中的所有课程均可在浏览器中播放。 您可以使用
 您可以选择按照以下步骤下载或通过电子邮件发送课程备注：
 
 1. 单击要查看备注的课程磁贴。
-1. 单击 **注释** 制表符相邻于 **模块** 选项卡。
+1. 单击&#x200B;**模块**&#x200B;选项卡旁边的&#x200B;**备注**&#x200B;选项卡。
 
-1. 点击 **[!UICONTROL 下载备注]** 以pdf格式下载。
-1. 点击 **[!UICONTROL 电子邮件备注]** ，以通过电子邮件将备注发送到您的电子邮件帐户。
+1. 单击&#x200B;**[!UICONTROL 下载备注]**&#x200B;将备注下载为PDF。
+1. 单击&#x200B;**[!UICONTROL 电子邮件备注]**&#x200B;将备注作为电子邮件发送到您的电子邮件帐户。
 
 +++
 
@@ -259,7 +259,7 @@ Learning Manager中的所有课程均可在浏览器中播放。 您可以使用
 
 作为奖励和认可学习者取得的成就，Learning Manager为学习者推出了在线徽章。 徽章会根据设置的条件授予学习者，并且会显示在学习者主页顶部的学习者资料中。
 
-请参阅  [认证功能](feature-summary/certifications.md) 有关学习者认证的更多信息。
+有关学习者认证的更多信息，请参阅[认证功能](feature-summary/certifications.md)。
 
 +++
 
@@ -308,8 +308,8 @@ Adobe Learning Manager 1.0 目前暂不提供培训成绩单。
 
 +++如何访问Learning Manager中的课程？
 
-1. 以学习者身份登录 Adobe Learning Manager。如果忘记密码，请单击 **[!UICONTROL 忘记密码]** 登录页面中提供的链接，以便将其发回您的电子邮件ID。
-1. 登录后，您可以在顶部看到课程选项卡。点击 **[!UICONTROL 课程]** 选项卡，显示指定给您的课程列表。
+1. 以学习者身份登录 Adobe Learning Manager。如果忘记密码，请单击登录页面中的&#x200B;**[!UICONTROL 忘记密码]**&#x200B;链接以将其发回到电子邮件ID。
+1. 登录后，您可以在顶部看到课程选项卡。单击&#x200B;**[!UICONTROL 课程]**&#x200B;选项卡以显示指定给您的课程列表。
 
 +++
 

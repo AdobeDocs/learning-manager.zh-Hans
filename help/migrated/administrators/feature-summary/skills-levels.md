@@ -31,7 +31,7 @@ Adobe Learning Manager 能让您使用技能图根据学习者的技能集来查
 
 要添加技能，请执行以下步骤：
 
-1. 在左侧窗格中，选择 **[!UICONTROL 技能]** > **[!UICONTROL 添加]** > **[!UICONTROL 添加密钥]**. 为技能命名并添加描述。
+1. 在左侧窗格中，选择&#x200B;**[!UICONTROL 技能]** > **[!UICONTROL 添加]** > **[!UICONTROL 添加技能]**。 为技能命名并添加描述。
 
    ![](assets/add-skill-name-anddescription.png)
 
@@ -68,7 +68,7 @@ Adobe Learning Manager 能让您使用技能图根据学习者的技能集来查
 
    ![](assets/list-of-skills.png)
 
-   *查看OIF技能列表*
+   *查看oif技能列表*
 
 ## 向学习者分配技能 {#assigntheskilltolearners}
 
@@ -80,7 +80,7 @@ Adobe Learning Manager 能让您使用技能图根据学习者的技能集来查
 
    ![](assets/number-of-learnersenrolledtoaskill.png)
 
-   *查看已分配给技能的学习者*
+   *查看已分配技能的学习者*
 
    在此例中，为级别 1 添加学习者。单击“级别 1”旁边的超链接。
 
@@ -142,7 +142,7 @@ Adobe Learning Manager 能让您使用技能图根据学习者的技能集来查
 
 ![](assets/job-aid-assignedtotheskill.png)
 
-*技能的工作辅助数*
+*技能的工作辅助次数*
 
 ## 搜索技能 {#searchskill}
 
@@ -152,7 +152,7 @@ Adobe Learning Manager 能让您使用技能图根据学习者的技能集来查
 
 ## 编辑技能 {#editaskill}
 
-在&#x200B;**[!UICONTROL “技能”]**&#x200B;页面上，单击需要修改的技能。在 **[!UICONTROL 编辑技能]** 进行必要的更改，例如，
+在&#x200B;**[!UICONTROL “技能”]**&#x200B;页面上，单击需要修改的技能。在&#x200B;**[!UICONTROL 编辑技能]**&#x200B;对话框中，进行所需的更改，例如，
 
 * 添加或删除技能域。
 * 编辑技能的名称和描述。
@@ -191,7 +191,7 @@ Adobe Learning Manager 能让您使用技能图根据学习者的技能集来查
 
 添加包含讲师技能的 CSV 文件。 然后，这些技能会添加到技能列表中。
 
-1. 在屏幕右上角，选择 **[!UICONTROL 添加]** > **[!UICONTROL 向讲师分配技能]**.
+1. 在屏幕右上角，选择&#x200B;**[!UICONTROL 添加]** > **[!UICONTROL 将技能分配给讲师]**。
 1. 上传csv。 CSV中的列包括：
 
    * 技能名称
@@ -204,7 +204,7 @@ Adobe Learning Manager 能让您使用技能图根据学习者的技能集来查
 
    ![添加讲师技能CSV](assets/instructor-skills.png)
 
-   *通过CSV添加讲师技能*
+   *从CSV中添加讲师技能*
 
 1. 您会看到一条确认弹出消息。
 
@@ -220,12 +220,12 @@ Adobe Learning Manager 能让您使用技能图根据学习者的技能集来查
 
 ![分配给讲师的技能](assets/instructor-skill-assigned.png)
 
-*“技能”页面*
+*技能页面*
 
 ### 下载技能分配CSV
 
-1. 在“技能”页面上，单击 **[!UICONTROL 添加]** > **[!UICONTROL 为讲师分配技能]**.
-1. 在对话框中，单击 **[!UICONTROL 以前添加的分配]**.
+1. 在技能页面上，单击&#x200B;**[!UICONTROL 添加]** > **[!UICONTROL 将技能分配给讲师]**。
+1. 在该对话框中，单击&#x200B;**[!UICONTROL 以前添加的分配]**。
 1. 将会下载您上次上传的CSV。
 
 >[!NOTE]
@@ -283,4 +283,4 @@ Adobe Learning Manager 能让您使用技能图根据学习者的技能集来查
 
 ### 更多此类内容
 
-* [技能和AdobeLearning Manager](https://elearning.adobe.com/2018/11/skills-captivate-prime/)
+* [技能和Adobe Learning Manager](https://elearning.adobe.com/2018/11/skills-captivate-prime/)

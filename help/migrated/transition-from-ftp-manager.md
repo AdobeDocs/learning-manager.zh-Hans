@@ -27,7 +27,7 @@ Adobe Learning Manager 支持使用 AWS Transfer 系列 SFTP 协议的新连接�
 您必须在集成管理员上配置新的基于AWS的FTP连接器。
 
 ![连接器图像](assets/alm-ftp.png)
-*选择“FTP”选项*
+*选择FTP选项*
 
 连接后，您可以看到“连接详细信息”页面。
 
@@ -46,14 +46,14 @@ Adobe Learning Manager 支持使用 AWS Transfer 系列 SFTP 协议的新连接�
 
 ### 使用现有 SSH 密钥创建身份验证
 
-如果您已有SSH密钥，请将公钥粘贴到 **[!UICONTROL FTP公钥]** 字段，然后单击连接。
+如果您已有SSH密钥，请将公钥粘贴到&#x200B;**[!UICONTROL FTP公钥]**&#x200B;字段中，然后单击“连接”。
 
 ![SSH密钥](assets/ssh-keys.png)
-*粘贴键*
+*粘贴密钥*
 
 ### 使用密码创建基本身份验证
 
-这是基本的身份验证机制。 选择第一个选项， **[!UICONTROL 使用密码创建基本身份验证]**. 输入密码，然后单击 **[!UICONTROL Connect]**.
+这是基本的身份验证机制。 选择第一个选项，**[!UICONTROL 使用密码创建基本身份验证]**。 输入密码，然后单击&#x200B;**[!UICONTROL 连接]**。
 
 这样就会建立一个连接。
 
@@ -65,8 +65,8 @@ Adobe Learning Manager 支持使用 AWS Transfer 系列 SFTP 协议的新连接�
 
 ### 测试导出示例
 
-* 在 FTP 客户端中，将 ExaVault FTP 的位置更改为新的 FTP 位置。 新域是 `http://almftp.adobelearningmanager.com/`.
-* 您还必须将IP列入白名单， `18.195.107.67`.
+* 在 FTP 客户端中，将 ExaVault FTP 的位置更改为新的 FTP 位置。 新域是`http://almftp.adobelearningmanager.com/`。
+* 您还必须将IP `18.195.107.67`列入白名单。
 * 完成身份验证后，您必须使用外部 FTP 客户端或自动化脚本在新的 FTP 位置之间上载和下载几个示例文件。
 * 您必须将数据从旧位置传输到新位置。
 * 连接器的数据保留策略保持不变。 ExaVault 还支持包括官方策略在内的部分数据保留策略。 此类数据保留策略将不可用于新连接器。 检查您的连接器是否使用了官方支持的策略之外的任何数据保留策略。
@@ -98,8 +98,8 @@ Adobe Learning Manager 支持使用 AWS Transfer 系列 SFTP 协议的新连接�
 
 1. 单击&#x200B;**[!UICONTROL “新建网站”]**&#x200B;以新建站点。 根据需要为站点重命名。
 
-   ![新网站](assets/new-site.png)
-   *创建网站*
+   ![新站点](assets/new-site.png)
+   *创建站点*
 
 1. 从“连接器凭据”页映射详细资料。
 
@@ -124,11 +124,11 @@ Adobe Learning Manager 支持使用 AWS Transfer 系列 SFTP 协议的新连接�
    ![密码](assets/password.png)
    *输入密码*
 
-   （可选）选择 **[!UICONTROL 始终信任此主机]** 复选框，以信任该主机。
+   （可选）选中&#x200B;**[!UICONTROL 始终信任此主机]**&#x200B;复选框以信任该主机。
 
 1. 单击“确定”。
 
-   ![未知主机密钥](assets/unknown-host-key.png)
+   ![未知的主机密钥](assets/unknown-host-key.png)
    *主机密钥*
 
 1. 在顶部检查连接的状态和进度。
@@ -149,7 +149,7 @@ Adobe Learning Manager 支持使用 AWS Transfer 系列 SFTP 协议的新连接�
 
 将公钥粘贴到文本框以使用现有 SSH 密钥。 单击“连接”/“保存”。
 
-要生成新的SSH密钥，请单击“**[!UICONTROL 生成SSH密钥]**&#39;按钮。 系统将下载私钥。 单击&#x200B;**[!UICONTROL “连接/保存”]**。
+若要生成新的SSH密钥，请单击“**[!UICONTROL 生成SSH密钥]**”按钮。 系统将下载私钥。 单击&#x200B;**[!UICONTROL “连接/保存”]**。
 
 ![生成ssh密钥](assets/ssh-key.png)
 *生成SSH密钥*

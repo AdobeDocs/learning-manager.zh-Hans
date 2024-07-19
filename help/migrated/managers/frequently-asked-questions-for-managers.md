@@ -1,16 +1,15 @@
 ---
 jcr-language: en_us
 title: 经理常见问题解答
-description: AdobeLearning Manager经理常见问题解答
+description: Adobe Learning Manager经理常见问题解答
 contentowner: admin
-source-git-commit: 864b1796f1ca99ae7b5643e8c58d1756ff2461a1
+exl-id: 4f684d4c-c700-4907-95cd-879df3167c1d
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '799'
 ht-degree: 57%
 
 ---
-
-
 
 # 经理常见问题解答
 
@@ -71,7 +70,7 @@ ht-degree: 57%
 
 您可以为团队成员创建报告，以查看每个成员分配和习得的技能列表。 单击左侧窗格中的“报告” ，然后单击“示例报告”选项卡可查看“技能与经理”示例报告。
 
-有关更多信息，请参阅 [报告](feature-summary/reports.md) 功能。
+有关更多信息，请参阅Learning Manager帮助中的[报告](feature-summary/reports.md)功能。
 
 +++
 
@@ -95,7 +94,7 @@ ht-degree: 57%
 
 若要调整报告大小，请单击“调整大小”，然后选择以下两个选项之一：1x1（小）或 1×2（大）。
 
-有关更多信息，请参阅  [报告功能。](feature-summary/reports.md)
+有关详细信息，请参阅[报告功能。](feature-summary/reports.md)
 
 +++
 
@@ -117,7 +116,7 @@ ht-degree: 57%
 
 +++我可以查看所有可用课程吗？ 该如何操作？
 
-您可以切换到学习者角色来查看所有可用课程。请参阅  [课程](../learners/feature-summary/courses.md) 功能，了解更多信息
+您可以切换到学习者角色来查看所有可用课程。有关更多信息，请参阅[课程](../learners/feature-summary/courses.md)功能
 
 +++
 

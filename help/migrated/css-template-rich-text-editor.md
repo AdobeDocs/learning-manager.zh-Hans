@@ -27,11 +27,11 @@ ht-degree: 70%
 
 默认样式可能无法满足所有人的需求。 用户可以通过覆盖所提供的 CSS 来完成自定义设置。 所有样式均作为后代选择器打包在 ql-editor 下。 使用的类如下：
 
-* **缩进**： li.ql-indent-$number. $number 从 1 至 9 不等
-* **大小**： ql-size-small， ql-size-large， ql-size-huge
-* **对齐方式**： ql-align-center、ql-align-justify、ql-align-right
+* **缩进**： li.ql-indent-$number。 $number 从 1 至 9 不等
+* **大小**： ql-size-small、ql-size-large、ql-size-huge
+* **对齐**： ql-align-center、ql-align-justify、ql-align-right
 * **颜色**： ql-color-$color。 $color = 白色、红色、橘色、黄色、绿色、蓝色、紫色
 * **背景**： ql-bg-$color。 $color = 黑色、红色、橘色、黄色、绿色、蓝色、紫色
-* **html标记**： p， ol， ul， pre， blockquote， h1， h2， h3， h4， h5， h6
+* **html标签**：p、ol、ul、pre、blockquote、h1、h2、h3、h4、h5、h6
 
 [用于自定义的 CSS 文件。](assets/ql-headless.css)

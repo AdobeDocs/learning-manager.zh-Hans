@@ -19,7 +19,7 @@ ht-degree: 48%
 
 Experience API (xAPI) 是一种在线学习软件规范，允许学习内容和学习系统互动，以记录和跟踪所有类型的学习体验。 学习体验会记录于学习记录存储 (LRS) 中。 LRS 既可以存在于传统的学习管理系统 (LMS) 中，也可以独立存在。
 
-有关xAPI的详细信息，请参阅 [xAPIc规范](https://github.com/adlnet/xAPI-Spec).
+有关xAPI的详细信息，请参阅[xAPIc规范](https://github.com/adlnet/xAPI-Spec)。
 
 ## Adobe Learning Manager 如何支持 xAPI？ {#howdoeslearningmanagersupportxapi}
 
@@ -37,7 +37,7 @@ Adobe Learning Manager 内置 LRS。该 LRS 能够完全接受来自 Adobe Learn
 
    ![](assets/appregistration.png)
 
-   *用于注册应用程序的启动页面*
+   *启动页面以注册应用程序*
 
 1. 注册新应用程序。
 
@@ -75,11 +75,11 @@ GET https://learningmanager.adobe.com/oauth/o/authorize?client_id=<Enter your cl
 
 作者现在可以在创建课程时选择 xAPI 模块，以监控 Adobe Learning Manager 以外的用户体验。例如，您可以使用此功能评估用于第三方课程消费平台上的用户活动。
 
-1. 创建 **[!UICONTROL 活动模块]**，在**中[!UICONTROL 类型]**option，使用弹出菜单进行选择  **[!UICONTROL 基于xAPI的模块。]**
+1. 创建&#x200B;**[!UICONTROL 活动模块]**&#x200B;时，在**[!UICONTROL 类型]**选项中，使用弹出菜单选择&#x200B;**[!UICONTROL 基于xAPI的模块。]**
 
    ![](assets/xapimodulecreation.png)
 
-   *选择“基于xAPI的模块”选项*
+   *选择选项“基于xAPI的模块”*
 
 1. 您需要提供 IRI。 如果未提供，Learning Manager会自动生成一个。
 
@@ -97,7 +97,7 @@ GET https://learningmanager.adobe.com/oauth/o/authorize?client_id=<Enter your cl
 
 **注意事项：**
 
-* Learning Manager目前仅支持mbox作为标识符。 不支持其他标识符，包括mboz_sha1、 openid 、帐户。
+* Learning Manager目前仅支持   mbox作为标识符。 不支持其他标识符，包括mboz_sha1、 openid 、帐户。
 
 * 与Learning Manager一起使用时，stateId和profileId为UUID。
 * PUT请求不会覆盖xAPI代理/配置文件、活动/配置文件以及活动/状态的文档
@@ -114,7 +114,7 @@ xAPI报告可以生成为Excel报告。 以管理员身份打开&#x200B;**[!UICO
 
 对于任何第三方集成，都可以使用FTP和Box连接器生成/计划相同的报告。 请执行以下步骤：
 
-登录身份 **集成管理员>打开FTP/Box连接器>选择xAPI活动报告** 左侧面板中的“文件”。 选择计划/生成报告。
+以&#x200B;**集成管理员>打开FTP/Box连接器>从左侧面板中选择“xAPI活动报告**”的身份登录。 选择计划/生成报告。
 
 ![](assets/xapischedule.png)
 

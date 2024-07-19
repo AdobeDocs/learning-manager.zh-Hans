@@ -1,16 +1,15 @@
 ---
 jcr-language: en_us
 title: 管理员快速入门指南
-description: 使用“开始使用”页面可浏览AdobeLearning Manager的主要管理员功能。
+description: 使用入门页面可浏览Adobe Learning Manager的主要管理功能。
 contentowner: manochan
-source-git-commit: 3d5cc91c8973385b5b13244df026667009fc88f7
+exl-id: c1779a24-2236-41f4-99b0-a3529751a5c2
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '162'
 ht-degree: 66%
 
 ---
-
-
 
 # 管理员快速入门指南
 
@@ -20,9 +19,9 @@ ht-degree: 66%
 
 ## 查看示例视频 {#viewsamplevideos}
 
-浏览示例视频教程以了解管理员角色的关键功能。如果不想在登录期间出现此弹出窗口，可以单击 **[!UICONTROL 登录时不显示]** 选项。
+浏览示例视频教程以了解管理员角色的关键功能。如果您不想在登录期间看见此弹出窗口，可以单击弹出窗口右下角的&#x200B;**[!UICONTROL “不在登录时显示”]**&#x200B;选项以将其禁用。
 
-点击 **[!UICONTROL 关闭窗口]** 关闭弹出窗口。
+单击&#x200B;**[!UICONTROL 关闭窗口]**&#x200B;以关闭弹出窗口。
 
 ![](assets/welcome-videos-e1439961904106.png)
 
@@ -38,4 +37,3 @@ ht-degree: 66%
 您还以选择查看教程视频、帮助内容以及了解其他角色来进一步了解 Adobe Learning Manager 应用程序。
 
 ![](assets/admin-landing-page-300x204.png)
-

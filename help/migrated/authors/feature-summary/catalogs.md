@@ -3,14 +3,13 @@ description: Adobe Learning Manager 中的目录包括 Adobe Learning Manager �
 jcr-language: en_us
 title: 目录
 contentowner: manochan
-source-git-commit: 147e9edfe323f3d0851880cd401067daa1cee84f
+exl-id: 35ff170f-fee6-4d28-8238-1a53568d99b3
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '353'
 ht-degree: 78%
 
 ---
-
-
 
 # 目录
 
@@ -24,7 +23,7 @@ Adobe Learning Manager 中所有的可用课程都位于课程部分。这同样
 
 作者可以查看课程目录，该目录是帐户中所有课程的集合。
 
-以作者身份登录后，单击 **课程目录** ，以查看公司在Learning Manager中可用的所有课程列表。
+以作者身份登录后，单击左侧窗格中的&#x200B;**课程目录**&#x200B;以查看Learning Manager中适用于您公司的所有可用课程列表。
 
 使用如下图所示的筛选选项在目录中查找课程。
 

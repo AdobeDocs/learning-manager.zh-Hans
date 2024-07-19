@@ -1,16 +1,15 @@
 ---
 jcr-language: en_us
 title: 作者常见问题解答
-description: AdobeLearning Manager作者常见问题解答
+description: Adobe Learning Manager作者的常见问题解答
 contentowner: admin
-source-git-commit: 147e9edfe323f3d0851880cd401067daa1cee84f
+exl-id: 11abbf52-e381-46be-8b33-30abe62b8015
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '1656'
 ht-degree: 51%
 
 ---
-
-
 
 # 作者常见问题解答
 
@@ -28,32 +27,32 @@ ht-degree: 51%
 
 典型的课程生命周期如下所示：
 
-**草稿**  — 作者完成创建并保存课程。 在此状态下，学习者尚无法使用该课程。
+**草稿** — 作者完成创建并保存课程。 在此状态下，学习者尚无法使用该课程。
 
-**已发布**  — 作者完成课程发布。 在此状态下，学习者可注册课程。
+**已发布** — 作者完成课程发布。 在此状态下，学习者可注册课程。
 
-**已弃用**  — 发布课程后，如果您不想让课程继续显示在学习者的课程目录中，可将其移动至已弃用状态。
+**已弃用** — 发布课程后，如果您不想让课程继续显示在学习者的课程目录中，可将其移动至弃用状态。
 
-**已删除**  — 课程从AdobeLearning Manager应用程序中完全移除后，即显示为删除状态。 课程只有处于“草稿”或“已弃用”状态时，作者才能将其删除。
+**已删除** — 课程从Adobe Learning Manager应用程序中完全移除后，即显示为删除状态。 课程只有处于“草稿”或“已弃用”状态时，作者才能将其删除。
 
 +++
 
 +++如何将Captivate项目发布到Learning Manager？
 
-您可以将已完成的 Captivate 9 项目作为模块发布到 Adobe Learning Manager。在打开的Captivate9项目中，使用 **发布** > **发布到AdobeLearning Manager** 然后按照说明发布模块。
+您可以将已完成的 Captivate 9 项目作为模块发布到 Adobe Learning Manager。在打开的Captivate9项目中，使用&#x200B;**Publish** > **Publish到Adobe Learning Manager**，然后按照说明发布模块。
 
-请参阅  [AdobeLearning Manager：从Adobe Captivate 9发布模块](http://primehelp.adobe.com/cn/publish-modules-from-adobe-captivate9/)视频，了解更多信息。
+有关更多信息，请参阅[Adobe Learning Manager：来自Adobe Captivate的Publish模块9](http://primehelp.adobe.com/cn/publish-modules-from-adobe-captivate9/)视频。
 
-您也可以参考Adobe Captivate 9  [帮助内容](http://helpx.adobe.com/captivate/using/publish-project-to-captivate-prime.html) 了解详细步骤。
+也可参阅Adobe Captivate 9 [帮助内容](http://helpx.adobe.com/captivate/using/publish-project-to-captivate-prime.html)了解详细步骤。
 
 注意\
-ADOBE CAPTIVATE 9  [帮助内容](http://helpx.adobe.com/captivate/using/publish-project-to-captivate-prime.html) 位于Learning Manager帮助应用程序外部。
+Adobe Captivate 9 [帮助内容](http://helpx.adobe.com/captivate/using/publish-project-to-captivate-prime.html)位于Learning Manager帮助应用程序之外。
 
 +++
 
 +++如何在Learning Manager中选择课程模块？
 
-点击  [此处](https://helpx.adobe.com/content/help/cn/captivate-prime/authors/how-to-choose-modules.html) 了解如何选择课程模块。
+单击[此处](https://helpx.adobe.com/content/help/cn/captivate-prime/authors/how-to-choose-modules.html)了解如何选择课程模块。
 
 +++
 
@@ -61,11 +60,11 @@ ADOBE CAPTIVATE 9  [帮助内容](http://helpx.adobe.com/captivate/using/publish
 
 创建课程时，您可以选择的课程注册类型包括自助注册、经理指派或经理批准：
 
-**经理指派** 此类课程只能由经理指派。 学习者无法注册此类课程。
+**经理指派**&#x200B;此类课程只能由经理指派。 学习者无法注册此类课程。
 
-**需要经理批准** 此类课程应经经理批准。 学习者可以申请注册此类课程，但必须在经理批准后才能注册成功。 学习者申请注册此类课程时，经理会收到通知请求。经理批准后，此类课程才会显示学习者已注册。
+**需要经理批准**&#x200B;此类课程应经过经理批准。 学习者可以申请注册此类课程，但必须在经理批准后才能注册成功。 学习者申请注册此类课程时，经理会收到通知请求。经理批准后，此类课程才会显示学习者已注册。
 
-**自助注册** 学习者可直接自行注册此类课程。
+**自助注册**&#x200B;学习者可直接自行注册此类课程。
 
 +++
 
@@ -91,13 +90,13 @@ ADOBE CAPTIVATE 9  [帮助内容](http://helpx.adobe.com/captivate/using/publish
 
 典型的课程生命周期如下所示：
 
-**草稿**  — 作者完成创建并保存课程。 在此状态下，学习者尚无法使用该课程。
+**草稿** — 作者完成创建并保存课程。 在此状态下，学习者尚无法使用该课程。
 
-**已发布**  — 作者完成课程发布。 在此状态下，学习者可注册课程。
+**已发布** — 作者完成课程发布。 在此状态下，学习者可注册课程。
 
-**已弃用**  — 发布课程后，如果您不想让课程继续显示在学习者的课程目录中，可将其移动至已弃用状态。
+**已弃用** — 发布课程后，如果您不想让课程继续显示在学习者的课程目录中，可将其移动至弃用状态。
 
-**已删除**  — 课程从AdobeLearning Manager应用程序中完全移除后，即显示为删除状态。 课程只有处于“草稿”或“弃用”状态时，作者才能将其删除。
+**已删除** — 课程从Adobe Learning Manager应用程序中完全移除后，即显示为删除状态。 课程只有处于“草稿”或“弃用”状态时，作者才能将其删除。
 
 +++
 
@@ -108,7 +107,7 @@ ADOBE CAPTIVATE 9  [帮助内容](http://helpx.adobe.com/captivate/using/publish
 1. 以作者身份登录后，单击左侧窗格中的“模块库”。
 1. 单击页面右上角的“添加”。
 1. 填写“模块名称”、“说明”、“模块标签”。
-1. 选择模块类型为 **已共享** 如果希望将模块共享给所有作者。 否则选择“私有”。
+1. 如果希望将模块共享给所有作者，请选择模块类型为&#x200B;**共享**。 否则选择“私有”。
 1. 单击“上传模块”图标并上传模块内容。
 1. 单击“保存”。
 
@@ -120,11 +119,11 @@ ADOBE CAPTIVATE 9  [帮助内容](http://helpx.adobe.com/captivate/using/publish
 
 作者在创建课程时会遇到下列术语。
 
-**测试模块** 表示课程的核心模块。 如果学习者完成了这一重要模块，则即使学习者未完成课程的实际内容，也可以将其视为完成课程。
+**测试模块**&#x200B;表示课程的核心模块。 如果学习者完成了这一重要模块，则即使学习者未完成课程的实际内容，也可以将其视为完成课程。
 
-**内容模块** 代表实际课程。 学习者阅读这些内容之后，可以更好地了解完整的课程内容。
+**内容模块**&#x200B;表示实际课程表。 学习者阅读这些内容之后，可以更好地了解完整的课程内容。
 
-**准备工作模块** 帮助学习者了解基础知识，做好课程准备。
+**准备工作模块**&#x200B;可帮助学习者了解基础知识，做好课程准备。
 
 +++
 
@@ -158,13 +157,13 @@ ADOBE CAPTIVATE 9  [帮助内容](http://helpx.adobe.com/captivate/using/publish
 
 +++我可以对任意课程的模块进行排序吗？ 该如何操作？
 
-如果作者希望更改模块顺序，可以将其拖放于其他模块之上。 他还可以通过选择强制学习者按顺序学习模块 **有序** 在创建课程的过程中为模块排序的选项。
+如果作者希望更改模块顺序，可以将其拖放于其他模块之上。 在创建课程的过程中，作者还可以在为模块排序时选择“**有序**”选项，从而强制学习者按顺序学习模块。
 
 +++
 
 +++如何筛选以查看特定的课程集？
 
-您可以使用“按状态过滤课程”选项过滤课程。 有关详细信息，请参阅  [如何搜索课程？](https://helpx.adobe.com/content/help/cn/captivate-prime/authors/frequently-asked-questions-for-authors.html#Course)
+您可以使用“按状态过滤课程”选项过滤课程。 有关详细信息，请参阅[如何搜索课程？](https://helpx.adobe.com/content/help/cn/captivate-prime/authors/frequently-asked-questions-for-authors.html#Course)
 
 +++
 
@@ -179,9 +178,9 @@ ADOBE CAPTIVATE 9  [帮助内容](http://helpx.adobe.com/captivate/using/publish
 您可以通过两种方式来搜索课程：
 
 1. 使用右上角显示的搜索字段。输入课程名称或任何与课程相关的关键词来查找您的课程。
-1. 使用过滤器过滤课程列表。您可以按状态过滤课程，例如 **全部、已发布、草稿** 和 **已弃用** 通过单击每个选项。
+1. 使用过滤器过滤课程列表。您可以单击各个选项按状态（例如&#x200B;**“全部”、“已发布”、“草稿”**&#x200B;和&#x200B;**“已弃用”**）过滤课程。
 
-   您还可以通过单击 **技能** 并逐一挑选。
+   您还可以单击&#x200B;**技能**&#x200B;并进行选择，然后根据技能集进行搜索。
 
    根据您的选择，可以查看过滤后的课程列表并相应进行选择。
 
@@ -200,9 +199,9 @@ ADOBE CAPTIVATE 9  [帮助内容](http://helpx.adobe.com/captivate/using/publish
 
 +++如何在课程中添加模块？
 
-您可以将课程模块添加到新课程或现有草稿课程中。 要向新课程中添加模块，请参阅  [如何创建课程？](http://primehelp.adobe.com/questions/how-do-i-create-a-new-course/)
+您可以将课程模块添加到新课程或现有草稿课程中。 要向新课程中添加模块，请参阅[如何创建课程？](http://primehelp.adobe.com/questions/how-do-i-create-a-new-course/)
 
-您可以通过单击将模块添加到模块库 **模块库** 然后 **添加**.
+您可以单击&#x200B;**“模块库”**，然后单击&#x200B;**“添加”**，将模块添加到模块库中。
 
 要向已发布的课程中添加模块，可以先复制该课程（保存为草稿），然后添加模块。
 
@@ -239,13 +238,13 @@ ADOBE CAPTIVATE 9  [帮助内容](http://helpx.adobe.com/captivate/using/publish
 要创建课程，请执行以下步骤：
 
 1. 以作者身份登录 Adobe Learning Manager。
-1. 点击 **[!UICONTROL 创建课程]** 在快速入门页面中。\
+1. 在快速入门页面中单击&#x200B;**[!UICONTROL 创建课程]**。\
    此时会显示“基本信息”页面。
 
 1. 提供课程所需的基本信息。 按照所提供的静态帮助说明进行操作。
-1. 点击 **[!UICONTROL 添加模块]** 要课程并从列表的四个模块中选择一个模块：提供每个模块所需的基本信息并单击 **[!UICONTROL 完成]**.
+1. 单击&#x200B;**[!UICONTROL “添加模块”]**&#x200B;到课程，并从列表的四个模块中选择一个模块：提供每个模块所需的基本信息并单击&#x200B;**[!UICONTROL “完成”]**。
 
-课程创建完成后，单击“保存”。默认情况下，课程保存为草稿。 点击 **[!UICONTROL 发布]** 发布课程。
+课程创建完成后，单击“保存”。默认情况下，课程保存为草稿。 单击&#x200B;**[!UICONTROL Publish]**&#x200B;发布您的课程。
 
 发布课程前，您需要添加课程名称、至少一个模块、注册类型、能力、能力级别和积分。
 

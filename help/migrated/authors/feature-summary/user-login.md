@@ -1,16 +1,15 @@
 ---
 jcr-language: en_us
 title: 用户登录
-description: 首次使用AdobeLearning Manager时，需要创建帐户。
+description: 当您首次使用Adobe Learning Manager时，需要创建您的帐户。
 contentowner: manochan
-source-git-commit: 147e9edfe323f3d0851880cd401067daa1cee84f
+exl-id: f8f0ac74-606e-40ac-81c7-1c3d2fa9a0bf
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '147'
 ht-degree: 42%
 
 ---
-
-
 
 # 用户登录
 
@@ -24,13 +23,13 @@ ht-degree: 42%
 
 ![](assets/adobeid-signin.png)
 
-*登录到AdobeLearning Manager*
+*登录到Adobe Learning Manager*
 
-1. 输入Adobe ID、密码，然后单击 **[!UICONTROL 登录]**.
+1. 输入Adobe ID、密码，然后单击&#x200B;**[!UICONTROL 登录]**。
 
-   如果忘记密码，请单击 **[!UICONTROL 忘记密码？]** 链接并提供创建Adobe ID时所用的电子邮件ID。
+   如果忘记密码，请单击&#x200B;**[!UICONTROL 忘记密码？]**&#x200B;链接并提供您用于创建Adobe ID的电子邮件ID。
 
-1. 或者，可以单击Enterprise ID **[!UICONTROL 使用Enterprise ID链接登录]**.
+1. 或者，您可以单击&#x200B;**[!UICONTROL 使用Enterprise ID链接登录]**&#x200B;来进行Enterprise ID。
 
 >[!NOTE]
 >

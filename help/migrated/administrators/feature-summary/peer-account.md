@@ -3,14 +3,13 @@ description: 阅读本文，了解如何在 Adobe Learning Manager 中创建和�
 jcr-language: en_us
 title: 配对帐户
 contentowner: shhivkum
-source-git-commit: 46afb6603456ced9d7e2aaf98d07ec92fee30c0b
+exl-id: 251d0eeb-f5e8-4f70-a36c-dcecb4834042
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '576'
 ht-degree: 62%
 
 ---
-
-
 
 # 配对帐户
 
@@ -20,14 +19,14 @@ Adobe Learning Manager 已推出配对帐户功能，可让您共享已购买的
 
 ## 添加配对帐户 {#addapeeraccount}
 
-1. 在管理员信息板中，单击 **[!UICONTROL 设置]** > **[!UICONTROL 配对帐户]**.
-1. 在右上角，单击 **[!UICONTROL 添加]**.
+1. 在管理员信息板中，单击&#x200B;**[!UICONTROL 设置]** > **[!UICONTROL 配对帐户]**。
+1. 在右上角单击&#x200B;**[!UICONTROL “添加”]**。
 
    ![](assets/peeraccount.png)
 
    *添加配对帐户*
 
-1. 在 **[!UICONTROL 帐户子域]** 字段中，指定要与之建立配对帐户的子域。
+1. 在&#x200B;**[!UICONTROL 帐户子域]**&#x200B;字段中，指定要与之建立配对帐户的子域。
 
    ![](assets/addpeer.png)
 
@@ -69,13 +68,13 @@ Adobe Learning Manager 已推出配对帐户功能，可让您共享已购买的
 管理员可以查看配对帐户的用户报告。 父级帐户管理员可以请求访问报告，配对帐户管理员接受请求后，父级帐户管理员将能够查看配对帐户中已注册的用户数，并且能够下载配对帐户的用户报告。
 
 1. 在“配对帐户”页面上，单击&#x200B;**[!UICONTROL “添加”]**。
-1. 启用该选项 **[!UICONTROL 请求权限下载整个帐户的用户报告]**.
+1. 启用选项&#x200B;**[!UICONTROL 请求权限下载整个帐户的用户报告]**。
 
 ![](assets/image034.png)
 
 *查看配对帐户的用户报告*
 
-如需下载配对帐户的报告，请单击 **[!UICONTROL 下载]**.
+若要下载配对帐户的报告，请单击&#x200B;**[!UICONTROL 下载]**。
 
 ## 常见问题解答 {#frequentlyaskedquestions}
 

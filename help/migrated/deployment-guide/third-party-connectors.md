@@ -62,7 +62,7 @@ Adobe Learning Manager 管理员可在导入用户前先对其使用过滤器。
 
    ![](assets/mouserover-salesforce.png)
 
-1. 此时会显示一个对话框，提示您输入公司 URL。点击 **[!UICONTROL Connect]** 在提供URL后。
+1. 此时会显示一个对话框，提示您输入公司 URL。在提供URL后单击&#x200B;**[!UICONTROL 连接]**。
 1. 连接成功后，将显示“概述”页面。
 
 ## 映射属性 {#mapattributes}
@@ -73,9 +73,9 @@ Adobe Learning Manager 管理员可在导入用户前先对其使用过滤器。
 
    ![](assets/sfdc-map-columns.png)
 
-   左侧显示的Learning Manager列数据是从活动字段中获取的。 该 **管理者** 字段必须映射到电子邮件地址类型的字段。 在能够使用连接器之前，必须映射所有列。
+   左侧显示的Learning Manager列数据是从活动字段中获取的。 **管理器**&#x200B;字段必须映射到电子邮件地址类型的字段。 在能够使用连接器之前，必须映射所有列。
 
-1. 点击 **[!UICONTROL 保存]** 完成映射后。
+1. 完成映射后单击“**[!UICONTROL 保存]**”。
 1. 连接器现在可以使用了。已配置的帐户在管理员应用中显示为数据源，以便管理员安排导入或用于按需同步。
 
 ## 使用 Salesforce 连接器 {#usingsalesforceconnector}
@@ -114,7 +114,7 @@ Salesforce 连接器连接至 Salesforce.com 来获取已配置用户，并将�
 
    ![](assets/mouseover-ftpconnector.png)
 
-1. 此时会显示一个对话框，提示您输入电子邮件 ID。提供负责管理公司Learning Manager FTP帐户的人员的电子邮件ID。 点击 **[!UICONTROL Connect]** 提供电子邮件ID后。
+1. 此时会显示一个对话框，提示您输入电子邮件 ID。提供负责管理公司Learning Manager FTP帐户的人员的电子邮件ID。 提供电子邮件ID后，单击&#x200B;**[!UICONTROL 连接]**。
 1. Adobe Learning Manager 发送给您一封电子邮件，提示用户在第一次访问 FTP 之前重置密码。用户必须重置密码，并使用此密码来访问 Adobe Learning Manager FTP 帐户。
 
    一个 Adobe Learning Manager 帐户仅可创建一个 Adobe Learning Manager FTP 帐户。
@@ -139,12 +139,12 @@ Salesforce 连接器连接至 Salesforce.com 来获取已配置用户，并将�
 
 成功建立连接后，即可将 FTP 文件夹中存放的 CSV 文件的各列映射到 Adobe Learning Manager 的相应属性。此步骤为必须操作。
 
-1. 在“映射属性”页面中，您可以在左侧看见Learning Manager的预期各列，在右侧看见CSV各列名称。 首先，您会在右侧看见一个空的选择框。通过单击 **选择文件**.
+1. 在“映射属性”页面中，您可以在左侧看见Learning Manager的预期各列，在右侧看见CSV各列名称。 首先，您会在右侧看见一个空的选择框。单击&#x200B;**选择文件**，导入任何模板CSV。
 1. 上述步骤会在右侧的选择下拉列表中填写所有 CSV 列名称。选择映射到Learning Manager列名称的相应列名称。
 
-   *经理字段必须映射到电子邮件地址类型的字段。 在能够使用连接器之前，必须映射所有列。*
+   *“经理”字段必须映射到电子邮件地址类型的字段。 在能够使用连接器之前，必须映射所有列。*
 
-1. 点击 **[!UICONTROL 保存]** 完成映射后。
+1. 完成映射后单击“**[!UICONTROL 保存]**”。
 
    连接器现在可以使用了。刚刚配置的帐户在管理员应用中显示为数据源，以便管理员安排导入或用于按需同步。
 
@@ -158,7 +158,7 @@ Salesforce 连接器连接至 Salesforce.com 来获取已配置用户，并将�
 
    `code $OPERATION$/$OBJECT_TYPE$/$SUB_OBJECT_TYPE$/data.csv`
 
-   **注：** 在2016年7月版中，仅允许导入用户。 因此，要使用FTP连接器，您必须确保将CSV文件放入以下文件夹：
+   **注意：**&#x200B;在2016年7月版中，仅允许导入用户。 因此，要使用FTP连接器，您必须确保将CSV文件放入以下文件夹：
 
    `code Home/import/user/internal/*.csv`
 
@@ -166,7 +166,7 @@ Salesforce 连接器连接至 Salesforce.com 来获取已配置用户，并将�
 1. 所有CSV均应包含映射中指定的列。
 1. 在流程开始之前，文件夹中应存在所有必需的CSV。
 
-在将用户导入到 Adobe Learning Manager 时，管理员还需要了解如何在 Adobe Learning Manager 中管理用户。请参阅 [用户管理帮助](../integration-admin/feature-summary/migration-manual.md#usermanagement) 了解更多信息。
+在将用户导入到 Adobe Learning Manager 时，管理员还需要了解如何在 Adobe Learning Manager 中管理用户。请参阅[用户管理帮助](../integration-admin/feature-summary/migration-manual.md#usermanagement)以了解更多信息。
 
 +++
 
@@ -176,7 +176,7 @@ Salesforce 连接器连接至 Salesforce.com 来获取已配置用户，并将�
 
 有两个选项可用于导出用户技能报告。
 
-**[!UICONTROL 用户技能 — 按需]**：可以指定开始日期并使用选项导出报告。报告将从输入的日期提取到现在。
+**[!UICONTROL 用户技能 — 按需]**：您可以指定开始日期并使用选项导出报告。报告将从输入的日期提取到现在。
 
 ![](assets/user-skills-on-demand.png)
 
@@ -190,9 +190,9 @@ Salesforce 连接器连接至 Salesforce.com 来获取已配置用户，并将�
 
 ![](assets/ftp-folder.png)
 
-自动导出的文件将出现在以下位置 **Home/export/&#42;FTP_location&#42;**
+自动导出的文件将出现在位置&#x200B;**Home/export/&#42;FTP_location&#42;**&#x200B;中
 
-自动导出文件的标题将为 **skill_achieves_&#42;日期自&#x200B;&#42;_收件人_&#42;终止日期&#42;.csv**
+自动导出文件的标题将为&#x200B;**skill_achievements_&#42;开始日期&#x200B;&#42;_至_&#42;结束日期&#42;.csv**
 
 ![](assets/exported-csvs.png)
 
@@ -301,8 +301,8 @@ getAbstract 连接器：getAbstract.com 的企业用户可使用此连接器供�
 
    如要确保任意类型的同步均起作用，必须确保 getAbstract FTP 文件夹中存在对应同步所指定日期的用户订阅源。
 
-   请参阅以下 Excel 工作表，该工作表是 getAbstract 的用户订阅源文件的样本。文件名应采用以下格式：** report_export_yyyy_MM_dd_HHmmss.xlsx**或 **report_export_yyyy_MM_dd.xlsx**.
-   [getAbstract用户订阅源样本Excel表](assets/report-export-20170401175342.xlsx)
+   请参阅以下 Excel 工作表，该工作表是 getAbstract 的用户订阅源文件的样本。文件名应采用以下格式：** report_export_yyyy_MM_dd_HHmmss.xlsx**或&#x200B;**report_export_yyyy_MM_dd.xlsx**。
+   [getAbstract用户订阅源示例Excel表](assets/report-export-20170401175342.xlsx)
 
 ## Harvard ManageMentor 连接器 {#hmmconnector}
 
@@ -352,7 +352,7 @@ Harvard ManageMentor 连接器：Harvard ManageMentor 的企业用户可使用�
    client_hmm12_20150125.xlsx：此文件是 Harvard ManageMentor 连接器的用户订阅源。文件命名必须遵循以下约定：**client_hmm12_yyyyMMdd.xlsx**。
 
    请参阅以下两个用于此连接器的用户订阅源和课程订阅源文件样本：
-   [Harvard ManageMentor连接器的课程元数据文件](assets/hmm12-metadata.xlsx) [Harvard ManageMentor连接器的用户订阅源](assets/client-hmm12-20170304.xlsx)
+   [ Harvard ManageMentor连接器的课程元数据文件](assets/hmm12-metadata.xlsx) [ Harvard ManageMentor连接器的用户订阅源](assets/client-hmm12-20170304.xlsx)
 
 ## Workday 连接器 {#workdayconnector}
 
@@ -385,7 +385,7 @@ Adobe Learning Manager 管理员可在导入用户前先对其过滤。例如，
 ## 配置 Workday 连接器 {#configureworkdayconnector}
 
 **先决条件**：请求公司的 Workday 管理员创建具有 ISU_Permissions 文档中定义的权限的集成系统用户 (ISU)。从下面的链接下载副本。
-[下载集成系统用户(ISU)安全性的副本。](assets/isu-permissions-v1.pdf) 了解将Learning Manager与Workday连接器集成的过程。
+[下载集成系统用户(ISU)安全性的副本。](assets/isu-permissions-v1.pdf)了解将Learning Manager与Workday连接器集成的过程。
 
 1. 在Learning Manager主页中，将鼠标悬停在Workday磁贴上。 此时会显示菜单。单击菜单中的&#x200B;**[!UICONTROL “连接”]**&#x200B;条目。
 
@@ -528,11 +528,11 @@ wd：Management_Chain_Data.wd：Worker_Supervisory_Management_Chain_Data.wd：Ma
 
 Adobe Learning Manager 管理员可在导入用户前先对其过滤。例如，Adobe Learning Manager 管理员可以选择导入一位或多位经理属下层次结构中的所有用户。
 
-要设置miniOrange连接器，请联系Learning Manager CSM团队。
+如要设置   miniOrange   连接器，请联系Learning Manager CSM团队。
 
 ## 配置 miniOrange 连接器 {#configureminiorangeconnector}
 
-1. 在Learning Manager主页，将鼠标悬停在miniOrange卡/缩略图上方。 此时会显示菜单。点击  **[!UICONTROL Connect]** 选项。
+1. 在Learning Manager主页，将鼠标悬停在miniOrange卡/缩略图上方。 此时会显示菜单。单击菜单中的&#x200B;**[!UICONTROL 连接]**&#x200B;选项。
 
    ![](assets/miniorange-tile.png)
 
@@ -540,17 +540,17 @@ Adobe Learning Manager 管理员可在导入用户前先对其过滤。例如，
 
    ![](assets/establish-connection.png)
 
-1. 如果要直接将miniOrnage用户导入成为Learning Manager内部用户，请使用 **[!UICONTROL 导入内部用户]** 选项。
+1. 如果要直接将miniOrnage用户导入成为Learning Manager内部用户，请使用&#x200B;**[!UICONTROL 导入内部用户]**&#x200B;选项。
 
    ![](assets/import-users.png)
 
-1. 在映射页面中，您可以在左侧看见Learning Manager的列，在右侧看见miniOrnage的列。 选择映射到Learning Manager列名称的相应列名称。
+1. 在映射页面的左侧   可在左侧和右侧看到Learning Manager的各列   你可以看到miniOrnage的各列。 选择映射到Learning Manager列名称的相应列名称。
 
    ![](assets/map-attributes.png)
 
 1. 如要查看和编辑数据源，作为管理员，单击“**[!UICONTROL 设置”>“数据源”]**。
 
-   已建立的miniOrange源将被列出。 如果需要编辑过滤器，请单击 **[!UICONTROL 编辑]**.
+   已建立的miniOrange源将被列出。 如果需要编辑筛选器，请单击&#x200B;**[!UICONTROL 编辑]**。
 
    ![](assets/data-source.png)
 
@@ -566,7 +566,7 @@ Adobe Learning Manager 管理员可在导入用户前先对其过滤。例如，
 
 如要设置和使用连接器，请按照下列步骤操作。
 
-1. 在Learning Manager主页，将鼠标悬停在BlueJeans卡/缩略图上方。 此时会显示菜单。点击  **[!UICONTROL Connect]** 选项。
+1. 在Learning Manager主页，将鼠标悬停在BlueJeans卡/缩略图上方。 此时会显示菜单。单击菜单中的&#x200B;**[!UICONTROL 连接]**&#x200B;选项。
 
    ![](assets/miniorange.png)
 
@@ -639,11 +639,11 @@ Adobe Learning Manager 管理员可在导入用户前先对其过滤。例如，
 
 成功建立连接后，您便可将Box文件夹中要放置的CSV文件列映射到Learning Manager的相应属性。 此步骤为必须操作。
 
-1. 在“映射属性”页面中，您可以在左侧看见Learning Manager的预期各列，在右侧看见CSV各列名称。 首先，您会在右侧看见一个空的选择框。点击“选择文件”，导入任一模板CSV。
+1. 在“映射属性”页面的左侧   可在右侧看到Learning Manager的预期列   一侧可看到CSV列名称。 首先，您会在右侧看见一个空的选择框。点击“选择文件”，导入任一模板CSV。
 
 1. 上述步骤会在右侧的选择下拉列表中填写所有 CSV 列名称。选择映射到Learning Manager列名称的相应列名称。
 
-   *经理字段必须映射到电子邮件地址类型的字段。 在能够使用连接器之前，必须映射所有列。*
+   *“经理”字段必须映射到电子邮件地址类型的字段。 在能够使用连接器之前，必须映射所有列。*
 
 1. 完成映射后单击“保存” 。
 
@@ -657,14 +657,14 @@ Adobe Learning Manager 管理员可在导入用户前先对其过滤。例如，
 
    `code $OPERATION$/$OBJECT_TYPE$/$SUB_OBJECT_TYPE$/data.csv`
 
-   **注：** 在2016年7月版中，仅允许导入用户。 因此，如要使用Box连接器，您必须确保已将CSV文件放入以下文件夹：\
+   **注意：**&#x200B;在2016年7月版中，仅允许导入用户。 因此，如要使用Box连接器，您必须确保已将CSV文件放入以下文件夹：\
    `code Home/import/user/internal/*.csv`
 
 1. Box连接器从CSV文件中获取所有行，因此，务必确保一个CSV文件中与用户对应的行不出现在任何其他CSV中。
 1. 所有CSV均应包含映射中指定的列。
 1. 在流程开始之前，文件夹中应存在所有必需的CSV。
 
-在将用户导入到 Adobe Learning Manager 时，管理员还需要了解如何在 Adobe Learning Manager 中管理用户。请参阅 [用户管理帮助](../integration-admin/feature-summary/migration-manual.md#usermanagement) 了解更多信息。
+在将用户导入到 Adobe Learning Manager 时，管理员还需要了解如何在 Adobe Learning Manager 中管理用户。请参阅[用户管理帮助](../integration-admin/feature-summary/migration-manual.md#usermanagement)以了解更多信息。
 
 +++
 
@@ -682,9 +682,9 @@ Adobe Learning Manager 管理员可在导入用户前先对其过滤。例如，
 
 如要打开已导出文件位于Box中的“导出”文件夹，请打开“用户技能”页面中提供的“Box文件夹”链接，如下所示：
 
-自动导出的文件将出现在以下位置 **Home/export/&#42;Box_location&#42;**
+自动导出的文件将出现在位置&#x200B;**Home/export/&#42;Box_location&#42;**&#x200B;中
 
-自动导出文件的标题将为 **skill_achieves_&#42;日期自&#x200B;&#42;_收件人_&#42;终止日期&#42;.csv**
+自动导出文件的标题将为&#x200B;**skill_achievements_&#42;开始日期&#x200B;&#42;_至_&#42;结束日期&#42;.csv**
 
 由Learning Manager团队共享的访问权限和Box文件夹中的内容应由客户管理。  另请注意，文件夹中的内容将物理存储在法兰克福地区。
 

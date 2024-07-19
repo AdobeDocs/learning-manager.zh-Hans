@@ -3,14 +3,13 @@ jcr-language: en_us
 title: 无法查看日历
 description: 当管理员尝试编辑外部注册配置文件的到期日期并单击日历以编辑到期日期时，日历不会显示。
 contentowner: saghosh
-source-git-commit: 8b29ac996962e7ce8fbda51f3421c9a5f248fcf6
+exl-id: 1b7e5594-714a-4a1d-9b8f-d481c1b48cb5
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '170'
 ht-degree: 88%
 
 ---
-
-
 
 # 无法查看日历
 
@@ -41,7 +40,7 @@ ht-degree: 88%
 
 ### 显示设置
 
-1. 点击 **[!UICONTROL 开始]** > **[!UICONTROL 设置]** > **[!UICONTROL 系统]**.
+1. 单击“**[!UICONTROL 开始]**”>“**[!UICONTROL 设置]**”>“**[!UICONTROL 系统]**”。
 1. 单击&#x200B;**[!UICONTROL “显示”]**。
 1. 在&#x200B;**[!UICONTROL “缩放和布局”]**&#x200B;部分，点击下拉列表。 将设置更改为 100%。
 

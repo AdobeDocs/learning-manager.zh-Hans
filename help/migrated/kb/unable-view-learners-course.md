@@ -1,16 +1,15 @@
 ---
 jcr-language: en_us
 title: 无法查看课程中的学习者
-description: 课程的“学习者”选项卡不显示任何已注册AdobeLearning Manager的学习者。 但是您可以在生成的报告中查看已注册的学习者。
+description: 课程的“学习者”选项卡不显示任何已注册Adobe Learning Manager的学习者。 但是您可以在生成的报告中查看已注册的学习者。
 contentowner: saghosh
-source-git-commit: 8b29ac996962e7ce8fbda51f3421c9a5f248fcf6
+exl-id: 2ea54347-fa6b-493e-b73c-d350efb2aaaf
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '212'
 ht-degree: 58%
 
 ---
-
-
 
 # 无法查看课程中的学习者
 
@@ -35,9 +34,9 @@ ht-degree: 58%
 您可以在“学习成绩单”报告中查看此信息。 请按以下步骤操作生成“学习者成绩单”：
 
 1. 以管理员身份登录。
-1. 点击 **[!UICONTROL 报告]** > **[!UICONTROL 自定义报告]** > **[!UICONTROL Excel报告]** > **[!UICONTROL 学习者成绩单]**.
+1. 单击&#x200B;**[!UICONTROL 报告]** > **[!UICONTROL 自定义报告]** > **[!UICONTROL Excel报告]** > **[!UICONTROL 学习者成绩单]**。
 
-1. 输入 **[!UICONTROL 学习者]** 并指定 **[!UICONTROL 日期]** 范围。
+1. 输入&#x200B;**[!UICONTROL 学习者]**&#x200B;的姓名并指定&#x200B;**[!UICONTROL 日期]**&#x200B;范围。
 1. 展开&#x200B;**[!UICONTROL “高级选项”]**&#x200B;部分，然后选择&#x200B;**[!UICONTROL “启用模块级信息”]**&#x200B;选项。
 1. 单击&#x200B;**[!UICONTROL “生成”]**。
 

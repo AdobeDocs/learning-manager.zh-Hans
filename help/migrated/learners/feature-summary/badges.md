@@ -3,14 +3,13 @@ description: 了解如何使用 Adobe Learning Manager 学习者应用查看和�
 jcr-language: en_us
 title: 徽章
 contentowner: manochan
-source-git-commit: 8b29ac996962e7ce8fbda51f3421c9a5f248fcf6
+exl-id: d0136a79-7044-4a1e-85bb-bd7b1ae24ba1
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '801'
 ht-degree: 49%
 
 ---
-
-
 
 # 徽章
 
@@ -18,7 +17,7 @@ ht-degree: 49%
 
 ## 徽章 {#Badges-1}
 
-徽章是一种成就度量，员工在完成课程后即可获得。 AdobeLearning Manager推出了名为“徽章”的电子学习概念。 全球各地的专业人士可将这些徽章用于表现其掌握了特定技能或学习成就。
+徽章是一种成就度量，员工在完成课程后即可获得。 Adobe Learning Manager推出了名为“徽章”的电子学习概念。 全球各地的专业人士可将这些徽章用于表现其掌握了特定技能或学习成就。
 
 除了能让学习者展现其可信度和透明度外，徽章还能帮助他们者更好地对自己进行定位以及展示已经习得的技能。
 
@@ -30,13 +29,13 @@ ht-degree: 49%
 
 单击任意徽章以查看您已获得的所有徽章的列表。您还可以查看与相应课程对应的所有可用徽章。在尚未实现的徽章中，单击课程名称以查看与徽章对齐的课程。 以下示例快照供您参考。
 
-点击 **[!UICONTROL 下载所有徽章]** 链接以下载zip格式获取的所有徽章。 您也可以单击每个徽章名称旁边的方块图标来下载单个徽章。
+单击&#x200B;**[!UICONTROL 下载所有徽章]**&#x200B;链接，以zip格式下载所有已获取的徽章。 您也可以单击每个徽章名称旁边的方块图标来下载单个徽章。
 
 **将徽章下载为 PDF**
 
 您也可以以 PDF 格式下载一组徽章或单个徽章。
 
-* 点击 **[!UICONTROL 下载所有徽章记录]** 将您获得的徽章下载为PDF。
+* 单击&#x200B;**[!UICONTROL 下载所有徽章记录]**，将您获取的徽章下载为PDF。
 * 若要下载单个徽章，请选择徽章并单击徽章名称旁边的 PDF 图标。
 
 ![](assets/badges.png)
@@ -57,7 +56,7 @@ Adobe Learning Manager 支持学习者的开放徽章概念。您可以将已下
 
 开放徽章是一类在其图像中嵌入一些元数据的徽章。 该元数据提供有关颁发者、接受者、所完成任务、徽章有效性等方面的信息。 可以直接从Learning Manager中访问Badgr backpack，以便在一个位置集中存储和分享所有徽章。 学习者可以登录其Badgr帐户并建立集成。 完成之后，在Learning Manager中获得的徽章会自动上传到Badgr帐户。
 
-管理员启用该选项后 **Badgr集成**，然后学习者可以将学习平台帐户与Badgr帐户集成并配置自己的徽章。 要进行集成，学习者需要从Learning Manager登录Badgr帐户。
+管理员启用&#x200B;**Badgr集成**&#x200B;选项后，学习者可以将学习平台帐户与Badgr帐户集成并配置自己的徽章。 要进行集成，学习者需要从Learning Manager登录Badgr帐户。
 
 >[!NOTE]
 >
@@ -81,4 +80,4 @@ Adobe Learning Manager 支持学习者的开放徽章概念。您可以将已下
 
 **1. 如何以学习者身份下载徽章？**
 
-在徽章页面上，您可以将徽章作为图像或PDF下载。 选择技能或课程，然后单击 **PDF** 或 **徽章**.
+在徽章页面上，您可以将徽章作为图像或PDF下载。 选择技能或课程，然后单击&#x200B;**PDF**&#x200B;或&#x200B;**徽章**。

@@ -3,14 +3,13 @@ description: 用户以经理身份登录 Adobe Learning Manager。
 jcr-language: en_us
 title: 用户登录
 contentowner: manochan
-source-git-commit: 7f34a1781e009b8255530111e3cbec4df3ed28c1
+exl-id: 6e0c00fd-7964-43d9-ba95-3617dbc14f0f
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '149'
 ht-degree: 59%
 
 ---
-
-
 
 # 用户
 
@@ -26,7 +25,7 @@ ht-degree: 59%
 
    ![](assets/adobeid-signin.png)
 
-   *登录到AdobeLearning Manager*
+   *登录到Adobe Learning Manager*
 
 1. 输入 Adobe ID、密码，然后单击“登录”。
 

@@ -3,14 +3,13 @@ jcr-language: en_us
 title: 在创建认证时，无法查看目录下的某些课程
 description: 搜索特定课程以将其添加到认证时，无法在目录下查看该课程。
 contentowner: saghosh
-source-git-commit: 864b1796f1ca99ae7b5643e8c58d1756ff2461a1
+exl-id: 5f2095ee-2b7b-4638-95fb-e81b7f9be96e
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '225'
 ht-degree: 84%
 
 ---
-
-
 
 # 在创建认证时，无法查看目录下的某些课程
 
@@ -42,7 +41,7 @@ Adobe Learning Manager 中有三种注册类型：
 
 在认证中，您只能添加自行注册的课程，不能添加经理指派或经理批准的课程。
 
-* **永久认证：**  您可以在认证中添加CR或VC会话课程。
+* **永久认证：**&#x200B;您可以在认证中添加CR或VC会话课程。
 * **循环认证：**&#x200B;您无法在认证中添加 CR 或 VC 会话课程。
 
 这是 Adobe Learning Manager 中的默认行为。

@@ -1,7 +1,7 @@
 ---
 jcr-language: en_us
 title: Adobe Learning Manager 中的推荐
-description: AdobeLearning Manager中的Recommendations。
+description: Adobe Learning Manager中的Recommendations。
 contentowner: saghosh
 source-git-commit: 78957f8dc3bba39c9bb53c6ac8f888d86e18fc95
 workflow-type: tm+mt
@@ -32,17 +32,17 @@ Adobe Learning Manager 引入了一个经改良的全新课程推荐系统。 �
 
 ## 课程排序算法
 
-推荐引擎的核心是由Learning Manager的新增功能驱动的 **课程排序算法**. 算法运用 **5000 万数据点**&#x200B;和 **5 年来数百万用户的综合学习数据**，根据他们&#x200B;**注册的可能性**&#x200B;对课程进行排名。 此排名可确保优先向学习者显示大多数可注册的课程。
+推荐引擎的核心由Learning Manager的新&#x200B;**课程排名算法**&#x200B;驱动。 算法运用 **5000 万数据点**&#x200B;和 **5 年来数百万用户的综合学习数据**，根据他们&#x200B;**注册的可能性**&#x200B;对课程进行排名。 此排名可确保优先向学习者显示大多数可注册的课程。
 
 ## 关键词
 
-Learning Manager新的基于AI的推荐引擎为学习领导者提供了可配置功能 **基于参数** 用于为学习者打造个性化体验的推荐系统。
+Learning Manager新的基于AI的推荐引擎为学习领导者提供了可配置的&#x200B;**基于参数的**&#x200B;推荐系统，用于为学习者打造个性化体验。
 
 参数为：**产品/主题、角色和级别**。 另外，您还可按需重命名这些参数。 因此，“products”可以成为“topics”，或者“roles”可以成为“region”。
 
 ## 设置推荐系统
 
-AdobeLearning Manager的新推荐引擎简化了设置个性化推荐所涉及的管理员工作流程，因为管理员通常可以从购买记录中获得与客户/合作伙伴相关的产品和角色的相关数据。
+Adobe Learning Manager的新推荐引擎简化了设置个性化推荐所涉及的管理员工作流程，因为管理员通常可以从购买记录中获取与客户/合作伙伴相关的产品和角色的相关数据。
 
 设置新的推荐引擎主要涉及三个工作流程：
 

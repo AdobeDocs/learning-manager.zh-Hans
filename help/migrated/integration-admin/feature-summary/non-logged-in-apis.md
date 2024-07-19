@@ -1,7 +1,7 @@
 ---
-description: 了解用于开发无外设界面的非登录 API。
+description: 了解用于开发无头界面的未登录API。
 jcr-language: en_us
-title: 非登录 API
+title: 未登录的API
 source-git-commit: 21e2a4a5e73fcbddb64e0afec0a896b315e38688
 workflow-type: tm+mt
 source-wordcount: '574'
@@ -9,19 +9,20 @@ ht-degree: 0%
 
 ---
 
-# 非登录 API
+# 未登录的API
 
-阅读本文，详细了解 Adobe Learning Manager API，它们为无头或非登录体验提供数据。公共搜索 API
+在本文中，了解有关Adobe Learning Manager API的更多信息，这些API为无头体验或未登录体验提供数据。
+公共搜索API
 
-## 公共搜索 API
+## 公共搜索API
 
-### 使用公共 ES 筛选数据
+### 使用Public ES筛选数据
 
-通过公共搜索 API，您可以获取可与基本搜索 API 一起使用以筛选课程的筛选器数据。 此 API 提供可在搜索 API 中使用的所有筛选器。
+Public Search API允许您获取筛选数据，可与basic search API结合使用来筛选课程。 此API提供所有可在Search API中使用的过滤器。
 
-**示例卷曲**
+**卷曲示例**
 
-使用 GET 方法发出以下请求。 在 &lt;Base_URL> 下面的 curl 命令中替换为基本 URL。 &lt;/Base_URL>可以在 &lt;Base_URL> 训练数据访问连接器页面上找到 。&lt;/Base_URL>
+使用GET方法提出以下请求。 在下面的curl命令中，将&lt;Base_URL>替换为您的基本URL。 您可以在培训数据访问连接器页面上找到&lt;Base_URL>。
 
 ```
 curl --location '<Base_URL>/filterableData'
@@ -88,32 +89,32 @@ curl --location '<Base_URL>/filterableData'
 }
 ```
 
-**过滤器选项**
+**筛选器选项**
 
 | 选项 | 描述 |
 | --- | --- |
-| `loSkillLevels` | 他注册该课程所需的熟练程度。 |
+| `loSkillLevels` | 注册课程所需的熟练程度级别。 |
 | `catalogNames` | 可用目录名称的列表。 |
 | `loType` | 可用学习对象的类型。 |
-| `availability` | 座位可用性和候补表可用性。 |
+| `availability` | 可用名额和轮候表数量。 |
 | `loSkillNames` | 添加到学习对象的技能名称。 |
 | `tags` | 与学习对象关联的标签。 |
 | `authors` | 学习对象的作者姓名 |
 | `duration` | 学习对象的持续时间。 |
 | `dateCreated` | 创建学习对象的日期。 |
 | `sessionEndTime` | 会话结束的时间。 |
-| `averageRating` | 学习对象的平均星级。 |
+| `averageRating` | 学习对象的平均星级评分。 |
 | `sessionStartTime` | 会话开始的时间。 |
 | `publishDate` | 学习对象的发布日期。 |
 | `ratingsCount` | 学习对象的评分计数。 |
 
-### 搜索 API
+### 搜索API
 
-公共搜索 API 允许您使用提供的数据获取基本搜索数据。
+公共Search API允许您使用提供的数据获取基本的搜索数据。
 
-**示例卷曲**
+**卷曲示例**
 
-使用 POST 方法发出以下请求。 在 &lt;Base_URL> 下面的 curl 命令中替换为基本 URL。 &lt;/Base_URL>可以在 &lt;Base_URL> 训练数据访问连接器页面上找到 。&lt;/Base_URL>
+使用POST方法提出以下请求。 在下面的curl命令中，将&lt;Base_URL>替换为您的基本URL。 您可以在培训数据访问连接器页面上找到&lt;Base_URL>。
 
 ```
 curl --location '<Base_URL>/search?size=1000' \
@@ -165,7 +166,7 @@ curl --location '<Base_URL>/search?size=1000' \
 }'
 ```
 
-**API 调用的示例响应**
+**API调用的示例响应**
 
 ```
 {
@@ -261,7 +262,7 @@ curl --location '<Base_URL>/search?size=1000' \
 }
 ```
 
-**搜索 API 上的排序选项**
+**搜索API上的排序选项**
 
 您可以选择以下排序选项以应用于结果。
 
@@ -271,23 +272,23 @@ curl --location '<Base_URL>/search?size=1000' \
 | `publishDate` | 学习对象的发布日期。 |
 | `dateCreated` | 创建学习对象的日期。 |
 | `name_en` | 学习对象的名称。 |
-| `averageRating` | 学习者提供的平均星级。 |
+| `averageRating` | 学习者提供的平均星级评分。 |
 | `ratingsCount` | 学习对象的评分计数。 |
 | `relevance(default)` | 相关数据基于搜索关键字。 |
 
-### 使用公共搜索 API 获取学习对象数据
+### 使用公共搜索API获取学习对象数据
 
-通过公共 ES 学习对象 API，您可以获取无外设界面上可用的学习对象的类型和 ID 列表。
+公共ES学习对象API可让您获取无头界面上可用的学习对象类型和ID列表。
 
-**示例卷曲**
+**卷曲示例**
 
-使用 GET 方法发出以下请求。 在 &lt;Base_URL> 下面的 curl 命令中替换为基本 URL。 &lt;/Base_URL>可以在 &lt;Base_URL> 训练数据访问连接器页面上找到 。&lt;/Base_URL>
+使用GET方法提出以下请求。 在下面的curl命令中，将&lt;Base_URL>替换为您的基本URL。 您可以在培训数据访问连接器页面上找到&lt;Base_URL>。
 
 ```
 curl --location '<Base_URL>/learningObjectIds'
 ```
 
-**API 调用的示例响应**
+**API调用的示例响应**
 
 ```
 {
@@ -299,19 +300,19 @@ curl --location '<Base_URL>/learningObjectIds'
 }
 ```
 
-## 课程摘要 API
+## 课程摘要API
 
-课程摘要 API 允许您检索有关特定课程的详细信息。
+课程摘要API允许您检索有关特定课程的详细信息。
 
-**示例卷曲**
+**卷曲示例**
 
-使用 GET 方法发出以下请求。 在 &lt;Base_URL> 下面的 curl 命令中替换为基本 URL。 &lt;/Base_URL>可以在 &lt;Base_URL> 训练数据访问连接器页面上找到 。 &lt;/Base_URL>&lt;Course_ID> 替换为特定课程 ID。&lt;/Course_ID>
+使用GET方法提出以下请求。 在下面的curl命令中，将&lt;Base_URL>替换为您的基本URL。 您可以在培训数据访问连接器页面上找到&lt;Base_URL>。 将&lt;Course_ID>替换为特定的课程ID。
 
 ```
 curl --location '<Base_URL>/loSummary?loId=course%3A<Course_ID>'
 ```
 
-**API 调用的示例响应**
+**API调用的示例响应**
 
 ```
 {
@@ -334,21 +335,21 @@ curl --location '<Base_URL>/loSummary?loId=course%3A<Course_ID>'
 
 >[!NOTE]
 >
->如果课程有多个实例，则将获得所有实例的详细信息。
+>如果课程有多个实例，您将获取所有实例的详细信息。
 
-## 用于课程详细信息的 CDN JSON API
+## 课程详细信息的CDN JSON API
 
-借助 CDN JSON API，您可以检索有关特定课程的完整课程信息。
+CDN JSON API允许您检索有关特定课程的完整课程信息。
 
-**课程的卷曲示例**
+**课程卷曲示例**
 
-使用 GET 方法发出以下请求。 在 &lt;CDN_path> 下面的 curl 命令中替换为基本 URL。 &lt;/CDN_path>可以在 &lt;CDN_path> 训练数据访问连接器页面上找到 。 &lt;/CDN_path>&lt;Course_ID> 替换为特定课程 ID。&lt;/Course_ID>
+使用GET方法提出以下请求。 在下面的curl命令中，将&lt;CDN_path>替换为您的基本URL。 您可以在培训数据访问连接器页面上找到&lt;CDN_path>。 将&lt;Course_ID>替换为特定的课程ID。
 
 ```
 curl --location '<CDN_path_URL>/course/<Course_ID>.json'
 ```
 
-**用于学习路径和认证的样本卷曲**
+**学习路径和认证的卷曲示例**
 
 ```
 curl --location '<CDN_path_URL>/learningProgram/<LearningProgram_ID>.json'
@@ -358,7 +359,7 @@ curl --location '<CDN_path_URL>/learningProgram/<LearningProgram_ID>.json'
 curl --location '<CDN_path_URL>/ certification /<Certification_ID>.json'
 ```
 
-**API 调用的示例响应**
+**API调用的示例响应**
 
 ```
 {

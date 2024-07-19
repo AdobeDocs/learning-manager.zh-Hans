@@ -2,14 +2,13 @@
 description: 阅读本文，了解如何以讲师身份快速入门 Adobe Learning Manager。
 jcr-language: en_us
 title: 面向讲师的 Adobe Learning Manager 入门指南
-source-git-commit: 8635072782253cbac3f913953797cae7c0bc5ef4
+exl-id: d0540886-3e0d-4a88-8f4e-040dd8a6bde0
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '162'
 ht-degree: 93%
 
 ---
-
-
 
 # 面向讲师的 Adobe Learning Manager 入门指南
 

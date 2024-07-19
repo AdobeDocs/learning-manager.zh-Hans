@@ -3,14 +3,13 @@ description: 了解如何在 Adobe Learning Manager 中管理标签。
 jcr-language: en_us
 title: 标记
 contentowner: dvenkate
-source-git-commit: 0534bd52c80b77d985cfe715f74054f3aabac9a2
+exl-id: ea39d2a2-3d2b-43ae-8f8d-b97420b9d008
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '762'
 ht-degree: 63%
 
 ---
-
-
 
 # 标记
 
@@ -26,7 +25,7 @@ ht-degree: 63%
 
 [![按钮](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=5S7K7ZCT&amp;mv=display&amp;mv2=display#/course/8318920)
 
-如果您无法启动培训，请写信至 <almacademy@adobe.com>.
+如果您无法启动培训，请写入<almacademy@adobe.com>。
 
 ## 添加/删除/编辑标签 {#adddeleteedittags}
 
@@ -41,16 +40,16 @@ ht-degree: 63%
 
 1. 一次只能编辑一个标签。 要编辑标签，请执行以下步骤：
 
-   * 选择要编辑的标签>打开标**[!UICONTROL 动作]**下拉菜单>单击 **[!UICONTROL 编辑]**.
+   * 选择要编辑的标签>打开**[!UICONTROL 操作]**下拉菜单>单击&#x200B;**[!UICONTROL 编辑]**。
 
    此时会显示&#x200B;**[!UICONTROL “编辑标签”]**&#x200B;对话框。 输入新的标签名称，然后单击&#x200B;**[!UICONTROL “保存”]**。
 
-   如果您输入的标签名称已存在，AdobeLearning Manager会显示警告消息。 不能存在两个同名的标签。
+   如果您输入的标签名称已存在，Adobe Learning Manager会显示警告消息。 不能存在两个同名的标签。
 
 ## 替换标签 {#replacetags}
 
-1. 选择要替换的标签。 一次至多可选择50个标签。 打开 **[!UICONTROL 动作]** 下拉菜单并选择 **[!UICONTROL 替换]**.
-1. 该 **[!UICONTROL 替换标签]** 对话框出现，显示所选标签。
+1. 选择要替换的标签。 一次至多可选择50个标签。 打开&#x200B;**[!UICONTROL 操作]**&#x200B;下拉菜单，然后选择&#x200B;**[!UICONTROL 替换]**。
+1. 此时会出现&#x200B;**[!UICONTROL 替换标签]**&#x200B;对话框，显示所选标签。
 
 1. 在&#x200B;**[!UICONTROL “替换标签的名称”]**&#x200B;选项中，输入要用来替换所选标签的新标签名称。 您可以使用下拉菜单中的现有标签进行替换，也可以添加新标签。
 
@@ -62,8 +61,8 @@ ht-degree: 63%
 
 如果对标签执行“附加”操作，则新/现有标签会附加到与所选标签关联的所有学习对象和内容组列表中。
 
-1. 选择要附加的标签。 一次至多可选择50个标签。 打开“操作”下拉菜单，然后选择 **[!UICONTROL 追加]**.
-1. 该  **[!UICONTROL 追加标签]** 对话框出现，显示所选标签。
+1. 选择要附加的标签。 一次至多可选择50个标签。 打开“操作”下拉菜单，然后选择&#x200B;**[!UICONTROL 附加]**。
+1. 此时会出现&#x200B;**[!UICONTROL 附加标签]**&#x200B;对话框，显示所选标签。
 1. 您可以输入&#x200B;**[!UICONTROL 新标签]**&#x200B;的名称或使用现有标签的下拉列表，向包含所选标签的所有学习附加标签。 新标签会附加到 Adobe Learning Manager 中所有关联的学习中。
 
    标签名称中不得出现分号或逗号。 如果使用分号或逗号，Prime 会显示错误消息。 请注意，如果标签未使用分号分隔，或是在部分学习对象中使用时显示错误消息，则此类标签无法用于迁移场景。
@@ -76,7 +75,7 @@ ht-degree: 63%
 
 ![](assets/unknown-1.jpeg)
 
-*用于创建标签的设置页面*
+*用于创建标记的设置页面*
 
 * 当用户有权创建标签并选择当前无效的现有标签时，
 

@@ -2,14 +2,13 @@
 jcr-language: en_us
 title: Adobe Learning Manager 中的 xAPI
 description: Experience API (xAPI)是一种电子学习软件规范，允许学习内容和学习系统互动，以记录和跟踪所有类型的学习体验。
-source-git-commit: 0fabd369e70e15ba22fead0177a24aafd851d88d
+exl-id: 8e36b538-a451-448e-a65d-08d286adcfdb
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '755'
 ht-degree: 49%
 
 ---
-
-
 
 # Adobe Learning Manager 中的 xAPI
 
@@ -17,7 +16,7 @@ ht-degree: 49%
 
 Experience API (xAPI) 是一种在线学习软件规范，允许学习内容和学习系统互动，以记录和跟踪所有类型的学习体验。 学习体验会记录于学习记录存储 (LRS) 中。 LRS 既可以存在于传统的学习管理系统 (LMS) 中，也可以独立存在。
 
-有关xAPI的详细信息，请参阅：  [https://github.com/adlnet/xAPI-Spec](https://github.com/adlnet/xAPI-Spec).
+有关xAPI的详细信息，请参阅： [https://github.com/adlnet/xAPI-Spec](https://github.com/adlnet/xAPI-Spec)。
 
 ## Adobe Learning Manager 如何支持 xAPI？ {#howdoescaptivateprimesupportxapi}
 
@@ -31,7 +30,7 @@ Adobe Learning Manager 内置 LRS。该 LRS 能够完全接受来自 Adobe Learn
 
 ## 设置应用程序 {#setupyourapplication}
 
-1. 以集成管理员身份登录。选择 **[!UICONTROL 应用程序]** > **[!UICONTROL 注册]**.
+1. 以集成管理员身份登录。选择&#x200B;**[!UICONTROL 应用程序]** > **[!UICONTROL 注册]**。
 
    ![](assets/appregistration.png)
 
@@ -66,7 +65,7 @@ GET https://learningmanager.adobe.com/oauth/o/authorize?client_id=<Enter your cl
 
 作者现在可以在创建课程时选择 xAPI 模块，以监控 Adobe Learning Manager 以外的用户体验。例如，您可以使用此功能评估用于第三方课程消费平台上的用户活动。
 
-1. 创建 **[!UICONTROL 活动模块]**，在**中[!UICONTROL 类型]**option，使用弹出菜单进行选择  **[!UICONTROL 基于xAPI的模块。]**
+1. 创建&#x200B;**[!UICONTROL 活动模块]**&#x200B;时，在**[!UICONTROL 类型]**选项中，使用弹出菜单选择&#x200B;**[!UICONTROL 基于xAPI的模块。]**
 
    ![](assets/xapimodulecreation.png)
 
@@ -97,7 +96,7 @@ GET https://learningmanager.adobe.com/oauth/o/authorize?client_id=<Enter your cl
 
 ## 生成报告 {#generatereports}
 
-xAPI报告可以生成为Excel报告。 以管理员身份打开 **[!UICONTROL 报告]** > **[!UICONTROL Excel报告]** > **[!UICONTROL xAPI活动报告]**.
+xAPI报告可以生成为Excel报告。 以管理员身份打开&#x200B;**[!UICONTROL 报告]** > **[!UICONTROL Excel报告]** > **[!UICONTROL xAPI活动报告]**。
 
 下载的报告会获取学习者和管理员针对任何语句发布的所有信息。
 

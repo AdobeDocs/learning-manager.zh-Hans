@@ -2,7 +2,8 @@
 title: 此版本（2022年11月）的新增功能
 description: 了解 Adobe Learning Manager 中的新功能和增强功能
 hidefromtoc: true
-source-git-commit: 1da0911a4d0c2ae5cb01bbb2b7955675b0dfcdde
+exl-id: 2ccfb4e6-ba11-4657-8edb-3c527b4e5b9f
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '1994'
 ht-degree: 77%
@@ -275,8 +276,8 @@ Adobe Learning Manager 提供了一组标准 CSV 规范，用于支持多区域�
 
 **查询参数**
 
-* `cookie=true|false`  — 表示需要撤销Cookie
-* `refresh_token=true|false`  — 表示刷新
+* `cookie=true|false` — 表示需要撤销Cookie
+* `refresh_token=true|false` — 表示刷新
 
 **请求正文**
 
@@ -303,7 +304,7 @@ Body required for revoking oauth cookie only
 | /social/search | GET | 在社交网站上搜索。 |
 | /announcements | GET | 在分配给学习者的刊头上获取有关公告的详细信息。 |
 | /announcements/`{id}` | GET | 在分配给学习者的刊头上获取有关公告的详细信息。 |
-| /learningObject/`{id}`/loResources/{loResourcesId} | GET | 上传loResource文件的URL，上传此类资源类型为“Activity”的文件时需提交文件。 |
+| /learningObjects/`{id}`/loResources/{loResourcesId} | GET | 上传loResource文件的URL，上传此类资源类型为“Activity”的文件时需提交文件。 |
 | /jobAid/`{jobAidId}`/jobAidDownloaded | GET | 设置工作辅助下载报告。 |
 | /bulkimport/startrun | POST | 运行批量导入。 |
 | /bulkimport/cansync | GET | 同步批量导入。 |
@@ -315,7 +316,7 @@ Body required for revoking oauth cookie only
 
 ### Salesforce 应用
 
-该 **忽略高阶学习对象** 必须在Salesforce应用中启用该选项，才能同时查看所有课程、学习计划和证书。
+必须在Salesforce应用中启用&#x200B;**忽略高阶学习对象**&#x200B;选项，才能同时查看所有课程、学习计划和证书。
 
 ### 用于播放器自定义的 API
 
@@ -339,23 +340,23 @@ Body required for revoking oauth cookie only
 
 ### 获取学习对象预览数据
 
-/preview/learningObjects/GET{id} 添加API以获取有关学习对象的预览信息。
+添加GET/preview/learningObjects/{id} API以获取有关学习对象的预览信息。
 
 ### 在配置文件内移动外部用户
 
-该 `PUT primeapi/v2/externalProfiles/{currentep}/users/{userid}?` 通过指定新的externalProfile id，调用有助于将用户移动到另一个外部个人资料。
+`PUT primeapi/v2/externalProfiles/{currentep}/users/{userid}?`调用有助于通过指定新的externalProfile ID将用户移动到另一个外部个人资料。
 
 ### 将用户添加至外部配置文件
 
-该 `POST /externalProfiles/{id}/users` 将外部用户添加到外部个人资料中。
+`POST /externalProfiles/{id}/users`将外部用户添加到外部个人资料中。
 
 ## 发行说明
 
-如需了解Learning Manager网页版应用程序和设备应用程序的当前和往期版本，请参阅 [发行说明](/help/migrated/release-note/release-notes.md).
+如需了解Learning Manager网页版应用程序和设备应用程序的当前和往期版本，请参阅[发行说明](/help/migrated/release-note/release-notes.md)。
 
 ## 错误修复
 
-如要查看本次更新中修复的错误，请参阅 [修复的错误列表](release-note/release-notes.md#bugs-fixed-in-this-release).
+若要查看本次更新中修复的错误，请参阅[修复的错误列表](release-note/release-notes.md#bugs-fixed-in-this-release)。
 
 ## 系统要求
 

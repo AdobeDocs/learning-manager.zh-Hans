@@ -1,16 +1,15 @@
 ---
 jcr-language: en_us
 title: Adobe Learning Manager 登录问题
-description: AdobeLearning Manager中的登录问题
+description: Adobe Learning Manager中的登录问题
 contentowner: nluke
-source-git-commit: ec79aa3dd6225cc424721afb50702963c1b125eb
+exl-id: 516c1a20-f185-4ace-a1e7-2cd89644863c
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '236'
 ht-degree: 87%
 
 ---
-
-
 
 # Adobe Learning Manager 登录问题
 
@@ -32,7 +31,7 @@ ht-degree: 87%
 
 在某些情况下，用户会因过期的 SSO Cookie 而无法访问系统。 这些 Cookie 将转发到 Adobe Learning Manager 以进行身份验证。如果用户长时间未关闭浏览器或未注销，会话也不会结束。
 
-AdobeLearning Manager拒绝会导致错误的过期Cookie。
+Adobe Learning Manager拒绝会导致错误的过期Cookie。
 
 ## 解决方法
 
@@ -46,4 +45,4 @@ AdobeLearning Manager拒绝会导致错误的过期Cookie。
 
 ## 参考链接：
 
-[Microsoft：存留期中的条件访问会话](https://docs.microsoft.com/en-us/azure/active-directory/conditional-access/howto-conditional-access-session-lifetime)
+[Microsoft：生存期内的条件访问会话](https://docs.microsoft.com/en-us/azure/active-directory/conditional-access/howto-conditional-access-session-lifetime)

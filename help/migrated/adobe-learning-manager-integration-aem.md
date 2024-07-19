@@ -3,13 +3,13 @@ jcr-language: en_us
 title: AEM 站点的 Adobe Learning Manager 参考站点（ALM 参考站点）包
 description: Adobe Learning Manager (ALM) 与 Adobe Experience Manager (AEM) 站点集成。 如此一来，您就可以为 Adobe Learning Manager 创建自己的网站和响应式移动界面，并且只需进行最少的编码工作。 通过此集成，您可以为用户创建自定义学习体验。
 contentowner: saghosh
-source-git-commit: 0ec031398f93c8396c0c9d49d172d62b2711481b
+exl-id: 937dfbd1-74a1-4a86-a9b2-29a44be267c6
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '2146'
 ht-degree: 67%
 
 ---
-
 
 # AEM 站点的 Adobe Learning Manager 参考站点（ALM 参考站点）包
 
@@ -31,15 +31,15 @@ Adobe Learning Manager (ALM) 与 Adobe Experience Manager (AEM) 站点集成。 
 
 在保证 AEM 站点的环境安全后，必须安装 ALM 参考站点包。 此站点包中包含 AEM 网页和网站组件，可帮助您构建学习平台。
 
-参考站点包托管在 [**GitHub存储库**](https://github.com/adobe/adobe-learning-manager-reference-site/releases/tag/1.0.0).
+引用站点包托管在&#x200B;[**GitHub存储库**](https://github.com/adobe/adobe-learning-manager-reference-site/releases/tag/1.0.0)上。
 
 有关更多信息，请参阅说明文件。
 
-## 创建应用程序 [!DNL Adobe Learning Manager]
+## 在[!DNL Adobe Learning Manager]中创建应用程序
 
 安装 AEM 站点包后，必须配置 ALM 应用程序将学习门户与 AEM 站点连接。
 
-此方案适用于将AEM与 [!DNL Adobe Learning Manager].
+此方案适用于AEM与[!DNL Adobe Learning Manager]一起使用时的情形。
 
 请按以下步骤操作：
 
@@ -65,7 +65,7 @@ Adobe Learning Manager (ALM) 与 Adobe Experience Manager (AEM) 站点集成。 
 
 ## 获取令牌
 
-1. 在“开发人员资源”选项卡中，单击 **[!UICONTROL 用于测试和开发的访问令牌]**.
+1. 在“开发人员资源”选项卡中，单击&#x200B;**[!UICONTROL 用于测试和开发的访问令牌]**。
 
    ![](assets/access-tokens.png)
 
@@ -87,10 +87,10 @@ Adobe Learning Manager (ALM) 与 Adobe Experience Manager (AEM) 站点集成。 
 
 1. 启动 AEM 实例。
 1. 单击“设置”>“Cloud Service”。
-1. 单击“AdobeLearning Manager配置”。
+1. 单击“Adobe Learning Manager配置”。
 
    ![](assets/alm-configuration.png)
-   *选择AdobeLearning Manager配置*
+   *选择Adobe Learning Manager配置*
 
 1. 单击“创建”>“配置文件夹”。 为您的文件夹命名。
 
@@ -104,11 +104,11 @@ Adobe Learning Manager (ALM) 与 Adobe Experience Manager (AEM) 站点集成。 
    ![](assets/account-congiguration.png)
    *创建配置文件夹*
 
-   1. AdobeLearning Manager模式：选择您希望如何为已登录和未登录的学习者提供学习体验。
-   1. AdobeLearning Manager URL：输入托管学习服务的ALM实例的URL。
+   1. Adobe Learning Manager模式：选择您希望如何为已登录和未登录的学习者提供学习体验。
+   1. Adobe Learning Manager URL：输入托管学习服务的ALM实例的URL。
    1. 帐户ID：ALM帐户的ID。
    1. 客户端ID、客户端密钥和作者刷新令牌：输入在ALM中创建应用程序时获得的凭据。
-   1. 小组件的自定义：有关更多信息，请参阅 [与AEM集成](/help/migrated/integrate-aem-learning-manager.md) `.`
+   1. 小组件的自定义：有关更多信息，请参阅[与AEM集成](/help/migrated/integrate-aem-learning-manager.md) `.`
 
 1. 保存并关闭配置。
 
@@ -132,7 +132,7 @@ Adobe Learning Manager (ALM) 与 Adobe Experience Manager (AEM) 站点集成。 
 
 启用此连接器以构建和呈现基于 AEM 站点的网页，并在登录前后为学习者提供自定义体验。 启用此连接器以构建和呈现基于 AEM 站点的网页，并在登录前后为学习者提供自定义体验。
 
-* AdobeLearning Manager CDN基本URL — 在“培训数据访问”连接页面输入数据检索CDN服务路径的基本URL。
+* Adobe Learning Manager CDN基本URL — 在“培训数据访问”连接页面输入数据检索CDN服务路径的基本URL。
 * 管理员刷新令牌 — 输入您在之前部分中确定的刷新令牌。
 * 培训元数据基本URL — 在“培训数据访问”连接页面输入支持搜索和搜索数据检索服务路径的基本URL。
 * Adobe Learning Manager 注册 URL - 输入集成管理员为帐户生成的自注册 URL，学习者可通过该 URL 注册培训。
@@ -143,7 +143,7 @@ Adobe Learning Manager 现提供解决方案，帮助您将学习平台与 Adobe
 
 用户可以使用现有的AEM应用程序并予以批准，而不是创建新的应用程序。
 
-* AdobeLearning Manager CDN基本URL — 在Adobe Commerce连接页面输入数据检索CDN服务路径的基本URL。
+* Adobe Learning Manager CDN基本URL — 在Adobe Commerce连接页面输入数据检索CDN服务路径的基本URL。
 * Adobe Commerce URL — 输入您正在使用的Adobe Commerce实例的URL。
 * GraphQL代理路径 — 客户端Learning Manager组件直接访问Adobe Commerce GraphQL端点，因此可能会发生CORS错误。 为了避免此错误，所有调用都必须从与AEM相同的端点执行，或者通过添加CORS标头的代理来执行。
 * Adobe Commerce应用商店名称 — 输入您在前面部分中确定的Adobe Commerce应用商店名称。
@@ -156,12 +156,12 @@ Adobe Learning Manager 现提供解决方案，帮助您将学习平台与 Adobe
 
 1. 启动 AEM 实例。
 1. 单击“站点”并打开配置页面。
-1. 点击 **[!UICONTROL 学习站点]** > **[!UICONTROL 语言母版]** > **[!UICONTROL 英语]**. 项目中的所有网页都包含在该文件夹中。
+1. 单击&#x200B;**[!UICONTROL 学习站点]** > **[!UICONTROL 语言管理器]** > **[!UICONTROL 英语]**。 项目中的所有网页都包含在该文件夹中。
 
    ![](assets/list-webpages.png)
    *查看所有网页*
 
-1. 选择任意模板并单击 **[!UICONTROL 编辑]**.
+1. 选择任意模板并单击&#x200B;**[!UICONTROL 编辑]**。
 
 1. 在页面上，单击组件设置按钮并更改组件的属性。
 
@@ -183,11 +183,11 @@ Adobe Learning Manager 现提供解决方案，帮助您将学习平台与 Adobe
    ![](assets/page-properties.png)
    *页面属性*
 
-1. 要创建页面，请单击 **[!UICONTROL 创建]**.
+1. 要创建页面，请单击&#x200B;**[!UICONTROL 创建]**。
 
-1. 选择新页面，然后单击 **[!UICONTROL 编辑]**.
+1. 选择新页面，然后单击&#x200B;**[!UICONTROL 编辑]**。
 
-1. 在页面上插入组件，例如， **学习 — 内容**.
+1. 在页面上插入组件，例如，**学习 — 内容**。
 
    ![](assets/learning-content.png)
    *按站点筛选*
@@ -198,9 +198,9 @@ Adobe Learning Manager 现提供解决方案，帮助您将学习平台与 Adobe
 
 ALM参考站点包提供了一个“学习站点蓝图”，可让您为学习平台创建网站。 AEM 蓝图允许您直接通过 AEM 站点组件构建网页。 您无需使用任何模板。
 
-1. 在AEM起始页上，单击 **[!UICONTROL 站点]**.
+1. 在AEM起始页上，单击&#x200B;**[!UICONTROL 站点]**。
 
-1. 点击 **[!UICONTROL 创建]** > **[!UICONTROL 站点]**.
+1. 单击&#x200B;**[!UICONTROL 创建]** > **[!UICONTROL 站点]**。
 
 1. 单击“学习站点蓝图”。
 
@@ -248,7 +248,7 @@ ALM参考站点包提供了一个“学习站点蓝图”，可让您为学习�
    *`<sly data-sly-use.configModel="com.adobe.learning.core.models.GlobalConfigurationModel"/>`*
    *`<meta name="cp-config" content="${configModel.config}" />`*
 
-   上面的代码将映射的配置添加到页面的 meta 标签中，这是呈现学习组件所必需的。 有关更多详细信息，请参阅 [AdobeLearning Manager参考站点](https://github.com/adobe/adobe-learning-manager-reference-site/blob/master/ui.apps/src/main/content/jcr_root/apps/learning/components/page/customheaderlibs.html).
+   上面的代码将映射的配置添加到页面的 meta 标签中，这是呈现学习组件所必需的。 有关更多详细信息，请参阅[Adobe Learning Manager引用字符串](https://github.com/adobe/adobe-learning-manager-reference-site/blob/master/ui.apps/src/main/content/jcr_root/apps/learning/components/page/customheaderlibs.html)。
 
 1. 确保已将配置映射到Web项目。
 1. 打开要导入AEM Sites组件的Learning Manager模板。

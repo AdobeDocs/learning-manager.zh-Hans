@@ -3,20 +3,19 @@ jcr-language: en_us
 title: 基于 AI 的推荐
 description: Learning Manager包含全新的学习者主页，该主页现代、更加以内容为导向并根据学习者的偏好进行个性化。 基于 AI 的学习推荐旨在提高学习者的参与度，并识别和弥补学习中的差距。
 contentowner: saghosh
-source-git-commit: fbba54fd99b5757f70011ec0b240abcb25042ec1
+exl-id: 41d6576a-1b5e-40e2-9ab3-ffff5ebfb372
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '278'
 ht-degree: 75%
 
 ---
 
-
-
 # 基于 AI 的推荐
 
 ## 概述 {#overview}
 
-AdobeLearning Manager提供学习者主页，该页面现代、更加以内容为导向并根据学习者的偏好进行个性化。 基于 AI 的学习推荐旨在提高学习者的参与度，并识别和弥补学习中的差距。
+Adobe Learning Manager包含一个学习者主页，该主页现代且更加以内容为导向，可根据学习者的偏好进行个性化。 基于 AI 的学习推荐旨在提高学习者的参与度，并识别和弥补学习中的差距。
 
 推荐算法旨在获取多种输入来源，包括 Adobe 从其合作伙伴处获得的有关工作角色、职衔和相关描述的行业数据。 然后，将这些数据用于训练Adobe的AI算法，以便Learning Manager能够绘制出一张地图，将业界公认的技能与职位和/或指定联系起来。 这就成为推荐算法的一个输入项
 

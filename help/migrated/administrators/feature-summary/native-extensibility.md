@@ -1,7 +1,8 @@
 ---
 title: 本机可扩展性
-description: 在AdobeLearning Manager本机版本中设置自定义体验，对于不太复杂的案例无需使用无头工具。
-source-git-commit: 86c80607e2f50e6abf6d64fd7a916ef5b024b837
+description: 在Adobe Learning Manager本机版本中设置自定义体验，对于不太复杂的案例，不允许使用无头体验。
+exl-id: 510bd00f-4f52-4705-817e-4ee73380ca90
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '758'
 ht-degree: 48%
@@ -18,19 +19,19 @@ Adobe Learning Manager 在管理员、作者、学习者、经理和讲师应用
 
 1. 以管理员身份在左侧面板中选择&#x200B;**[!UICONTROL 本机扩展]**。
 1. 选择添加扩展。
-1. 在 **[!UICONTROL 名称]** 字段。
-1. 在 **[!UICONTROL 描述]** 字段。
+1. 在&#x200B;**[!UICONTROL 名称]**&#x200B;字段中键入扩展的名称。
+1. 在&#x200B;**[!UICONTROL 描述]**&#x200B;字段中键入扩展的说明。
 1. 选择一个调用点。 调用点是 Adobe Learning Manager 中可以在自定义应用程序上插入链接或按钮的任何位置。 可使用以下调用点：
 
-   在此示例中，选择 **[!UICONTROL 管理员]**， **[!UICONTROL 作者：课程]**， **[!UICONTROL 学习路径]** - **[!UICONTROL 实例]** - **[!UICONTROL 实例行]**.
+   在此示例中，选择&#x200B;**[!UICONTROL 管理员]**，**[!UICONTROL 作者：课程]**，**[!UICONTROL 学习路径]** - **[!UICONTROL 实例]** - **[!UICONTROL 实例行]**。
 
    ![扩展图像](assets/list-native-extensions.png)
    *选择调用点*
 
-1. 键入将在UI上显示的扩展标签 **[!UICONTROL 扩展名标签]** 字段。
+1. 在&#x200B;**[!UICONTROL 扩展标签]**&#x200B;字段中键入将显示在UI上的扩展标签。
 1. 在 **[!UICONTROL URL]** 字段中输入您想要用于托管扩展程序的 URL。
 1. 在打开方式下拉列表中，选择是在模式中还是在新选项卡中启动扩展。
-1. 选择模态窗口的大小。 如果您已选择 *应用程序内* 模态。
+1. 选择模态窗口的大小。 如果在上一步中选择了&#x200B;*应用程序内*&#x200B;模态，则有这些选项可用。
 
    要保持弹出窗口内的辅助功能，扩展应用程序在其网站上的最后一个可聚焦元素上后，必须发送至事件，然后用户选择TAB键。 需要将焦点保持在弹出窗口中，以支持辅助功能。
 
@@ -44,8 +45,8 @@ Adobe Learning Manager 在管理员、作者、学习者、经理和讲师应用
 
 1. 设置扩展的适用范围。 适用范围如下：
 
-   * **[!UICONTROL 所有课程、学习路径和认证]**：此扩展支持所有课程、学习路径和认证。 作者可以与管理员一起禁用某些课程、学习路径和认证的此功能。
-   * **[!UICONTROL 选定的课程、学习路径和认证]**：所有课程、学习路径和认证均禁用此扩展。 作者可以与管理员一起为某些课程、学习路径和认证启用此设置。
+   * **[!UICONTROL 所有课程、学习路径和认证]**：已为所有课程、学习路径和认证启用此扩展。 作者可以与管理员一起禁用某些课程、学习路径和认证的此功能。
+   * **[!UICONTROL 选定的课程、学习路径和认证]**：对所有课程、学习路径和认证禁用此扩展。 作者可以与管理员一起为某些课程、学习路径和认证启用此设置。
 
 1. 选择&#x200B;**[!UICONTROL 激活]**&#x200B;切换按钮以使扩展生效。 激活后，扩展会根据作用域显示在指定的调用点上。
 1. 选择页面右上角的&#x200B;**[!UICONTROL 保存]**&#x200B;以创建扩展程序。
@@ -70,7 +71,7 @@ Adobe Learning Manager 在管理员、作者、学习者、经理和讲师应用
 1. 选择“实例”部分中的&#x200B;**[!UICONTROL 更多]**。 扩展将出现在“实例”部分中。
 
    ![实例图像](assets/instances-extension.png)
-   *作者身份访问扩展*
+   *以作者身份访问扩展*
 
    选取扩展后，该扩展将显示在模态中。
 
@@ -78,7 +79,7 @@ Adobe Learning Manager 在管理员、作者、学习者、经理和讲师应用
 
 作为管理员，您可以在“本机扩展”页面上查看所有扩展。 要查看此列表，请选择应用程序左侧面板中的“本机扩展”。
 
-![查看扩展图片](assets/view-extensions.png)
+![查看扩展图像](assets/view-extensions.png)
 *查看所有扩展*
 
 ## 启用或禁用扩展
@@ -98,7 +99,7 @@ Adobe Learning Manager 在管理员、作者、学习者、经理和讲师应用
 
 在“设置”选项卡中，生成密钥。
 
-![共享关键图像](assets/share-extension.png)
+![共享密钥图像](assets/share-extension.png)
 *共享访问密钥*
 
 ## 下载扩展报告
@@ -117,7 +118,7 @@ Adobe Learning Manager 在管理员、作者、学习者、经理和讲师应用
 1. 选择“确定”。
 
    ![正在生成报告图像](assets/generating-report.png)
-   *生成报告*
+   *正在生成报告*
 
    报告包含以下字段：
 
@@ -132,11 +133,11 @@ Adobe Learning Manager 在管理员、作者、学习者、经理和讲师应用
    * 培训类型
    * 培训名称
 
-**“报告”页面**
+**报告页面**
 
-1. 向内 **[!UICONTROL 报告]** > **[!UICONTROL 自定义报告]**，选择 **[!UICONTROL 扩展配置报告]**.
+1. 在&#x200B;**[!UICONTROL 报告]** > **[!UICONTROL 自定义报告]**&#x200B;中，选择&#x200B;**[!UICONTROL 扩展配置报告]**。
 
-   ![“报告”页面图像](assets/extension-report-page.png)
+   ![报告页面图像](assets/extension-report-page.png)
    *从报告页面下载报告*
 
-状态必须在范围内 **0 - 4294967295**，同时配置注册状态。
+在配置注册状态时，该状态必须在&#x200B;**0 - 4294967295**&#x200B;范围内。

@@ -1,16 +1,15 @@
 ---
 jcr-language: en_us
 title: 如何选择课程模块？
-description: AdobeLearning Manager支持四类课程模块。 如果您是创建培训计划的负责人，则可能会想知道如何选择模块以满足公司的需求。 根据您公司的预算和受众需求，您可以选择不同的课程模块。 下文将介绍每类模块的一些典型用例，供您参考。
+description: Adobe Learning Manager支持四种类型的课程模块。 如果您是创建培训计划的负责人，则可能会想知道如何选择模块以满足公司的需求。 根据您公司的预算和受众需求，您可以选择不同的课程模块。 下文将介绍每类模块的一些典型用例，供您参考。
 contentowner: jayakarr
-source-git-commit: fba5e5ddc1964b485be473bf356806f234688cf4
+exl-id: 21f9aae7-e192-4318-9df4-4fedf52c6d85
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '579'
 ht-degree: 88%
 
 ---
-
-
 
 # 如何选择课程模块？
 

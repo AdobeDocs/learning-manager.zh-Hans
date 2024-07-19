@@ -3,14 +3,13 @@ jcr-language: en_us
 title: 映射技能到技能域
 description: 要通过特定技能域基于 AI 的监管引擎自动监管用户发布的帖子，用户的企业必须将其自定义技能映射到 Adobe Learning Manager LMS 中支持的技能域。
 contentowner: kuppan
-source-git-commit: b24771ced8788a906af021b45204925fe43eb7e7
+exl-id: 46db9d92-fe88-4850-ae06-d434062fa2bf
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '373'
 ht-degree: 90%
 
 ---
-
-
 
 # 映射技能到技能域
 
@@ -58,7 +57,7 @@ ht-degree: 90%
 
    ![](assets/skill-domain-mapping.png)
 
-   *在“技能域”部分添加技能域*
+   *在“技能域”部分中添加技能域*
 
 1. 要保存更改，请单击&#x200B;**[!UICONTROL “保存”]**。
 
@@ -71,4 +70,3 @@ ht-degree: 90%
 ![](assets/curation-notification.png)
 
 *根据置信度分数查看通知*
-

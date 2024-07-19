@@ -21,7 +21,7 @@ Learning Manager是学习管理系统，具有内置的学习内容管理系统�
 
 ## 下载内容包 {#downloadthecontentpackage}
 
-安装程序以 AEM 内容包的形式提供。 [***下载包***](https://github.com/adobe/adobe-learning-manager-reference-site).
+安装程序以 AEM 内容包的形式提供。 [***下载包***](https://github.com/adobe/adobe-learning-manager-reference-site)。
 
 内容包可以为压缩文件，且与AEM 6.4和AEM 6.5兼容。
 
@@ -31,11 +31,11 @@ Learning Manager是学习管理系统，具有内置的学习内容管理系统�
 
 >[!NOTE]
 >
->有关安装包的信息，请参阅  [***如何使用包***](https://experienceleague.adobe.com/docs/experience-manager-65/administering/contentmanagement/package-manager.html?lang=en#how-to-work-with-packages).
+>有关安装包的信息，请参阅&#x200B;[***如何使用包***](https://experienceleague.adobe.com/docs/experience-manager-65/administering/contentmanagement/package-manager.html?lang=en#how-to-work-with-packages)。
 
 1. 以 AEM 作者示例打开 AEM Package Manager。
 1. 单击&#x200B;**[!UICONTROL “上传程序包”]**&#x200B;按钮。
-1. 点击 **[!UICONTROL 浏览]** 并上传内容包。
+1. 单击&#x200B;**[!UICONTROL 浏览]**&#x200B;并上传内容包。
 1. 单击&#x200B;**[!UICONTROL “上传”]**。
 1. 上传程序包后，选择内容包并单击&#x200B;**[!UICONTROL “安装”]**&#x200B;以安装内容包。
 
@@ -49,17 +49,17 @@ AEM 管理员需要 Adobe Learning Manager 帐户提供的刷新令牌。Learnin
 
 1. 审批 AEM 站点特色应用程序。
 
-   点击 **[!UICONTROL 应用程序]** > **[!UICONTROL 特色应用程序]** > **[!UICONTROL Adobe Experience Manager — 站点]**.
+   单击&#x200B;**[!UICONTROL 应用程序]** > **[!UICONTROL 特色应用程序]** > **[!UICONTROL Adobe Experience Manager — 站点]**。
 
    ![](assets/launch-aem.jpg)
 
    *批准应用程序*
 
-1. 点击 **[!UICONTROL 应用程序]** > **[!UICONTROL 特色应用程序]**，并打开AEM站点应用程序。
+1. 单击&#x200B;**[!UICONTROL 应用程序]** > **[!UICONTROL 特色应用程序]**，然后打开AEM站点应用程序。
 
    复制应用程序 ID 和描述。
 
-1. 点击 **[!UICONTROL 开发人员资源]** > **[!UICONTROL 访问令牌]**.
+1. 单击&#x200B;**[!UICONTROL 开发人员资源]** > **[!UICONTROL 访问令牌]**。
 
    ![](assets/click-tokens.jpg)
 
@@ -71,7 +71,7 @@ AEM 管理员需要 Adobe Learning Manager 帐户提供的刷新令牌。Learnin
    * 客户端密钥，在“描述”中提供。
 
 1. 获取OAuth代码。 必须在重定向 URI 中使用 v2 API。
-1. 点击 **[!UICONTROL 提交]** 并获取刷新令牌。
+1. 单击&#x200B;**[!UICONTROL 提交]**&#x200B;以获取刷新令牌。
 
 ## 在 AEM 中配置小组件 {#configurethewidgetinaem}
 
@@ -79,7 +79,7 @@ AEM 管理员需要 Adobe Learning Manager 帐户提供的刷新令牌。Learnin
 
 您还可在多个页面中设置多个帐户配置。
 
-1. 点击 **[!UICONTROL 工具]** > **[!UICONTROL Cloud Service]** > **[!UICONTROL Learning Manager小组件配置]**.
+1. 单击&#x200B;**[!UICONTROL 工具]** > **[!UICONTROL Cloud Service]** > **[!UICONTROL Learning Manager小组件配置]**。
 1. 单击&#x200B;**[!UICONTROL 创建]**。
 1. 在此处输入刷新令牌。 进行其他设置。
 1. 对于欧盟地区，主机名应更改为“learningmanagereu”。
@@ -92,13 +92,13 @@ AEM 作者必须首先在 AEM 模板中添加组件
 
 然后，AEM 作者将能够拖放 Adobe Learning Manager 组件并进行相应配置。
 
-Learning Manager组件要求在上一步中创建的配置映射到该页面。  作者可以在“页面”下方编辑页面属性以映射配置 **[!UICONTROL 高级]** > **[!UICONTROL 配置]** > **[!UICONTROL 云配置]** 并提供配置路径。 通过这种方式，作者可以为多个 Adobe Learning Manager 帐户创建配置，并将每个帐户映射到不同的站点页面。如果配置未映射到该页面，则组件将以递归方式从父页面读取配置，直至找到配置。
+Learning Manager组件要求在上一步中创建的配置映射到该页面。  作者可以在&#x200B;**[!UICONTROL 高级]** > **[!UICONTROL 配置]** > **[!UICONTROL 云配置]**&#x200B;下编辑页面属性来映射配置，并提供配置路径。 通过这种方式，作者可以为多个 Adobe Learning Manager 帐户创建配置，并将每个帐户映射到不同的站点页面。如果配置未映射到该页面，则组件将以递归方式从父页面读取配置，直至找到配置。
 
 ## 学习者无法注册此类课程。 {#learner}
 
 学习者可以在页面中学习课程。
 
-为能够访问 Adobe Learning Manager 小组件，学习者应是已登录的 AEM 用户。此外，属性 **email** 应位于学习者的rep：User节点的“/profile”节点中。 此电子邮件应与 Adobe Learning Manager 帐户中的电子邮件完全相同。
+为能够访问 Adobe Learning Manager 小组件，学习者应是已登录的 AEM 用户。此外，属性&#x200B;**email**&#x200B;应存在于学习者的rep：User节点的“/profile”节点中。 此电子邮件应与 Adobe Learning Manager 帐户中的电子邮件完全相同。
 
 学习者可以在页面中学习课程。
 
@@ -123,7 +123,7 @@ Skyline是AEM的云版本。 必须首先从包管理器安装Skyline。 要在A
 
 ### 部署 Skyline
 
-有关配置Skyline的步骤，请参见  [GitHub报告](https://github.com/adobe/captivate-prime-aem-components).
+[GitHub报告](https://github.com/adobe/captivate-prime-aem-components)中提到了配置Skyline的步骤。
 
 ## 目录小组件
 
@@ -133,15 +133,15 @@ Skyline是AEM的云版本。 必须首先从包管理器安装Skyline。 要在A
 
 目录小组件包含以下选项：
 
-* **[!UICONTROL 目录ID]：** 需要显示的培训目录ID（逗号分隔）。
-* **[!UICONTROL 排序]：** 培训的排序顺序。 选项有名称、日期、创建日期、注册日期等。
-* **[!UICONTROL 学习者状态]：** 返回所有符合以下筛选条件的培训：已注册、已开始、已完成和未注册。 如果排序选项为dateEnrolled、dueDate或dateEnrolled，则不会显示搜索结果。
-* **[!UICONTROL 技能名称]：** 用于筛选具体训练的技能。
-* **[!UICONTROL 标签名称]：** 用于筛选具体结果的标记。
+* **[!UICONTROL 目录ID]：**&#x200B;需要显示培训的目录ID，以逗号分隔。
+* **[!UICONTROL 排序]：**&#x200B;培训的排序顺序。 选项有名称、日期、创建日期、注册日期等。
+* **[!UICONTROL 学习者状态]：**&#x200B;返回所有符合以下筛选条件的培训：已注册、已开始、已完成和未注册。 如果排序选项为dateEnrolled、dueDate或dateEnrolled，则不会显示搜索结果。
+* **[!UICONTROL 技能名称]：**&#x200B;用于筛选具体训练的技能。
+* **[!UICONTROL 标记名称]：**&#x200B;用于筛选具体结果的标记。
 
 以下是一些可以自定义的附加组件：
 
-**[!UICONTROL 学习对象类型]：** 根据学习对象的类型进行筛选。 支持的类型包括课程、认证、工作辅助和学习计划。
+**[!UICONTROL 学习对象类型]：**&#x200B;根据学习对象的类型进行筛选。 支持的类型包括课程、认证、工作辅助和学习计划。
 
 在AEM中，内容条中卡片的标题最初为空。 在“属性”中，输入widgets.html中的标题名称。
 
@@ -149,7 +149,7 @@ Skyline是AEM的云版本。 必须首先从包管理器安装Skyline。 要在A
 
 您可以使用widgets.html自定义布局的外观。 您可以更改显示的内容条卡的外观并自定义主题。
 
-在 **[!UICONTROL 常规设置]** 部分，您可以选择内容条卡的主色和副色，并指定用于自定义主题的属性。
+在&#x200B;**[!UICONTROL 常规设置]**&#x200B;部分中，您可以选择内容条卡的主色和副色，并指定用于自定义主题的属性。
 
 ```
 { 
@@ -174,7 +174,7 @@ Skyline是AEM的云版本。 必须首先从包管理器安装Skyline。 要在A
 
 ### 忽略高阶学习对象注册
 
-如果 **忽略高阶学习对象注册** 复选框已启用，并且用户直接注册了学习计划或认证，那么在小组件中，该认证或学习计划的课程会呈现给用户。
+如果已启用&#x200B;**“忽略高阶学习对象注册”**&#x200B;复选框，并且用户直接注册了学习计划或认证，那么在小组件中，该认证或学习计划的课程会呈现给用户。
 
 如果禁用此复选框，则用户尚未直接注册的学习计划或认证中的课程将不会显示。
 

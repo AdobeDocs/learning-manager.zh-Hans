@@ -2,7 +2,8 @@
 title: 此版本（2023年4月）的新增功能
 description: 了解 Adobe Learning Manager 中的新功能和增强功能
 hidefromtoc: true
-source-git-commit: 1da0911a4d0c2ae5cb01bbb2b7955675b0dfcdde
+exl-id: 0f9d73e8-da7f-4895-b4fa-54f52668cd4e
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '3158'
 ht-degree: 62%
@@ -15,7 +16,7 @@ ht-degree: 62%
 
 Microsoft Teams 上的新 Adobe Learning Manager 应用程序旨在加强工作流程的学习效果并促进社交学习。 学习者将能在 Microsoft Teams 平台中访问学习内容，而无需切换浏览器。 如需了解 MS Teams 上的 Adobe Learning Manager 应用程序测试版，请联系您的 CSAM。
 
-有关详细信息，请参阅 [Microsoft TeamsAdobeLearning Manager应用程序](/help/migrated/adobe-learning-manager-app-microsoft-teams.md).
+有关详细信息，请参阅[Adobe Learning ManagerMicrosoft Teams版应用程序](/help/migrated/adobe-learning-manager-app-microsoft-teams.md)。
 
 ## 讲师指导培训 (ILT) 体验增强功能
 
@@ -42,7 +43,7 @@ Microsoft Teams 上的新 Adobe Learning Manager 应用程序旨在加强工作�
 
 适用于 Android 和 iOS 的全新 Adobe Learning Manager 移动应用程序，可随时随地为学习者提供流畅的学习体验。 借助该应用程序，学习者可在移动设备上进行培训，然后稍后在桌面版中继续学习。 移动应用程序支持启用通知、上传文件、轻松添加书签和分享学习内容、社交学习等，从而有助于学习者更灵活地使用相关功能；此外，该应用程序还支持即时学习。
 
-![全新移动地图界面图像](assets/mobile-app.png)
+![新的移动地图界面图像](assets/mobile-app.png)
 
 从Google Play Store和Apple App Store下载移动设备。 系统将提示旧版应用程序的用户下载并安装新应用程序。
 
@@ -129,11 +130,11 @@ Adobe Learning Manager 现在支持用户使用本机相机应用程序，以更
 
 作为学习者，您可按位置筛选分配给您的会话。 转到日历小组件，选择“筛选会话”，然后选择位置。
 
-![未应用过滤器](assets/no-filters-applied.png)
+![未应用筛选器](assets/no-filters-applied.png)
 
-![日历上未应用筛选器的会话](assets/sessions-on-calendar-no-filters.png)
+![日历上的会话，未应用筛选器](assets/sessions-on-calendar-no-filters.png)
 
-![应用于位置的过滤器](assets/location-filter-applied.png)
+![应用于位置的筛选器](assets/location-filter-applied.png)
 
 ![日历上应用了位置筛选器的会话](assets/session-with-location-filters-applied.png)
 
@@ -227,7 +228,7 @@ Adobe Learning Manager 现在支持用户使用本机相机应用程序，以更
 
 作者在创建课程时，可以在启用或禁用“实例切换”之间切换。 实例切换仅适用于免费课程。
 
-有关详细信息，请参阅 [实例配置](/help/migrated/authors/feature-summary/courses.md).
+有关详细信息，请参阅[实例配置](/help/migrated/authors/feature-summary/courses.md)。
 
 **学习者**
 
@@ -253,7 +254,7 @@ Adobe Learning Manager 现在支持用户使用本机相机应用程序，以更
 
 此报告收集讲师每天在已分配的会话上花费的上课时间（以分钟为单位）。 自选定的开始日期起，可下载三个月内的报告。
 
-有关详细信息，请参阅 [讲师利用率报告](/help/migrated/administrators/feature-summary/reports.md#instructor-utilization-report).
+有关详细信息，请参阅[讲师利用率报告](/help/migrated/administrators/feature-summary/reports.md#instructor-utilization-report)。
 
 ![讲师利用率报告](assets/instructor-utilization.png)
 
@@ -261,7 +262,7 @@ Adobe Learning Manager 现在支持用户使用本机相机应用程序，以更
 
 用于追踪帐户中存在的工作辅助以及有关工作辅助的各种信息（如语言、类型、持续时间、作者、标签等）的新报告。
 
-有关详细信息，请参阅 [工作辅助注册报告](/help/migrated/administrators/feature-summary/reports.md).
+有关更多信息，请参阅[工作辅助注册报告](/help/migrated/administrators/feature-summary/reports.md)。
 
 ### 有针对性的临时电子邮件，发送给注册了特定课程实例的学习者
 
@@ -281,7 +282,7 @@ Adobe Learning Manager 现在支持用户使用本机相机应用程序，以更
 
 如果自定义管理员和作者具有必要的访问权限，则他们也可以在实例级别查看此选项。
 
-有关详细信息，请参阅 [公告](/help/migrated/administrators/feature-summary/announcements.md#as-email).
+有关详细信息，请参阅[公告](/help/migrated/administrators/feature-summary/announcements.md#as-email)。
 
 ### 新电子邮件模板
 
@@ -305,7 +306,7 @@ Adobe Learning Manager 现在支持用户使用本机相机应用程序，以更
 * **generateInstructorUtilisationReport**：返回讲师的利用率报告。
 * **generateJobAidMetadataReport**：返回工作辅助报告的元数据。
 
-**端点**：POST/primeapi/v2/jobs
+**终结点**：POST/primeapi/v2/jobs
 
 generateJobAidMetadataReport 请求：
 
@@ -406,7 +407,7 @@ generateInstructorUtilisationReport响应：
 
 响应包含新属性“currencyCode”。
 
-**端点**：GET/primeapi/v2/account
+**终结点**：GET/primeapi/v2/account
 
 ### 讲师的技能和技能级别关联
 
@@ -417,7 +418,7 @@ generateInstructorUtilisationReport响应：
 * instructorSkills
 * instructorSkillLevel
 
-**端点**：GET/primeapi/v2/account /&lt;account_id>/instructorskill/search
+**终结点**：GET/primeapi/v2/account /&lt;account_id>/instructorskill/search
 
 ### ILT 更改
 
@@ -426,8 +427,8 @@ generateInstructorUtilisationReport响应：
 | 列出所有城市 | filter.cityName=true/false | GET/primeapi/v2/data |
 | 搜索和筛选城市 | filter.cityName=city_name<br>还支持以逗号分隔的城市列表 |
 | GET/primeapi/v2/search |
-| 退货单详细信息 | include=room | /primeapi/v2/users/GET`<id>`/日历 |
-| 用于筛选城市的学习对象 | filter.cityName=city_name <br> 还支持以逗号分隔的城市列表。 | GET/primeapi/v2/learningObjects |
+| 退货单详细信息 | include=room | /primeapi/v2/users/`<id>`/calendarGET |
+| 用于筛选城市的学习对象 | filter.cityName=city_name <br>还支持以逗号分隔的城市列表。 | GET/primeapi/v2/learningObjects |
 | 添加城市面板 | 响应包含新属性filterPanelSetting=true/false。 | GET /primeapi/v2/account |
 
 ### 有冲突的学习者会话
@@ -439,7 +440,7 @@ generateInstructorUtilisationReport响应：
 * loId
 * loInstanceID
 
-**端点**： `GET /primeapi/v2/learningObjects/{loId}/instances/loInstanceId/conflictingSessions?page[offset]=0&page[limit]=10`
+**终结点**： `GET /primeapi/v2/learningObjects/{loId}/instances/loInstanceId/conflictingSessions?page[offset]=0&page[limit]=10`
 
 ### 虚拟教室中的教室
 
@@ -451,13 +452,13 @@ generateInstructorUtilisationReport响应：
 
 learningObjects API 的新查询参数“filter.loFormat=Virtual Classroom”。
 
-**端点**：GET/primeapi/v2/learningObjects
+**终结点**：GET/primeapi/v2/learningObjects
 
 **日历**
 
 日历 API 的新查询参数“filter.allSessions=false”。 该参数的默认值为 false。 如果为 true，则 API 将返回学习者的所有日历会话。
 
-**端点**： `GET /primeapi/v2/users/<id>/calendar?filter.allSessions=false`
+**终结点**： `GET /primeapi/v2/users/<id>/calendar?filter.allSessions=false`
 
 ### 学习者搜索历史记录
 
@@ -465,7 +466,7 @@ learningObjects API 的新查询参数“filter.loFormat=Virtual Classroom”。
 
 新的查询参数“persistSearchHistory”。 默认值为 true，即保留对搜索建议的查询。
 
-**端点**：GET/primeapi/v2/search？persistSearchHistory=true
+**终结点**：GET/primeapi/v2/search？persistSearchHistory=true
 
 **建议**
 
@@ -474,7 +475,7 @@ learningObjects API 的新查询参数“filter.loFormat=Virtual Classroom”。
 * learnerHistory（默认）
 * accountHistory
 
-**端点**：GET/primeapi/v2/search/suggestions/？suggestionType=learnerHistory
+**终结点**：GET/primeapi/v2/search/suggestions/？suggestionType=learnerHistory
 
 ### 用户组筛选
 
@@ -631,11 +632,11 @@ DELETE /userGroups/{id}/users
 
 ## 发行说明
 
-如需了解Learning Manager网页版应用程序和设备应用程序的当前和往期版本，请参阅 [发行说明](/help/migrated/release-note/release-notes.md).
+如需了解Learning Manager网页版应用程序和设备应用程序的当前和往期版本，请参阅[发行说明](/help/migrated/release-note/release-notes.md)。
 
 ## 错误修复
 
-如要查看本次更新中修复的错误，请参阅 [修复的错误列表](release-note/release-notes.md#bugs-fixed-in-this-release).
+若要查看本次更新中修复的错误，请参阅[修复的错误列表](release-note/release-notes.md#bugs-fixed-in-this-release)。
 
 ## 系统要求
 

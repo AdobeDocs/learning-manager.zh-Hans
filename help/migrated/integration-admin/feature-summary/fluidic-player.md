@@ -27,7 +27,7 @@ ht-degree: 24%
 
 无论内容属于哪种文件类型，您都可以为其备注并添加书签。 如果想从长文件或视频中进行选择，您可以将找到符合自己需求信息的位置标记为书签。 可以搜索备注和书签或通过电子邮件发送。 单击备注和书签即可进入流体播放器，恰好位于视频或文档页面的位置。
 
-有关流体播放器的更多信息，请参阅 [流体播放器](../../learners/feature-summary/fluidic-player.md).
+有关流体播放器的更多信息，请参阅[流体播放器](../../learners/feature-summary/fluidic-player.md)。
 
 以下是您可以使用嵌入式流体播放器的一些示例。
 
@@ -45,13 +45,13 @@ ht-degree: 24%
 
 ### 1. 在“集成管理员”中创建应用程序 {#1createanapplicationinintegrationadmin}
 
-需执行此步骤，才能创建用于检索刷新令牌和访问令牌的应用程序/客户端 ID 和应用程序/客户端密钥。 有关创建应用程序的更多信息，请参见  [应用程序开发过程。](developer-manual.md#main-pars_header_994876235)
+需执行此步骤，才能创建用于检索刷新令牌和访问令牌的应用程序/客户端 ID 和应用程序/客户端密钥。 有关创建应用程序的详细信息，请参阅[应用程序开发流程。](developer-manual.md#main-pars_header_994876235)
 
 1. 转到&#x200B;**[!UICONTROL 集成管理员]**&#x200B;应用并打开&#x200B;**[!UICONTROL “应用程序”]**。
 
 1. 选择页面右上角的&#x200B;**[!UICONTROL “注册”]**。
 1. 此时会打开&#x200B;**[!UICONTROL “注册新应用程序”]**&#x200B;窗口。 填写必填字段。
-1. 如果需要在多个帐户之间共享自定义应用程序，请选择 **[!UICONTROL 否]** 在选项字段中  **[!UICONTROL 仅针对此帐户？]**
+1. 如果需要跨多个帐户共享自定义应用程序，请在选项字段&#x200B;**[!UICONTROL 是否仅针对此帐户？]**&#x200B;中选择&#x200B;**[!UICONTROL 否]**
 1. 要保存应用程序并生成应用程序 ID 和密钥，请单击&#x200B;**[!UICONTROL “保存”]**。
 
 ### 2. 检索访问令牌 {#2retrievingaccesstoken}
@@ -75,13 +75,13 @@ client_id= <application_id>
 &email=<email_id>
 ```
 
-这里， **[!UICONTROL 客户端ID]** 是在步骤1中获得的应用程序ID。
-**[!UICONTROL redirect_url]** 是在步骤1中设置的redirect_url。
-**[!UICONTROL state]** 是我们需要以此为依据筛选重定向URL以获取OAuth代码的任何虚拟数据。 范围是第1步中设置的学习者范围。
-**[!UICONTROL response_typ]**e始终是“代码”。\
+在此，**[!UICONTROL 客户端ID]**是第1步中获取的应用程序ID。
+**[!UICONTROL redirect_url]**是第1步中设置的redirect_url。
+**[!UICONTROL state]**是我们需要以此为依据筛选重定向URL以获取OAuth代码的任何虚拟数据。 范围是第1步中设置的学习者范围。
+**[!UICONTROL response_typ]**e始终为“CODE”。\
 **[!UICONTROL 帐户]**是可选字段\
-**[!UICONTROL email]** 是可选字段\
-&#42; 如果同时提供帐户ID和电子邮件，则上述URL允许用户登录同一帐户。 示例应用程序的“index.html”文件中描述了此端点示例。
+**[!UICONTROL 电子邮件]**&#x200B;是可选字段\
+&#42;如果同时提供了帐户ID和电子邮件，则上述URL将允许用户登录同一帐户。 示例应用程序的“index.html”文件中描述了此端点示例。
 
 * 检索刷新令牌
 
@@ -98,7 +98,7 @@ i. refresh_token\
 v. user_role\
 六。 account_id
 
-**2.2从刷新令牌中检索访问令牌**
+**2.2正在从刷新令牌**&#x200B;中检索访问令牌
 
 要检索访问令牌，请将包含refresh_token、client_id和client_secret的另一请求作为帖子正文发送到以下URL：
 
@@ -155,7 +155,7 @@ code window.addEventListener("message", function closePlayer(){
 ## 示例应用程序教程 {#sampleapplicationtutorial}
 
 附加的PDF文档包含示例应用程序教程。
-[嵌入流体播放器的示例教程和教程源。](assets/sample-applicationtutorial.zip) 替代内容
+[嵌入流体播放器的示例教程和教程源。](assets/sample-applicationtutorial.zip)替代内容
 
 如果您是管理员，您可以在流体播放器中设置课程材料，为学习者提供替代内容。 例如，如果不同地区的学习者可能希望使用多种语言，则您可以用多种语言创建相同的内容。 流体播放器将为学习者提供其可能设置的语言，但学习者还可以选择直接从播放器内切换到替代语言。
 
@@ -167,7 +167,7 @@ Learning Manager流体播放器所使用的流技术可为学习者提供视频�
 
 1. 使用指向需要学习的准确学习对象的参数修改Learning Manager嵌入式播放器URL。
 
-   URL：  [https://learningmanager.adobe.com/app/player](https://cpcontents.adobe.com/public/embedplayer/index22fa615ec2baa034a22090c8cd4289fa.html)
+   URL： [https://learningmanager.adobe.com/app/player](https://cpcontents.adobe.com/public/embedplayer/index22fa615ec2baa034a22090c8cd4289fa.html)
 
 1. 使用以下任一参数启动课程：
 
@@ -179,7 +179,7 @@ Learning Manager流体播放器所使用的流技术可为学习者提供视频�
 
 1. 将访问令牌用作必需的参数。
 
-   * access_token ：这是安全参数，请使用公共API oauth访问令牌
+   * access_token ：这是安全参数，使用公共API oauth   访问令牌
 
    您可以通过在集成管理员中设置嵌入式流体播放器来获取令牌。 您可以获取可用作访问令牌的身份验证令牌。
 
@@ -213,7 +213,7 @@ Learning Manager流体播放器所使用的流技术可为学习者提供视频�
 
 使用指向需要学习的准确学习对象的参数修改Learning Manager嵌入式播放器URL。
 
-URL：  [https://learningmanager.adobe.com/app/player](https://learningmanager.adobe.com/app/player)
+URL： [https://learningmanager.adobe.com/app/player](https://learningmanager.adobe.com/app/player)
 
 以下任一参数均可用于启动课程：
 
@@ -224,7 +224,7 @@ URL：  [https://learningmanager.adobe.com/app/player](https://learningmanager.a
 
 必需的参数：
 
-* access_token ：这是安全参数，请使用公共API oauth访问令牌
+* access_token ：这是安全参数，使用公共API oauth   访问令牌
 
 调用Learning Manager API以检索上述参数。 这些API调用将由IT团队/顾问编写并托管在您的站点上的应用程序进行。
 
@@ -234,6 +234,6 @@ Learning Manager V1 API - [https://learningmanager.adobe.com/docs/primeapi/v1/](
 
 
 
-Learning Manager V2 API -  [https://learningmanager.adobe.com/docs/primeapi/v2/](https://learningmanager.adobe.com/docs/primeapi/v2/)
+Learning Manager V2 API - [https://learningmanager.adobe.com/docs/primeapi/v2/](https://learningmanager.adobe.com/docs/primeapi/v2/)
 
 

@@ -3,14 +3,13 @@ description: 阅读本主题以了解如何添加不同语言的课程、认证�
 jcr-language: en_us
 title: 在不同区域设置中添加学习对象
 contentowner: shhivkum
-source-git-commit: 6ad199812dda35eee8cd78593db0709b94623309
+exl-id: 566ecf70-31ba-423d-a61f-1fe3b7cce531
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '188'
 ht-degree: 96%
 
 ---
-
-
 
 # 在不同区域设置中添加学习对象
 

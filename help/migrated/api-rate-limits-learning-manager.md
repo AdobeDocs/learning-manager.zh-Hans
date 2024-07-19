@@ -110,7 +110,7 @@ x-burst: 2
 
 为了便于您查看，您可以查看说明此情况的示例JavaCript代码。 单击此 [小提琴](https://jsfiddle.net/ACAPJS/9yv8zcmL/) 并查看实际操作代码。
 
-此应用程序要求您为帐户提供学习者角色应用程序令牌。 请参阅 [Application Developer手册](https://captivateLearning Manager.adobe.com/docs/Learning Managerapi/v2/)，了解有关API令牌的信息，您可以使用Learning Manager集成管理员应用程序的“开发人员资源”部分中的令牌帮助程序生成令牌。
+此应用程序要求您为帐户提供学习者角色应用程序令牌。 有关API令牌的信息，请参阅[《应用程序开发人员手册》](https://captivateLearning Manager.adobe.com/docs/Learning Managerapi/v2/)，您可以使用Learning Manager集成管理应用程序的“开发人员资源”部分中的令牌帮助程序生成令牌。
 
 此应用程序正在一次性循环对虚拟API进行10次调用。 由于虚拟API的速率限制为(5， 2)，因此Learning Manager收到的前5+2个调用成功后，即会超出速率限制，您会看到相应的成功响应。
 

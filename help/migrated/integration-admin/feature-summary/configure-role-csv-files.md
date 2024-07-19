@@ -98,7 +98,7 @@ ht-degree: 81%
 * 叶属性和值（例如，Department=HR）
 * 自注册资料组 (self_registration=profilename)
 * 外部注册资料组 (self_registration=profilename)
-* 经理的直接下属团队(manager_direct=`<emailid>`)
+* 经理的直属举报人团队(manager_direct=`<emailid>`)
 * 经理的完整组织(manager_org=`<emailid>`)
 
 **user_role.csv**
@@ -149,8 +149,8 @@ ht-degree: 81%
 
 在 Box 帐户中，选择&#x200B;**“导入 > 用户 > 内部”**，然后上传文件 role.csv 和 user_role.csv。
 
-* 必须将role.csv和user_role.csv复制到文件夹中 **导入** > **用户** > **内部** > **user_role**.
-* 必须将user.csv复制到文件夹中 **导入** > **用户** > **内部**.
+* 必须将role.csv和user_role.csv复制到文件夹&#x200B;**导入** > **用户** > **内部** > **user_role**&#x200B;中。
+* 必须将user.csv复制到文件夹&#x200B;**导入** > **用户** > **内部**&#x200B;中。
 
 两个CSV都必须仅通过Box上传，且无法通过UI上传。
 
@@ -170,13 +170,13 @@ ht-degree: 81%
 
 在集成管理员将基于角色的 CSV 上传到连接器的存储空间后，管理员可以启用与 CSV 同步。每次在 CSV 中更新、添加或删除任何自定义角色时，管理员都可以同步文件中的信息并使角色列表保持为最新版本。
 
-在“管理员”面板上的“开始使用”页面上，单击 **[!UICONTROL 设置]** > **[!UICONTROL 数据源]**.
+在“管理员”面板上的“入门”页面上，单击&#x200B;**[!UICONTROL 设置]** > **[!UICONTROL 数据源]**。
 
 在“同步设置”部分中，启用选项&#x200B;**[!UICONTROL “启用自动同步“]** 。
 
 ![](assets/sync-settings.png)
 
-*选择启用自动同步选项*
+*选择“启用自动同步”选项*
 
 选中此项后，您即可在“同步时间”字段中指定确切时间，安排同步时间。 如果指定的同步时间为上午 12:00，自定义角色即会在每天指定的时间准时进行更新。
 

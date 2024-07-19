@@ -3,14 +3,13 @@ description: 管理员可以启动模拟会话，在此会话中，他们可代�
 jcr-language: en_us
 title: 学习者和经理模拟
 contentowner: saghosh
-source-git-commit: d59e748472c77527c22b286aea5412f776f6441b
+exl-id: 0306f255-283f-43b9-9494-11b3dc3765da
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '538'
 ht-degree: 71%
 
 ---
-
-
 
 # 学习者和经理模拟 {#impersonation-of-learner-and-manager}
 
@@ -77,7 +76,7 @@ ht-degree: 71%
 
 ## 常见问题解答
 
-+++模拟时，我能否登录AdobeLearning Manager？
++++模拟时，我是否可以登录Adobe Learning Manager？
 
 是的，用户的登录与模拟无关。
 +++

@@ -1,7 +1,8 @@
 ---
 title: Adobe Learning Manager 中的多次注册功能
 description: 作为帐户管理员，您的主要职责之一是跨不同时区创建不同的 VILT 会话实例，并可能需要为特定用户组创建会话。
-source-git-commit: fc5b5afd8dd42ac3aa0e5190d6f421035df41a89
+exl-id: c430545d-b48e-432d-a278-658c9281818f
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '559'
 ht-degree: 68%
@@ -21,7 +22,7 @@ Adobe Learning Manager 的多次注册功能可帮助管理员避免此类情况
 多次注册功能可通过各种可用实例将学习者多次注册到一门课程中。  学习者可以注册多个课程实例，无论其处于已注册、已完成还是尚未开始的状态。 当作者启用[!UICONTROL 多次注册]功能切换按钮后，学习者可以注册课程的多个实例。
 
 ![多注册图像](assets/multi-enrollment-author.png)
-*从设置中启动多个注册*
+*从设置启动多个注册*
 
 支持单独追踪每个实例的进度，并可以导出报告来追踪每个实例的进度。
 
@@ -33,9 +34,9 @@ Adobe Learning Manager 的多次注册功能可帮助管理员避免此类情况
 
 ## 如何启用多次注册功能
 
-1. 以作者身份登录您的AdobeLearning Manager帐户。
+1. 以作者身份登录您的Adobe Learning Manager帐户。
 1. 选择您希望学习者多次注册的课程。
-1. 在左侧面板中，选择 **[!UICONTROL 设置]** > **[!UICONTROL 编辑]** > **[!UICONTROL 实例配置]** > **[!UICONTROL 启用多个注册]**.
+1. 在左侧面板中，选择&#x200B;**[!UICONTROL 设置]** > **[!UICONTROL 编辑]** > **[!UICONTROL 实例配置]** > **[!UICONTROL 启用多个注册]**。
 
 ![多注册图像](assets/multi-enrollment-author.png)
 *启用多注册*
@@ -69,7 +70,7 @@ Adobe Learning Manager 的多次注册功能可帮助管理员避免此类情况
 
 注册学习者时，可启用以下复选框：
 
-*“选定的学习者可能已注册本课程的其他实例。 允许这些学习者同时注册实例……”*
+*“选定的学习者可能已注册此课程的其他实例。 允许这些学习者同时注册实例……”*
 
 ![管理员更改](assets/admin-changes.png)
 *管理员的注册选项*

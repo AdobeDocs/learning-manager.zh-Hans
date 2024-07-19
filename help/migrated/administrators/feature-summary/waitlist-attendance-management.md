@@ -3,14 +3,13 @@ jcr-language: en_us
 title: 轮候表和出席管理
 description: 管理员可以管理学习者的课程出席和轮候情况。
 contentowner: manochan
-source-git-commit: 147e9edfe323f3d0851880cd401067daa1cee84f
+exl-id: 257ed196-d6a7-4d6c-bd90-33d658f6ba55
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '308'
 ht-degree: 76%
 
 ---
-
-
 
 # 轮候表和出席管理
 
@@ -20,15 +19,15 @@ ht-degree: 76%
 
 当任意教室课程名额有限时，学习者会根据其注册顺序进行轮候。管理员可以为任意名额有限的教室课程选择轮候学习者并分配名额。管理员分配名额后，学习者就能立即注册课程。
 
-1. 点击 **[!UICONTROL 课程]** 以管理员身份登录后，位于左侧窗格中。
+1. 以管理员身份登录后，单击左侧窗格中的&#x200B;**[!UICONTROL 课程]**。
 1. 从可用课程列表中，单击您选择的任意教室课程的名称。此时会出现一个新页面，其中包含课程的详细信息。
 
 ![](assets/waitlist-and-attendance-mgmnt.png)
 
 *选择轮候表选项*
 
-1. 点击 **[!UICONTROL 轮候表]** 在课程详细信息页面的左侧窗格中。 该页面上会显示轮候学习者列表。
-1. 选择学习者，然后单击 **[!UICONTROL 分配名额]** 将学习者直接注册到名额有限的课程。
+1. 单击课程详细信息页面左侧窗格中的&#x200B;**[!UICONTROL 轮候表]**。 该页面上会显示轮候学习者列表。
+1. 选择学习者并单击&#x200B;**[!UICONTROL 分配名额]**，直接将学习者注册到名额有限的课程。
 
 ## 出勤管理 {#attendancemanagement}
 

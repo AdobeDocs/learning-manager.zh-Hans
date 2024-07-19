@@ -2,14 +2,13 @@
 jcr-language: en_us
 title: Adobe Connect 集成
 description: 作者可以在创建课程的过程中使用 Adobe Connect 创建虚拟教室课程。 要为 Adobe Learning Manager 帐户启用 Adobe Connect，请与所在公司的管理员联系。
-source-git-commit: 147e9edfe323f3d0851880cd401067daa1cee84f
+exl-id: 3386ab89-fe13-42fc-9943-b7ff278ed7e9
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '309'
 ht-degree: 94%
 
 ---
-
-
 
 # Adobe Connect 集成
 
@@ -18,7 +17,7 @@ ht-degree: 94%
 ## 使用 Adobe Connect 创建虚拟教室 (VC) 课程 {#createvirtualclassroomvccoursewithadobeconnect}
 
 1. 在“我的课程”页面上，单击“添加模块”并选择“虚拟教室”。此时会显示“创建虚拟教室”对话框。
-1. 在 **会议系统** 选项，选择“Adobe Connect”。
+1. 在&#x200B;**会议系统**&#x200B;选项中选择Adobe Connect。
 
    ![](assets/create-vc-author.png)
 

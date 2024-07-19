@@ -3,14 +3,13 @@ description: 设置面向经理的用户通知。
 jcr-language: en_us
 title: 用户通知
 contentowner: manochan
-source-git-commit: a495c86f8dff3ebc51e7700a3f3bcf7ce57d1311
+exl-id: 0ed6aea9-9dd4-465a-8723-56d600a35236
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '467'
 ht-degree: 80%
 
 ---
-
-
 
 # 用户通知
 
@@ -30,7 +29,7 @@ ht-degree: 80%
 
 此弹出窗口会显示所有通知的重要部分，同时还会显示发生的时间和一条滚动条。要查看有关所有通知的详细信息，请单击弹出窗口底部的“显示所有通知”。 此时会显示通知页面。
 
-经理可以在通知页面上以选项卡形式查看待处理任务和所有通知。待定任务通知会根据审批、指派等进行分类。要查看所有通知，请单击 **[!UICONTROL 所有通知]** 选项卡。 在所有通知选项卡中，通知会根据日期和时间进行排列显示。
+经理可以在通知页面上以选项卡形式查看待处理任务和所有通知。待定任务通知会根据审批、指派等进行分类。要查看所有通知，请单击&#x200B;**[!UICONTROL 所有通知]**&#x200B;选项卡。 在所有通知选项卡中，通知会根据日期和时间进行排列显示。
 
 ![](assets/manager-notifications-page.png)
 
@@ -44,7 +43,7 @@ ht-degree: 80%
 
 ![](assets/nominate-learners.png)
 
-*指定参加课程的学习者*
+*为学习者指派课程*
 
 **经理的通知类型**
 

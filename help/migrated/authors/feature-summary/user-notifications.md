@@ -3,14 +3,13 @@ jcr-language: en_us
 title: 用户通知
 description: 通知功能适用于 Adobe Learning Manager 的所有用户。 但是，每个用户根据其角色在不同的情景下会收到不同类型的通知。 所有用户警报和通知都会以弹出通知对话框的形式显示。
 contentowner: manochan
-source-git-commit: 147e9edfe323f3d0851880cd401067daa1cee84f
+exl-id: 241a2ceb-d6ba-4494-861b-828e3eb218a3
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '235'
 ht-degree: 85%
 
 ---
-
-
 
 # 用户通知
 
@@ -28,7 +27,7 @@ ht-degree: 85%
 
 您可以根据通知图标顶部高亮显示的数字了解最新通知的数量。例如，如果在您上次登录后有五个最新通知，则可以在通知图标的顶部看见数字五。在阅读所有最新通知后，这些数字就会消失。
 
-点击 **[!UICONTROL 显示所有通知]** 通知弹出窗口底部的链接，可在单独的页面查看所有通知。
+单击通知弹出窗口底部的&#x200B;**[!UICONTROL 显示所有通知]**&#x200B;链接即可在单独的页面查看所有通知。
 
 ![](assets/author-notifications-page.png)
 

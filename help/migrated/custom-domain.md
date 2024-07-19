@@ -3,14 +3,13 @@ jcr-language: en_us
 title: 自定义域支持
 description: Adobe Learning Manager 的 Azure 实例不支持自定义域。
 contentowner: saghosh
-source-git-commit: 8635072782253cbac3f913953797cae7c0bc5ef4
+exl-id: 162ce268-48e3-4c7e-acb1-5181cebbb18d
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '446'
 ht-degree: 67%
 
 ---
-
-
 
 # 自定义域支持
 
@@ -22,7 +21,7 @@ Adobe Learning Manager 的 Azure 实例不支持自定义域。
 
 如此一来，客户便可以定制登录与访问体验，不会留有 Adobe 或 Adobe Learning Manager 的任何痕迹。
 
-例如，您希望自定义域，以便您的用户获得与在Adobe域中相同的体验。 如果ABC公司想培训客户，则希望他们登录到一个名为 `abc.com/mylearning`，而不是 `learningmanager.adobe.com/abc-inc/mylearning`.
+例如，您希望自定义域，以便您的用户获得与在Adobe域中相同的体验。 如果ABC Inc要培训其客户，则希望他们登录到一个名为`abc.com/mylearning`的域，而不是`learningmanager.adobe.com/abc-inc/mylearning`。
 
 >[!NOTE]
 >
@@ -31,10 +30,10 @@ Adobe Learning Manager 的 Azure 实例不支持自定义域。
 
 自定义域功能需要额外付费。 请联系您的客户成功经理以了解更多详细信息。
 
-* 对于学习者角色，域名将以 `https://cdn.<customer_custom_domain>/` 例如， `https://cdn.elearningstage1.cpdomaintest.in/`
-* 对于所有其他角色，域将以 `https://<customer_custom_domain>/`. 例如，`https://elearningstage1.cpdomaintest.in/`
+* 对于学习者角色，域将以`https://cdn.<customer_custom_domain>/`开头，例如`https://cdn.elearningstage1.cpdomaintest.in/`
+* 对于所有其他角色，域将以`https://<customer_custom_domain>/`开头。 例如，`https://elearningstage1.cpdomaintest.in/`
 
-`<customer_custom_domain>` 是可自定义的部件。
+`<customer_custom_domain>`是可自定义的部分。
 
 ## 如何在帐户中设置自定义域 {#howtosetupacustomdomainonanaccount}
 
@@ -46,9 +45,9 @@ Adobe Learning Manager 的 Azure 实例不支持自定义域。
 
 1. 客户须在域中&#x200B;**添加 3 条 CNAME** 记录：
 
-   * **learning.acme.com网站：** 由Adobe共享的Learning Manager的ALB公共终结点
-   * **lrs.learning.acme.com网站：** learning.acme.com指向的ALB公共终结点
-   * **cdn.learning.acme.com网站：** 由Adobe共享的CDN终结点
+   * **learning.acme.com：**&#x200B;由Adobe共享的Learning Manager的ALB公共终结点
+   * **lrs.learning.acme.com：**&#x200B;由learning.acme.com指向的ALB公共终结点
+   * **cdn.learning.acme.com：**&#x200B;由Adobe共享的CDN终结点
 
 1. 客户须为以下网域提供 SSL 证书：
 

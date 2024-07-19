@@ -36,7 +36,7 @@ Adobe Learning Manager 引入了一个经改良的全新课程推荐系统。 �
 
 ### 多注册实例中的徽章格式
 
-为了在多注册实例中支持徽章，徽章格式已更改为 `userId_badgeId_COURSE_courseId_courseInstanceId`.
+为了在多注册实例中支持徽章，徽章格式已更改为`userId_badgeId_COURSE_courseId_courseInstanceId`。
 
 ### 使用无头模式以多注册方式启动播放器
 
@@ -56,7 +56,7 @@ argument_object=
 
 此版本的 Adobe Learning Manager 将包括一个使用 AWS Transfer 系列 SFTP 协议的新连接器。
 
-这项更改还将替换 ExaVault 连接器，这将导致新用户无法再使用该连接器。 您可以使用任何开源 FTP 客户端替换 ExaVault。 有关详细信息，请参阅 [从AdobeFTP管理器过渡](transition-from-ftp-manager.md).
+这项更改还将替换 ExaVault 连接器，这将导致新用户无法再使用该连接器。 您可以使用任何开源 FTP 客户端替换 ExaVault。 有关详细信息，请参阅[从AdobeFTP管理器过渡](transition-from-ftp-manager.md)。
 
 ## Outlook中针对课堂和虚拟会话的提醒
 
@@ -86,7 +86,7 @@ argument_object=
 
 当用户完成课程中的最后一个模块时，屏幕上会弹出一个收集课程星级评分的窗口。
 
-![评级](assets/ratings.png)
+![个评分](assets/ratings.png)
 
 ## 自定义电子邮件模板
 
@@ -106,7 +106,7 @@ Adobe Learning Manager 中的电子邮件模板现在包括完全可编辑的部
 
 管理员还可以在帐户级别决定访问“弃用”学习对象的性质。
 
-培训报告包含一个新的列， **自动报废日期**，以显示每个学习对象的停用日期（如果已设置）。
+培训报告包含新列&#x200B;**“自动报废日期”**，用于显示每个学习对象的报废日期（如果已设置）。
 
 ## 按作者划分的目录标签值
 
@@ -148,7 +148,7 @@ Adobe Learning Manager 中的电子邮件模板现在包括完全可编辑的部
 
 Safari 浏览器上的沉浸式应用程序无法如期加载 LinkedIn 内容。 要解决此问题，请执行以下操作：
 
-1. 在设备上，选择 **[!UICONTROL 设置]** > **[!UICONTROL Safari]**.
+1. 在设备上，选择&#x200B;**[!UICONTROL 设置]** > **[!UICONTROL Safari]**。
 1. 禁用&#x200B;**防止跨站点追踪**。
 1. 禁用&#x200B;**阻止所有 Cookie**。
 1. 登录沉浸式应用程序。
@@ -473,11 +473,11 @@ Ids = 要删除的 ID 列表
 
 取消注册特定的学习对象实例。
 
-**POST/注册**
+**POST/enrollments**
 
 支持在不同实例中注册。
 
-**GET/注册**
+**GET/enrollments**
 
 仅获取学习对象的主要注册。
 
@@ -522,8 +522,8 @@ Ids = 要删除的 ID 列表
 
 示例请求
 
-* GET `https://learningmanagerstage1.adobe.com/primeapi/v2/learningObjects/course%3A7418798?enforcedFields[learningObject]=products`
-* GET `https://learningmanagerstage1.adobe.com/primeapi/v2/users/11255638/userBadges?include=model&page[offset]=0&page[limit]=10&sort=dateAchieved&enforcedFields[learningObject]=products,roles`
+* GET`https://learningmanagerstage1.adobe.com/primeapi/v2/learningObjects/course%3A7418798?enforcedFields[learningObject]=products`
+* GET`https://learningmanagerstage1.adobe.com/primeapi/v2/users/11255638/userBadges?include=model&page[offset]=0&page[limit]=10&sort=dateAchieved&enforcedFields[learningObject]=products,roles`
 
 ### 因实施而导致的搜索API更改（英语区域设置）
 
@@ -565,15 +565,15 @@ V1 API 将在此版本中停用。 有关更多信息，请参阅[开发人员�
 * 学习者 API 的覆盖标志。
 * 我们将更改 highlightResults=false 的默认值。 此外，我们还将更改snippetType=courseName的默认值。
 * 我们将弃用搜索端点中的matchType=bool。
-* autoCompleteMode具有 [已弃用] 标记并提供与autoCompleteMode =false相同的功能，我们添加了一个名为Match的matchType。
+* autoCompleteMode具有[Deprecated]标记，为了提供autoCompleteMode =false的相同功能，我们添加了一个名为Match的matchType。
 
 ### 多注册徽章ID格式
 
-为了支持多注册实例徽章，我们即将课程徽章的格式从 `userId_badgeId_COURSE_courseId to userId_badgeId_COURSE_courseId_courseInstanceId` 以唯一地识别徽章。
+为了支持多注册实例徽章，我们将课程徽章的格式从`userId_badgeId_COURSE_courseId to userId_badgeId_COURSE_courseId_courseInstanceId`更改为唯一识别徽章。
 
 ## 发行说明
 
-如需了解Learning Manager网页版应用程序和设备应用程序的当前和往期版本，请参阅 [发行说明](/help/migrated/release-note/release-notes.md).
+如需了解Learning Manager网页版应用程序和设备应用程序的当前和往期版本，请参阅[发行说明](/help/migrated/release-note/release-notes.md)。
 
 ## 此版本中的已知问题或限制
 

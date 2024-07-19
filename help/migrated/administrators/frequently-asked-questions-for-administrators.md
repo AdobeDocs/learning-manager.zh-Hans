@@ -1,16 +1,15 @@
 ---
 jcr-language: en_us
 title: 管理员常见问题解答
-description: AdobeLearning Manager管理员常见问题解答
+description: Adobe Learning Manager管理员常见问题解答
 contentowner: manochan
-source-git-commit: 0052ccb2f5a8f9617bca2c7bad91c0cd18338b66
+exl-id: 8b113a4e-73f4-4cd5-982a-cefdf5388e91
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '2398'
 ht-degree: 55%
 
 ---
-
-
 
 # 管理员常见问题解答
 
@@ -26,7 +25,7 @@ ht-degree: 55%
 
 +++我可以批量添加用户吗？ 该如何操作？
 
-是的，您可以使用 CSV 上传功能批量添加用户。 点击  [此处](/help/migrated/administrators/add-users-in-bulk.md) 了解更多信息。
+是的，您可以使用 CSV 上传功能批量添加用户。 单击[此处](/help/migrated/administrators/add-users-in-bulk.md)了解更多信息。
 
 +++
 
@@ -48,7 +47,7 @@ ht-degree: 55%
 
 +++如何设置提醒？
 
-您可以在 Adobe Learning Manager 1.0 版本中创建通知。请参阅  [通知问题](/help/migrated/administrators/feature-summary/user-notifications.md) 了解更多信息。
+您可以在 Adobe Learning Manager 1.0 版本中创建通知。有关详细信息，请参阅[通知问题](/help/migrated/administrators/feature-summary/user-notifications.md)。
 
 +++
 
@@ -66,7 +65,7 @@ Adobe Learning Manager 尚不具有导入认证签名或徽章的功能。
 
 +++我可以设置课程日历吗？ 该如何操作？
 
-AdobeLearning Manager 1.0版本中没有任何设置课程日历的规定。
+Adobe Learning Manager 1.0版本中没有任何设置课程日历的规定。
 
 +++
 
@@ -79,7 +78,7 @@ AdobeLearning Manager 1.0版本中没有任何设置课程日历的规定。
 1. 单击课程详细信息页面左侧窗格中的“轮候表”。 此时页面上会显示轮候学习者名单。
 1. 选择学习者并单击“分配名额”，直接将学习者注册到名额有限的课程。
 
-有关更多信息，请参阅  [轮候和出席情况](/help/migrated/administrators/feature-summary/waitlist-attendance-management.md) 功能。
+有关更多信息，请参阅[轮候和出席](/help/migrated/administrators/feature-summary/waitlist-attendance-management.md)功能。
 
 +++
 
@@ -93,7 +92,7 @@ AdobeLearning Manager 1.0版本中没有任何设置课程日历的规定。
 
 如果课程包含多个模块，而学习者仅完成了其中一个模块。您可以选择单个模块并单击“保存”，以此标记学习者的课程完成情况。 如果学习者完成了课程中的所有模块，您可以单击“全选”选项，然后单击“保存”。
 
-有关更多信息，请参阅  [轮候和出席情况](/help/migrated/administrators/feature-summary/waitlist-attendance-management.md) 功能。
+有关更多信息，请参阅[轮候和出席](/help/migrated/administrators/feature-summary/waitlist-attendance-management.md)功能。
 
 +++
 
@@ -114,9 +113,9 @@ AdobeLearning Manager 1.0版本中没有任何设置课程日历的规定。
 作为管理员，您可以按照以下步骤为课程搜寻经理指派：
 
 1. 单击左侧窗格中的“课程”
-1. 将鼠标悬停在经理指派的任意课程上，然后单击 **[!UICONTROL 搜寻经理指派]**.
+1. 将鼠标悬停在经理指派的任意课程上，然后单击&#x200B;**[!UICONTROL 搜寻经理指派]**。
 
-1. 在实例列表中，单击 **[!UICONTROL 经理指派]** 链接后跟 **[!UICONTROL 添加经理]** 链接。
+1. 在实例列表中，单击&#x200B;**[!UICONTROL 由经理指派]**&#x200B;链接，然后单击&#x200B;**[!UICONTROL 添加经理]**&#x200B;链接。
 
 1. 添加经理姓名和规定名额数，然后单击刻度线以保存更改。
 
@@ -130,7 +129,7 @@ AdobeLearning Manager 1.0版本中没有任何设置课程日历的规定。
 
 1. 以管理员身份登录后，单击左侧窗格中的“课程”。此时右侧页面会显示所有课程的列表。
 1. 选择要为其添加学习者的课程，并将鼠标悬停在该课程上。
-1. 单击“注册学习者”并添加学习者姓名。 **注：** 您可以一次添加一名或多名学习者。
+1. 单击“注册学习者”并添加学习者姓名。 **注意：**&#x200B;您可以一次添加一名或多名学习者。
 
 +++
 
@@ -138,10 +137,10 @@ AdobeLearning Manager 1.0版本中没有任何设置课程日历的规定。
 
 请按照以下步骤将学习者分配至能力：
 
-1. 点击 **[!UICONTROL 技能]** 以管理员身份登录后出现的左侧窗格。
-1. 单击相应能力的复选框，选择一项或多项技能，然后单击 **[!UICONTROL 动作]** 下拉菜单位于页面的右上角。
+1. 以管理员身份登录后，单击左侧窗格中的&#x200B;**[!UICONTROL 技能]**。
+1. 单击相应能力的复选框，选择一项或多项技能，然后单击页面右上角的&#x200B;**[!UICONTROL 操作]**&#x200B;下拉列表。
 1. 单击“分配给用户”。
-1. 开始输入用户姓名，从下拉列表中选择，然后单击 **[!UICONTROL 保存]**.
+1. 开始输入用户姓名，从下拉列表中选择，然后单击&#x200B;**[!UICONTROL 保存]**。
 
    >[!NOTE]
    >
@@ -163,9 +162,9 @@ AdobeLearning Manager 1.0版本中没有任何设置课程日历的规定。
    >
    >您需要发布学习计划，才能注册学习者或实例。
 
-1. 单击左侧窗格中的“实例”，然后单击 **[!UICONTROL 添加新实例]** 以添加实例的详细信息。
+1. 单击左侧窗格中的“实例”，然后单击页面右上角的&#x200B;**[!UICONTROL “添加新实例”]**&#x200B;以添加实例详细信息。
 
-有关学习计划的更多信息，请参阅  [学习计划功能。](/help/migrated/administrators/feature-summary/learning-programs.md)
+有关学习计划的详细信息，请参阅[学习计划功能。](/help/migrated/administrators/feature-summary/learning-programs.md)
 
 +++
 
@@ -177,9 +176,9 @@ AdobeLearning Manager 1.0版本中没有任何设置课程日历的规定。
 
 +++如何修改课程、学习计划和公司资料？
 
-即使课程或学习计划已经发布，您依然可以对其进行编辑。 有关更多信息，请参阅  [课程](/help/migrated/administrators/feature-summary/courses.md) 和  [学习计划](/help/migrated/administrators/feature-summary/learning-programs.md) 帮助内容。
+即使课程或学习计划已经发布，您依然可以对其进行编辑。 有关更多信息，请参阅[课程](/help/migrated/administrators/feature-summary/courses.md)和[学习计划](/help/migrated/administrators/feature-summary/learning-programs.md)帮助内容。
 
-要修改公司资料，请单击 **[!UICONTROL 设置]** ，然后单击 **[!UICONTROL 更改]** 页面右上角的。
+要修改公司资料，请单击左侧窗格中的&#x200B;**[!UICONTROL “设置”]**，然后单击页面右上角的&#x200B;**[!UICONTROL “更改”]**。
 
 +++
 
@@ -202,9 +201,9 @@ AdobeLearning Manager 1.0版本中没有任何设置课程日历的规定。
 
 是的，您可以根据公司要求更改Learning Manager应用程序的主题和品牌推广。 系统中提供一组五个代表性图像，用于在将颜色主题更改应用到应用程序之前对其进行预览。 单击图像左右两侧的“&lt;“和”>”符号可以浏览并预览这些图像。
 
-点击 **[!UICONTROL 品牌化]** 在左侧窗格中更新公司名称，更改子域、日志样式和主题。 点击 **[!UICONTROL 编辑]** 修改每个主题的内容。
+单击左侧窗格中的&#x200B;**[!UICONTROL 品牌推广]**&#x200B;以更新所在组织的名称、更改相关子域、日志样式和主题。 单击每个主题旁边的&#x200B;**[!UICONTROL “编辑”]**&#x200B;以修改内容。
 
-请参阅  [颜色主题和品牌推广帮助](/help/migrated/administrators/feature-summary/themes.md) 了解更多信息。
+有关更多信息，请参阅[颜色主题和品牌推广帮助](/help/migrated/administrators/feature-summary/themes.md)。
 
 +++
 
@@ -224,7 +223,7 @@ AdobeLearning Manager 1.0版本中没有任何设置课程日历的规定。
 1. 以管理员身份登录后，单击“游戏”。 此时会出现一个页面，其中列有铜级、银级、金级和白金级，以及达到相应级别所需的点数。 系统会提供任务列表和完成任务获得的相应点数。
 1. 单击各项任务旁边的“编辑”图标以设置/修改点数。
 
-请参阅  [游戏功能](/help/migrated/administrators/feature-summary/gamification.md) 了解更多信息。
+有关更多信息，请参阅[游戏功能](/help/migrated/administrators/feature-summary/gamification.md)。
 
 +++
 
@@ -233,13 +232,13 @@ AdobeLearning Manager 1.0版本中没有任何设置课程日历的规定。
 您可以按照以下步骤创建报告：
 
 1. 单击左侧窗格中的“报告”。此时会显示报告摘要页面。
-1. 在“报告”页面上，单击 **[!UICONTROL 添加]** 在右上角。
+1. 在“报告”页面上，单击右上角的&#x200B;**[!UICONTROL “添加”]**。
 
-   **[!UICONTROL 添加报告]** 对话框出现。
+   此时会显示&#x200B;**[!UICONTROL 添加报告]**&#x200B;对话框。
 
 1. 填写所有必填字段，然后单击“保存”。
 
-只有管理员和经理才能创建或查看报告。 请参阅 [报告功能](/help/migrated/administrators/feature-summary/reports.md) 了解更多信息。
+只有管理员和经理才能创建或查看报告。 有关详细信息，请参阅[报告功能](/help/migrated/administrators/feature-summary/reports.md)。
 
 +++
 
@@ -266,9 +265,9 @@ AdobeLearning Manager 1.0版本中没有任何设置课程日历的规定。
 
 Adobe Learning Manager 提供的工具可将公司的外部部门成员或外部员工注册到应用程序。
 
-1. 点击 **[!UICONTROL 用户]** 在左侧窗格中。
-1. 点击 **[!UICONTROL 外部]** 在左侧窗格中。
-1. 点击 **[!UICONTROL 添加]** 在页面的右上角。
+1. 单击左侧窗格中的&#x200B;**[!UICONTROL 用户]**。
+1. 单击左侧窗格中的“**[!UICONTROL 外部]**”。
+1. 单击页面右上角的&#x200B;**[!UICONTROL “添加”]**。
 
    此时会显示“添加用户”对话框。
 
@@ -284,7 +283,7 @@ Adobe Learning Manager 提供的工具可将公司的外部部门成员或外部
 创建反馈调查表，供学习者在完成课程后使用。 默认情况下，系统将提供三个示例问题。 请按照以下步骤创建调查表。
 
 1. 单击左侧窗格中的“反馈”。 此时会出现“反馈调查表”窗口。
-1. 点击 **[!UICONTROL 编辑]** 添加/修改调查表。
+1. 单击&#x200B;**[!UICONTROL 编辑]**&#x200B;以添加/修改调查表。
 
 您可以添加一组调查表；如果不再需要这些调查表，可选择不显示。 单击复选框以启用/禁用特定问题。
 
@@ -298,7 +297,7 @@ Adobe Learning Manager 提供的工具可将公司的外部部门成员或外部
 
    默认情况下，每项能力都有一个积分为 0 的级别。
 
-1. 点击 [!UICONTROL **添加级别**] 为每种能力添加新级别，然后单击“保存”。 您最多只能添加 5 个级别。
+1. 单击“[!UICONTROL **添加级别**]”为每个能力添加新级别，然后单击“保存”。 您最多只能添加 5 个级别。
 
 保存能力后，您将无法从能力中删除级别。 管理员还可以将学习者分配至特定的能力和级别。
 
@@ -306,39 +305,39 @@ Adobe Learning Manager 提供的工具可将公司的外部部门成员或外部
 
 +++如何为公司课程设置计费系统？
 
-1. 点击 [!UICONTROL **计费**] 在左侧窗格中。
+1. 单击左侧窗格中的&#x200B;[!UICONTROL **“帐单”**]。
 
    此时页面上会显示帐单信息。
 
-1. 单击 [!UICONTROL **订阅**] 选项卡。
+1. 单击“[!UICONTROL **订阅**]”选项卡。
 1. 在“学习者礼包”字段中输入要订购的礼包数，然后单击页面右上角的“下单”。
 
-   根据公司中学习者人数选择礼包数，然后下单。 如需了解如何推进采购订单流程，请向  [learningmanagersales@adobe.com](mailto:learningmanagersales@adobe.com).
+   根据公司中学习者人数选择礼包数，然后下单。 如需了解如何推进采购订单流程，请向[learningmanagersales@adobe.com](mailto:learningmanagersales@adobe.com)发送电子邮件。
 
 1. 输入联系信息、选择信用卡类型并提供信用卡的详细信息，然后单击“完成订单”。
 
-请参阅 [计费管理](/help/migrated/administrators/feature-summary/billing-management.md) 功能，以获取更多信息。
+有关详细信息，请参阅[帐单管理](/help/migrated/administrators/feature-summary/billing-management.md)功能。
 
 +++
 
 +++我可以自定义证书设计吗？ 该如何操作？
 
-在AdobeLearning Manager中，您可以通过颁发徽章来识别学习者。 有关更多信息，请参阅徽章功能。  另请参阅认证功能。
+在Adobe Learning Manager中，您可以通过颁发徽章来识别学习者。 有关更多信息，请参阅徽章功能。  另请参阅认证功能。
 
 +++
 
 +++如何设置我的公司资料？
 
-1. 以管理员身份登录后，单击 **[!UICONTROL 公司信息]** 在左侧窗格中。
+1. 以管理员身份登录后，单击左侧窗格中的&#x200B;**[!UICONTROL 公司信息]**。
 1. 单击页面中的各个选项，添加公司资料、子域和徽标。
 
 +++
 
 +++如何添加课程？
 
-要添加课程，您需要将角色切换为“作者”。 您只能根据可用课程的状态查看其列表 **[!UICONTROL 完成]**， **[!UICONTROL 已发布]**&#x200B;和 **[!UICONTROL 已弃用]**.
+要添加课程，您需要将角色切换为“作者”。 您只能根据可用课程的状态（如&#x200B;**[!UICONTROL 完成]**、**[!UICONTROL 已发布]**&#x200B;和&#x200B;**[!UICONTROL 已弃用]**）查看可用课程列表。
 
-要查看课程，请单击 **[!UICONTROL 课程]** 在左侧窗格中。 请参阅  [创建课程](/help/migrated/administrators/feature-summary/courses.md)更多信息
+要查看课程，请单击左侧窗格中的&#x200B;**[!UICONTROL 课程]**。 有关更多信息，请参阅[创建课程](/help/migrated/administrators/feature-summary/courses.md)
 
 +++
 
@@ -349,9 +348,9 @@ Adobe Learning Manager 提供的工具可将公司的外部部门成员或外部
 1. 以管理员身份登录后，单击左侧窗格中的“用户”。要添加用户，您还可以单击窗口左侧窗格中的“开始使用”，然后单击“添加用户”。
 1. 要添加新用户，请单击页面右上角的“添加”。
 
-默认情况下，系统为所有新用户分配学习者角色。 您可以单击以下选项为学习者分配管理员或作者角色 **[!UICONTROL 动作]** ，然后选择 **[!UICONTROL 分配角色]** > **[!UICONTROL 设为作者]** 或 **[!UICONTROL 设为管理员]**.
+默认情况下，系统为所有新用户分配学习者角色。 您可以单击页面右上角的&#x200B;**[!UICONTROL 操作]**，然后选择&#x200B;**[!UICONTROL 分配角色]** > **[!UICONTROL 设为作者]**&#x200B;或&#x200B;**[!UICONTROL 设为管理员]**，为学习者分配管理员或作者角色。
 
-请参阅  [添加新用户](/help/migrated/administrators/feature-summary/add-users-user-groups.md) 功能，以获取有关添加学习者、作者和管理员的详细信息。
+有关添加学习者、作者和管理员的详细信息，请参阅[添加新用户](/help/migrated/administrators/feature-summary/add-users-user-groups.md)功能。
 
 +++
 

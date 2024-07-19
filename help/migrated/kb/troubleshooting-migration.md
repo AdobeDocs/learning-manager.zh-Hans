@@ -3,14 +3,13 @@ description: 本文档包含的基本故障诊断技巧可以解决您在将数�
 jcr-language: en_us
 title: 迁移问题疑难解答
 contentowner: jayakarr
-source-git-commit: 6abc118c6ad7e66e3ded5bd26b9167c3a0b99e4b
+exl-id: b9f17644-f237-4701-86e9-8496db941920
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '854'
 ht-degree: 45%
 
 ---
-
-
 
 # 迁移问题疑难解答
 
@@ -56,29 +55,29 @@ Sprint 停止运行或完成运行后，可能需要 10-15 分钟解锁帐户。
 
 ### 无法创建 Sprint，因为该按钮已禁用 {#unabletocreateasprintasthebuttonisdisabled}
 
-在创建Sprint之前，请确保将当前Sprint标记为完成。 点击 **[!UICONTROL 将Sprint标记为完成]** ，以完成Sprint迁移。
+在创建Sprint之前，请确保将当前Sprint标记为完成。 单击页面顶部的&#x200B;**[!UICONTROL 将Sprint标记为完成]**&#x200B;以完成Sprint迁移。
 
 ### 无法将“迁移项目”标记为完成，因为该按钮已禁用 {#unabletomarkamigrationprojectascompleteasthebuttonisdisabled}
 
-在标记迁移项目完成之前，请确保将当前Sprint标记为完成。 点击 **[!UICONTROL 将Sprint标记为完成]** ，以完成Sprint迁移。
+在标记迁移项目完成之前，请确保将当前Sprint标记为完成。 单击页面顶部的&#x200B;**[!UICONTROL 将Sprint标记为完成]**&#x200B;以完成Sprint迁移。
 
 ## CSV问题 {#csvissues}
 
 ### module_version.csv 文件迁移失败且内容尚未迁移 {#moduleversioncsvfilemigrationisfailingandcontentisnotmigratedyet}
 
-确保内容在内容文件夹（指定迁移项目、Sprint路径下的Box帐户）中可用。 此外，确保已选择该选项 **是** 为了 **是否会迁移此Sprint的内容？** Sprint创建页面中的问题。
+确保内容在内容文件夹（指定迁移项目、Sprint路径下的Box帐户）中可用。 此外，请确保您已为&#x200B;**选择**&#x200B;是&#x200B;**选项。是否要为此Sprint迁移内容？Sprint创建页面中的**&#x200B;问题。
 
-如果您忘了选择&#x200B;**是**，并在此 Sprint 中继续操作，则必须等到完成此 Sprint 后，才能进行选择。创建另一个Sprint并确保单击 **[!UICONTROL 是]**.
+如果您忘了选择&#x200B;**是**，并在此 Sprint 中继续操作，则必须等到完成此 Sprint 后，才能进行选择。创建另一个Sprint并确保单击&#x200B;**[!UICONTROL 是]**。
 
 ### enrollment.csv或user_course_grade.csv记录会失败，并显示错误消息：“Not a valid Learning Manager ID” {#enrollmentcsvorusercoursegradecsvrecordsfailwithanerrormessagenotavalidprimeid}
 
 确保提供的电子邮件 ID 为用户 ID 的一部分，assignedByUserID 字段属于有效的 Adobe Learning Manager 用户。否则，请添加用户，创建新的 Sprint，并选中&#x200B;**同步用户**&#x200B;选项。如果用户不属于组织，请使用“添加用户CSV”规范，在Learning Manager中将该用户添加为已删除用户。 以下是添加已删除用户的示例CSV规范，仅供参考。
 
-[Users.csv](assets/users.zip) 请参阅 **CSV规范和示例CSV** 第节内容 [迁移手册](../integration-admin/feature-summary/migration-manual.md) 下载一整套的CSV规范和示例CSV文件。
+[Users.csv](assets/users.zip)请参阅[迁移手册](../integration-admin/feature-summary/migration-manual.md)中的&#x200B;**CSV规范和示例CSV**&#x200B;部分，以下载一整套CSV规范和示例CSV文件。
 
 ### 已迁移课程的课程显示为空白或播放的模块不正确 {#coursesappearblankorincorrectmodulesplayforamigratedcourse}
 
-确保 **moduleOrderInCourse** 课程的键值以 **0** 并且是连续的。 courseModuleType的顺序应为PRETEST、TESTOUT、CONTENT
+确保课程的&#x200B;**moduleOrderInCourse**&#x200B;键值以&#x200B;**0**&#x200B;开头，并连续排列。 courseModuleType的顺序应为PRETEST、TESTOUT、CONTENT
 
 此外，请确保两个版本的“活动”、“教室”和“虚拟教室”未与现有课程关联。
 

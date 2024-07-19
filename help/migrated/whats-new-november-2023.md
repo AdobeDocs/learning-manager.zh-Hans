@@ -37,7 +37,7 @@ Adobe Learning Manager用户界面经过了一些更新，可提供更干净、�
 
 较长的公司名称将被截断，并用省略号填充空格。
 
-**我们有什么建议？**
+**我们建议什么？**
 
 * 在不改变长宽比的情况下调整图像大小。 建议的最大徽标尺寸为 42 像素（垂直）x 210 像素（水平）。
 * 对于许多帐户，系统将自动应用此建议；无需更改。
@@ -54,7 +54,7 @@ Adobe Learning Manager用户界面经过了一些更新，可提供更干净、�
 
 您现在可以使用内容库页面上的新测验创建工具在Learning Manager中创建测验。 创建的评估将成为内容库的一部分，并可添加到“公共”文件夹以便课程重复使用。
 
-视图 [创建测验](/help/migrated/authors/feature-summary/content-library.md) 了解更多信息。
+查看[创建测验](/help/migrated/authors/feature-summary/content-library.md)以了解详情。
 
 ## 此版本中的报告更改
 
@@ -74,7 +74,7 @@ Adobe Learning Manager用户界面经过了一些更新，可提供更干净、�
 
 在此版本中，您可以通过指定时间下载注册报告中的课程重新访问信息。 对于注册人数超过 500 万的帐户，下载时段将被限制为六个月。 对于所有其他帐户，这一时段将为 15 个月。
 
-您可以从以下位置下载报告： **[!UICONTROL 报告]** > **[!UICONTROL 自定义报告]** > **[!UICONTROL 历史报告]** > **[!UICONTROL 课程访问报告]**.
+您可以从&#x200B;**[!UICONTROL 报告]** > **[!UICONTROL 自定义报告]** > **[!UICONTROL 历史报告]** > **[!UICONTROL 课程访问报告]**&#x200B;中下载报告。
 
 ### 学习者成绩单中的更改
 
@@ -84,7 +84,7 @@ Adobe Learning Manager用户界面经过了一些更新，可提供更干净、�
 
 过去往往需要同步下载管理应用程序中的课程出勤页面和讲师应用程序的课程学习者页面上的出勤报告。 在此版本中，将通过通知异步下载此报告。
 
-有关报告的更多信息，请参见 [报告](/help/migrated/administrators/feature-summary/reports.md) 在AdobeLearning Manager中。
+有关报告的详细信息，请参阅Adobe Learning Manager中的[报告](/help/migrated/administrators/feature-summary/reports.md)。
 
 ## 内容市场停用
 
@@ -149,7 +149,7 @@ Adobe Learning Manager 改进了对支持客户和合作伙伴的帐户的建议
 
 如果选择“只读”，自定义管理员将能够查看所有用户，但无法编辑用户数据，同时无法为用户创建自行注册门户。
 
-**学习方案**：
+**学习计划**：
 
 如果选择“只读”，则自定义管理员无法添加或编辑学习计划。 他们可以下载学习计划报告并查看其详细信息。 但他们无法更改课程详情。
 
@@ -232,8 +232,8 @@ Adobe Learning Manager 改进了对支持客户和合作伙伴的帐户的建议
 
 当管理员尝试绘制信息板报告时，如果报告绘制时间过长（超过2.5分钟），Adobe Learning Manager会显示以下消息：
 
-![旧版报告图像](assets/error-message.png)
-*报告花费太长时显示的错误消息*
+![旧版报表图像](assets/error-message.png)
+*报告耗时过长时显示的错误消息*
 
 此等规模的报告无法在用户界面上显示，但管理员可以下载它们。
 
@@ -255,7 +255,7 @@ Adobe Learning Manager 改进了对支持客户和合作伙伴的帐户的建议
 
 在以前版本的 Adobe Learning Manager 中，如果任何课程、认证或学习计划遭到删除并且存在相应通知，那么您仍然可以通过访问其通知来访问该课程、认证或学习计划。
 
-在此版本中，我们将确保无法再访问已删除的帖子。 如果在/posts/中指定ID{id} API，而帖子的ID不再可用，则API显示消息“未找到指定资源的帖子”。
+在此版本中，我们将确保无法再访问已删除的帖子。 如果您在/posts/{id} API中指定id，但该post的id不再可用，则API将显示消息“未找到指定资源的帖子”。
 
 ### 学习者 API 完成截止日期
 
@@ -279,7 +279,7 @@ Adobe Learning Manager 改进了对支持客户和合作伙伴的帐户的建议
 
 ### 用于测试的新资源类型
 
-该 `instances.loResources.resources` 将返回端点 `ResourceContentType` 通过测试。
+`instances.loResources.resources`终结点将返回`ResourceContentType`和测验。
 
 ## 弃用通知
 
@@ -288,7 +288,7 @@ Adobe Learning Manager 将于 2024 年 2 月停用 BlueJeans。 2024 年 2 月�
 
 ## 发行说明
 
-如需了解Learning Manager网页版应用程序和设备应用程序的当前和往期版本，请参阅 [发行说明](release-note/release-notes.md).
+如需了解Learning Manager网页版应用程序和设备应用程序的当前和往期版本，请参阅[发行说明](release-note/release-notes.md)。
 
 ## 此版本中修复的错误
 
@@ -305,7 +305,7 @@ Adobe Learning Manager 将于 2024 年 2 月停用 BlueJeans。 2024 年 2 月�
 * 学习者无法在 MS Teams 应用程序上播放 LinkedIn 课程。
 * 注册 API 未按预期返回 Flex 学习计划或嵌入式学习计划的注册内容。
 * 在移动应用程序中，“课程”、“认证”或“学习计划”的名称以小写字母显示。
-* 在以前版本的 Adobe Learning Manager 中，如果任何课程、认证或学习计划遭到删除并且存在相应通知，那么您仍然可以通过访问其通知来访问该课程、认证或学习计划。 在此版本中，我们将确保无法再访问已删除的帖子。 如果在/posts/中指定ID{id} API，而帖子的ID不再可用，则API显示消息“未找到指定资源的帖子”。
+* 在以前版本的 Adobe Learning Manager 中，如果任何课程、认证或学习计划遭到删除并且存在相应通知，那么您仍然可以通过访问其通知来访问该课程、认证或学习计划。 在此版本中，我们将确保无法再访问已删除的帖子。 如果您在/posts/{id} API中指定id，但该post的id不再可用，则API将显示消息“未找到指定资源的帖子”。
 * 在学习者 API 中，注册 API 的响应中不显示完成截止日期字段。
 * 在学习者的获取注册 API 中，即使您指定了不正确的实例 ID，系统也会显示注册详细信息。
 

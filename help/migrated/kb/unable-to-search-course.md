@@ -3,14 +3,13 @@ jcr-language: en_us
 title: 无法在 Adobe Learning Manager 中搜索课程
 description: 学习者无法在 Adobe Learning Manager 中搜索课程。
 contentowner: nluke
-source-git-commit: 8b29ac996962e7ce8fbda51f3421c9a5f248fcf6
+exl-id: 702aacb7-a0b9-48fb-8a3d-425bfea63f65
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '307'
 ht-degree: 55%
 
 ---
-
-
 
 # 无法在 Adobe Learning Manager 中搜索课程
 
@@ -49,18 +48,18 @@ ht-degree: 55%
 
 1. 以管理员身份登录。
 
-1. 点击 **[!UICONTROL 目录]** 并浏览到包含该课程的目录。
-1. 点击 **[!UICONTROL 内部共享]** 或 **[!UICONTROL 内容]** （具体取决于上述场景）。
+1. 单击“**[!UICONTROL 目录]**”并浏览找到包含该课程的目录。
+1. 单击&#x200B;**[!UICONTROL 内部共享]**&#x200B;或&#x200B;**[!UICONTROL 内容]**（取决于上述场景）。
 
    ![](assets/cp-share-internally.png)
 
-   *内部共享目录*
+   *在内部共享目录*
 
 1. 查看以下场景：
 
    * 学习者不在目录之中
 
-     要共享目录，请单击 **[!UICONTROL 添加]**，并添加用户所属的用户组。 单击&#x200B;**[!UICONTROL “保存”]**。
+     若要共享目录，请单击&#x200B;**[!UICONTROL 添加]**，然后添加用户所属的用户组。 单击&#x200B;**[!UICONTROL “保存”]**。
 
      ![](assets/cp-add-user-group.png)
 
@@ -68,8 +67,8 @@ ht-degree: 55%
 
    * 课程不在目录之中
 
-     在“内容”部分，单击 **[!UICONTROL 添加内容]** 然后选择要添加到目录的课程。
+     在“内容”部分，单击“**[!UICONTROL 添加内容]**”并选择需要添加到目录的课程。
 
      ![](assets/cp-add-content.png)
 
-     *将内容添加到课程*
+     *向课程添加内容*

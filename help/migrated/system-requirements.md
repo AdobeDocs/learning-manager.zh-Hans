@@ -65,7 +65,7 @@ Intel® CoreTM i5或更快版本。
 
 >[!NOTE]
 >
->移动浏览器仅支持以下位置的学习者角色 **沉浸式布局**.
+>移动浏览器仅支持&#x200B;**沉浸式布局**&#x200B;中的学习者角色。
 
 >[!NOTE]
 >
@@ -98,7 +98,7 @@ IE 11 浏览器不支持沉浸式布局主页。
 >
 >如果 *user.csv* 文件的大小超过 100 MB，导入此文件可能会导致浏览器行为异常。 此问题是浏览器内存不足所致。
 
-我们建议导入大尺寸 *user.csv* 使用Box/Exavault自动工作流程的文件。 要了解更多信息，请参阅 [迁移文件](/help/migrated/integration-admin/feature-summary/migration-manual.md).
+我们建议使用Box/Exavault自动工作流导入大型&#x200B;*user.csv*&#x200B;文件。 要了解更多信息，请参阅[迁移文件](/help/migrated/integration-admin/feature-summary/migration-manual.md)。
 
 
 ## 支持的内容格式
@@ -309,7 +309,7 @@ IE 11 浏览器不支持沉浸式布局主页。
   </tr>
   <tr>
    <td>GetAbstracts 连接器</td>
-   <td><a href="https://www.exavault.com/" target="_blank">www.exavault.com</a><br><a href="https://www.getabstract.com/en/" target="_blank">www.getabstract.com  </a></td>
+   <td><a href="https://www.exavault.com/" target="_blank">www.exavault.com</a><br><a href="https://www.getabstract.com/en/" target="_blank">www.getabstract.com </a></td>
   </tr>
   <tr>
    <td>Box 连接器</td>

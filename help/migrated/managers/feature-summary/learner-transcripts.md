@@ -2,14 +2,13 @@
 description: 了解如何根据用户、学习对象或 Adobe Learning Manager 中的技能来下载学习者成绩单。
 jcr-language: en_us
 title: 学习者成绩单
-source-git-commit: a495c86f8dff3ebc51e7700a3f3bcf7ce57d1311
+exl-id: 8204aa1e-0e0d-4d9e-9dc0-6260667bf4e7
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '917'
 ht-degree: 85%
 
 ---
-
-
 
 # 学习者成绩单
 
@@ -19,9 +18,9 @@ Adobe Learning Manager 能让公司的经理生成与学习者相关联的成绩
 
 ## 生成学习者成绩单 {#generatelearnertranscripts}
 
-1. 要生成学习者成绩单，请单击 **[!UICONTROL 报告]** 在Manager登录左侧窗格中。
-1. 点击 **[!UICONTROL 我的报告]** 选项卡。
-1. 点击 **[!UICONTROL 学习者成绩单]** 链接。
+1. 要生成学习者成绩单，请单击管理器登录左侧窗格中的&#x200B;**[!UICONTROL 报告]**。
+1. 单击页面上的&#x200B;**[!UICONTROL 我的报告]**&#x200B;选项卡。
+1. 单击&#x200B;**[!UICONTROL 学习者成绩单]**&#x200B;链接。
 
    ![](assets/learner-transcripts.png)
 
@@ -33,7 +32,7 @@ Adobe Learning Manager 能让公司的经理生成与学习者相关联的成绩
    >
    >默认情况下，“开始日期”是学习者的注册日期，“结束日期”始终是当前日期。 您仅可以修改所需数据的起始日期。
 
-1. 在“选择学习者”字段中选择学习者姓名，然后单击 **[!UICONTROL 生成]**.
+1. 在“选择学习者”字段中选择学习者姓名，然后单击“**[!UICONTROL 生成]**”。
 
 您可以选择单个学习者或一组学习者。若要添加多个学习者，请单击“添加更多学习者”。
 

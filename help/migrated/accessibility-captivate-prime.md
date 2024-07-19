@@ -17,7 +17,7 @@ ht-degree: 71%
 
 Learning Manager遵循W3C的WCAG 2.1 A级和AA级平台辅助功能标准。
 
-AdobeLearning Manager的“学习者”角色支持学习者探索此平台并利用以下关键辅助功能：
+Adobe Learning Manager的“学习者”角色支持学习者探索此平台并利用以下关键辅助功能：
 
 * 屏幕阅读器
 * 键盘
@@ -207,21 +207,21 @@ Adobe Learning Manager 的“学习者”角色还支持其他几项辅助功能
 
 我们来看一下“辅助功能”如何帮助您浏览Learning Manager中适用于学习者的一些关键功能。
 
-使用 `kbd Tab`按键以浏览页面上的元素。 使用 `kbd Shift + Tab` 用于反转导航方向的键。 键盘焦点由元素周围显示的蓝色轮廓表示。 屏幕阅读器应读出焦点所在元素的文本。
+使用`kbd Tab`键浏览页面上的元素。 使用`kbd Shift + Tab`键可反转导航方向。 键盘焦点由元素周围显示的蓝色轮廓表示。 屏幕阅读器应读出焦点所在元素的文本。
 
 ## 在Learning Manager中搜索培训 {#searchforatrainingincaptivateprime}
 
 1. 使用这些提示来导航并到达主页右上方的“搜索”框。
 1. 用键盘输入文字。 此时会出现搜索结果。
-1. 使用键盘 `kbd Up/Down` 箭头以在结果中导航或点击 `kbd ENTER`查看所有结果。
+1. 使用键盘`kbd Up/Down`箭头浏览结果，或按`kbd ENTER`查看所有结果。
 
-1. 确定培训后，点击 `kbd ENTER`以导航至培训页面。
+1. 识别培训后，按`kbd ENTER`以导航到培训页面。
 
-## 在AdobeLearning Manager中使用培训 {#consumeatraininginadobecaptivateprime}
+## 在Adobe Learning Manager中使用培训 {#consumeatraininginadobecaptivateprime}
 
-1. 确定培训后，使用 `kbd Tab`或 `kbd Shift + Tab` 导航至注册/开始按钮。 按钮状态取决于该培训的注册状态。
+1. 确定培训后，使用`kbd Tab`或`kbd Shift + Tab`导航至“注册/开始”按钮。 按钮状态取决于该培训的注册状态。
 
-1. 点击 `kbd ENTER`开始培训。
+1. 按`kbd ENTER`开始培训。
 1. 以下是无论内容类型如何显示的控件：
 
    * 目录
@@ -238,9 +238,9 @@ Adobe Learning Manager 的“学习者”角色还支持其他几项辅助功能
    * 文档内容 — 页码、上一页、下一页、放大、缩小。
    * eLearning — “隐藏字幕”按钮。
 
-1. 点击键盘控件 `kbd Tab`或 `kbd Shift + Tab` 浏览控件并点击 `kbd ENTER`启用/禁用任何控件。
+1. 点击键盘控件`kbd Tab`或`kbd Shift + Tab`以浏览控件，然后点击`kbd ENTER`以启用/禁用任何控件。
 
-1. 对于DOCUMENT类型，请使用类似下面的箭头控件 `kbd UP/DOWN` 来滚动浏览文档。
+1. 对于DOCUMENT类型，使用箭头控件（如`kbd UP/DOWN`）在文档中滚动。
 
 ## 对特殊需求的辅助功能支持
 
@@ -250,7 +250,7 @@ Adobe Learning Manager 的“学习者”角色还支持其他几项辅助功能
 
 * 在使用 Adobe Captivate 创作工具创建的内容中使用可用的隐藏字幕。
 * 对于视频，作者可以在视频中编入隐藏字母文本。 此类视频拥有内嵌的隐藏字幕，可以供学习者使用。
-* Adobe Learning Manager 可就视频内容提供隐藏字幕 WebVTT 文件上传支持。有关详细信息，请参阅  [*上传隐藏字幕WebVTT文件*](authors/feature-summary/content-library.md#webvtt).
+* Adobe Learning Manager 可就视频内容提供隐藏字幕 WebVTT 文件上传支持。有关详细信息，请参阅&#x200B;[*上传隐藏字幕WebVTT文件*](authors/feature-summary/content-library.md#webvtt)。
 
 ### 盲人或弱视用户
 

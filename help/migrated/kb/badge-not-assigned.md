@@ -3,14 +3,13 @@ jcr-language: en_us
 title: 无法分配徽章
 description: 学习者完成课程/学习计划/认证后，未能获得相应徽章。
 contentowner: nluke
-source-git-commit: 66dfaaaf723382eada39e2be29dfd49b795107a0
+exl-id: 6dbcd687-82e3-422f-8c8c-f7bf404f3332
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '212'
 ht-degree: 74%
 
 ---
-
-
 
 # 无法分配徽章
 
@@ -40,15 +39,15 @@ ht-degree: 74%
 
 1. 打开相关学习对象（课程/学习计划）。
 
-1. 点击 **[!UICONTROL 实例]** > **[!UICONTROL 徽章]**.
+1. 单击&#x200B;**[!UICONTROL 实例]** > **[!UICONTROL 徽章]**。
 
    ![](assets/view-a-badge.png)
 
-1. 从学习对象中删除该徽章，然后单击 **[!UICONTROL 保存]**.
+1. 从学习对象中删除该徽章，然后单击“**[!UICONTROL 保存]**”。
 
    ![](assets/remove-a-badge.png)
 
-1. 为学习对象重新分配徽章，然后单击 **[!UICONTROL 保存]**.
+1. 将徽章重新分配给学习对象，然后单击“**[!UICONTROL 保存]**”。
 
    此步骤将为所有注册学习对象的学习者分配徽章。
 
@@ -56,9 +55,9 @@ ht-degree: 74%
 
 1. 以管理员身份登录。
 1. 开启认证。
-1. 点击 **[!UICONTROL 概述]** > **[!UICONTROL 徽章]**.
+1. 单击&#x200B;**[!UICONTROL 概述]** > **[!UICONTROL 徽章]**。
 1. 从认证中删除该徽章，然后单击“**[!UICONTROL 保存]**”。
 
    ![](assets/remove-a-badge-cert.png)
 
-1. 将徽章重新分配给认证，然后单击 **[!UICONTROL 保存]**.
+1. 将徽章重新分配给认证，然后单击“**[!UICONTROL 保存]**”。

@@ -3,14 +3,13 @@ description: 以学习者身份登录 Adobe Learning Manager。
 jcr-language: en_us
 title: 登录
 contentowner: manochan
-source-git-commit: b6ee04d062bf6df477a1e8782cfec8fa3700d744
+exl-id: f553bfa1-29f0-420f-abde-e1f65612b182
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '148'
 ht-degree: 58%
 
 ---
-
-
 
 # 登录
 

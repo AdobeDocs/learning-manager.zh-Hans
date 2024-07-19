@@ -40,20 +40,20 @@ If you're unable to launch the training, write to <almacademy@adobe.com>.-->
 要清除用户，请执行以下步骤：
 
 1. 作为管理员，请从左侧窗格中选择&#x200B;**[!UICONTROL “用户”]**。 此操作将打开&#x200B;**[!UICONTROL “内部用户”]**&#x200B;页面。
-1. 删除要清除的用户。 要删除，请使用复选框选择一个或多个用户。 打开 **[!UICONTROL 动作]** 下拉并选择 **[!UICONTROL 删除用户。]**
+1. 删除要清除的用户。 要删除，请使用复选框选择一个或多个用户。 打开&#x200B;**[!UICONTROL 操作]**&#x200B;下拉列表并选择&#x200B;**[!UICONTROL 删除用户]**。
 1. 在左侧窗格中，选择&#x200B;**[!UICONTROL “用户清理”]**。 系统将显示&#x200B;**[!UICONTROL “用户清理”]**&#x200B;页面，其中包含已删除用户的列表。 使用单选按钮选择要清除的用户。 一次只能清除一个用户。
 
    ![](assets/purge-1.png)
 
    *选择要清除的用户*
 
-1. 打开 **[!UICONTROL 动作]** 下拉菜单并选择 **[!UICONTROL 清除用户]**.
+1. 打开&#x200B;**[!UICONTROL 操作]**&#x200B;下拉菜单，然后选择&#x200B;**[!UICONTROL 清除用户]**。
 
    ![](assets/purge-2.png)
 
-   *选择清除用户选项*
+   *选择“清除用户”选项*
 
-1. 屏幕中将出现一个对话框，要求您予以确认。 清除后，与选定用户关联的所有用户数据和学习记录都将永久删除。 清除后，操作无法还原。 要确认，请单击 **[!UICONTROL 清除]**.
+1. 屏幕中将出现一个对话框，要求您予以确认。 清除后，与选定用户关联的所有用户数据和学习记录都将永久删除。 清除后，操作无法还原。 要确认，请单击“**[!UICONTROL 清除]**”。
 
    ![](assets/purge-3.png)
 
@@ -186,7 +186,7 @@ If you're unable to launch the training, write to <almacademy@adobe.com>.-->
 
 +++
 
-Learning Manager现已符合GDPR规定。 有关GDPR合规性的更多信息，请参阅  [Learning Manager的GDPR合规性](../../kb/prime-gdpr.md).
+Learning Manager现已符合GDPR规定。 有关GDPR合规性的更多信息，请参阅[Learning Manager的GDPR合规性](../../kb/prime-gdpr.md)。
 
 ## 常见问题解答 {#frequentlyaskedquestions}
 

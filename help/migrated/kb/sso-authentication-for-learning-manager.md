@@ -23,15 +23,15 @@ ht-degree: 70%
    ![](assets/login-methods.png)
 
 1. 根据需要选择&#x200B;**[!UICONTROL 内部用户]**&#x200B;或&#x200B;**[!UICONTROL 外部用户]**。
-1. 单击旁边的下拉菜单  **[!UICONTROL 登录]** 选项并选择 **[!UICONTROL 单点登录]**.
+1. 单击&#x200B;**[!UICONTROL 登录]**&#x200B;选项旁边的下拉列表并选择&#x200B;**[!UICONTROL 单点登录]**。
 
    ![](assets/single-sign-on.png)
 
-1. 要调整单点登录(SSO)设置，请单击  **[!UICONTROL 改变。]**
+1. 要调整单点登录(SSO)设置，请单击&#x200B;**[!UICONTROL 更改。]**
 
    ![](assets/change.png)
 
-1. 输入  **[!UICONTROL IDP启动的身份验证URL]** ，并通过单击以下链接上传您的XML文件： **[!UICONTROL idp元数据XML文件。]**
+1. 输入服务提供商提供的&#x200B;**[!UICONTROL IDP启动的身份验证URL]**，并通过单击&#x200B;**[!UICONTROL IDP元数据XML文件]**&#x200B;上传您的XML文件。
 
    ![](assets/sso-configuration.png)
 

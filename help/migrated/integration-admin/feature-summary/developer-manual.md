@@ -30,11 +30,11 @@ ht-degree: 62%
 
 Adobe Learning Manager API 基于 REST 原则，并通过 HTTP 将 Adobe Learning Manager 对象模型的关键要素显示给应用程序开发人员。开发人员在了解 API 端点的详细信息和 HTTP 方法前，可以先熟悉各种 Adobe Learning Manager 对象、其属性和内部关系。深入了解模型之后，大致了解 API 请求和响应的结构，以及 API 之间通用的一些常用编程术语也同样很有帮助。
 
-有关各种API端点和方法的详细信息，请参阅  [Learning Manager API文档](https://learningmanager.adobe.com/docs/primeapi/v2/).
+有关各种API端点及方法的详细信息，请参阅[Learning Manager API文档](https://learningmanager.adobe.com/docs/primeapi/v2/)。
 
 ## 学习者API
 
-AdobeLearning Manager — 学习者API允许您为用户创建自定义学习体验。 使用这些API需要有效的用户令牌，并且仅用于拥有完全许可/注册学习者的工作流程。
+Adobe Learning Manager — 学习者API允许您为用户创建自定义学习体验。 使用这些API需要有效的用户令牌，并且仅用于拥有完全许可/注册学习者的工作流程。
 
 >[!IMPORTANT]
 >
@@ -42,7 +42,7 @@ AdobeLearning Manager — 学习者API允许您为用户创建自定义学习体
 
 未登录的用例需要特殊处理。
 
-**如果您对适当使用这些API有任何疑问，请与解决方案体系结构团队联系，并确保解决方案设计师在您部署解决方案之前已经审查过该解决方案**.
+**如果您对正确使用这些API有任何疑问，请与解决方案体系结构团队联系，确保在部署解决方案之前，解决方案设计师已经审核过该解决方案**。
 
 ## API 身份验证 {#apiauthentication}
 
@@ -52,7 +52,7 @@ Adobe Learning Manager API 使用 OAuth 2.0 框架对客户端应用程序进行
 
 **步骤**
 
-**1. 设置应用程序**
+**1. 设置您的应用程序**
 
 您可以使用客户端ID和客户端密钥设置应用程序以使用适当的端点。 注册应用程序后，您可以获取clientId和clientSecret。 应在浏览器中使用 Get URL，因为它会使用预配置的帐户（如 SSO、Adobe ID 等）对 Adobe Learning Manager 用户进行身份验证。
 
@@ -116,7 +116,7 @@ client_id:
 
 **“Includes”**
 
-开发人员可以访问单个 API 对象模型，也可以访问与该模型关联的多个模型。 如需访问后续相关模型，您需要了解每个模型与其他模型之间的关系。 **包括** 参数允许开发者访问依赖模型。 可以使用逗号分隔符访问多个模型。 有关使用的示例和更多详细信息，请参阅 **包括**，请参阅本页中的示例API模型部分。
+开发人员可以访问单个 API 对象模型，也可以访问与该模型关联的多个模型。 如需访问后续相关模型，您需要了解每个模型与其他模型之间的关系。 **Includes**&#x200B;参数使开发人员能够访问依赖模型。 可以使用逗号分隔符访问多个模型。 有关&#x200B;**包含**&#x200B;的示例用法以及更多详细信息，请参阅此页面中的示例API模型部分。
 
 **API 请求**
 
@@ -124,7 +124,7 @@ client_id:
 
 **API 响应**
 
-当客户端发出 API 请求时，将根据 JSON API 规范获取 SON 文档。 响应还包含HTTP状态代码，开发人员可以验证该代码，以便在其应用程序逻辑中执行相应的后续步骤。 中介绍了典型API响应的结构  [示例模型使用情况](#main-pars_header_1415780624).
+当客户端发出 API 请求时，将根据 JSON API 规范获取 SON 文档。 响应还包含HTTP状态代码，开发人员可以验证该代码，以便在其应用程序逻辑中执行相应的后续步骤。 典型API响应的结构在[示例模型用法](#main-pars_header_1415780624)中描述。
 
 **错误**
 
@@ -132,7 +132,7 @@ client_id:
 
 **字段**
 
-API 对象的属性及其关系统称为“字段”。 有关更多信息，请参阅 [JSON API。](http://jsonapi.org/format/#document-resource-object-fields) 在进行API调用以从模型中获取一个或多个特定属性时，可以使用“字段”作为参数。 如果没有“字段”参数，API 调用将从模型中获取所有可用属性。 例如，在以下API调用中，字段[技能]=name仅获取技能模型的名称属性。
+API 对象的属性及其关系统称为“字段”。 有关更多信息，请参阅 [JSON API。](http://jsonapi.org/format/#document-resource-object-fields)在进行API调用以从模型中获取一个或多个特定属性时，您可以使用字段作为参数。 如果没有“字段”参数，API 调用将从模型中获取所有可用属性。 例如，在以下API调用中，字段[skill]=name仅获取技能模型的名称属性。
 
 https://learningmanager.adobe.com/primeapi/v2/users/{userId}/userSkills/{id}?include=skillLevel.skill&amp;fields[skill]=name
 
@@ -142,7 +142,7 @@ https://learningmanager.adobe.com/primeapi/v2/users/{userId}/userSkills/{id}?inc
 
 **排序**
 
-API 模型中允许排序。 根据模型，选择要对结果应用的排序类型。 可以按升序或降序应用排序。 例如，如果指定 `code sort=name`，则按名称升序排序。 如果您指定 `code sort=-name`，它按名称降序排序。 请参阅 [有关更多信息，请参阅JSON API规范](http://jsonapi.org/format/#fetching-sorting).
+API 模型中允许排序。 根据模型，选择要对结果应用的排序类型。 可以按升序或降序应用排序。 例如，如果指定`code sort=name`，则按名称升序排序。 如果指定`code sort=-name`，则按名称降序排序。 有关详细信息，请参阅[JSON API规范](http://jsonapi.org/format/#fetching-sorting)。
 
 ## API 使用说明 {#samplemodel}
 
@@ -150,7 +150,7 @@ API 模型中允许排序。 根据模型，选择要对结果应用的排序类
 
 Adobe Learning Manager API 中 userSkill 模型由 id、type、dateAchieved、dateCreated、pointsEarned 等默认属性组成。因此，当开发人员使用 GET 方法获取 userSkill 模型的详细信息时，当前与默认属性相关的数据会显示在响应输出中。
 
-但是，在这种情况下，开发人员希望获得用户的技能名称和技能级别的分数。 Adobe Learning Manager API 可以让您使用关系字段和“include”参数来访问这些相关信息。userSkill 的关联模型可在“关系”标签中获取。 您可以通过调用这些模型以及 userSkill 来获取每个关联模型的详细信息。 要获取此信息，请使用 **`code include`** 每个关联模型都有点（句点）分隔值的参数。 您可以使用逗号作为分隔符来请求其他模型，例如user include=skillLevel.skill，course
+但是，在这种情况下，开发人员希望获得用户的技能名称和技能级别的分数。 Adobe Learning Manager API 可以让您使用关系字段和“include”参数来访问这些相关信息。userSkill 的关联模型可在“关系”标签中获取。 您可以通过调用这些模型以及 userSkill 来获取每个关联模型的详细信息。 要获取此信息，请为每个关联的模型使用带有点（句点）分隔值的&#x200B;**`code include`**&#x200B;参数。 您可以使用逗号作为分隔符来请求其他模型，例如user include=skillLevel.skill，course
 
 **API 调用**
 
@@ -406,11 +406,11 @@ Adobe Learning Manager API 允许开发人员以 RESTful 资源的形式访问 A
   </tr>
   <tr>
    <td>资源</td>
-   <td>此模型用于对模块试图封装的每个内容资源进行建模。 所有资源都封装在 <code>
+   <td>此模型用于对模块试图封装的每个内容资源进行建模。 在<code>
      an
     </code> <code>
      loResource
-    </code> 在学习目标方面等同，但在交付类型或内容区域设置方面不同。<br></td>
+    </code>中封装的所有资源在学习目标方面等效，但在交付类型或内容区域设置方面不同。<br></td>
   </tr>
   <tr>
    <td>userNotification</td>
@@ -422,11 +422,11 @@ Adobe Learning Manager API 允许开发人员以 RESTful 资源的形式访问 A
   </tr>
   <tr>
    <td>userBadge</td>
-   <td>UserBadge将单个徽章 <code>
+   <td>UserBadge将单个徽章<code>
      with
-    </code> 单个用户。 它包含一些细节，比如它是何时完成的， <code>
+    </code>与单个用户相关联。 它包含一些详细信息，例如它是在何时实现的，<code>
      assertionUrl
-    </code> 等等。 <br></td>
+    </code>等。 <br></td>
   </tr>
   <tr>
    <td>技能</td>
@@ -438,9 +438,9 @@ Adobe Learning Manager API 允许开发人员以 RESTful 资源的形式访问 A
   </tr>
   <tr>
    <td>learningObject</td>
-   <td>学习对象是一个抽象概念，指的是用户可以注册和学习的各种对象。 目前Learning Manager有四种学习对象 — 课程、认证、学习计划 <code>
+   <td>学习对象是一个抽象概念，指的是用户可以注册和学习的各种对象。 目前Learning Manager有四种学习对象类型 — 课程、认证、学习计划<code>
      and
-    </code> 工作辅助。<br></td>
+    </code>工作辅助。<br></td>
   </tr>
   <tr>
    <td>学习对象实例<br></td>
@@ -448,25 +448,25 @@ Adobe Learning Manager API 允许开发人员以 RESTful 资源的形式访问 A
   </tr>
   <tr>
    <td>learningObjectResource</td>
-   <td>这等同于 <code>
+   <td>这相当于<code>
      module
-    </code>. 课程由一门课程组成 <code>
+    </code>的概念。 课程由另外<code>
      of
-    </code> 更多模块。 在 Adobe Learning Manager 中，系统会以多种等效方式提供模块。因此， <code>
+    </code>个模块组成。 在 Adobe Learning Manager 中，系统会以多种等效方式提供模块。因此，<code>
      loResource
-    </code> 这些同等资源基本上都包含在内。<br></td>
+    </code>实质上封装了所有这些等效资源。<br></td>
   </tr>
   <tr>
    <td>loResourceGrade<br></td>
-   <td>这封装了用户在其注册的学习对象背景中使用特定资源的结果。 它包含如下信息：所花费的时间 <code>
+   <td>这封装了用户在其注册的学习对象背景中使用特定资源的结果。 它包含诸如<code>
      user
-    </code> 在资源中，用户进行的进度百分比、通过/失败状态以及用户在任何相关测验中获得的分数。<br></td>
+    </code>在资源中花费的持续时间、用户进度百分比、通过/失败状态以及用户在任何相关测验中获得的分数等信息。<br></td>
   </tr>
   <tr>
    <td>日历<br></td>
-   <td>日历对象是以下对象的列表 <code>
+   <td>日历对象是用户可以注册的<code>
      upcoming classroom
-    </code> 或用户可以注册的虚拟教室课程。<br></td>
+    </code>或虚拟教室课程的列表。<br></td>
   </tr>
   <tr>
    <td>l1FeedbackInfo<br></td>
@@ -825,13 +825,13 @@ user（用户）
 
 ## 创建客户端 ID 和密钥 {#createclientidandsecret}
 
-1. 向内 **集成管理员** 登录，单击 **[!UICONTROL 应用程序]** 在左侧窗格中。
+1. 在&#x200B;**集成管理员**&#x200B;登录中，单击左侧窗格中的&#x200B;**[!UICONTROL 应用程序]**。
 
    ![](assets/application-development-menu.png)
 
-   *选择集成管理员应用程序*
+   *选择集成管理员的应用程序*
 
-1. 点击 **[!UICONTROL 注册]** ，以注册您的应用程序详细信息。 此时会显示注册页面。
+1. 单击页面右上角的&#x200B;**[!UICONTROL “注册”]**&#x200B;以注册您的应用程序详细信息。 此时会显示注册页面。
 
    ![](assets/register-application.png)
 
@@ -843,17 +843,17 @@ user（用户）
 
    **URL**：如果您知道托管应用程序的确切 URL，可以提及它。 如果不知道，则可以提及公司 URL。 此字段中的有效URL名称是必填项。
 
-   **重定向域**：在完成 OAuth 身份验证后，您希望 Adobe Learning Manager 应用程序重定向至哪款应用程序？请在此输入其域名。您可以在此处提及多个URL，但必须使用有效URL，例如 `http://google.com`， `http://yahoo.com` 等等。
+   **重定向域**：在完成 OAuth 身份验证后，您希望 Adobe Learning Manager 应用程序重定向至哪款应用程序？请在此输入其域名。您可以在此处提及多个URL，但必须使用有效的URL，如`http://google.com`、`http://yahoo.com`等。
 
-   **描述：** 输入应用程序的简要说明。
+   **描述：**&#x200B;输入应用程序的简要描述。
 
-   **范围：** 从四个可用选项中选择一个来定义应用程序范围。 根据您在此处提到的选择，Adobe Learning Manager API 端点可供您的应用程序访问。例如，如果选择 **学习者角色读取权限**，则您的应用程序以只读方式访问所有Learning Manager学习者API端点。
+   **范围：**&#x200B;从四个可用选项中选择一个来定义应用程序的范围。 根据您在此处提到的选择，Adobe Learning Manager API 端点可供您的应用程序访问。例如，如果选择&#x200B;**学习者角色读取访问权限**，则您的应用程序将以只读方式访问所有Learning Manager学习者API端点。
 
    **仅针对此帐户？**\
-   **是**  — 如果选择“是”，则其他帐户管理员无法看到该应用程序。\
-   **否**  — 如果选择“否”，则其他帐户管理员也可以访问此应用程序，但他们需要使用应用程序id来访问此应用程序。 应用程序ID在Learning Manager应用程序编辑模式下生成和显示。
+   **是** — 如果选择“是”，则其他帐户管理员无法看到该应用程序。\
+   **否** — 如果选择“否”，则其他帐户管理员也可以访问此应用程序，但他们需要使用应用程序ID来访问此应用程序。 应用程序ID在Learning Manager应用程序编辑模式下生成和显示。
 
-   如果您选择 **管理员角色读写权限** 在注册应用程序时作为范围，然后选择 **管理员角色读取权限** 在创作API时，您仍可以拥有应用程序的写入权限，因为应用程序注册范围取代授权工作流程。
+   如果您在注册应用程序时选择&#x200B;**管理员角色读取和写入权限**&#x200B;作为范围，并在创作API时选择&#x200B;**管理员角色读取权限**，则您仍可以拥有该应用程序的写入权限，因为应用程序注册范围取代授权工作流。
 
 1. 在注册页中填写详细信息后，单击右上角的&#x200B;**[!UICONTROL “注册”]**。
 
@@ -867,11 +867,11 @@ user（用户）
 
 ## 外部应用程序审批 {#externalapplicationapproval}
 
-您可以通过单击 **批准** (位于右上角的 **应用程序** 页面。 提供外部应用程序 ID，然后单击&#x200B;**“保存”。**
+您可以通过单击&#x200B;**应用程序**&#x200B;页面右上角的&#x200B;**批准**&#x200B;来添加外部应用程序。 提供外部应用程序 ID，然后单击&#x200B;**“保存”。**
 
 ![](assets/add-external-application.png)
 
-*添加和批准外部应用程序*
+*添加并批准外部应用程序*
 
 ## 常见问题解答
 

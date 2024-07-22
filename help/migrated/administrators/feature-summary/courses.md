@@ -1,17 +1,17 @@
 ---
 description: 此文档中包含的“帮助”可用于创建课程模块、实例和管理员角色课程。
 jcr-language: en_us
-title: 创建课程模块、实例和学习计划
+title: 创建课程实例和学习路径
 contentowner: manochan
 exl-id: aba7417b-26a0-4160-878c-5814f84e5155
-source-git-commit: a0dcc5b0a0a9f1ef0248c1e853067c1cc57b60e1
+source-git-commit: b8c7bb0c11268d23ec64d4135aa8b2105539cb89
 workflow-type: tm+mt
-source-wordcount: '4868'
+source-wordcount: '4866'
 ht-degree: 61%
 
 ---
 
-# 创建课程模块、实例和学习路径
+# 创建课程实例和学习路径
 
 此文档中包含的“帮助”可用于创建课程模块、实例和管理员角色课程。
 

@@ -4,10 +4,10 @@ jcr-language: en_us
 title: 创建课程实例和学习路径
 contentowner: manochan
 exl-id: aba7417b-26a0-4160-878c-5814f84e5155
-source-git-commit: 139e9224f94e6a39f497b45f5bdc600121a77bc8
+source-git-commit: c7969e9386241f316c8ff2590f8015ebc594c3e6
 workflow-type: tm+mt
 source-wordcount: '4866'
-ht-degree: 61%
+ht-degree: 60%
 
 ---
 
@@ -81,7 +81,7 @@ ht-degree: 61%
 
 要弃用实例，请执行以下步骤；
 
-1. 在实例上，单击下拉菜单并选择选项&#x200B;**[!UICONTROL “弃用实例”]**。
+1. 在该实例上，选择下拉菜单，然后选择选项&#x200B;**[!UICONTROL 停用实例]**。
 
    ![](assets/retire-an-instance.png)
 

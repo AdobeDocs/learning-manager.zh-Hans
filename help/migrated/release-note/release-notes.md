@@ -4,9 +4,9 @@ jcr-language: en_us
 title: Adobe Learning Manager发行说明
 contentowner: jayakarr
 exl-id: ae9251b6-5326-42c2-881e-2ab3393d9e17
-source-git-commit: 5525aa6f5b4c795e4ffbd008e9fe865abfbe4980
+source-git-commit: aae70c4dc7c0e613794c294a39001071e9f131d4
 workflow-type: tm+mt
-source-wordcount: '26223'
+source-wordcount: '26251'
 ht-degree: 72%
 
 ---
@@ -23,13 +23,22 @@ ht-degree: 72%
  </tbody>
 </table>-->
 
++++更新97：Adobe Learning Manager 2024年7月版
+
+**发行日期：** 2024年7月13日
+
+## 此版本中新增的功能
+
+查看[“Adobe Learning Manager 新增功能”](/help/migrated/whats-new.md)了解更多信息。
++++
+
 +++更新96：Adobe Learning Manager 2024年3月版
 
 **发行日期：** 2024年3月16日
 
 ## 此版本中新增的功能
 
-查看[“Adobe Learning Manager 新增功能”](/help/migrated/whats-new.md)了解更多信息。
+查看[“Adobe Learning Manager 新增功能”](/help/migrated/whats-new-march-2024.md)了解更多信息。
 +++
 
 +++更新95：Adobe Learning Manager 2023年11月版

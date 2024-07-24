@@ -4,9 +4,9 @@ title: AdobeLearning Manager移动应用程序中的白色标签
 description: 白色标签是一种用您自己的品牌重塑应用程序或服务，并像原创者一样对其进行自定义的做法。 在Adobe Learning Manager中，可将白色标签应用于移动应用程序，以便重新品牌化应用程序并使您的用户可使用自己的品牌。
 contentowner: saghosh
 exl-id: f37c86e6-d4e3-4095-9e9d-7a5cd0d45e43
-source-git-commit: 0faea8c9282e501e6dbabbf3b59343d8ebbf174d
+source-git-commit: 977799953123eafbbaf22732c79be4b8ea2e3e1a
 workflow-type: tm+mt
-source-wordcount: '1376'
+source-wordcount: '1375'
 ht-degree: 0%
 
 ---
@@ -143,7 +143,7 @@ Adobe Learning Manager移动应用程序现在支持白色标签 — 这意味�
 
    <td>
 
-    <p>应用程序图标为png。 此图标将显示在您的应用程序上。 名称的格式为account-id_appIcon.png。 应用程序图标的尺寸为512 × 512像素。<div><b>注意：</b>请注意，Apple不允许在应用程序图标中使用Alpha声道。 因此，请确保在提交资源之前移除资源中的Alpha渠道。</div></p>
+    <p>应用程序图标为png。 此图标将显示在您的应用程序上。 名称的格式为account-id_appIcon.png。 应用程序图标的尺寸为512 × 512像素。<div>请注意，Apple不允许在应用程序图标中使用Alpha渠道。 因此，请确保在提交资源之前移除资源中的Alpha渠道。</div></p>
 
    </td>
 

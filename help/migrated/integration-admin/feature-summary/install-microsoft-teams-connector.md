@@ -4,10 +4,10 @@ jcr-language: en_us
 title: 在 Adobe Learning Manager 中安装 Microsoft Teams 连接器
 contentowner: saghosh
 exl-id: 68092187-ac69-4727-a3dc-f3047a1e164d
-source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
+source-git-commit: 139e9224f94e6a39f497b45f5bdc600121a77bc8
 workflow-type: tm+mt
-source-wordcount: '1258'
-ht-degree: 24%
+source-wordcount: '1138'
+ht-degree: 17%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 24%
 
 ## 概述
 
-Microsoft® Teams® 是基于持续聊天的协作平台，可完全支持文档共享、在线会议和其他业务沟通功能。
+Microsoft Teams®是基于持续聊天的协作平台，可完全支持文档共享、在线会议和其他业务沟通功能。
 
 Adobe Learning Manager使用虚拟教室连接器与Microsoft Teams会议集成。
 
@@ -52,7 +52,6 @@ Microsoft Teams 连接器可连接 Adobe Learning Manager 和 Microsoft Teams �
 如果您有Office 365 E3或Office 365 E5，则可以访问Microsoft Teams连接器。 建议使用Office 365 E5。
 
 * 访问[Microsoft计划页面](https://www.microsoft.com/en-in/microsoft-365/enterprise/compare-office-365-plans?&amp;ef_id=CjwKCAjw8cCGBhB6EiwAgORey9Tjrae-dyAsBrzvXdVJ5WCcoQ55wySzUBMoo-EkPt7CoIqAtcWc0xoC9RcQAvD_BwE:G:s&amp;OCID=AID2100137_SEM_CjwKCAjw8cCGBhB6EiwAgORey9Tjrae-dyAsBrzvXdVJ5WCcoQ55wySzUBMoo-EkPt7CoIqAtcWc0xoC9RcQAvD_BwE:G:s&amp;lnkd=Google_O365SMB_Brand&amp;gclid=CjwKCAjw8cCGBhB6EiwAgORey9Tjrae-dyAsBrzvXdVJ5WCcoQ55wySzUBMoo-EkPt7CoIqAtcWc0xoC9RcQAvD_BwE)。 在该网页上，您可以购买E3或E5帐户，也可以单击“免费试用”。
-
 * 提供所需信息，创建帐户。
 
 >[!NOTE]
@@ -101,6 +100,7 @@ Microsoft Teams 连接器可连接 Adobe Learning Manager 和 Microsoft Teams �
    1. OnlineMeetings.Read.All
    1. OnlineMeetings.ReadWrite.All
    1. User.Read.All
+   1. OnlineMeetingRecording.Read.All
 
 1. 单击&#x200B;**[!UICONTROL 授予管理员访问Adobe]**&#x200B;的权限。
 1. 单击&#x200B;**[!UICONTROL 应用程序角色]** > **[!UICONTROL 创建应用程序角色]**。
@@ -154,17 +154,17 @@ Microsoft Teams 连接器可连接 Adobe Learning Manager 和 Microsoft Teams �
 1. 单击&#x200B;**[!UICONTROL 管理产品许可证]**。
 1. 启用不含音频会议的Office 365 E5许可证。
 
-## 录制会话
+<!--## Record a session
 
-用于录制会话的 API 为受保护 API。 要访问此 API，必须向 Microsoft 请求访问权限。 有关详细信息，请参阅此[文档](https://docs.microsoft.com/zh-cn/graph/teams-protected-apis)。
+The API used for recording a session is a protected API. To access the API, you must request access from Microsoft. For more information, see this  [document](https://docs.microsoft.com/en-us/graph/teams-protected-apis).
 
-在此文档中，
+In the document,
 
-*”要请求访问这些受保护的API，请填写以下[请求表单](https://aka.ms/teamsgraph/requestaccess)。 我们会在每周三审查访问请求，每周五进行审批，美国主要节假日周除外。在这些周中提交的请求会在下一个非节假日周进行处理。 要验证您的请求是否已被批准，请在下一个相应的星期一测试您的应用程序访问权限。”*
+*"To request access to these protected APIs, complete the following  [request form](https://aka.ms/teamsgraph/requestaccess). We review access requests every Wednesday and deploy approvals every Friday, except during major holiday weeks in the U.S. Submissions during those weeks will be processed the following non-holiday week. To verify whether your request has been approved, test your application access on the next applicable Monday."*
 
-学习者可在“VC 课程概述”页面上看到录制 URL。
+For learners, the recording URL is displayed on the VC course overview page.
 
-完成课程 30 分钟后，系统即会标记学习者的出勤情况。
+After 30 minutes of completing a course, the attendance for the learner gets marked. -->
 
 ## 常见问题解答
 

@@ -4,10 +4,10 @@ jcr-language: en_us
 title: 设置
 contentowner: manochan
 exl-id: a563d955-f67e-4218-88df-625cde673601
-source-git-commit: a0dcc5b0a0a9f1ef0248c1e853067c1cc57b60e1
+source-git-commit: f171fab1b5c1aa56f6f398430c49740a0239c6fe
 workflow-type: tm+mt
-source-wordcount: '3595'
-ht-degree: 66%
+source-wordcount: '3651'
+ht-degree: 65%
 
 ---
 
@@ -406,6 +406,10 @@ ht-degree: 66%
     <p>更改设置（星级评分/课程效果/禁用显示评级）不会对其他任何应用（管理员、作者、经理、自定义管理员、自定义作者）产生丝毫影响。 </p>
     <p>对于新帐户，<b>显示评级</b>部分将默认启用<b>星级评分</b>选项。</p>
     <p>对于现有帐户，如果帐户以前启用了<b>课程效果</b>选项，则将启用<b>显示评级</b>部分，并选择“课程效果”选项。 如果禁用选项<b>“课程效果”</b>，则<b>“显示评级”</b>部分也将禁用。 启用<b>显示评级</b>部分后，默认情况下将启用<b>星级评分</b>选项。</p></td>
+  </tr>
+  <tr>
+   <td height="19">弃用</td>
+   <td>选择以下任一停用选项：<li>弃用后，已注册的学习者可以查看和执行操作，但尚未注册的学习者将失去访问权限。</li><li>弃用后，已注册和未注册的学习者都将失去访问权限。</li><div><b>注意：</b>您可以从概述页面弃用课程、学习路径或认证。</div> </td>
   </tr>
  </tbody>
 </table>

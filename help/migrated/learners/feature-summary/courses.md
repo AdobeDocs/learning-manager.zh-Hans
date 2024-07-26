@@ -1,17 +1,17 @@
 ---
 description: 阅读本文，了解如何在 Adobe Learning Manager 查看和使用课程。参与讨论并提供反馈。
 jcr-language: en_us
-title: 课程
+title: 我的学习
 contentowner: manochan
 exl-id: 2c62d36c-c500-40d6-b79f-d3cc8b3b756a
-source-git-commit: 76d84364ce037a81d77e3e2fa3f68fdef7ff411d
+source-git-commit: f171fab1b5c1aa56f6f398430c49740a0239c6fe
 workflow-type: tm+mt
-source-wordcount: '2756'
+source-wordcount: '2759'
 ht-degree: 64%
 
 ---
 
-# 课程
+# 我的学习
 
 阅读本文，了解如何在 Adobe Learning Manager 查看和使用课程。参与讨论并提供反馈。
 
@@ -25,7 +25,7 @@ ht-degree: 64%
 >
 >学习者还可以安装Learning Manager iPad应用程序（通过Apple Store）和Learning Manager Android应用程序(通过Google Play)并在移动设备上访问课程。 所有学习者角色功能也可用于应用程序。学习者还可以离线参加课程并能在重新联机后实现无缝对接访问。有关更多信息，请参阅[iPad和Android平板电脑用户](ipad-android-tablet-users.md)功能。
 
-## 查看课程 {#viewingcourses}
+## 查看学习对象 {#viewingcourses}
 
 您可以作为学习者查看所有可用课程的列表。在主页上单击“我的学习”，或从左侧窗格中查看您已注册的所有课程。
 

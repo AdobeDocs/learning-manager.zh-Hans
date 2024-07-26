@@ -4,10 +4,10 @@ title: 目录
 description: 目录包含学习内容 — 课程、学习计划和认证。 目录用于向学习者提供访问自定义学习集的权限。 您可以在创建新目录时将学习与目录相关联。
 contentowner: manochan
 exl-id: 5c4c147f-d389-4d8a-9480-5f3254d1aadf
-source-git-commit: 037619bb6157f6b4fc3a739571f4766b2d634900
+source-git-commit: f171fab1b5c1aa56f6f398430c49740a0239c6fe
 workflow-type: tm+mt
-source-wordcount: '2453'
-ht-degree: 75%
+source-wordcount: '2498'
+ht-degree: 73%
 
 ---
 
@@ -57,6 +57,11 @@ ht-degree: 75%
 
    您可以添加多个课程到目录。
 1. 您可以按技能、角色和语言筛选课程。 选定的课程会推荐给对这些技能和角色感兴趣的学习者。
+
+   * **[!UICONTROL 技能]**：技能过滤器允许用户查找侧重于特定技能的课程。
+   * **[!UICONTROL 角色]**：角色筛选器可帮助用户访问根据不同角色的责任和要求定制的课程。
+   * **[!UICONTROL 语言]**：语言筛选器可帮助用户选择以其首选或所需语言提供的课程
+
 1. 保存更改。 返回目录列表，然后单击列表中的新目录。
 1. 在新目录的页面上，单击左窗格中的&#x200B;**[!UICONTROL “内容”]**。
 

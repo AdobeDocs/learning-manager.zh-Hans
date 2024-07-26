@@ -4,10 +4,10 @@ title: 学习者常见问题解答
 description: Adobe Learning Manager学习者常见问题解答
 contentowner: admin
 preview: true
-source-git-commit: 8b29ac996962e7ce8fbda51f3421c9a5f248fcf6
+source-git-commit: f171fab1b5c1aa56f6f398430c49740a0239c6fe
 workflow-type: tm+mt
-source-wordcount: '2322'
-ht-degree: 56%
+source-wordcount: '2374'
+ht-degree: 55%
 
 ---
 
@@ -351,6 +351,18 @@ Adobe Learning Manager 1.0 目前暂不提供培训成绩单。
 1. 单击“备注”选项卡。
 1. 若要将备注发送到注册的电子邮件 ID，请单击“电子邮件备注”选项。
 1. 若要以 PDF 格式下载备注，请单击“下载备注”。
+
++++
+
++++我可以在哪里下载该应用程序的桌面版本？
+
+请按照以下步骤下载桌面版本：
+
+1. 以学习者身份登录。
+2. 单击&#x200B;**[!UICONTROL 社交学习]**。
+3. 单击&#x200B;**[!UICONTROL 新建帖子]**，然后单击屏幕截图中显示的任意图标。
+
+这将开始下载应用程序。
 
 +++
 

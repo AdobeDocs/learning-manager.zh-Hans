@@ -2,9 +2,9 @@
 user-guide-title: Adobe Learning Manager 指南
 breadcrumb-title: Learning Manager
 user-guide-description: Adobe Learning Manager 的文档
-source-git-commit: 139e9224f94e6a39f497b45f5bdc600121a77bc8
+source-git-commit: f171fab1b5c1aa56f6f398430c49740a0239c6fe
 workflow-type: tm+mt
-source-wordcount: '600'
+source-wordcount: '606'
 ht-degree: 87%
 
 ---
@@ -115,7 +115,7 @@ ht-degree: 87%
    * [登录](learners/feature-summary/user-login.md)
    * [配置文件设置](learners/feature-summary/settings.md)
    * [目录](learners/feature-summary/catalogs.md)
-   * [课程](learners/feature-summary/courses.md)
+   * [我的学习](learners/feature-summary/courses.md)
    * [流体播放器](learners/feature-summary/fluidic-player.md)
    * [学习计划](learners/feature-summary/learning-programs.md)
    * [认证](learners/feature-summary/certifications.md)
@@ -149,6 +149,7 @@ ht-degree: 87%
    * [作者常见问题解答](authors/frequently-asked-questions-for-authors.md)
    * [讲师常见问题解答](instructors/frequently-asked-questions-for-instructors.md)
    * [经理常见问题解答](managers/frequently-asked-questions-for-managers.md)
+   * [学习者常见问题解答](learners/frequently-asked-questions-for-learners.md)
 * 知识库{#knowledge-base}
    * [无法登录 Adobe Learning Manager](kb/unable-log-in-learning-manager.md)
    * [学习摘要不显示当前数据](kb/learning-summary-not-display-data.md)

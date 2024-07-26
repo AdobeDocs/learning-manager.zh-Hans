@@ -2,10 +2,10 @@
 title: Adobe Learning Manager 中的推荐
 description: 推荐引擎的核心是由Learning Manager的新课程排名算法驱动的。 该算法使用来自数百万用户的5000万数据点和5年汇总学习数据，根据注册可能性对课程进行排名。 此排名可确保优先向学习者显示大多数可注册的课程。
 exl-id: 42083095-60a0-4e20-9097-3344d290da1a
-source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
+source-git-commit: f171fab1b5c1aa56f6f398430c49740a0239c6fe
 workflow-type: tm+mt
-source-wordcount: '1435'
-ht-degree: 60%
+source-wordcount: '1470'
+ht-degree: 58%
 
 ---
 
@@ -64,8 +64,8 @@ Adobe Learning Manager的新推荐引擎简化了设置个性化推荐所涉及�
 
 1. 单击&#x200B;**[!UICONTROL 继续]**&#x200B;以升级到新的推荐系统。
 
-   ![继续使用新系统](assets/image521152.png)
-   *选择“继续”按钮*
+   <!--![Proceed to the new system](assets/image521152.png)
+   *Select the Proceed button*-->
 
 1. 为产品和角色创建推荐参数。
 
@@ -168,7 +168,7 @@ Adobe Learning Manager的新推荐引擎简化了设置个性化推荐所涉及�
 
 ## 删除参数
 
-1. 在参数列表中，选择三点图标，然后选择&#x200B;**[!UICONTROL 删除参数]**。
+管理员可以通过单击三点式图标并选择&#x200B;**[!UICONTROL 删除参数]**&#x200B;来删除参数。 如果参数未链接到学习对象，管理员可以将其删除。 如果是链接的，则只能隐藏参数。 但是，它们不能隐藏后两个参数，因为建议至少需要两个参数才能生效。
 
 ![删除参数](assets/delete-parameter.png)
 *删除参数*

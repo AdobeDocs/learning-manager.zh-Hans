@@ -4,10 +4,10 @@ jcr-language: en_us
 title: 讲师常见问题解答
 contentowner: shhivkum
 exl-id: 1120516c-461a-498d-a5ae-cacc1e87e081
-source-git-commit: fe51f56d0528b469ea13f3fb780886d6dd6f2e3d
+source-git-commit: f171fab1b5c1aa56f6f398430c49740a0239c6fe
 workflow-type: tm+mt
-source-wordcount: '316'
-ht-degree: 85%
+source-wordcount: '381'
+ht-degree: 70%
 
 ---
 
@@ -46,5 +46,12 @@ ht-degree: 85%
 +++讲师能否修改会话？
 
 讲师只能查看和编辑已向其指定的会话的详细信息， 无法修改任何其他会话的详细信息或与会者列表。
+
++++
+
++++如何向外部用户分配讲师角色？
+
+* 默认情况下，在&#x200B;**[!UICONTROL 外部用户]**&#x200B;的&#x200B;**[!UICONTROL 分配]**&#x200B;部分中，它仅显示&#x200B;**[!UICONTROL 创建经理]**&#x200B;或&#x200B;**[!UICONTROL 创建作者]**。
+* 如果要将&#x200B;**讲师**&#x200B;角色分配给LMS中的任何用户，则可以将他们作为&#x200B;**讲师**&#x200B;添加到任何&#x200B;**[!UICONTROL 教室]**&#x200B;或&#x200B;**[!UICONTROL 虚拟教室]**&#x200B;模块，并且将自动向LMS中的用户提供&#x200B;**讲师**&#x200B;角色。
 
 +++

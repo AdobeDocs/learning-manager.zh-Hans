@@ -4,7 +4,7 @@ jcr-language: en_us
 title: 游戏
 contentowner: manochan
 exl-id: ddbc29dd-2d7d-4a8e-84b6-3728fee4a43e
-source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
+source-git-commit: f171fab1b5c1aa56f6f398430c49740a0239c6fe
 workflow-type: tm+mt
 source-wordcount: '1464'
 ht-degree: 70%
@@ -26,6 +26,8 @@ ht-degree: 70%
 ## 排行榜 {#leaderboard}
 
 排行榜是一个游戏要素，类似于积分榜，用于展示领先竞争者的等级分数。学习者可以使用排行榜查看其游戏点数。
+
+![](assets/leaderboard.png)
 
 在学习者主页中，单击左侧窗格的&#x200B;**[!UICONTROL 游戏]**。 要查看排行榜，单击“排行榜”链接。 此功能可让学习者了解如何与特定团队成员展开竞争， 同时了解与团队其他成员相关的排名位置。
 

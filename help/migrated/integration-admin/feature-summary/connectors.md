@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Adobe Learning Manager 连接器
 contentowner: jayakarr
 exl-id: 1f44934b-6a2b-484d-bc7f-d0f23e3008ca
-source-git-commit: 7be69e68f3b8970e090c8eccd25771cd2e5e99f1
+source-git-commit: f171fab1b5c1aa56f6f398430c49740a0239c6fe
 workflow-type: tm+mt
-source-wordcount: '15924'
-ht-degree: 60%
+source-wordcount: '15848'
+ht-degree: 59%
 
 ---
 
@@ -326,19 +326,20 @@ Adobe Learning Manager 应用程序也适用于任何使用 Salesforce 帐户的
 
 ### 数据导入 {#dataimport}
 
-用户导入操作能让 Adobe Learning Manager 管理员从 Adobe Learning Manager FTP 服务中提取员工详细信息，并自动将其导入 Adobe Learning Manager。使用此功能，您可以将这些系统生成的 CSV 放在 FTP 帐户下的相应文件夹中来集成多个系统。Adobe Learning Manager 会拾取 CSV 文件，将其合并，并根据计划导入数据。请参见计划功能了解更多信息。
+用户导入操作能让Learning Manager管理员从Learning Manager FTP服务获取员工详细信息，并自动将其导入Learning Manager。 使用此功能，您可以将这些系统生成的 CSV 放在 FTP 帐户下的相应文件夹中来集成多个系统。Learning Manager会拾取CSV文件，将其合并，并根据计划导入数据。 有关更多信息，请参阅计划功能。
 
 **映射属性**
 
-集成管理员可以选择 CSV 列并将其映射到 Adobe Learning Manager 的组属性。映射只需进行一次。映射完成后，相同映射就能用在随后的用户导入中。如果管理员想要针对导入用户使用不同的映射，则可以对映射进行重新配置。
+集成管理员可以选择CSV列并将其映射到Learning Manager的组属性。 映射需要花费一些时间。 映射完成后，相同映射就能用在随后的用户导入中。如果管理员想要针对导入用户使用不同的映射，则可以对映射进行重新配置。
+
 
 #### 导出数据 {#exportdata}
 
 数据导出允许用户将用户技能和学习者成绩单导出到 FTP 位置，从而与任何第三方系统集成。
 
-#### 计划 {#scheduling}
+#### 计划
 
-管理员可以根据公司的要求计划相关任务，Adobe Learning Manager 应用程序中的用户可以根据计划获得最新消息。同样，集成管理员可以及时安排技能导出，以便与外部系统集成。可以在 Adobe Learning Manager 应用程序中每天执行同步。
+管理员可以根据公司要求设置计划任务，Learning Manager应用程序中的用户可以根据计划获得最新消息。 同样，集成管理员可以及时安排技能导出，以便与外部系统集成。 每天可以在Learning Manager应用程序中执行同步。
 
 ### 配置 Adobe Learning Manager FTP 连接器 {#configurecaptivateprimeftpconnector}
 
@@ -346,30 +347,80 @@ Adobe Learning Manager 应用程序也适用于任何使用 Salesforce 帐户的
 
 #### 创建连接 {#Createaconnection-1}
 
-1. 在 Adobe Learning Manager 主页，将鼠标悬停在 FTP 卡/缩略图上方。此时会显示菜单。单击菜单中的&#x200B;**[!UICONTROL “连接”]**&#x200B;条目。
+1. 在Learning Manager主页，将鼠标悬停在FTP卡/缩略图上方。 此时会显示菜单。选择菜单中的“连接”条目。
 
    ![](assets/mouseover-ftpconnector.png)
 
    *连接选项*
 
-1. 此时会显示一个对话框，提示您输入电子邮件 ID。提供负责管理公司Learning Manager FTP帐户的人员的电子邮件ID。 提供电子邮件ID后，单击&#x200B;**[!UICONTROL 连接]**。
-1. Adobe Learning Manager 发送给您一封电子邮件，提示用户在第一次访问 FTP 之前重置密码。用户必须重置密码，并使用此密码来访问 Adobe Learning Manager FTP 帐户。
+要使用FTP客户端连接到任何FTP服务器，您需要以下信息：
+
+* **FTP域**：这是您要连接到的FTP服务器的地址。 例如，ftp.example.com
+* **端口**：默认FTP端口为21，但出于安全原因，某些服务器可能使用不同的端口。 对于Adobe Learning Manager — 端口22
+* **FTP用户名**：访问FTP服务器所需的用户名。
+* **FTP密码**：与用户名关联的密码。
+
+**FileZilla(Windows、macOS和Linux)**
+
+**步骤1：下载并安装FileZilla**
+
+如果您尚未安装FileZilla，请从以下官方网站下载它： [下载](https://filezilla-project.org/)并在您的计算机上安装它。
+
+**步骤2：打开FileZilla**
+
+安装后，在计算机上启动FileZilla。
+
+**步骤3：收集FTP服务器信息**
+
+**步骤4：在FileZilla**&#x200B;中输入FTP服务器信息
+
+在顶部菜单中，选择&#x200B;**[!UICONTROL 文件]**，然后选择&#x200B;**[!UICONTROL 站点管理器]**（或使用快捷键Ctrl+S）。
+
+**步骤5：添加新的FTP站点**
+
+在“站点管理器”中，选择“**新建站点**”并键入名称（例如，“我的FTP服务器”）。
+
+**步骤6：输入FTP详细信息**
+
+键入以下信息：
+
+* **主机**：键入FTP服务器的地址。
+* **端口**：如果服务器使用的端口超过21，请输入正确的端口号。
+* **协议**：选择&#x200B;**[!UICONTROL SFTP - SSH文件传输协议]**。
+* **登录类型**：选择&#x200B;**[!UICONTROL 正常]**。
+* **用户**：键入FTP用户名。
+* **密码**：键入FTP密码。
+
+**步骤7：连接到FTP服务器**
+
+在站点管理器中选择&#x200B;**[!UICONTROL 连接]**&#x200B;按钮。 如果所有信息都正确，FileZilla将连接到FTP服务器。
+
+**第8步：导航和传输文件**
+
+连接后，您将在右侧看到远程文件，在左侧看到您的本地文件。 您可以在面板之间拖放目录来导航和传输文件。
+
+>[!CAUTION]
+>
+>传输文件时，请避免更改服务器上的重要文件。
+
+<!--1. A dialog appears prompting you to enter the email id. Provide the email id of the person responsible for managing the Learning Manager FTP account for the organization. Click **[!UICONTROL Connect]** after providing the email id. 
+1. Learning Manager sends you an email prompting the user to reset the password before accessing the FTP for the first time. The user must reset the password and use it for accessing the Learning Manager FTP account.
 
    >[!NOTE]
    >
-   >一个 Adobe Learning Manager 帐户仅可创建一个 Adobe Learning Manager FTP 帐户。
+   >Only one Learning Manager FTP account can be created for a given Learning Manager account.
 
-   在“概述”页面中，您可以指定集成的连接名称。 从以下选项中选择要执行的操作：
+   In the overview page, you can specify the Connection Name for your integration. Choose what action you want to take  from  the following options:
 
-   * 导入内部用户
-   * 导入 xAPI
-   * 导出用户技能 - 配置计划
-   * 导出用户技能 - 按需
-   * 导出学习者成绩单 — 配置计划
-   * 导出学习者成绩单 — 按需
+   * Import Internal Users  
+   * Import xAPI
+   * Export User Skills - Configure a Schedule  
+   * Export User Skills - OnDemand  
+   * Export Learner Transcripts - Configure a Schedule
+   * Export Learner Transcripts - OnDemand
 
    ![](assets/ftp-connector-dashboard.png)
-   *导出选项*
+   *Export options*-->
 
 ### 导入
 
@@ -393,8 +444,6 @@ Adobe Learning Manager 应用程序也适用于任何使用 Salesforce 帐户的
 1. 完成映射后单击“**[!UICONTROL 保存]**”。
 
    连接器现在可以使用了。已配置的帐户在管理员应用程序中显示为数据源，以便管理员安排导入或用于按需同步。
-
-
 
 +++
 
@@ -477,53 +526,51 @@ Adobe Learning Manager 应用程序也适用于任何使用 Salesforce 帐户的
 
 +++
 
-### 导出
+<!--### Export
 
-+++技能
++++Skills
 
-有两个选项可用于导出用户技能报告。
+There are two options to export User skill reports.
 
-**[!UICONTROL 用户技能 — 按需]**：您可以使用该选项指定开始日期并导出报告。 将提取从输入的日期中到现在的报告。
+**[!UICONTROL User Skills - On Demand]**: You can specify the  start date and export the report using the option. The report is extracted from the date entered until present.
 
 ![](assets/export-on-demand2x.png)
-*按需导出选项*
+*On demand export option*
 
-**[!UICONTROL 用户技能 - 配置]**：您可使用此选项来计划安排提取报告。选中“启用计划”选框，然后指定开始日期和时间。您还可以指定生成和发送报告的时间间隔。
+**[!UICONTROL User Skills - Configure]**: This option let's you schedule the extraction of the report. Select the Enable Schedule check box and specify the start date and time. You can also specify the interval at which you want the report to be generated and sent.
 
 ![](assets/user-skills-configure.png)
-*配置报告导出*
+*Configure export of report*
 
 +++
 
-如要打开已导出文件所处的“导出”文件夹，请打开“用户技能”页面中提供的“FTP文件夹”链接，如下所示：
+To open the Export folder where the exported files are placed, open the link to FTP Folder provided in the User Skills page as shown below.
 
 ![](assets/ftp-folder.png)
-*用于查看文件的FTP文件夹*
+*FTP folder to view files*
 
-自动导出的文件出现在&#x200B;**Home/export/&#42;FTP_location&#42;**&#x200B;中
+The auto-exported files are present in the location **Home/export/&#42;FTP_location&#42;**
 
-自动导出文件的标题为&#x200B;**skill_achievements_&#42;开始日期&#x200B;&#42;_至_&#42;结束日期&#42;.csv**
+The auto-exported files are available with the title, **skill_achievements_&#42;date from&#42;_to_&#42;date to&#42;.csv**
 
 ![](assets/exported-csvs.png)
-*导出的.csv文件*
+*Exported .csv file*
 
-+++学习者成绩单
++++Learner Transcript
 
 ![](assets/on-demand-report.png)
 
-**配置**：通过此选项，您可以计划安排提取报告。 选中“启用计划”选框，然后指定开始日期和时间。您还可以指定生成和发送报告的时间间隔。
+**Configure**: This option  let's  you schedule the extraction of the report. Select the Enable Schedule check box and specify the start date and time. You can also specify the interval at which you want the report to be generated and sent.
 
 ![](assets/configure-report.png)
 
 +++
 
-如要打开已导出文件位于FTP中的“导出”文件夹，请打开“学习者成绩单”页面中提供的“FTP文件夹”链接，如下所示
+To open the Export folder where the exported files are placed in your FTP location, open the link to FTP Folder provided on the Learner Transcript page as shown below
 
-自动导出的文件出现在&#x200B;**Home/export/&#42;FTP_location&#42;**&#x200B;中
+The auto-exported files are present in the location **Home/export/&#42;FTP_location&#42;**
 
-自动导出文件的标题为&#x200B;**learner_transcript_&#42;日期从&#x200B;&#42;_到_&#42;日期到&#42;.csv**
-
-![](assets/exported-file.png)
+The auto-exported files are available with the title, **learner_transcript_&#42;date from&#42;_to_&#42;date to&#42;.csv**-->
 
 ### 支持手动 csv 字段 {#supportformanualcsvfields}
 

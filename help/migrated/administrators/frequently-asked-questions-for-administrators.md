@@ -4,10 +4,10 @@ title: 管理员常见问题解答
 description: Adobe Learning Manager管理员常见问题解答
 contentowner: manochan
 exl-id: 8b113a4e-73f4-4cd5-982a-cefdf5388e91
-source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
+source-git-commit: f171fab1b5c1aa56f6f398430c49740a0239c6fe
 workflow-type: tm+mt
-source-wordcount: '2398'
-ht-degree: 55%
+source-wordcount: '2515'
+ht-degree: 52%
 
 ---
 
@@ -365,5 +365,26 @@ Adobe Learning Manager 提供的工具可将公司的外部部门成员或外部
 您可以从打开 Adobe Learning Manager 的浏览器获取帐户 ID。
 
 */app/admin？i_qp_user_id=12761637&amp;**accountId=6849***
+
++++
+
++++是否有我可以提取的报告，或者有人可以为我提取的报告，可以显示学习管理系统中所有课程的列表？
+
+是的，您可以提取包含LMS中所有课程、学习计划和认证的&#x200B;**[!UICONTROL 培训报告]**。 要下载报告，请按照以下步骤操作：
+
+1. 以管理员身份登录。
+2. 单击&#x200B;**[!UICONTROL 报告]** > **[!UICONTROL 自定义报告]** > **[!UICONTROL Excel报告]** > **[!UICONTROL 培训报告]**。
+3. 从下拉列表中选择&#x200B;**[!UICONTROL 所有培训]**。
+4. 单击&#x200B;**[!UICONTROL 下载]**。
+
++++
+
++++我可以在哪里下载该应用程序的桌面版本？
+
+请按照以下步骤下载桌面版本：
+
+1. 以管理员身份登录。
+2. 单击&#x200B;**[!UICONTROL 社交学习]** > **[!UICONTROL 设置]**。
+3. 在&#x200B;**[!UICONTROL 下载配置]**&#x200B;下，根据您的操作系统单击超链接。
 
 +++

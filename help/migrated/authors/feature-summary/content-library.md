@@ -3,10 +3,10 @@ description: 了解如何创建内容以作为与课程对应的自学内容。
 jcr-language: en_us
 title: 内容库
 exl-id: cc19eca6-6b47-44b2-ad23-2d7ad8975f65
-source-git-commit: 76d84364ce037a81d77e3e2fa3f68fdef7ff411d
+source-git-commit: 71bfc978c7ec58599c1f5c6afca6c082bc8b3569
 workflow-type: tm+mt
-source-wordcount: '3542'
-ht-degree: 50%
+source-wordcount: '3573'
+ht-degree: 49%
 
 ---
 
@@ -503,6 +503,10 @@ WebVTT支持不可用于：
 1. 选择&#x200B;**操作** > **重新发布**。
 
 该内容即会显示在“已发布”列表中。
+
+## 更新内容
+
+作者可以更新已发布课程中的内容。 这将帮助学习者获取内容的最新版本。 查看此[博客](https://elearning.adobe.com/2024/06/how-to-update-the-content-in-the-course/)以了解更多信息。
 
 ## 删除内容 {#deletecontent}
 

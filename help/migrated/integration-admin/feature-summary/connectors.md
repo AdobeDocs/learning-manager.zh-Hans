@@ -4,7 +4,7 @@ jcr-language: en_us
 title: Adobe Learning Manager 连接器
 contentowner: jayakarr
 exl-id: 1f44934b-6a2b-484d-bc7f-d0f23e3008ca
-source-git-commit: f171fab1b5c1aa56f6f398430c49740a0239c6fe
+source-git-commit: 71bfc978c7ec58599c1f5c6afca6c082bc8b3569
 workflow-type: tm+mt
 source-wordcount: '15848'
 ht-degree: 59%
@@ -762,14 +762,14 @@ Harvard ManageMentor 的企业用户可以使用 Harvard ManageMentor 连接器�
 
    要使同步成功，请确保 Harvard ManageMentor FTP 文件夹中至少存在以下文件中的一个：
 
-   hmm12_metadata.xlsx：此文件提供 Harvard ManageMentor 连接器的课程元数据。确保在上载文件时遵循命名约定。
+   hmm12_metadata.csv：此文件提供Harvard ManageMentor连接器的课程元数据。 确保在上载文件时遵循命名约定。
 
-   client_hmm12_20150125.xlsx：此文件是 Harvard ManageMentor 连接器的用户订阅源。文件命名应遵循的约定是 **client_hmm12_yyyyMMdd.xlsx。**
+   client_hmm12_20150125.csv：此文件是Harvard ManageMentor连接器的用户订阅源。 文件命名应遵循的约定是&#x200B;**client_hmm12_yyyyMMdd.csv.**
 
    请参阅以下两个用于此连接器的用户订阅源和课程订阅源文件样本：
 
-   * [ Harvard ManageMentor连接器的课程元数据文件](assets/hmm12-metadata.xlsx)
-   * [用于 Harvard ManageMentor 连接器的用户订阅源。](assets/client-hmm12-20170304.xlsx)
+   * [ Harvard ManageMentor连接器的课程元数据文件](assets/hmm12-metadata.csv)
+   * [用于 Harvard ManageMentor 连接器的用户订阅源。](assets/client-hmm12-20170304.csv)
 
 ## Workday 连接器 {#workdayconnector}
 

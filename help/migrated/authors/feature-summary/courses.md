@@ -4,9 +4,9 @@ jcr-language: en_us
 title: 创建、修改和发布课程
 contentowner: manochan
 exl-id: c5257796-0afa-4021-bd17-d3f1e9a86948
-source-git-commit: 2a679ba595c6958d436f8a1db0196b8dbc7d30cf
+source-git-commit: 0766d751cf37721ee7befada8b66d1bcf583112e
 workflow-type: tm+mt
-source-wordcount: '7125'
+source-wordcount: '7145'
 ht-degree: 72%
 
 ---
@@ -120,6 +120,10 @@ Adobe Learning Manager 允许作者使用一个或多个与虚拟培训、自学
    >[!IMPORTANT]
    >
    >添加自定义合规性时，请确保为课程设置截止日期。
+
+   >[!NOTE]
+   >
+   >对于自定义合规性类型标签，最多可有50个课程、学习路径或认证具有相同的值。
 
 1. 保存并发布课程/学习路径/认证。
 现在，课程/学习路径/认证被视为一种合规性类型。 管理员可将此课程添加到合规性信息板，并与经理共享以跟踪进度

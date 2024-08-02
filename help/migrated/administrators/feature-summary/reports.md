@@ -4,9 +4,9 @@ jcr-language: en_us
 title: 报告
 contentowner: manochan
 exl-id: 31b176b7-4b8f-4851-a0c5-4eee58bceb41
-source-git-commit: 7be69e68f3b8970e090c8eccd25771cd2e5e99f1
+source-git-commit: 0766d751cf37721ee7befada8b66d1bcf583112e
 workflow-type: tm+mt
-source-wordcount: '7132'
+source-wordcount: '7133'
 ht-degree: 57%
 
 ---
@@ -276,7 +276,7 @@ _合规性信息板 — 管理员视图_
 
 1. 转到&#x200B;**[!UICONTROL 报告]** > **[!UICONTROL 学习摘要]**。
 1. 在&#x200B;**[!UICONTROL 合规性信息板]**&#x200B;部分，选择&#x200B;**[!UICONTROL 与经理共享]**。
-1. 选择&#x200B;**[!UICONTROL 共享仪表板]**，然后从&#x200B;**[!UICONTROL 自定义合规性]**&#x200B;下拉菜单中选择创建的标签。
+1. 选择&#x200B;**[!UICONTROL 共享仪表板]**，然后从&#x200B;**[!UICONTROL 选择合规性标签]**&#x200B;下拉菜单中选择创建的标签。
 
 
    ![](assets/compliance-type.png)

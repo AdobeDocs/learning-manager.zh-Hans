@@ -4,7 +4,7 @@ jcr-language: en_us
 title: 报告
 contentowner: manochan
 exl-id: 31b176b7-4b8f-4851-a0c5-4eee58bceb41
-source-git-commit: 0766d751cf37721ee7befada8b66d1bcf583112e
+source-git-commit: e7fc4216fea9afffc277f93f4b3c1e8e58b7a2ed
 workflow-type: tm+mt
 source-wordcount: '7133'
 ht-degree: 57%
@@ -256,7 +256,7 @@ _合规性信息板 — 管理员视图_
 
    >[!NOTE]
    >
-   >引入了此新目录标签，将课程、学习路径和认证归类为合规性类型。 要启用&#x200B;**[!UICONTROL 自定义合规性类型]**&#x200B;选项，您必须首先在同一页面启用&#x200B;**[!UICONTROL 显示目录标签]**&#x200B;选项。
+   >引入了此新目录标签，将课程、学习路径和认证归类为合规性类型。 要启用&#x200B;**[!UICONTROL 自定义合规性类型]**&#x200B;选项，必须首先在同一页面启用&#x200B;**[!UICONTROL 显示目录标签]**&#x200B;选项。
 
 1. 转到&#x200B;**[!UICONTROL 设置]** > **[!UICONTROL 目录标签]**&#x200B;并选择&#x200B;**[!UICONTROL 合规性类型]**。
 1. 在&#x200B;**[!UICONTROL 值]**&#x200B;文本框中键入值（例如，Legal、Sales），然后选择&#x200B;**[!UICONTROL 添加值]**。

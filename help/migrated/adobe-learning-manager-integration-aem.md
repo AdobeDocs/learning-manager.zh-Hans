@@ -4,7 +4,7 @@ title: AEM 站点的 Adobe Learning Manager 参考站点（ALM 参考站点）�
 description: Adobe Learning Manager (ALM) 与 Adobe Experience Manager (AEM) 站点集成。 如此一来，您就可以为 Adobe Learning Manager 创建自己的网站和响应式移动界面，并且只需进行最少的编码工作。 通过此集成，您可以为用户创建自定义学习体验。
 contentowner: saghosh
 exl-id: 937dfbd1-74a1-4a86-a9b2-29a44be267c6
-source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
+source-git-commit: 998978a5ba74377ef91b6a623367206643476ecc
 workflow-type: tm+mt
 source-wordcount: '2146'
 ht-degree: 67%
@@ -248,7 +248,7 @@ ALM参考站点包提供了一个“学习站点蓝图”，可让您为学习�
    *`<sly data-sly-use.configModel="com.adobe.learning.core.models.GlobalConfigurationModel"/>`*
    *`<meta name="cp-config" content="${configModel.config}" />`*
 
-   上面的代码将映射的配置添加到页面的 meta 标签中，这是呈现学习组件所必需的。 有关更多详细信息，请参阅[Adobe Learning Manager引用字符串](https://github.com/adobe/adobe-learning-manager-reference-site/blob/master/ui.apps/src/main/content/jcr_root/apps/learning/components/page/customheaderlibs.html)。
+   上面的代码将映射的配置添加到页面的 meta 标签中，这是呈现学习组件所必需的。 有关更多详细信息，请参阅[Adobe Learning Manager参考站点](https://github.com/adobe/adobe-learning-manager-reference-site/blob/master/ui.apps/src/main/content/jcr_root/apps/learning/components/page/customheaderlibs.html)。
 
 1. 确保已将配置映射到Web项目。
 1. 打开要导入AEM Sites组件的Learning Manager模板。

@@ -4,7 +4,7 @@ jcr-language: en_us
 title: Adobe Learning Manager 连接器
 contentowner: jayakarr
 exl-id: 1f44934b-6a2b-484d-bc7f-d0f23e3008ca
-source-git-commit: e7a88bac3bbe7814368a98d40f548b38806e7f1a
+source-git-commit: fb887cdc26580cb0e56a80318276284724e4743a
 workflow-type: tm+mt
 source-wordcount: '15848'
 ht-degree: 59%
@@ -512,9 +512,9 @@ Adobe Learning Manager 应用程序也适用于任何使用 Salesforce 帐户的
    您可以输入开始时间和日期，然后以天为单位输入 xAPI 导入计划的频率。例如，每 3 天启用一次 xAPI 导入。
 
    ![](assets/configure-schedule2x.png)
-   *导入 xAPI 语句 - 配置计划*
+   *导入xAPI语句 — 配置计划*
 
-1. 从左窗格中，单击“按需执行&#x200B;]**”。**[!UICONTROL 
+1. 在左侧窗格中，单击&#x200B;**[!UICONTROL 按需执行]**。
 
    ![](assets/on-demand.png)
    *导入xAPI语句 — 按需*
@@ -683,7 +683,7 @@ getAbstract.com 的企业用户可使用 getAbstract 连接器供其学习者找
 
    ![](assets/getabstractschedulepage.png)
 
-   *为学习管理器配置 getAbstract 连接器*
+   *为Learning Manager配置getAbstract连接器*
 
 1. 在左侧窗格中，单击“配置”。 执行以下任一操作：
 
@@ -764,7 +764,7 @@ Harvard ManageMentor 的企业用户可以使用 Harvard ManageMentor 连接器�
 
    hmm12_metadata.csv：此文件提供Harvard ManageMentor连接器的课程元数据。 确保在上载文件时遵循命名约定。
 
-   client_hmm12_20150125.csv：它是 Harvard ManageMentor 连接器的用户订阅源。 client_hmm12_yyyyMMdd.csv遵循 **的文件命名约定。**
+   client_hmm12_20150125.csv：此文件是Harvard ManageMentor连接器的用户订阅源。 文件命名应遵循的约定是&#x200B;**client_hmm12_yyyyMMdd.csv.**
 
    请参阅以下两个用于此连接器的用户订阅源和课程订阅源文件样本：
 
@@ -779,7 +779,7 @@ Harvard ManageMentor 的企业用户可以使用 Harvard ManageMentor 连接器�
 
 #### 映射属性 {#map-attributes-1}
 
-集成管理员可以选择 Workday 列并将其映射到相应学习管理器的组属性。 映射完成后，相同映射就能用在随后的用户导入中。如果管理员想要针对导入用户使用不同的映射，则可以对其进行重新配置。
+集成管理员可以选择Workday列并将其映射到相应的Learning Manager组属性。 映射完成后，相同映射就能用在随后的用户导入中。如果管理员想要针对导入用户使用不同的映射，则可以对其进行重新配置。
 
 #### 自动导入用户 {#automated-user-import-1}
 
@@ -870,7 +870,7 @@ Adobe Learning Manager 管理员可在导入用户前先对其过滤。例如，
 
 选中&#x200B;**排除临时工**&#x200B;复选框，以防止导入经理提供的临时工作人员。
 
-Workday 有四个级别，而 Adobe Learning Manager 有两个级别。Workday 中的四个级别分别是技能配置文件类别、技能配置文件、技能项目类别和技能项目。 您的技能名称和学习管理器中的级别将一同映射到 Workday 的技能项目下。
+Workday 有四个级别，而 Adobe Learning Manager 有两个级别。Workday中的四个级别是技能配置文件类别、技能配置文件、技能项目类别和技能项目。 您的技能名称以及Learning Manager的级别将一同映射到Workday的技能项目之下。
 
 >[!NOTE]
 >
@@ -889,27 +889,27 @@ wd：Personal_Data.wd：Name_Data.wd：Preferred_Name_Data.wd：Name_Detail_Data
 wd：Personal_Data.wd：Name_Data.wd：Preferred_Name_Data.wd：Name_Detail_Data.wd：Last_Name
 wd：Personal_Data.wd：Name_Data.wd：Legal_Name_Data.wd：Name_Detail_Data.wd：First_Name
 wd：Personal_Data.wd：Name_Data.wd：Legal_Name_Data.wd：Name_Detail_Data.wd：Last_Name
-wd：Personal_Data.wd：Contact_Data.wd：Address_Data.0.@wd：Formatted_Address
+wd：Personal_Data.wd：Contact_Data.wd：Address_Data.0。@wd：Formatted_Address
 wd：Personal_Data.wd：Contact_Data.wd：Address_Data.0.wd：Postal_Code
 wd：Personal_Data.wd：Contact_Data.wd：Email_Address_Data.0.wd：Email_Address
 wd：Personal_Data.wd：Contact_Data.wd：Address_Data.0.wd：Country_Region_Descriptor
-wd：Personal_Data.wd：Contact_Data.wd：Phone_Data.0.@wd：Formatted_Phone
+wd：Personal_Data.wd：Contact_Data.wd：Phone_Data.0。@wd：Formatted_Phone
 wd：Personal_Data.wd：Contact_Data.wd：Phone_Data.0.wd：Country_ISO_Code
 wd：Personal_Data.wd：Contact_Data.wd：Phone_Data.0.wd：International_Phone_Code
 wd：Personal_Data.wd：Contact_Data.wd：Phone_Data.0.wd：Phone_Number
-wd：Personal_Data.wd：Primary_Nationality_Reference.wd：ID.1.$
-wd：Personal_Data.wd：Gender_Reference.wd：ID.1.$
+wd：Personal_Data.wd：Primary_Nationality_Reference.wd：ID.1。$
+wd：Personal_Data.wd：Gender_Reference.wd：ID.1。$
 wd：Personal_Data.wd：Identification_Data.wd：National_ID.0.wd：National_ID_Data.wd：ID
 wd：Personal_Data.wd：Identification_Data.wd：Custom_ID.0.wd：Custom_ID_Data.wd：ID
-wd：User_Account_Data.wd：Default_Display_Language_Reference.wd：ID.1.$
-wd：Role_Data.wd：Organization_Role_Data.wd：Organization_Role.0.wd：Organization_Role_Reference.wd：ID.1.$
+wd：User_Account_Data.wd：Default_Display_Language_Reference.wd：ID.1。$
+wd：Role_Data.wd：Organization_Role_Data.wd：Organization_Role.0.wd：Organization_Role_Reference.wd：ID.1。$
 wd：Employment_Data.wd：Worker_Job_Data.0.wd：Position_Data.wd：Position_Title
 wd：Employment_Data.wd：Worker_Job_Data.0.wd：Position_Data.wd：Business_Title
 wd：Employment_Data.wd：Worker_Job_Data.0.wd：Position_Data.wd：Business_Site_Summary_Data.wd：Name
 wd：Employment_Data.wd：Worker_Job_Data.0.wd：Position_Data.wd：Business_Site_Summary_Data.wd：Address_Data.@wd：Formatted_Address
-wd：Employment_Data.wd：Worker_Job_Data.0.wd：Position_Data.wd：Job_Classification_Summary_Data.0.wd：Job_Classification_Reference.wd：ID.1.$
-wd：Employment_Data.wd：Worker_Job_Data.0.wd：Position_Data.wd：Job_Classification_Summary_Data.0.wd：Job_Group_Reference.wd：ID.1.$
-wd：Employment_Data.wd：Worker_Job_Data.0.wd：Position_Data.wd：Work_Space__Reference.wd：ID.1.$
+wd：Employment_Data.wd：Worker_Job_Data.0.wd：Position_Data.wd：Job_Classification_Summary_Data.0.wd：Job_Classification_Reference.wd：ID.1。$
+wd：Employment_Data.wd：Worker_Job_Data.0.wd：Position_Data.wd：Job_Classification_Summary_Data.0.wd：Job_Group_Reference.wd：ID.1。$
+wd：Employment_Data.wd：Worker_Job_Data.0.wd：Position_Data.wd：Work_Space__Reference.wd：ID.1。$
 wd：Employment_Data.wd：Worker_Job_Data.0.wd：Position_Data.wd：Job_Profile_Summary_Data.wd：Job_Family_Reference.0.wd：ID.1。$
 wd：Employment_Data.wd：Worker_Job_Data.0.wd：Position_Data.wd：Job_Profile_Summary_Data.wd：Job_Profile_Name
 wd：Employment_Data.wd：Worker_Job_Data.0.wd：Position_Data.wd：Job_Profile_Summary_Data.wd：Job_Profile_Reference.wd：ID.1。$
@@ -1618,7 +1618,7 @@ Learning Manager还提供了现成的Power BI模板。 这些模板为Adobe Lear
 
 此外，该报告将包含类型“学习路径（较高级别）”列，适用于注册学习路径的所有学习者。
 
-在“类型”列中，“学习计划”将更名为“学习路径”。 现有连接将不会发生更改。 但是，对于新连接，更改将在 30 天后反映出来。
+在“类型”列中，“学习计划”将更名为“学习路径”。 现有连接将不会发生更改。 但是，对于新连接，更改将在30天后反映出来。
 
 ## 自定义 FTP {#custom-ftp}
 
@@ -1770,7 +1770,7 @@ Adobe Learning Manager 提供连接到自定义 FTP 位置的功能。
 
    单击&#x200B;**[!UICONTROL “连接”]**。
 
-1. 登录到 **portal.azure.com**。 这些值将填充在“租户 ID”和“主域”字段中。
+1. 登录到&#x200B;**portal.azure.com**。 这些值将填充到“租户ID”和“主域”字段中。
 
 ### 导入 {#import-8}
 
@@ -1882,11 +1882,11 @@ Adobe Learning Manager 现在还允许学习者通过身份验证进入 Connect 
 学员通过 Adobe Connect 参加并完成课程后，会话的录制以及密码将显示在“学员”应用程序中。
 
 ![](assets/connect-recording.png)
-*连接录制*
+*连接录音*
 
 ### 从 Adobe Connect 导入测验分数 {#quiz-adobe-connect}
 
-将 Connect 测验数据导入学习管理器，并将其与现有报告工作流程集成，以便学习管理器用户可以在报告中获取测验数据、用户响应和 Adobe Connect 会话分数，就像它可用于包含测验的自定进度模块一样。
+将Connect测验数据导入Learning Manager并将其与现有报告工作流程集成，以便Learning Manager用户从报告内的Adobe Connect会话中获取测验数据、用户回答和分数情况，其方法类似于从具有测验功能的自学模块获取数据。
 
 在 Connect 部分中，如果任何学习者参与了测验课程或开展了支持测验报告的任何交互，则除“完成”以外，系统还会追踪学习者的所有交互情况。 此课程必须为 Connect VC 培训。
 
@@ -2051,7 +2051,7 @@ The Author, in the Author app, then selects an event from the list of available 
 >
 >We've added a caching mechanism that improves the overall user experience. It is applicable when you select additional event creators. In this mode, the events are fetched the first time when an author searches for an event. The cache persists for 30 mins so that authors know how long they must wait to fetch the new events.-->
 
-## Microsoft Teams 连接器 {#microsoft-teams-connector}
+## Microsoft Teams 连接器 {#teams-connector}
 
 Microsoft® Teams® 是基于持续聊天的协作平台，可支持文档共享、在线会议和其他业务沟通功能。
 

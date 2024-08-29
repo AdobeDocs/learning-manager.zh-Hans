@@ -4,10 +4,10 @@ jcr-language: en_us
 title: 设置
 contentowner: manochan
 exl-id: a563d955-f67e-4218-88df-625cde673601
-source-git-commit: f171fab1b5c1aa56f6f398430c49740a0239c6fe
+source-git-commit: 70d516a262180fd5a2a9390c9813058f0fa5e1c9
 workflow-type: tm+mt
-source-wordcount: '3651'
-ht-degree: 65%
+source-wordcount: '3669'
+ht-degree: 64%
 
 ---
 
@@ -165,7 +165,7 @@ ht-degree: 65%
   </tr>
   <tr>
    <td>显示目录标签</td>
-   <td>如果启用，管理员和作者可以设置目录标签和值，并将它们链接到学习对象。</td>
+   <td>如果启用，管理员和作者便可以设置目录标签和值，并将其链接到学习对象。 选择此选项后，作者还可以在目录中添加课程、学习路径、认证或工作辅助。</td>
   </tr>
   <tr>
    <td>学习者可以查看自己的成绩</td>

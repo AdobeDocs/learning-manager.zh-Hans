@@ -2,10 +2,10 @@
 title: 学习者的未登录体验
 description: Adobe Learning Manager原生门户将支持以未登录的方式访问培训站点。 启用此模式后，学习者可以发现和访问培训站点并查看各种可用的课程和内容。 未登录体验允许学习者在未登录到门户的情况下浏览课程。
 exl-id: 12260cca-d2d2-4e7c-991d-9b09690d4c0a
-source-git-commit: 1d36ad7f4b50d76f73eb1d24313ada78264e6ad3
+source-git-commit: 70d516a262180fd5a2a9390c9813058f0fa5e1c9
 workflow-type: tm+mt
-source-wordcount: '581'
-ht-degree: 41%
+source-wordcount: '601'
+ht-degree: 40%
 
 ---
 
@@ -88,3 +88,4 @@ Adobe Learning Manager — 学习者API允许您为用户创建自定义学习�
 * 按目录显示的学习者应用程序视图。
 * 培训概述页面 - 单击培训卡重定向至“注册”，之后系统会将用户重定向至“培训概述”页面/实例页面。
 * 将显示的所有已启用目录。 任何无权访问目录的学习者在登录后都看不到目录和其中的培训。
+* 对于本机选项，课程或学习路径的更改将在24小时后反映，而不是实时。

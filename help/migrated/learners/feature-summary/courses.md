@@ -4,10 +4,10 @@ jcr-language: en_us
 title: 我的学习
 contentowner: manochan
 exl-id: 2c62d36c-c500-40d6-b79f-d3cc8b3b756a
-source-git-commit: 70d516a262180fd5a2a9390c9813058f0fa5e1c9
+source-git-commit: 4151b3d791a2ac13a40dc812a3c7b2c3c43bfc9c
 workflow-type: tm+mt
-source-wordcount: '2759'
-ht-degree: 64%
+source-wordcount: '2789'
+ht-degree: 63%
 
 ---
 
@@ -163,6 +163,10 @@ Adobe Learning Manager 能让您轻松快速找到您想选择的课程。您可
 **关闭课程** 单击播放器右上角的关闭 (x) 图标即可退出课程。
 
 *退出课程后，您可以单击课程描述页面上的“重新访问”按钮来重新访问课程。*
+
+## 多个注册实例
+
+如果课程有多个实例，学习者可以选择并注册特定实例。 如果需要，他们可以在实例之间切换。
 
 ## 星级评分
 

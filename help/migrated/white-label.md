@@ -4,9 +4,9 @@ title: AdobeLearning Manager移动应用程序中的白色标签
 description: 白色标签是一种用您自己的品牌重塑应用程序或服务，并像原创者一样对其进行自定义的做法。 在Adobe Learning Manager中，可将白色标签应用于移动应用程序，以便重新品牌化应用程序并使您的用户可使用自己的品牌。
 contentowner: saghosh
 exl-id: f37c86e6-d4e3-4095-9e9d-7a5cd0d45e43
-source-git-commit: 977799953123eafbbaf22732c79be4b8ea2e3e1a
+source-git-commit: a137da066faf4fd562354474b25e908f3298bf57
 workflow-type: tm+mt
-source-wordcount: '1375'
+source-wordcount: '1515'
 ht-degree: 0%
 
 ---
@@ -372,6 +372,50 @@ sh""" ~/Library/Android/sdk/build-tools/30.0.3/apksigner sign --ks $storeFile --
 >[!NOTE]
 >
 >您需要使用Android sdk生成工具来生成已签名的二进制文件。
+
+Play商店要求使用aab格式的Android二进制文件才能发布。 因此，我们将提供未签名的.aab文件。
+
+>[!NOTE]
+>
+>创建keystore文件时，需要生成keystore密码、签名密钥别名和签名密钥别名密码。
+
+请按照以下步骤对.aab文件进行签名：
+
+运行以下命令：
+
+```
+<path>/jarsigner -verbose -sigalg SHA256withRSA -digestalg SHA-256 -keystore <keystore-file> app-release.aab <signingKeyAlias>
+```
+
+>[!NOTE]
+>
+>**[!UICONTROL jarsigner]**&#x200B;包含在Java中。 确保您使用的是Java 21。
+
+出现提示时，请输入以下密码：
+
+* 密钥库密码
+* 签名密钥别名的密码
+
+您可以使用提供的链接。 但是，如果需要从aab文件生成apk，请执行以下步骤：
+
+>[!NOTE]
+>
+>您将需要安装&#x200B;**[!UICONTROL bundletool]**&#x200B;以生成APK。
+
+
+运行以下命令以创建apk文件：
+
+```
+java -jar <path>/bundletool-all.jar  build-apks --bundle=app-release.aab --output=my_app.apks --mode=universal
+```
+
+要解压缩文件，请运行以下命令：
+
+```
+unzip my_app.apks -d output_dir
+```
+
+您将从&#x200B;**[!UICONTROL output_dir]**&#x200B;文件夹中获取apk文件。
 
 **后续内容**
 

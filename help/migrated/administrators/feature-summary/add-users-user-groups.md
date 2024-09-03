@@ -4,9 +4,9 @@ jcr-language: en_us
 title: 添加用户和创建用户组
 contentowner: manochan
 exl-id: 7df98f2b-c422-4733-8ce4-5489506d4fdf
-source-git-commit: 890775dafffd3b9d717c39507490977f51f163d4
+source-git-commit: aceee425ceb799fa3f742ac813bb35df16b34371
 workflow-type: tm+mt
-source-wordcount: '4050'
+source-wordcount: '4061'
 ht-degree: 61%
 
 ---
@@ -235,7 +235,7 @@ Adobe Learning Manager保留用户属性及其值的大小写区分性。 **例�
    <td>
     <p>游戏功能可用。</p></td>
    <td>
-    <p>游戏功能不可用。</p></td>
+    <p>游戏功能可用。 管理员必须在“游戏”设置中为外部学习者启用游戏。</p></td>
   </tr>
   <tr>
    <td>

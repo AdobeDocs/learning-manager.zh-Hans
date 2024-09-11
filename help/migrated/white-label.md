@@ -4,9 +4,9 @@ title: AdobeLearning Manager移动应用程序中的白色标签
 description: 白色标签是一种用您自己的品牌重塑应用程序或服务，并像原创者一样对其进行自定义的做法。 在Adobe Learning Manager中，可将白色标签应用于移动应用程序，以便重新品牌化应用程序并使您的用户可使用自己的品牌。
 contentowner: saghosh
 exl-id: f37c86e6-d4e3-4095-9e9d-7a5cd0d45e43
-source-git-commit: a137da066faf4fd562354474b25e908f3298bf57
+source-git-commit: 1be901d1667c53ced996953440df6293485a4088
 workflow-type: tm+mt
-source-wordcount: '1515'
+source-wordcount: '1627'
 ht-degree: 0%
 
 ---
@@ -352,22 +352,66 @@ Android和iOS都使用Firebase Cloud Messaging (FCM)作为向设备发送推送�
 
 ### iOS
 
-```
+<!--```
 sh""" xcodebuild -exportArchive -archivePath Runner.xcarchive -exportPath "ipa_path/" -exportOptionsPlist {ExportFile} 
 
 mv ipa_path/*.ipa "${env.AppName}_signed.ipa" """ 
-```
+```-->
+
+根文件夹包含&#x200B;**Runner.xcarchive.zip**&#x200B;文件。 运行以下命令以生成带签名的二进制文件：
+
+1. 运行以下命令以解压缩存档文件：
+
+   ```
+   unzip Runner.xcarchive.zip
+   ```
+
+2. 导航到应用程序目录：
+
+   ```
+   cd Runner.xcarchive/Products/Applications/Runner.app
+   ```
+
+3. 复制移动配置文件：
+
+   ```
+   cp <path>/<mobile-provisioningfile>.mobileprovision embedded.mobileprovision
+   ```
+
+4. 返回根目录（Runner.xcarchive.zip所在的位置）：
+
+   ```
+   cd <root>
+   ```
+
+5. 使用xcodebuild导出存档文件：
+
+   ```
+   xcodebuild -exportArchive -archivePath Runner.xcarchive -exportPath ipa_path/ -exportOptionsPlist <path>/<ExportOptions-file>.plist
+   ```
+
+6. 在ipa_path文件夹中找到.ipa文件。
+7. 将.ipa文件上传到Diawi网站。
+8. 完全上传后，选择&#x200B;**[!UICONTROL 发送]**&#x200B;按钮。
+9. 完成后，您将收到一个二维码和一个链接。
+10. 在Safari中直接打开二维码或链接。
+
+如果设备包含在预配配置文件中，则应在设备上继续安装。
 
 >[!NOTE]
 >
 >您需要具备XCode 15.2或更高版本才能构建已签名的二进制文件。
 
 
-## Android
+### Android
+
+**对于apk文件**
 
 ```
-sh""" ~/Library/Android/sdk/build-tools/30.0.3/apksigner sign --ks $storeFile --ks-pass "pass:$store\_password" --ks-key-alias $key\_alias --key-pass "pass:$key\_password" --out app-release-signed.apk -v app-release.apk """
+sh""" <path>/apksigner sign --ks $storeFile --ks-pass "pass:$store_password" --ks-key-alias $key_alias --key-pass "pass:$key_password" --out app-release-signed.apk -v app-release.apk """
 ```
+
+**对于aab文件**
 
 >[!NOTE]
 >

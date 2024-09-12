@@ -4,9 +4,9 @@ title: AdobeLearning Manager移动应用程序中的白色标签
 description: 白色标签是一种用您自己的品牌重塑应用程序或服务，并像原创者一样对其进行自定义的做法。 在Adobe Learning Manager中，可将白色标签应用于移动应用程序，以便重新品牌化应用程序并使您的用户可使用自己的品牌。
 contentowner: saghosh
 exl-id: f37c86e6-d4e3-4095-9e9d-7a5cd0d45e43
-source-git-commit: 1be901d1667c53ced996953440df6293485a4088
+source-git-commit: f146b3b9c278f1ac05ecaf741c6617f31982e3ac
 workflow-type: tm+mt
-source-wordcount: '1627'
+source-wordcount: '1625'
 ht-degree: 0%
 
 ---
@@ -358,7 +358,7 @@ sh""" xcodebuild -exportArchive -archivePath Runner.xcarchive -exportPath "ipa_p
 mv ipa_path/*.ipa "${env.AppName}_signed.ipa" """ 
 ```-->
 
-根文件夹包含&#x200B;**Runner.xcarchive.zip**&#x200B;文件。 运行以下命令以生成带签名的二进制文件：
+`<root>`文件夹包含&#x200B;**Runner.xcarchive.zip**&#x200B;文件。 运行以下命令以生成带签名的二进制文件：
 
 1. 运行以下命令以解压缩存档文件：
 
@@ -378,7 +378,7 @@ mv ipa_path/*.ipa "${env.AppName}_signed.ipa" """
    cp <path>/<mobile-provisioningfile>.mobileprovision embedded.mobileprovision
    ```
 
-4. 返回根目录（Runner.xcarchive.zip所在的位置）：
+4. 返回`<root>`文件夹（Runner.xcarchive.zip所在的位置）：
 
    ```
    cd <root>

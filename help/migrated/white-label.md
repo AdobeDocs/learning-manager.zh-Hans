@@ -4,9 +4,9 @@ title: AdobeLearning Manager移动应用程序中的白色标签
 description: 白色标签是一种用您自己的品牌重塑应用程序或服务，并像原创者一样对其进行自定义的做法。 在Adobe Learning Manager中，可将白色标签应用于移动应用程序，以便重新品牌化应用程序并使您的用户可使用自己的品牌。
 contentowner: saghosh
 exl-id: f37c86e6-d4e3-4095-9e9d-7a5cd0d45e43
-source-git-commit: f146b3b9c278f1ac05ecaf741c6617f31982e3ac
+source-git-commit: b9809314014fcd8c80f337983c0b0367c060e348
 workflow-type: tm+mt
-source-wordcount: '1625'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -391,7 +391,7 @@ mv ipa_path/*.ipa "${env.AppName}_signed.ipa" """
    ```
 
 6. 在ipa_path文件夹中找到.ipa文件。
-7. 将.ipa文件上传到Diawi网站。
+7. 将.ipa文件上传到`Diawi`网站。
 8. 完全上传后，选择&#x200B;**[!UICONTROL 发送]**&#x200B;按钮。
 9. 完成后，您将收到一个二维码和一个链接。
 10. 在Safari中直接打开二维码或链接。

@@ -4,10 +4,10 @@ jcr-language: en_us
 title: 创建、修改技能和级别
 contentowner: manochan
 exl-id: b1461900-43e8-4e9d-bef1-a55c44d3bc8b
-source-git-commit: b882c22da029cdc4c8bcc4ab1b6d861f06f83f0f
+source-git-commit: b9809314014fcd8c80f337983c0b0367c060e348
 workflow-type: tm+mt
-source-wordcount: '1721'
-ht-degree: 79%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -68,7 +68,7 @@ Adobe Learning Manager 能让您使用技能图根据学习者的技能集来查
 
    ![](assets/list-of-skills.png)
 
-   *查看oif技能列表*
+   *查看技能列表*
 
 ## 向学习者分配技能 {#assigntheskilltolearners}
 

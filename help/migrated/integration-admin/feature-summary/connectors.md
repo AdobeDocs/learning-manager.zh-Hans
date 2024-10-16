@@ -4,7 +4,7 @@ jcr-language: en_us
 title: Adobe Learning Manager 连接器
 contentowner: jayakarr
 exl-id: 1f44934b-6a2b-484d-bc7f-d0f23e3008ca
-source-git-commit: 4b6426f836b345421401103db0f14c353323c3fc
+source-git-commit: 8d647f492d6073ed4b16d44e16548a3defdca02a
 workflow-type: tm+mt
 source-wordcount: '15848'
 ht-degree: 59%
@@ -2103,7 +2103,7 @@ Microsoft Teams 连接器可连接 Adobe Learning Manager 和 Microsoft Teams �
 1. 从以下选项中选择&#x200B;**[!UICONTROL 接口类型]**：
 
    * **[!UICONTROL Native Learning Manager]**：这是标准产品，仅适用于原生界面。
-***[!UICONTROL 无头界面]**：这是公开API以构建未登录体验的高级产品。
+   * **[!UICONTROL 无头界面]**：这是公开API以构建未登录体验的高级产品。
 
    ![](assets/types-of-interface.png)
 接口类型

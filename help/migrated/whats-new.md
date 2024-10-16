@@ -3,9 +3,9 @@ description: 了解Adobe Learning Manager 2024年7月版的新增功能和增强
 jcr-language: en_us
 title: 新功能摘要
 exl-id: e63c3d9a-4b91-4acb-950f-8b1cdb0caa1a
-source-git-commit: 998978a5ba74377ef91b6a623367206643476ecc
+source-git-commit: 8d647f492d6073ed4b16d44e16548a3defdca02a
 workflow-type: tm+mt
-source-wordcount: '2255'
+source-wordcount: '2325'
 ht-degree: 3%
 
 ---
@@ -231,6 +231,12 @@ curl --location 'https://example.com/primeapi/v2/learningObjects/learningProgram
 ### 偏移限制的更改
 
 为改进系统性能并更有效地管理资源利用率，Adobe在ADMIN和LEARNER范围的GET/users端点中弃用了高偏移值。 我们建议使用作业API检索具有偏移值的记录。
+
+### RPM和突发限制的变化
+
+在此版本中，为所有API添加了RPM（每分钟请求数）和突发限制。 您可以在Swagger页面上检查每个API的最大RPM。
+
+RPM是您在一分钟内可以发送到API服务器的请求数。 突发限制允许在短时间内处理更多请求，超出通常的速率限制。
 
 ### 已弃用的API
 

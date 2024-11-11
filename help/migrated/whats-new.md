@@ -2,7 +2,7 @@
 description: 了解Adobe Learning Manager 2024年11月版的新增功能和增强功能
 jcr-language: en_us
 title: 新功能摘要
-source-git-commit: b965b67bf7c730b3d9667cb6bbc9e8aeff664972
+source-git-commit: 943fd98f8ac31c968c7e7f12d4da867c767b9b91
 workflow-type: tm+mt
 source-wordcount: '3034'
 ht-degree: 2%
@@ -223,7 +223,7 @@ Adobe Learning Manager现已在学习者应用程序中阻止包含禁止单词�
 3. `quizData`：
 
    * 数据类型应为字符串值，支持的值为`QUIZ_ATTEMPTED`、`QUIZ_PASSED`和`QUIZPASSED_OR_LIMITREACHED`。
-   * 在`completionCriteria`设置为`QUIZ`时，请在此列中输入适当的测验值或将其留空。
+   * 在`completionCriteria`设置为`QUIZ`时，请在`quizData`列中输入相应的测验值。
 
 有关详细信息，请参阅[module_version csv spec](assets/4-module_version.xlsx)文件。
 
@@ -239,7 +239,7 @@ Adobe Learning Manager现已在学习者应用程序中阻止包含禁止单词�
 * 如果将`completionCriteria`设置为`SELECTEDMODULES`，则需要在[course_module.csv](assets/course_module.csv)文件中标记必修模块。
 * 在`optionalCriteria`列中输入`TRUE`或`FALSE`。 如果将值设置为`TRUE`，则会将模块设置为必填。
 
-有关更多信息，请参阅[课程csv规范](assets/3-course.xlsx)文件。
+有关更多信息，请参阅[课程csv规范](assets/3-course.xlsx)和[course_module csv规范](assets/6-course_module.xlsx)文件。
 
 ## API 更改
 

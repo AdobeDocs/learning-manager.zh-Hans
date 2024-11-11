@@ -4,10 +4,10 @@ jcr-language: en_us
 title: 创建课程实例和学习路径
 contentowner: manochan
 exl-id: aba7417b-26a0-4160-878c-5814f84e5155
-source-git-commit: c7969e9386241f316c8ff2590f8015ebc594c3e6
+source-git-commit: b01bf6bf89a3b9d860df712df1b7ef3a859407ed
 workflow-type: tm+mt
-source-wordcount: '4866'
-ht-degree: 60%
+source-wordcount: '5111'
+ht-degree: 58%
 
 ---
 
@@ -235,6 +235,35 @@ Excel 文件包含每个实例的工作表。 工作表中包含以下字段：
 ## 轮候表
 
 当教室课程名额有限时，轮候表部分允许学习者根据其注册顺序进行轮候。 管理员可以通过选择轮候学习者并分配超过初始限制的名额来管理这种情况。 管理员分配名额后，学习者即可立即注册该课程。
+
+### 轮候表报告
+
+Adobe Learning Manager允许管理员下载课程所有实例的轮候学习者列表。 管理员可以从&#x200B;**[!UICONTROL 课程概述]**&#x200B;页面上的轮候表部分访问此报告。
+
+下面是“轮候表”报告中可用的列：
+
+* 课程名称
+* 实例名称
+* 实例 ID
+* 实例状态
+* 用户名
+* 电子邮件
+* 用户唯一 ID
+* 注册日期 (UTC 时区)
+* 状态
+* 轮候编号
+* 轮候表限制
+* 名额限制
+
+要从管理员部分下载报告，请执行以下操作：
+
+1. 以&#x200B;**[!UICONTROL 管理员]**&#x200B;身份登录。
+2. 转到&#x200B;**[!UICONTROL 课程]**&#x200B;部分并选择所需的课程。
+3. 在&#x200B;**[!UICONTROL 课程概述]**&#x200B;页面中选择&#x200B;**[!UICONTROL 轮候表]**&#x200B;选项。
+4. 选择&#x200B;**[!UICONTROL 操作]** > **[!UICONTROL 导出报告]**&#x200B;以下载&#x200B;**[!UICONTROL 轮候表]**&#x200B;报告。
+
+   ![](assets/export-report-waitlist.png)
+   _导出报告_
 
 ## 导出学习者的出勤率 {#attendance}
 
@@ -498,6 +527,31 @@ CSV报告包含以下字段：
 ![](assets/escalation-notification.png)
 
 *设置升级级别*
+
+## 完成注释
+
+当管理员将任何学习者的课程、学习路径或认证标记为完成时，可以发表评论。 这些注释有助于实现合规性和审核目的。 管理员可以一次轻松为一个或多个学习者添加注释。
+
+### 添加完成注释
+
+请按照以下步骤添加完成注释：
+
+1. 以&#x200B;**[!UICONTROL 管理员]**&#x200B;身份登录。
+2. 转到&#x200B;**[!UICONTROL 课程]**&#x200B;页面并选择课程。
+3. 在课程页面中选择&#x200B;**[!UICONTROL 学习者]**。
+4. 选择单个学习者或多个学习者。
+5. 选择&#x200B;**[!UICONTROL 操作]**，然后选择**[!UICONTROL 标记完成]**。
+6. 在对话框中输入完成注释。
+
+   ![](assets/comments.png)
+   _完成注释_
+
+此流程与学习路径和认证的过程相同。 对于学习路径，您可以筛选以选择所有课程，或仅选择单个课程以标记为完成。
+
+![](assets/learning-path.png)
+_选择多个待完成的课程_
+
+评论将显示在[学习者成绩单](/help/migrated/administrators/feature-summary/reports.md#learner-transcripts)报告中。
 
 ## 预览课程 {#previewcourses}
 

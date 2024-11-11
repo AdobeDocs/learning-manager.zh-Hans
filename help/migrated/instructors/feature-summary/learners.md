@@ -4,10 +4,10 @@ jcr-language: en_us
 title: 管理会话的学习者
 contentowner: shhivkum
 exl-id: 2f4f8589-2350-4683-a141-809084d6309a
-source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
+source-git-commit: b01bf6bf89a3b9d860df712df1b7ef3a859407ed
 workflow-type: tm+mt
-source-wordcount: '925'
-ht-degree: 91%
+source-wordcount: '1029'
+ht-degree: 84%
 
 ---
 
@@ -41,6 +41,32 @@ ht-degree: 91%
 
 ![](assets/unenroll-learners.png)
 *取消注册学习者*
+
+### 轮候表报告
+
+Adobe Learning Manager的新&#x200B;**[!UICONTROL 轮候表报告]**&#x200B;允许讲师下载课程所有实例的轮候学习者列表。 讲师可以从&#x200B;**[!UICONTROL 会话概述]**&#x200B;页面上的&#x200B;**[!UICONTROL 轮候表]**&#x200B;部分访问此报告。
+
+下面是“轮候表”报告中可用的列：
+
+* 课程名称
+* 实例名称
+* 实例 ID
+* 实例状态
+* 用户名
+* 电子邮件
+* 用户唯一 ID
+* 注册日期 (UTC 时区)
+* 状态
+* 轮候编号
+* 轮候表限制
+* 名额限制
+
+要从讲师部分下载报告，请执行以下操作：
+
+1. 以&#x200B;**[!UICONTROL 讲师]**&#x200B;身份登录。
+2. 从主页选择任何会话。
+3. 在&#x200B;**[!UICONTROL 会话概述]**&#x200B;页面中选择&#x200B;**[!UICONTROL 轮候表]**&#x200B;选项。
+4. 选择&#x200B;**[!UICONTROL 操作]** > **[!UICONTROL 导出报告]**&#x200B;以下载&#x200B;**[!UICONTROL 轮候表]**&#x200B;报告。
 
 ## 标记会话的出席情况 {#markattendanceforyoursession}
 

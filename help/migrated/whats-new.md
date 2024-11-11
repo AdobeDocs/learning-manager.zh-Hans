@@ -1,354 +1,537 @@
 ---
-description: 了解Adobe Learning Manager 2024年7月版的新增功能和增强功能
+description: 了解Adobe Learning Manager 2024年11月版的新增功能和增强功能
 jcr-language: en_us
 title: 新功能摘要
-exl-id: e63c3d9a-4b91-4acb-950f-8b1cdb0caa1a
-source-git-commit: 8d647f492d6073ed4b16d44e16548a3defdca02a
+source-git-commit: 8deeb3680cd638a33768f048755ee77862c8ef1f
 workflow-type: tm+mt
-source-wordcount: '2325'
-ht-degree: 3%
+source-wordcount: '3035'
+ht-degree: 2%
 
 ---
 
 # 新功能摘要 {#new-features-summary}
 
-了解Adobe Learning Manager 2024年7月版的新增功能和增强功能。
+了解Adobe Learning Manager 2024年11月版的新增功能和增强功能。
 
->[!NOTE]
->
->观看此[网络研讨会](https://nam04.safelinks.protection.outlook.com/?url=https%3A%2F%2Flearningmanager.adobe.com%2Fapp%2Flearner%3FaccountId%3D98632%23%2Fcourse%2F10078152&amp;data=05%7C02%7Cchandrum%40adobe.com%7C90e588d31b994e6a5f4e08dcb87f26a8%7Cfa7b1b5a7b34438794aed2c178decee1%7C0%7C0%7C638588103494535076%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C0%7C%7C%7C&amp;sdata=dNyxQl3IQjEtfGCMnhlfek4Piz%2BPGFfuUss53M8mFK8%3D&amp;reserved=0)，了解有关此版本中新增功能的更多信息。
+* **AI支持的搜索：**&#x200B;将词汇搜索和语义搜索相结合，以获得更智能、可感知上下文的结果。
+* **Webhook**：与Webhook集成以将实时信息发送到特定URL。
+* **学习工具互操作性(LTI)**：支持LTI以实现与其他LMS平台的互操作性。
+* **可信集成**：通过“可信”管理和共享外部徽章。
+* **合规性信息板增强功能**：与其他管理员共享信息板，并在学习者主页上设置默认合规性小组件。
+* **多语言支持**：为教室和虚拟教室模块创建特定于语言的实例。
+* **自定义角色**：增强了对用户角色和权限的控制。
+* **完成评论**：将学习者标记为完成时添加评论。
+* **用户组报告**：使用详细报告管理用户组。
+* **轮候表报告**：下载课程实例的轮候学习者列表。
+* **辅助功能增强**：支持刊头和公司徽标上的替代文本。
+* **支持印地语**：支持印地语的界面语言。
+* **亵渎检查**：阻止包含禁止单词的社交帖子。
+* **电子邮件模板优化**：针对讲师分配和会话取消的合并优化电子邮件模板。
+* **MS团队完成标准**：设置VILT会话的最低出席时间。
+* **新迁移工作流程**：迁移更改包括课程和模块的完成条件以及将模块迁移到文件夹中。
 
-## 合规性信息板中的增强功能
+## Adobe Learning Manager中的AI支持搜索
 
-### 什么是合规性信息板？ {#whatiscompliancedashboard}
+Adobe Learning Manager正在改进学习者搜索课程或培训的方式。 它引入了人工智能驱动的搜索功能，将词汇搜索和语义搜索相结合。 搜索现在更加智能，因为它会查找特定词语，并理解这些词语背后的背景和意图。 高级搜索能够理解查询的含义并提供相关结果。 它标识了搜索的主要重点，为您提供最完整的结果集。
 
-**Adobe Learning Manager**&#x200B;中的&#x200B;**[!UICONTROL 合规性信息板]**&#x200B;允许经理监控和监控学习者实现其学习目标的进度。 他们可检查团队成员是否在截止日期前完成任务并及时完成学习过程，这有助于确保遵循相关说明。 管理员可以设置合规性信息板并与经理共享。
+有关详细信息，请参阅此文章[高级搜索](/help/migrated/learners/feature-summary/advanced-search.md)。
 
-要在管理员应用程序中访问合规性信息板，请选择&#x200B;**[!UICONTROL 报告]** > **[!UICONTROL 学习摘要]** > **[!UICONTROL 合规性信息板]**。
+## Webhook
 
-### 此版本中改进的功能
+Adobe Learning Manager允许与Webhook集成以将实时信息（如课程注册、课程创建和其他信息）发送到特定URL。
 
-使用增强的合规性信息板，管理员和经理可以查看与其特定类别（例如，销售、营销和法律部门）相关的合规性类型的课程、学习路径或认证。 管理员可以将自定义合规性课程分类为特定类别。 自定义合规性类别由目录标签提供支持。  管理员可以创建课程信息板并与经理共享。 然后，经理可以在各自的实例上查看同一信息板。 合规性信息板和合规性电子邮件通知的用户界面也得到了增强。
-![](assets/compliance-dashboard-admin.png)
+ALM中的Webhook允许一个实体通过HTTP自动将数据发送到另一个应用程序。 这样，应用程序就可以向其他应用程序提供信息，而无需经常请求这些信息。 例如，如果用户完成学习管理系统(LMS)课程，Webhook会自动将该信息发送到其他平台，如CRM或报告工具。 Webhook通常用于集成中，以自动化流程并减少系统之间手动更新的需求。 通过提供要向其发送数据的回调URL来设置Webhook。
 
-#### 工作流
+有关更多信息，请参阅这篇文章[Webhook](/help/migrated/integration-admin/feature-summary/webhooks.md)。
 
-以下是使用增强的合规性信息板的步骤：
+## 学习工具互操作性
 
-| 角色 | 任务 | 其他信息 |
-|---|---|---|
-| 管理员 | 创建自定义合规性标签 | 有关详细信息，请参阅此文章[创建自定义合规性标签](/help/migrated/administrators/feature-summary/reports.md#compliance-dashboard) |
-| 作者 | 将这些标签添加到课程中 | 有关更多信息，请参阅本文[向课程/学习路径/认证添加合规性标签](/help/migrated/authors/feature-summary/courses.md#add-compliance-labels-to-courselearning-pathcertification)。 |
-| 管理员 | 创建包含合规性课程的信息板并与经理共享 | 有关详细信息，请参阅这篇文章[创建并共享合规性仪表板](/help/migrated/administrators/feature-summary/reports.md#create-and-share-a-compliance-dashboard)。 |
-| 经理 | 查看合规性信息板 | 有关详细信息，请参阅此文章[合规性状态](/help/migrated/managers/feature-summary/manager-dashboard.md#compliance-status) |
+Adobe Learning Manager现在支持LTI，以增强Adobe Learning Manager和其他学习管理系统(LMS)之间的互操作性。
 
-## 学习者用户界面改进
+### 什么是LTI？
 
->[!IMPORTANT]
->
->新学习者UI将分阶段发布。
+LTI（学习工具互操作性）是一项标准，允许第三方工具和内容提供商连接学习管理系统(LMS)。 用户可直接在其LMS中访问外部内容提供商提供的外部学习内容，而无需登录或导航到其他LMS。
 
-**学习者UI**&#x200B;更新为更加优雅和现代的设计。 **[!UICONTROL 学习者主页]**、**[!UICONTROL 我的学习]**、**[!UICONTROL 目录]**&#x200B;和&#x200B;**[!UICONTROL 课程概述]**&#x200B;登陆页面正在呈现全新的现代化外观。 课程卡还采用新设计，以现代方式显示详细信息。 将鼠标悬停在课程卡上，即可显示课程说明和发布日期。
+LTI作为工具提供商：LTI作为工具提供商，允许外部系统与LMS集成。 Adobe Learning Manager充当LTI工具提供商，允许其他LMS平台直接在其LMS中从Adobe Learning Manager访问课程、证书或学习路径。
 
->[!NOTE]
->
->改版后的用户界面仅适用于沉浸式布局。 移动Web或应用程序尚不支持这些更改，将在未来版本中更新。
+LTI作为工具使用者：LTI作为工具使用者允许LMS通过学习工具互操作性(LTI)集成外部工具。 在这种情况下，LMS是使用外部工具提供的服务。 Adobe Learning Manager充当LTI工具消费者，可集成第三方学习工具。 这允许Adobe Learning Manager学习者使用Adobe Learning Manager内的第三方工具中的课程、证书或学习路径。
 
-![](assets/old-ui.png)
-_旧用户界面_
+有关更多信息，请参阅此文章[学习工具互操作性](/help/migrated/integration-admin/feature-summary/learning-tools-interoperability.md)。
 
-![](assets/new-ui.png)
-_新用户界面_
+## 有信心
 
-### 此版本中改进的功能
+借助Credly功能，ALM中的管理员可让学习者通过平台在各个社交媒体渠道管理和共享外部徽章。
 
-**使外观和感觉现代化**
+### 什么是Credly？
 
-全新的视觉元素符合现代设计趋势，使产品看起来直观且吸引人。 这包括新的刊头、侧面板和外观现代的构件。
+Credly是一个数字凭据平台，允许学习者和组织获取、分享和验证专业成就，例如徽章或认证。 学习者可以通过其Credly个人资料在社交媒体和其他位置管理和共享徽章。
 
-**增强的用户体验**
+### 与Adobe Learning Manager可靠集成
 
-学习者现在可以在以下页面查看类似的卡片视图：“主页” 、 “目录”、“我的学习”和“课程概述”页面，从而提供统一的体验。
+首先，在Adobe Learning Manager (ALM)中添加Credly连接器。 接下来，从Crely迁移现有徽章，以确保学习者成就的连续性。 最后，在Adobe Learning Manager中创建适合学习路径的技能，以提高学习者的发展和认可度。
 
-查看[学习者主页](/help/migrated/learners/feature-summary/learner-home-page.md)了解更多信息。
+有关详细信息，请参阅此文章[相信](/help/migrated/integration-admin/feature-summary/credly-integration.md)
 
-**课程发布日期的更改**
+## 合规性信息板
 
-借助此增强功能，导入到Adobe Learning Manager中的LinkedIn和Go1课程的发布日期将成为LinkedIn和Go1上的实际发布日期。 您还可以在用户界面上查看LinkedIn和Go1课程的实际发布日期。 有关详细信息，请查看[课程卡](/help/migrated/learners/feature-summary/learner-home-page.md#course-cards)。
+在此版本中，管理员现在可以与其他管理员、自定义管理员和商店经理共享信息板，使其可即时访问合规性信息板。 他们现在可以在学习者主页上设置默认合规性构件，允许学习者跟踪其合规性要求。 有关详细信息，请参阅这篇文章[合规性信息板](/help/migrated/administrators/feature-summary/reports.md#share-compliance-dashboard-with-admins-and-custom-admins)。
 
-## 未登录体验的更新
+## 多语言支持
 
-利用未登录体验，您可以为未登录客户创建实时体验。 这是其营销活动的登陆页面，可提供足够的信息来鼓励注册。
+Adobe Learning Manager (ALM)现在允许作者使用教室和虚拟教室模块的语言标记创建语言特定的实例。 学习者可以使用自己的首选语言访问CR/VC模块。 例如，作者可以创建包含两个实例的CR/VC模块：一个使用英语，另一个使用法语。 学习者可以使用自己的首选语言选择实例。
 
-### 此版本中改进的功能
+有关更多信息，请参阅这篇文章[添加不同区域设置的学习对象](/help/migrated/authors/feature-summary/add-new-language-learning-objects.md#multi-language-support-for-crvc-instances-with-language-tagging)。
 
-客户可以购买高级计划来构建这种高度可扩展的非登录体验。 此未记录的体验由[培训数据访问](/help/migrated/integration-admin/feature-summary/connectors.md#training-data-access)提供支持，可使用Adobe Learning Manager API提供有关名额限制、已占用名额、轮候表限制和轮候表计数的实时数据。 客户可以使用这些API提供未登录学习者搜索和筛选功能以及完整的课程摘要。 有关API的详细信息，请参阅这篇文章[未登录的API](/help/migrated/integration-admin/feature-summary/non-logged-in-apis.md)。
+## 自定义角色
 
->[!NOTE]
->
->请联系支持团队或CSAM购买高级计划。
+通过自定义角色，管理员可以为不同的用户组定义特定的角色和责任，从而确保更好地进行管理和控制。 在此版本中，ALM通过提供对以下部分的更详细控制来增强自定义角色。
 
-## 支持多个库存单位(SKU)
+* 用户
+* 课程
+* 学习路径
+* 认证
+* 工作辅助
+* 目录
 
-学习者现在可以将多个课程、学习路径或认证添加到购物车并一起购买。
+管理员可以根据用户责任分配精确的权限，确保每个组仅有权访问相关功能和内容。 这些增强的控制功能允许对关键部分进行更精细的管理。
 
-### 此版本中改进的功能
+以管理员身份登录并导航到&#x200B;**[!UICONTROL 用户]** > **[!UICONTROL 自定义角色]**&#x200B;以创建和管理自定义角色。
 
-以前，学习者一次只能购买一门课程。 在此版本的&#x200B;**Adobe Learning Manager**&#x200B;中，客户可以使用购物车一次购买多个课程、学习路径或认证。
+有关详细信息，请参阅此文章[自定义角色](/help/migrated/administrators/feature-summary/custom-role.md)。
 
-仅学习者应用程序（现有UI、新学习者UI和移动沉浸式应用程序）中有此功能可用。
+## 完成注释
 
-在ALM](/help/migrated/learners/feature-summary/multi-item-cart.md)中查看[多项目购物车
+管理员现在可以在将课程、学习路径或认证中的学习者标记为完成时添加评论。 管理员可以同时为一个或多个学习者添加评论，这些评论将出现在[学习者成绩单](/help/migrated/administrators/feature-summary/reports.md#learner-transcripts)报告中。
 
-## 流体播放器中的HTML5内容支持
+有关详细信息，请参阅此文章[完成注释](/help/migrated/administrators/feature-summary/courses.md#completion-comments)。
 
-**Adobe Learning Manager**&#x200B;现在支持将HTML5内容作为.zip文件上传到内容库。 上传后，这些文件可作为模块包含在课程中。 此外，作者还可以为自学HTML5模块定义完成标准，允许学习者标记完成模块或启动时自动完成模块。
+## 用户组报告
 
-### 此版本中改进的功能
+Adobe Learning Manager的新&#x200B;**[!UICONTROL 用户组报告]**&#x200B;通过提供在管理员离开时不受管理的组的可见性，来帮助管理用户组。 管理员可以访问&#x200B;**[!UICONTROL 用户]** > **[!UICONTROL 用户组]**&#x200B;部分下的报告。 它提供有关每个组的详细信息，包括：
 
-Adobe Learning Manager现在支持在自学课程中添加HTML5支持的内容。 作者可以将HTML5内容作为.zip文件添加到自学内容。 学习者可以在流体播放器中查看HTML5内容。 通过此新功能，学习者现在可以直接在流体播放器中对自学课程标记为已完成。 有关详细信息，请查看[在内容库中添加HTML5文件类型](/help/migrated/authors/feature-summary/content-library.md#add-html5-file-type-in-the-content-library)。
+* 用户组类型
+* 组名称
+* 描述
+* 创建者（名称）
+* 创建者（电子邮件）
+* 创建时间： （UTC时区）
+* 用户数
 
-借助新的增强功能，只要作者将完成条件设置为新选项&#x200B;**[!UICONTROL “启动内容时”]**，则访问URL时，具有外部链接的课程将自动标记为完成。 新选项&#x200B;**[!UICONTROL 完成标准]**&#x200B;已添加到“活动模块”页面中，作者可以在其中设置外部链接的完成标准。 有关详细信息，请查看[在HTML模块](/help/migrated/authors/feature-summary/courses.md#add-html-link-in-the-activity-module)中添加活动链接。
+有关详细信息，请参阅此文章[用户组报告](/help/migrated/administrators/feature-summary/add-users-user-groups.md#user-group-report)。
 
-![](assets/completion-criteria-activity-module.png)
-_完成条件选项 — 活动模块_
+## 轮候表报告
 
-## 移动应用程序上的课程过期推送通知
+Adobe Learning Manager的新&#x200B;**[!UICONTROL 轮候表报告]**&#x200B;允许管理员下载课程所有实例的轮候学习者列表。 管理员和讲师可以从&#x200B;**[!UICONTROL 课程]**&#x200B;或&#x200B;**[!UICONTROL 会话概述]**&#x200B;页面上的&#x200B;**[!UICONTROL 轮候表]**&#x200B;部分访问此报告。 轮候表报告可从“管理员”和“讲师”部分下载。
 
-学习者在错过课程截止日期时，将会收到推送通知。 通过此新增强功能，学习者现在可以选择将提醒暂停24小时，或者下周针对他们收到的每个逾期提醒获取提醒。 这仅适用于截止日期逾期通知。 查看[计划推送通知](/help/migrated/learners/feature-summary/user-notifications.md#schedule-the-push-notification)
+下面是“轮候表”报告中可用的列：
 
-## 此版本中的 API 更改
+* 课程名称
+* 实例名称
+* 实例 ID
+* 实例状态
+* 用户名
+* 电子邮件
+* 用户唯一 ID
+* 注册日期 (UTC 时区)
+* 状态
+* 轮候编号
+* 轮候表限制
+* 名额限制
 
-### 搜索API
+请参阅这些文章[轮候表报告](/help/migrated/administrators/feature-summary/courses.md#waitlist-report)和[轮候表报告](/help/migrated/instructors/feature-summary/learners.md#waitlist-report)，从管理员和讲师部分下载报告。
 
-Search API包含以下更改：
+## 学习者主页中的辅助功能
 
-学习者可以使用```GET /search``` API在目录过滤器中搜索标签。 学习者可以通过选择```tag```作为```filter.loTypes```参数的值来搜索标签。
+Adobe Learning Manager现在支持为所有刊头使用替换文本，以提高学习者的辅助功能。 这让有特殊需求的学习者可以使用屏幕阅读器阅读替代文本并了解图像。 您可以选择多种语言并为每种语言提供替代文本。 确保添加相应语言的替代文本。 确保您的帐户中的公司徽标还包括带有公司名称的替代文本。
+有关详细信息，请参阅这篇文章[公告](/help/migrated/administrators/feature-summary/announcements.md#masthead)。
 
-**卷曲示例**
+## 支持印地语
+
+Adobe Learning Manager现在引入了印地语作为平台的界面语言之一，并支持该平台在印度发展。 支持以印地语为母语的使用者可确保用户能够完全访问所有功能、报告和整体用户体验。
+
+要更改界面语言，请执行以下步骤：
+
+1. 以&#x200B;**[!UICONTROL 管理员]**&#x200B;身份登录。
+2. 转到&#x200B;**[!UICONTROL 配置文件设置]** > **[!UICONTROL 界面语言]**。
+3. 选择&#x200B;**[!UICONTROL 印地语]**&#x200B;作为界面语言。
+
+
+## 社交帖子的亵渎检查
+
+Adobe Learning Manager现已在学习者应用程序中阻止包含禁止单词的社交帖子。 这有助于保持业务的专业性和合规性，尤其是在医疗保健等敏感领域。
+
+## 电子邮件模板优化
+
+### 为学习者分配讲师时向其发送电子邮件
+
+现有电子邮件&#x200B;**[!UICONTROL 您已被添加为讲师]**，并且&#x200B;**[!UICONTROL VCProvider会话详细信息]**&#x200B;已合并到一封电子邮件中&#x200B;**[!UICONTROL 您已被添加为UserType]**。 根据用户的角色，**[!UICONTROL UserType]**&#x200B;将为&#x200B;**[!UICONTROL 讲师]**&#x200B;或&#x200B;**[!UICONTROL 组织者]**。 之前，这些电子邮件在UI中不可用。 这些模板现已合并到一封电子邮件中，并添加到UI中。 管理员可以在&#x200B;**[!UICONTROL 电子邮件模板]**&#x200B;部分中访问此模板。 默认情况下，所有新帐户和现有帐户都将启用此设置，但管理员可以在同一部分中禁用或启用此设置。 每当创建会话并分配讲师时，都将发送此电子邮件，无论是用于Zoom、Teams、Connect还是其他服务。
+
+### 取消会话时向学习者发送电子邮件
+
+从会话中删除的讲师现在将仅收到一封会话取消电子邮件。 之前，他们会收到取消订阅和更新电子邮件。 留在会话中的讲师将收到会话更新电子邮件以及新的会话邀请。
+
+## MS团队完成标准
+
+目前，即使学习者加入虚拟讲师指导培训(VILT)课程仅有几秒钟，也将其标记为已参加。 在此版本中，我们引入了团队模块的完成标准，以确保更准确的出勤率。 作者现在可以设置学习者必须在VILT会话中花费的最少时间以计算其出勤情况。
+
+这是默认禁用的后端功能。 请联系您的CSM以启用它。
+
+## 迁移更改
+
+迁移工作流程中进行了以下更改：
+
+* 将模块迁移到特定的文件夹中。
+* 添加了模块的完成标准。
+* 添加了课程的完成标准
+
+### 模块迁移中的更改
+
+将模块迁移到ALM时，默认情况下，这些模块将保存在公共文件夹中。 在此版本中，我们在[module_version.csv](assets/module_version.csv)文件中添加了一个名为`folder`的新列。 管理员可以使用此列指定模块迁移后应存放的文件夹名称。 管理员还可以通过列出以逗号分隔的文件夹名称，将单个模块放入多个文件夹中。
+
+文件夹列使用字符串数据类型，它是一个可选列。 以下是文件夹列的条件：
+
+* 添加的文件夹名称应为ALM帐户中现有的内容文件夹。
+* 这些值应为逗号分隔的字符串。
+* 如果为已存在于其他文件夹中的模块添加新文件夹名称，新值将不会覆盖或替换分配的文件夹。 模块将添加到新文件夹中，并且可以在现有文件夹中找到。
+* 如果值为空，则该文件夹将默认为&#x200B;**[!UICONTROL Public]**。
+
+有关详细信息，请参阅[module_version csv spec](assets/4-module_version.xlsx)文件。
+
+### 模块迁移中的更改 — 完成标准
+
+管理员可以在模块迁移期间指定模块的完成标准。 在此版本中，我们在[module_version.csv](assets/module_version.csv)中添加了新列`completionCriteria`、`viewPercent`和`quizData`。
+
+以下是新列的条件：
+
+1. `completionCriteria`：
+
+   * 数据类型应为字符串值，支持的值为：
+      * `LAUNCH_CONTENT`
+      * `VIEW_PERCENT`
+      * `QUIZ`
+      * `MARK_COMPLETE`
+   * 仅在模块级别为自学模块类型添加完成标准。
+   * 静态内容支持的值为`LAUNCH_CONTENT`和`VIEW_PERCENT`。
+   * 交互式内容支持的值为`LAUNCH_CONTENT`、`VIEW_PERCENT`和`QUIZ`。
+   * 支持HTML5内容的值为`LAUNCH_CONTENT`和`MARK_COMPLETE`。
+
+2. `viewPercent`：
+
+   * 此列的数据类型应为整数，并且值必须介于0和100之间。
+   * 当completionCriteria设置为`VIEW_PERCENT`时，请在此列中输入所需的视图百分比或将其留空。
+
+3. `quizData`：
+
+   * 数据类型应为字符串值，支持的值为`QUIZ_ATTEMPTED`、`QUIZ_PASSED`和`QUIZPASSED_OR_LIMITREACHED`。
+   * 在`completionCriteria`设置为`QUIZ`时，请在此列中输入适当的测验值或将其留空。
+
+有关详细信息，请参阅[module_version csv spec](assets/4-module_version.xlsx)文件。
+
+### 课程迁移中的更改 — 完成标准
+
+管理员可以在课程迁移期间指定课程的完成标准。 在此版本中，我们在[course.csv](assets/course.csv)中添加了一个名为`completionCriteria`的新列。
+
+以下是`completionCriteria`列的条件：
+
+* 数据类型应为字符串或数字，并且是可选字段。
+* 值应为`ALL`、`X`和`SELECTEDMODULES`。
+* X是一个整数值，它应大于0且小于模块的总数。
+* 如果将`completionCriteria`设置为`SELECTEDMODULES`，则需要在[course_module.csv](assets/course_module.csv)文件中标记必修模块。
+* 在`optionalCriteria`列中输入`TRUE`或`FALSE`。 如果将值设置为`TRUE`，则会将模块设置为必填。
+
+有关更多信息，请参阅[课程csv规范](assets/3-course.xlsx)文件。
+
+## API 更改
+
+下面是API更改：
+
+* **搜索API**：
+   * 新增带选项的模式过滤器： classicSearch和advanceSearch。
+   * snippetTypes的新loMetadata选项。
+* **公告API**：
+   * 包含刊头说明的altText属性。
+* **实例API**：
+   * 用于检索区域设置详细信息的新的区域设置属性。
+* **亵渎检查**：
+   * 更新了API，以检查社交帖子上的评论和回复中是否有禁止的字词：
+* **RPM和突发限制**：
+   * 为所有API添加了RPM（每分钟请求数）和突发限制。
+* **徽章API**：
+   * 用于检索有关外部徽章信息的新属性externalProvider。
+* **作业API**：
+   * 使用作业API下载用户组报告和自定义角色审核报告。
+
+### 搜索API中的更改
+
+搜索API现在有一个包含两个选项的新模式筛选器： `classicSearch`和`advanceSearch`。 `snippetTypes`还有一个新的`loMetadata`选项。 若要获得最佳结果，请在使用`advanceSearch`模式时在`snippetTypes`中包含`loMetadata`。
+
+### 公告API变更
+
+`GET /announcements API`现在包含用于提供刊头说明的`altText`属性。
+
+#### 使用cURL的请求示例：
 
 ```
-curl -X GET --header 'Accept: application/vnd.api+json' --header 'Authorization: oauth <oauth_token>' 'https://example.com/primeapi/v2/search?page[limit]=10&query=Business&autoCompleteMode=true&filter.loTypes=tag&sort=relevance&filter.ignoreEnhancedLP=true&matchType=phrase&persistSearchHistory=true&stemmed=false&highlightResults=true'
+curl -X GET --header 'Accept: application/vnd.api+json' --header 'Authorization: oauth 12345678' 'https://abcd.adobe.com/primeapi/v2/announcements/123456'
 ```
 
-新过滤器、可用名额、可用轮候表和时间范围过滤器已添加到以下API： ```GET /search```和`GET /learningObjects`。
-
-新筛选器`filter.session.includeEnrollmentDeadline`已添加到以下API ```GET /search```。
-
-### 帐户API
-
-已在```GET /account``` API中添加了新列`custom_injections`、`showComplianceLabel`和`complianceLabelDefaultID`以获取用户终结点的帐户数据。
-
-### 学习对象 API
-
-以下为此次更新中对学习对象API所做的更改：
-
-新响应的旧作者ID和`GET /learningObjects` API中的`authorDetails`下添加的其他详细信息。 此外，已添加新过滤器`filter.authors`，以过滤旧作者及其课程。
-
-名为`effectivenessIndex`的新属性将帮助您获取课程效果数据。
-
-**卷曲示例**
-
-```
-curl --location 'https://example.com/primeapi/v2/learningObjects/course%3A9790045?enforcedFields%5BlearningObject%5D=effectivenessData' \
---header 'Accept: application/vnd.api+json' \
---header 'Authorization: oauth <oauth_token>'
-```
-
-新响应`whoShouldTake`已添加到以下API： `POST /learningObjects/query`、`GET /learningObjects/{id}`和`GET /learningObjects`，其中提供了有关谁应该参加此课程的详细信息。
-
-**卷曲示例**
-
-```
-curl -X GET --header 'Accept: application/vnd.api+json' --header 'Authorization: oauth <oauth_token>' 'https://example.com/primeapi/v2/learningObjects/course%3A1131255' 
-```
-
-新响应`waitlistLimit`已添加到`GET /learningObjects` API，其中提供了有关轮候表限制的详细信息。
-
-提供学习对象总计数的新响应`count`已添加到API `GET/ learningObjects`和`POST/ learningObjects/query`。
-
-已在`GET/ learningObjects` API中的`catalogLabels`下添加了新的响应`catalogFieldId`和`fieldValueId`。
-
-学习者可以在API `GET /preview/learningObjects`中获取目录标签值。
-
-### 用于获取市场计数的新API
-
-在此版本中，添加了新API `GET /search/marketplace/count`。 这可以帮助您获取内容市场中可用学习对象的计数。
-
-**卷曲示例**
-
-```
-curl -X GET --header 'Accept: application/vnd.api+json' --header 'Authorization: oauth <oauth_token>' 'https://example.com/primeapi/v2/search/marketplace/count?query=course'
-```
-
-**示例响应**
+#### 示例响应：
 
 ```
 {
-  "count": 54910
+  "links": {
+    "self": "https://abcd.adobe.com/primeapi/v2/announcements/123456"
+  },
+  "data": {
+    "id": "12345",
+    "type": "adminAnnouncement",
+    "attributes": {
+      "actionUrl": "google.com",
+      "announcementType": "MASTHEAD",
+      "expiryDate": "2038-01-19T03:14:07.000Z",
+      "liveDate": "2024-07-31T11:11:30.000Z",
+      "contentMetaData": [
+        {
+          "contentType": "IMAGE",
+          "contentUrl": "https://abcd.adobe.com",
+          "locale": "en-US",
+          "altText": "Moonlight - english changed new",
+          "thumbnailUrl": "https://abcd.adobe.com/"
+        },      ]
+    }
+  }
 }
 ```
 
-### 学习对象实例API
+### 实例API中的更改
 
-以下为此次更新中对学习对象实例API所做的更改：
+新`locale`属性已添加到以下API以检索区域设置详细信息。
 
-在此版本中，名为`gamificationEnabled`的新密钥已添加到学习对象实例API `GET /learningObjects/{loId}/instances/{loInstanceId}`。
+* `GET /learningObjects/{loId}/instances/{loInstanceId}`
+* `GET /learningObjects/{id}?include=instances,enrollment.loInstance`
+* `GET /learningObjects?include=instances,enrollment.loInstance`
+* `GET /learningObjects/{id}/relatedLOs?include=instances,enrollment.loInstance`
+* `POST /learningObjects/query?include=instances,enrollment.loInstance`
+* `POST /search/query?include=model.instances`
+* `GET /search?include=model.instances`
 
-**卷曲示例**
-
-```
-curl --location 'http://example.com/acapapi/primeapi/v2/learningObjects/learningProgram:12756/instances/learningProgram:12756_15644' 
-```
-
-上述API的新`gamificationSettings`属性可获取游戏设置的详细信息。 例如： `GET /learningObjects/{loId}/instances/{loInstanceId}/gamificationSettings`。
-
-**卷曲示例**
+#### 使用cURL的请求示例：
 
 ```
-curl --location 'http://example.com/acapapi/primeapi/v2/learningObjects/learningProgram:103852/instances/learningProgram:103852_103526/gamificationSettings'
+curl --location 'http://abcd.com/primeapi/v2/learningObjects/course:1234567/instances/course:1234567_1234567' \
 ```
 
-上述API的新`leaderboard`属性可获取游戏设置的详细信息。 例如： `GET /learningObjects/{loId}/instances/{loInstanceId}/leaderboard`。
-
-**卷曲示例**
+#### 示例请求：
 
 ```
-curl --location 'https://example.com/primeapi/v2/learningObjects/learningProgram:106339/instances/learningProgram:106339_105775/leaderboard' \
---header 'Accept: application/vnd.api+json' \
---header 'Authorization: oauth <oauth_token>'
+{
+    "links": {
+        "self": "http://abcd.com/primeapi/v2/learningObjects/course:1234567/instances/course:1234567_1234567"
+    },
+    "data": {
+        "id": "course:1234567_1234567",
+        "type": "learningObjectInstance",
+        "attributes": {
+            "dateCreated": "2024-02-27T09:21:25.000Z",
+            "isAET": false,
+            "isDefault": true,
+            "isFlexible": false,
+            "locale": "en-US",
+            "state": "Active",
+            "localizedMetadata": [
+                {
+                    "locale": "en-US",
+                    "name": "Default instance"
+                }
+            ]
+        },
+        "relationships": {
+            "learningObject": {
+                "data": {
+                    "id": "course:1234567",
+                    "type": "learningObject"
+                }
+            },
+            "loResources": {
+                "data": [
+                    {
+                        "id": "course:123456_1234567_1234567_1",
+                        "type": "learningObjectResource"
+                    }
+                ]
+            }
+        }
+    }
+}
 ```
 
-### 日期和 — date的排序行为变更
+### 用于亵渎检查的公共API更改
 
-支持按日期和日期排序的API会显示所有学习对象（学习路径除外）基于发布日期的结果。 学习路径仍会根据&#x200B;**有效修改时间**&#x200B;日期列出。 此更改将在以下API中显示：
+更新了以下API，可对社交帖子上的评论和回复进行亵渎检查。
 
-* GET /learningObjects
-* GET /search
-* POST /learningObjects/query
-* POST/搜索/查询
+* `POST /boards/{id}/posts `
+* `PATCH /posts/{id}`
+* `POST /posts/{id}/comments`
+* `PATCH /comments/{id}`
+* `POST /comments/{id}/replies`
+* `PATCH /replies/{id}`
 
-### 偏移限制的更改
+如果在帖子中找到受限单词，则将发送以下回复。
 
-为改进系统性能并更有效地管理资源利用率，Adobe在ADMIN和LEARNER范围的GET/users端点中弃用了高偏移值。 我们建议使用作业API检索具有偏移值的记录。
+#### 示例响应：
+
+```
+{
+  "status": "FORBIDDEN",
+  "title": "BAD_WORD_FOUND",
+  "source": {
+    "info": "Unacceptable word found in post"
+  }
+}
+```
 
 ### RPM和突发限制的变化
 
-在此版本中，为所有API添加了RPM（每分钟请求数）和突发限制。 您可以在Swagger页面上检查每个API的最大RPM。
+在此版本中，为所有API添加了RPM（每分钟请求数）和突发限制。 可以在Swagger页面上检查每个API的最大RPM。
 
-RPM是您在一分钟内可以发送到API服务器的请求数。 突发限制允许在短时间内处理更多请求，超出通常的速率限制。
+RPM是您在一分钟内可以发送到API服务器的请求数。 突发限制允许在短时间内处理更多请求，超出通常的速率限制。 例如，`learningObject` API允许每分钟最多15个请求。 如果超出此限制，则API将返回错误消息。
 
-### 已弃用的API
+### 徽章API的更改
 
-有关产品中所有已弃用API的累积列表，请在Adobe Learning Manager](/help/migrated/api-deprecations-list.md)中查看[API弃用。
+新属性`externalProvider`已添加到以下API，以检索有关外部徽章的信息，包括徽章ID和提供者名称。
 
-## 对报告的更改
+* `GET /badges `
+* `GET /badges/{id}`
+* `GET /skills?include=levels.badge`
+* `GET /skills/{id}?include=levels.badge`
+* `GET /learningObjects/{loId}/instances/{loInstanceId}?include=badge`
+* `GET /users/{userId}/userBadges`
+* `GET /users/{userId}/userBadges/{id}`
 
-### 合规性信息板
+#### 使用cURL的请求示例：
 
-在此版本中，合规性信息板报告包含两个新列：
+```
+curl -X GET --header 'Accept: application/vnd.api+json' --header 'Authorization: oauth 123456789' 'https://abcd.adobe.com/primeapi/v2/badges/44'
+```
 
-* 状态
-* 合规类型
+#### 示例响应：
 
-这是对现有列的补充：
+```
+{
+  "links": {
+    "self": "https://abcd.adobe.com/primeapi/v2/badges/44"
+  },
+  "data": {
+    "id": "44",
+    "type": "badge",
+    "attributes": {
+      "imageUrl": "https://abcd.com/accountassets/1/badges/download.png",
+      "name": "external badge",
+      "state": "Active",
+      "externalProvider": {
+        "id": "1234sjd-b272-4de1-9b60-1234567",
+        "provider": "credly"
+      }
+    }
+  }
+}
+```
 
-* 用户名
-* 用户电子邮件
-* 学习计划/认证/课程
-* 类型
-* 注册日期（UTC 时区）
-* 截止日期（UTC 时区）
-* 完成日期（UTC 时区）
-* 进度百分比
+### 通过作业API下载用户组和自定义角色审核报告
 
-### 培训报告
+用户可以使用`Job API`下载&#x200B;**[!UICONTROL 用户组报告]**&#x200B;和&#x200B;**[!UICONTROL 自定义角色审核报告]**。
 
-**管理员** > **报告** > **自定义报告**&#x200B;和&#x200B;**作业API**&#x200B;中的培训报告过去具有名为&#x200B;**技能**&#x200B;和&#x200B;**标记**&#x200B;的列。 这些列现已重命名为&#x200B;**技能**&#x200B;和&#x200B;**标签**。
+#### 用户组报告下载请求示例：
 
-### 内容审核报告
+```
+curl -X POST --header 'Content-Type: application/vnd.api+json;charset=UTF-8' --header 'Accept: application/vnd.api+json' --header 'Authorization: oauth 12345678' -d '{ \ 
+     "data": { \ 
+         "type": "job", \ 
+         "attributes": { \ 
+             "jobType": "generateUserGroupReport" \ 
+         } \ 
+    } \ 
+ }' 'https://abcd.adobe.com/primeapi/v2/jobs'
+```
 
-在此版本中，**[!UICONTROL 内容审查追踪]**&#x200B;报告现在在“修改类型”列中包括以下新属性：
+#### 下载自定义角色审核报告的请求示例：
 
-* 用户组添加
-* 用户组删除
-* 添加自定义标签
-* 自定义标签移除
-* 添加共享目录
-* 删除共享目录
-* 共享目录更新
+```
+curl -X POST --header 'Content-Type: application/vnd.api+json;charset=UTF-8' --header 'Accept: application/vnd.api+json' --header 'Authorization: oauth 1234567' -d '{
+    "data": {
+        "type": "job",
+        "attributes": {
+            "description": "description of your choice",
+            "jobType": "generateCustomRoleAuditReport",
+            "payload":{
+                 "fromDate": "2020-01-01T18:30:00.000Z",
+                 "toDate": "2024-09-31T18:30:00.000Z",
+                 "locale":  "en-US"
+            }
+        }
+   }
+}
+```
 
-## 此更新中修复的错误
+### 无请求正文的错误消息
 
-**活动提交**
+对于请求正文为必填内容，但API中未提供该正文的情况，我们引入了特定的错误消息。
 
-* 在网络调用中，尝试将文件重新上传到活动提交模块失败，并显示错误500。
+#### 示例错误消息：
 
-**API**
+```
+{
+    "status": "BAD_REQUEST",
+    "title": "Generic Error"
+}
+```
 
-* 如果多名讲师具有相同的电子邮件地址，则创建Connect VC会议将会失败。
-* 注册学习路径后，MS Teams VC的“概述”页面上显示错误的URL。
-* 作为作业API响应的一部分提供的用户报告预签名的URL在六小时后过期。
-* 在生成课程注册报告时， “课程名称”列显示的课程名称不正确。
-* 迁移工作进程在为课程调用批量API时无法发送唯一的学习对象ID，但ID会被删除。
-* 课程包含在用户可以访问的特定目录中后（默认目录处于禁用状态），即使设置阻止未注册的学习者查看课程，您仍然可以通过learningobject/id端点检索课程元数据。
-* 当skillname在/learningObject APIGET中的名称中包含逗号时，技能过滤器无法按预期工作。
-* SFTP数据保留工作程序中文件的时间戳元数据不一致。
-* 如果删除并重新配置了任何连接器，则项目迁移状态似乎已关闭。
-* 培训报告将“标记”作为列标题，而不是“标记”。
-* 如果目录被禁用并且任何导出的课程仅是禁用目录的一部分，则Commerce连接器导出会失败。
+## 报告增强功能
 
-**认证**
+管理员可以在&#x200B;**管理员** > **报告**&#x200B;部分中找到这些报告更改。
 
-* 有时，重新注册用户以参加循环认证会失败。
+### “学习成绩单”报告
 
-**自定义角色**
+**[!UICONTROL 学习成绩单]**&#x200B;报告将包含两个新列：
 
-* 在某些情况下，当自定义管理员尝试切换到讲师角色时，会显示“错误403 filible”（禁止使用）。
+* 模块 ID
+* 课程实例 ID
 
-**电子邮件模板和通知**
+### 会话摘要报告
 
-* 取消会话后，当从会话中删除讲师时，电子邮件通知不会发送给最后一组讲师。
-* 在创建虚拟讲师主导的培训后，组织者不会收到MS Teams的电子邮件通知。 只有在发布课程并启用电子邮件模板后，才会触发电子邮件。
-* 有时，电子邮件模板包含不正确的日期格式和翻译。
+**[!UICONTROL 会话摘要]**&#x200B;报告将包含三个新列：
 
-**学习者**
+* 模块 ID
+* 会话 ID
+* 课程实例 ID
+* 完成计数
 
-* 当学习者注册了课程的多个实例，而您下载了出勤报告时，报告会包含错误信息。
-* 如果将其他用户的私人帖子添加到公共文章中，则用户可以查看这些帖子。
-* 在某些情况下，无法从认证中取消注册学习者。 尝试取消注册时，会显示错误消息。
-* 仅选择一门课程后，即使管理员将认证标记为已完成，认证仍会被标记为已完成。
-* 如果会话结束时间更改为之前的日期，则管理员无法将VC标记为完成。
-* 对于轮候表中的学习者，“会话出席情况”报告显示为“未出席”。
+## 本次更新中修复的错误
 
-**学习者应用程序**
-
-* 将课程备注下载为PDF后，备注会随机显示。 他们不服从命令。
-
-**学习路径**
-
-* 在“学习路径”中选择技能后，选择该文本字段时，下拉列表未按预期显示。
-* 在某些情况下，您无法从学习路径中删除技能。
-
-**学习计划**
-
-* 如果灵活学习计划包含许多课程，则在管理员标记完成学习计划后，该计划仍未完成。
-* 学习者更改实例时，注册报告中的last_modified_by列不会更新。
-
-**举报**
-
-* 在某些情况下，管理员无法导出培训报告。
-* 如果SCORM内容包含的问题或答案超过32,767个字符，则您无法在Excel中下载课程测验报告。
-* 选择“重置游戏”后，“级别实现日期”不会重置。
-
-**搜索**
-
-* 目前，导出所有用户组后，删除的用户组也具有输出功能。
-* 由于间歇性搜索问题，您无法搜索认证。
-
-## 此版本中的已知问题
-
-Mobile Offline播放器不会加载HTML5内容。
+* 修复了在Android和iOS设备上提交文件期间从活动模块上传视频时发生的错误。
+* 修复了在移动应用程序上打开课程时出现的问题；Web版本可正常运行。
+* 修复了在Safari中查看工作辅助和其他资源的问题。
+* 修复了阻止用户下载移动应用程序上的工作辅助的问题。
+* 修复了修补程序用户API文档中的错误。
+* 修复了从课程中删除会话时，组织者未收到电子邮件通知的问题。
+* 修复了从课程中删除并重新发布模块后，组织者不会收到会话取消电子邮件的问题。
+* 添加了在外部用户创建期间在电子邮件地址中包含特殊字符“+”和“ — ”的支持。
+* 修复了Marketo连接器统一报告同步在CSV记录值中包含双引号时失败的问题
+* 修复了`/skills`端点为Admin API返回正确状态，但学习者API持续显示不正确或缓存的数据的问题。
+* 修复了帐户未设置Go1连接器时，免费增值课程的Go1入门培训失败的问题。
+* 修复了学习路径(LP)中的课程在学习者已完成LP时无法通过迁移访问的问题。
+* 修复了当用户经理和跳级经理均设置为SU（超级用户）而非管理员且未包含在CSV中时，增量用户CSV失败的问题。
+* 修复了信息板报告中商店经理的范围问题。
+* 修复了在删除草稿课程时未删除xapi_iri的问题。
+* 修复了在某些情况下无法添加唯一学习对象ID的问题。
+* 修复了学习计划中的IsEmbeddable属性在共享学习计划中无法正确更新的问题。
+* 修复了影响“学习者”视图中的学习路径总持续时间显示的问题。
+* 修复了允许学习者在删除其帐户后，通过自行注册链接进行注册的问题。
+* 修复了在创建课程期间，在课程描述中添加链接时，`www`被删除的问题。
+* 修复了隐藏信息和下载工作辅助无法正常工作的问题。
+* 修复了通过具有IP ID的自注册链接添加的新用户无法进行单点登录(SSO)的问题。
+* 修复了在删除公告后无法获取通知消息数据的问题。
+* 修复了通过电子邮件搜索用户时搜索结果不足的问题。
 
 ## 系统要求
 
@@ -356,5 +539,5 @@ Mobile Offline播放器不会加载HTML5内容。
 
 ## Adobe Learning Manager 的早期版本
 
+* [2024年7月版](/help/migrated/whats-new-july-2024.md)
 * [2024年3月版](/help/migrated/whats-new-march-2024.md)
-* [2023年11月版](/help/migrated/whats-new-november-2023.md)

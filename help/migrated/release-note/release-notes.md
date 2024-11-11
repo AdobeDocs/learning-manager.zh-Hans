@@ -4,9 +4,9 @@ jcr-language: en_us
 title: Adobe Learning Manager发行说明
 contentowner: jayakarr
 exl-id: ae9251b6-5326-42c2-881e-2ab3393d9e17
-source-git-commit: aae70c4dc7c0e613794c294a39001071e9f131d4
+source-git-commit: a655c86ab14f23fc9954229244d94a79d3188642
 workflow-type: tm+mt
-source-wordcount: '26251'
+source-wordcount: '26237'
 ht-degree: 72%
 
 ---
@@ -29,7 +29,7 @@ ht-degree: 72%
 
 ## 此版本中新增的功能
 
-查看[“Adobe Learning Manager 新增功能”](/help/migrated/whats-new.md)了解更多信息。
+查看[“Adobe Learning Manager 新增功能”](/help/migrated/whats-new-july-2024.md)了解更多信息。
 +++
 
 +++更新96：Adobe Learning Manager 2024年3月版
@@ -47,7 +47,7 @@ ht-degree: 72%
 
 ## 此版本中新增的功能
 
-查看[“Adobe Learning Manager 新增功能”](https://experienceleague.adobe.com/en/docs/learning-manager/using/introduction/whats-new-november-2023)了解更多信息。
+查看[“Adobe Learning Manager 新增功能”](/help/migrated/whats-new-november-2023.md)了解更多信息。
 +++
 
 +++更新94
@@ -395,8 +395,6 @@ Microsoft Teams 上的新 Adobe Learning Manager 应用程序旨在加强工作�
 * 培训概述页面增强功能
 * 自定义播放器
 * 学习者和经理模拟
-
-有关更多信息，请参阅 [Adobe Learning Manager 2022 年 11 月版中的新增功能](/help/migrated/whats-new-2022-november.md)。
 
 **注意：**&#x200B;在2022年11月版Adobe Learning Manager中，Zoom将于2023年6月前弃用[JWT身份验证](https://marketplace.zoom.us/docs/guides/auth/jwt/)。 因此，带 JWT 的 Zoom 连接器将继续运行至 6 月，但我们建议用户创建服务器到服务器 OAuth 应用程序，以替换帐户中的功能。默认情况下，所有新连接都将拥有 Zoom OAuth 身份验证。
 
@@ -3037,7 +3035,7 @@ Adobe Learning Manager 允许您将徽章导出为 PDF 文件。有关更多信�
 
 **创建技能**
 
-在学习者登录中，{Skills map {0**中的技能名称工具提示&#x200B;****不显示****全名。**&#x200B;此问题现已修复。
+在学习者登录中，**技能地图**中的“技能名称”工具提示&#x200B;****未显示****&#x200B;全名。 此问题现已修复。
 
 **添加外部合作伙伴**
 

@@ -4,10 +4,10 @@ jcr-language: en_us
 title: 报告
 contentowner: manochan
 exl-id: 31b176b7-4b8f-4851-a0c5-4eee58bceb41
-source-git-commit: e7fc4216fea9afffc277f93f4b3c1e8e58b7a2ed
+source-git-commit: b01bf6bf89a3b9d860df712df1b7ef3a859407ed
 workflow-type: tm+mt
-source-wordcount: '7133'
-ht-degree: 57%
+source-wordcount: '7828'
+ht-degree: 52%
 
 ---
 
@@ -289,63 +289,107 @@ _合规性信息板 — 管理员视图_
 >
 >共享新仪表板将覆盖所选经理的应用程序中的现有仪表板。 经理将能够查看管理员新共享的信息板。
 
-<!--In the final visualization, you can check the compliance status of learners, and take appropriate action.
+#### 与管理员和自定义管理员共享合规性信息板
 
-Also, an Admin can view individual training data in the **[!UICONTROL Compliance Dashboard]**.
+管理员可以与其他管理员和自定义管理员共享信息板，使其能够即时访问所有合规性信息板。
 
-For instance, the Administrator has identified three trainings to track compliance. Learning Manager provides the compliance snapshot for all three trainings at once.
+按照以下步骤与管理员和自定义管理员共享信息板：
 
-Now an Admin can click on any training and quickly view the compliance for the selected training.
+1. 以&#x200B;**[!UICONTROL 管理员]**&#x200B;身份登录。
+2. 导航至&#x200B;**[!UICONTROL 报告]** > **[!UICONTROL 学习摘要]**。
+3. 在&#x200B;**[!UICONTROL 合规性信息板]**&#x200B;部分选择&#x200B;**[!UICONTROL 管理员视图]**。
+4. 选择&#x200B;**[!UICONTROL 共享仪表板]**&#x200B;按钮。
 
-![](assets/compliance-dashboard.png)
-*View Compliance dashboard*
+   ![](assets/share-dashboard.png)
+   _共享仪表板 — 管理员_
 
-You can also see the compliance status for each internal team.
+5. 从&#x200B;**[!UICONTROL 选择自定义合规性]**&#x200B;下拉菜单中选择合规性标签。 此选项将选择具有选定合规性标签的所有课程。
+6. 选择要与管理员共享的其他课程、学习路径或认证。
 
-Click the link **[!UICONTROL Compliance Status Details]** on the bottom of the visualization. 
+   ![](assets/share-button.png)
+   _共享合规性信息板_
 
-You can see that, for a team, the number of learners in the team are violating or honoring the learning compliance.
+7. 选择要共享仪表板的用户或用户组，然后选择&#x200B;**[!UICONTROL 共享]**。
 
-![](assets/compliance-statusofateam.png)
-*Compliance status of a team*
+##### 查看合规性信息板 — 自定义管理员和其他管理员
 
-### Share training with managers
+所选用户组中的所有自定义管理员和其他管理员都可以在其应用程序上看到合规性信息板。
 
-Learning Manager offers compliance dashboard to all Administrators and Managers. Managers find it very useful to track compliance of their team members for a particular training. At the same time, Administrators would like all Managers to add compliance trainings to their dashboard and track it. 
+请按照以下步骤查看合规性信息板：
 
-In Learning Manager, the **[!UICONTROL Share with Managers]** workflow allows Administrators to share training with Managers, so that they can get added to a manager's Compliance Dashboard. Thus, Managers do not need to take any action and can start tracking compliance immediately. 
+1. 导航至&#x200B;**[!UICONTROL 报告]** > **[!UICONTROL 学习摘要]** > **[!UICONTROL 合规性信息板]**。
+2. 在&#x200B;**[!UICONTROL 合规性信息板]**&#x200B;部分选择&#x200B;**[!UICONTROL 您的视图]**。
+3. 选择&#x200B;**[!UICONTROL 转到合规性信息板]**&#x200B;选项，您将看到管理员共享的新合规性信息板。
 
-An Administrator can share a set of training courses with managers individually or with a group. This sharing can help a manager easily track the compliance of his/her team for the specified training.
+   ![](assets/compliance-custom-view.png)
+   _查看合规性信息板 — 自定义管理员_
 
-The Administrator can "push" a default list of compliance training to be viewed in the manager's compliance dashboard.
+#### 与商店经理共享
 
-### Share training
+管理员可以与商店经理共享合规性信息板，以便他们监控学习者的合规性进度。
 
-1. In **[!UICONTROL Reports]** > **[!UICONTROL Learning Summary]**, scroll down, and click the tab **[!UICONTROL Share with Managers]**. 
+请按照以下步骤与商店经理共享信息板：
 
-   ![](assets/share-with-managers.png)
-   *Share training with managers*
+1. 以&#x200B;**[!UICONTROL 管理员]**&#x200B;身份登录。
+2. 导航至&#x200B;**[!UICONTROL 报告]** > **[!UICONTROL 学习摘要]** > **[!UICONTROL 合规性信息板]**。
+3. 在&#x200B;**[!UICONTROL 合规性仪表板]**&#x200B;部分中选择&#x200B;**[!UICONTROL 经理视图]**。
+4. 选择&#x200B;**[!UICONTROL 共享仪表板]**&#x200B;按钮。
 
-1. To add training or multiple training, click **[!UICONTROL Share more]**.   
+   ![](assets/share-manager.png)
+   _与经理共享合规性信息板_
 
-1. In the **[!UICONTROL Share with Managers]** dialog, choose the training(s) and the manager(s).
+5. 从&#x200B;**[!UICONTROL 选择自定义合规性]**下拉菜单中选择合规性标签。
+此选项将选择具有选定合规性标签的所有课程。
+6. 选择要与管理员共享的其他课程、学习路径或认证。
+7. 选择要共享仪表板的用户或用户组，然后选择&#x200B;**[!UICONTROL 共享]**。
 
-   ![](assets/select-training.png)
-   *Select training to share with managers*
+##### 查看合规性信息板 — 经理
 
-1. Click **[!UICONTROL Share]**.
+有关详细信息，请参阅此文章[查看合规性仪表板](/help/migrated/managers/feature-summary/manager-dashboard.md#view-the-dashboard)。
 
-The training is now shared with the specified manager.
+#### 编辑仪表板
 
-### View training
+执行以下步骤可编辑合规性信息板：
 
-In the list of shared training, click **[!UICONTROL View]**. You can view the training that is assigned to a manager or some managers.
+1. 以&#x200B;**[!UICONTROL 管理员]**&#x200B;身份登录。
+2. 导航至&#x200B;**[!UICONTROL 报告]** > **[!UICONTROL 学习摘要]** > **[!UICONTROL 合规性信息板]**。
+3. 在&#x200B;**[!UICONTROL 合规性信息板]**&#x200B;部分中选择&#x200B;**[!UICONTROL 管理员视图]**&#x200B;或&#x200B;**[!UICONTROL 经理视图]**。 您可以在此部分中查看合规性信息板。
+4. 在要编辑的合规性仪表板上，选择&#x200B;**[!UICONTROL 编辑]**。
 
-### Withdraw training
+   ![](assets/edit.png)
+   _编辑合规性信息板_
 
-1. To withdraw training from a manager, click **[!UICONTROL Withdraw]**.  
+5. 更改所需的详细信息，然后选择&#x200B;**[!UICONTROL 共享]**。
+6. 合规性信息板将与所选经理共享。
 
-1. Click **[!UICONTROL Proceed]**. This withdraws previously shared training from the Manager's compliance dashboard.-->
+#### 退出仪表板 — 管理员
+
+按照以下步骤退出合规性信息板：
+
+1. 以&#x200B;**[!UICONTROL 管理员]**&#x200B;身份登录。
+2. 导航至&#x200B;**[!UICONTROL 报告]** > **[!UICONTROL 学习摘要]** > **[!UICONTROL 合规性信息板]**。
+3. 在&#x200B;**[!UICONTROL 合规性信息板]**&#x200B;部分中选择&#x200B;**[!UICONTROL 管理员视图]**&#x200B;或&#x200B;**[!UICONTROL 经理视图]**。 您可以在此部分中查看合规性信息板。
+4. 在要删除的合规性信息板中选择&#x200B;**[!UICONTROL 撤消]**，然后选择&#x200B;**[!UICONTROL 继续]**。
+5. 此操作将从经理的应用程序中删除共享合规性信息板。
+
+   ![](assets/manager-edit.png)
+   _退出合规性信息板_
+
+#### 为学习者设置默认合规性构件
+
+请按照以下步骤为学习者设置默认合规性小组件：
+
+1. 以&#x200B;**[!UICONTROL 管理员]**&#x200B;身份登录。
+2. 导航至&#x200B;**[!UICONTROL 报告]** > **[!UICONTROL 学习摘要]** > **[!UICONTROL 合规性信息板]**。
+3. 在&#x200B;**[!UICONTROL 合规性信息板]**&#x200B;部分选择&#x200B;**[!UICONTROL 学习者视图]**。
+4. 在&#x200B;**[!UICONTROL 学习者视图]**&#x200B;部分中选择&#x200B;**[!UICONTROL 更改]**。
+
+   ![](assets/learner-widget.png)
+   _为学习者设置默认合规性小组件_
+5. 从&#x200B;**[!UICONTROL 自定义合规性]**&#x200B;下拉菜单中选择合规性标签。 此选项将选择具有选定合规性标签的所有课程。
+6. 选择“**[!UICONTROL 继续]**”以设置默认合规性构件。
+
+学习者可以在主页上的合规性小组件上查看所选课程或学习路径。 有关详细信息，请参阅[合规性仪表板小组件](/help/migrated/learners/feature-summary/learner-home-page.md#compliance-dashboard-widget)。
 
 ## 自定义报告
 
@@ -846,6 +890,34 @@ Learning Manager支持培训报告功能，管理员可以通过该功能下载�
 * 学习元素提醒
 * 范围 - 目录
 * 范围 - 用户组
+
+### 自定义角色的审计追踪
+
+管理员可以下载自定义角色审核报告，以跟踪对自定义角色所做的所有更改，包括创建、修改和删除自定义角色及其关联的功能访问权限。
+
+要下载报告，请执行以下步骤：
+
+1. 以管理员身份登录。
+2. 选择“报告”>“自定义报告”。
+3. 选择自定义角色审核记录并选择日期范围
+4. 选择生成以下载报告。
+
+“自定义角色审查追踪”报告包含以下字段：
+
+* 角色 ID
+* 角色名称
+* 活动类型
+* 修改类型
+* 描述
+* 引用对象类型
+* 引用对象 ID
+* 引用对象名称
+* 引用的对象电子邮件
+* 按用户名修改
+* 修改者用户UUID
+* 按用户电子邮件修改
+* 修改日期（UTC时区）
+* 源
 
 ## 电子邮件订阅 {#emailsubscriptions}
 

@@ -2,10 +2,10 @@
 user-guide-title: Adobe Learning Manager 指南
 breadcrumb-title: Learning Manager
 user-guide-description: Adobe Learning Manager 的文档
-source-git-commit: f171fab1b5c1aa56f6f398430c49740a0239c6fe
+source-git-commit: 8c4d00ed9213c21463a046f74d1db17b331da85f
 workflow-type: tm+mt
-source-wordcount: '606'
-ht-degree: 87%
+source-wordcount: '618'
+ht-degree: 85%
 
 ---
 
@@ -15,11 +15,11 @@ ht-degree: 87%
 * [Adobe Learning Manager 用户指南](user-guide.md)
 * 简介{#introduction}
    * [新功能摘要](whats-new.md)
+   * [2024年7月新增功能摘要](whats-new-july-2024.md)
    * [2024年3月版新增功能](whats-new-march-2024.md)
    * [新增功能2023年11月](whats-new-november-2023.md)
    * [新增功能2023年7月](whats-new-2023-july.md)
    * [新增功能2023年4月](whats-new-2023-april.md)
-   * [新增功能2022年11月](whats-new-2022-november.md)
    * [发行说明](release-note/release-notes.md)
    * [系统要求](system-requirements.md)
    * [AEM Sites的ALM参考站点包](adobe-learning-manager-integration-aem.md)
@@ -88,6 +88,9 @@ ht-degree: 87%
    * [迁移手册](integration-admin/feature-summary/migration-manual.md)
    * [Adobe Learning Manager 连接器](integration-admin/feature-summary/connectors.md)
    * [未登录的API](integration-admin/feature-summary/non-logged-in-apis.md)
+   * [Webhook](integration-admin/feature-summary/webhooks.md)
+   * [有信心](integration-admin/feature-summary/credly-integration.md)
+   * [学习工具互操作性](/help/migrated/integration-admin/feature-summary/learning-tools-interoperability.md)
    * [将 Adobe Learning Manager 与 AEM 集成](integrate-aem-learning-manager.md)
    * [在 Adobe Learning Manager 中安装 Salesforce 程序包](integration-admin/feature-summary/install-salesforce-package.md)
    * [安装 Microsoft Teams 连接器](integration-admin/feature-summary/install-microsoft-teams-connector.md)
@@ -127,6 +130,7 @@ ht-degree: 87%
    * [用户通知](learners/feature-summary/user-notifications.md)
    * [公告](learners/feature-summary/announcements.md)
    * [轮候表和出席管理](learners/feature-summary/waitlist-attendance-management.md)
+   * [Adobe Learning Manager中的AI支持搜索](/help/migrated/learners/feature-summary/advanced-search.md)
    * [适用于 Salesforce 的 Adobe Learning Manager 应用程序](learners/feature-summary/sfdc-app.md)
    * [Adobe Connect 集成](learners/feature-summary/adobeconnect-integration.md)
    * [移动设备和平板电脑上的学习者应用程序](learners/feature-summary/ipad-android-tablet-users.md)

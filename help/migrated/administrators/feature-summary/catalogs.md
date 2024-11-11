@@ -4,10 +4,10 @@ title: 目录
 description: 目录包含学习内容 — 课程、学习计划和认证。 目录用于向学习者提供访问自定义学习集的权限。 您可以在创建新目录时将学习与目录相关联。
 contentowner: manochan
 exl-id: 5c4c147f-d389-4d8a-9480-5f3254d1aadf
-source-git-commit: f171fab1b5c1aa56f6f398430c49740a0239c6fe
+source-git-commit: 01215811307ef3fa2a365020c6f42fe3ea5a0240
 workflow-type: tm+mt
-source-wordcount: '2498'
-ht-degree: 73%
+source-wordcount: '2552'
+ht-degree: 72%
 
 ---
 
@@ -96,6 +96,10 @@ ht-degree: 73%
    您添加的工作辅助显示在&#x200B;**[!UICONTROL 工作辅助]**&#x200B;选项卡中。
 
 如果帐户中已有内容，则这些内容会显示在各选项卡中。 否则，您需要先创建内容。 例如，如果您尚未在 Adobe Learning Manager 应用程序中添加任何课程或学习计划，则必须先创建课程或学习计划。
+
+## 批量删除课程、学习路径或工作辅助
+
+管理员或自定义管理员可以批量删除课程、学习路径或工作辅助。 转到&#x200B;**[!UICONTROL 目录]**&#x200B;并选择目录。 在&#x200B;**[!UICONTROL 内容]**&#x200B;页面上，选择&#x200B;**[!UICONTROL 编辑内容]**。 然后，选择课程、学习路径或工作辅助旁边的&#x200B;**[!UICONTROL 删除]**&#x200B;选项，然后选择&#x200B;**[!UICONTROL 保存]**。
 
 ## 学习者目录的深层链接 {#deep-link}
 

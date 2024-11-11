@@ -4,9 +4,9 @@ title: 应用程序开发人员手册
 description: Adobe Learning Manager V1 API 现已弃用。 V1 API 将自 2021 年 2 月 28 日起停用。我们建议您使用V2 API与Learning Manager交互。
 contentowner: jayakarr
 exl-id: fa9313ac-67de-4467-9253-7eeabcf14204
-source-git-commit: 447a4e041d74cf086afada3794ac08a04e70c2ca
+source-git-commit: a27c1566678d697512a75d94804b8804b5dc9b2b
 workflow-type: tm+mt
-source-wordcount: '3385'
+source-wordcount: '3377'
 ht-degree: 62%
 
 ---
@@ -134,7 +134,7 @@ client_id:
 
 API 对象的属性及其关系统称为“字段”。 有关更多信息，请参阅 [JSON API。](http://jsonapi.org/format/#document-resource-object-fields)在进行API调用以从模型中获取一个或多个特定属性时，您可以使用字段作为参数。 如果没有“字段”参数，API 调用将从模型中获取所有可用属性。 例如，在以下API调用中，字段[skill]=name仅获取技能模型的名称属性。
 
-https://learningmanager.adobe.com/primeapi/v2/users/{userId}/userSkills/{id}?include=skillLevel.skill&amp;fields[skill]=name
+`https://learningmanager.adobe.com/primeapi/v2/users/{userId}/userSkills/{id}?include=skillLevel.skill&fields[skill]=name `
 
 **分页**
 

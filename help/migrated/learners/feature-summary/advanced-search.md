@@ -2,7 +2,7 @@
 jcr-language: en_us
 title: Adobe Learning Manager中的AI支持搜索
 description: 了解Adobe Learning Manager中的AI支持搜索
-source-git-commit: c23a8f958910b130a1e8591c97d323523f864f1b
+source-git-commit: 9005b77444135c2709ca3fc68b9bdd725f521290
 workflow-type: tm+mt
 source-wordcount: '271'
 ht-degree: 0%
@@ -21,7 +21,7 @@ _基于AI的上下文搜索结果_
 
 在上面的屏幕截图中，当我们搜索&#x200B;**photoshop快速入门**&#x200B;时，AI支持的搜索会显示该关键字的最准确结果。
 
-此功能可搜索您的内容和第三方课程标题、说明、标签、个性化注释和其他元数据。 该算法直接在转录文本中自动转录和搜索视频、PDF甚至来自Adobe Connect会话的录制等内容类型。
+此功能可搜索您的内容和第三方课程标题、说明、标签、个性化注释和其他元数据。 该算法直接在转录文本中自动转录和搜索内容类型，例如视频、PDF，甚至来自&#x200B;**Adobe Connect**&#x200B;会话的录制。
 
 该算法使用复杂的AI和NLP（Natural Language Processing，自然语言处理）来理解搜索查询，标记关键关键字，并对搜索查询中的其他短语进行逻辑扩展。 此查询扩展可增强相关术语和语义相关上下文，从而更智能地检索课程、证书或学习路径。 语义搜索目前仅支持英语内容。
 

@@ -2,9 +2,9 @@
 description: 了解Adobe Learning Manager 2024年11月版的新增功能和增强功能
 jcr-language: en_us
 title: 新功能摘要
-source-git-commit: 8deeb3680cd638a33768f048755ee77862c8ef1f
+source-git-commit: b965b67bf7c730b3d9667cb6bbc9e8aeff664972
 workflow-type: tm+mt
-source-wordcount: '3035'
+source-wordcount: '3034'
 ht-degree: 2%
 
 ---
@@ -101,7 +101,7 @@ Adobe Learning Manager (ALM)现在允许作者使用教室和虚拟教室模块�
 
 ## 完成注释
 
-管理员现在可以在将课程、学习路径或认证中的学习者标记为完成时添加评论。 管理员可以同时为一个或多个学习者添加评论，这些评论将出现在[学习者成绩单](/help/migrated/administrators/feature-summary/reports.md#learner-transcripts)报告中。
+管理员现在可以在将课程、学习路径或认证中的学习者标记为完成时添加评论。 管理员可以同时为一个或多个学习者添加注释，注释显示在[学习者成绩单](/help/migrated/administrators/feature-summary/reports.md#learner-transcripts)报告中。
 
 有关详细信息，请参阅此文章[完成注释](/help/migrated/administrators/feature-summary/courses.md#completion-comments)。
 

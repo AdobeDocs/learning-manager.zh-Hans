@@ -2,9 +2,9 @@
 description: 了解Adobe Learning Manager 2024年11月版的新增功能和增强功能
 jcr-language: en_us
 title: 新功能摘要
-source-git-commit: 943fd98f8ac31c968c7e7f12d4da867c767b9b91
+source-git-commit: bfe77d838340f94e072f9d7346576e3034a66a66
 workflow-type: tm+mt
-source-wordcount: '3034'
+source-wordcount: '3133'
 ht-degree: 2%
 
 ---
@@ -494,17 +494,19 @@ curl -X POST --header 'Content-Type: application/vnd.api+json;charset=UTF-8' --h
 
 **[!UICONTROL 学习成绩单]**&#x200B;报告将包含两个新列：
 
-* 模块 ID
-* 课程实例 ID
+* **[!UICONTROL 模块ID]**：显示每个模块的唯一标识符。 此新列已在现有&#x200B;**[!UICONTROL 模块]**&#x200B;列之后添加。
+* **[!UICONTROL 课程实例ID]**：显示每个课程实例的唯一标识符。此新列已添加到现有&#x200B;**[!UICONTROL 实例]**&#x200B;列之后。
+* **[!UICONTROL 完成注释]**：此列捕获管理员在标记用户完成时输入的注释。 此新列已在报告末尾添加。
+
 
 ### 会话摘要报告
 
 **[!UICONTROL 会话摘要]**&#x200B;报告将包含三个新列：
 
-* 模块 ID
-* 会话 ID
-* 课程实例 ID
-* 完成计数
+* **[!UICONTROL 模块ID]**&#x200B;列已添加到&#x200B;**[!UICONTROL 会话名称]**&#x200B;列之前。
+* **[!UICONTROL 会话ID]**&#x200B;列已添加在&#x200B;**[!UICONTROL 会话名称]**&#x200B;列之前。
+* **[!UICONTROL 课程实例ID]**&#x200B;列已添加到&#x200B;**[!UICONTROL 实例名称]**&#x200B;列之后。
+* 在&#x200B;**[!UICONTROL 注册计数]**&#x200B;列之后添加了&#x200B;**[!UICONTROL 完成计数]**&#x200B;列。
 
 ## 本次更新中修复的错误
 

@@ -2,9 +2,10 @@
 description: 了解Adobe Learning Manager 2024年11月版的新增功能和增强功能
 jcr-language: en_us
 title: 新功能摘要
-source-git-commit: bfe77d838340f94e072f9d7346576e3034a66a66
+exl-id: 4dfe0e31-d202-4a6e-8c4f-43851218699f
+source-git-commit: dcfcb8d9c161eda83db966b93fad45f1430c47af
 workflow-type: tm+mt
-source-wordcount: '3133'
+source-wordcount: '3134'
 ht-degree: 2%
 
 ---
@@ -22,7 +23,7 @@ ht-degree: 2%
 * **自定义角色**：增强了对用户角色和权限的控制。
 * **完成评论**：将学习者标记为完成时添加评论。
 * **用户组报告**：使用详细报告管理用户组。
-* **轮候表报告**：下载课程实例的轮候学习者列表。
+* **轮候表报告**：下载课程实例的轮候表学习者列表。
 * **辅助功能增强**：支持刊头和公司徽标上的替代文本。
 * **支持印地语**：支持印地语的界面语言。
 * **亵渎检查**：阻止包含禁止单词的社交帖子。

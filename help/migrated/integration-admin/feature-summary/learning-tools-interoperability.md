@@ -2,9 +2,10 @@
 jcr-language: en_us
 title: 学习工具互操作性(LTI)
 description: 了解LTI集成ALM
-source-git-commit: 8deeb3680cd638a33768f048755ee77862c8ef1f
+exl-id: 760c00fc-9f6e-450b-aad0-56f103424043
+source-git-commit: e4c3489db8207ead0416656161b918eba42f4582
 workflow-type: tm+mt
-source-wordcount: '1907'
+source-wordcount: '1976'
 ht-degree: 1%
 
 ---
@@ -235,6 +236,16 @@ _导出状态_
 * LTI活动字段是单值，不支持多个值。
 * 如果在迁移没有核心内容的课程时导出失败，则失败原因不可用。
 * 外部LTI课程等级不会显示在学习者成绩单中，而L2测验页面也不会显示分数，从而影响学习者的表现跟踪。
+
+## LTI启动失败案例
+
+以下是外部LTI播放器由于创建启动链接后在ALM中所做的最近更改而无法启动的课程：
+
+* 已停用实例的课程。
+* 已弃用且未注册ALM的课程。
+* 已注册ALM但已弃用的课程。
+* 已在ALM中删除的课程。
+* 已达到注册限制的课程。
 
 ## 最佳实践
 

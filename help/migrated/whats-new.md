@@ -3,9 +3,9 @@ description: 了解Adobe Learning Manager 2024年11月版的新增功能和增�
 jcr-language: en_us
 title: 新功能摘要
 exl-id: 4dfe0e31-d202-4a6e-8c4f-43851218699f
-source-git-commit: a19e538ed152b3435adf2f3405bff1ae75576978
+source-git-commit: e4c3489db8207ead0416656161b918eba42f4582
 workflow-type: tm+mt
-source-wordcount: '3134'
+source-wordcount: '3149'
 ht-degree: 2%
 
 ---
@@ -139,7 +139,7 @@ Adobe Learning Manager的新&#x200B;**[!UICONTROL 轮候表报告]**&#x200B;允�
 * 轮候表限制
 * 名额限制
 
-请参阅这些文章[轮候表报告](/help/migrated/administrators/feature-summary/courses.md#waitlist-report)和[轮候表报告](/help/migrated/instructors/feature-summary/learners.md#waitlist-report)，从管理员和讲师部分下载报告。
+请参阅此文章[轮候表报告（管理员）](/help/migrated/administrators/feature-summary/courses.md#waitlist-report)和[轮候表报告（讲师）](/help/migrated/instructors/feature-summary/learners.md#waitlist-report)，从管理员和讲师部分下载报告。
 
 ## 学习者主页中的辅助功能
 
@@ -149,6 +149,10 @@ Adobe Learning Manager现在支持为所有刊头使用替换文本，以提高�
 ## 支持印地语
 
 Adobe Learning Manager现在引入了印地语作为平台的界面语言之一，并支持该平台在印度发展。 支持以印地语为母语的使用者可确保用户能够完全访问所有功能、报告和整体用户体验。
+
+>[!NOTE]
+>
+>系统以PDF格式生成的徽章证书不支持印地语。
 
 要更改界面语言，请执行以下步骤：
 

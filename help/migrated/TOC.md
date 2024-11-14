@@ -2,9 +2,9 @@
 user-guide-title: Adobe Learning Manager 指南
 breadcrumb-title: Learning Manager
 user-guide-description: Adobe Learning Manager 的文档
-source-git-commit: 685220000be6be524c0829fe400abec911cf067e
+source-git-commit: 9b983d6b3b8526e7d92c74b504403bd76180993b
 workflow-type: tm+mt
-source-wordcount: '618'
+source-wordcount: '622'
 ht-degree: 85%
 
 ---
@@ -88,7 +88,9 @@ ht-degree: 85%
    * [迁移手册](integration-admin/feature-summary/migration-manual.md)
    * [Adobe Learning Manager 连接器](integration-admin/feature-summary/connectors.md)
    * [未登录的API](integration-admin/feature-summary/non-logged-in-apis.md)
-   * [Webhook](integration-admin/feature-summary/webhooks.md)
+   * Webhook {#webhooks}
+      * [Webhook](/help/migrated/integration-admin/feature-summary/webhooks.md)
+      * [Webhook使用指南](/help/migrated/integration-admin/feature-summary/webhooks-usage-guide.md)
    * [有信心](integration-admin/feature-summary/credly-integration.md)
    * [学习工具互操作性](/help/migrated/integration-admin/feature-summary/learning-tools-interoperability.md)
    * [将 Adobe Learning Manager 与 AEM 集成](integrate-aem-learning-manager.md)

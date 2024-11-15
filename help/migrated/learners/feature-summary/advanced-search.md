@@ -3,9 +3,9 @@ jcr-language: en_us
 title: Adobe Learning Manager中的AI支持搜索
 description: 了解Adobe Learning Manager中的AI支持搜索
 exl-id: 9982a8be-b2e6-42a4-836a-7f9337588ae8
-source-git-commit: 84d0fc0c8e77999a12b69b949272bdb2d38eab96
+source-git-commit: 95ad41d2269ce1ee4c550b4f5bda2bd6b329d9e7
 workflow-type: tm+mt
-source-wordcount: '1111'
+source-wordcount: '1120'
 ht-degree: 0%
 
 ---
@@ -15,6 +15,10 @@ ht-degree: 0%
 ALM中的搜索功能通过允许用户高效查找相关内容并帮助其使用正确的内容来增强用户体验。
 
 Adobe Learning Manager引入了AI支持的搜索功能，该功能结合了词法和语义搜索。 搜索更加智能，因为它会查找特定词语，并理解这些词语背后的语境和意图。 高级AI支持的搜索功能可理解查询的含义并提供相关结果。
+
+>[!NOTE]
+>
+>AI支持的搜索仅适用于学习者。
 
 ## 为什么搜索非常重要？
 

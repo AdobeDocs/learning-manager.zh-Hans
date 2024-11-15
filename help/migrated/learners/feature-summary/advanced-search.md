@@ -3,7 +3,7 @@ jcr-language: en_us
 title: Adobe Learning Manager中的AI支持搜索
 description: 了解Adobe Learning Manager中的AI支持搜索
 exl-id: 9982a8be-b2e6-42a4-836a-7f9337588ae8
-source-git-commit: ee78b7e0b81faa7003438a8a3dc9e46af3e10c17
+source-git-commit: 84d0fc0c8e77999a12b69b949272bdb2d38eab96
 workflow-type: tm+mt
 source-wordcount: '1111'
 ht-degree: 0%
@@ -25,7 +25,8 @@ Adobe Learning Manager引入了AI支持的搜索功能，该功能结合了词�
 * **辅助功能**：有效的搜索功能使信息更易于访问，从而确保用户可以参与与其需求相关的内容。
 * **个性化**：高级搜索系统可以根据用户偏好定制结果，从而改进所显示信息的相关性。
 
-不断发展的Web搜索行为
+## 不断发展的Web搜索行为
+
 随着人们在线搜索，他们的搜索方式正在改变，搜索引擎也在调整以跟上变化。 以下是现今人们搜索信息的一些关键方式：
 
 * **意图驱动**：现在，用户不用键入确切的关键字，而是使用我想用或需要的短语表达他们的需求。 现代搜索引擎了解这些短语背后的目的，并提供了更相关的结果。

@@ -3,9 +3,10 @@ jcr-language: en_us
 title: Webhook使用指南
 description: 了解Webhook使用情况、最佳实践和限制
 contentowner: chandrum
-source-git-commit: d7f7652c38c3eb623be083fd2fdde36eec25c1e4
+exl-id: e6a63ffb-7fdd-46e4-b5e6-20ce36861cef
+source-git-commit: fe83420c8e6904e075e7a65622aaab964549c1d5
 workflow-type: tm+mt
-source-wordcount: '3377'
+source-wordcount: '3310'
 ht-degree: 1%
 
 ---
@@ -250,12 +251,6 @@ ALM的连接超时配置为10秒，套接字超时配置为5秒。 期望客户�
 ### 重复事件
 
 如果订阅者在处理某个事件后需要超过5秒的时间作出响应，则系统可能会尝试再次处理同一事件。 建议使用事件ID来跟踪已处理的事件。 此外，如果Webhook在发送事件后崩溃，但在保存该事件之前处理了该事件，则可能会重试同一组事件。 建议使用批处理ID或单个事件ID来识别和忽略任何重复项。
-
-### 无序事件
-
-ALM试图将事件保持正确的顺序，但有时事件可能会无序传递，尤其是在实时和非实时事件之间。
-
-如果管理员一次在课程中注册多名学习者，则注册事件会标记为非实时。 但是，如果学习者快速完成课程，则该完成事件将标记为实时事件，并且可能会在注册事件之前交付。
 
 ### 容错建议
 

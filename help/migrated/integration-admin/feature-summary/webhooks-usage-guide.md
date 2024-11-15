@@ -4,9 +4,9 @@ title: Webhook使用指南
 description: 了解Webhook使用情况、最佳实践和限制
 contentowner: chandrum
 exl-id: e6a63ffb-7fdd-46e4-b5e6-20ce36861cef
-source-git-commit: fe83420c8e6904e075e7a65622aaab964549c1d5
+source-git-commit: 4b26eddf1285651a13ee9c71fdf677e8b92e6dc3
 workflow-type: tm+mt
-source-wordcount: '3310'
+source-wordcount: '3369'
 ht-degree: 1%
 
 ---
@@ -291,6 +291,8 @@ ALM的连接超时配置为10秒，套接字超时配置为5秒。 期望客户�
 * 会话更改将作为实例更新事件的一部分进行捕获。 这仅适用于课程。 学习路径实例或认证实例的传播不会来自较低级别的实体。
 * 如果学习路径包含课程，而学习者通过学习路径完成课程，则将生成两个&#x200B;**LearnerProgress**&#x200B;事件 — 一个用于课程，一个用于学习路径。
 * 某些工作流会异步计算学习对象的属性，如持续时间和交付类型。 因此，当cron作业处理完毕后，将生成这些学习对象的事件。
+* 如果课程通过父级学习计划或认证注册，则注册、取消注册和完成事件将仅会触发父级学习计划或认证。 这些事件不会触发子课程，因为注册是间接发生的。
+* 仅状态为&#x200B;**[!UICONTROL ACTIVE]**&#x200B;的帐户支持Webhook。 这些帐户不可用于&#x200B;**[!UICONTROL 试用]**&#x200B;或&#x200B;**[!UICONTROL 非活动]**&#x200B;帐户。
 
 ## 事件的有效负载示例
 

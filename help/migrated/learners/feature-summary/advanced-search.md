@@ -3,9 +3,9 @@ jcr-language: en_us
 title: Adobe Learning Manager中的AI支持搜索
 description: 了解Adobe Learning Manager中的AI支持搜索
 exl-id: 9982a8be-b2e6-42a4-836a-7f9337588ae8
-source-git-commit: 95ad41d2269ce1ee4c550b4f5bda2bd6b329d9e7
+source-git-commit: d8fd49937f7bc4c3bd6cc4df9da31208c25cd307
 workflow-type: tm+mt
-source-wordcount: '1120'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -101,3 +101,4 @@ Adobe Learning Manager的搜索功能是业内领军企业，它使用独特的�
 >
 >1. 使用无头实施的客户需要遵循API文档来启用高级搜索
 >2. 高级搜索当前不可用于Salesforce应用程序。
+>3. 客户数据（包括内容和转录文本）不会与任何外部服务共享，以进行AI支持的搜索。 所有内容都安全地存储在现有存储系统中。

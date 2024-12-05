@@ -4,7 +4,7 @@ jcr-language: en_us
 title: 在 Adobe Learning Manager 中安装 Microsoft Teams 连接器
 contentowner: saghosh
 exl-id: 68092187-ac69-4727-a3dc-f3047a1e164d
-source-git-commit: 139e9224f94e6a39f497b45f5bdc600121a77bc8
+source-git-commit: 6192559436074c3270644850b202589961e7b81b
 workflow-type: tm+mt
 source-wordcount: '1138'
 ht-degree: 17%
@@ -130,7 +130,7 @@ Microsoft Teams 连接器可连接 Adobe Learning Manager 和 Microsoft Teams �
 
 ## 在Learning Manager中设置Microsoft Teams连接器
 
-1. 以集成管理员身份登录Learning Manager。
+1. 以&#x200B;**集成管理员**&#x200B;的身份登录Learning Manager。
 
 1. 在“连接器”页面中，选择“Microsoft Teams”连接器并单击&#x200B;**[!UICONTROL 连接]**。
 

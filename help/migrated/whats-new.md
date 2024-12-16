@@ -3,9 +3,9 @@ description: 了解Adobe Learning Manager 2024年11月版的新增功能和增�
 jcr-language: en_us
 title: 新功能摘要
 exl-id: 4dfe0e31-d202-4a6e-8c4f-43851218699f
-source-git-commit: 95ad41d2269ce1ee4c550b4f5bda2bd6b329d9e7
+source-git-commit: f8151cb47645a07bcea306dcaf3f8ac032d4044e
 workflow-type: tm+mt
-source-wordcount: '3158'
+source-wordcount: '3173'
 ht-degree: 2%
 
 ---
@@ -30,6 +30,10 @@ ht-degree: 2%
 * **电子邮件模板优化**：针对讲师分配和会话取消的合并优化电子邮件模板。
 * **MS团队完成标准**：设置VILT会话的最低出席时间。
 * **新迁移工作流程**：迁移更改包括课程和模块的完成条件以及将模块迁移到文件夹中。
+
+>[!NOTE]
+>
+>观看此[网络研讨会](https://cdn.content.adobelearningmanageracademy.com/public/newlearner/newlearner_0dc0f1e8.html#/overviewPage?instanceId=11932477&amp;loId=11231360&amp;loType=course)，了解有关此版本中新增功能的更多信息。
 
 ## Adobe Learning Manager中的AI支持搜索
 

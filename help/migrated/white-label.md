@@ -4,9 +4,9 @@ title: AdobeLearning Manager移动应用程序中的白色标签
 description: 白色标签是一种用您自己的品牌重塑应用程序或服务，并像原创者一样对其进行自定义的做法。 在Adobe Learning Manager中，可将白色标签应用于移动应用程序，以便重新品牌化应用程序并使您的用户可使用自己的品牌。
 contentowner: saghosh
 exl-id: f37c86e6-d4e3-4095-9e9d-7a5cd0d45e43
-source-git-commit: c9f2b9f817d4baa04399d58bbc4008d7891e0252
+source-git-commit: eb93f8c5fd3d64366756840789b984ca986dbf0b
 workflow-type: tm+mt
-source-wordcount: '1879'
+source-wordcount: '1899'
 ht-degree: 0%
 
 ---
@@ -413,8 +413,17 @@ mv ipa_path/*.ipa "${env.AppName}_signed.ipa" """
 
 **对于apk文件**
 
+>[!IMPORTANT]
+>
+>在运行`apksigner`命令之前，请执行以下命令，将keystore密码和密钥别名密码导出为环境变量：
+>
+>```
+>export KS_PASS=your_keystore_password
+>export KEY_PASS=your_key_password
+>```
+
 ```
-sh""" <path>/apksigner sign --ks $storeFile --ks-pass env:KS_PASS --ks-key-alias $key_alias --key-pass env:KEY_PASS --out app-release-signed.apk -v app-release.apk """
+sh""" <path>/apksigner sign --ks $storeFile. --ks-pass env:KS_PASS --ks-key-alias $key_alias --key-pass env:KEY_PASS --out app-release-signed.apk -v app-release.apk """
 ```
 
 >[!NOTE]

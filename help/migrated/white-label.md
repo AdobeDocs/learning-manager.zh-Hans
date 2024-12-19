@@ -4,9 +4,9 @@ title: AdobeLearning Manager移动应用程序中的白色标签
 description: 白色标签是一种用您自己的品牌重塑应用程序或服务，并像原创者一样对其进行自定义的做法。 在Adobe Learning Manager中，可将白色标签应用于移动应用程序，以便重新品牌化应用程序并使您的用户可使用自己的品牌。
 contentowner: saghosh
 exl-id: f37c86e6-d4e3-4095-9e9d-7a5cd0d45e43
-source-git-commit: b9809314014fcd8c80f337983c0b0367c060e348
+source-git-commit: c9f2b9f817d4baa04399d58bbc4008d7891e0252
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '1879'
 ht-degree: 0%
 
 ---
@@ -378,23 +378,29 @@ mv ipa_path/*.ipa "${env.AppName}_signed.ipa" """
    cp <path>/<mobile-provisioningfile>.mobileprovision embedded.mobileprovision
    ```
 
-4. 返回`<root>`文件夹（Runner.xcarchive.zip所在的位置）：
+4. 运行以下命令以将签名信息更新到框架库：
+
+   ```
+   codesign -f -s "Distribution Certificate Name" Frameworks/*
+   ```
+
+5. 返回`<root>`文件夹（Runner.xcarchive.zip所在的位置）：
 
    ```
    cd <root>
    ```
 
-5. 使用xcodebuild导出存档文件：
+6. 使用xcodebuild导出存档文件：
 
    ```
    xcodebuild -exportArchive -archivePath Runner.xcarchive -exportPath ipa_path/ -exportOptionsPlist <path>/<ExportOptions-file>.plist
    ```
 
-6. 在ipa_path文件夹中找到.ipa文件。
-7. 将.ipa文件上传到`Diawi`网站。
-8. 完全上传后，选择&#x200B;**[!UICONTROL 发送]**&#x200B;按钮。
-9. 完成后，您将收到一个二维码和一个链接。
-10. 在Safari中直接打开二维码或链接。
+7. 在ipa_path文件夹中找到.ipa文件。
+8. 将.ipa文件上传到`Diawi`网站。
+9. 完全上传后，选择&#x200B;**[!UICONTROL 发送]**&#x200B;按钮。
+10. 完成后，您将收到一个二维码和一个链接。
+11. 在Safari中直接打开二维码或链接。
 
 如果设备包含在预配配置文件中，则应在设备上继续安装。
 
@@ -408,8 +414,12 @@ mv ipa_path/*.ipa "${env.AppName}_signed.ipa" """
 **对于apk文件**
 
 ```
-sh""" <path>/apksigner sign --ks $storeFile --ks-pass "pass:$store_password" --ks-key-alias $key_alias --key-pass "pass:$key_password" --out app-release-signed.apk -v app-release.apk """
+sh""" <path>/apksigner sign --ks $storeFile --ks-pass env:KS_PASS --ks-key-alias $key_alias --key-pass env:KEY_PASS --out app-release-signed.apk -v app-release.apk """
 ```
+
+>[!NOTE]
+>
+>`apksigner`工具的路径通常如下所示： ~/Library/Android/sdk/build-tools/30.0.3/apksigner。
 
 **对于aab文件**
 
@@ -464,6 +474,36 @@ unzip my_app.apks -d output_dir
 **后续内容**
 
 生成二进制文件后，将二进制文件推送到Play Store或App Store中。
+
+### 正在将应用程序推送到应用商店以供审阅
+
+获取最终二进制文件后，可将其上传到相应的应用程序商店(iOS或Android)以供审阅。 按照以下步骤将二进制文件上传到应用商店。
+
+**iOS**
+
+1. 使用您的App Store凭据登录传输应用程序。
+2. 选择左上角的&#x200B;**+**&#x200B;按钮，然后上传生产证书（.ipa文件）。
+3. 如果.ipa文件正确，系统将提示您将该应用程序上传到App Store。
+4. 在交付应用程序后，登录到App Store 。 在几个小时内，该二进制文件将显示在“试飞”部分中。 您可以在应用程序审阅之前在TestFlight中启用它进行最终完整性测试，并在提交应用程序以发布新版本时将此应用程序用作二进制文件。
+
+**Android**
+
+1. 打开Google Play Store控制台。
+2. 转到&#x200B;**[!UICONTROL 仪表板]** > **[!UICONTROL 查看应用程序版本]** > **[!UICONTROL 版本仪表板]**，然后选择&#x200B;**[!UICONTROL 创建新版本]**。
+3. 将生成的.aab文件作为应用程序捆绑包上传，然后键入版本号、“新增功能”等版本详细信息。
+4. 保存更改并提交应用程序以供审阅。
+5. 确保将应用程序分布设置为100%(Google默认情况下设置为20%)。
+
+#### 有关应用程序发布的有用链接
+
+**Android**
+
+[创建并设置应用程序](https://support.google.com/googleplay/android-developer/answer/9859152?hl=en)
+[准备您的应用程序以供审阅](https://support.google.com/googleplay/android-developer/answer/9859455?sjid=2454409340679630327-AP)
+
+**iOS**
+
+[提交以供审阅](https://developer.apple.com/help/app-store-connect/manage-submissions-to-app-review/submit-for-review)
 
 ## 如何应用更改
 

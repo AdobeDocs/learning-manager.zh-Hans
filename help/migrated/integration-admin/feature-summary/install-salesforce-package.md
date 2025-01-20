@@ -4,9 +4,9 @@ title: 安装 Salesforce 程序包
 description: Learning Manager提供Salesforce应用程序包。 在 SFDC 中安装和配置程序包后，销售员工便可以在 SFDC 门户中开展培训活动。 SFDC 用户可利用此应用直接在 SFDC 门户中探索新培训、查看推荐内容及参加培训。 用户还可以直接在SFDC门户的应用中以刊头的形式收到管理员发送的公告。
 contentowner: saghosh
 exl-id: 2b1c32e7-81af-4c13-a2bd-66684cde084e
-source-git-commit: fb946ae98dce45156e2f4c1cf992319405403ea9
+source-git-commit: 25c4873f6d01c5832c213b6f225172f3dbcba1ee
 workflow-type: tm+mt
-source-wordcount: '1055'
+source-wordcount: '1057'
 ht-degree: 47%
 
 ---
@@ -47,11 +47,10 @@ Learning Manager提供Salesforce应用程序包。 在 SFDC 中安装和配置�
 >
 >仅在Salesforce Lightning视图中支持Adobe Learning Manager应用程序。
 
-1. 启动[Learning Manager包URL](https://test.salesforce.com/packaging/installPackage.apexp?p0=04tDb000000LRvP)。
+1. 启动[Learning Manager程序包URL (M42 Patch 2)](https://login.salesforce.com/packaging/installPackage.apexp?p0=04tDb000000LSlG)。
 1. 在&#x200B;**登录**&#x200B;页面中，单击&#x200B;**[!UICONTROL 使用自定义域]**。
-
 1. 输入程序包URL，然后单击“**[!UICONTROL 继续]**”。 必须在安装页面选中“仅限管理员安装”选项。 请勿更改此选项。
-1. 单击&#x200B;**英寸高**。 安装程序包后，单击&#x200B;**[!UICONTROL 完成]**。 系统将转至“已安装程序包”页面，您可以看到 Adobe Learning Manager 中已安装的程序包。
+1. 单击&#x200B;**[!UICONTROL 安装]**。 安装程序包后，单击&#x200B;**[!UICONTROL 完成]**。 系统将转至“已安装程序包”页面，您可以看到 Adobe Learning Manager 中已安装的程序包。
 
 1. 转到 App Launcher（位于“设置”旁），然后搜索 Adobe Learning Manager。
 1. 要配置应用，请单击&#x200B;**[!UICONTROL 配置]**。

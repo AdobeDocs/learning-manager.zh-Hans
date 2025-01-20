@@ -4,7 +4,7 @@ title: AdobeLearning Manager移动应用程序中的白色标签
 description: 白色标签是一种用您自己的品牌重塑应用程序或服务，并像原创者一样对其进行自定义的做法。 在Adobe Learning Manager中，可将白色标签应用于移动应用程序，以便重新品牌化应用程序并使您的用户可使用自己的品牌。
 contentowner: saghosh
 exl-id: f37c86e6-d4e3-4095-9e9d-7a5cd0d45e43
-source-git-commit: b7050db4b7129028ada51b15e2d76fce2bb62f64
+source-git-commit: 25c4873f6d01c5832c213b6f225172f3dbcba1ee
 workflow-type: tm+mt
 source-wordcount: '1987'
 ht-degree: 0%
@@ -17,9 +17,9 @@ Adobe Learning Manager移动应用程序现在支持白色标签 — 这意味�
 
 ALM将根据以下时间表提供更新后的白标二进制文件：
 
-1. 对于移动应用程序的主要版本，将提前两周提供文件
-2. 对于为紧急修复计划的任何更新，将提前一周提供文件
-3. 对于计划外、紧急和紧急的修复，将尽最大努力提供文件
+1. 对于移动应用程序的主要版本，将提前两周提供文件。
+2. 对于为紧急修复计划的任何更新，将提前一周提供文件。
+3. 对于计划外、紧急和紧急的修复，将尽最大努力提供文件。
 
 二进制文件将在客户指定的文件夹中提供。 请与您的CSM联系以访问这些文件。 客户负责及时发布及相关流程。
 

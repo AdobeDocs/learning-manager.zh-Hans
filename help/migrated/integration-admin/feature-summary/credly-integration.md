@@ -3,9 +3,10 @@ jcr-language: en_us
 title: 有信心
 description: 了解与ALM可信集成，以从平台跨各种社交媒体渠道管理和共享外部徽章
 contentowner: chandrum
-source-git-commit: a27c1566678d697512a75d94804b8804b5dc9b2b
+exl-id: 168f7ff8-51f5-4962-bf76-af909fc5565b
+source-git-commit: f3a0ec693e1a2e75cdad24f91f22a0290d62740d
 workflow-type: tm+mt
-source-wordcount: '364'
+source-wordcount: '360'
 ht-degree: 0%
 
 ---
@@ -41,8 +42,8 @@ ht-degree: 0%
 
 Adobe Learning Manager中的badge.csv允许从现有LMS或外部系统迁移徽章。 badge.csv已更新为两个新列：
 
-* 外部徽章ID
-* 外部徽章提供商。
+* externalBadgeId
+* externalBadgeProvider
 
 外部徽章ID是指“可信”平台中的徽章模板ID，外部徽章提供商是“可信”。 在badge.csv中添加这些值，然后按照[迁移手册](https://experienceleague.adobe.com/en/docs/learning-manager/using/integration/migration-manual#migrationprocedure)中提到的步骤迁移csv。
 
@@ -55,4 +56,3 @@ Adobe Learning Manager中的badge.csv允许从现有LMS或外部系统迁移徽�
 作者/管理员可以将这些凭据导入的ALM徽章分配给课程、学习路径或认证（而不仅仅是技能），并且在使用这些学习对象时，徽章将会实现并可以在Credly和ALM应用程序上查看。
 
 学习者可以以“可信”登录，并查看“可信”平台中的徽章。 来自Credly，他们可以在LinkedIn和其他社交媒体等外部平台上分享徽章。
-

@@ -4,7 +4,7 @@ title: 应用程序开发人员手册
 description: Adobe Learning Manager V1 API 现已弃用。 V1 API 将自 2021 年 2 月 28 日起停用。我们建议您使用V2 API与Learning Manager交互。
 contentowner: jayakarr
 exl-id: fa9313ac-67de-4467-9253-7eeabcf14204
-source-git-commit: a27c1566678d697512a75d94804b8804b5dc9b2b
+source-git-commit: 448119eda15c8d7dfe10150c09fbbe7c530f35e8
 workflow-type: tm+mt
 source-wordcount: '3377'
 ht-degree: 62%
@@ -120,11 +120,11 @@ client_id:
 
 **API 请求**
 
-可以通过发出 HTTP 请求来实现 API 请求。 开发人员可以根据端点和方法的不同，选择不同的 HTTP 动词，如 GET、PUT、POST、DELETE、PATCH 等。 对于某些请求，可以传递查询参数。 在请求特定数据模型时，用户还可以按 JSON API 规范中所述请求相关模型。 [示例模型用法](#main-pars_header_1415780624)中介绍了典型 API 请求的结构。
+可以通过发出 HTTP 请求来实现 API 请求。 开发人员可以根据端点和方法的不同，选择不同的 HTTP 动词，如 GET、PUT、POST、DELETE、PATCH 等。 对于某些请求，可以传递查询参数。 在请求特定数据模型时，用户还可以按 JSON API 规范中所述请求相关模型。 [示例模型用法](/help/migrated/integration-admin/feature-summary/developer-manual.md#api-usage-illustration)中介绍了典型 API 请求的结构。
 
 **API 响应**
 
-当客户端发出 API 请求时，将根据 JSON API 规范获取 SON 文档。 响应还包含HTTP状态代码，开发人员可以验证该代码，以便在其应用程序逻辑中执行相应的后续步骤。 典型API响应的结构在[示例模型用法](#main-pars_header_1415780624)中描述。
+当客户端发出 API 请求时，将根据 JSON API 规范获取 SON 文档。 响应还包含HTTP状态代码，开发人员可以验证该代码，以便在其应用程序逻辑中执行相应的后续步骤。 典型API响应的结构在[示例模型用法](/help/migrated/integration-admin/feature-summary/developer-manual.md#api-usage-illustration)中描述。
 
 **错误**
 

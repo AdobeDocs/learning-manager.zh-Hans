@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Adobe Learning Manager发行说明
 contentowner: jayakarr
 exl-id: ae9251b6-5326-42c2-881e-2ab3393d9e17
-source-git-commit: 81d6ae6c552d8509d311ac9a12eb962968151a60
+source-git-commit: 96e875a2b2cd2866a624068b5e8e18aabb39d888
 workflow-type: tm+mt
-source-wordcount: '26265'
-ht-degree: 72%
+source-wordcount: '26470'
+ht-degree: 71%
 
 ---
 
@@ -22,6 +22,26 @@ ht-degree: 72%
   </tr>
  </tbody>
 </table>-->
+
++++更新99：Adobe Learning Manager 2025年2月版
+
+## 通过SAML设置界面语言
+
+Adobe Learning Manager (ALM)现在接受语言的SAML属性。 然后将该属性映射到用户的界面和内容语言设置，确保以首选语言与LMS进行流畅的交互。 这些语言设置的配置通过身份和访问管理(IAM)平台进行管理，该平台利用用于单点登录(SSO)的SAML。 这同时支持由服务提供商(SP)发起和身份提供商(IdP)发起的登录，从而允许用户使用他们选择的语言查看界面和内容。
+
+有关详细信息，请参阅此[文章](/help/migrated/administrators/feature-summary/set-up-interface-language-through-saml.md)。
+
+## 迁移API中的增强功能
+
+以前，使用API （`GET /bulkimport/cansync`和`POST /bulkimport/startrun`）迁移带有外部链接的活动模块在访问链接后未向学习者显示&#x200B;**[!UICONTROL 标记为完成]**&#x200B;选项。 此问题已解决。 现在，通过API迁移了外部链接的活动模块将为学习者正确显示&#x200B;**[!UICONTROL 标记为完成]**&#x200B;选项。
+
+## 学习者应用程序中的排序功能
+
+学习者应用程序中的排序功能可根据内容和界面语言提供个性化的课程推荐。&#x200B;PDF 此增强功能简化了学习者以首选语言查找课程的过程，并利用了更智能的排序选项。
+
+有关详细信息，请参阅此[文章](/help/migrated/learners/feature-summary/catalogs.md#sorting-functionality-in-the-learner-app)。
+
++++
 
 +++更新98：Adobe Learning Manager 2024年11月版
 

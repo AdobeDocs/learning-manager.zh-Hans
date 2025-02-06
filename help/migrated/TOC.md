@@ -2,10 +2,10 @@
 user-guide-title: Adobe Learning Manager 指南
 breadcrumb-title: Learning Manager
 user-guide-description: Adobe Learning Manager 的文档
-source-git-commit: eb7dfd6c170830d96ca9581ca023d543d7391c95
+source-git-commit: 96e875a2b2cd2866a624068b5e8e18aabb39d888
 workflow-type: tm+mt
-source-wordcount: '628'
-ht-degree: 84%
+source-wordcount: '634'
+ht-degree: 83%
 
 ---
 
@@ -54,6 +54,7 @@ ht-degree: 84%
    * [批量添加用户](administrators/add-users-in-bulk.md)
    * [模拟学习者和经理](administrators/feature-summary/impersonation-learner-manager.md)
    * [多个 SSO 登录](administrators/feature-summary/multiple-sso-logins.md)
+   * [通过SAML设置界面语言](/help/migrated/administrators/feature-summary/set-up-interface-language-through-saml.md)
    * [配对帐户](administrators/feature-summary/peer-account.md)
    * [创建、修改技能和级别](administrators/feature-summary/skills-levels.md)
    * [基于 AI 的课程推荐](ai-based-recommendations.md)

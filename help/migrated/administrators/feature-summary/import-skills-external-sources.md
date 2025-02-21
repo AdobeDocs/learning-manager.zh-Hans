@@ -4,9 +4,9 @@ title: 从外部来源导入技能
 description: 使用相应的连接器从内容提供商(例如LinkedIn和Go1)导入技能。  导入的技能将添加到Learning Manager中管理员定义的技能中，供作者在创建课程的工作流程中使用。
 contentowner: saghosh
 exl-id: 3bcd8fc6-16e4-4f66-a5c6-15b3d606f0c2
-source-git-commit: 260b413b7bb739dc57504df57a6bd2d6a35df161
+source-git-commit: d96b25245daadaa0f5a330bcf8a7ab5bba995876
 workflow-type: tm+mt
-source-wordcount: '516'
+source-wordcount: '510'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ ht-degree: 0%
 
 ### 默认技能级别
 
-迁移技能后，默认技能级别为1，“积分”为10。 稍后管理员可以更改积分。
+迁移技能后，默认技能级别为1，“积分”为10。
 
 您无法编辑技能的名称、说明并为外部技能添加级别。 但是，您可以添加域、徽章并编辑积分。
 

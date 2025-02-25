@@ -3,9 +3,9 @@ description: 了解Adobe Learning Manager 2024年11月版的新增功能和增�
 jcr-language: en_us
 title: 新功能摘要
 exl-id: 4dfe0e31-d202-4a6e-8c4f-43851218699f
-source-git-commit: e11a51273d27e6c871a45a52ddb2536baccc57be
+source-git-commit: 537d324d6e266552fdfdd9ba16557fd3228870b7
 workflow-type: tm+mt
-source-wordcount: '3255'
+source-wordcount: '3260'
 ht-degree: 2%
 
 ---
@@ -207,7 +207,7 @@ Adobe Learning Manager现已在学习者应用程序中阻止包含禁止单词�
 
 >[!NOTE]
 >
->如果需要，我们建议与您的IT团队协作，将新的IP地址列入白名单。
+>如果需要，我们建议与您的IT团队协作，将IP地址添加到允许的URL列表中。
 
 ## 迁移更改
 

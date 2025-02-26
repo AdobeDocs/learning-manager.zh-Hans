@@ -3,9 +3,9 @@ jcr-language: en_us
 title: Adobe Learning Manager中的AI支持搜索
 description: 了解Adobe Learning Manager中的AI支持搜索
 exl-id: 9982a8be-b2e6-42a4-836a-7f9337588ae8
-source-git-commit: d8fd49937f7bc4c3bd6cc4df9da31208c25cd307
+source-git-commit: e25c92f9d91768db607cb153138cd02d1fbe28aa
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '1173'
 ht-degree: 0%
 
 ---
@@ -84,7 +84,7 @@ _语义搜索_
 
 ### 内容搜索
 
-Adobe Learning Manager的搜索功能已得到增强，现在可以搜索实际内容。 它可以自动转录视频、音频文件和PDF，并将这些转录文本纳入搜索结果。 此外，它还利用Adobe Connect会议记录来提供更全面和相关的结果。 此增强功能可确保包含视频和会议备注等丰富内容的课程，从而显着提高搜索的准确性和效率。
+Adobe Learning Manager的搜索功能已得到增强，现在可以搜索实际内容。 它可以自动转录视频、音频文件、PDF、文档、PPT和XLS，并将这些转录文本纳入搜索结果。 此外，它还利用Adobe Connect会议记录来提供更全面和相关的结果。 此增强功能可确保包含视频和会议备注等丰富内容的课程，从而显着提高搜索的准确性和效率。 内容匹配通过提升传统短语匹配和语义匹配的结果，有助于改善搜索结果的排名。
 
 >[!NOTE]
 >

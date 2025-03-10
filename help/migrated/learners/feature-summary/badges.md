@@ -4,7 +4,7 @@ jcr-language: en_us
 title: 徽章
 contentowner: manochan
 exl-id: d0136a79-7044-4a1e-85bb-bd7b1ae24ba1
-source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
+source-git-commit: 359bc38487dedc7ec8883957b10522e53d09bddb
 workflow-type: tm+mt
 source-wordcount: '801'
 ht-degree: 49%
@@ -70,7 +70,7 @@ Adobe Learning Manager 支持学习者的开放徽章概念。您可以将已下
 
 ## 徽章更新
 
-学习者可以将其徽章更新为最新徽章，方法是选择徽章，然后单击页面右上角的**Update **（更新徽章）。 如果管理员/作者从“学习对象”中对“徽章图像”或“徽章”进行任何更改，则徽章会更新。
+学习者可以将其徽章更新为最新徽章，方法是选择徽章，然后单击页面右上角的&#x200B;**更新**。 如果管理员/作者从“学习对象”中对“徽章图像”或“徽章”进行任何更改，则徽章会更新。
 
 此页面更新过程被称为手动重制。 在这种情况下，即使徽章具有相同的徽章图像/名称，徽章仍会在制作完成后重新上传到 Badgr backpack。 更新徽章后，学习者会收到更新已完成的通知。
 

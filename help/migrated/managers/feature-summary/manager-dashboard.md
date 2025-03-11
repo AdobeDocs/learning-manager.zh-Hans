@@ -4,10 +4,10 @@ jcr-language: en_us
 title: 经理信息板
 contentowner: kuppan
 exl-id: 32d017bf-ee5a-4749-947d-0d62b32d6f38
-source-git-commit: 359bc38487dedc7ec8883957b10522e53d09bddb
+source-git-commit: fc10dcbedf1e91ccff2e0ccbcedb9bf6bbb89c67
 workflow-type: tm+mt
-source-wordcount: '1486'
-ht-degree: 47%
+source-wordcount: '1499'
+ht-degree: 46%
 
 ---
 
@@ -22,6 +22,8 @@ ht-degree: 47%
 *经理的仪表板报告*
 
 要查看图表的详细信息，请单击图表或单击&#x200B;**[!UICONTROL “详细信息”]**&#x200B;超链接。
+
+经理还可以查看其下一级经理团队的信息板。 例如，用户A是用户B的管理员，用户C、用户D和用户E。用户B和用户C是各自团队的管理员。 用户A可以查看其直接报告（用户B、用户C、用户D和用户E）以及由用户B和用户C管理的团队的报告。
 
 ## 学习摘要 {#learningsummary}
 
@@ -84,10 +86,6 @@ ht-degree: 47%
 ## 合规状态 {#compliancestatus}
 
 在合规性信息板中，经理可以查看团队针对特定类别（例如销售、营销和法律行业）已配置学习的整体合规性状态。 管理员可以创建包含合规性课程、学习路径或认证的信息板，并与经理共享。 经理可以查看其实例中管理员共享的信息板。
-
-用户A是用户B、用户C、用户D和用户E的管理员。用户B和用户C是各自团队的管理员。
-
-用户A可以查看其直接报告（用户B、用户C、用户D和用户E）以及由用户B和用户C管理的团队的报告。
 
 ### 查看信息板
 

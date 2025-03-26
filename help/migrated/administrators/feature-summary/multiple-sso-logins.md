@@ -3,10 +3,10 @@ description: Adobe Learning Manager通过多个SSO配置支持内部和外部用
 title: 多个 SSO 登录
 contentowner: saghosh
 exl-id: 398816e8-a144-459b-8c39-6517ce4573b4
-source-git-commit: 71bfc978c7ec58599c1f5c6afca6c082bc8b3569
+source-git-commit: f964dd3f1adeadb76f4843c9af229ce5f09afde1
 workflow-type: tm+mt
-source-wordcount: '782'
-ht-degree: 39%
+source-wordcount: '794'
+ht-degree: 38%
 
 ---
 
@@ -26,14 +26,19 @@ ht-degree: 39%
 
 要启用多个SSO，请选择&#x200B;**设置** > **登录方法**。
 
-在设置页面上，为内部或外部用户选择“启用多个单点登录(SSO)”复选框。
+在设置页面上，为内部或外部用户选中“**[!UICONTROL 启用多个单点登录(SSO)]**”复选框。
 
 启用多个SSO后，为“默认登录方法”选择的登录方法将成为未链接到任何SSO配置的用户组/配置文件的默认登录类型。 默认登录方法为 Adobe ID、SSO 或 ALM ID（外部用户）。
+
+>[!NOTE]
+>
+>具有必要权限的管理员和自定义管理员可以执行这些步骤。
 
 要配置SSO，请执行以下步骤：
 
 1. 单击“配置单点登录(SSO)”。
-1. 单击“添加新的SSO配置” 。
+1. 单击“添加新的SSO配置” 。\
+   ![](assets/sso.png)
 1. 在“SSO 配置”对话框中，添加以下内容：
 
    * 输入 SSO 名称。

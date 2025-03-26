@@ -4,10 +4,10 @@ jcr-language: en_us
 title: 创建、修改和发布课程
 contentowner: manochan
 exl-id: c5257796-0afa-4021-bd17-d3f1e9a86948
-source-git-commit: 0766d751cf37721ee7befada8b66d1bcf583112e
+source-git-commit: f964dd3f1adeadb76f4843c9af229ce5f09afde1
 workflow-type: tm+mt
-source-wordcount: '7145'
-ht-degree: 72%
+source-wordcount: '7163'
+ht-degree: 71%
 
 ---
 
@@ -699,7 +699,7 @@ Adobe Learning Manager 允许作者使用一个或多个与虚拟培训、自学
 
 ## 弃用课程 {#retireacourse}
 
-如果弃用课程，则新的学习者无法再注册该课程。已经注册的学习者仍可参加课程。
+即使学习者已注册或已完成课程，弃用课程也会隐藏该课程。 如果弃用课程，则新的学习者无法再注册该课程。已经注册的学习者仍可参加课程。
 
 要弃用课程，将鼠标悬停在课程卡的选项上，然后单击“弃用课程”。
 

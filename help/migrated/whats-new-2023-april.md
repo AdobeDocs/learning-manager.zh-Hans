@@ -3,10 +3,10 @@ title: 此版本（2023年4月）的新增功能
 description: 了解 Adobe Learning Manager 中的新功能和增强功能
 hidefromtoc: true
 exl-id: 0f9d73e8-da7f-4895-b4fa-54f52668cd4e
-source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
+source-git-commit: f964dd3f1adeadb76f4843c9af229ce5f09afde1
 workflow-type: tm+mt
-source-wordcount: '3158'
-ht-degree: 62%
+source-wordcount: '3205'
+ht-degree: 61%
 
 ---
 
@@ -216,13 +216,20 @@ Adobe Learning Manager 现在支持用户使用本机相机应用程序，以更
 
 学习者选择&#x200B;**“查看所有实例”**&#x200B;后，即可看到所有课程实例。
 
-![查看所有实例](assets/view-all-instances-new.png)
+![替代文本](assets/view-all-instance.png)
 
-管理员可以为学习者切换实例。
+_从学习者控制台查看所有实例页面_
 
-![切换实例](assets/switch-instances.png)
+![](assets/switch-instance-learner.png)
+_从学习者页面切换实例_
+
+管理员可以为学习者切换实例。 从Admin Console中选择课程，转到&#x200B;**[!UICONTROL 学习者]**&#x200B;部分，选择用户，然后选择&#x200B;**[!UICONTROL 操作]**&#x200B;按钮。 然后，选择&#x200B;**[!UICONTROL 切换实例]**&#x200B;并选择所需的实例。
+
+![替代文本](assets/switch-instance-admin.png)
+_从Admin Console切换实例_
 
 ![切换实例选择](assets/switch-instances-select.png)
+_切换实例提示_
 
 在学习者或管理员应用程序完成课程的任何实例之前，您无法切换实例。
 

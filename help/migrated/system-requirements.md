@@ -4,10 +4,10 @@ title: 系统要求
 description: Adobe Learning Manager系统要求
 contentowner: dvenkate
 exl-id: 3bf9818a-4b86-47e9-9b86-1c32b8bfee3a
-source-git-commit: 4096b80a5e939ef72a9bbe2aede3d9d91402e4ee
+source-git-commit: f964dd3f1adeadb76f4843c9af229ce5f09afde1
 workflow-type: tm+mt
-source-wordcount: '570'
-ht-degree: 65%
+source-wordcount: '590'
+ht-degree: 62%
 
 ---
 
@@ -39,7 +39,7 @@ Intel® CoreTM i5或更快版本。
 
 音频录制需要麦克风；视频录制需要网络摄像头。
 
-## 移动应用程序
+## 移动设备应用程序
 
 ### 设备
 
@@ -85,7 +85,10 @@ IE 11 浏览器不支持沉浸式布局主页。
 
 ## 推荐的图像大小 {#recommendedsizeofimages}
 
-* 刊头：1280 x 360 像素。
+* 刊头：
+   * 对于最大设置：1280 x 360像素
+   * 对于中等设置：1280 x 273像素
+   * 对于最小设置：1280 x 187像素
 * 目录卡中的图像：280 x 100像素
 * 训练卡大小：300 x 240像素
 * 社交横幅：1600 x 240 像素

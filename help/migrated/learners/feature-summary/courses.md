@@ -4,9 +4,9 @@ jcr-language: en_us
 title: 我的学习
 contentowner: manochan
 exl-id: 2c62d36c-c500-40d6-b79f-d3cc8b3b756a
-source-git-commit: 4151b3d791a2ac13a40dc812a3c7b2c3c43bfc9c
+source-git-commit: f964dd3f1adeadb76f4843c9af229ce5f09afde1
 workflow-type: tm+mt
-source-wordcount: '2789'
+source-wordcount: '3080'
 ht-degree: 63%
 
 ---
@@ -99,6 +99,37 @@ Adobe Learning Manager 能让您轻松快速找到您想选择的课程。您可
 >[!NOTE]
 >
 >如果学习者同时或重叠注册了两个不同的会话，则应看到一条冲突消息。
+
+## 切换实例
+
+注册特定课程实例的学习者可以查看课程所有可用实例的列表，并切换到更适合自己的其他实例。 切换的原因可能在于学习者错过了参加以前的实例、新实例的会话时间安排更合适，或其他原因。
+
+学习者在课程中完成的任何进度、学习者测验分数等，都会转移到新实例中。 此功能主要用于教室和混合课程，但我们将为自学课程在内的所有类型的课程提供支持。
+
+不论“实例切换”如何设置，页面都会显示“查看所有实例”选项。 如果一门课程包含多个实例，学习者现在将看到一个可查看所有实例的选项。
+
+启用“实例切换”选项后，学习者可以切换到各种实例，直到完成课程。 如果禁用此选项，则学习者可以查看实例，但无法注册课程。
+
+学习者选择&#x200B;**“查看所有实例”**&#x200B;后，即可看到所有课程实例。
+
+![替代文本](assets/view-all-instance.png)
+
+_从学习者控制台查看所有实例页面_
+
+![](assets/switch-instance-learner.png)
+_从学习者页面切换实例_
+
+管理员可以为学习者切换实例。 从Admin Console中选择课程，转到&#x200B;**[!UICONTROL 学习者]**&#x200B;部分，选择用户，然后选择&#x200B;**[!UICONTROL 操作]**&#x200B;按钮。 然后，选择&#x200B;**[!UICONTROL 切换实例]**&#x200B;并选择所需的实例。
+
+![替代文本](assets/switch-instance-admin.png)
+_从Admin Console切换实例_
+
+![切换实例选择](assets/switch-instances-select.png)
+_切换实例提示_
+
+在学习者或管理员应用程序完成课程的任何实例之前，您无法切换实例。
+
+作者在创建课程时，可以在启用或禁用“实例切换”之间切换。 实例切换仅适用于免费课程。
 
 ## 学习者工作流程
 

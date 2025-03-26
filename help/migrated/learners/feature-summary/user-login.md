@@ -4,10 +4,10 @@ jcr-language: en_us
 title: 登录
 contentowner: manochan
 exl-id: f553bfa1-29f0-420f-abde-e1f65612b182
-source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
+source-git-commit: f964dd3f1adeadb76f4843c9af229ce5f09afde1
 workflow-type: tm+mt
-source-wordcount: '148'
-ht-degree: 58%
+source-wordcount: '196'
+ht-degree: 33%
 
 ---
 
@@ -15,7 +15,14 @@ ht-degree: 58%
 
 以学习者身份登录 Adobe Learning Manager。
 
-当您第一次使用 Adobe Learning Manager 时，需要通过以下步骤来创建帐户：
+首次使用Adobe Learning Manager时，学习者需要创建一个帐户。 您可以通过以下两种方式之一执行此操作：
+
+* 自行注册：使用欢迎电子邮件中提供的URL创建帐户。
+* 管理员创建的帐户：管理员可以代表您创建帐户。
+
+## 使用欢迎电子邮件URL创建帐户
+
+按照以下步骤使用欢迎电子邮件中的URL创建您的帐户：
 
 1. 使用管理员发送给您的欢迎电子邮件中的安全链接启动 Adobe Learning Manager。
 

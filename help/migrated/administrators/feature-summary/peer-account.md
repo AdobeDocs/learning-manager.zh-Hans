@@ -4,10 +4,10 @@ jcr-language: en_us
 title: 配对帐户
 contentowner: shhivkum
 exl-id: 251d0eeb-f5e8-4f70-a36c-dcecb4834042
-source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
+source-git-commit: f964dd3f1adeadb76f4843c9af229ce5f09afde1
 workflow-type: tm+mt
-source-wordcount: '576'
-ht-degree: 62%
+source-wordcount: '638'
+ht-degree: 57%
 
 ---
 
@@ -31,6 +31,18 @@ Adobe Learning Manager 已推出配对帐户功能，可让您共享已购买的
    ![](assets/addpeer.png)
 
    *添加子域*
+
+>[!NOTE]
+>
+>要查找另一个帐户的子域，请检查该帐户的URL。 子域显示在主域之前，可帮助识别特定帐户。
+>
+>例如：
+>
+>在URL [https://www.learningmanager.com/accountname](https://www.learningmanager.com/accountname)中，子域为&#x200B;**帐户名称**。
+>
+>在URL [https://www.accountname.learningmanager.com](https://www.accountname.learningmanager.com)中，子域也是&#x200B;**帐户名称**。
+>
+>子域对于每个帐户是唯一的，用于访问相应的Learning Manager实例。
 
 1. 输入接受或拒绝配对帐户请求的管理员的电子邮件 ID。
 1. 指定要与配对帐户共享的名额数。 当您与配对帐户共享名额时，配对帐户将进入“活动”状态，其中包含已接收的名额，或包含配对帐户自己购买的名额。

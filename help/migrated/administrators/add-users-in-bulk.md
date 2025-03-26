@@ -4,10 +4,10 @@ title: 批量添加用户
 description: 了解如何一次添加多个用户。
 contentowner: saghosh
 exl-id: c3309ce5-8764-452e-82d5-5637c23c661b
-source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
+source-git-commit: f964dd3f1adeadb76f4843c9af229ce5f09afde1
 workflow-type: tm+mt
-source-wordcount: '316'
-ht-degree: 24%
+source-wordcount: '341'
+ht-degree: 22%
 
 ---
 
@@ -38,6 +38,10 @@ ht-degree: 24%
 在CSV中，用户个人资料和经理电子邮件ID并不是必填项。 只有用户名和用户的电子邮件ID才是必填字段。
 
 在这种情况下，系统会默认将您公司的管理员视为用户的经理， 默认情况下，将员工视为用户的个人资料。
+
+>[!NOTE]
+>
+>要添加新用户，请创建一个包含其详细信息的新CSV文件并将其上传。 不支持更新和重新上传现有CSV文件。
 
 **示例CSV**
 

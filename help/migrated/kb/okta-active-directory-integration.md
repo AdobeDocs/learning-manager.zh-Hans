@@ -4,10 +4,10 @@ title: Okta Active Directory 与 Adobe Learning Manager 集成
 description: Okta Active Directory 与 Adobe Learning Manager 集成
 contentowner: nluke
 exl-id: 6d7711a9-7a7f-49b7-8948-9a42407463b3
-source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
+source-git-commit: f964dd3f1adeadb76f4843c9af229ce5f09afde1
 workflow-type: tm+mt
-source-wordcount: '548'
-ht-degree: 57%
+source-wordcount: '561'
+ht-degree: 55%
 
 ---
 
@@ -23,7 +23,12 @@ Adobe Learning Manager 支持由身份提供商 (IdP) 和服务提供商 (SP) �
 
 ## 在 OKTA 中创建应用程序
 
-1. 在 Okta AD 中以管理员身份登录。
+1. 登录到Okta AD。
+
+   >[!NOTE]
+   >
+   >您不需要ALM管理员访问权限即可创建应用程序和设置IDP。
+
 1. 单击&#x200B;**[!UICONTROL 应用程序]**。 将打开 Okta 中的应用程序商店。
 
    ![](assets/cp-application-store.png)

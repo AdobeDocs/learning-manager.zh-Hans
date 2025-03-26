@@ -4,10 +4,10 @@ jcr-language: en_us
 title: 添加用户和创建用户组
 contentowner: manochan
 exl-id: 7df98f2b-c422-4733-8ce4-5489506d4fdf
-source-git-commit: b01bf6bf89a3b9d860df712df1b7ef3a859407ed
+source-git-commit: f964dd3f1adeadb76f4843c9af229ce5f09afde1
 workflow-type: tm+mt
-source-wordcount: '4150'
-ht-degree: 59%
+source-wordcount: '4231'
+ht-degree: 58%
 
 ---
 
@@ -358,6 +358,16 @@ Adobe Learning Manager 中有两种类型的组：自定义和自动生成。将
 1. 要创建用户组，请单击&#x200B;**[!UICONTROL “保存”]**。
 
 现在，已创建此自定义组并将其添加到个人资料中。您创建的用户组本质上是动态的。如果添加了具有类似属性的新用户，则会自动将其添加到用户组。
+
+要查看用户所属的组列表，请导航到&#x200B;**[!UICONTROL 用户]** > **[!UICONTROL 用户组]**，搜索该用户的名称，然后选择它。 这将显示用户所属的所有组。
+
+![](assets/list-of-group.png)
+
+### 下载用户组中的用户列表
+
+要下载特定用户组中的用户列表，请导航到&#x200B;**[!UICONTROL 用户]** > **[!UICONTROL 用户组]**，选择组旁边的&#x200B;**[!UICONTROL 下载图标]**。 这将生成一个CSV文件，其中包含该组中的用户列表。
+
+![](assets/download-list-of-user.png)
 
 ## 排除用户组
 

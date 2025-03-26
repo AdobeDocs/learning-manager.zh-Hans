@@ -4,10 +4,10 @@ title: 学习路径
 description: 在 Adobe Learning Manager 中为管理员创建学习计划。
 contentowner: saghosh
 exl-id: 31f1d66f-4da1-49d2-8ec1-995fd2ebeadb
-source-git-commit: 62efe11497408ad637f8559adeb0539c89b8f4d4
+source-git-commit: f964dd3f1adeadb76f4843c9af229ce5f09afde1
 workflow-type: tm+mt
-source-wordcount: '1329'
-ht-degree: 37%
+source-wordcount: '1334'
+ht-degree: 35%
 
 ---
 
@@ -111,15 +111,13 @@ ht-degree: 37%
 
 完成更改后，要发布学习路径，请单击Publish。
 
-## 嵌套式学习路径
+## 嵌套式或增强式学习路径
 
-您可以在学习路径中加入新的学习路径，但至多只能在其中嵌套一个学习路径。
-
-像插入课程一样插入学习路径。
+嵌套或增强学习路径是一种包含多个学习路径的学习路径。 要插入学习路径，请按照在“学习路径”中添加课程相同的过程操作。
 
 ![](assets/nested-learning-path.png)
 
-*在学习路径中添加学习路径*
+*嵌套或增强的学习路径*
 
 ## 学习路径设置
 

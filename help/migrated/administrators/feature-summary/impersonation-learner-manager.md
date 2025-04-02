@@ -4,10 +4,10 @@ jcr-language: en_us
 title: 学习者和经理模拟
 contentowner: saghosh
 exl-id: 0306f255-283f-43b9-9494-11b3dc3765da
-source-git-commit: f44f44ab34acc42edb79d66588ad986d629734ff
+source-git-commit: b5bbb184fc86965255b0247195a50cc65a03cd1a
 workflow-type: tm+mt
-source-wordcount: '532'
-ht-degree: 59%
+source-wordcount: '517'
+ht-degree: 56%
 
 ---
 
@@ -30,8 +30,7 @@ ht-degree: 59%
 * 默认情况下，所有管理员都可以看到此功能。
 * 只能模拟帐户中的活跃用户。
 * 管理员无法模拟自己。
-* 有权访问“用户”页面的自定义管理员可以模拟用户。
-* 管理员/自定义管理员只能模拟 60 分钟。
+* 管理员只能模拟60分钟。
 * 具有只读访问权限的自定义管理员无法模拟用户。
 
 ## 模拟用户

@@ -4,10 +4,10 @@ jcr-language: en_us
 title: 学习者和经理模拟
 contentowner: saghosh
 exl-id: 0306f255-283f-43b9-9494-11b3dc3765da
-source-git-commit: 1693bb3905895be0c9a883339a1a5c7d71bb3f33
+source-git-commit: f44f44ab34acc42edb79d66588ad986d629734ff
 workflow-type: tm+mt
-source-wordcount: '534'
-ht-degree: 64%
+source-wordcount: '532'
+ht-degree: 59%
 
 ---
 
@@ -55,7 +55,7 @@ ht-degree: 64%
 
 **模拟会话持续60分钟。**
 
-在更改为学习者或经理角色时，系统会显示一条消息，指明管理员/自定义管理员处于用户的模拟模式下。
+在更改为学习者或经理角色时，系统会显示一条消息，指明管理员处于用户的模拟模式下。
 
 ## 登录和访问报告
 

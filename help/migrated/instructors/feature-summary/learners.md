@@ -4,10 +4,10 @@ jcr-language: en_us
 title: 管理会话的学习者
 contentowner: shhivkum
 exl-id: 2f4f8589-2350-4683-a141-809084d6309a
-source-git-commit: b01bf6bf89a3b9d860df712df1b7ef3a859407ed
+source-git-commit: 5afe808b0fe862385afa1691abbbc076016d21df
 workflow-type: tm+mt
-source-wordcount: '1029'
-ht-degree: 84%
+source-wordcount: '1056'
+ht-degree: 82%
 
 ---
 
@@ -92,6 +92,12 @@ Adobe Learning Manager的新&#x200B;**[!UICONTROL 轮候表报告]**&#x200B;允�
 
 * 若要向特定与会者发送电子邮件，请选择与会者并单击“操作 > 向选定对象发送电子邮件”。
 * 若要通过电子邮件向全体与会者发送课程材料或作业，请单击“操作 > 发送至全体”。
+
+## 捕获邀请响应
+
+您可以在“学习者”部分中查看邀请响应。 转到任何会话，选择&#x200B;**[!UICONTROL 学习者]**，然后从下拉菜单中选择邀请响应。
+
+![](assets/invitation-status.png)
 
 ## 导出学习者列表 {#exportinglearnerslist}
 

@@ -2,7 +2,7 @@
 user-guide-title: Adobe Learning Manager 指南
 breadcrumb-title: Learning Manager
 user-guide-description: Adobe Learning Manager 的文档
-source-git-commit: 1985b1db6e4ec5fdbe3cfa939ce404e9cf3a6ee9
+source-git-commit: 5afe808b0fe862385afa1691abbbc076016d21df
 workflow-type: tm+mt
 source-wordcount: '639'
 ht-degree: 83%
@@ -27,7 +27,6 @@ ht-degree: 83%
    * [Adobe Learning Manager 的 GDPR 合规性](kb/prime-gdpr.md)
    * [Adobe Learning Manager 中的辅助功能](accessibility-learning-manager.md)
    * [自定义域支持](custom-domain.md)
-   * [Adobe Learning Manager 中的推荐](recommendations-adobe-learning-manager.md)
    * [从 Adobe FTP Manager 过渡](transition-from-ftp-manager.md)
    * [Adobe Learning Manager中支持的语言](/help/migrated/languages-supported.md)
    * [Adobe Learning Manager中的API弃用和更改](api-deprecations-list.md)
@@ -58,6 +57,7 @@ ht-degree: 83%
    * [通过SAML设置界面语言](/help/migrated/administrators/feature-summary/set-up-interface-language-through-saml.md)
    * [配对帐户](administrators/feature-summary/peer-account.md)
    * [创建、修改技能和级别](administrators/feature-summary/skills-levels.md)
+   * [Adobe Learning Manager 中的推荐](recommendations-adobe-learning-manager.md)
    * [基于 AI 的课程推荐](ai-based-recommendations.md)
    * [导入技能](administrators/feature-summary/import-skills-external-sources.md)
    * [游戏](administrators/feature-summary/gamification.md)

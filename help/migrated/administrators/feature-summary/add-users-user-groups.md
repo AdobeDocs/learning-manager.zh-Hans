@@ -4,10 +4,10 @@ jcr-language: en_us
 title: 添加用户和创建用户组
 contentowner: manochan
 exl-id: 7df98f2b-c422-4733-8ce4-5489506d4fdf
-source-git-commit: f964dd3f1adeadb76f4843c9af229ce5f09afde1
+source-git-commit: 5afe808b0fe862385afa1691abbbc076016d21df
 workflow-type: tm+mt
-source-wordcount: '4231'
-ht-degree: 58%
+source-wordcount: '4290'
+ht-degree: 57%
 
 ---
 
@@ -172,6 +172,8 @@ ht-degree: 58%
 
 ## 活动字段
 
+Adobe Learning Manager中的活动字段是可自定义的元数据字段，用于存储和管理用户特定的信息。 这些字段有助于定义与系统中每个用户关联的关键属性或特性。
+
 ### 管理用户属性
 
 >[!INFO]
@@ -329,6 +331,10 @@ Adobe Learning Manager保留用户属性及其值的大小写区分性。 **例�
 ## 删除角色 {#Removearole-1}
 
 选择用户，然后从右上角单击“**[!UICONTROL 操作]**”>“**[!UICONTROL 删除角色]**”>“**删除`<role>`**”。 所选角色将从分配给用户的角色列表中删除。
+
+>[!NOTE]
+>
+>分配新角色不会影响自定义用户组。 但是，它将会影响自动生成的用户组，例如所有管理员、所有作者以及类似的基于角色的组。
 
 ## 创建用户组 {#createusergroups}
 

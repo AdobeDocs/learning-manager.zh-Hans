@@ -4,9 +4,9 @@ title: 自定义角色
 description: “学习路径”功能可帮助您定义自定义角色并将特定责任分配给一组用户。 利用此功能，您可以分配个人现有角色权限之外的责任。
 contentowner: dvenkate
 exl-id: dcc84f91-4e51-4ae2-b7cb-9eb29b398bc1
-source-git-commit: f8151cb47645a07bcea306dcaf3f8ac032d4044e
+source-git-commit: 5afe808b0fe862385afa1691abbbc076016d21df
 workflow-type: tm+mt
-source-wordcount: '2662'
+source-wordcount: '2685'
 ht-degree: 53%
 
 ---
@@ -16,6 +16,10 @@ ht-degree: 53%
 此功能可帮助您定义自定义角色并将特定责任分配给一组用户。 利用此功能，您可以分配个人现有角色权限之外的责任。
 
 您可以创建自定义角色并提供仅限于特定目录的创作功能。 您还可以创建专用于报告管理的角色。 然后将此类角色分配给需要承担这些职责的个人。
+
+>[!NOTE]
+>
+>添加新自定义角色不会影响现有自定义用户组或任何基于角色的组，例如所有管理员、所有作者等。
 
 管理员可以创建自定义管理员角色和自定义作者角色，并为每个角色定制权限。 以下是与每个角色关联的权限概述：
 

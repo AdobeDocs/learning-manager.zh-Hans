@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Adobe Learning Manager 连接器
 contentowner: jayakarr
 exl-id: 1f44934b-6a2b-484d-bc7f-d0f23e3008ca
-source-git-commit: 8d647f492d6073ed4b16d44e16548a3defdca02a
+source-git-commit: 5afe808b0fe862385afa1691abbbc076016d21df
 workflow-type: tm+mt
-source-wordcount: '15848'
-ht-degree: 59%
+source-wordcount: '15865'
+ht-degree: 58%
 
 ---
 
@@ -1084,6 +1084,10 @@ Adobe Learning Manager 需要获取以下范围，并且必须在 OAuth 应用�
 * 查看报告数据`/report:read:admin`
 * 查看所有用户信息`/user:read:admin`
 * 查看用户信息并管理用户`/user:write:admin`
+* 添加会议注册者`/meeting:write:registrant:admin`
+* 列出所有会议注册者`/meeting:read:list_registrants:admin`
+* 查看和管理子帐户的用户会议`/meeting:write:meeting:master`
+* 查看报告数据`/report:read:list_meeting_participants:admin`
 
 ## Box 连接器 {#box_connector}
 

@@ -4,10 +4,10 @@ title: 轮候表和出席管理
 description: 管理员可以管理学习者的课程出席和轮候情况。
 contentowner: manochan
 exl-id: 257ed196-d6a7-4d6c-bd90-33d658f6ba55
-source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
+source-git-commit: 5afe808b0fe862385afa1691abbbc076016d21df
 workflow-type: tm+mt
-source-wordcount: '308'
-ht-degree: 76%
+source-wordcount: '325'
+ht-degree: 72%
 
 ---
 
@@ -28,6 +28,10 @@ ht-degree: 76%
 
 1. 单击课程详细信息页面左侧窗格中的&#x200B;**[!UICONTROL 轮候表]**。 该页面上会显示轮候学习者列表。
 1. 选择学习者并单击&#x200B;**[!UICONTROL 分配名额]**，直接将学习者注册到名额有限的课程。
+
+>[!NOTE]
+>
+>无法将已注册的学习者移至轮候表，并且无法将他们的名额重新分配给其他学习者。
 
 ## 出勤管理 {#attendancemanagement}
 

@@ -4,7 +4,7 @@ jcr-language: en_us
 title: 电子邮件模板
 contentowner: manochan
 exl-id: acc85500-2ed1-47a4-8e65-6e1b8ef7d156
-source-git-commit: f98b053e1d63841c232380de74170f8a14067473
+source-git-commit: a28ac8f57710c118ca4ad02872fd100c6f24beac
 workflow-type: tm+mt
 source-wordcount: '1520'
 ht-degree: 58%
@@ -25,7 +25,7 @@ Adobe Learning Manager 应用程序根据事件向多个用户角色发送电子
 
 在本培训中，您将了解如何自定义单个电子邮件模板以及如何自定义电子邮件模板的课程级别和帐户级别设置。
 
-[![按钮](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=QYL4NT4P&amp;mv=display&amp;mv2=display#/course/8318925)
+[![按钮](assets/launch-training-button.png)](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/8318925)
 
 <!--In this training, you will learn how to create a user group by names, email IDs, and combining multiple auto-generated user groups.-->
 
@@ -223,7 +223,7 @@ Adobe Learning Manager 中的电子邮件模板现在包括完全可编辑的部
 
 在本培训中，您将了解如何设置实例默认值、添加新实例、停用和重新打开实例以及为实例配置电子邮件模板。
 
-[![按钮](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=P3KMQNZS&amp;mv=display&amp;mv2=display#/course/8318911)
+[![按钮](assets/launch-training-button.png)](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/8318911)
 
 如果您无法启动培训，请写入<almacademy@adobe.com>。
 

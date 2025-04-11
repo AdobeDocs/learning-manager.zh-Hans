@@ -4,7 +4,7 @@ title: 学习路径
 description: 在 Adobe Learning Manager 中为管理员创建学习计划。
 contentowner: saghosh
 exl-id: 31f1d66f-4da1-49d2-8ec1-995fd2ebeadb
-source-git-commit: f964dd3f1adeadb76f4843c9af229ce5f09afde1
+source-git-commit: a28ac8f57710c118ca4ad02872fd100c6f24beac
 workflow-type: tm+mt
 source-wordcount: '1334'
 ht-degree: 35%
@@ -25,7 +25,7 @@ ht-degree: 35%
 
 在本培训中，您将学习如何创建学习路径、添加课程、发布和弃用学习路径以及配置学习路径中的实例。
 
-[![按钮](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=QQ42P2LR&amp;mv=display&amp;mv2=display#/course/8318919)
+[![按钮](assets/launch-training-button.png)](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/8318919)
 
 如果您无法启动培训，请写入<almacademy@adobe.com>。
 

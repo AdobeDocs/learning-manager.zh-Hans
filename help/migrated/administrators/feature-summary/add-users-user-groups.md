@@ -4,9 +4,9 @@ jcr-language: en_us
 title: 添加用户和创建用户组
 contentowner: manochan
 exl-id: 7df98f2b-c422-4733-8ce4-5489506d4fdf
-source-git-commit: a28ac8f57710c118ca4ad02872fd100c6f24beac
+source-git-commit: 64e6700a944fa3e258461a42c3934f3fa2c1d7a6
 workflow-type: tm+mt
-source-wordcount: '4290'
+source-wordcount: '4296'
 ht-degree: 57%
 
 ---
@@ -15,22 +15,7 @@ ht-degree: 57%
 
 了解如何在 Adobe Learning Manager 应用程序中添加用户或用户组。
 
-
 <!--![](assets/user-mgmt-new.png)-->
-
-## 管理用户组
-
->[!INFO]
->
->在本培训中，您将了解如何按姓名、电子邮件ID以及合并多个自动生成的用户组来创建用户组。<br><br>[![按钮](assets/launch-training-button.png)](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/7555694)</br></br>
-
-<!--[Launch training](https://learningmanager.adobe.com/app/learner?accountId=98632&sdid=QLD1P6BS&mv=display&mv2=display#/course/7555694)-->
-
-<!--In this training, you will learn how to create a user group by names, email IDs, and combining multiple auto-generated user groups.-->
-
-<!--[![button](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&sdid=QLD1P6BS&mv=display&mv2=display#/course/7555694)-->
-
-如果您无法启动培训，请写入<almacademy@adobe.com>。
 
 ## 概述 {#overview}
 
@@ -64,9 +49,6 @@ ht-degree: 57%
 1. 在主页上，单击&#x200B;**[!UICONTROL “添加用户”]**。在此页面上，您可以使用 CSV 一次添加单个用户或多个用户。您还可以为内部员工创建自行注册链接或创建外部学习者个人资料。
 1. 要添加单个用户，请单击&#x200B;**[!UICONTROL 右上角的添加]**，然后选择“**[!UICONTROL 单个用户]**”选项。
 
-1. 要添加单个用户，请单击&#x200B;**[!UICONTROL 右上角的添加]**，然后选择“**单个用户**”选项。
-
-
    ![](assets/single-user.png)
    *添加单个内部用户*
 
@@ -79,16 +61,7 @@ ht-degree: 57%
 
 ## 批量添加用户 {#addusersinbulk}
 
-### 管理用户
-
-在本培训中，您将了解如何分配和删除角色、发送欢迎电子邮件以及删除和清除用户。
-
-[![按钮](assets/launch-training-button.png)](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/7555586)
-
-如果您无法启动培训，请写入<almacademy@adobe.com>。
-
 通常，大多数公司使用人力资源管理系统 (HRMS) 来维护所有员工记录，例如，职务、位置、加入日期或员工层级。您可以将此数据导出为 CSV 格式。要导入 CSV，请按以下步骤操作：
-
 
 1. 单击右上角的&#x200B;**[!UICONTROL “添加”]**，然后选择&#x200B;**[!UICONTROL “上传 CSV”]**&#x200B;选项。
 
@@ -135,11 +108,25 @@ ht-degree: 57%
 
 选择用户后，您可以执行以下操作：
 
+>[!INFO]
+>
+>在本培训中，您将了解如何通过CSV批量添加用户。<br><br>[![按钮](assets/launch-training-button.png)](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/7555555)</br></br>
+
+如果您无法启动培训，请写入<almacademy@adobe.com>。
+
 ## 注册用户 {#registerauser}
 
 选择用户后，单击右上角的&#x200B;**[!UICONTROL “操作”]**，然后单击&#x200B;**[!UICONTROL “注册”]**。
 
 所选用户会收到一封“欢迎”电子邮件。如果学习者已拥有一个现成的 Adobe ID，则可以单击此链接。如果他们没有现成的Adobe ID，他们可以继续并单击“欢迎”链接以创建Adobe ID，并将其链接到其Learning Manager帐户。
+
+### 管理用户
+
+在本培训中，您将了解如何分配和删除角色、发送欢迎电子邮件以及删除和清除用户。
+
+[![按钮](assets/launch-training-button.png)](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/7555586)
+
+如果您无法启动培训，请写入<almacademy@adobe.com>。
 
 ## 分配角色 {#assignarole}
 
@@ -339,6 +326,18 @@ Adobe Learning Manager保留用户属性及其值的大小写区分性。 **例�
 ## 创建用户组 {#createusergroups}
 
 用户组是一组与类别相关的用户。用户组可帮助管理员根据其属性选择公司中的学习者，然后为其分配学习内容。此外，这些用户组允许管理员将自定义徽标和目录分配给学习者，并显示有关其进度的自定义报告。
+
+>[!INFO]
+>
+>在本培训中，您将了解如何按姓名、电子邮件ID以及合并多个自动生成的用户组来创建用户组。<br><br>[![按钮](assets/launch-training-button.png)](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/7555694)</br></br>
+
+<!--[Launch training](https://learningmanager.adobe.com/app/learner?accountId=98632&sdid=QLD1P6BS&mv=display&mv2=display#/course/7555694)-->
+
+<!--In this training, you will learn how to create a user group by names, email IDs, and combining multiple auto-generated user groups.-->
+
+<!--[![button](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&sdid=QLD1P6BS&mv=display&mv2=display#/course/7555694)-->
+
+如果您无法启动培训，请写入<almacademy@adobe.com>。
 
 要访问用户组，请在左侧导航窗格中单击&#x200B;**[!UICONTROL “用户组”]**。
 

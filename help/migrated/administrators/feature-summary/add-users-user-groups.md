@@ -4,7 +4,7 @@ jcr-language: en_us
 title: 添加用户和创建用户组
 contentowner: manochan
 exl-id: 7df98f2b-c422-4733-8ce4-5489506d4fdf
-source-git-commit: 81b3b2ef5f430968b107d3e9d67fea672c6dea98
+source-git-commit: f5998c7e7a05d6f48e094b359d157603f4a95e5c
 workflow-type: tm+mt
 source-wordcount: '4290'
 ht-degree: 57%
@@ -15,22 +15,7 @@ ht-degree: 57%
 
 了解如何在 Adobe Learning Manager 应用程序中添加用户或用户组。
 
-
 <!--![](assets/user-mgmt-new.png)-->
-
-## 管理用户组
-
->[!INFO]
->
->在本培训中，您将了解如何按姓名、电子邮件ID以及合并多个自动生成的用户组来创建用户组。<br><br>[![按钮](assets/launch-training-button.png)](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/7555694)</br></br>
-
-<!--[Launch training](https://learningmanager.adobe.com/app/learner?accountId=98632&sdid=QLD1P6BS&mv=display&mv2=display#/course/7555694)-->
-
-<!--In this training, you will learn how to create a user group by names, email IDs, and combining multiple auto-generated user groups.-->
-
-<!--[![button](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&sdid=QLD1P6BS&mv=display&mv2=display#/course/7555694)-->
-
-如果您无法启动培训，请写入<almacademy@adobe.com>。
 
 ## 概述 {#overview}
 
@@ -78,14 +63,6 @@ ht-degree: 57%
 1. 要在 Adobe Learning Manager 中添加新用户，请单击&#x200B;**[!UICONTROL “添加”]**。添加用户后，用户会收到验证邮件。然后，学习者激活帐户并开始使用 Adobe Learning Manager。如果您需要向Learning Manager帐户添加有限数量的学习者，此工作流程非常有用。 但是，如果您计划注册一个大型公司的所有员工，您可以一次性完成添加。有关更多信息，请参阅下一节。
 
 ## 批量添加用户 {#addusersinbulk}
-
-### 管理用户
-
-在本培训中，您将了解如何分配和删除角色、发送欢迎电子邮件以及删除和清除用户。
-
-[![按钮](assets/launch-training-button.png)](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/7555586)
-
-如果您无法启动培训，请写入<almacademy@adobe.com>。
 
 通常，大多数公司使用人力资源管理系统 (HRMS) 来维护所有员工记录，例如，职务、位置、加入日期或员工层级。您可以将此数据导出为 CSV 格式。要导入 CSV，请按以下步骤操作：
 
@@ -140,6 +117,14 @@ ht-degree: 57%
 选择用户后，单击右上角的&#x200B;**[!UICONTROL “操作”]**，然后单击&#x200B;**[!UICONTROL “注册”]**。
 
 所选用户会收到一封“欢迎”电子邮件。如果学习者已拥有一个现成的 Adobe ID，则可以单击此链接。如果他们没有现成的Adobe ID，他们可以继续并单击“欢迎”链接以创建Adobe ID，并将其链接到其Learning Manager帐户。
+
+### 管理用户
+
+在本培训中，您将了解如何分配和删除角色、发送欢迎电子邮件以及删除和清除用户。
+
+[![按钮](assets/launch-training-button.png)](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/7555586)
+
+如果您无法启动培训，请写入<almacademy@adobe.com>。
 
 ## 分配角色 {#assignarole}
 
@@ -344,6 +329,14 @@ Adobe Learning Manager保留用户属性及其值的大小写区分性。 **例�
 
 ![](assets/user-groups.png)
 *创建用户组*
+
+### 管理用户组
+
+>[!INFO]
+>
+>在本培训中，您将了解如何按姓名、电子邮件ID以及合并多个自动生成的用户组来创建用户组。<br><br>[![按钮](assets/launch-training-button.png)](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/7555694)</br></br>
+
+如果您无法启动培训，请写入<almacademy@adobe.com>。
 
 Adobe Learning Manager 中有两种类型的组：自定义和自动生成。将学习者添加到您的帐户时，会根据其常用属性自动创建某些组。
 

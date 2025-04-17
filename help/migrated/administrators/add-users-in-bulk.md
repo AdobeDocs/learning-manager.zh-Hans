@@ -4,7 +4,7 @@ title: 批量添加用户
 description: 了解如何一次添加多个用户。
 contentowner: saghosh
 exl-id: c3309ce5-8764-452e-82d5-5637c23c661b
-source-git-commit: a28ac8f57710c118ca4ad02872fd100c6f24beac
+source-git-commit: 96602899dd76eae14a6b7e1808d529756657e7b8
 workflow-type: tm+mt
 source-wordcount: '341'
 ht-degree: 22%
@@ -13,9 +13,9 @@ ht-degree: 22%
 
 # 批量添加用户
 
-在本培训中，您将了解如何通过CSV批量添加用户。
-
-[![按钮](feature-summary/assets/launch-training-button.png)](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/7555555)
+>[!INFO]
+>
+>在本培训中，您将了解如何通过CSV批量添加用户。<br><br>[![按钮](feature-summary/assets/launch-training-button.png)](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/7555555)</br></br>
 
 如果您无法启动培训，请写入<almacademy@adobe.com>。
 
@@ -56,7 +56,7 @@ Learning Manager示例CSV包含以下必填字段。
 
 *要上传的CSV模板*
 
-此外，组织的管理员可以将自己添加为员工，并将经理的电子邮件ID作为root提及。
+此外，组织的管理员可以将&#x200B;**自己**&#x200B;添加为员工，并将其经理的电子邮件ID作为root提及。
 
 **示例CSV**
 

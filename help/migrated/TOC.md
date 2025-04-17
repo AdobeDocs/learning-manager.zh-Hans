@@ -2,10 +2,10 @@
 user-guide-title: Adobe Learning Manager 指南
 breadcrumb-title: Learning Manager
 user-guide-description: Adobe Learning Manager 的文档
-source-git-commit: 1238639763ce6f373b4cc646a311e48733945849
+source-git-commit: 5676ddb238309bc643394af1dde3cba7f8ac6699
 workflow-type: tm+mt
 source-wordcount: '643'
-ht-degree: 83%
+ht-degree: 85%
 
 ---
 
@@ -13,7 +13,7 @@ ht-degree: 83%
 # Learning Manager指南 {#using}
 
 * [Adobe Learning Manager 用户指南](user-guide.md)
-* 简介{#introduction}
+* 简介 {#introduction}
    * [新功能摘要](/help/migrated/whats-new.md)
    * [2024年7月新增功能摘要](whats-new-july-2024.md)
    * [2024年3月版新增功能](whats-new-march-2024.md)
@@ -32,13 +32,13 @@ ht-degree: 83%
    * [Adobe Learning Manager中的API弃用和更改](api-deprecations-list.md)
    * [Adobe Learning Manager中的白色标签](white-label.md)
    * [嵌入式播放器的交互 API 文档](/help/migrated/embedded-player-interaction.md)
-* 开始使用{#get-started}
+* 入门指南 {#get-started}
    * [管理员快速入门指南](administrators/feature-summary/getting-started-admin.md)
    * [作者快速入门指南](authors/feature-summary/getting-started-author.md)
    * [学习者快速入门指南](learners/feature-summary/getting-started-learner.md)
    * [面向经理的快速入门指南](managers/feature-summary/getting-started-manager.md)
    * [面向讲师的 Adobe Learning Manager 入门指南](instructors/feature-summary/getting-started.md)
-* 管理员{#admin}
+* 管理员 {#admin}
    * [用户登录](administrators/feature-summary/user-login.md)
    * [添加用户和创建用户组](administrators/feature-summary/add-users-user-groups.md)
    * [添加教室位置](administrators/feature-summary/classroom.md)
@@ -87,7 +87,7 @@ ht-degree: 83%
    * [学习者的未登录体验](administrators/feature-summary/non-logged-in-experience-learners.md)
    * [学习计划](administrators/feature-summary/learning-programs.md)
    * [产品术语](administrators/feature-summary/product-terminology.md)
-* 集成管理员{#integration}
+* 集成管理员 {#integration}
    * [迁移手册](integration-admin/feature-summary/migration-manual.md)
    * [Adobe Learning Manager 连接器](integration-admin/feature-summary/connectors.md)
    * [未登录的API](integration-admin/feature-summary/non-logged-in-apis.md)
@@ -103,7 +103,7 @@ ht-degree: 83%
    * [适用于 Salesforce 的 Adobe Learning Manager 应用程序](integration-admin/feature-summary/sfdc-app.md)
    * [设置](integration-admin/feature-summary/settings.md)
    * [管理 CSV 文件中的自定义角色](integration-admin/feature-summary/configure-role-csv-files.md)
-* 作者{#authors}
+* 作者 {#authors}
    * [用户登录](authors/feature-summary/user-login.md)
    * [内容库](authors/feature-summary/content-library.md)
    * [创建、修改和发布课程](authors/feature-summary/courses.md)
@@ -116,10 +116,10 @@ ht-degree: 83%
    * [如何选择课程模块？](authors/how-to-choose-modules.md)
    * [学习者预览](authors/feature-summary/fluidic-player.md)
    * [设置](authors/feature-summary/settings.md)
-* 讲师{#instructor}
+* 讲师 {#instructor}
    * [模块](instructors/feature-summary/modules.md)
    * [管理会话的学习者](instructors/feature-summary/learners.md)
-* 学习者{#learner}
+* 学习者 {#learner}
    * [登录](learners/feature-summary/user-login.md)
    * [配置文件设置](learners/feature-summary/settings.md)
    * [目录](learners/feature-summary/catalogs.md)
@@ -144,7 +144,7 @@ ht-degree: 83%
    * [学习者主页](learners/feature-summary/learner-home-page.md)
    * [分享至社交学习](learners/feature-summary/share-to-social.md)
    * [系统要求 | Adobe Learning Manager 桌面应用程序](learners/adobe-learning-manager-app-for-desktop/adobe-learning-manager-desktop-app-system-requirements.md)
-* 经理{#manager}
+* 经理 {#manager}
    * [用户登录](managers/feature-summary/user-login.md)
    * [经理信息板](managers/feature-summary/manager-dashboard.md)
    * [报告](managers/feature-summary/reports.md)
@@ -153,14 +153,14 @@ ht-degree: 83%
    * [学习者成绩单](managers/feature-summary/learner-transcripts.md)
    * [设置](managers/feature-summary/settings.md)
    * [iPad 和 Android 平板电脑用户](managers/feature-summary/ipad-android-tablet-users.md)
-* 常见问题解答{#faq}
+* 常见问题解答 {#faq}
    * [管理员常见问题解答](administrators/frequently-asked-questions-for-administrators.md)
    * [作者常见问题解答](authors/frequently-asked-questions-for-authors.md)
    * [讲师常见问题解答](instructors/frequently-asked-questions-for-instructors.md)
    * [经理常见问题解答](managers/frequently-asked-questions-for-managers.md)
    * [学习者常见问题解答](learners/frequently-asked-questions-for-learners.md)
    * [新的Experience League公告](/help/migrated/new-experience-league-announcement.md)
-* 知识库{#knowledge-base}
+* 知识库 {#knowledge-base}
    * [无法登录 Adobe Learning Manager](kb/unable-log-in-learning-manager.md)
    * [学习摘要不显示当前数据](kb/learning-summary-not-display-data.md)
    * [无法上传 CSV](kb/unable-to-upload-csv.md)

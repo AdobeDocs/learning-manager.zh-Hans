@@ -4,9 +4,9 @@ jcr-language: en_us
 title: 添加用户和创建用户组
 contentowner: manochan
 exl-id: 7df98f2b-c422-4733-8ce4-5489506d4fdf
-source-git-commit: f5998c7e7a05d6f48e094b359d157603f4a95e5c
+source-git-commit: ae99efd330f27fe36970c9324b0b064d9c7a85e5
 workflow-type: tm+mt
-source-wordcount: '4290'
+source-wordcount: '4305'
 ht-degree: 57%
 
 ---
@@ -110,7 +110,11 @@ ht-degree: 57%
 >
 >有关详细信息，请参阅常见问题解答，[批量添加用户](../add-users-in-bulk.md)。
 
-选择用户后，您可以执行以下操作：
+>[!INFO]
+>
+>在本培训中，您将了解如何通过CSV批量添加用户。<br><br>[![按钮](assets/launch-training-button.png)](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/7555555)</br></br>
+
+如果您无法启动培训，请写入<almacademy@adobe.com>。
 
 ## 注册用户 {#registerauser}
 

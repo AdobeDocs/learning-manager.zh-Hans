@@ -4,10 +4,10 @@ jcr-language: en_us
 title: 清除用户
 contentowner: dvenkate
 exl-id: 4449146c-6247-44fb-b695-a12023c31dc6
-source-git-commit: 890775dafffd3b9d717c39507490977f51f163d4
+source-git-commit: 4f2892f762440e87286e8895cedfd5bea51f726b
 workflow-type: tm+mt
-source-wordcount: '853'
-ht-degree: 75%
+source-wordcount: '883'
+ht-degree: 72%
 
 ---
 
@@ -60,6 +60,10 @@ If you're unable to launch the training, write to <almacademy@adobe.com>.-->
    *清除用户后的确认消息*
 
 1. 确认并单击“清除”后，系统将接受清除请求。 操作完成后，您会收到通知。 系统也会向您提供清除请求 ID。 您可以向 CSM 提供此 ID 以跟踪请求。
+
+>[!NOTE]
+>
+>将被删除的用户添加回系统后，之前的角色（例如管理员、经理、作者、讲师等）将不会保留。系统会将他们与学习者角色一起添加。
 
 ## 批量清除用户
 

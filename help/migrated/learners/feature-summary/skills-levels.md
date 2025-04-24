@@ -4,10 +4,10 @@ jcr-language: en_us
 title: 技能和级别
 contentowner: manochan
 exl-id: 3172e988-3dc5-484c-8869-7a8d9950b79b
-source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
+source-git-commit: 4f2892f762440e87286e8895cedfd5bea51f726b
 workflow-type: tm+mt
-source-wordcount: '313'
-ht-degree: 90%
+source-wordcount: '326'
+ht-degree: 86%
 
 ---
 
@@ -38,6 +38,10 @@ ht-degree: 90%
 *查看每项技能*
 
 只有管理员可以创建技能并指定给学习者。学习者会被自动指定到注册课程/学习计划对应的技能。
+
+>[!NOTE]
+>
+>学习者只能在经典学习者应用程序中查看同级技能。
 
 ## 习得技能 {#achieveskill}
 

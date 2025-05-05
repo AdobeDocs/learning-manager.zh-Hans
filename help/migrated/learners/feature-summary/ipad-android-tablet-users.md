@@ -538,7 +538,7 @@ Adobe Learning Manager 现已在学习平台中支持 LinkedIn 学习课程。�
 
 ## 移动沉浸式多物品车支持
 
-学习者现在可以将多个课程、学习路径或认证添加到购物车并一起购买。 在ALM](/help/migrated/learners/feature-summary/multi-item-cart.md)中查看[多项目购物车
+学习者现在可以将多个课程、学习路径或认证添加到购物车并一起购买。 在ALM[&#128279;](/help/migrated/learners/feature-summary/multi-item-cart.md)中查看多项目购物车
 
 <!--## Track device storage {#trackdevicestorage}
 

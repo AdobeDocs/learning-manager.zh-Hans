@@ -301,7 +301,7 @@ getAbstract 连接器：getAbstract.com 的企业用户可使用此连接器供�
 
    如要确保任意类型的同步均起作用，必须确保 getAbstract FTP 文件夹中存在对应同步所指定日期的用户订阅源。
 
-   请参阅以下 Excel 工作表，该工作表是 getAbstract 的用户订阅源文件的样本。文件名应采用以下格式：** report_export_yyyy_MM_dd_HHmmss.xlsx**或&#x200B;**report_export_yyyy_MM_dd.xlsx**。
+   请参阅以下 Excel 工作表，该工作表是 getAbstract 的用户订阅源文件的样本。文件名应采用以下格式：**&#x200B; report_export_yyyy_MM_dd_HHmmss.xlsx**&#x200B;或&#x200B;**report_export_yyyy_MM_dd.xlsx**。
    [getAbstract用户订阅源示例Excel表](assets/report-export-20170401175342.xlsx)
 
 ## Harvard ManageMentor 连接器 {#hmmconnector}

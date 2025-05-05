@@ -14,7 +14,7 @@ ht-degree: 43%
 
 # Adobe Learning Manager 与 Slack 集成
 
-我们已&#x200B;**移除****Slack**&#x200B;作为Learning Manager中的连接器。 您将无法再访问Slack连接器。
+我们已&#x200B;**移除**&#x200B;**Slack**&#x200B;作为Learning Manager中的连接器。 您将无法再访问Slack连接器。
 
 作为 Slack 用户，您可以将 Slack 应用程序目录中的 Adobe Learning Manager 应用程序安装到您的 Slack 团队中，然后直接从 Slack 中浏览 Adobe Learning Manager 的内容。您可以与Primebot交互以在Learning Manager中搜索新课程、查看推荐内容并收到临近截止日期的通知。 您还可以注册并直接从Slack中学习。
 

@@ -105,15 +105,15 @@ ht-degree: 54%
 1. 要打开&#x200B;**转到文件夹**&#x200B;对话框，请按&#x200B;**Cmd + Shift + G**&#x200B;键。
 1. 键入“**/var/folders**”（不带引号），然后按Enter。
 1. 在搜索栏中搜索“**elthor**”，然后打开该文件夹。
-1. 按**修改日期**对文件夹进行排序，并打开最近的文件夹。 此文件夹包含最新的应用程序日志。
+1. 按&#x200B;**修改日期**&#x200B;对文件夹进行排序，并打开最近的文件夹。 此文件夹包含最新的应用程序日志。
 
 ## 如何启用高级日志记录？ {#howtoenableadvancedlogging}
 
 ### Windows {#Windows-1}
 
-1. 要打开“运行”对话框，请按&#x200B;**Windows键+ R**。****
-1. 类型“**%APPDATA%\\..\\Local\\Adobe\\Learning Manager 1.0**”（不带引号），然后按Enter。****
-1. 备份文件&#x200B;**preferences.json**，然后在文本编辑器中打开它。****
+1. 要打开“运行”对话框，请按&#x200B;**Windows键+ R**。**&#x200B;**
+1. 类型“**%APPDATA%\\..\\Local\\Adobe\\Learning Manager 1.0**”（不带引号），然后按Enter。**&#x200B;**
+1. 备份文件&#x200B;**preferences.json**，然后在文本编辑器中打开它。**&#x200B;**
 1. 搜索键&#x200B;**debugMode**&#x200B;并将此键的值属性更改为“**true**”（不带引号）。
 
 ### Mac OS X {#MacOSX-2}

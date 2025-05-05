@@ -588,5 +588,5 @@ Once enabled, authors will be able to modify and delete all Classroom locations.
 
 +++How to add financial year for the account?
 
-在“**[!UICONTROL 设置]**”>“**[!UICONTROL 基本信息]**”中，单击“**[!UICONTROL 更改]**”。 从&#x200B;**[!UICONTROL 财务年度开始日期]**下拉列表中，选择月份。
+在“**[!UICONTROL 设置]**”>“**[!UICONTROL 基本信息]**”中，单击“**[!UICONTROL 更改]**”。 从&#x200B;**[!UICONTROL 财务年度开始日期]**&#x200B;下拉列表中，选择月份。
 +++

@@ -75,7 +75,7 @@ GET https://learningmanager.adobe.com/oauth/o/authorize?client_id=<Enter your cl
 
 作者现在可以在创建课程时选择 xAPI 模块，以监控 Adobe Learning Manager 以外的用户体验。例如，您可以使用此功能评估用于第三方课程消费平台上的用户活动。
 
-1. 创建&#x200B;**[!UICONTROL 活动模块]**&#x200B;时，在**[!UICONTROL 类型]**选项中，使用弹出菜单选择&#x200B;**[!UICONTROL 基于xAPI的模块。]**
+1. 创建&#x200B;**[!UICONTROL 活动模块]**&#x200B;时，在&#x200B;**[!UICONTROL 类型]**&#x200B;选项中，使用弹出菜单选择&#x200B;**[!UICONTROL 基于xAPI的模块。]**
 
    ![](assets/xapimodulecreation.png)
 

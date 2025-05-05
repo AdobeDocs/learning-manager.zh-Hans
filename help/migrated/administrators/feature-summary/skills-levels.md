@@ -271,7 +271,7 @@ Adobe Learning Manager 能让您使用技能图根据学习者的技能集来查
 
 ![](assets/course-skills.png)
 
-要为课程完成启用徽章，请在“作者”应用程序的&#x200B;**[!UICONTROL “实例”]**部分启用所需的徽章。
+要为课程完成启用徽章，请在“作者”应用程序的&#x200B;**[!UICONTROL “实例”]**&#x200B;部分启用所需的徽章。
 +++
 
 +++即使徽章显示“In Progress”（正在处理），管理员是否仍可以将徽章标记为“Complete”（完成）？

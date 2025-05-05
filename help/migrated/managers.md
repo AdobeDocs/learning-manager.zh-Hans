@@ -35,5 +35,5 @@ ht-degree: 91%
 * [报告](managers/feature-summary/reports.md)
 * [设置](managers/feature-summary/settings.md)
 * [用户登录](managers/feature-summary/user-login.md)
-* [用户通知](managers/feature-summary/user-notifications.md) [](managers/feature-summary/settings.md)
+* [用户通知](managers/feature-summary/user-notifications.md) [&#128279;](managers/feature-summary/settings.md)
 * [学习对象](managers/feature-summary/learning-objects.md)

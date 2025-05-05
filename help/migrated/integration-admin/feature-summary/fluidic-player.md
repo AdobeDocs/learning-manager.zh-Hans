@@ -19,7 +19,7 @@ ht-degree: 24%
 
 企业现在可以在 Adobe Learning Manager 之外为学习者提供自定义体验。您可以使用公共API，获取与学习对象、学习者注册和学习进度相关的所有信息，并将这些信息显示在您的网站上。 更重要的是，您可以在自己的网站中嵌入 Adobe Learning Manager 的流体播放器，以便学习者可以直接从您的网站使用内容。您能够使用流体播放器播放 Adobe Learning Manager 支持的任何内容。在您的网站中嵌入的与您在Learning Manager中使用的功能完全相同。
 
-**播放任何电子学习内容[](../../learners/feature-summary/fluidic-player.md#main-pars_text_779047019)**
+**播放任何电子学习内容[&#128279;](../../learners/feature-summary/fluidic-player.md#main-pars_text_779047019)**
 
 流体播放器能够以一致且直观的方式播放几乎任何类型的电子学习内容，无需任何插件，亦无需下载任何内容。 无论内容属于哪种文件类型，学习者启动内容之后，即开始播放。
 
@@ -31,7 +31,7 @@ ht-degree: 24%
 
 以下是您可以使用嵌入式流体播放器的一些示例。
 
-* 您可以在自己的**网站中使用嵌入式流体播放器**列出员工已注册的课程，并在同一页面提供启动培训的链接。 这意味着学习者可以在您的Intranet网站上参加培训。
+* 您可以在自己的&#x200B;**网站中使用嵌入式流体播放器**&#x200B;列出员工已注册的课程，并在同一页面提供启动培训的链接。 这意味着学习者可以在您的Intranet网站上参加培训。
 
 * 如果您从事培训业务，您可能拥有一个网站，供客户购买课程。 您可以将嵌入式播放器与该网站集成，以便客户可以使用在您的网站上购买的内容。
 
@@ -75,11 +75,11 @@ client_id= <application_id>
 &email=<email_id>
 ```
 
-在此，**[!UICONTROL 客户端ID]**是第1步中获取的应用程序ID。
-**[!UICONTROL redirect_url]**是第1步中设置的redirect_url。
-**[!UICONTROL state]**是我们需要以此为依据筛选重定向URL以获取OAuth代码的任何虚拟数据。 范围是第1步中设置的学习者范围。
-**[!UICONTROL response_typ]**e始终为“CODE”。\
-**[!UICONTROL 帐户]**是可选字段\
+在此，**[!UICONTROL 客户端ID]**&#x200B;是第1步中获取的应用程序ID。
+**[!UICONTROL redirect_url]**&#x200B;是第1步中设置的redirect_url。
+**[!UICONTROL state]**&#x200B;是我们需要以此为依据筛选重定向URL以获取OAuth代码的任何虚拟数据。 范围是第1步中设置的学习者范围。
+**[!UICONTROL response_typ]**&#x200B;e始终为“CODE”。\
+**[!UICONTROL 帐户]**&#x200B;是可选字段\
 **[!UICONTROL 电子邮件]**&#x200B;是可选字段\
 &#42;如果同时提供了帐户ID和电子邮件，则上述URL将允许用户登录同一帐户。 示例应用程序的“index.html”文件中描述了此端点示例。
 

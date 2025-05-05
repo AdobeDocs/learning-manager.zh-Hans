@@ -34,7 +34,7 @@ Learning Manager是学习管理系统，具有内置的学习内容管理系统�
 
 >[!NOTE]
 >
->有关安装包的信息，请参阅&#x200B;[***如何使用包***](https://experienceleague.adobe.com/docs/experience-manager-65/administering/contentmanagement/package-manager.html?lang=en#how-to-work-with-packages)。
+>有关安装包的信息，请参阅&#x200B;[***如何使用包***](https://experienceleague.adobe.com/docs/experience-manager-65/administering/contentmanagement/package-manager.html?lang=zh-Hans#how-to-work-with-packages)。
 
 1. 以 AEM 作者示例打开 AEM Package Manager。
 

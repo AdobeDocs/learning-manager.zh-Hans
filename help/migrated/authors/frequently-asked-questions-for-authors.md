@@ -43,10 +43,10 @@ ht-degree: 51%
 
 有关更多信息，请参阅[Adobe Learning Manager：来自Adobe Captivate的Publish模块9](http://primehelp.adobe.com/cn/publish-modules-from-adobe-captivate9/)视频。
 
-也可参阅Adobe Captivate 9 [帮助内容](http://helpx.adobe.com/captivate/using/publish-project-to-captivate-prime.html)了解详细步骤。
+也可参阅Adobe Captivate 9 [帮助内容](http://helpx.adobe.com/cn/captivate/using/publish-project-to-captivate-prime.html)了解详细步骤。
 
 注意\
-Adobe Captivate 9 [帮助内容](http://helpx.adobe.com/captivate/using/publish-project-to-captivate-prime.html)位于Learning Manager帮助应用程序之外。
+Adobe Captivate 9 [帮助内容](http://helpx.adobe.com/cn/captivate/using/publish-project-to-captivate-prime.html)位于Learning Manager帮助应用程序之外。
 
 +++
 

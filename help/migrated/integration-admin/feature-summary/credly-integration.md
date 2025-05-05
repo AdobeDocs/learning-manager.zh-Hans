@@ -45,11 +45,11 @@ Adobe Learning Manager中的badge.csv允许从现有LMS或外部系统迁移徽�
 * externalBadgeId
 * externalBadgeProvider
 
-外部徽章ID是指“可信”平台中的徽章模板ID，外部徽章提供商是“可信”。 在badge.csv中添加这些值，然后按照[迁移手册](https://experienceleague.adobe.com/en/docs/learning-manager/using/integration/migration-manual#migrationprocedure)中提到的步骤迁移csv。
+外部徽章ID是指“可信”平台中的徽章模板ID，外部徽章提供商是“可信”。 在badge.csv中添加这些值，然后按照[迁移手册](https://experienceleague.adobe.com/zh-hans/docs/learning-manager/using/integration/migration-manual#migrationprocedure)中提到的步骤迁移csv。
 
 ## 创建技能 — 管理员
 
-将徽章导入Adobe Learning Manager后，管理员可将此徽章创建为技能。 要了解如何创建技能，请参阅[创建和修改技能](https://experienceleague.adobe.com/en/docs/learning-manager/using/admin/skills-levels)。
+将徽章导入Adobe Learning Manager后，管理员可将此徽章创建为技能。 要了解如何创建技能，请参阅[创建和修改技能](https://experienceleague.adobe.com/zh-hans/docs/learning-manager/using/admin/skills-levels)。
 
 ### 为学习对象 — 作者分配技能/徽章
 

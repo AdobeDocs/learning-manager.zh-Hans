@@ -2235,7 +2235,7 @@ Adobe Commerce 管理员将 Adobe Learning Manager 配置为集成。
 
 >[!NOTE]
 >
->在2024年3月版Adobe Learning Manager中，我们引入了对[Adobe Commerce 2.4.6](https://experienceleague.adobe.com/docs/commerce-operations/release/notes/adobe-commerce/2-4-6.html?lang=en)的支持。
+>在2024年3月版Adobe Learning Manager中，我们引入了对[Adobe Commerce 2.4.6](https://experienceleague.adobe.com/docs/commerce-operations/release/notes/adobe-commerce/2-4-6.html?lang=zh-Hans)的支持。
 
 
 1. 单击&#x200B;**[!UICONTROL 导出培训元数据]** > **[!UICONTROL 按需]**。

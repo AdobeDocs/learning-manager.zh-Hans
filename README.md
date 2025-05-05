@@ -15,13 +15,13 @@ ht-degree: 6%
 
 ## 关于您对Adobe内容的贡献
 
-请参见 [《Adobe文档投稿人指南》](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html).
+请参见 [《Adobe文档投稿人指南》](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html?lang=zh-Hans).
 
 您如何贡献取决于您是谁，以及您想要贡献哪种更改：
 
 ### 细微更改
 
-如果您对更新内容进行了细微调整，请访问文章，然后单击 **编辑** 文章中的链接，可转到文章的GitHub源。 然后，只需使用GitHub UI进行更新。 请参阅常规 [《Adobe文档投稿人指南》](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html) 了解更多信息。
+如果您对更新内容进行了细微调整，请访问文章，然后单击 **编辑** 文章中的链接，可转到文章的GitHub源。 然后，只需使用GitHub UI进行更新。 请参阅常规 [《Adobe文档投稿人指南》](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html?lang=zh-Hans) 了解更多信息。
 
 Adobe使用条款涵盖了您为此存储库中的文档和代码示例提交的细微更正或说明。
 
@@ -43,7 +43,7 @@ If you submit a pull request with significant changes to documentation and code 
 
 社区投稿人可以使用GitHub UI进行基本编辑或分发表稿做出重大贡献。
 
-请参见 [《Adobe文档投稿人指南》](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html) 了解详细信息。
+请参见 [《Adobe文档投稿人指南》](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html?lang=zh-Hans) 了解详细信息。
 
 ## 如何使用markdown设置主题格式
 

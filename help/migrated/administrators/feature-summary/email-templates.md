@@ -72,7 +72,7 @@ Adobe Learning Manager 应用程序根据事件向多个用户角色发送电子
 1. 要打开设置页面，请单击&#x200B;**[!UICONTROL 设置]**。 您现在可以自定义电子邮件模板。
 1. 要自定义学习者从中接收电子邮件的姓名和电子邮件ID，请编辑&#x200B;**[!UICONTROL 发件人姓名和地址]。**
 
-   请与&#x200B;[***Adobe支持***](https://helpx.adobe.com/contact/enterprise-support.other.html#learning-manager)联系以配置或更改这些详细信息。
+   请与&#x200B;[***Adobe支持***](https://helpx.adobe.com/cn/contact/enterprise-support.other.html#learning-manager)联系以配置或更改这些详细信息。
 
 1. 从&#x200B;**[!UICONTROL 电子邮件横幅]**&#x200B;选项自定义您的电子邮件横幅。 选择“**[!UICONTROL 横幅背景]**”，更改横幅的颜色。
 
@@ -160,7 +160,7 @@ DND 列表内的学习者无法查看摘要电子邮件的用户设置。 该选
 
 ## 自定义电子邮件域 {#customizeemaildomain}
 
-要自定义学习者从中接收通知的电子邮件域和电子邮件ID，请联系&#x200B;[***Learning Manager支持***](https://helpx.adobe.com/contact/enterprise-support.other.html#learning-manager)，并提供您要添加的域的详细信息，以及您的新电子邮件ID。
+要自定义学习者从中接收通知的电子邮件域和电子邮件ID，请联系&#x200B;[***Learning Manager支持***](https://helpx.adobe.com/cn/contact/enterprise-support.other.html#learning-manager)，并提供您要添加的域的详细信息，以及您的新电子邮件ID。
 
 系统将处理您的请求，并向您指定的新电子邮件地址发送一封包含确认链接的电子邮件。 单击电子邮件中的验证链接以确认并完成验证过程。
 
@@ -257,6 +257,6 @@ Learning Manager用户现在将收到内嵌电子邮件邀请。 不再使用ICS
 
 +++如何在模板中更改发件人姓名和地址？
 
-要更改发件人姓名和电子邮件地址，请联系[Adobe Learning Manager支持](https://helpx.adobe.com/contact/enterprise-support.other.html#learning-manager)。
+要更改发件人姓名和电子邮件地址，请联系[Adobe Learning Manager支持](https://helpx.adobe.com/cn/contact/enterprise-support.other.html#learning-manager)。
 
 +++

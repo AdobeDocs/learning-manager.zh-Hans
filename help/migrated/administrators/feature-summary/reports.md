@@ -4,9 +4,9 @@ jcr-language: en_us
 title: 报告
 contentowner: manochan
 exl-id: 31b176b7-4b8f-4851-a0c5-4eee58bceb41
-source-git-commit: 5676ddb238309bc643394af1dde3cba7f8ac6699
+source-git-commit: f6bc1fa9384fc728f6abca7bb0fd9f62bb1f9e04
 workflow-type: tm+mt
-source-wordcount: '7828'
+source-wordcount: '7809'
 ht-degree: 52%
 
 ---
@@ -418,10 +418,6 @@ _合规性信息板 — 管理员视图_
 * 登录/访问报告
 * 游戏成绩单
 * 游戏审查追踪
-
-### 学习者成绩单 {#learnertranscripts}
-
-Excel 报告中学习者成绩单的“必修积分”和“已修积分”列显示小数数值。
 
 ### 课程报告 {#coursereports}
 

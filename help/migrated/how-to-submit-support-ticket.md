@@ -16,7 +16,7 @@ ht-degree: 0%
 
 请注意，提交支持票证仅适用于授权支持联系人。 对于您的支持查询，请在2025年5月11日之前继续通过电子邮件将支持票证提交到Adobe Learning Manager。 在此日期之后，除了现有的电子邮件渠道之外，您还可以通过如下所述的Experience League支持门户提交支持票证。
 
-1. 要访问支持门户，请访问&#x200B;**[!UICONTROL Experience League]**&#x200B;网站，然后选择位于页面顶部的&#x200B;**[!UICONTROL 支持]**&#x200B;选项卡。 您也可以访问[直接链接](https://experienceleague.adobe.com/home#support)。
+1. 要访问支持门户，请访问&#x200B;**[!UICONTROL Experience League]**&#x200B;网站，然后选择位于页面顶部的&#x200B;**[!UICONTROL 支持]**&#x200B;选项卡。 您也可以访问[直接链接](https://experienceleague.adobe.com/home?lang=zh-Hans#support)。
 
    ![](assets/support.png)
    _支持主页_

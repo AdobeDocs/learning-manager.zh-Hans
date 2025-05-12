@@ -2,7 +2,7 @@
 description: 了解Adobe Learning Manager 2025年5月版的新增功能和增强功能
 jcr-language: en_us
 title: 新功能摘要
-source-git-commit: edaba3e99241b6a6d138e78af51a4eb2a3aa4784
+source-git-commit: c411b472f6389b2d45779c3821694de2fd46822a
 workflow-type: tm+mt
 source-wordcount: '2481'
 ht-degree: 0%
@@ -77,6 +77,7 @@ Adobe Learning Manager引入了新的内容购买模式，为购买内容提供�
 ## FTP、自定义FTP和Box中的登录访问报告 {#log-in-access-report}
 
 除现有的作业API外，登录访问报告现在还可用于Box、FTP和自定义FTP连接器。 此报告提供有关用户登录活动的详细信息，包括执行状态、压缩设置和计划选项。 可以按需或计划生成报告，并将数据存储在指定的连接器中，以便访问和分析。 此增强功能改进了监视和审核用户登录活动的能力，从而确保更好的安全性和合规性跟踪。
+
 现在可以在自定义FTP、FTP和Box中获取该报告以及现有报告，例如学习者进度和课程完成情况。 这种集成允许管理员从单一来源访问所有必要的报告，从而促进更好的数据管理和分析。
 
 该报告允许将登录和访问数据导出到FTP，从而有助于实现自动化，在FTP中，该报告可以与其他报告结合来创建综合信息板。 对于依赖自动化流程进行数据分析和报告的组织而言，此功能特别有用。
@@ -108,7 +109,7 @@ Adobe Learning Manager是一个多语言平台，其中学习者的语言偏好�
 
 Adobe Learning Manager现在还支持在Connect中设置虚拟教室会话时从Adobe Connect选择研讨会房间。 以前，管理员只能选择会议室类型。 此增强功能使具有有效研讨会许可证的管理员可以在Adobe Learning Manager中计划和管理一次性或大型活动（最多1,500名与会者）。
 
-有关研讨会会议室的详细信息，请查看此[文章](https://helpx.adobe.com/cn/adobe-connect/using/creating-seminars.html)。
+有关研讨会会议室的详细信息，请查看此[文章](https://helpx.adobe.com/adobe-connect/using/creating-seminars.html)。
 
 ### 支持访问会话分析
 

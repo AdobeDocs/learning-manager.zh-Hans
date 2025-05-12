@@ -36,7 +36,7 @@ Adobe Learning Manager中的组成功信息板(GSD)允许管理员和经理跨�
 管理员必须为帐户启用组成功信息板。 要启用组成功信息板，请执行以下步骤：
 
 1. 以管理员身份登录。
-2. 选择**[!UICONTROL 设置]**然后选择&#x200B;**[!UICONTROL 报表]**。
+2. 选择&#x200B;**[!UICONTROL 设置]**&#x200B;然后选择&#x200B;**[!UICONTROL 报表]**。
 3. 选择&#x200B;**[!UICONTROL 仪表板可见性]**&#x200B;切换。
 4. 键入仪表板名称（例如，**[!UICONTROL 商店经理仪表板]**）。
    ![](assets/enable-gsd.png)

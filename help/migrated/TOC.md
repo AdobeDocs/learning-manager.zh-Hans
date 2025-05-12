@@ -2,10 +2,10 @@
 user-guide-title: Adobe Learning Manager 指南
 breadcrumb-title: Learning Manager
 user-guide-description: Adobe Learning Manager 的文档
-source-git-commit: dd6143bc9c9a2bd564ae0925f5103073325c5d8a
+source-git-commit: 7c06bc9f7b5c7c36dda06985b4327898ea776597
 workflow-type: tm+mt
-source-wordcount: '652'
-ht-degree: 84%
+source-wordcount: '664'
+ht-degree: 82%
 
 ---
 
@@ -15,11 +15,11 @@ ht-degree: 84%
 * [Adobe Learning Manager 用户指南](user-guide.md)
 * 简介 {#introduction}
    * [新功能摘要](/help/migrated/whats-new.md)
+   * [2024年11月新增功能摘要](/help/migrated/whats-new-nov-24.md)
    * [2024年7月新增功能摘要](whats-new-july-2024.md)
    * [2024年3月版新增功能](whats-new-march-2024.md)
    * [新增功能2023年11月](whats-new-november-2023.md)
    * [新增功能2023年7月](whats-new-2023-july.md)
-   * [新增功能2023年4月](whats-new-2023-april.md)
    * [发行说明](release-note/release-notes.md)
    * [系统要求](system-requirements.md)
    * [AEM Sites的ALM参考站点包](adobe-learning-manager-integration-aem.md)
@@ -39,12 +39,14 @@ ht-degree: 84%
    * [面向经理的快速入门指南](managers/feature-summary/getting-started-manager.md)
    * [面向讲师的 Adobe Learning Manager 入门指南](instructors/feature-summary/getting-started.md)
 * 管理员 {#admin}
+   * [Adobe Learning Manager中的Admin AI Assistant (Beta)](/help/migrated/administrators/feature-summary/alm-ai-assistant.md)
    * [用户登录](administrators/feature-summary/user-login.md)
    * [添加用户和创建用户组](administrators/feature-summary/add-users-user-groups.md)
    * [添加教室位置](administrators/feature-summary/classroom.md)
    * [创建课程实例和学习路径](administrators/feature-summary/courses.md)
    * [内容市场](administrators/feature-summary/content-marketplace.md)
    * [报告](administrators/feature-summary/reports.md)
+   * [组成功信息板](/help/migrated/administrators/feature-summary/group-success-dashboard.md)
    * [学习路径](administrators/feature-summary/learning-paths.md)
    * [学习计划](administrators/feature-summary/learning-plans.md)
    * [管理 Adobe Learning Manager 订单和帐单](administrators/feature-summary/billing-management.md)

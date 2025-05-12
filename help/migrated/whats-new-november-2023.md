@@ -2,9 +2,9 @@
 title: 此版本中新增的功能
 description: 了解Adobe Learning Manager 2023年11月版的新增功能和增强功能。
 exl-id: d670dc47-d57f-464a-bee8-064cc16e59f9
-source-git-commit: a655c86ab14f23fc9954229244d94a79d3188642
+source-git-commit: 574750144d77e8362968db9404ecf7bd2f18ccc9
 workflow-type: tm+mt
-source-wordcount: '2370'
+source-wordcount: '2356'
 ht-degree: 70%
 
 ---
@@ -318,8 +318,3 @@ Adobe Learning Manager 将于 2024 年 2 月停用 BlueJeans。 2024 年 2 月�
 ## 系统要求
 
 [Adobe Learning Manager 系统要求](system-requirements.md)
-
-## Adobe Learning Manager 的早期版本
-
-* [2023年7月版](whats-new-2023-july.md)
-* [2023年4月版](whats-new-2023-april.md)

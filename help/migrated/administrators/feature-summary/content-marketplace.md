@@ -4,104 +4,192 @@ title: 内容市场
 description: Adobe Learning Manager 现提供内容市场，您可以在其中浏览和购买培训课程。现有 70,000 多门课程，这些课程涵盖不同主题并以多种格式提供。 精选的播放列表可迎合不同角色的需要，满足您学习和提升技能的需求。
 contentowner: saghosh
 exl-id: 023593d9-06c9-4b91-bbbd-e8ec595b6d60
-source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
+source-git-commit: 7c21986eff480f15cb788cf9a1cb51644bc083c8
 workflow-type: tm+mt
-source-wordcount: '962'
-ht-degree: 69%
+source-wordcount: '733'
+ht-degree: 9%
 
 ---
 
 # 内容市场
 
-Adobe Learning Manager 现提供内容市场，您可以在其中浏览和购买培训课程。现有 70,000 多门课程，这些课程涵盖不同主题并以多种格式提供。 精选的播放列表可迎合不同角色的需要，满足您学习和提升技能的需求。
+学习管理员在采购和上传优质内容时经常会遇到难题。 Adobe Learning Manager的内容市场允许受信任的提供商授予高级课程许可，从而实现更快、可扩展的学习交付，从而简化了这项工作。 使用内容市场，管理员可以浏览、预览和许可提供商提供的第三方课程。
 
-“管理员”应用程序中有一个新选项&#x200B;**[!UICONTROL “内容市场”]**，您可在左侧面板中找到该选项。
+内容市场提供以下内容购买计划：
 
-用户可以从涵盖各种主题的精选播放列表中购买单个课程或购买整个目录中的课程。
+* **[!UICONTROL 高级基本功能]**
+* **[!UICONTROL 高级基本功能加]**
 
-您可以在页面上看到两个磁贴：“企业培训”和“Creative Cloud 培训”。 第一个磁贴用于打开市场，您可以通过该磁贴为学习者购买课程。 第二个磁贴用于打开内容目录。
+| **[!UICONTROL 高级基本功能]** | **[!UICONTROL 高级基本功能加]** |
+|---|---|
+| 可参加超过90,000门课程 | 可参加超过100,000门课程 |
+| 来自250多家提供商的内容 | 包含所有Premium Essentials内容 |
+| 来自受信任的提供商的独家内容，例如：<li>易拉玛</li><li>斯基尔舒布</li><li>汤森路透</li><li>Emtran</li><li>Harvard ManageMentor</li> | 顶级提供商提供的独家课程，例如： <li>闪烁</li><li>Pluralsight</li>Skillsoft</li><li>Traliant</li><li>库尔塞拉</li> |
 
-通过“管理员”应用程序中的“企业培训”页面，您可以邀请用户并下载感兴趣的内容报告，还可以购买整个目录或精选的播放列表。
+<!--**[!UICONTROL Premium Essentials]**:
+A cost-effective solution designed to enhance employee engagement. 
 
-**邀请用户**
+* Access to over 90,000 courses
+* Content from more than 250 providers
+* Focus on compliance and skill improvement
+* Exclusive content from trusted providers such as:
+   * EasyLlama
+   * Skillshub
+   * Thomson Reuters
+   * Emtrain
+   * Harvard ManageMentor
 
-邀请用户访问“内容市场”，以便浏览内容并表示关注。 作为管理员，您可以邀请帐户中的所有学习者或邀请选定的学习者。 若要授予学习者访问权限，您必须邀请他们。
+**[!UICONTROL Premium Essentials Plus]**:
 
-您也可以从“内容市场”选项中撤销学员的访问权限。 若要撤销访问权限，请单击&#x200B;**[!UICONTROL 撤销访问权限]**&#x200B;链接。  用户将无法继续在学习者应用程序中看到“内容市场”页面。
+* Access to more than 100,000 courses
+* Includes all Premium Essentials content
+* Exclusive courses from top providers like:
+   * Blinkist
+   * Pluralsight
+   * Skillsoft
+   * Traliant
+   * Coursera
 
-默认情况下，系统会针对所有新帐户选中此选项。 对于现有帐户，用户必须经过管理员邀请，方可浏览市场。
+Select the plan that best meets your organization's learning goals and budget.-->
 
-## 购买
+## 从提供商处获取内容
 
-您可以无限制地访问整个课程库。 单击&#x200B;**[!UICONTROL 购买]**&#x200B;按钮以下载购买申请表。
+要浏览并从内容提供商处获取内容，请执行以下步骤：
+
+1. 从管理员主页选择&#x200B;**[!UICONTROL 内容市场]**。 此时会显示&#x200B;**[!UICONTROL 内容市场]**&#x200B;页面。
+
+   ![](assets/purchase-plans.png)
+   _在内容市场页面上查看购买计划_
+
+2. 管理员可以预览和浏览&#x200B;**[!UICONTROL Premium Essentials]**&#x200B;和&#x200B;**[!UICONTROL Premium Essentials Plus]**&#x200B;计划的内容中心。
+
+内容提供商负责管理过时内容的移除，确保不提前通知即停止使用任何学习材料。
+
+<!--Learning Manager now offers Content Marketplace for you to explore and purchase trainings. Explore 70,000+ courses that cover a wide range of topics, available in multiple formats. Choose from curated playlists that cater to a vast variety of roles and meet your learning and upskilling needs.
+
+In the Administrator app, there is a new option **[!UICONTROL Content Marketplace]**, which you'll find on the left panel.
+
+Users can purchase from curated playlists covering various topics or purchase the entire catalog. 
+
+On the page, you can see two tiles, Enterprise Training and Creative Cloud Training. The first tile launches the marketplace, using which you can acquire courses for your learners. The latter launches the content catalog.
+
+The Enterprise Training page in the Administrator app enables you to invite users and download the Express Interest report, and also purchase the entire catalog or curated playlist.-->
+
+## 请求报价
+
+管理员可以选择一个计划（例如Premium Essentials或Premium Essentials Plus），指定所需的名额数，并生成可下载的报价请求表单。 完成后，表单将发送给Adobe Learning Manager销售团队进行处理。 “询价”流程还允许Adobe根据公司的需要提供定制的定价。
+
+要下载询价，请执行以下步骤：
+
+1. 从管理员主页中选择&#x200B;**[!UICONTROL 内容市场]**。
+
+2. 选择许可证类型并在&#x200B;**[!UICONTROL 请求报价]**&#x200B;部分中键入要生成报价的席位数。
+
+3. 选择&#x200B;**[!UICONTROL 下载询价]**&#x200B;以下载报价。
+
+![](assets/purchase-plans-go1.png)
+_选择计划后下载询价_
+
+将报价发送至[learningmanagersales@adobe.com](mailto:learningmanagersales@adobe.com)以激活您的许可证。 您也可以联系您的Adobe客户成功经理以开始购买流程。
+
+## 邀请学习者加入内容中心
+
+邀请学习者进入内容市场以浏览内容并表示关注。 作为管理员，您可以邀请帐户中的所有学习者或邀请选定的学习者。 必须先邀请学习者，然后才能浏览内容。 有关内容中心的详细信息，请查看[文章](/help/migrated/administrators/feature-summary/content-marketplace.md#content-hub)。
+
+要邀请学习者，请执行以下操作：
+
+1. 从管理员主页中选择&#x200B;**[!UICONTROL 内容市场]**。
+2. 选择&#x200B;**[!UICONTROL 邀请学习者]**&#x200B;并选择所需的学习者。
+3. 选择&#x200B;**[!UICONTROL 邀请学习者]**。
+
+管理员还可以通过选择&#x200B;**[!UICONTROL 删除所有用户访问权限]**&#x200B;链接来撤销对&#x200B;**[!UICONTROL 内容中心]**&#x200B;的访问权限。 撤销访问权限后，学习者将不再在其学习者应用程序中看到“内容中心”页面。
+
+![](assets/invite-users.png)
+_邀请用户访问内容中心_
+
+默认情况下，对所有新帐户启用此选项。 对于现有帐户，管理员必须手动邀请学习者访问内容市场。
+
+<!--## Purchase
+
+You get unlimited access to the entire library of courses. Click the **[!UICONTROL Purchase]** button to download a Purchase Request form.
 
 ![](assets/purchase-request.png)
 
-*输入要购买的名额数*
+*Enter the number of seats to purchase*
 
-为要购买的课程指定其名额数。 下载购买申请表，然后将该表发送给 Adobe Learning Manager 的销售团队。
+Specify the number of seats for which you want to purchase the courses for. Download the purchase request form and then send the form to the sales team of Learning Manager.
 
-接下来，团队将验证信息，然后生成密钥并提供给您。 这是激活密钥，您将使用该密钥向用户授予内容产品的访问权限。
+The team will then validate the information and then generate a key, which will be provided to you. This is the activation key using which you'll grant access to your users to the content offering.
 
-CSAM 团队生成密钥后，管理员可以使用该密钥导入课程，并将课程迁移到现有目录或新目录中。
+After the key is generated by the CSAM team, the Administrator can use the key to import the courses, and migrate the courses into the existing catalog or the new catalog.
 
-在课程迁移期间，状态会显示为&#x200B;**[!UICONTROL 正在导入课程]**。 迁移完成后，系统将向管理员发送一条通知，告知其迁移已成功完成。
+During migration of courses, the status displays as **[!UICONTROL Importing Courses]**. Once the migration completes, the Administrator gets a notification that migration is complete and successful.
 
-然后，**[!UICONTROL 许可证]**&#x200B;部分会显示该帐户获得的所有许可证。
+The **[!UICONTROL Licenses]** section then displays all the licenses that are acquired for the account.
 
-管理员可以在“目录概述”页面中查看已购买目录的链接。
+The Administrator can see the links of the purchased catalogs in the Catalog Overview page.
 
-将课程添加到目录后，管理员可以向多个用户或用户组授予培训课程的访问权限。
+Once the courses are added to the catalog, the Administrator can then grant access to the trainings to various user or user groups.
 
 ![](assets/licenses.png)
 
-*向用户和用户组授予培训访问权限*
+*Grant access to training to users and user groups*-->
 
-## 感兴趣内容报告
+<!--## Express interest report
 
-当学员在“学习者”应用中单击“感兴趣”时，该兴趣会被记录到感兴趣内容报告中。 管理员可以下载该报告。 报告 (csv) 包含以下字段：
+When a learner clicks Express interest to Catalog in the Learner app, the interest is recorded in an Express interest report. The Administrator can download the report. The report (csv) contains the following fields:
 
-* 目录名称
-* 表示感兴趣的用户数量
-* 表示感兴趣的用户的电子邮件
+* Name of the catalog
+* Number of users expressing interest
+* Email of the user expressing interest-->
+
+## 内容中心
+
+内容中心允许管理员从学习者应用程序中将所需的播放列表列入候选清单。 管理员随时可通过学习者角色查看“内容中心”页面，以便轻松将播放列表列入候选清单。 为帮助将正确的播放列表列入候选清单，管理员可允许其帐户中的行业专家访问此页面，但可访问人数受限。
+
+Adobe Learning Manager会定期与内容中心同步，确保新的添加和更新会自动反映在平台中。
+
+所有内容都映射到支持的语言，从而允许管理员根据语言首选项更有效地筛选和管理内容。
 
 ## 电子邮件模板
 
-若要支持此工作流程，您可以使用以下三个电子邮件模板：
+Adobe Learning Manager提供预配置的电子邮件模板，可通知管理员和学习者有关内容购买、系统更新和学习活动的信息。
 
-1. **[!UICONTROL 内容激活成功]：**&#x200B;系统会在成功购买包含密钥名称的内容后发送此消息。 已购买的所有培训课程现在均可供使用。
-1. **[!UICONTROL 自动用户上传失败]：**&#x200B;系统会在帐户中的CSV自动更新因某种原因失败时发送此消息。
-1. **[!UICONTROL 邀请用户浏览内容]：**&#x200B;系统会在管理员购买课程时向学习者发送一封邀请电子邮件。 管理员可以查看感兴趣内容报告，了解整体要求并做出购买决定。
+您可以使用三个电子邮件模板：
 
-1. 无法在周期性证书中添加已购买的课程。
-1. 无法将已购买的课程共享给配对帐户。
-1. 已购买的课程可供有权访问这些课程的所有用户使用。 配置目录可见性，以便已购买的课程仅对有限用户开放。
-1. 激活密钥过期后，已购买的课程便无法学习。 请购买/激活另一密钥，以便继续学习。
+1. **[!UICONTROL 内容激活成功]：**&#x200B;在成功购买第三方内容后发送给管理员。 此通知确认激活已完成，购买的内容现已可在系统中用于学习者分配。
+2. **[!UICONTROL 自动用户上传失败]：**&#x200B;通过CSV自动导入用户失败时触发。 此警报可帮助管理员快速确定计划用户更新中的问题，以便采取更正操作。
+3. **[!UICONTROL 邀请用户浏览内容]：**&#x200B;当管理员从市场购买内容后，会向学习者发送一封邀请电子邮件。 之后，用户可以立即开始学习旅程。
 
-## 内容市场中的内容中心
+<!--Purchased courses cannot be added in recurring certificates.
+Purchased courses cannot be shared to peer accounts.
+Purchased courses can be consumed by all users who get access to it. Configure the catalog visibility to restrict the visibility of purchased courses to limited users.
+Purchased courses cannot be consumed once the activation key expires. Please purchase/activate another key to allow consumption.-->
 
-内容中心允许管理员和行业专家(SME)从学习者应用程序中将所需的播放列表列入候选清单。 甄选后，管理员可下载购买申请表并与Adobe销售代理共享。
+<!--## Content Hub in Content Marketplace
 
-管理员可以邀请 SME 将其感兴趣的播放列表列入候选清单。
+Content Hub allows Administrators and Subject Matter Experts (SMEs) to shortlist required playlists from learner app. Once shortlisted, Admins can download the Purchase Request Form and share it with the Adobe Sales agent.
+
+An Admin can invite SMEs to shortlist the playlist which they are interested in. 
 
 ![](assets/content-hub.png)
 
-*从市场启动内容中心*
+*Launch Content Hub from the marketplace*
 
-内容中心以学习者角色开放，所有管理员均可访问。 管理员允许 SME 将其有兴趣购买的播放列表列入候选清单。
+Content Hub is available in Learner role for all Administrators. Administrators allow SMEs to shortlist the playlist which they are interested in purchasing.
 
-管理员随时可通过学习者角色查看“内容中心”页面，以便轻松将播放列表列入候选清单。 为帮助将正确的播放列表列入候选清单，管理员可授权帐户中的行业专家访问此页面，但可访问人数受限。 管理员只需访问管理员端的“企业培训”页面，然后采取步骤即可提供访问权限。
+The Content Hub page is visible to Administrators in their learner role all the time as it allows them to shortlist playlists easily. To help you in shortlisting the right playlist, Admins can make this page accessible to limited Subject matter experts in their account. Just visit the Enterprise Training page on Admin side and take steps to provide access.  
 
 ![](assets/content-hub-resources.png)
 
-*查看内容中心中的资源*
+*View resources in the Content hub*
 
-Adobe Learning Manager 还允许管理员下载候选的播放列表并与 Adobe 销售团队共享。在下载候选清单之前，请先访问内容中心，并向库添加播放列表，以便将其列入候选清单。
+Learning Manager also enables Administrators to download a shortlisted playlist and share it with Adobe Sales team. Before downloading the shortlist, visit the Content Hub and shortlist a playlist by adding a playlist to your library. 
 
-然后，以管理员身份单击&#x200B;**[!UICONTROL 内容市场]** > **[!UICONTROL 企业培训]** > **[!UICONTROL 购买部分]** > **[!UICONTROL 精选播放列表]**。 单击&#x200B;**[!UICONTROL 购买]**&#x200B;按钮以下载购买申请表，其中包含候选播放列表的详细信息。
+Then as Administrator, click **[!UICONTROL Content Marketplace]** > **[!UICONTROL Enterprise Training]** > **[!UICONTROL Purchase section]** > **[!UICONTROL Curated Playlists]**. Click the **[!UICONTROL Purchase]** button to download the Purchase request form which contains the details of your shortlisted playlist.
 
 ![](assets/download-purchase-request.png)
 
-*下载购买申请表*
+*Download the Purchase Request form*
 
-您在内容中心中看到的课程和播放列表与在内容市场中看到的内容相同。 内容中心只是为管理员和有限的 SME 提供轻松将播放列表列入候选清单以便购买的功能。
+The courses and Playlist which you see in the Content Hub are the same as what you see in the Content Marketplace. Content Hub simply provides an ability for Administrators and limited SMEs to shortlist playlist easily for purchase.-->

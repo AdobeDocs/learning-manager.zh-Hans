@@ -2,10 +2,11 @@
 jcr-language: en_us
 title: Adobe Learning Manager中支持的语言
 description: 探索Adobe Learning Manager (ALM)中支持的界面和内容语言
-source-git-commit: d82d408cbe33ecfb099aa0c7677b0960f80991ef
+exl-id: 92eaa510-cb44-4e9b-b956-fde876aa48f2
+source-git-commit: 7b84a4565ccf109ed4789f4963d6e250f5d0a852
 workflow-type: tm+mt
-source-wordcount: '245'
-ht-degree: 50%
+source-wordcount: '261'
+ht-degree: 49%
 
 ---
 
@@ -81,4 +82,10 @@ Adobe Learning Manager支持以下界面和内容语言。
 | 保加利亚语 | - | 背景 |
 | 荷兰语（比利时） | - | nl-be |
 | 葡萄牙语 — 葡萄牙 | - | pt-PT |
+| 中文（繁体，香港） | - | 中香 — 香港 |
+| 挪威语 | - | nb-NO |
+| 泰米尔语 | - | 签入 |
+| 泰卢固语 | - | te-IN |
+| 卡纳达语 | - | kn-IN |
+| 马拉雅拉姆语 | - | ml-IN |
 

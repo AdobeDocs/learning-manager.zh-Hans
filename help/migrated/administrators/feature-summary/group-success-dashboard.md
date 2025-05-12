@@ -2,9 +2,10 @@
 jcr-language: en_us
 title: 组成功信息板
 description: 了解有关Adobe Learning Manager中的“组成功仪表板”的更多信息
-source-git-commit: 1d449826b8f89aa9fd522d19bc129780e68c05e6
+exl-id: 2cfd0511-d77d-4e97-81e6-6caa8483cc64
+source-git-commit: 6880c5232ca20498d6fac517c4f0f786dfb8f6d5
 workflow-type: tm+mt
-source-wordcount: '1055'
+source-wordcount: '1056'
 ht-degree: 0%
 
 ---
@@ -36,7 +37,7 @@ Adobe Learning Manager中的组成功信息板(GSD)允许管理员和经理跨�
 管理员必须为帐户启用组成功信息板。 要启用组成功信息板，请执行以下步骤：
 
 1. 以管理员身份登录。
-2. 选择&#x200B;**[!UICONTROL 设置]**&#x200B;然后选择&#x200B;**[!UICONTROL 报表]**。
+2. 选择**[!UICONTROL 设置]**然后选择&#x200B;**[!UICONTROL 报表]**。
 3. 选择&#x200B;**[!UICONTROL 仪表板可见性]**&#x200B;切换。
 4. 键入仪表板名称（例如，**[!UICONTROL 商店经理仪表板]**）。
    ![](assets/enable-gsd.png)
@@ -149,6 +150,8 @@ _查看共享仪表板_
 
 * **具有相同活动字段的用户组**：如果用户组使用相同的字段（例如，位置），则系统包含来自两个组的所有学习者。 那个把数值合并起来。 例如： **Location = Bangalore**&#x200B;和&#x200B;**Location = Chennai**。 其中包括来自两个地点的学习者。
 * **具有不同活动字段的用户组**：如果用户组使用不同的字段（例如，位置和角色），则系统仅包含符合所有条件的学习者。 例如： **Location = Bangalore或Chennai**&#x200B;和&#x200B;**Role = Manager**。 其中仅包括担任经理职务且位于班加罗尔或钦奈的学习者。
+
+**摘要：**
 
 * 相同的活动字段：学习者被组合（或逻辑）
 * 不同活动字段：学习者必须符合所有条件（AND逻辑）

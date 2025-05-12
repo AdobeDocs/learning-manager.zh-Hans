@@ -2,15 +2,15 @@
 description: 了解Adobe Learning Manager 2025年5月版的新增功能和增强功能
 jcr-language: en_us
 title: 新功能摘要
-source-git-commit: 1d449826b8f89aa9fd522d19bc129780e68c05e6
+source-git-commit: edaba3e99241b6a6d138e78af51a4eb2a3aa4784
 workflow-type: tm+mt
-source-wordcount: '2479'
+source-wordcount: '2481'
 ht-degree: 0%
 
 ---
 
 
-# 新功能摘要
+# 2025年5月新增功能摘要
 
 即将发布的Adobe Learning Manager版本引入了各种旨在简化平台和增强其功能的新增功能和增强功能。
 
@@ -108,7 +108,7 @@ Adobe Learning Manager是一个多语言平台，其中学习者的语言偏好�
 
 Adobe Learning Manager现在还支持在Connect中设置虚拟教室会话时从Adobe Connect选择研讨会房间。 以前，管理员只能选择会议室类型。 此增强功能使具有有效研讨会许可证的管理员可以在Adobe Learning Manager中计划和管理一次性或大型活动（最多1,500名与会者）。
 
-有关研讨会会议室的详细信息，请查看此[文章](https://helpx.adobe.com/cn/adobe-connect/using/creating-seminars.html)。
+有关研讨会会议室的详细信息，请查看此[文章](https://helpx.adobe.com/adobe-connect/using/creating-seminars.html)。
 
 ### 支持访问会话分析
 

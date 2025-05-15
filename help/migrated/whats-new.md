@@ -2,13 +2,13 @@
 description: 了解Adobe Learning Manager 2025年5月版的新增功能和增强功能
 jcr-language: en_us
 title: 新功能摘要
-source-git-commit: c411b472f6389b2d45779c3821694de2fd46822a
+exl-id: 812d33c8-b2e4-43eb-adda-67dc356ca1ca
+source-git-commit: 168e521d3922ec75c7ca06dd9a15ae67f929c069
 workflow-type: tm+mt
-source-wordcount: '2481'
+source-wordcount: '2492'
 ht-degree: 0%
 
 ---
-
 
 # 2025年5月新增功能摘要
 
@@ -109,7 +109,7 @@ Adobe Learning Manager是一个多语言平台，其中学习者的语言偏好�
 
 Adobe Learning Manager现在还支持在Connect中设置虚拟教室会话时从Adobe Connect选择研讨会房间。 以前，管理员只能选择会议室类型。 此增强功能使具有有效研讨会许可证的管理员可以在Adobe Learning Manager中计划和管理一次性或大型活动（最多1,500名与会者）。
 
-有关研讨会会议室的详细信息，请查看此[文章](https://helpx.adobe.com/cn/adobe-connect/using/creating-seminars.html)。
+有关研讨会会议室的详细信息，请查看此[文章](https://helpx.adobe.com/adobe-connect/using/creating-seminars.html)。
 
 ### 支持访问会话分析
 
@@ -155,7 +155,7 @@ Webhook更改。
 
 ### 使用迁移为内容添加内容唯一ID和到期日期
 
-迁移期间现在支持内容唯一ID和到期日期。 module_version.csv文件中还添加了两个附加列：expiryDate和uniqueContentId，以启用此功能。
+迁移期间现在支持内容唯一ID和到期日期。 module_version.csv文件中还添加了两个附加列：expiryDate和uniqueContentId，以启用此功能。 有关详细信息，请参阅此[示例CSV](assets/module_version_content.csv)和[CSV规范文件](assets/4-module_version_content.xlsx)。
 
 有关迁移过程的详细信息，请查看此[文章](/help/migrated/integration-admin/feature-summary/migration-manual.md)。
 

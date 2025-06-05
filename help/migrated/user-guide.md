@@ -3,7 +3,7 @@ title: 欢迎使用 Adobe Learning Manager 用户指南
 description: 了解Adobe Learning Manager(以前为Adobe Captivate Prime)中的最新产品。 首先，请单独访问每个章节，或访问社区以从头开始创建一个项目。
 contentowner: dhv
 exl-id: 482314a1-1cb1-4fb7-aa52-ee1969c5240a
-source-git-commit: 9d46d64aae76b85f50eed9878779f290291e9026
+source-git-commit: f384503e2e0a7833c737bfdb94bdf2ad9e3d2736
 workflow-type: tm+mt
 source-wordcount: '126'
 ht-degree: 19%
@@ -12,7 +12,7 @@ ht-degree: 19%
 
 # 欢迎使用 Adobe Learning Manager 用户指南
 
-继续阅读以了解Adobe Learning Manager(以前为&#x200B;**[!UICONTROL Adobe Captivate Prime]**)的最新产品。 首先，请单独访问每个章节，或访问社区以从头开始创建一个项目。
+继续阅读以了解Adobe Learning Manager(以前为Adobe Captivate Prime)的最新产品。 首先，请单独访问每个章节，或访问社区以从头开始创建一个项目。
 
 ## 加入对话 {#jointheconversation}
 

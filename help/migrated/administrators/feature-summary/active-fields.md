@@ -122,6 +122,6 @@ _用于在CSV上传期间启用值限制的复选框_
 
 如果CSV文件不包含所有活动字段，则管理员必须在导入后手动输入缺少的值。
 
-默认情况下，每个活动字段都必须映射到源CSV中的相应字段。 但是，如果您不想将特定的活动字段映射到CSV中的任何列，则可以在Box和FTP导入过程中从下拉列表中选择值&#x200B;**DontImportFromSource**。 通过FTP或Box连接器导入用户时，可使用此选项。 有关连接器的更多信息，请参阅此[文章](https://experienceleague.adobe.com/en/docs/learning-manager/using/integration/connectors)。
+默认情况下，每个活动字段都必须映射到源CSV中的相应字段。 但是，如果您不想将特定的活动字段映射到CSV中的任何列，则可以在Box和FTP导入过程中从下拉列表中选择值&#x200B;**DontImportFromSource**。 通过FTP或Box连接器导入用户时，可使用此选项。 有关连接器的更多信息，请参阅此[文章](https://experienceleague.adobe.com/zh-hans/docs/learning-manager/using/integration/connectors)。
 
 

@@ -2,10 +2,10 @@
 title: Adobe Learning Manager 中的多次注册功能
 description: 作为帐户管理员，您的主要职责之一是跨不同时区创建不同的 VILT 会话实例，并可能需要为特定用户组创建会话。
 exl-id: c430545d-b48e-432d-a278-658c9281818f
-source-git-commit: 5676ddb238309bc643394af1dde3cba7f8ac6699
+source-git-commit: 22cfa30d22a45afd3e0a65d8c088c2dda4d93072
 workflow-type: tm+mt
-source-wordcount: '586'
-ht-degree: 65%
+source-wordcount: '604'
+ht-degree: 63%
 
 ---
 
@@ -39,6 +39,7 @@ Adobe Learning Manager 的多次注册功能可帮助管理员避免此类情况
 * 多次注册功能仅适用于课程包含多个实例的情况。
 * 启用多次注册选项并且用户在多个实例中注册后，系统将为“学习者成绩单”报告中的每门课程新建一行（每个实例和每个学习者一行）
 * 如果您已将报告自动化设置为每个课程仅占一行，则必须在启用多次注册功能之前对报告自动化进行必要的调整。
+* 管理员API不支持多注册方案。 如果您有任何要求，请联系您的客户成功经理。
 
 ## 如何启用多次注册功能
 

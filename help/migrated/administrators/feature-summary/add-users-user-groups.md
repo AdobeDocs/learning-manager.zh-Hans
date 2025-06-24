@@ -1,692 +1,1024 @@
 ---
-description: 了解如何在 Adobe Learning Manager 应用程序中添加用户或用户组。
+description: 了解如何使用分步说明将内部和外部用户添加到Adobe Learning Manager。 探索手动输入、批量导入和自动用户同步等不同方法，简化用户管理并增强您的学习平台。
 jcr-language: en_us
-title: 添加用户和创建用户组
+title: 在Adobe Learning Manager中添加用户
 contentowner: manochan
 exl-id: 7df98f2b-c422-4733-8ce4-5489506d4fdf
-source-git-commit: ae99efd330f27fe36970c9324b0b064d9c7a85e5
+source-git-commit: 48896c0a6f2d4631005c8d0185d69e0e31f19776
 workflow-type: tm+mt
-source-wordcount: '4305'
-ht-degree: 57%
+source-wordcount: '2257'
+ht-degree: 1%
 
 ---
 
-# 添加用户和创建用户组
 
-了解如何在 Adobe Learning Manager 应用程序中添加用户或用户组。
+# 在Adobe Learning Manager中添加用户
+
+在Adobe Learning Manager中，用户是指使用该平台进行学习或培训的人。 用户有两种类型：内部用户和外部用户。
+
+内部用户是您组织中的员工或团队成员。
+
+外部用户是指公司外部可访问您的学习内容的人员，如客户、合作伙伴、供应商或客户。
+
+Adobe Learning Manager (ALM)允许管理员使用多种方法（包括手动输入、CSV上传、自行注册和系统集成）登记和管理内部和外部用户。
+
+## 内部用户
+
+Adobe Learning Manager中的内部用户是指您组织内的员工或团队成员。 可手动添加它们、批量上传它们或通过系统集成导入它们。 添加这些用户后，您可以将其编为组、分配课程并监控其学习进度。
+
+Adobe Learning Manager中的用户可以承担不同的责任，并根据分配的角色管理各种任务。 每个角色（包括管理员、作者、讲师和集成管理员）都提供了一组专门定制的特定功能，以支持用户在平台内的职责。
+
+Adobe Learning Manager支持以下用户角色：
+
+* **管理员**：管理用户和用户组、分配角色并配置系统范围的首选项，如数据源、允许的域和显示选项。 管理员还负责创建和组织学习内容、跟踪学习者进度、生成报告以及设置与外部系统的集成。
+* **作者**：创建和管理内容，包括模块和课程。
+* **经理**：监督团队学习活动、指定团队成员参加课程、批准请求和提供反馈。
+* **集成管理员**：管理ALM和外部平台之间的系统集成和数据连接。
+* **自定义角色**：管理员可以创建自定义角色，以根据用户的责任为其提供定制的访问权限。 有关自定义角色的更多信息，请参阅这篇文章。
+
+### 添加内部用户的方法
+
+管理员可以使用以下方法添加内部用户：
+
+* **添加单个用户**：一次手动添加一个用户。
+* **自行注册个人资料**：允许学习者使用管理员创建的注册链接，在Adobe Learning Manager中自行注册为学习者。
+* **通过CSV批量上传**：上传CSV文件以同时添加多个用户。
+
+### 手动添加内部用户
+
+管理员可以通过输入个人用户的姓名、电子邮件ID、唯一标识符和经理姓名来手动添加个人用户。 Adobe Learning Manager中的唯一标识符是管理员在创建用户时分配的必需标识符。 对于每个用户，它必须是唯一的，并且在整个系统中充当一致的参考。
+
+>[!INFO]
+>
+>观看此ALM Academy培训，了解有关在Adobe Learning Manager中添加单个用户的更多信息。<br>[![按钮](assets/launch-training-button.png)](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/7555534)</br>
+
+要将单个用户添加到Adobe Learning Manager，请执行以下操作：
+
+1. 以管理员身份登录。
+2. 选择&#x200B;**用户**，然后选择&#x200B;**内部**。
+3. 选择&#x200B;**添加**，然后选择&#x200B;**单个用户**。
+
+   ![](assets/add-single-user.png)
+   _显示手动添加单个内部用户的选项的管理员界面_
+4. 在&#x200B;**添加用户**&#x200B;提示下，键入用户的&#x200B;**姓名**、**电子邮件**&#x200B;和&#x200B;**个人资料**（职务）。
+
+   ![](assets/add-a-user-prompt.png)
+   _用于为新用户输入姓名、电子邮件、唯一标识符和配置文件的字段_
+5. 搜索用户的经理，然后从经理列表中选择名称。
+6. 选择&#x200B;**添加**。
+用户会收到一封欢迎电子邮件，其中包含用于访问的登录URL。
+
+
+### 允许内部用户自行注册
+
+自助注册是一种自助入门流程，用户可访问注册URL、输入其详细信息以及自动注册平台。 此方法通过允许用户通过提供的URL自行注册，最大程度地减少了管理工作。
+
+要为用户创建自注册URL，请执行以下操作：
+
+1. 以管理员身份登录。
+2. 选择&#x200B;**用户**，然后选择&#x200B;**内部**。
+3. 选择右上角的“**添加**”，然后选择“**自行注册”。**
+
+
+   ![](assets/add-self-register-link.png)
+   _用于选择自行注册选项的下拉菜单_
+4. 在&#x200B;**添加自行注册个人资料**&#x200B;提示下，在&#x200B;**个人资料名称**（用户的职务）字段中键入个人资料。
+5. 通过在&#x200B;**经理的名称**&#x200B;字段中搜索经理来选择用户的经理。 分配给自行注册配置文件的经理应该是Adobe Learning Manager中的注册用户。
+
+
+   ![](assets/add-a-user-prompt.png)
+   _用于设置职称和为经理分配自助注册个人资料的输入字段_
+6. 使用&#x200B;**添加图像**&#x200B;选项选择图像。 学习者可以在个人资料部分看到此图像。
+7. 选择&#x200B;**“保存”**。
+
+   Adobe Learning Manager会创建一个用户配置文件并生成一个自注册URL，该URL可与用户共享以完成其注册。
+
+
+   ![](assets/self-register-url.png)
+   _指示成功创建自注册URL的确认消息_
+8. 与要自行注册的用户共享该URL。
+
+
+   可以与多个用户共享该URL以进行注册。 例如，您可以为&#x200B;**Sales Associate**&#x200B;配置文件生成一个URL，并与Sales Associate团队共享该URL，以便他们可以自行注册。
+
+![](assets/self-register-screem.png)
+_自助注册链接可打开注册页面_
+
+### 查看自行注册URL的列表
+
+要查看自行注册URL的列表，请执行以下操作：
+
+1. 选择&#x200B;**用户**，然后选择&#x200B;**内部**。
+2. 选择&#x200B;**自行注册**。
+
+   管理员可以查看自行注册URL的列表。
+
+![](assets/self-registration-profile.png)
+_显示可供内部用户使用的现有自行注册URL的列表视图_
+
+### 批量上传内部用户
+
+Adobe Learning Manager允许管理员通过上传包含用户信息（包括姓名、电子邮件ID和经理姓名）的CSV一次添加多个用户。 与单独添加用户相比，此批量上传功能可节省时间和精力。
+
+>[!INFO]
+>
+>观看此ALM Academy培训，了解如何通过CSV批量添加用户。 <br>[![按钮](assets/launch-training-button.png)](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/7555555)</br>
+
+要添加多个用户，请执行以下操作：
+
+1. 以管理员身份登录。
+2. 选择&#x200B;**用户**，然后选择&#x200B;**内部**。
+3. 选择右上角的&#x200B;**“添加”**，然后选择&#x200B;**“上传CSV”**。
+
+   ![](assets/select-upload-acsv.png)
+   _用于上传CSV文件以进行批量用户导入的选项_
+
+4. 准备包含以下字段的CSV文件：
+
+   * 员工姓名*
+   * 员工电子邮件*
+   * 员工简介/职称
+   * 经理的ID/电子邮件\
+     (*)必填字段。
+
+5. 在为任何员工添加经理电子邮件ID之前，请确保该经理已作为员工包含在CSV文件中。 例如，在以下快照中看到名为Howard Walters的员工。
+
+   ![](assets/csv-image.png)
+   _包含所有字段的示例CSV图像_
+
+6. 上传CSV文件并相应地映射数据字段。
+
+   ![](assets/map-the-column.png)
+   _用于使电子表格列与系统字段对齐的CSV映射界面_
+7. 选择&#x200B;**保存**&#x200B;以导入用户。
+
+   上传成功后，会显示确认消息。
+
+   ![](assets/csv-save-success.png)
+   _图像显示CSV上传状态为成功_
+
+>[!NOTE]
+>
+>维护所有添加和删除的主CSV。 不支持更新和重新上传现有CSV文件。
+
+上传CSV文件以添加用户时，请务必按正确顺序包含所有相关信息。 如果将经理的电子邮件ID分配给员工，则经理的详细信息必须显示在CSV文件的上面。 这可确保在将经理链接至其团队成员之前，系统将其识别为现有用户。 例如，如果Howard Walters是一名经理，在列出向其报告的员工之前，应在CSV中包含他的完整用户详细信息。
+
+### 管理用户注册
+
+单独或批量添加用户后，您需要注册用户才能激活其帐户。 这允许用户访问Adobe Learning Manager并开始使用平台。
+
+要注册用户，请执行以下操作：
+
+1. 在管理员主页上选择&#x200B;**用户**。
+2. 选中要注册的用户名称旁边的复选框。
+3. 选择&#x200B;**操作**，然后选择&#x200B;**注册**。
+
+   ![](assets/register-user.png)
+   _“注册”按钮以激活Adobe Learning Manager中的选定用户_
+
+4. 选择&#x200B;**是**&#x200B;以激活该用户。
+
+随后将一封验证电子邮件发给用户。 用户必须选择电子邮件中的链接才能激活其帐户并开始使用Adobe Learning Manager。
+
+## 外部用户
+
+Adobe Learning Manager允许您添加公司以外的用户（例如客户、合作伙伴、供应商或客户）访问学习内容。 添加课程后，您可以将其分组、分配课程并跟踪其学习进度。
+
+在Adobe Learning Manager中添加外部用户涉及以下步骤：
+
+* 创建外部注册个人资料
+* 启用注册配置文件
+* 与外部用户共享注册链接
+* 根据需要暂停或继续配置文件
+
+Adobe Learning Manager支持通过外部注册配置文件注册此类用户。
+
+要创建外部用户，请执行以下步骤：
+
+1. 以管理员身份登录。
+2. 选择&#x200B;**用户**，然后选择&#x200B;**外部**。
+3. 在右上角，选择&#x200B;**添加**&#x200B;以创建外部用户的注册。
+4. 在&#x200B;**添加外部注册配置文件**&#x200B;对话框中，提供以下内容：
+
+   * **配置文件名称：**&#x200B;键入要访问Adobe Learning Manager的合作伙伴组织的名称
+   * **经理电子邮件：**&#x200B;键入用户的经理电子邮件地址。
+   * **名额限制：**&#x200B;设置允许的最大注册数。
+   * **到期：**&#x200B;定义新注册的最后日期。 过期后，该链接将不再适用于新用户注册。
+
+   ![](assets/add-external-user-prompt.png)
+   _用于输入配置文件名称、经理电子邮件、名额限制和到期日的对话框_
+
+5. 使用&#x200B;**添加图像**&#x200B;选项选择一个图像。 学习者可以在个人资料部分看到此图像。
+6. 选择“**高级设置**”部分以将其展开并键入所需的详细信息：
+   * **登录要求：**&#x200B;键入天数。 如果学习者在整个学习期内一直处于非活动状态，则将自动将其删除。
+   * **允许的域：**&#x200B;键入允许的电子邮件域的逗号分隔列表。 只有电子邮件地址来自获批准的域的用户才能注册。
+   * **需要电子邮件验证：**&#x200B;选择此项以在注册期间强制执行电子邮件验证。
+
+   ![](assets/advanced-settings-add-external.png)
+   _高级设置面板，用于设置登录要求、允许的域和电子邮件验证_
+
+7. 选择&#x200B;**“保存”**。
+
+生成注册URL。
+
+### 启用外部个人资料
+
+要启用外部个人资料，请执行以下操作：
+
+1. 在外部配置文件列表中找到新创建的配置文件。
+
+2. 选择&#x200B;**状态**&#x200B;切换按钮以启用它。
+
+管理员可以与外部合作伙伴共享此URL，以便他们可以使用该URL注册并登录Adobe Learning Manager。
+
+![](assets/enable-the-external-user.png)
+_选择切换开关以启用外部配置文件_
+
+### 复制和共享外部配置文件的注册URL
+
+可以从&#x200B;**外部用户**&#x200B;部分复制外部配置文件的注册URL。
+
+![](assets/copy.png)
+_复制外部配置文件的注册URL_
+
+### 内部和外部用户注册之间的主要区别
+
+内部和外部注册之间存在一些差异：
+
+| 内部用户 | 外部用户 |
+|---|---|
+| 可以使用Adobe ID或SSO凭据登录。 | 可以使用任何电子邮件ID登录。 |
+| 游戏功能可用。 | 游戏功能可用。 管理员必须在[游戏设置](https://experienceleague.adobe.com/en/docs/learning-manager/using/admin/gamification)中为外部学习者启用游戏。 |
+
+### 暂停外部注册配置文件
+
+在Adobe Learning Manager中，管理员可以通过暂停其配置文件来管理外部用户注册。 当您希望暂停新用户使用特定外部用户配置文件加入时，此功能非常有用。 暂停配置文件会阻止已收到邀请但尚未注册的用户完成注册过程。 此操作不会影响已完成其注册的用户。
+
+暂停外部配置文件：
+
+1. 选择&#x200B;**外部用户**&#x200B;页面右上角的&#x200B;**操作**。
+2. 选择“**暂停**”以暂停外部用户配置文件。
+
+这将阻止尚未接受其邀请的用户的注册流程。 请注意，此操作仅影响尚未完成其注册的用户。
+
+![](assets/pause-external-user.png)
+_从“操作”菜单中暂停现有外部用户配置文件的选项_
+
+### 恢复外部注册个人资料
+
+如果外部个人资料之前已暂停，管理员可以恢复该个人资料，以便新用户完成注册。 这将为受邀但未完成注册的用户重新激活注册流程。
+
+恢复外部用户：
+
+1. 选择页面右上角的&#x200B;**操作**。
+2. 选择&#x200B;**恢复**&#x200B;以恢复暂停的合作伙伴的访问。
+
+![](assets/resume-an-external-user.png)
+_恢复以前暂停的外部用户个人资料的选项_
+
+### 监控外部座位使用情况
+
+管理员可以在“Adobe学习”中跟踪添加到每个外部个人资料的用户数。
+
+要检查使用的坐席，请执行以下操作：
+
+1. 在外部个人资料列表中选择&#x200B;**使用的坐席**。
+
+您可以查看添加到合作伙伴公司的学习者数量以及学习者是否处于活动状态。
+
+## 管理用户
+
+管理员可以编辑用户详细信息、删除用户、分配角色和删除角色。 这有助于确保每个用户都拥有正确的访问权限和任务。
+
+>[!INFO]
+>
+>观看此ALM Academy培训，了解如何分配和删除角色、发送欢迎电子邮件以及删除和清除用户。<br>[！[按钮]](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/7555586)</br>
+
+### 编辑用户
+
+使用Adobe Learning Manager中的&#x200B;**编辑用户**&#x200B;选项更新用户的个人资料信息，如姓名、电子邮件地址、唯一标识符、个人资料和经理姓名。 管理员可以作出这些更改，以确保用户数据保持准确且最新。
+
+要编辑用户，请执行以下操作：
+
+1. 在管理员主页上选择&#x200B;**用户**。
+2. 从&#x200B;**用户**&#x200B;列表中选择要编辑的用户。
+3. 选择&#x200B;**编辑配置文件**。
+
+   ![](assets/edit-a-profile.png)
+   _“操作”菜单下的“删除用户”选项可将用户从平台中删除_
+
+4. 选择“**是**”以删除该用户。
+
+成功删除用户后，系统会显示一条确认消息。
+
+## 为用户分配角色
+
+Adobe Learning Manager中的用户角色定义了每个人都可以在系统中执行的操作。 每个角色均具有基于用户责任的特定权限。
+
+要将角色分配给用户，请执行以下操作：
+
+1. 在管理员主页上选择&#x200B;**用户**。
+2. 选择要分配角色的用户。
+3. 选择右上角的&#x200B;**操作**。
+4. 选择&#x200B;**分配角色**。
+5. 选择所需的角色。
+
+   ![](assets/assign-roles-users.png)
+   _“分配角色”菜单选项显示所选用户的可用角色_
+
+6. 在确认对话框中选择&#x200B;**是**。
+
+## 删除角色
+
+删除用户角色将撤销该角色授予的权限。
+
+要从用户中删除角色，请执行以下操作：
+
+1. 在管理员主页上，选择&#x200B;**用户**。
+2. 选择要删除其角色的用户。
+3. 选择&#x200B;**操作**，然后选择&#x200B;**删除角色**。
+
+   ![](assets/remove-a-role.png)
+   _用于从“操作”菜单下的用户中删除已分配角色的选项_
+
+4. 在确认对话框中选择&#x200B;**是**。
+<!--# Add users and create user groups
+
+
+Learn how to add users or user groups in Learning Manager application.
 
 <!--![](assets/user-mgmt-new.png)-->
 
-## 概述 {#overview}
+<!--## Overview {#overview}
 
-在 Adobe Learning Manager 中，您可以承担以下角色：
+In Adobe Learning Manager, you can assume the following roles:
 
-* **管理员：**&#x200B;管理员定义公司的培训策略。管理员可以添加学习者，为学习者搜索所需技能、管理和分配课程，创建学习计划、认证和学习计划，以及管理整个公司的报告。
-* **作者：**&#x200B;作者是教学设计师和内容创作者。作者可以向 Adobe Learning Manager 添加模块和课程。
-* **经理：**&#x200B;经理负责管理团队的学习活动。经理可以指定团队成员参加课程，批准团队成员的请求，并提供有关团队成员完成培训后的绩效反馈。管理人员还可以查看其团队的报告以跟踪其绩效。
-* **学习者：**&#x200B;学习者可以访问分配给他们的课程、学习计划和认证。学习者还可以使用目录浏览所有可用课程，并自行注册课程、学习计划或认证。
+* **Administrator:** An Administrator defines the training strategy for the organization. An Administrator can add learners, search required skills for learners, manage and assign courses, create learning plans, certifications, and learning programs, and manage reports for the entire organization.
+* **Author:** Authors are Instructional Designers and content creators. An Author can add modules and courses to Learning Manager.
+* **Manager:** A Manager manages the learning activities of a team. A Manager can nominate team members to take a course, approve requests from team members, and provide feedback on performance of their team members post-completion of training. Managers can also view reports for their team to track their performance.
+* **Learner:** Learners can access courses, learning programs, and certifications assigned to them. Learners can also browse through all the available courses by using a catalog and enroll themselves for either courses, learning programs, or certifications.
 
-作为管理员，您可以通过以下三种方式添加用户：
+As an Administrator, you can add users in three ways:
 
-* 内部
-* 外部
-* 用户组
+* Internal
+* External
+* User groups
 
-## 添加单个用户 {#addasingleuser}
+## Add a single user {#addasingleuser}
 
-使用单个用户选项将内部学习者添加到Adobe Learning Manager。
+Add internal learners to the Adobe Learning Manager using a single user option.
 
 >[!INFO]
 >
->在本培训中，您将了解如何将内部学习者添加到Adobe Learning Manager。<br><br>[![按钮](assets/launch-training-button.png)](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/7555534)</br></br>
+>In this training, you will learn how to add internal learners to the Adobe Learning Manager.<br><br>[![button](assets/launch-training-button.png)](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/7555534)</br></br>
 
 
-如果您无法启动培训，请写入<almacademy@adobe.com>。
+If you're unable to launch the training, write to <almacademy@adobe.com>.
 
-要添加用户，
+To add users,
 
-1. 以管理员身份登录 Adobe Learning Manager。
-1. 在主页上，单击&#x200B;**[!UICONTROL “添加用户”]**。在此页面上，您可以使用 CSV 一次添加单个用户或多个用户。您还可以为内部员工创建自行注册链接或创建外部学习者个人资料。
-1. 要添加单个用户，请单击&#x200B;**[!UICONTROL 右上角的添加]**，然后选择“**[!UICONTROL 单个用户]**”选项。
+1. Log into Adobe Learning Manager as an Administrator. 
+1. On the home page, click **[!UICONTROL Add Users]**. On this page, you can add a single user or multiple users at a time using a CSV. You can also create a self-registration link for internal employees or create an external learner profile.
+1. To add a single user, click **[!UICONTROL Add]** on the upper-right corner and choose the option **[!UICONTROL Single User]**.
 
-1. 要添加单个用户，请单击&#x200B;**[!UICONTROL 右上角的添加]**，然后选择“**单个用户**”选项。
+1. To add a single user, click **[!UICONTROL Add]** on the upper-right corner and choose the option **Single User**.
 
 
    ![](assets/single-user.png)
-   *添加单个内部用户*
+   *Add a single internal user*
 
-1. 在&#x200B;**[!UICONTROL “添加用户”]**&#x200B;对话框中，输入学习者的详细信息。对于&#x200B;**[!UICONTROL “管理员的名称”]**&#x200B;字段，选择系统中现有用户的名称。
+1. On the **[!UICONTROL Add User]** dialog, enter the details of the learner. For the field **[!UICONTROL Manager's Name]**, pick the name of an existing user in the system.
 
    ![](assets/manager.png)
-   *“添加用户”对话框*
+   *Add user dialog box*
 
-1. 要在 Adobe Learning Manager 中添加新用户，请单击&#x200B;**[!UICONTROL “添加”]**。添加用户后，用户会收到验证邮件。然后，学习者激活帐户并开始使用 Adobe Learning Manager。如果您需要向Learning Manager帐户添加有限数量的学习者，此工作流程非常有用。 但是，如果您计划注册一个大型公司的所有员工，您可以一次性完成添加。有关更多信息，请参阅下一节。
+1. To add the new user in Learning Manager, click **[!UICONTROL Add]**. After the user is added, the user receives a verification mail. The Learner then activates the account and starts using Learning Manager. This workflow is helpful if you need to add limited number of learners to your Learning Manager Account. But if you're planning to enroll all the employees of a large organization, you can add them in a singe attempt. For more information, see the next section.
 
-## 批量添加用户 {#addusersinbulk}
+## Add users in bulk {#addusersinbulk}
 
-通常，大多数公司使用人力资源管理系统 (HRMS) 来维护所有员工记录，例如，职务、位置、加入日期或员工层级。您可以将此数据导出为 CSV 格式。要导入 CSV，请按以下步骤操作：
+Typically, most organizations work with an HR Management System (HRMS), which maintains all employee records, such as, designation, location, date of joining, or employee hierarchy. You can export this data in a CSV format. To import a CSV, follow the steps below:
 
 
-1. 单击右上角的&#x200B;**[!UICONTROL “添加”]**，然后选择&#x200B;**[!UICONTROL “上传 CSV”]**&#x200B;选项。
+1. Click **[!UICONTROL Add]** on the upper-right corner, and choose the option **[!UICONTROL Upload a CSV]**.
 
    ![](assets/upload-a-csv.png)
-   *上传CSV以批量添加用户*
+   *Upload a CSV to add users in bulk*
 
-1. 您上传的 CSV 包含字段，如下所示：
+1. The CSV that you upload consists of the fields, as shown below:
 
    ![](assets/csv.png)
-   *CSV的结构*
+   *Structure of the CSV*
 
-   您必须维护主CSV，并在主CSV上执行所有添加和删除操作。 主 CSV 包含以下字段：
+   You must maintain a master CSV and perform perform all additions and deletions on the master CSV. The master CSV contains the following fields:
 
-   * 名称&#42;
-   * 电子邮件&#42;
-   * 配置文件
-   * 经理
+   * name &#42;
+   * email &#42;
+   * profile
+   * manager
 
-   (&#42;)必填字段。
+   (&#42;) Required field.
 
-1. 单击&#x200B;**[!UICONTROL “上传 CSV”]**&#x200B;选项后，将显示以下对话框。
+1. After you click the option **[!UICONTROL Upload a CSV]**, the following dialog displays.
 
    ![](assets/upload-a-csv-dialog.png)
-   *上传CSV对话框*
+   *Upload a CSV dialog*
 
-1. 选择 CSV 或拖放文件。选择文件后，使用CSV文件中的数据字段映射数据字段。 单击所需的下拉列表，然后选择正确的字段。
+1. Choose the CSV or drag-and-drop the file. After you've chosen the file, map the data fields with the ones in the CSV file. Click the required drop-down and choose the right field.
 
    ![](assets/map-data-fields.png)
-   *映射CSV中的字段*
+   *Map fields in CSV*
 
-1. 要开始导入用户，请单击&#x200B;**[!UICONTROL “保存”]**。您可以看到确认消息。
+1. To start importing the users, click **[!UICONTROL Save]**. You can see a confirmation message.
 
    ![](assets/save-csv.png)
-   *成功上传CSV的确认消息*
+   *Confirmation message for successful upload of the CSV*
 
-1. 新用户随即会添加到您的 Adobe Learning Manager 帐户中。要选择新用户，请选中名字旁边的复选框，以便选择每个用户。
+1. The new users are now added to your Adobe Learning Manager account. To select the new users, select the check-box next to the names so that everybody is selected. 
 
    ![](assets/select-new-users.png)
-   *已添加新用户*
+   *New users added*
 
 >[!NOTE]
 >
->有关详细信息，请参阅常见问题解答，[批量添加用户](../add-users-in-bulk.md)。
+>For more information, see the FAQ, [Add users in bulk](../add-users-in-bulk.md).
 
 >[!INFO]
 >
->在本培训中，您将了解如何通过CSV批量添加用户。<br><br>[![按钮](assets/launch-training-button.png)](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/7555555)</br></br>
+>In this training, you will learn how to add users in bulk through a CSV.<br><br>[![button](assets/launch-training-button.png)](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/7555555)</br></br>
 
-如果您无法启动培训，请写入<almacademy@adobe.com>。
+If you're unable to launch the training, write to <almacademy@adobe.com>.
 
-## 注册用户 {#registerauser}
+## Register a user {#registerauser}
 
-选择用户后，单击右上角的&#x200B;**[!UICONTROL “操作”]**，然后单击&#x200B;**[!UICONTROL “注册”]**。
+With the user selected, click **[!UICONTROL Actions]** on the upper-right corner and click **[!UICONTROL Register]**.
 
-所选用户会收到一封“欢迎”电子邮件。如果学习者已拥有一个现成的 Adobe ID，则可以单击此链接。如果他们没有现成的Adobe ID，他们可以继续并单击“欢迎”链接以创建Adobe ID，并将其链接到其Learning Manager帐户。
+The selected users receive a Welcome email. If the learners have an existing Adobe ID, they can click this link. If they don't have an existing Adobe ID, they can go ahead and click the Welcome link to create an Adobe ID and link it to their Learning Manager account.
 
-### 管理用户
+### Manage users
 
-在本培训中，您将了解如何分配和删除角色、发送欢迎电子邮件以及删除和清除用户。
+In this training, you will learn how to assign and remove roles, send a welcome email, and delete and purge users. 
 
-[![按钮](assets/launch-training-button.png)](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/7555586)
+[![button](assets/launch-training-button.png)](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/7555586)
 
-如果您无法启动培训，请写入<almacademy@adobe.com>。
+If you're unable to launch the training, write to <almacademy@adobe.com>.
 
-## 分配角色 {#assignarole}
+## Assign a role {#assignarole}
 
-将学习者添加到 Adobe Learning Manager 帐户后，如果要更改其角色，请单击页面右上角的“操作”。选择&#x200B;**[!UICONTROL 分配角色]**&#x200B;选项。您可以在此处决定是否要为学习者提供“作者”访问权限或“管理员”权限。在您分配角色后，该学习者具有该帐户的“作者”访问权限，可以添加模块和创建课程。
+After adding learners to the Adobe Learning Manager account, if you want to change their roles, click Actions on the upper-right corner of the page. Choose the option **[!UICONTROL Assign Role]**. Here you can decide whether you want to give Author access or Admin access to the learner. After you have assigned a role, this learner has Author access to the account and can add modules and create courses. 
 
 ![](assets/assign-a-role.png)
-*为用户分配角色*
+*Assign a role to a user*
 
-## 删除角色 {#removearole}
+## Remove a role {#removearole}
 
-您还可以删除用户的“作者”或“管理员”访问权限。选择一个或多个学习者，单击&#x200B;**[!UICONTROL “操作”]**，然后选择&#x200B;**[!UICONTROL “删除角色”]**。选择一个选项，例如&#x200B;**[!UICONTROL 删除作者]**，即可撤消作者对该学习者的访问权限。
+You can also remove Author or Admin access for the users. Select one or more learners, click **[!UICONTROL Actions]**, and select **[!UICONTROL Remove Role]**. Choose an option, for example, **[!UICONTROL Remove Author]**, and the author access gets revoked for this learner. 
 
 >[!NOTE]
 >
->您无法手动将“经理”角色分配给系统中的某个人。当在“经理”仪表板下添加一个或多个员工时，这些员工会自动获得经理仪表板的访问权限。
+>You cannot manually assign a Manager role to someone in the system. They automatically get access to the Manager dashboard when one or more employees are added under them.
 
-## 删除用户 {#deleteauser}
+## Delete a user {#deleteauser}
 
-要删除用户，请单击&#x200B;**[!UICONTROL “操作”]**，然后选择&#x200B;**[!UICONTROL “删除用户”]**。在确认对话框中，单击&#x200B;**[!UICONTROL “是”]**，学习者将被删除。
+To delete a user, click **[!UICONTROL Actions]**, and choose **[!UICONTROL Delete User]**. On the confirmation dialog, click **[!UICONTROL Yes]**, and the learner gets deleted.
 
 ![](assets/delete-a-role.png)
-*删除用户的确认消息*
+*Confirmation message to delete a user*
 
-## 编辑用户 {#editauser}
+## Edit a user {#editauser}
 
-在用户列表中，选择一个用户，然后单击该用户。在用户详细信息上，单击&#x200B;**[!UICONTROL 编辑]** ( ![](assets/edit-pen.png))按钮。 在&#x200B;**[!UICONTROL “编辑用户”]**&#x200B;对话框中，进行必要的编辑并保存更改，单击&#x200B;**[!UICONTROL 保存]**。
+On the list of users, choose a user, and click the user. On the user details, click the **[!UICONTROL Edit]** ( ![](assets/edit-pen.png)) button. On the **[!UICONTROL Edit User]** dialog, make the necessary edits and to save the changes, click **[!UICONTROL Save]**.
 
 ![](assets/edit-user.png)
-*“编辑用户”对话框*
+*Edit User dialog*
 
-## 活动字段
+## Active fields
 
-Adobe Learning Manager中的活动字段是可自定义的元数据字段，用于存储和管理用户特定的信息。 这些字段有助于定义与系统中每个用户关联的关键属性或特性。
+Active Fields in Adobe Learning Manager are customizable metadata fields used to store and manage user-specific information. These fields help define key attributes or characteristics associated with each user in the system.
 
-### 管理用户属性
+### Manage user attributes
 
 >[!INFO]
 >
->在本培训中，您将学习如何添加、自定义和配置活动字段。<br><br>[![按钮](assets/launch-training-button.png)](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/7555741)</br></br>
+>In this training, you will learn how to add, customize, and configure Active Fields.<br><br>[![button](assets/launch-training-button.png)](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/7555741)</br></br>
 
-如果您无法启动培训，请写入<almacademy@adobe.com>。
+If you're unable to launch the training, write to <almacademy@adobe.com>.
 
-Adobe Learning Manager保留用户属性及其值的大小写区分性。 **例如**，区分大小写时，用户属性为“location”，其值“PARIS”将保留并以相同方式显示。 如果出现任何问题，管理员现在可以编辑属性名称和值，以更正任何有关大小写的错误。
+Adobe Learning Manager preserves the case sensitivity of the user attribute and its value. **For example**, the case sensitivity of a user attribute is 'location' and its value as 'PARIS' will be preserved and displayed in the same manner. In case of any issues, the Administrator can now edit the attribute name and values to correct any case sensitivity errors. 
 
-管理员可以通过访问&#x200B;**[!UICONTROL 管理员应用]** > **[!UICONTROL 用户]** > **[!UICONTROL 用户组]**&#x200B;并单击组名称来执行此操作。
+The Administrator can do this by visiting **[!UICONTROL Admin app]** > **[!UICONTROL Users]** > **[!UICONTROL User groups]** and clicking on the group name.  
 
-管理员可以通过用户界面为学习者添加和更新允许的属性值。
+An Admin can add and update allowed attribute values for a learner through UI.
 
-活动字段的类型：
+Types of active fields:
 
-* 可分组：根据“值”对学习者进行分组
-* 可报告：根据活动字段创建报告用户组
-* 可导出：导出为用户组报告时可以看到这些字段。
+* Groupable: Learners would get grouped on the basis of the Values
+* Reportable: Reporting user groups would be created based on the active fields
+* Exportable: The fields will be seen in exported in user group report.
 
-## 创建自注册链接 {#createaselfregistrationlink}
+## Create a self-registration link {#createaselfregistrationlink}
 
-您还可以让公司中的员工自行注册为 Adobe Learning Manager 帐户的学习者，而无需获得您以管理员身份提供的帮助。管理员可以创建自行注册链接并与员工共享，员工可以使用其Adobe凭据进一步注册Learning Manager。
+You can also enable employees in your organization to register themselves as Learners to Adobe Learning Manager Account, without taking help from you as an administrator. The administrator can create a Self-Registration link and share with the employees, who can further register to Learning Manager using their Adobe credentials.
 
-在页面右上角，单击“**[!UICONTROL 添加]**”，然后选择“**[!UICONTROL 自行注册]**”。
+On the upper-right corner of the page, click **[!UICONTROL Add]**, and select **[!UICONTROL Self-Registration]**.
 
 
 ![](assets/self-registration.png)
-*创建自行注册为学习者的链接*
+*Create link to self-register as learner*
 
-出现&#x200B;**[!UICONTROL “添加自行注册个人资料”]**&#x200B;对话框。为此个人资料命名。然后添加经理的姓名。务必确认经理已经是Learning Manager的注册学习者。
+The **[!UICONTROL Add Self-Registration Profile]** dialog appears. Give this profile a name. Then add the manager's name. It's important to know that the manager must already be registered learner in Learning Manager.
 
 ![](assets/add-self-registrationprofile.png)
-*为自行注册添加个人资料*
+*Add profile for self-registration*
 
-单击&#x200B;**[!UICONTROL “保存”]**&#x200B;后，将生成一个 URL，您可以与学习者共享该 URL，以便其单击 URL 并自行注册。
+After you click **[!UICONTROL Save]**, a URL gets generated, which you can share with the learners, so that they can click the URL and self-register themselves.
 
-## 注册外部学习者 {#enrollexternallearners}
+## Enroll external learners {#enrollexternallearners}
 
-在 Adobe Learning Manager 中，您还可以为具有有限访问权限的外部合作伙伴或机构创建注册链接，并为他们提供学习材料。
+In Adobe Learning Manager, you can also create Registration links for external partners or agencies with limited access to your account and provide them learning material.
 
-内部和外部注册之间存在一些差异。
+There are a few differences between internal and external registrations.
 
 <table>
  <tbody>
   <tr>
    <td>
-    <p><b>内部用户</b></p></td>
+    <p><b>Internal users</b></p></td>
    <td>
-    <p><b>外部用户</b></p></td>
+    <p><b>External users</b></p></td>
   </tr>
   <tr>
    <td>
-    <p>使用 Adobe ID 或 SSO 凭据登录。</p></td>
+    <p>Log in using Adobe ID or SSO credentials.</p></td>
    <td>
-    <p>使用任何电子邮件 ID 登录。</p></td>
+    <p>Log in using any email ID.</p></td>
   </tr>
   <tr>
    <td>
-    <p>游戏功能可用。</p></td>
+    <p>Gamification is available.</p></td>
    <td>
-    <p>游戏功能可用。 管理员必须在“游戏”设置中为外部学习者启用游戏。</p></td>
+    <p>Gamification is available. The admin must enable gamification for external learners in the Gamification settings.</p></td>
   </tr>
   <tr>
    <td>
-    <p>学习者等级可用。</p></td>
+    <p>Learner hierarchies are available.</p></td>
    <td>
-    <p>学习者等级不可用。</p></td>
+    <p>Learner hierarchies are not available.</p></td>
   </tr>
  </tbody>
 </table>
 
-要注册外部用户，请执行以下步骤：
+To enroll external users, follow the steps below:
 
-1. 在左侧导航窗格中，单击&#x200B;**[!UICONTROL “外部”]**。
+1. In the left navigation pane, click **[!UICONTROL External]**.
 
    ![](assets/click-external.png)
+   
+   *Enroll external users*
 
-   *注册外部用户*
+1. On the upper-right corner of the page, click **[!UICONTROL Add]**.
 
-1. 在页面右上角，单击&#x200B;**[!UICONTROL “添加”]**。
-
-1. 在&#x200B;**“添加外部注册个人资料”**&#x200B;对话框中，添加以下详细信息：
+1. On the **Add External Registration Profile** dialog, add the following details:
 
 
-   * 合作伙伴组织的配置文件名称。
-   * 合作伙伴公司经理的电子邮件地址。
-   * 此合作伙伴的外部注册的名额限制。
-   * 设定截止日期的到期日，以不再允许此组的新注册。 到期日后，只有现有注册用户才能访问此培训。
+   * The profile name of the partner organization.
+   * The email address of the manager of the partner organization.
+   * Seat limit for external enrollment for this partner.
+   * Expiry date to set a deadline to stop allowing new registrations to this group. After the Expiry date, only the existing registered users can access this training.
 
    ![](assets/map-data-fields-2.png)
 
-   *“添加外部注册个人资料”对话框*
+   *Add External Registration Profile dialog*
 
-   * 在“**[!UICONTROL 高级设置]**”部分中，输入以下内容：
+   * In the **[!UICONTROL Advanced Settings]** section, enter the following:
 
-      * **[!UICONTROL 登录要求]：**&#x200B;指定天数。 如果学习者在上述期间没有登录，则会被删除。
-      * **[!UICONTROL 允许的域]：**&#x200B;用逗号分隔的白名单电子邮件域名列表。
-      * **[!UICONTROL 需要电子邮件验证]：**&#x200B;选择此选项可以为学习者强制进行电子邮件验证。
+     * **[!UICONTROL Login Requirement]:** Specify a value in days. Learners get deleted if they do not login for the above duration.
+     * **[!UICONTROL Allowed Domains]:** A comma-separated list of whitelisted email domain names.
+     * **[!UICONTROL Email Verification Required]:** Select this option to make email verification mandatory for a learner.
 
    ![](assets/email-verificationrequired.png)
 
-   *在“高级设置”部分输入详细信息*
+   *Enter the details in the Advanced Settings section* 
 
-1. 单击&#x200B;**[!UICONTROL “保存”]**&#x200B;后，可以看到以下确认消息。您必须与外部合作伙伴共享该 URL。
+1. After you click **[!UICONTROL Save]**, you can see the following confirmation message. You must share the URL with your external partner.
 
    ![](assets/save-and-share-urlwithexternalusers.png)
 
-## 启用外部个人资料 {#enableanexternalprofile}
+## Enable an external profile {#enableanexternalprofile}
 
-创建外部个人资料后，必须启用其状态。从外部个人资料列表中，选择所需个人资料，然后切换状态按钮。
+After an external profile has been created, you must enable its status. From the list of external profiles, choose the required profile, and toggle the status button.
 
 ![](assets/choose-required-profiles.png)
-*启用外部个人资料*
+*Enable an external profile*
 
-这样将启用“外部注册”链接。欢迎电子邮件会自动发送给合作伙伴。您还可以通过单击“复制 URL”图标 () 复制链接并与合作伙伴共享，也可以通过单击“邮件”图标 () 将欢迎电子邮件重新发送给合作伙伴公司。
+This enables the External Enrollment link. A welcome email is automatically be sent to the partner. You can also copy the link and share with them by clicking the Copy URL icon (), or you can resend the welcome email to the partner organization by clicking the Mail icon ().
 
-合作伙伴经理可以与必须接受PrLearning Manager课程培训的员工共享此链接。 在单击链接后，他们可以在填写一些细节后自行注册，以便在 Adobe Learning Manager 上创建他们的个人资料。这些用户不会与内部员工一起出现在“学习者”选项卡上。您可以在&#x200B;**[!UICONTROL “外部学习者”]**&#x200B;选项卡下看到他们的名字。
+The partner manager can share the link with the employees who must take the training in PrLearning Managerime. When they click the link, they can self-enroll themselves after filling out some details to create their profile on Learning Manager. These users will not appear on the Learners tab along with the internal employees. You can see their names under the **[!UICONTROL External Learners]** tab.
 
-## 暂停外部个人资料 {#pause}
+## Pause an external profile {#pause}
 
-将外部用户组添加到Learning Manager后，您也可以暂停外部用户的注册流程。 暂停后，外部用户的注册过程将被阻止。 但是，此过程仅在用户尚未通过接受邀请来进行注册时才有效。
+After adding an external user group to Learning Manager, you can also pause the external users' registration process. When you pause, the external users' registration process is blocked. However, this process works only when the users haven't registered yet by accepting the invitation.
 
-要暂停外部用户组，请选择一个或多个组，单击页面右上角的&#x200B;**[!UICONTROL “操作”]**，然后单击&#x200B;**[!UICONTROL “暂停”]**。
+To pause the external user groups, choose a group or groups, click **[!UICONTROL Actions]** from the upper-right corner of the page, and click **[!UICONTROL Pause]**.
 
-## 恢复外部个人资料 {#resumeanexternalprofile}
+## Resume an external profile {#resumeanexternalprofile}
 
-您可以随时撤消外部合作伙伴的暂停状态并恢复正常服务。单击页面右上角的“**[!UICONTROL 操作]**”，然后选择“**[!UICONTROL 继续]**”。
+At any time, you can always revoke the paused state of an external partner and resume normal services. Click **[!UICONTROL Actions]** at the upper-right corner of the page and select **[!UICONTROL Resume]**.
 
-以下状态适用于外部用户：
+The following states are applicable for external users:
 
-* **非活动状态** — 在此状态下，外部用户的注册已过期。 在通过添加用户工作流程添加外部用户时，管理员为外部用户设置到期日。
-* **活动状态** - 在此状态下，外部用户可以注册到 Adobe Learning Manager 应用程序，然后登录到应用程序。
-* **暂停** - 在此状态下，外部用户的注册流程将被阻止。但是，现有用户可以继续登录。
+* **Inactive state** - In this state, the external users' registration is expired. Administrators set the expiry date for the external users while adding them through the add user workflow.
+* **Active state** - In this state, the external users can register to the Learning Manager application, and log in to the application.
+* **Pause** - In this state, the registration process for external users is blocked. However, the existing users can continue to log in.
 
-## 检查使用的坐席 {#checkusedseats}
+## Check used seats {#checkusedseats}
 
-在外部个人资料列表中，单击&#x200B;**[!UICONTROL “使用的坐席”]**。您可以查看合作伙伴公司中已添加的学习者数量。
+On the list of external profiles, click **[!UICONTROL Seats Used]**. You can view the number of learners in the partner organization who have been added.
 
 ![](assets/seats-used.png)
-*检查使用的坐席*
+*Check used seats*
 
-## 删除用户 {#Deleteauser-1}
+## Delete a user {#Deleteauser-1}
 
-选择一个用户，然后从右上角单击&#x200B;**[!UICONTROL 操作]** > **[!UICONTROL 删除用户]**。
+Choose a user, and from the upper-right corner, click **[!UICONTROL Actions]** > **[!UICONTROL Delete User]**.
 
-## 更改个人资料 {#changeprofile}
+## Change profile {#changeprofile}
 
-要将用户移动到其他外部个人资料，请从右上角选择一个用户，单击&#x200B;**[!UICONTROL 操作]** > **[!UICONTROL 更改个人资料]**。 从个人资料列表中，选择个人资料，然后单击&#x200B;**[!UICONTROL “更改”]**。
+To move a user to another external profile, choose a user, from the upper-right corner, click **[!UICONTROL Actions]** > **[!UICONTROL Change Profile]**. From the list of profiles, choose a profile, and click **[!UICONTROL Change]**.
 
-## 分配角色 {#Assignarole-1}
+## Assign a role {#Assignarole-1}
 
-选择用户，然后从右上角单击“**[!UICONTROL 操作]**”>“**[!UICONTROL 分配角色]**”>“**设为`<role>`**”。 用户将获得新角色。
+Choose a user, and from the upper-right corner, click **[!UICONTROL Actions]** > **[!UICONTROL Assign Role]** > **Make `<role>`**. The user gets a new role.
 
-## 删除角色 {#Removearole-1}
+## Remove a role {#Removearole-1}
 
-选择用户，然后从右上角单击“**[!UICONTROL 操作]**”>“**[!UICONTROL 删除角色]**”>“**删除`<role>`**”。 所选角色将从分配给用户的角色列表中删除。
+Choose a user, and from the upper-right corner, click **[!UICONTROL Actions]** > **[!UICONTROL Remove Role]** > **Remove `<role>`**. The selected role gets removed from the list of roles that were assigned to the user.
 
 >[!NOTE]
 >
->分配新角色不会影响自定义用户组。 但是，它将会影响自动生成的用户组，例如所有管理员、所有作者以及类似的基于角色的组。
+>Assigning a new role will not affect custom user groups. However, it will impact auto-generated user groups such as All Admins, All Authors, and similar role-based groups.
 
-## 创建用户组 {#createusergroups}
+## Create user groups {#createusergroups}
 
-用户组是一组与类别相关的用户。用户组可帮助管理员根据其属性选择公司中的学习者，然后为其分配学习内容。此外，这些用户组允许管理员将自定义徽标和目录分配给学习者，并显示有关其进度的自定义报告。
+A User Group is a set of users who are related to a category. User Groups help administrators to select learners in their organization based on their attributes, and then assign learning content to them. Also, these User Groups enable administrators to assign customized logos and catalogs to learners and show customized reports on their progress.
 
-要访问用户组，请在左侧导航窗格中单击&#x200B;**[!UICONTROL “用户组”]**。
+To access User Groups, on the left navigation pane, click **[!UICONTROL User Groups]**.
 
 ![](assets/user-groups.png)
-*创建用户组*
+*Create user groups*
 
-### 管理用户组
+### Manage user groups
 
 >[!INFO]
 >
->在本培训中，您将了解如何按姓名、电子邮件ID以及合并多个自动生成的用户组来创建用户组。<br><br>[![按钮](assets/launch-training-button.png)](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/7555694)</br></br>
+>In this training, you will learn how to create a user group by names, email IDs, and combining multiple auto-generated user groups.<br><br>[![button](assets/launch-training-button.png)](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/7555694)</br></br>
 
-如果您无法启动培训，请写入<almacademy@adobe.com>。
+If you're unable to launch the training, write to <almacademy@adobe.com>.
 
-Adobe Learning Manager 中有两种类型的组：自定义和自动生成。将学习者添加到您的帐户时，会根据其常用属性自动创建某些组。
+There are two types of groups in Adobe Learning Manager, Custom and Auto-generated. When you add learners to your account, some groups are automatically created based on their common properties.
 
-要查看自动创建的组，请单击选项卡&#x200B;**[!UICONTROL “自动生成”]**。
+To see the automatically created groups, click the tab **[!UICONTROL Auto-generated]**.
 
 ![](assets/auto-generated.png)
-*查看自动生成的组*
+*View Auto-generated groups*
 
-您可以看到各种组，例如所有内部用户、所有经理以及按照各成本中心、部门和经理团队组成的组。
+You can see that there are different groups, like All Internal Users, All Managers, groups based on the Cost Center, based on the department, and based on the teams of the managers.
 
-除自动生成的组外，您还可以创建自定义组。要添加新的自定义组，请在右上角单击“**[!UICONTROL 添加]**”。
+In addition to Auto-generated groups, you can create Custom groups. To add a new Custom Group, on the upper-right corner, click **[!UICONTROL Add]**. 
 
-1. 输入组的名称和说明。
-1. 在“按类型搜索”字段中输入用户名或个人资料，然后从下拉列表中选择，以添加用户。
+1. Enter the name, and description for the group.
+1. Enter user name or profile in search-as-you-type field and select from the drop-down list, to add users.
 
-1. 要添加更多学习者，请单击&#x200B;**[!UICONTROL 添加更多用户]**。
+1. To add more learners, click **[!UICONTROL Add More Users]**.
 
-1. 要创建用户组，请单击&#x200B;**[!UICONTROL “保存”]**。
+1. To create the user group, click **[!UICONTROL Save]**.
 
-现在，已创建此自定义组并将其添加到个人资料中。您创建的用户组本质上是动态的。如果添加了具有类似属性的新用户，则会自动将其添加到用户组。
+This Custom Group is now created and added to the profile. The User Groups that you create are dynamic in nature. If new users are added with similar attributes, they're automatically added to the User Group.
 
-要查看用户所属的组列表，请导航到&#x200B;**[!UICONTROL 用户]** > **[!UICONTROL 用户组]**，搜索该用户的名称，然后选择它。 这将显示用户所属的所有组。
+To view the list of groups a user belongs to, navigate to **[!UICONTROL User]** > **[!UICONTROL User Groups]**, search for the user's name, and select it. This will display all the groups the user is part of.
 
 ![](assets/list-of-group.png)
 
-### 下载用户组中的用户列表
+### Download the list of users in a user group
 
-要下载特定用户组中的用户列表，请导航到&#x200B;**[!UICONTROL 用户]** > **[!UICONTROL 用户组]**，选择组旁边的&#x200B;**[!UICONTROL 下载图标]**。 这将生成一个CSV文件，其中包含该组中的用户列表。
+To download the list of users in a specific user group, navigate to **[!UICONTROL User]** > **[!UICONTROL User Groups]**, select the **[!UICONTROL Download icon]** next to the group. This will generate a CSV file containing the list of users in that group.
 
-![](assets/download-list-of-user.png)
+![](assets/download-list-of-user.png) 
 
-## 排除用户组
+## Exclusion of user groups
 
-有时，您可能希望从大型用户组中排除一小组用户。 如果您通过学习计划在培训中注册此特定用户组，或要为目录设置正确的可见性，则必须执行此操作。 在此版本的Learning Manager中，您可以在创建自定义用户组时排除学习者或用户组。 在“添加用户组”对话框中，可利用“排除学习者”部分实现此目的。
+At times you would want to exclude a small set of users from a large user group. This is required to enroll this specific set of users into training via Learning Plans or to setup the correct visibility of catalogs. In this release of Learning Manager, you can exclude learners or User Groups when you create a custom user group. In the Add User Group dialog, the Exclude Learners section enables you to achieve so.
 
 ![](assets/exclude-user-groups.png)
-*排除用户组*
+*Exclude user groups*
 
-例如，如果您想设置一个学习计划，让所有满足 location = California except Store-5（位于 California）条件的用户都可以注册课程。
+For example, if you want to set up a Learning Plan so that all users belonging to location = California except Store-5 (located in California) get enrolled. 
 
-## 高级设置 {#advancedsettings}
+## Advanced settings {#advancedsettings}
 
-### 数据源 {#datasources}
+### Data Sources {#datasources}
 
-当您想要将用户或学习数据从公司数据库导入/同步到Learning Manager应用程序时，可以使用此功能。 还可设置此同步的频率。
+You can use this feature when you want to import/sync the users or learning data from your organization's database in to the Learning Manager application. You can also set up the frequency of this sync. 
 
 
-在左侧窗格的&#x200B;**[!UICONTROL 高级]**&#x200B;部分下单击&#x200B;**[!UICONTROL 数据源]**。
+Click **[!UICONTROL Data Sources]** on the left pane under **[!UICONTROL Advanced]** section. 
 
 
 ![](assets/data-sources-add-users.png)
 
-*要导入或同步用户的数据源*
+*Data sources to iport or sync users*
 
-从&#x200B;**[!UICONTROL 源]**&#x200B;下拉列表中选择数据源类型，选择更新频率，如果需要立即同步，请单击&#x200B;**[!UICONTROL 立即同步]**，或单击&#x200B;**[!UICONTROL 保存]。**&#x200B;内部用户的数据源类型有SFDC、FTP等。
+Choose the data source type from the **[!UICONTROL Source]** drop-down, select the update frequency, and click **[!UICONTROL Sync now]** if you need to sync immediately or click **[!UICONTROL Save].** Data source types are SFDC, FTP, and so on for internal users. 
 
-您可以添加多个数据源。
+You can add multiple data sources. 
 
-### 活动字段 {#activefields}
+### Active Fields {#activefields}
 
-除了用户注册期间提供的功能外，此功能还允许管理员添加更多活动字段。
+This feature enables administrators to add more active fields in addition to what has been provided during user registration. 
 
-单击用户页面中的&#x200B;**[!UICONTROL 可用活动字段]**。 学习者只能从自定义值提供的值中进行选择。
+Click **[!UICONTROL Active Fields]** available inside users page. Learners can only choose from the values given in custom values.
 
 ![](assets/active-fields.png)
-*活动字段*
+*Active fields*
 
-### 配置字段 {#configurefields}
+### Configure Fields {#configurefields}
 
-**内部用户**
+**Internal users**
 
-您可以为内部用户添加用户字段的自定义值。
+You can add custom value for user fields for internal users.
 
-要添加自定义值，请执行以下步骤：
+To add  custom values, follow these steps:
 
-1. 单击内部用户的&#x200B;**[!UICONTROL 修改值]**。
+1. Click  **[!UICONTROL Modify Values]** for an Internal user. 
 
    ![](assets/modify-values.png)
-   *修改内部用户的值*
+   *Modify values for internal users*
 
-1. 出现“**自定义字段中的值**”对话框。
+1. The **Values in Custom field** dialog box appears.
 
    ![](assets/values-in-customfields.png)
-   *“自定义字段中的值”对话框*
+   *Values in Custom Fields dialog box*
 
-1. 从&#x200B;**[!UICONTROL “选择字段”]**&#x200B;下拉菜单中选择要添加的值。
-1. 在&#x200B;**[!UICONTROL “新值”]**&#x200B;字段中输入新值。
-1. 单击&#x200B;**[!UICONTROL “完成”]**。
-1. 单击右上角的“保存”以&#x200B;**[!UICONTROL 保存]**&#x200B;更改。
+1. Select the value to add from the **[!UICONTROL Select Field]** drop-down menu.
+1. Enter new values in the **[!UICONTROL New Value]** field.
+1. Click **[!UICONTROL Done]**. 
+1. Click Save on the top right corner to **[!UICONTROL Save]** changes.
 
-**外部用户**
+**External users**
 
-添加与内部用户的值类似的自定义值。
+Add custom values similar to that for internal users.
 
 ![](assets/modify-values-forexternalusers.png)
-*修改外部用户的值*
+*Modify values for external users*
 
-### 设置 {#settings}
+### Settings {#settings}
 
-**用户显示**
+**User Display**
 
-如果启用选项&#x200B;**“在学习者登录时仅显示未填写的字段”**，则用户在登录时只会看到空白字段。
+If the option **Show only unfilled fields on Learner login** is enabled, a user only sees the blank fields upon login.
 
 ![](assets/settings-tab.png)
-*显示未填写的字段*
+*Show unfilled fields*
 
-使用此选项，管理员可以决定他/她在这些字段填充后是要显示还是隐藏字段。
+Using this option, an Administrator can decide whether he/she wants to show the fields or hide them once these have been populated.
 
-## 限制报告中的活动字段 {#restrictactivefields}
+## Restrict Active Fields in reports {#restrictactivefields}
 
-Learning Manager 27.7针对活动字段引入了两个新选项： **[!UICONTROL 可报告]**&#x200B;和&#x200B;**[!UICONTROL 可导出]**。
+Learning Manager 27.7 introduces two new options- **[!UICONTROL Reportable]** and **[!UICONTROL Exportable]**, for Active Fields.
 
 ![](assets/options-in-activefields.png)
-*活动字段中的选项*
+*Options in Active Fields*
 
-对于 CSV 字段和手动添加的字段，如果“活动字段”已被标记为&#x200B;**[!UICONTROL “可报告”]**，则该活动字段即可在仪表板报告内的过滤器中搜索。
+For CSV fields and manually added fields, if an Active Field is marked as **[!UICONTROL Reportable]**, the Active Field becomes searchable in a filter inside a dashboard report.
 
 ![](assets/filters-in-a-dashboardreport.png)
-*仪表板报告中的筛选器*
+*Filters in a dashboard report*
 
-如果活动字段已被标记为&#x200B;**[!UICONTROL “可导出”]**，则在下载任何 Excel 报表时，活动字段即会显示在 Excel 文件中。
+If an Active Field is marked as **[!UICONTROL Exportable]**, then the Active Field appears in the Excel file upon downloading any Excel report.
 
-这些选项适用于所有内部和外部活动字段。
+These options appear for both internal and external Active Fields.
 
-您只能删除自定义活动字段。
+You can only delete a custom Active Field.
 
-## 用户显示
+## User Display
 
-您可以对学习者隐藏整个“完成配置文件”页面。 学习者登录后，该页面将不会弹出。
+You can hide the entire 'Complete your profile' page from the learners. The page will not pop up once the learner logs in.
 
-请注意，现有的默认行为不会更改。 这是管理员现在可使用的可选功能。
+Note that the existing default behavior does not change. This is an optional capability now available to Administrators. 
 
-启用以下选项：
+Enable the options below:
 
 ![](assets/user-display.png)
-*“用户显示”部分*
+*User Display section*
 
-## 通过FTP和Box连接器支持手动CSV字段 {#import-connector}
+## Support for manual CSV fields by FTP and Box connectors {#import-connector}
 
-用户通常希望在学习者登录Learning Manager时手动提供活动字段。 目前可在用户手动导入CSV时，在Learning Manager中完成此操作。
+Often, users want Active fields to be manually provided when a learner logs in to Learning Manager. This is possible in Learning Manager at present, when the user imports a CSV manually.
 
-CSV可能不包含所有活动字段。 对于已上传的CSV中未更新的所有活动字段，用户需要输入此类活动字段的数据。
+The CSV may not contain all the Active fields. For all the Active fields that are not updated in the uploaded CSV, the user needs to enter the data for such Active fields.
 
-目前，所有活动字段都必须从源CSV映射到某个字段。
+Presently, all Active fields must be mapped to some field from the source CSV.
 
-有时，用户不希望将活动字段映射到CSV中指定的字段。 在这种情况下，用户可以将“活动”字段映射到值&#x200B;**[!UICONTROL DontImportFromSource]**。 从FTP和Box连接器导入用户时，从下拉列表中选择此值。
+It so happens that sometimes a user does not want to map an Active field to a field specified in the CSV. In such cases, the user can map the Active field to the value **[!UICONTROL DontImportFromSource]**. Select this value from the drop-down list, when importing users from FTP and Box connectors.
 
-## 自定义角色 {#customroles}
+## Custom Roles {#customroles}
 
-将您选择的任何字段添加为用户信息的一部分，然后单击“**[!UICONTROL 保存]**”。 添加字段后，您还可以在&#x200B;**[!UICONTROL 编辑用户]**&#x200B;对话框中交叉检查字段的可用性。
+Add any field of your choice as part of your user information and click **[!UICONTROL Save]**. After adding the fields, you can also cross check the availabilities of the fields in the **[!UICONTROL Edit users]** dialog. 
 
 
-添加字段后，您会注意到有刻度线标记的字段源自数据源或 CSV，如下面快照中所述。管理员可以通过启用或禁用字段来编辑这些源字段。
+After adding the fields, you can notice that the fields marked with tick mark are sourced from data source or CSV as mentioned in the below snapshot. Administrator can edit these sourced fields by enabling or disabling the fields. 
 
-**Learning Manager中活动字段的值**
+**Values for active fields in Learning Manager**
 
-可通过以下方式获取活动字段的值：
+The values for active fields are fetched in the following ways: 
 
-1. Adobe Learning Manager 应用程序从与您帐户关联的数据源导入元数据。
-1. 从手动导入的 CSV 文件捕获的元数据。
-1. 学习者在登录时填充元数据
-1. 管理员输入用户的数据。
+1. Learning Manager application imports metadata from data sources associated with your account. 
+1. Metadata captured from the manually imported CSV file. 
+1. Learners fill up metadata when they log in
+1. Administrator enters data for the users. 
 
 >[!NOTE]
 >
->Adobe Learning Manager 应用程序会自动通过这些元数据创建用户组。
+>Learning Manager application creates user groups automatically, from these metadata. 
 
-**添加自定值**
+**Add custom value**
 
-您可以在“内部”和“外部”用户字段中为用户字段添加自定义值。
+You can add custom value for user fields in the Internal and External user fields.
 
-要添加自定义值，请执行以下步骤：
+To add  custom values, follow these steps:
 
-可以添加和删除自定义字段，这些字段适用于所有用户。可以启用或禁用 CSV 字段，这些字段仅在您于活动字段中完成修改，并上传 CSV 后生效。所有内部活动字段适用于所有类型的内部用户。外部字段仅适用于外部用户。如果 CSV 中存在自定义字段，则在下一次上传时，系统会自动将其转换为 CSV 字段，并启用该字段。
+Custom fields can be added and deleted, they are applicable to all users. CSV fields can be enabled or disabled, they come into effect only when you upload CSV after making the modifications in Active fields. All internal active fields are applicable to all types of Internal users. External fields are applicable only to external users. If a custom field is present in CSV, on next upload it gets converted to a CSV field automatically and it is enabled. 
 
-## CSV 字段的值 {#valuesforcsvfields}
+## Values for CSV fields {#valuesforcsvfields}
 
-如果启用了&#x200B;**[!UICONTROL “限制选择”]**&#x200B;复选框，用户只能从 CSV 字段的预定义字段中进行选择。
+Users can only choose from predefined fields for CSV fields if the **[!UICONTROL Restrict Selection]** check-box is enabled.
 
 ![](assets/value-field-for-csv.png)
-*限制选择复选框*
+*Restrict selection check-box*
 
-## 导入日志 {#importlogs}
+## Import Logs {#importlogs}
 
-在此空间中，您可以查看管理员使用批量导入功能添加的，用户 CSV 导入历史记录。您还可以单击页面右上角的“**[!UICONTROL 添加]**”，以使用CSV上传功能添加用户。
+In this space, you can view the CSV import history for the users the administrator has added using bulk import feature. You can also click **[!UICONTROL Add]** at the upper-right corner of the page to add users using CSV upload feature. 
 
-## 多值活动字段
+## Multi-valued Active Fields
 
-使用此功能，活动字段可以具有多个字段。 在一个帐户中，最多可以有三个多值活动字段。 多值活动字段可供外部和内部用户使用。
+With this feature, you can have more than one field for an active field. In an account, there can be at most three multi-valued active fields. The multi-valued active fields are available for both external and internal users.
 
-将活动字段标记为多值字段后，无法再将其转换回单值字段。 此过程不可逆。
+Once you mark an active field as multi-valued, you cannot convert it back to single valued. This is irreversible.
 
-现有的单值字段不能标记为多值字段。
+An existing single valued field cannot be marked as multi-valued field.
 
-要创建多值活动字段，请执行以下步骤：
+To create a multi-valued active field, follow the steps below:
 
-1. 添加活动字段。
+1. Add an active field.
 
-   ![添加活动字段](assets/add-active-field.png)
-   *添加活动字段*
+   ![Add an active field](assets/add-active-field.png)
+   *Add an active field*
 
-1. 单击“添加”。
-1. 在“设置”选项卡中，将新字段标记为多值字段。
+1. Click Add.
+1. In the Settings tab, mark the new field as multi-valued.
 
-   ![标记为多值](assets/mark-multi-valued.png)
-   *标记为多值*
+   ![Mark as multi-valued](assets/mark-multi-valued.png)
+   *Mark as multi-valued*
 
-   将出现一个复选框，**[!UICONTROL “学习者可配置”]**，禁用该复选框后，学习者将无法在“个人资料”页面上看到该字段。
+   There is another checkbox, **[!UICONTROL Learner Configurable]**, which when disabled, the learner will not be able to see the field on the Profile page.
 
-1. 使用CSV或者单击“修改值”来添加值。
+1. Add the values using a CSV or by clicking Modify Values.
 
-   ![添加值](assets/add-values.png)
-   *添加值*
+   ![Add values](assets/add-values.png)
+   *Add values*
 
-1. 单击&#x200B;[!UICONTROL **“完成”**]。
+1. Click [!UICONTROL **Done**].
 
 >[!NOTE]
 >
->创建用户组并填充字段后，无法将多个值转换为单个值，反之亦然。
+>Once is the user group is created and the field is populated, multi values cannot be converted to single values, and vice versa.
 
-### 通过 CSV 添加多值活动字段
+### Add multi-valued active field via CSV
 
-请按以下步骤操作：
+Follow the steps below:
 
-1. 创建一个以列形式包含新活动字段的 CSV（逗号分隔或单值）。
-1. 导入 CSV。
-1. 在“自定义字段中的值”对话框中将字段标记为多值字段。
-1. 再次导入 CSV。
+1. Create a CSV with the new active fields as columns (comma-separated or single values).
+1. Import the CSV.
+1. Mark the fields as multi-valued in the Values in Custom Fields dialog.
+1. Import the CSV again.
 
-CSV 必须包含与标记为多值的活动字段具有相同名称的列。
+The CSV must have a column with the same name as that of an active field that was marked as multi-valued.
 
-CSV 包含以下字段：
+The CSV contains the fields:
 
-* **[!UICONTROL 用户]**：以角色形式创建的用户组。
-* **[!UICONTROL 角色]**：具有值的多值活动字段。
+* **[!UICONTROL User]**: User groups created as roles.
+* **[!UICONTROL Roles]**: Multi-valued active field with values.
 
-如果使用新值或删除的值重新上传 CSV，活动字段和组也会相应更新。
+If the CSV is re-uploaded with new values or deleted values, the active fields and groups also get updated accordingly.
 
-### 报告
+### Reports
 
-所有报告都包含多值活动字段及其值。
+All reports include the multi-valued active fields and their values.
 
-管理员可以添加自动生成的活动字段，并配置用户活动和培训报告。
+The Administrator can add auto-generated active fields, and configure user activity and training reports.
 
-“学习者成绩单”报告包含所有活动字段和逗号分隔的值。 管理员随后可相应地过滤数据。
+The Learner Transcript report contains all the active fields and comma-separated values. The Administrator can then filter the data accordingly.
 
-## 用户组报告
+## User group report
 
-Adobe Learning Manager的新用户组报告提供了在管理员离开时不受管理的组的可见性，可帮助管理用户组。 管理员可以访问&#x200B;**[!UICONTROL 用户]** > **[!UICONTROL 用户组]**&#x200B;部分下的报告。 它提供有关每个组的详细信息，包括：
+Adobe Learning Manager's new User Group Report helps manage user groups by providing visibility into groups left unmanaged when admins left. Admins can access the reports under the **[!UICONTROL Users]** > **[!UICONTROL User Group]** section. It provides detailed information about each group, including:
 
-* 用户组类型
-* 组名称
-* 描述
-* 创建者（名称）
-* 创建者（电子邮件）
-* 创建时间： （UTC时区）
-* 用户数
+* User group type
+* Group name
+* Description
+* Created by (Name)
+* Created by (Email)
+* Created on (UTC Timezone)
+* Number of Users
 
-要下载报告，请执行以下步骤：
+To download the report, follow these steps:
 
-1. 以&#x200B;**[!UICONTROL 管理员]**&#x200B;身份登录。
-2. 选择&#x200B;**[!UICONTROL 用户]** > **[!UICONTROL 用户组]**。
-3. 选择&#x200B;**[!UICONTROL 操作]** > **[!UICONTROL 下载用户组报告]**。
+1. Log in as an **[!UICONTROL Admin]**.
+2. Select **[!UICONTROL Users]** > **[!UICONTROL User Group]**.
+3. Select **[!UICONTROL Actions]** > **[!UICONTROL Download User Group Report]**.
 
-![](assets/download-user-group-report.png)
-_下载用户组报告_
+![](assets/download-user-group-report.png) 
+_Download the User Group report_
 
-## 常见问题解答 {#faq}
+## Frequently Asked Questions {#faq}
 
-+++如何在Learning Manager中注册用户？
++++How to register users in Learning Manager?
 
-添加用户并为该用户分配角色后，您可以按以下步骤注册用户：
+After adding a user and assigning a role to the user, you can register the user by performing the steps below:
 
-1. 选择用户后，单击右上角的&#x200B;**[!UICONTROL “操作”]**，然后单击&#x200B;**[!UICONTROL “注册”]**。
+1. With the user or users selected, click **[!UICONTROL Actions]** on the upper-right corner, and click **[!UICONTROL Register]**.
 
-1. 在弹出窗口中，单击&#x200B;**[!UICONTROL “是”]**。
+1. On the pop-up window, click **[!UICONTROL Yes]**.
 
-所选用户会收到一封“欢迎”电子邮件。 如果学习者已拥有一个现成的 Adobe ID，则可以单击此链接。如果他们没有现成的Adobe ID，他们可以继续并单击“欢迎”链接以创建Adobe ID，并将其链接到其Learning Manager帐户。
+The selected user(s) receive a Welcome email. If the learners have an existing Adobe ID, they can click this link. If they don't have an existing Adobe ID, they can go ahead and click the Welcome link to create an Adobe ID and link it to their Learning Manager account.
 
-学习者必须单击电子邮件中的链接，因为它有助于Learning Manager验证学习者的帐户。
+Clicking one of these links in the email is mandatory for the learners as it helps Learning Manager to verify the learner's account.
 
 +++
 
-+++如何编辑用户数据？
++++How to edit user data?
 
-要编辑用户，请按以下步骤操作：
+To edit a user, follow the steps below:
 
-1. 在用户列表中，单击数据需要编辑的用户。
-1. 单击铅笔图标，如下所示。
+1. In the list of users, click the user for who you want to edit the data.
+1. Click the pencil icon, as shown below.
 
 ![](assets/edit-user-data.png)
 
-在&#x200B;**“编辑用户”**&#x200B;对话框中，更新相应字段。 要保存更改，请单击&#x200B;**[!UICONTROL “保存”]**。
+In the **Edit User** dialog, update the fields accordingly. To save the changes, click **[!UICONTROL Save]**.
 
 +++
 
-+++如何在Learning Manager中暂停和恢复外部用户？
++++How to pause and resume an external user in Learning Manager?
 
-在“外部用户”列表中，选择要删除的用户。 在右上角，单击“**[!UICONTROL 操作]**”>“**[!UICONTROL 暂停]**”。
+In the list of External Users, choose the user that you want to delete. On the upper-right corner, click **[!UICONTROL Actions]** > **[!UICONTROL Pause]**.
 
-有关更多信息，请参 [阅暂停外部配置文件](add-users-user-groups.md#pause)。
+For more information, see [Pause an external profile](add-users-user-groups.md#pause).
 
-暂停配置文件后，外部配置文件将状态显示为“暂 ***停”***。
+After you pause a profile, the external profile displays the status as ***Paused***.
 
 +++
 
-+++如何向新创建的外部个人资料发送欢迎电子邮件？
++++How to send welcome email to newly created external profile?
 
-添加外部用户时，在&#x200B;**[!UICONTROL 添加外部注册个人资料]**&#x200B;对话框中，输入外部经理的电子邮件。 当您单击“保存”时，系统也会向您指定的电子邮件地址发送欢迎电子邮件。 如要再次发送欢迎邮件，请单击信封图标，如下所示：
+When adding an external user, in the **[!UICONTROL Add External Registration Profile]** dialog, enter the email of the external manager. When you click Save, a welcome email also gets sent to the email address that you had specified. If you want to send the welcome mail again, click the envelope icon, as shown below:
 
 ![](assets/send-welcome-mail.png)
 
 +++
 
-+++如何创建自定义用户组？
++++How to create Custom User Groups?
 
-单击&#x200B;**[!UICONTROL 用户]** > **[!UICONTROL 用户组]**，然后在“用户组”页面上单击&#x200B;**[!UICONTROL 添加]**。 在“添加用户组”对话框中，单独添加用户和以团队形式添加用户。
+Click **[!UICONTROL Users]** > **[!UICONTROL User Groups]** and on the User Groups page, click **[!UICONTROL Add]**. In the Add User Group dialog, add the users both individually and as a team.
 
 ![](assets/custom-user-group.png)
 
 +++
 
-+++如何禁用已填充的活动字段？
++++How to disable already filled active fields?
 
-如果您希望学习者仅看到他人填写的活动字段，请按以下步骤操作：
+If you want learners to only see the active fields that are not filled by them, then follow the steps below:
 
-1. 单击&#x200B;**[!UICONTROL 用户]** > **[!UICONTROL 活动字段]**。
+1. Click **[!UICONTROL Users]** > **[!UICONTROL Active Fields]**.  
 
-1. 单击&#x200B;**[!UICONTROL 设置]**&#x200B;并启用选项&#x200B;**[!UICONTROL 在学习者登录时仅显示未填写的字段]**。
+1. Click **[!UICONTROL Settings]** and enable the option **[!UICONTROL Show only unfilled fields on Learner login]**.
 
-1. 单击&#x200B;**[!UICONTROL “保存”]**。
-
-+++
-
-+++如何防止学习者在活动字段中输入随机值？
-
-您可以限制学习者的选择，这样他们就只能选择预定义的值，而不能输入任何随机值。 请按以下步骤操作：
-
-1. 单击&#x200B;**[!UICONTROL 用户]** > **[!UICONTROL 活动字段]**。
-1. 启用&#x200B;**[!UICONTROL “限制选择”]**&#x200B;选项。
-1. 单击&#x200B;**[!UICONTROL “完成”]**。
+1. Click **[!UICONTROL Save]**.
 
 +++
 
-+++如何区分CSV活动字段和自定义活动字段？
++++How to prevent learners from entering random values in the active fields.?
 
-您只能启用或禁用 CSV 活动字段，无法将其删除。 另一方面，您无法启用或禁用自定义活动字段。
+You can restrict the selection for learners so that they can only select the values that are pre-defined and not enter any random values. Follow the steps below:
+
+1. Click **[!UICONTROL Users]** > **[!UICONTROL Active Fields]**.
+1. Enable the option **[!UICONTROL Restrict Selection]**.
+1. Click **[!UICONTROL Done]**.
 
 +++
+
++++How do I differentiate CSV active fields and Custom Active fields?
+
+You can only enable or disable CSV active fields, but cannot delete them. On the other hand, you cannot enable or disable custom active fields.
+
++++-->

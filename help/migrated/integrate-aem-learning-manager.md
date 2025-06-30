@@ -4,9 +4,9 @@ title: 将 Adobe Learning Manager 与 AEM 集成
 description: Learning Manager是学习管理系统，具有内置的学习内容管理系统。 用户通过将学习内容上传至 Adobe Learning Manager 来对其进行管理，以便 Adobe Learning Manager 执行版本控制、将学习内容分配至相应课程、定义对学习者的可见性、跟踪使用情况并向管理员报告。
 contentowner: saghosh
 exl-id: 61fae7bd-1703-4ed1-9bd9-07387d67a91c
-source-git-commit: 447a4e041d74cf086afada3794ac08a04e70c2ca
+source-git-commit: 45e9b9cd291e180a3d29d6635ec81bc362eb3e96
 workflow-type: tm+mt
-source-wordcount: '1078'
+source-wordcount: '1082'
 ht-degree: 45%
 
 ---
@@ -31,7 +31,7 @@ Learning Manager是学习管理系统，具有内置的学习内容管理系统�
 
 >[!NOTE]
 >
->有关安装包的信息，请参阅&#x200B;[***如何使用包***](https://experienceleague.adobe.com/docs/experience-manager-65/administering/contentmanagement/package-manager.html?lang=zh-Hans#how-to-work-with-packages)。
+>有关安装包的信息，请参阅&#x200B;[***如何使用包***](https://experienceleague.adobe.com/docs/experience-manager-65/administering/contentmanagement/package-manager.html?lang=en#how-to-work-with-packages)。
 
 1. 以 AEM 作者示例打开 AEM Package Manager。
 1. 单击&#x200B;**[!UICONTROL “上传程序包”]**&#x200B;按钮。
@@ -125,13 +125,15 @@ Skyline是AEM的云版本。 必须首先从包管理器安装Skyline。 要在A
 
 [GitHub报告](https://github.com/adobe/captivate-prime-aem-components)中提到了配置Skyline的步骤。
 
-## 目录小组件
+## “我的学习”小部件
 
-目录小组件可为用户显示来自特定目录或目录集的培训。 在页面属性的“属性”部分，从列出的选项中选择“目录”。
+通过&#x200B;**[!UICONTROL “我的学习”]**&#x200B;小组件，您可以向用户显示来自特定目录或一组目录的培训。
+
+在页面属性的&#x200B;**[!UICONTROL 属性]**&#x200B;部分中，从列出的选项中选择&#x200B;**[!UICONTROL 目录]**。
 
 <!--![](assets/catalog-widget.png)-->
 
-目录小组件包含以下选项：
+目录选项包含以下选项：
 
 * **[!UICONTROL 目录ID]：**&#x200B;需要显示培训的目录ID，以逗号分隔。
 * **[!UICONTROL 排序]：**&#x200B;培训的排序顺序。 选项有名称、日期、创建日期、注册日期等。

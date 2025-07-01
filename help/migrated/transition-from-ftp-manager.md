@@ -2,10 +2,10 @@
 title: 从 Adobe FTP Manager 过渡
 description: Adobe Learning Manager支持使用AWS传输系列的SFTP协议的新连接器。 可以将任何开源 FTP 客户端替换为 Adobe FTP Manager。
 exl-id: c5674e61-9e3d-45e5-9f3c-e0aa15ec2dac
-source-git-commit: 566716404c1cff34108e39014e14416d65088a80
+source-git-commit: 97c52c188612b7ad7233a13bd90bcb174fdc60bc
 workflow-type: tm+mt
 source-wordcount: '1041'
-ht-degree: 68%
+ht-degree: 67%
 
 ---
 
@@ -15,7 +15,7 @@ Adobe Learning Manager 支持使用 AWS Transfer 系列 SFTP 协议的新连接�
 
 可以将任何开源 FTP 客户端替换为 Adobe FTP Manager。
 
-[此处](https://docs.aws.amazon.com/transfer/latest/userguide/transfer-file.html)列出了 AWS 推荐的部分 FTP 客户端：
+此处列出了[一些AWS推荐的FTP客户端](https://docs.aws.amazon.com/transfer/latest/userguide/transfer-file.html)：
 
 * FileZilla（Windows、macOS 和 Linux）
 * OpenSSH（macOS 和 Linux）- 注意：此客户端仅适用于已启用安全外壳 (SSH) 文件传输协议 (SFTP) 的服务器。

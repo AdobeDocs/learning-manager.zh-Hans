@@ -2,10 +2,10 @@
 user-guide-title: Adobe Learning Manager 指南
 breadcrumb-title: Learning Manager
 user-guide-description: Adobe Learning Manager 的文档
-source-git-commit: 7d2f7fed5ef924ac74559192cd692cb011561e3c
+source-git-commit: 97c52c188612b7ad7233a13bd90bcb174fdc60bc
 workflow-type: tm+mt
-source-wordcount: '676'
-ht-degree: 80%
+source-wordcount: '682'
+ht-degree: 79%
 
 ---
 
@@ -15,6 +15,7 @@ ht-degree: 80%
 * [Adobe Learning Manager 用户指南](user-guide.md)
 * 简介 {#introduction}
    * [2025年5月新增功能摘要](/help/migrated/whats-new.md)
+   * [Adobe Learning Manager中即将推出的更改](/help/migrated/upcoming-changes-in-adobe-learning-manager.md)
    * [2024年11月新增功能摘要](/help/migrated/whats-new-nov-24.md)
    * [2024年7月新增功能摘要](whats-new-july-2024.md)
    * [2024年3月版新增功能](whats-new-march-2024.md)
@@ -93,6 +94,7 @@ ht-degree: 80%
    * [学习计划](administrators/feature-summary/learning-programs.md)
    * [产品术语](administrators/feature-summary/product-terminology.md)
 * 集成管理员 {#integration}
+   * [应用程序开发人员手册](integration-admin/feature-summary/developer-manual.md)
    * [迁移手册](integration-admin/feature-summary/migration-manual.md)
    * [Adobe Learning Manager 连接器](integration-admin/feature-summary/connectors.md)
    * [未登录的API](integration-admin/feature-summary/non-logged-in-apis.md)
@@ -104,7 +106,6 @@ ht-degree: 80%
    * [将 Adobe Learning Manager 与 AEM 集成](integrate-aem-learning-manager.md)
    * [在 Adobe Learning Manager 中安装 Salesforce 程序包](integration-admin/feature-summary/install-salesforce-package.md)
    * [安装 Microsoft Teams 连接器](integration-admin/feature-summary/install-microsoft-teams-connector.md)
-   * [应用程序开发人员手册](integration-admin/feature-summary/developer-manual.md)
    * [适用于 Salesforce 的 Adobe Learning Manager 应用程序](integration-admin/feature-summary/sfdc-app.md)
    * [设置](integration-admin/feature-summary/settings.md)
    * [管理 CSV 文件中的自定义角色](integration-admin/feature-summary/configure-role-csv-files.md)

@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Adobe Learning Manager发行说明
 contentowner: jayakarr
 exl-id: ae9251b6-5326-42c2-881e-2ab3393d9e17
-source-git-commit: b704d69970b0e1de6bb3b2ff682c286c1940a354
+source-git-commit: 97c52c188612b7ad7233a13bd90bcb174fdc60bc
 workflow-type: tm+mt
-source-wordcount: '26471'
-ht-degree: 71%
+source-wordcount: '27011'
+ht-degree: 70%
 
 ---
 
@@ -22,6 +22,83 @@ ht-degree: 71%
   </tr>
  </tbody>
 </table>-->
+
++++更新101：Adobe Learning Manager 2025年6月版
+
+## 基于角色的电子邮件模板
+
+### 受众
+
+管理电子邮件模板的管理员和作者
+
+### 概述
+
+您（管理员或作者）可以根据收件人的角色、学习者、经理或讲师启用或禁用电子邮件模板。 您可以通过此功能更好地控制与学习者进行沟通的类型和频率。
+
+### 用例
+
+* 管理员和作者需要在不通知经理的情况下向学习者发送电子邮件（例如，学习者注册）。
+* 为特定角色批量启用或禁用电子邮件的选项（例如，禁用所有发送给经理的电子邮件）。
+
+### 现有工作流
+
+如果目的是向学习者而非经理发送电子邮件（例如，课程注册），则当前模板会向所有角色发送电子邮件。
+
+### 新增功能
+
+* 在电子邮件模板UI上进行基于角色的切换。
+* 为特定角色批量启用/禁用。
+* 每个模板角色的可见性。
+
+有关详细信息，请参阅此[文章](/help/migrated/administrators/feature-summary/email-templates.md#enable-or-disable-email-at-a-role-level)。
+
+## 改进了已完成课程学习者的内容版本控制
+
+### 概述
+
+已完成课程的内容模块更新为更新版本后，学习者会看到白屏。 即使作者选择仅将新内容应用于尚未开始课程的学习者，也会出现此问题。 该问题影响用户体验，并导致之前尝试重新访问课程的学习者感到困惑，因为他们遇到了播放问题。
+
+### 现有行为
+
+当作者将课程内容更新至新版本(V2)并仅应用至“尚未开始”的学习者时，Adobe Learning Manager会在后台更新已完成学习者的模块版本，这些学习者再次尝试访问内容时会看到白屏，因为更新后的模块对其不再有效。
+
+### 示例：
+
+* 完成学习者尝试在更新后重新访问课程，但看到白色屏幕。
+* “进行中”学习者完成了课程，但随后在内容版本以静默方式更新后出现白屏。
+
+### 所做的更改
+
+Adobe Learning Manager在更新内容时为作者引入了更清晰的版本控制选项。 作者现在可以在内容版本更新期间看到三个明确定义的选项：
+
+| 学习者状态 | 立即更新 | 最终更新 | 更新未开始 |
+|---|---|---|---|
+| 未注册 | V2 | V2 | V2 |
+| 尚未开始 | V2 | V2 | V2 |
+| 正在进行 | V2 * | V1→V2 * | V1 |
+| 已完成 | V2 * | V2 * | V1（保留） |
+
+(*)表示在版本更新时将重置模块。
+
+在&#x200B;**[!UICONTROL 更新未开始]**&#x200B;中，已完成的学习者将继续看到现有内容版本(V1)，从而解决了意外出现白屏的问题。
+
+* **[!UICONTROL 立即更新]**：为所有学习者应用内容更新（未开始、进行中和已完成的学习者将立即转移到新内容版本）
+* **[!UICONTROL 最终更新]**：最终对所有学习者应用内容更新（未开始，已完成的学习者将立即移动到新内容版本；进行中的学习者在完成之后将移动）
+* **[!UICONTROL 更新未开始]**：仅对未开始的学习者应用内容更新（进行中和已完成的学习者将保留现有内容版本）
+
+### 用户界面更改
+
+| 旧标签 | 新选项 |
+|---|---|
+| 将内容更新应用于所有学习者 | 立即更新所有学习者：为所有学习者应用内容更新 |
+| 将更新应用于尚未开始的学习者 | 仅更新未开始学习者：仅对未开始学习者应用内容更新 |
+| 学习者完成更新后收到进行中更新 | 最终更新所有学习者：最终对所有学习者应用内容更新 |
+
+![](assets/version-control-options.png)
+
+有关内容库的更多信息，请参阅此[文章](/help/migrated/authors/feature-summary/content-library.md#content-version-control-for-learners-who-have-completed-a-course)。
+
++++
 
 +++更新100：Adobe Learning Manager 2025年5月版
 
@@ -824,7 +901,7 @@ Adobe Learning Manager 2021年10月版&#x200B;**引入了学习路径的概念�
 
 +++更新66 - 2021年8月版Learning Manager
 
-**2021年8月**&#x200B;**版Adobe Learning Manager**&#x200B;侧重于改进学习者体验、报告和管理工作流程。 其中一些亮点如下：
+**2021年8月****版Adobe Learning Manager**&#x200B;侧重于改进学习者体验、报告和管理工作流程。 其中一些亮点如下：
 
 * **内容市场：** Learning Manager现提供70000多门来自不同领域的课程，如技术、管理、领导力等。
 * **增强的辅助功能支持：**&#x200B;通过强化键盘导航、屏幕阅读器功能和对比度合规性，增强对学习者角色的辅助功能支持。
@@ -1498,7 +1575,7 @@ Adobe Learning Manager 2020 年 4 月版本侧重于以下内容：
 
 学习者可以打开外部证书并上传 pdf、文本或图像文件等资产。
 
-有关详细信息，请参阅&#x200B;[***上传外部证书中的资产***](../learners/feature-summary/ipad-android-tablet-users.md#externalcert)。**&#x200B;**
+有关详细信息，请参阅&#x200B;[***上传外部证书中的资产***](../learners/feature-summary/ipad-android-tablet-users.md#externalcert)。****
 
 ### 此版本中修复的问题 {#issuesfixedinthisrelease}
 
@@ -1817,7 +1894,7 @@ Adobe Learning Manager 现在还允许学习者通过 SSO 身份验证进入连�
 
 ### 新功能和增强功能 {#Newandenhancedfeatures-5}
 
-**为内部和外部用户区分社交学习中的范围**&#x200B;管理员可以为内部和外部学习者定义不同的范围。 新增了分别面向内外部用户的两个部分。在这两个部分中，您可定义各学习者组的相应范围。对于内部用户，您可以定义“用户特征”的值。对于外部用户，您可以定义外部个人资料，学习者可以在其中共享相同的社交空间。有关详细信息，请参阅&#x200B;[***范围设置***](../administrators/feature-summary/social-learning-configurations-as-an-admin.md#scopesettings)。  **对社交讨论区的创建加以限制**&#x200B;为加强讨论区管理，对学习者人人可以创建讨论区的情况加以限制，管理员可将讨论区创建权限授予选定的用户组。 管理员可将讨论区创建权限授予选定的用户组，而非参与社交学习的所有学习者。有关详细信息，请参阅&#x200B;[***讨论区创建权限***](../administrators/feature-summary/social-learning-configurations-as-an-admin.md#permission)。  **仅向学习者显示空白活动字段**&#x200B;在填充值后，管理员可选择显示活动字段或隐藏这些字段。 有关详细信息，请参阅&#x200B;[***用户显示***](../administrators/feature-summary/add-users-user-groups.md#activefields)。  **内部用户处于非活动状态达到指定持续时间后将被删除**&#x200B;管理员可针对内部学习者设置非活动状态持续时间（以天为单位），达到限值的用户即会被删除。 有关详细信息，请参阅&#x200B;***[自动删除用户](../administrators/feature-summary/settings.md#autodelete)***。  **自定义页脚上的链接**&#x200B;管理员可以在页脚上添加和自定义链接。 这些链接还可根据不同的区域设置进行自定义。在页脚添加“联系管理员”链接的现有方法可在&#x200B;**页脚链接**&#x200B;部分中使用。 有关详细信息，请参阅&#x200B;[***自定义页脚链接***](../administrators/feature-summary/settings.md#footer)。
+**为内部和外部用户区分社交学习中的范围**&#x200B;管理员可以为内部和外部学习者定义不同的范围。 新增了分别面向内外部用户的两个部分。在这两个部分中，您可定义各学习者组的相应范围。对于内部用户，您可以定义“用户特征”的值。对于外部用户，您可以定义外部个人资料，学习者可以在其中共享相同的社交空间。有关详细信息，请参阅&#x200B;[***范围设置***](../administrators/feature-summary/social-learning-configurations-as-an-admin.md#scopesettings)。  **对社交讨论区的创建加以限制**&#x200B;为加强讨论区管理，对学习者人人可以创建讨论区的情况加以限制，管理员可将讨论区创建权限授予选定的用户组。 管理员可将讨论区创建权限授予选定的用户组，而非参与社交学习的所有学习者。有关详细信息，请参阅&#x200B;[***讨论区创建权限***](../administrators/feature-summary/social-learning-configurations-as-an-admin.md#permission)。  **仅向学习者显示空白活动字段**&#x200B;在填充值后，管理员可选择显示活动字段或隐藏这些字段。 有关详细信息，请参阅&#x200B;[***用户显示***](../administrators/feature-summary/add-users-user-groups.md#activefields)。  **内部用户处于非活动状态达到指定持续时间后将被删除**&#x200B;管理员可针对内部学习者设置非活动状态持续时间（以天为单位），达到限值的用户即会被删除。 有关详细信息，请参阅***[自动删除用户](../administrators/feature-summary/settings.md#autodelete)***。  **自定义页脚上的链接**&#x200B;管理员可以在页脚上添加和自定义链接。 这些链接还可根据不同的区域设置进行自定义。在页脚添加“联系管理员”链接的现有方法可在&#x200B;**页脚链接**&#x200B;部分中使用。 有关详细信息，请参阅&#x200B;[***自定义页脚链接***](../administrators/feature-summary/settings.md#footer)。
 
 ### 此版本中的已知问题 {#Knownissuesinthisrelease-2}
 
@@ -2500,7 +2577,7 @@ Adobe Learning Manager 提供了各种必要的工具和模板，可供公司的
 
 ### 增强功能 {#enhancement}
 
-作为此更新的一部分，Learning Manager提供了端点[PATCH/用户/{id}]&#x200B;(<https://learningmanager.adobe.com/docs/Learning>Managerapi/v1/#！/user/patch_users_id)更新应用程序中的用户。 您可以通过管理员角色访问该 API 端点。使用&#x200B;**&#x200B;**&#x200B;端点，您可以更新Learning Manager用户的以下信息：
+作为此更新的一部分，Learning Manager提供了端点[PATCH/用户/{id}]&#x200B;(<https://learningmanager.adobe.com/docs/Learning>Managerapi/v1/#！/user/patch_users_id)更新应用程序中的用户。 您可以通过管理员角色访问该 API 端点。使用****端点，您可以更新Learning Manager用户的以下信息：
 
 * 姓名
 * 电子邮件
@@ -3010,7 +3087,7 @@ Adobe Learning Manager 允许您将徽章导出为 PDF 文件。有关更多信�
 
 **电子邮件模板**
 
-* **合作伙伴**&#x200B;这个曾用来表示外部组的词&#x200B;**&#x200B;**&#x200B;已&#x200B;**&#x200B;**&#x200B;从电子邮件模板正文和标题中删除。 外部组不一定是合作伙伴。\
+* **合作伙伴**&#x200B;这个曾用来表示外部组的词&#x200B;****&#x200B;已&#x200B;****&#x200B;从电子邮件模板正文和标题中删除。 外部组不一定是合作伙伴。\
   **注意：**&#x200B;如果默认模板已修改，则该更新模板不会显示。 若要查看更新的模板，请单击&#x200B;**模板预览**&#x200B;对话框中的&#x200B;**恢复为原始**。
 
 * 无论何时编辑&#x200B;**“已创建个人资料”（自助注册）**&#x200B;和&#x200B;**“已创建个人资料”（外部/合作伙伴）**&#x200B;电子邮件模板，管理员收到的电子邮件中的URL都无法单击。 此问题现已修复。

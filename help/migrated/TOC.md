@@ -2,9 +2,9 @@
 user-guide-title: Adobe Learning Manager 指南
 breadcrumb-title: Learning Manager
 user-guide-description: Adobe Learning Manager 的文档
-source-git-commit: 97c52c188612b7ad7233a13bd90bcb174fdc60bc
+source-git-commit: ec35261d69beccaa72143c8da1b1f8623654b7eb
 workflow-type: tm+mt
-source-wordcount: '682'
+source-wordcount: '684'
 ht-degree: 79%
 
 ---
@@ -23,7 +23,6 @@ ht-degree: 79%
    * [新增功能2023年7月](whats-new-2023-july.md)
    * [发行说明](release-note/release-notes.md)
    * [系统要求](system-requirements.md)
-   * [AEM Sites的ALM参考站点包](adobe-learning-manager-integration-aem.md)
    * [适用于 Microsoft Teams 的 Adobe Learning Manager 应用程序](adobe-learning-manager-app-microsoft-teams.md)
    * [Adobe Learning Manager 的 GDPR 合规性](kb/prime-gdpr.md)
    * [Adobe Learning Manager 中的辅助功能](accessibility-learning-manager.md)
@@ -103,7 +102,9 @@ ht-degree: 79%
       * [Webhook使用指南](/help/migrated/integration-admin/feature-summary/webhooks-usage-guide.md)
    * [有信心](integration-admin/feature-summary/credly-integration.md)
    * [学习工具互操作性](/help/migrated/integration-admin/feature-summary/learning-tools-interoperability.md)
-   * [将 Adobe Learning Manager 与 AEM 集成](integrate-aem-learning-manager.md)
+   * AEM Sites {#aem-sites}
+      * [AEM Sites的ALM参考站点包](/help/migrated/adobe-learning-manager-integration-aem.md)
+      * [将 Adobe Learning Manager 与 AEM 集成](integrate-aem-learning-manager.md)
    * [在 Adobe Learning Manager 中安装 Salesforce 程序包](integration-admin/feature-summary/install-salesforce-package.md)
    * [安装 Microsoft Teams 连接器](integration-admin/feature-summary/install-microsoft-teams-connector.md)
    * [适用于 Salesforce 的 Adobe Learning Manager 应用程序](integration-admin/feature-summary/sfdc-app.md)

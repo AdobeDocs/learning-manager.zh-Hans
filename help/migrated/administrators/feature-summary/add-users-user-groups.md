@@ -4,7 +4,7 @@ jcr-language: en_us
 title: 在Adobe Learning Manager中添加用户
 contentowner: manochan
 exl-id: 7df98f2b-c422-4733-8ce4-5489506d4fdf
-source-git-commit: 48896c0a6f2d4631005c8d0185d69e0e31f19776
+source-git-commit: c2a4a0ea8c9a4a5f28427a95caf63f0690b6dcc7
 workflow-type: tm+mt
 source-wordcount: '2257'
 ht-degree: 1%
@@ -14,11 +14,11 @@ ht-degree: 1%
 
 # 在Adobe Learning Manager中添加用户
 
-在Adobe Learning Manager中，用户是指使用该平台进行学习或培训的人。 用户有两种类型：内部用户和外部用户。
+在Adobe Learning Manager中，用户是使用该平台进行学习或培训的学习者。 用户有两种类型：内部用户和外部用户。
 
 内部用户是您组织中的员工或团队成员。
 
-外部用户是指公司外部可访问您的学习内容的人员，如客户、合作伙伴、供应商或客户。
+外部用户是公司外部的学习者，例如客户、合作伙伴、供应商或客户，可以访问您的学习内容。
 
 Adobe Learning Manager (ALM)允许管理员使用多种方法（包括手动输入、CSV上传、自行注册和系统集成）登记和管理内部和外部用户。
 
@@ -248,7 +248,7 @@ _复制外部配置文件的注册URL_
 | 内部用户 | 外部用户 |
 |---|---|
 | 可以使用Adobe ID或SSO凭据登录。 | 可以使用任何电子邮件ID登录。 |
-| 游戏功能可用。 | 游戏功能可用。 管理员必须在[游戏设置](https://experienceleague.adobe.com/zh-hans/docs/learning-manager/using/admin/gamification)中为外部学习者启用游戏。 |
+| 游戏功能可用。 | 游戏功能可用。 管理员必须在[游戏设置](https://experienceleague.adobe.com/en/docs/learning-manager/using/admin/gamification)中为外部学习者启用游戏。 |
 
 ### 暂停外部注册配置文件
 

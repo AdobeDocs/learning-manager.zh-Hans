@@ -4,10 +4,10 @@ title: AEM 站点的 Adobe Learning Manager 参考站点（ALM 参考站点）�
 description: Adobe Learning Manager (ALM) 与 Adobe Experience Manager (AEM) 站点集成。 如此一来，您就可以为 Adobe Learning Manager 创建自己的网站和响应式移动界面，并且只需进行最少的编码工作。 通过此集成，您可以为用户创建自定义学习体验。
 contentowner: saghosh
 exl-id: 937dfbd1-74a1-4a86-a9b2-29a44be267c6
-source-git-commit: 998978a5ba74377ef91b6a623367206643476ecc
+source-git-commit: ec35261d69beccaa72143c8da1b1f8623654b7eb
 workflow-type: tm+mt
-source-wordcount: '2146'
-ht-degree: 67%
+source-wordcount: '2207'
+ht-degree: 65%
 
 ---
 
@@ -21,9 +21,13 @@ Adobe Learning Manager (ALM) 与 Adobe Experience Manager (AEM) 站点集成。 
 
 安装 ALM 参考站点包之后，即可开始为 Adobe Learning Manager 构建网站，并将其托管在 AEM 站点实例上。 然后，您的用户就可以将组件拖放到网站上。
 
-安装 ALM 参考站点包
+>[!IMPORTANT]
+>
+>适用于AEM Sites的Adobe Learning Manager (ALM)包为实施提供了快速启动代码块。 此包专为无头部署而设计。 使用提供的代码库后，您有责任对其进行维护和进一步开发，这与基于Adobe Learning Manager的无头应用程序的标准做法一样。 Adobe Learning Manager将继续支持基础API。
 
-## 先决条件
+## 安装 ALM 参考站点包
+
+### 先决条件
 
 * AEM 站点和 Adobe Commerce 的许可证。
 * AEM本地版6.5或Adobe Experience Manager -Cloud Service

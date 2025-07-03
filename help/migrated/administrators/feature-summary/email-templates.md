@@ -4,10 +4,10 @@ jcr-language: en_us
 title: 电子邮件模板
 contentowner: manochan
 exl-id: acc85500-2ed1-47a4-8e65-6e1b8ef7d156
-source-git-commit: 97c52c188612b7ad7233a13bd90bcb174fdc60bc
+source-git-commit: 67e1a5f7140f9fe268059368918ccf6da6f16c4d
 workflow-type: tm+mt
-source-wordcount: '1610'
-ht-degree: 55%
+source-wordcount: '1512'
+ht-degree: 58%
 
 ---
 
@@ -41,21 +41,23 @@ Adobe Learning Manager 应用程序根据事件向多个用户角色发送电子
 
    *选择“常规”选项卡*
 
-1. 要查看电子邮件模板列表，请单击任意选项卡。
+2. 要批量启用或禁用特定角色的电子邮件模板，请在列标题中选择省略号(...)，然后在&#x200B;**[!UICONTROL 电子邮件收件人]**&#x200B;中启用所有适用的角色。
 
-   ![](assets/email-templates-ingeneraltab.png)
+   ![](assets/email-template-role.png)
+   _发送角色级别的所有电子邮件模板_
 
-   *查看电子邮件模板列表*
+3. 要为角色启用或禁用特定的电子邮件模板，请选择该模板的省略号(...)，然后选择或取消选择一个角色。
 
-   单击切换按钮，可以轻松启用或禁用这些电子邮件警报。
+   ![](assets/email-template-role-1.png)
+   _以角色级别发送电子邮件模板_
 
-1. 要修改模板的内容，请单击模板名称。 您可以在此看到，针对不同类型的用户有不同的模板。
+4. 要修改模板的内容，请单击模板名称。 您可以在此看到，针对不同类型的用户有不同的模板。
 
    ![](assets/preview-of-an-emailtemplate.png)
 
    *查看电子邮件的模板*
 
-1. 要修改此电子邮件模板的内容，请单击电子邮件的正文。 现在对模板进行更改。 您可以修改文本，还可以在电子邮件中使用其中一个变量。 对正文部分所做的更改只能应用于此电子邮件模板。 但是，如果您更改了此电子邮件的签名，则可以将其全局应用于所有模板。
+5. 要修改此电子邮件模板的内容，请单击电子邮件的正文。 现在对模板进行更改。 您可以修改文本，还可以在电子邮件中使用其中一个变量。 对正文部分所做的更改只能应用于此电子邮件模板。 但是，如果您更改了此电子邮件的签名，则可以将其全局应用于所有模板。
 
    将鼠标悬停在每个图标上即可查看名称。
 
@@ -65,14 +67,14 @@ Adobe Learning Manager 应用程序根据事件向多个用户角色发送电子
 
    您可以单击模板上方的链接&#x200B;**[!UICONTROL 恢复为原始]**，将邮件正文重置为默认内容。
 
-1. 要确认应用于此模板的更改，请单击“保存”。 现在，用户可以接收使用修改邮件模板后的电子邮件通知。
+6. 要确认应用于此模板的更改，请单击“保存”。 现在，用户可以接收使用修改邮件模板后的电子邮件通知。
 
 ## 自定义电子邮件模板的设置 {#customizesettingsofanemailtemplate}
 
 1. 要打开设置页面，请单击&#x200B;**[!UICONTROL 设置]**。 您现在可以自定义电子邮件模板。
 1. 要自定义学习者从中接收电子邮件的姓名和电子邮件ID，请编辑&#x200B;**[!UICONTROL 发件人姓名和地址]。**
 
-   请与&#x200B;[***Adobe支持***](https://helpx.adobe.com/cn/contact/enterprise-support.other.html#learning-manager)联系以配置或更改这些详细信息。
+   请与&#x200B;[***Adobe支持***](https://helpx.adobe.com/contact/enterprise-support.other.html#learning-manager)联系以配置或更改这些详细信息。
 
 1. 从&#x200B;**[!UICONTROL 电子邮件横幅]**&#x200B;选项自定义您的电子邮件横幅。 选择“**[!UICONTROL 横幅背景]**”，更改横幅的颜色。
 
@@ -100,23 +102,6 @@ Adobe Learning Manager 应用程序根据事件向多个用户角色发送电子
 
 1. 使用&#x200B;**[!UICONTROL 可选经理电子邮件]**&#x200B;选项下的复选框，配置经理是否也必须接收发送给其直属下属的电子邮件。
 
-## 在角色级别启用或禁用电子邮件
-
-管理员可以根据收件人的角色（例如学习者、经理或讲师）启用或禁用电子邮件模板。 这样管理员可以更好地控制发送的通知，并有助于管理通信类型和频率。
-
-要启用或禁用电子邮件模板：
-
-1. 以管理员身份登录Adobe Learning Manager。
-2. 从左侧窗格中选择&#x200B;**[!UICONTROL 电子邮件模板]**。
-3. 要批量启用或禁用特定角色的电子邮件模板，请在列标题中选择省略号(...)，然后在&#x200B;**[!UICONTROL 电子邮件收件人]**&#x200B;中启用所有适用的角色。
-
-   ![](assets/email-template-role.png)
-   _发送角色级别的所有电子邮件模板_
-
-4. 要为角色启用或禁用特定的电子邮件模板，请选择该模板的省略号(...)，然后选择或取消选择一个角色。
-
-   ![](assets/email-template-role-1.png)
-   _以角色级别发送电子邮件模板_
 
 ## 设置发送摘要电子邮件的频率 {#setfrequencyofdigestemails}
 
@@ -178,7 +163,7 @@ DND 列表内的学习者无法查看摘要电子邮件的用户设置。 该选
 
 ## 自定义电子邮件域 {#customizeemaildomain}
 
-要自定义学习者从中接收通知的电子邮件域和电子邮件ID，请联系&#x200B;[***Learning Manager支持***](https://helpx.adobe.com/cn/contact/enterprise-support.other.html#learning-manager)，并提供您要添加的域的详细信息，以及您的新电子邮件ID。
+要自定义学习者从中接收通知的电子邮件域和电子邮件ID，请联系&#x200B;[***Learning Manager支持***](https://helpx.adobe.com/contact/enterprise-support.other.html#learning-manager)，并提供您要添加的域的详细信息，以及您的新电子邮件ID。
 
 系统将处理您的请求，并向您指定的新电子邮件地址发送一封包含确认链接的电子邮件。 单击电子邮件中的验证链接以确认并完成验证过程。
 
@@ -275,6 +260,6 @@ Learning Manager用户现在将收到内嵌电子邮件邀请。 不再使用ICS
 
 +++如何在模板中更改发件人姓名和地址？
 
-要更改发件人姓名和电子邮件地址，请联系[Adobe Learning Manager支持](https://helpx.adobe.com/cn/contact/enterprise-support.other.html#learning-manager)。
+要更改发件人姓名和电子邮件地址，请联系[Adobe Learning Manager支持](https://helpx.adobe.com/contact/enterprise-support.other.html#learning-manager)。
 
 +++

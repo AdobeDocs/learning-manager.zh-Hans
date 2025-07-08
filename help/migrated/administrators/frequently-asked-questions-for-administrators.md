@@ -4,9 +4,9 @@ title: 管理员常见问题解答
 description: Adobe Learning Manager管理员常见问题解答
 contentowner: manochan
 exl-id: 8b113a4e-73f4-4cd5-982a-cefdf5388e91
-source-git-commit: b128a2adb1d0655078d79b6d46c00612f4ddb996
+source-git-commit: 0dade561e53e46f879e22b53835b42d20b089b31
 workflow-type: tm+mt
-source-wordcount: '2515'
+source-wordcount: '2517'
 ht-degree: 52%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 52%
 
 +++我可以批量添加用户吗？ 该如何操作？
 
-是的，您可以使用 CSV 上传功能批量添加用户。 单击[此处](/help/migrated/administrators/feature-summary/add-users-user-groups.md#bulk-upload-internal-users)了解更多信息。
+是的，您可以使用 CSV 上传功能批量添加用户。 有关详细信息，请参阅此[文章](/help/migrated/administrators/feature-summary/add-users-user-groups.md#bulk-upload-internal-users)。
 
 +++
 
@@ -257,7 +257,7 @@ Adobe Learning Manager 1.0版本中没有任何设置课程日历的规定。
 经理、作者和学习者可以查看与课程活动相关的通知。 管理员可以按照以下步骤为所有用户启用/禁用通知：
 
 1. 单击左侧窗格中的“电子邮件模板”，然后依次选择“常规”、“用户注册”、“完成”和“反馈”选项卡。
-1. 从下列事件中，单击&#x200B;**each**&#x200B;event旁边的“否”/“是”切换按钮，然后选择“是”以启用通知。 单击“否”以禁用针对特定事件发送通知。
+1. 从下列事件中，单击每个事件旁的“否”/“是”切换按钮，然后选择“是”以启用通知。 单击“否”以禁用针对特定事件发送通知。
 
 +++
 

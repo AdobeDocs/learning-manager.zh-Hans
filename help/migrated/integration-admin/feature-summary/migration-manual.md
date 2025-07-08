@@ -3,9 +3,9 @@ description: 本参考手册适用于希望将现有LMS迁移到Adobe Learning M
 jcr-language: en_us
 title: 迁移手册
 exl-id: bfdd5cd8-dc5c-4de3-8970-6524fed042a8
-source-git-commit: b128a2adb1d0655078d79b6d46c00612f4ddb996
+source-git-commit: 0dade561e53e46f879e22b53835b42d20b089b31
 workflow-type: tm+mt
-source-wordcount: '3617'
+source-wordcount: '3619'
 ht-degree: 72%
 
 ---
@@ -546,7 +546,7 @@ A sample snapshot of project files and folder of FTP is shown below for your ref
 
 ## 解决迁移问题 {#troubleshootingmigrationissues}
 
-[单击此处](../../kb/troubleshooting-migration.md)了解集成管理员在向 Adobe Learning Manager 应用程序迁移现有 LMS 数据和内容时所遇问题的解决方法/解决方案。
+请参阅此[文章](../../kb/troubleshooting-migration.md)，了解集成管理员在将数据和内容从其现有LMS迁移到Learning Manager应用程序时所面临的问题的解决方法/解决方案。
 
 ## 用户管理提示 {#usermanagement}
 

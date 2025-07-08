@@ -2,13 +2,13 @@
 description: 了解如何在Adobe Learning Manager中创建和管理用户组。 了解分组用户如何帮助您高效分配课程、跟踪进度以及自动执行学习工作流程。
 jcr-language: en_us
 title: 在Adobe Learning Manager中管理用户组 | 组织和分配学习者
-source-git-commit: 03797a208195f4cc11cb5cceb2775d341befe2a0
+exl-id: 5569a201-0648-4b2c-bab3-927e5c149290
+source-git-commit: 0dade561e53e46f879e22b53835b42d20b089b31
 workflow-type: tm+mt
-source-wordcount: '1445'
+source-wordcount: '1441'
 ht-degree: 0%
 
 ---
-
 
 # Adobe Learning Manager中的用户组
 
@@ -153,7 +153,7 @@ _用于修改用户组名称、描述或成员资格规则的字段_
    ![](assets/delete-a-group.png)
    _“操作”菜单中的“删除”选项可删除用户组_
 
-4. 出现提示时，确认删除。 将从Adobe Learning Manager中删除用户组。
+4. 出现提示时，确认删除。 将删除该用户组。
 
 ## 下载用户组报告
 

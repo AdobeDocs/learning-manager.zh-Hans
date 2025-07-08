@@ -4,10 +4,10 @@ title: 应用程序开发人员手册
 description: 了解如何使用RESTful API集成和自定义应用程序，内容涵盖基本主题，例如OAuth 2.0身份验证、API使用场景和数据模型。 通过课程创建、学习者进度跟踪、技能表、认证、游戏等功能增强您的企业应用程序。 本指南提供分步说明和真实示例，帮助开发人员创建无缝且高效的工作流程。 非常适合希望利用Adobe Learning Manager功能创建以学习者为中心的应用程序的开发人员。
 contentowner: jayakarr
 exl-id: fa9313ac-67de-4467-9253-7eeabcf14204
-source-git-commit: fc5f551dac574cae748d36d819745c5f9149afd7
+source-git-commit: 15a05e801d4a05f99529fa2dd1afe11f97e77568
 workflow-type: tm+mt
-source-wordcount: '4420'
-ht-degree: 6%
+source-wordcount: '4504'
+ht-degree: 5%
 
 ---
 
@@ -257,7 +257,7 @@ Adobe Learning Manager的管理员API允许管理员大规模地自动执行和�
 | 字段 | 选择特定属性以减少有效负载。 |
 | 筛选条件 | 缩小结果范围（例如，按ID、名称） |
 | 排序 | 排序结果。 |
-| 第[页&lbrace;限制]，第[页&lbrace;偏移] | 分页支持。 |
+| 第[页{限制]，第[页{偏移] | 分页支持。 |
 
 以下是每种情况的简要说明：
 
@@ -1315,9 +1315,10 @@ curl --location --request POST 'https://learningmanager.adobe.com/oauth/o/learne
 }'
 ```
 
-### 生成学习者成绩单
 
-**错误代码**
+### 错误代码
+
+使用Adobe Learning Manager (ALM) API时，开发人员可能会在请求期间遇到各种HTTP错误代码。 这些错误提供有关错误原因以及如何修复的重要反馈。 了解这些代码有助于开发人员快速排除问题故障、提高API可靠性并确保更顺畅的集成。 下表提供了ALM API返回的常见HTTP错误代码的指南，以及这些错误发生的说明和典型情况。 任何构建、测试或调试连接到ALM的应用程序时，本节都非常重要。
 
 | HTTP状态 | 含义 | 故障排除 |
 |---|---|---|

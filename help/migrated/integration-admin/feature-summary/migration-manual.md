@@ -3,7 +3,7 @@ description: 本参考手册适用于希望将现有LMS迁移到Adobe Learning M
 jcr-language: en_us
 title: 迁移手册
 exl-id: bfdd5cd8-dc5c-4de3-8970-6524fed042a8
-source-git-commit: 899ef06789f818e0286589263ebb5fad0c90c9d2
+source-git-commit: b128a2adb1d0655078d79b6d46c00612f4ddb996
 workflow-type: tm+mt
 source-wordcount: '3617'
 ht-degree: 72%
@@ -582,5 +582,5 @@ Adobe Learning Manager 会识别并记住个人用户的加入方式，例如：
 
 有关此主题的更多信息，请参阅以下帮助内容：
 
-* [CSV 上传常见问题解答](/help/migrated/administrators/add-users-in-bulk.md)
+* [CSV 上传常见问题解答](/help/migrated/administrators/feature-summary/add-users-user-groups.md#bulk-upload-internal-users/)
 * [有关添加用户的功能帮助](/help/migrated/administrators/feature-summary/add-users-user-groups.md)

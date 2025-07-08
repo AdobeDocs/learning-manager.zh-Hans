@@ -3,7 +3,7 @@ description: 了解如何在Adobe Learning Manager中创建和管理用户组。
 jcr-language: en_us
 title: 在Adobe Learning Manager中管理用户组 | 组织和分配学习者
 exl-id: 5569a201-0648-4b2c-bab3-927e5c149290
-source-git-commit: 0dade561e53e46f879e22b53835b42d20b089b31
+source-git-commit: cd81d076b44b513afc6d21be0c3ea17d7359972e
 workflow-type: tm+mt
 source-wordcount: '1441'
 ht-degree: 0%
@@ -215,3 +215,4 @@ _使用AND逻辑显示多个组的示例_
 
 ![](assets/or-logic.png)
 _显示使用OR逻辑合并多个组的示例_
+

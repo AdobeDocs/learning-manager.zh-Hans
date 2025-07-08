@@ -4,9 +4,9 @@ title: 应用程序开发人员手册
 description: 了解如何使用RESTful API集成和自定义应用程序，内容涵盖基本主题，例如OAuth 2.0身份验证、API使用场景和数据模型。 通过课程创建、学习者进度跟踪、技能表、认证、游戏等功能增强您的企业应用程序。 本指南提供分步说明和真实示例，帮助开发人员创建无缝且高效的工作流程。 非常适合希望利用Adobe Learning Manager功能创建以学习者为中心的应用程序的开发人员。
 contentowner: jayakarr
 exl-id: fa9313ac-67de-4467-9253-7eeabcf14204
-source-git-commit: 15a05e801d4a05f99529fa2dd1afe11f97e77568
+source-git-commit: adba903c3edddbc9ce11481e75b1e03ffe4da956
 workflow-type: tm+mt
-source-wordcount: '4504'
+source-wordcount: '4521'
 ht-degree: 5%
 
 ---
@@ -35,7 +35,7 @@ Adobe Learning Manager提供了RESTful API，使开发人员能够有效地集�
 
 ## 使用OAuth 2.0进行身份验证
 
-要安全地访问Adobe Learning Manager API，您必须使用ALM的OAuth 2.0机制进行身份验证。 此过程包括注册应用程序、生成授权代码、将其交换为刷新令牌以及最后使用刷新令牌获取访问令牌。
+要安全地访问Adobe Learning Manager API，您必须使用Adobe Learning Manager的OAuth 2.0机制进行身份验证。 此过程包括注册应用程序、生成授权代码、将其交换为刷新令牌以及最后使用刷新令牌获取访问令牌。
 
 ### 注册应用程序
 
@@ -50,7 +50,7 @@ Adobe Learning Manager提供了RESTful API，使开发人员能够有效地集�
 
    * **[!UICONTROL 应用程序名称]**：键入应用程序名称（最多50个字符）。
    * **[!UICONTROL URL]**：您的公司或应用程序的正式URL。 用于标识和引用。
-   * **[!UICONTROL 重定向域]**：指定ALM在授权后可重定向到的域(例如，[http://learningmanager.adobe.com](http://learningmanager.adobe.com))。  您可以提及多个URL，但这些URL必须有效。
+   * **[!UICONTROL 重定向域]**：指定Adobe Learning Manager在授权后可重定向到的域(例如，[http://learningmanager.adobe.com](http://learningmanager.adobe.com))。  您可以指定多个有效的URL。
    * **[!UICONTROL 描述]**：应用程序功能的简要描述。
    * **[!UICONTROL 范围]**：选择六个可用选项之一以定义应用程序的范围。 根据您在此处提到的选择，您的应用程序可访问Learning Manager API端点。 例如，如果选择“学习者角色”，则应用程序可以只读访问所有Learning Manager学习者API端点。
 
@@ -68,7 +68,7 @@ Adobe Learning Manager提供了RESTful API，使开发人员能够有效地集�
 4. 选择&#x200B;**[!UICONTROL 保存]**&#x200B;以注册应用程序。
 
    * 注册应用程序后，可在帐户中创建的应用程序列表中找到该应用程序。 选择应用程序，您除了会看到之前输入的字段外，还会看到以下内容：
-   * 应用程序ID：这是客户端ID。 此ID将告知ALM正在请求访问的应用程序。 它包含在用于识别应用程序的API请求中。
+   * 应用程序ID：这是客户端ID。 此ID将告知Adobe Learning Manager正在请求访问的应用程序。 它包含在用于识别应用程序的API请求中。
    * 应用程序密钥：用于在令牌交换步骤（例如，请求刷新令牌或访问令牌时）对应用程序进行身份验证和验证其身份。
 
    ![](assets/application-id-and-secret.png)
@@ -134,7 +134,7 @@ GET https://learningmanager.adobe.com/oauth/token/check?access_token=<access_tok
 
 ### 获取用于测试和开发的访问令牌
 
-使用Adobe Learning Manager (ALM) API时，开发人员需要有效的OAuth 2.0访问令牌才能对API请求进行身份验证。 通过标准OAuth流程生成此令牌可能会很复杂且耗时，尤其是在快速测试、学习或开发时。 Adobe Learning Manager提供了一个令牌生成工具来简化此过程。
+使用Adobe Learning Manager API时，开发人员需要有效的OAuth 2.0访问令牌才能对API请求进行身份验证。 通过标准OAuth流程生成此令牌可能会很复杂且耗时，尤其是在快速测试、学习或开发时。 Adobe Learning Manager提供了一个令牌生成工具来简化此过程。
 
 此工具在以下期间是理想的：
 
@@ -144,7 +144,7 @@ GET https://learningmanager.adobe.com/oauth/token/check?access_token=<access_tok
 
 * API集成问题疑难解答
 
-这些令牌仅供您在开发和调试阶段使用。 请记住，测试令牌会准许访问您的ALM数据，因此安全地处理它们至关重要。 切勿与他人共享测试令牌、在生产应用程序中使用这些令牌，或将其包含在公共代码存储库中。 像密码一样对待它们，以确保您的帐户和数据的安全。
+这些令牌仅供您在开发和调试阶段使用。 请记住，测试令牌会准许访问您的Adobe Learning Manager数据，因此安全地处理它们至关重要。 切勿与他人共享测试令牌、在生产应用程序中使用这些令牌，或将其包含在公共代码存储库中。 像密码一样对待它们，以确保您的帐户和数据的安全。
 
 1. 以集成管理员身份登录到Adobe Learning Manager 。
 2. 选择&#x200B;**[!UICONTROL 开发人员资源]**，然后&#x200B;**[!UICONTROL 选择用于测试和开发的访问令牌]**。
@@ -167,7 +167,7 @@ GET https://learningmanager.adobe.com/oauth/token/check?access_token=<access_tok
 
    ![](assets/type-access-token.png)
 
-选择&#x200B;**[!UICONTROL 提交]**&#x200B;后，将验证访问令牌，并显示以下响应：
+选择&#x200B;**[!UICONTROL 提交]**&#x200B;后，访问令牌将得到验证，您将收到以下JSON对象：
 
 ```
 { 
@@ -257,13 +257,13 @@ Adobe Learning Manager的管理员API允许管理员大规模地自动执行和�
 | 字段 | 选择特定属性以减少有效负载。 |
 | 筛选条件 | 缩小结果范围（例如，按ID、名称） |
 | 排序 | 排序结果。 |
-| 第[页&lbrace;限制]，第[页&lbrace;偏移] | 分页支持。 |
+| 第[页{限制]，第[页{偏移] | 分页支持。 |
 
 以下是每种情况的简要说明：
 
 ### 包括
 
-ALM API可用于在构建自定义应用程序或无头LMS时检索有用信息。 该API端点还可以包括额外的“include”参数，以检索与默认接收的数据相关的额外信息。 这些关系是数据模型关系，例如，在调用以获取用户详细信息时，您将收到用户信息以及经理ID与ALM帐户ID的关系。 使用include参数，您可以提取更多详细信息以及用户详细信息，例如其经理详细信息和ALM帐户详细信息。
+在构建自定义应用程序或无头LMS时，可使用Adobe Learning Manager API检索有用信息。 该API端点还可以包括额外的“include”参数，以检索与默认接收的数据相关的额外信息。 这些关系是数据模型关系，例如，在调用以获取用户详细信息时，您将收到用户信息以及经理ID与Adobe Learning Manager帐户ID的关系。 使用include参数，您可以提取更多详细信息以及用户详细信息，例如其经理详细信息和Adobe Learning Manager帐户详细信息。
 简而言之，**include**&#x200B;参数在API调用中使用，用于在单个响应中获取相关（链接的）资源和主要资源。 当您希望访问嵌套数据或相关数据（如课程模块或映射到学习者的技能）而不进行单独的API调用时，此功能非常有用。
 
 主要优点：
@@ -434,9 +434,9 @@ API分页是API中使用的一种技术，用于将大型数据集拆分为更�
 
 分页可以减少客户端和服务器的负载，限制响应大小以避免服务器瓶颈，或者对于在表中显示数据或一次显示一页非常有用。
 
-**ALM API中的分页工作方式**
+**Adobe Learning Manager API中的分页工作方式**
 
-ALM API通过如下参数支持分页：
+Adobe Learning Manager API通过如下参数支持分页：
 
 * 第[页限制]：每页的记录数。
 * 页面[偏移]：要跳过的记录数。
@@ -525,7 +525,7 @@ Adobe Learning Manager API允许开发人员将Learning Manager对象作为RESTf
 | 徽章 | 徽章是学习者在课程学习过程中达到特定的阶段性目标时获得的一种成就标志。 |
 | 目录 | 目录是学习对象的集合。 |
 | 用户 | 用户是 Adobe Learning Manager 中的关键模型。用户通常是使用学习对象的企业内部或外部学习者。 但是，除学习者之外，他们可能还扮演一些其他角色，如作者和经理。 用户 ID、类型、电子邮件是一些内联属性。 |
-| 资源 | 此模型用于对模块试图封装的每个内容资源进行建模。 “loResource”中封装的所有资源在学习目标方面等效，但在交付类型或内容区域设置方面不同。 |
+| 资源 | 这表示模块中的每个内容资源。 “loResource”中封装的所有资源在学习目标方面等效，但在交付类型或内容区域设置方面不同。 |
 | userNotification | 此模型包含与学习者相关的通知信息。 |
 | 用户技能 | 用户技能表明单个用户达到的单个技能级别。 |
 | userBadge | UserBadge将单个徽章与单个用户相关联。 它包含一些详细信息，如徽章获取时间、assertionUrl等。 |
@@ -660,7 +660,7 @@ GET https://learningmanager.adobe.com/primeapi/v2/badges/<skillID>
 * 名称：用户的名称。
 * userType：目前，只能使用此端点添加内部用户。 userType应为“INTERNAL”。
 
-出现以下响应：
+您将收到以下JSON对象：
 
 ```
 {
@@ -1257,7 +1257,7 @@ POST https://learningmanager.adobe.com/primeapi/v2/users
 
 在使用Adobe Learning Manager作为后端实施无头LMS时，组织可能需要支持人员模拟学习者以进行故障排除或获取帮助。 API驱动的模拟方法可确保安全访问，同时保持学习者凭据的机密性，并支持会话状态中的无缝过渡。
 
-Adobe Learning Manager (ALM)通过一个专用的API使学习者可以在无头LMS环境中进行模拟。 该功能允许支持人员临时采用学习者的身份，使他们能够诊断问题、测试功能或通过模拟学习者的体验提供实际操作帮助。 使用缓存的管理访问令牌激活模拟，该令牌用于以编程方式生成学习者访问令牌。 通过此流程，系统可像以学习者身份登录一样运行。
+Adobe Learning Manager通过一个专用的API使学习者可以在无头LMS环境中进行模拟。 该功能允许支持人员临时采用学习者的身份，使他们能够诊断问题、测试功能或通过模拟学习者的体验提供实际操作帮助。 使用缓存的管理访问令牌激活模拟，该令牌用于以编程方式生成学习者访问令牌。 通过此流程，系统可像以学习者身份登录一样运行。
 
 >[!IMPORTANT]
 >
@@ -1318,7 +1318,7 @@ curl --location --request POST 'https://learningmanager.adobe.com/oauth/o/learne
 
 ### 错误代码
 
-使用Adobe Learning Manager (ALM) API时，开发人员可能会在请求期间遇到各种HTTP错误代码。 这些错误提供有关错误原因以及如何修复的重要反馈。 了解这些代码有助于开发人员快速排除问题故障、提高API可靠性并确保更顺畅的集成。 下表提供了ALM API返回的常见HTTP错误代码的指南，以及这些错误发生的说明和典型情况。 任何构建、测试或调试连接到ALM的应用程序时，本节都非常重要。
+使用Adobe Learning Manager (Adobe Learning Manager) API时，开发人员可能会在请求期间遇到各种HTTP错误代码。 这些错误提供有关错误原因以及如何修复的重要反馈。 了解这些代码有助于开发人员快速排除问题故障、提高API可靠性并确保更顺畅的集成。 下表提供了Adobe Learning Manager API返回的常见HTTP错误代码的指南，以及这些错误发生的说明和典型情况。 任何构建、测试或调试连接到Adobe Learning Manager的应用程序时，本节都至关重要。
 
 | HTTP状态 | 含义 | 故障排除 |
 |---|---|---|

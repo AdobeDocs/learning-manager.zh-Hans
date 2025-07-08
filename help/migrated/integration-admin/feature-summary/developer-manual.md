@@ -4,9 +4,9 @@ title: 应用程序开发人员手册
 description: 了解如何使用RESTful API集成和自定义应用程序，内容涵盖基本主题，例如OAuth 2.0身份验证、API使用场景和数据模型。 通过课程创建、学习者进度跟踪、技能表、认证、游戏等功能增强您的企业应用程序。 本指南提供分步说明和真实示例，帮助开发人员创建无缝且高效的工作流程。 非常适合希望利用Adobe Learning Manager功能创建以学习者为中心的应用程序的开发人员。
 contentowner: jayakarr
 exl-id: fa9313ac-67de-4467-9253-7eeabcf14204
-source-git-commit: adba903c3edddbc9ce11481e75b1e03ffe4da956
+source-git-commit: 334fb7dcc73e21679d3f95d36456da4e33226773
 workflow-type: tm+mt
-source-wordcount: '4521'
+source-wordcount: '4520'
 ht-degree: 5%
 
 ---
@@ -75,7 +75,7 @@ Adobe Learning Manager提供了RESTful API，使开发人员能够有效地集�
 
 ## 获取访问令牌
 
-### 从重定向获取授权代码
+### 获取授权代码
 
 在获取客户端ID和客户端密钥后，可使用它们请求访问令牌，该令牌用于验证API调用。
 
@@ -257,7 +257,7 @@ Adobe Learning Manager的管理员API允许管理员大规模地自动执行和�
 | 字段 | 选择特定属性以减少有效负载。 |
 | 筛选条件 | 缩小结果范围（例如，按ID、名称） |
 | 排序 | 排序结果。 |
-| 第[页&lbrace;限制]，第[页&lbrace;偏移] | 分页支持。 |
+| 第[页{限制]，第[页{偏移] | 分页支持。 |
 
 以下是每种情况的简要说明：
 
@@ -524,7 +524,7 @@ Adobe Learning Manager API允许开发人员将Learning Manager对象作为RESTf
 | 帐户 | 封装Learning Manager客户的详细信息。 |
 | 徽章 | 徽章是学习者在课程学习过程中达到特定的阶段性目标时获得的一种成就标志。 |
 | 目录 | 目录是学习对象的集合。 |
-| 用户 | 用户是 Adobe Learning Manager 中的关键模型。用户通常是使用学习对象的企业内部或外部学习者。 但是，除学习者之外，他们可能还扮演一些其他角色，如作者和经理。 用户 ID、类型、电子邮件是一些内联属性。 |
+| 用户 | 用户是 Adobe Learning Manager 中的关键模型。用户通常是使用学习对象的公司内部或外部学习者。 但是，除学习者之外，他们可能还扮演一些其他角色，如作者和经理。 用户 ID、类型、电子邮件是一些内联属性。 |
 | 资源 | 这表示模块中的每个内容资源。 “loResource”中封装的所有资源在学习目标方面等效，但在交付类型或内容区域设置方面不同。 |
 | userNotification | 此模型包含与学习者相关的通知信息。 |
 | 用户技能 | 用户技能表明单个用户达到的单个技能级别。 |
@@ -1535,7 +1535,7 @@ The following table describes various elements of the Learning Manager V1 object
    <td>
     <p>user</p></td>
    <td>
-    <p>User is the key model in Learning Manager. Users are typically the internal or external learners of an organization who consume learning objects. However they may play some other roles such as author and Manager along with learner role. User id, type, email are some of the inline attributes. </p></td>
+    <p>User is the key model in Learning Manager. Users are typically the internal or external learners of an organization who consume Learning Objects. However they may play some other roles such as author and Manager along with learner role. User id, type, email are some of the inline attributes. </p></td>
   </tr>
   <tr>
    <td>
@@ -1543,7 +1543,7 @@ The following table describes various elements of the Learning Manager V1 object
    <td>
     <p>course</p></td>
    <td>
-    <p>Course is one of the learning objects supported in Learning Manager, that consists of one or more modules. </p></td>
+    <p>Course is one of the Learning Objects supported in Learning Manager, that consists of one or more modules. </p></td>
   </tr>
   <tr>
    <td>
@@ -1551,7 +1551,7 @@ The following table describes various elements of the Learning Manager V1 object
    <td>
     <p>module</p></td>
    <td>
-    <p>Module is a building block to create learning objects in Learning Manager. Modules can be of four different types such as Class room, virtual class room, activity and self-paced. Use this module model to get the details of all modules in an account. </p></td>
+    <p>Module is a building block to create Learning Objects in Learning Manager. Modules can be of four different types such as Class room, virtual class room, activity and self-paced. Use this module model to get the details of all modules in an account. </p></td>
   </tr>
   <tr>
    <td>
@@ -1718,13 +1718,13 @@ Following are the various elements of the Learning Manager class diagram in V2 A
    <td><code>
      catalog
     </code></td>
-   <td>Catalog is a collection of learning objects.</td>
+   <td>Catalog is a collection of Learning Objects.</td>
   </tr>
   <tr>
    <td><code>
      user
     </code></td>
-   <td>User is the key model in Learning Manager. Users are typically the internal or external learners of an organization who consume learning objects. However, they may play some other roles such as author and Manager along with learner role. User id, type, email are some of the inline attributes. </td>
+   <td>User is the key model in Learning Manager. Users are typically the internal or external learners of an organization who consume Learning Objects. However, they may play some other roles such as author and Manager along with learner role. User id, type, email are some of the inline attributes. </td>
   </tr>
   <tr>
    <td>resource</td>

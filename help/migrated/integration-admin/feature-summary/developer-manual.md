@@ -4,9 +4,9 @@ title: 应用程序开发人员手册
 description: 了解如何使用RESTful API集成和自定义应用程序，内容涵盖基本主题，例如OAuth 2.0身份验证、API使用场景和数据模型。 通过课程创建、学习者进度跟踪、技能表、认证、游戏等功能增强您的企业应用程序。 本指南提供分步说明和真实示例，帮助开发人员创建无缝且高效的工作流程。 非常适合希望利用Adobe Learning Manager功能创建以学习者为中心的应用程序的开发人员。
 contentowner: jayakarr
 exl-id: fa9313ac-67de-4467-9253-7eeabcf14204
-source-git-commit: 615e85a34d592b7523c10b91b3501fcdf97c1100
+source-git-commit: fc5f551dac574cae748d36d819745c5f9149afd7
 workflow-type: tm+mt
-source-wordcount: '4396'
+source-wordcount: '4420'
 ht-degree: 6%
 
 ---
@@ -31,7 +31,7 @@ Adobe Learning Manager提供了RESTful API，使开发人员能够有效地集�
 
 ## API使用场景
 
-开发人员可以使用Learning Manager API增强或集成Learning Manager与其他企业应用程序。 您可以使用任何技术创建Web、桌面或移动应用程序。 开发人员可以访问Learning Manager中的应用程序数据，但部署是外部进行的并且完全由您控制。 应用程序通常由客户机构为自己的帐户开发，而Adobe合作伙伴可创建一般应用程序以供更广泛使用。
+开发人员可以使用Learning Manager API增强或集成Learning Manager与其他企业应用程序。 您可以使用任何技术创建Web、桌面或移动应用程序。 开发人员可以访问Learning Manager数据，但您可以控制应用程序的使用位置和使用方式。
 
 ## 使用OAuth 2.0进行身份验证
 
@@ -79,7 +79,7 @@ Adobe Learning Manager提供了RESTful API，使开发人员能够有效地集�
 
 在获取客户端ID和客户端密钥后，可使用它们请求访问令牌，该令牌用于验证API调用。
 
-要开始授权代码流，请将您的用户引导至浏览器中的以下URL：
+要开始授权代码流，请在浏览器中添加以下URL：
 
 ```
 GET https://learningmanager.adobe.com/oauth/o/authorize?client_id=<Enter your clientId>&redirect_uri=<Enter a url to redirect to>&state=<Any String data>&scope=<one or more comma separated scopes>&response_type=CODE 
@@ -134,7 +134,17 @@ GET https://learningmanager.adobe.com/oauth/token/check?access_token=<access_tok
 
 ### 获取用于测试和开发的访问令牌
 
-使用Adobe Learning Manager (ALM)令牌生成工具可快速创建访问令牌以用于测试和开发目的。 这些令牌仅供您在开发和调试阶段使用。 请记住，测试令牌会准许访问您的ALM数据，因此安全地处理它们至关重要。 切勿与他人共享测试令牌、在生产应用程序中使用这些令牌，或将其包含在公共代码存储库中。 像密码一样对待它们，以确保您的帐户和数据的安全。
+使用Adobe Learning Manager (ALM) API时，开发人员需要有效的OAuth 2.0访问令牌才能对API请求进行身份验证。 通过标准OAuth流程生成此令牌可能会很复杂且耗时，尤其是在快速测试、学习或开发时。 Adobe Learning Manager提供了一个令牌生成工具来简化此过程。
+
+此工具在以下期间是理想的：
+
+* 概念验证(POC)版本
+
+* 早期开发
+
+* API集成问题疑难解答
+
+这些令牌仅供您在开发和调试阶段使用。 请记住，测试令牌会准许访问您的ALM数据，因此安全地处理它们至关重要。 切勿与他人共享测试令牌、在生产应用程序中使用这些令牌，或将其包含在公共代码存储库中。 像密码一样对待它们，以确保您的帐户和数据的安全。
 
 1. 以集成管理员身份登录到Adobe Learning Manager 。
 2. 选择&#x200B;**[!UICONTROL 开发人员资源]**，然后&#x200B;**[!UICONTROL 选择用于测试和开发的访问令牌]**。
@@ -247,7 +257,7 @@ Adobe Learning Manager的管理员API允许管理员大规模地自动执行和�
 | 字段 | 选择特定属性以减少有效负载。 |
 | 筛选条件 | 缩小结果范围（例如，按ID、名称） |
 | 排序 | 排序结果。 |
-| 第[页&lbrace;限制]，第[页&lbrace;偏移] | 分页支持。 |
+| 第[页{限制]，第[页{偏移] | 分页支持。 |
 
 以下是每种情况的简要说明：
 

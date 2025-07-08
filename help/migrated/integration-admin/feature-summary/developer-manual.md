@@ -4,9 +4,9 @@ title: 应用程序开发人员手册
 description: 了解如何使用RESTful API集成和自定义应用程序，内容涵盖基本主题，例如OAuth 2.0身份验证、API使用场景和数据模型。 通过课程创建、学习者进度跟踪、技能表、认证、游戏等功能增强您的企业应用程序。 本指南提供分步说明和真实示例，帮助开发人员创建无缝且高效的工作流程。 非常适合希望利用Adobe Learning Manager功能创建以学习者为中心的应用程序的开发人员。
 contentowner: jayakarr
 exl-id: fa9313ac-67de-4467-9253-7eeabcf14204
-source-git-commit: 0dade561e53e46f879e22b53835b42d20b089b31
+source-git-commit: 615e85a34d592b7523c10b91b3501fcdf97c1100
 workflow-type: tm+mt
-source-wordcount: '4375'
+source-wordcount: '4396'
 ht-degree: 6%
 
 ---
@@ -22,8 +22,8 @@ Adobe Learning Manager提供了RESTful API，使开发人员能够有效地集�
 
 * OAuth2.0身份验证
 * API对象模型
-* 显示如何使用include、字段和其他参数
-* 为实际用例提供端点
+* 包括、字段和其他参数
+* 真实使用案例
 
 >[!IMPORTANT]
 >
@@ -39,7 +39,7 @@ Adobe Learning Manager提供了RESTful API，使开发人员能够有效地集�
 
 ### 注册应用程序
 
-将Adobe Learning Manager与外部应用程序集成以增强多功能性。 这些步骤包括访问集成管理员界面、注册应用程序以及获取客户端ID和密钥。 从ALM生成身份验证令牌（OAuth、刷新和访问令牌），强调使用OAuth 2.0框架进行身份验证和授权。 访问令牌的有效期为七天。
+将Adobe Learning Manager与外部应用程序集成以增强多功能性。 这些步骤包括访问集成管理员界面、注册应用程序以及获取客户端ID和密钥。 从Adobe Learning Manager生成OAuth 2.0身份验证令牌，包括授权、刷新和访问令牌。 使用OAuth 2.0流安全地验证和授权您的应用程序。 访问令牌的有效期为七天。
 
 1. 以集成管理员身份登录Adobe Learning Manager 。
 2. 在左侧窗格中选择&#x200B;**[!UICONTROL 应用程序]**。
@@ -77,7 +77,7 @@ Adobe Learning Manager提供了RESTful API，使开发人员能够有效地集�
 
 ### 从重定向获取授权代码
 
-获取客户端ID和客户端密钥后，使用它们请求访问令牌，用于验证API调用。
+在获取客户端ID和客户端密钥后，可使用它们请求访问令牌，该令牌用于验证API调用。
 
 要开始授权代码流，请将您的用户引导至浏览器中的以下URL：
 
@@ -174,7 +174,7 @@ GET https://learningmanager.adobe.com/oauth/token/check?access_token=<access_tok
 
 ### 使用API工具测试端点
 
-虽然您可以使用任何第三方API测试工具，但我们将使用Postman来测试端点。 本文档中的示例使用Postman进行端点测试。
+虽然您可以使用任何第三方API测试工具，但我们将使用Postman来测试端点。 本文档中的示例使用Postman测试端点。
 
 1. 打开Postman并创建一个新请求。
 2. 选择授权选项卡。
@@ -247,7 +247,7 @@ Adobe Learning Manager的管理员API允许管理员大规模地自动执行和�
 | 字段 | 选择特定属性以减少有效负载。 |
 | 筛选条件 | 缩小结果范围（例如，按ID、名称） |
 | 排序 | 排序结果。 |
-| 第[页&lbrace;限制]，第[页&lbrace;偏移] | 分页支持。 |
+| 第[页{限制]，第[页{偏移] | 分页支持。 |
 
 以下是每种情况的简要说明：
 
@@ -283,7 +283,7 @@ ALM API可用于在构建自定义应用程序或无头LMS时检索有用信息�
 
 **示例1**
 
-在终结点中使用userID参数检索用户的详细信息
+在终结点中使用userID参数检索用户的详细信息。
 
 ```
 https://learningmanager.adobe.com/primeapi/v2/users/<userID>
@@ -521,7 +521,7 @@ Adobe Learning Manager API允许开发人员将Learning Manager对象作为RESTf
 | userBadge | UserBadge将单个徽章与单个用户相关联。 它包含一些详细信息，如徽章获取时间、assertionUrl等。 |
 | 技能 | 技能模型由级别和学分组成。 学习者可以在完成相关课程后获得技能。 |
 | 技能级别 | 技能级别由一门或多门课程组成，学完这些课程后即可获得相应级别和相关学分。 |
-| learningObject | 学习对象是一个抽象概念，指的是用户可以注册和学习的各种对象。 目前Learning Manager的学习对象类型有四种：课程、认证、学习计划和工作辅助。 |
+| learningObject | 学习对象是对用户可以注册和学习的各种对象的抽象。 目前Learning Manager的学习对象类型有四种：课程、认证、学习计划和工作辅助。 |
 | 学习对象实例 | 学习对象的特定实例。 |
 | learningObjectResource | 这等效于模块的概念。 一门课程由一个或多个模块组成。 在 Adobe Learning Manager 中，系统会以多种等效方式提供模块。因此，loResource实质上就是所有这些同等资源的封装。 |
 | loResourceGrade | 这封装了用户在其注册的学习对象背景中使用特定资源的结果。 其中包含用户在资源中花费的持续时间、用户进度百分比、通过/失败状态以及用户在任何相关测验中获得的分数等信息。 |
@@ -841,8 +841,11 @@ PATCH https://learningmanager.adobe.com/primeapi/v2/users/<userID>
 
 ### 提取包含用户ID和经理详细信息的用户报告
 
-可以直接从用户界面（**[!UICONTROL 管理员]** > **[!UICONTROL 用户]** > **[!UICONTROL 内部]**）下载用户报告。 但是，报告不会返回用户ID和相关经理的详细信息。
-您可以使用管理员的作业API检索详细信息。
+可以直接从管理员用户界面（**[!UICONTROL 管理员]** > **[!UICONTROL 用户]** > **[!UICONTROL 内部]**）下载用户报告。 但是，报告不会返回用户ID和相关经理的详细信息。
+
+使用作业API下载报告。 作业API有助于生成报告、批量操作（注册或徽章分配）、认证完成或徽章生成。
+
+下载报告的方法如下：
 
 1. 将以下负载添加到作业API。
 

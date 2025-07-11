@@ -4,16 +4,16 @@ title: AdobeLearning Manager移动应用程序中的白色标签
 description: 白色标签是一种用您自己的品牌重塑应用程序或服务，并像原创者一样对其进行自定义的做法。 在Adobe Learning Manager中，可将白色标签应用于移动应用程序，以便重新品牌化应用程序并使您的用户可使用自己的品牌。
 contentowner: saghosh
 exl-id: f37c86e6-d4e3-4095-9e9d-7a5cd0d45e43
-source-git-commit: 25c4873f6d01c5832c213b6f225172f3dbcba1ee
+source-git-commit: 0c97b147a1e4c6e1a4a0cc69f56f8e9420c4602b
 workflow-type: tm+mt
-source-wordcount: '1987'
+source-wordcount: '2098'
 ht-degree: 0%
 
 ---
 
 # AdobeLearning Manager移动应用程序中的白色标签
 
-Adobe Learning Manager移动应用程序现在支持白色标签 — 这意味着您现在可以按自己的品牌发布该应用程序。
+Adobe Learning Manager移动应用程序现在支持白色标签，这意味着您现在可以按自己的品牌发布该应用程序。
 
 ALM将根据以下时间表提供更新后的白标二进制文件：
 
@@ -46,109 +46,213 @@ ALM将根据以下时间表提供更新后的白标二进制文件：
 ### 字段
 
 <table>
+
  <tbody>
+
   <tr>
+
    <td>
+
     <p>帐户ID</p>
+
    </td>
+
    <td>
+
     <p>您帐户的ID。 请注意，属于任何其他帐户的学习者将无法访问带白色标签的应用程序。</p>
+
    </td>
+
   </tr>
+
   <tr>
+
    <td>
+
     <p>其他帐户ID</p>
+
    </td>
+
    <td>
+
     <p>如果需要，可添加多个帐户（子域）。 将子域添加为用逗号分隔且不含空格的形式。 例如，acc01、acc02、acc03等等。<br> <b>注意：</b>指定子域时需要添加帐户ID。</br> </p>
+
    </td>
+
   </tr>
+
   <tr>
+
    <td>
+
     <p>应用程序名称</p></td>
+
    <td>
+
     <p>要用于应用程序的名称。</p>
+
    </td>
+
   </tr>
+
   <tr>
+
    <td>
+
     <p>应用程序简称</p>
+
    </td>
+
    <td>
+
     <p>如果应用程序名称较长，则为应用程序提供一个显示在设备上的简称。</p>
+
    </td>
+
   </tr>
+
   <tr>
+
    <td>
+
     <p>内部应用程序名称</p></td>
+
    <td>
+
     <p>操作系统用来标识应用程序的名称。 通常使用的格式为：com.company-name.product-name。</p>
+
    </td>
+
   </tr>
+
   <tr>
+
    <td>
+
     <p>内部应用程序名称 — iOS</p>
+
    </td>
+
    <td>
+
     <p>如果用户使用的是iOS，请使用其他方法命名应用程序。 我们建议为iOS和Android使用相同的名称。</p>
+
    </td>
+
   </tr>
+
   <tr>
+
    <td>
+
     <p>应用程序图标</p>
+
    </td>
+
    <td>
+
     <p>应用程序图标为png。 此图标将显示在您的应用程序上。 名称的格式为account-id_appIcon.png。 应用程序图标的尺寸为512 × 512像素。<div>请注意，Apple不允许在应用程序图标中使用Alpha渠道。 因此，请确保在提交资源之前移除资源中的Alpha渠道。</div></p>
+
    </td>
+
   </tr>
+
   <tr>
+
    <td>
+
     <p>应用程序启动屏幕</p></td>
+
    <td>
+
     <p>对于应用程序的启动屏幕，请提供图像(png)，当用户启动应用程序时会显示该图像。 名称的格式为account-id_splashIcon.png。 方形初始屏幕的尺寸为1052 × 1052像素，圆形初始屏幕的尺寸为768 x 768像素。</p>
+
    </td>
+
   </tr>
+
   <tr>
+
    <td>
+
     <p>客户端ID和客户端密钥</p>
+
    </td>
+
    <td>
+
     <p>您帐户的集成管理员在注册应用程序时提供详细信息。 集成管理员必须使用以下内容：<ul><li>学习者：读取，学习者：写入为角色</li><li>内部应用程序name://redirect作为重定向URL</li></ul></p>
+
    </td>
+
   </tr>
+
   <tr>
+
    <td>
+
     <p>账户标志</p>
+
    </td>
+
    <td>
+
     <p>托管您组织的徽标的URL。 提供内容链接作为帐户徽标。 URL需要进行Web编码。</p>
+
    </td>
+
   </tr>
+
   <tr>
+
    <td>
+
     <p>应用程序的App store ID (iOS)</p>
+
    </td>
+
    <td>
+
     <p>实施强制更新所需的ID。 应用程序需要知道学习者应被重定向到App Store才能更新应用程序。</p>
+
    </td>
+
   </tr>
+
   <tr>
+
    <td>
+
     <p>应用程序的Google play store id (Android)</p>
+
    </td>
+
    <td>
+
     <p>实施强制更新所需的ID。</p>
+
    </td>
+
   </tr>
+
   <tr>
+
    <td>
+
     <p>用于深层链接的主机名</p>
+
    </td>
+
    <td>
+
     <p>要托管深层链接，请使用learningmanager。 如果要使用另一个主机名URL作为深层链接，请提供主机的URL。 例如，learningmanager.adobe.com。</p>
+
    </td>
+
   </tr>
+
  </tbody>
+
 </table>
 
 >[!NOTE]
@@ -156,19 +260,42 @@ ALM将根据以下时间表提供更新后的白标二进制文件：
 >向您的CSAM提供数据，以便他们可以将数据添加到您的自定义应用程序二进制文件中。
 
 
-#### 更新站点关联以处理自定义深度链接
+#### 更新站点关联以处理自定义深层链接
 
 如果您使用自定义域或learningmanager\*.adobe.com作为主机，则无需执行任何操作。 但是，如果对URL使用自定义解决方案或特定主机名，请添加站点关联文件。
 
 >[!CAUTION]
 >
->如果文件不存在，则深度链接将不起作用。 确保文件存在。
+>如果文件不存在，深层链接将不起作用。 确保文件存在。
 
 
 有关更多信息，请参阅以下链接：
 
 * [Android](https://learningmanager.adobe.com/.well-known/assetlinks.json)
 * [iOS](https://learningmanager.adobe.com/.well-known/apple-app-site-association)
+
+## 获取App Store的团队ID
+
+要获取您的团队ID，请执行以下操作：
+
+1. 登录到您的&#x200B;**[!UICONTROL Apple Developer]**&#x200B;帐户。
+2. 选择页面顶部的&#x200B;**[!UICONTROL 成员资格详细信息]**，并复制您的团队ID。
+
+在元数据文件中添加带白标签的应用程序条目需要此ID才能启用深层链接。
+
+## 获取适用于Android的SHA-256指纹
+
+添加带有白色标签的应用程序条目时，需要用于Android签名证书的SHA-256指纹。
+
+要生成SHA-256指纹，请执行以下操作：
+
+1. 运行以下命令：
+
+```
+keytool -list -v -keystore <keystore/jks file> -alias <aliaskey> -storepass <storepassword> -keypass <keypassword>
+```
+
+在输出中查找证书指纹，然后复制SHA-256值。 根据需要共享此指纹以用于您的深层链接配置。
 
 ## 生成推送通知
 

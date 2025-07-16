@@ -4,10 +4,10 @@ title: 学习路径
 description: 在 Adobe Learning Manager 中为管理员创建学习计划。
 contentowner: saghosh
 exl-id: 31f1d66f-4da1-49d2-8ec1-995fd2ebeadb
-source-git-commit: a28ac8f57710c118ca4ad02872fd100c6f24beac
+source-git-commit: c365dca377e8c6ad7bb9489c6fe043e72660c54e
 workflow-type: tm+mt
-source-wordcount: '1334'
-ht-degree: 35%
+source-wordcount: '1430'
+ht-degree: 32%
 
 ---
 
@@ -138,6 +138,10 @@ ht-degree: 35%
 ![](assets/default-instance.png)
 
 *学习路径实例*
+
+即使课程灵活且要求学习者选择会话，学习者也可以通过学习计划或管理员注册课程。 在这种情况下，即使已达名额限制，系统仍允许学习者注册，但在有名额可用之前无法开始课程。
+
+轮候表功能仅在学习者自行注册时适用。 当会话达到名额限制时，讲师可以查看轮候学习者列表。 如果名额有空，讲师可以添加轮候学习者，直到会话再次达到最大名额。
 
 ## 通知
 

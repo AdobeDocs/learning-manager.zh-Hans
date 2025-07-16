@@ -4,7 +4,7 @@ jcr-language: en_us
 title: 在Adobe Learning Manager中添加用户
 contentowner: manochan
 exl-id: 7df98f2b-c422-4733-8ce4-5489506d4fdf
-source-git-commit: 81a8732e3809e916fd6a19e51c19cf7419617b16
+source-git-commit: 4350c192a70005fe37620e1ea083c6db8ece30e3
 workflow-type: tm+mt
 source-wordcount: '2216'
 ht-degree: 1%
@@ -239,7 +239,7 @@ _复制外部配置文件的注册URL_
 | 内部用户 | 外部用户 |
 |---|---|
 | 可以使用Adobe ID或SSO凭据登录。 | 可以使用任何电子邮件ID登录。 |
-| 游戏功能可用。 | 游戏功能可用。 管理员必须在[游戏设置](https://experienceleague.adobe.com/zh-hans/docs/learning-manager/using/admin/gamification)中为外部学习者启用游戏。 |
+| 游戏功能可用。 | 游戏功能可用。 管理员必须在[游戏设置](https://experienceleague.adobe.com/en/docs/learning-manager/using/admin/gamification)中为外部学习者启用游戏。 |
 
 ### 暂停外部注册配置文件
 

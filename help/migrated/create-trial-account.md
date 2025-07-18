@@ -2,13 +2,13 @@
 jcr-language: en_us
 title: 在Adobe Learning Manager中设置试用帐户、沙盒帐户或测试帐户
 description: 了解如何在Adobe Learning Manager中创建30天免费试用版或沙盒帐户。 按照简单的步骤设置您的测试环境并快速开始使用。
-source-git-commit: f814f4fd2e8b0d34118f5abc66e82be78fda88e2
+exl-id: f8a2db1d-6a62-481a-9d04-0fb6377cda73
+source-git-commit: 4d5ced6d9677ddd568c6a6372e598b8e7bb4981d
 workflow-type: tm+mt
 source-wordcount: '165'
 ht-degree: 0%
 
 ---
-
 
 # 在Adobe Learning Manager中创建试用帐户
 
@@ -40,3 +40,4 @@ ht-degree: 0%
 7. 设置完成后，在Adobe Learning Manager URL的URL中找到您的帐户ID。
 
    ![](assets/account-id-trial.png)
+

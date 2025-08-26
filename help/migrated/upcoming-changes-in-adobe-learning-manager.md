@@ -876,7 +876,7 @@ POST /primeapi/v2/users/12345/playerState?loId=lo:67890&loResourceId=course:6789
    _选择Adobe Learning Manager中的“内容市场”，探索热门的Go1课程并将其添加到播放列表中_
 
 3. 选择&#x200B;**[!UICONTROL 内容中心]**，然后选择&#x200B;**[!UICONTROL 库]**。
-4. 选择&#x200B;**[!UICONTROL 创建播放列表]**并从以下选项中选择：
+4. 选择&#x200B;**[!UICONTROL 创建播放列表]**&#x200B;并从以下选项中选择：
 a. **[!UICONTROL 使用AI]**：借助AI创建播放列表。
 b. **[!UICONTROL 我自己]**：手动向播放列表添加课程来创建播放列表。
 

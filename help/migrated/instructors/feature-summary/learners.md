@@ -4,10 +4,10 @@ jcr-language: en_us
 title: 管理会话的学习者
 contentowner: shhivkum
 exl-id: 2f4f8589-2350-4683-a141-809084d6309a
-source-git-commit: 5afe808b0fe862385afa1691abbbc076016d21df
+source-git-commit: 8b5343ae078f3d4774bbed713ad8db47e0cc0d86
 workflow-type: tm+mt
-source-wordcount: '1056'
-ht-degree: 82%
+source-wordcount: '1223'
+ht-degree: 71%
 
 ---
 
@@ -83,6 +83,26 @@ Adobe Learning Manager的新&#x200B;**[!UICONTROL 轮候表报告]**&#x200B;允�
 
    ![](assets/markattendance.png)
    *标记学习者出席情况*
+
+## 标记学习者成功次数
+
+讲师可以直接从“学习者”页面将每个学习者的成功状态标记为通过或失败。 此功能可让讲师根据学习者表现准确记录教室或虚拟教室授课的结果。
+
+要标记学习者的学习成功，请执行以下操作：
+
+1. 以讲师身份登录Adobe Learning Manager。
+2. 在左侧导航窗格中选择&#x200B;**[!UICONTROL 即将开始的会话]**。
+3. 选择&#x200B;**[!UICONTROL 学习者]**。
+4. 选择学习者，然后选择&#x200B;**[!UICONTROL 操作]**。
+5. 选择以下任一选项以标记选定学习者的学习成功：
+
+   * **[!UICONTROL 标记为已出席和通过]**：标记为通过的学习者已成功完成模块。
+   * **[!UICONTROL 标记为已参加和未通过]**：标记为失败的学习者已完成模块，但未通过。
+
+   ![操作下拉菜单突出显示“标记已出席和通过”以及“标记已出席和失败”选项，供讲师设置每个学习者的成功状态](/help/migrated/instructors/feature-summary/assets/mark-success-instructor.png)
+   _显示“操作”菜单的学习者页面，其中突出显示了“标记已参加”和“通过”以及“标记已参加”和“失败”选项，用于记录学习者结果_
+
+6. 在确认提示中选择&#x200B;**[!UICONTROL 是]**。
 
 ## 向学习者发送电子邮件 {#sendemailstolearners}
 

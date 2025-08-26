@@ -4,9 +4,9 @@ jcr-language: en_us
 title: 创建、修改和发布课程
 contentowner: manochan
 exl-id: c5257796-0afa-4021-bd17-d3f1e9a86948
-source-git-commit: f964dd3f1adeadb76f4843c9af229ce5f09afde1
+source-git-commit: 8b5343ae078f3d4774bbed713ad8db47e0cc0d86
 workflow-type: tm+mt
-source-wordcount: '7163'
+source-wordcount: '7321'
 ht-degree: 71%
 
 ---
@@ -600,6 +600,26 @@ Adobe Learning Manager 允许作者使用一个或多个与虚拟培训、自学
 
 1. 若要重新发布更新后的课程，请单击&#x200B;**[!UICONTROL 重新发布]**。
 
+### 允许讲师标记课程通过
+
+讲师可通过Adobe Learning Manager在教室或虚拟教室模块中标记学习者的成功状态。 作者可以在创建教室或虚拟教室模块时向讲师授予标记学习者成功状态的权限。 讲师可将学习者标记为“通过”或“失败”，以标记成功案例，从而确保进度相应地更新。
+
+要允许讲师标记学习者的学习成功与否，请执行以下操作：
+
+1. 以作者身份登录 Adobe Learning Manager。
+2. 在主页上选择&#x200B;**[!UICONTROL 创建课程]**。
+3. 选择&#x200B;**[!UICONTROL 添加]**。
+4. 键入所需的详细信息，然后选择&#x200B;**[!UICONTROL 添加模块]**。
+5. 选择&#x200B;**[!UICONTROL 虚拟教室模块]**&#x200B;或&#x200B;**[!UICONTROL 教室模块]**。
+6. 键入必要的详细信息并选择日期。
+7. 选择“**[!UICONTROL 允许讲师标记课程通过”]**&#x200B;选项。
+
+   ![“是否允许讲师标记课程通过？” 复选框已突出显示，作者能够让讲师记录模块](/help/migrated/authors/feature-summary/assets/allow-instructor-mark-success.png)的学习者成功状态
+   _针对教室或虚拟教室模块的“会话详细信息”屏幕，其中突出显示了“允许讲师标记成功”选项_
+
+8. 选择&#x200B;**[!UICONTROL 完成]**。
+
+
 ## 观察清单
 
 目前除讲师之外，经理亦可以审核“清单”模块。 管理人员和非层级经理（如商店经理或位置经理）可审核并填写清单。
@@ -805,7 +825,7 @@ Adobe Learning Manager 能让您轻松快速找到您想选择的课程。您可
 1. 使用 Adobe 凭据登录。如果没有 Adobe ID，请单击&#x200B;**[!UICONTROL “创建帐户”]**。授权后，您将被定向到模块发布页面。
 1. 提供有关模块的所有基本信息并单击“发布”。
 
-您可以在 Adobe Learning Manager 模块页面查看已发布的模块。有关更多信息，请参阅[发布项目至 Adobe Learning Manager](https://helpx.adobe.com/cn/captivate/classic/publish-project-to-captivate-prime.html)。
+您可以在 Adobe Learning Manager 模块页面查看已发布的模块。有关更多信息，请参阅[发布项目至 Adobe Learning Manager](https://helpx.adobe.com/captivate/classic/publish-project-to-captivate-prime.html)。
 
 ## 课程效果 {#courseeffectiveness}
 
@@ -939,7 +959,7 @@ Adobe Learning Manager 能让您轻松快速找到您想选择的课程。您可
 
 +++
 
-+++能否下载并修改已上传到Adobe Learning Manager的内容？
++++能否下载并修改已上传到 Adobe Learning Manager 的内容？
 
 不能，上传到Learning Manager的内容是已发布的zip文件，而不是源文件。 因此，即使下载了内容，也无法在创作工具中进行编辑。 您需要源文件来编辑内容。
 

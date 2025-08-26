@@ -2,9 +2,9 @@
 user-guide-title: Adobe Learning Manager 指南
 breadcrumb-title: Learning Manager
 user-guide-description: Adobe Learning Manager 的文档
-source-git-commit: f814f4fd2e8b0d34118f5abc66e82be78fda88e2
+source-git-commit: 8f51afee6202e604ade0df1c3ec75fa7191acbdc
 workflow-type: tm+mt
-source-wordcount: '688'
+source-wordcount: '691'
 ht-degree: 78%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 78%
 * [Adobe Learning Manager 用户指南](user-guide.md)
 * 简介 {#introduction}
    * [2025年5月新增功能摘要](/help/migrated/whats-new.md)
-   * [Adobe Learning Manager中即将推出的更改](/help/migrated/upcoming-changes-in-adobe-learning-manager.md)
+   * [Adobe Learning Manager 2025年10月版的新增功能](/help/migrated/upcoming-changes-in-adobe-learning-manager.md)
    * [2024年11月新增功能摘要](/help/migrated/whats-new-nov-24.md)
    * [2024年7月新增功能摘要](whats-new-july-2024.md)
    * [2024年3月版新增功能](whats-new-march-2024.md)

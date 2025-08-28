@@ -4,10 +4,10 @@ jcr-language: en_us
 title: 创建、修改和发布课程
 contentowner: manochan
 exl-id: c5257796-0afa-4021-bd17-d3f1e9a86948
-source-git-commit: 8b5343ae078f3d4774bbed713ad8db47e0cc0d86
+source-git-commit: a3a36fb1c68fb48809ad77b0d0a7ffa3daebe79e
 workflow-type: tm+mt
-source-wordcount: '7321'
-ht-degree: 71%
+source-wordcount: '7433'
+ht-degree: 70%
 
 ---
 
@@ -507,6 +507,24 @@ Adobe Learning Manager 允许作者使用一个或多个与虚拟培训、自学
 
 1. 选择“**[!UICONTROL 添加]**”并发布课程。
 
+### 替换已发布课程中的模块
+
+Adobe Learning Manager为作者提供了创建、编辑和管理由多个内容模块组成的课程的工具。 当需要更新或改进课程内容时，作者可以替换现有模块而不会中断学习者进度。
+
+要更换模块，请执行以下操作：
+
+1. 以作者身份登录 Adobe Learning Manager。
+2. 在左侧导览窗格中选择&#x200B;**[!UICONTROL 课程]**。
+3. 选择任意课程，然后选择&#x200B;**[!UICONTROL 编辑]**。
+4. 选择要更改的模块。
+5. 更改标题和说明。
+6. 使用&#x200B;**内容**选项选择模块。
+   ![](assets/replace-the-module.png)
+7. 选择&#x200B;**[!UICONTROL 完成]**。
+8. 选择&#x200B;**[!UICONTROL 重新发布]**。
+
+学习者可以在其他模块中保持进度，但需要完成新模块才能完成课程。
+
 ## 清单 {#create-checklist}
 
 评估对任何学习管理系统来说都很重要。 在线评估是评估学习者对主题理解程度的最佳方法之一。 但通常情况下，有必要通过观察某人如何执行必要任务来评估其对工作的理解程度。
@@ -825,7 +843,7 @@ Adobe Learning Manager 能让您轻松快速找到您想选择的课程。您可
 1. 使用 Adobe 凭据登录。如果没有 Adobe ID，请单击&#x200B;**[!UICONTROL “创建帐户”]**。授权后，您将被定向到模块发布页面。
 1. 提供有关模块的所有基本信息并单击“发布”。
 
-您可以在 Adobe Learning Manager 模块页面查看已发布的模块。有关更多信息，请参阅[发布项目至 Adobe Learning Manager](https://helpx.adobe.com/cn/captivate/classic/publish-project-to-captivate-prime.html)。
+您可以在 Adobe Learning Manager 模块页面查看已发布的模块。有关更多信息，请参阅[发布项目至 Adobe Learning Manager](https://helpx.adobe.com/captivate/classic/publish-project-to-captivate-prime.html)。
 
 ## 课程效果 {#courseeffectiveness}
 

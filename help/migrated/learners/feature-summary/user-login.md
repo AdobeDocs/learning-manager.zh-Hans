@@ -4,10 +4,10 @@ jcr-language: en_us
 title: 登录
 contentowner: manochan
 exl-id: f553bfa1-29f0-420f-abde-e1f65612b182
-source-git-commit: f964dd3f1adeadb76f4843c9af229ce5f09afde1
+source-git-commit: 291d32a92e4adc44b2da71d980b2ae7261a189a0
 workflow-type: tm+mt
-source-wordcount: '196'
-ht-degree: 33%
+source-wordcount: '221'
+ht-degree: 24%
 
 ---
 
@@ -28,19 +28,24 @@ ht-degree: 33%
 
    此时会显示登录屏幕。
 
-1. 单击“登录”。
+1. 选择“登录”。
 
-   ![](assets/adobeid-signin.png)
+   ![](assets/login-page.png)
 
    *使用用户名和密码登录*
 
-1. 输入 Adobe ID、密码，然后单击“登录”。
+1. 键入Adobe ID、密码，然后单击“登录”。
 
    如果忘记密码，请单击“忘记密码？” 链接并提供创建Adobe ID时所用的电子邮件ID。
 
-<!--
+   <!--
    If you do not have an Adobe ID, [click here](../../../manage-account.md) to learn how to create an Adobe ID.
--->
+   -->
+
+1. 在活动字段中键入您的信息以完成您的个人资料。
+
+   ![](assets/complete-the-profile.png)
+   _在活动字段中键入您的信息以完成配置文件设置_
 
 1. 或者，您可以通过单击“使用Enterprise ID登录”链接来使用Enterprise ID。
 

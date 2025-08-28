@@ -4,9 +4,9 @@ jcr-language: en_us
 title: 颜色主题
 contentowner: jayakarr
 exl-id: 8616e38a-023f-4acb-ac68-df71a5153ad2
-source-git-commit: a28ac8f57710c118ca4ad02872fd100c6f24beac
+source-git-commit: 5167a5a453776f2455fe8b0f762bca1d1f6ad0fe
 workflow-type: tm+mt
-source-wordcount: '1203'
+source-wordcount: '1217'
 ht-degree: 44%
 
 ---
@@ -17,9 +17,9 @@ Adobe Learning Manager 中的颜色主题和品牌
 
 Adobe Learning Manager 可让您更改应用程序的外观以符合所在组织的品牌要求。
 
-## Customize your user interface
+## 自定义用户界面
 
-In this training, you will explore ways to customize the appearance of the interface to match it with an organization&#39;s branding requirements.
+在本培训中，您将探索根据组织的品牌要求自定义界面外观的方法。
 
 [![按钮](assets/launch-training-button.png)](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/8318823)
 
@@ -41,13 +41,13 @@ In this training, you will explore ways to customize the appearance of the inter
 
 **“挑选主题”**
 
-Click the **[!UICONTROL Show hints]** below this section to display the hints on the image as shown below.
+单击此部分下方的&#x200B;**[!UICONTROL 显示提示]**&#x200B;以显示该图像的提示，如下所示。
 
 ![](assets/themes-preview-images.png)
 
-*View hints on a theme*
+*查看有关主题的提示*
 
-Learning Manager application provides five color theme options to its users:
+Learning Manager应用程序为用户提供了五个颜色主题选项：
 
 * Prime 默认
 * 鹅卵石
@@ -58,12 +58,12 @@ Learning Manager application provides five color theme options to its users:
 
 >[!NOTE]
 >
->The Vivid theme is accessibility compliant.
+>生动的主题符合辅助功能要求。
 
 
 ![](assets/prime-customize-theme.png)
 
-*Customize colors of a theme*
+*自定义主题的颜色*
 
 您可以自定义主题的顶部栏颜色、重点色（例如左侧窗格中的图标颜色）、原色和侧边栏亮度（Prime 默认主题除外）。
 
@@ -81,16 +81,16 @@ Learning Manager application provides five color theme options to its users:
 
 *实时预览弹出窗口*
 
-从下拉列表中选择所需的主题，调整设置，然后单击 **[!UICONTROL “预览”]** 以查看应用程序中的实时更改。 现在，您可以浏览应用程序的所有功能并看到相关更改。 您还可以在实时预览时更改自己的角色。 Once you are satisfied with the changes, you can come back to the Live theme preview pop-up feature and click **[!UICONTROL Apply Theme]**.
+从下拉列表中选择所需的主题，调整设置，然后单击 **[!UICONTROL “预览”]** 以查看应用程序中的实时更改。 现在，您可以浏览应用程序的所有功能并看到相关更改。 您还可以在实时预览时更改自己的角色。 如果对更改满意，您可返回实时主题预览弹窗功能，然后单击&#x200B;**[!UICONTROL 应用主题]**。
 
 在预览实时更改时，实时主题预览弹窗仍会显示在屏幕底部。 您可以选择将其最小化。
 
-## Multiple branding {#multiple-branding}
+## 多个品牌 {#multiple-branding}
 
-Here&#39;s how to implement multiple branding:
+以下是如何实施多个品牌推广的：
 
 1. 在管理员应用上，选择左侧窗格中的&#x200B;**“品牌推广”**。
-1. Select **Edit** in the Multiple Branding section.
+1. 在“多个品牌”部分中选择“**编辑**”。
 1. 选择切换按钮并启用它。
 
 ### 内部用户
@@ -114,20 +114,20 @@ Here&#39;s how to implement multiple branding:
 
 #### 注意事项
 
-* An Admin can add the multi-level branding for this active field value and the external user can login with different mechanisms (SSO Single (Okta, Mini orange), Social Login) and check if the multi branding is applicable.
-* An External user has an active field and active field value like the internal user: Even though it is shared, it must be separately specified in the multi branding by the admin. Once applied, external user can login with different mechanisms (SSO Single (Okta, Mini orange), Social Login) and check if the multi branding is applicable.
-* An External user moved from one profile to another profile: Moving the external user from one profile to another profile will not affect the active field value for the user unless the active field value is edited/ deleted by admin or the external user while logging in or registering
+* 管理员可以为此活动字段值添加多级别品牌，外部用户可以使用不同机制(SSO单个(Okta、Mini Orange)、社交登录)登录，并检查多品牌是否适用。
+* 外部用户具有活动字段和活动字段值，例如内部用户：即使共享该用户，管理员也必须在多品牌中单独指定该用户。 应用后，外部用户可以使用不同的机制(SSO单个(Okta、Mini Orange)、社交登录)登录，并检查多品牌是否适用。
+* 将外部用户从一个配置文件移动到另一个配置文件：将外部用户从一个配置文件移动到另一个配置文件将不会影响用户的活动字段值，除非管理员或外部用户在登录或注册时编辑/删除了活动字段值
 
 >[!NOTE]
 >
->When multiple branding is set for both internal and external users, with same active field name, with same active field value but different configuration. In this case, recommendation to customers would be to use same configuration setting (logo, theme, org name) to avoid discrepancy.
+>为内部和外部用户设置多个品牌时，如果活动字段名称相同，但活动字段值相同但配置不同。 在这种情况下，建议客户使用相同的配置设置（徽标、主题、组织名称）以避免不一致。
 
 
 ## 自定义帐户 {#customize}
 
 Adobe Learning Manager 现在允许您自定义帐户，从而提供更丰富的用户体验。
 
-下面的列表显示了可自定义的组件。 To customize the account, contact Learning Manager  [support](mailto:captivateprimesupport@adobe.com).
+下面的列表显示了可自定义的组件。 要自定义帐户，请联系Learning Manager [支持](mailto:captivateprimesupport@adobe.com)。
 
 <table>
  <tbody>
@@ -165,8 +165,8 @@ Adobe Learning Manager 现在允许您自定义帐户，从而提供更丰富的
     <p>进度图标图像</p></td>
    <td>在浏览不同页面时显示。 在显示“4S”进度图像的位置显示。 
     <ul>
-     <li>Recommended size - less than or equal to 32x32 px</li>
-     <li>Recommended image format - GIF, PNG, JPG</li>
+     <li>建议大小 — 小于或等于32x32像素</li>
+     <li>建议的图像格式 — GIF、PNG、JPG</li>
     </ul>
     <p> </p></td>
   </tr>
@@ -174,7 +174,7 @@ Adobe Learning Manager 现在允许您自定义帐户，从而提供更丰富的
    <td>
     <p>字体</p></td>
    <td>
-    <p>如要应用字体，请务必使用 CDN。 此外，您还须共享要应用的字体系列。</p>
+    <p>管理员可以通过<a ref="mailto:learningmanagersupport@adobe.com"> learningmanagersupport@adobe.com</a>联系Adobe Learning Manager支持团队以更改字体。 如要应用字体，请务必使用 CDN。 此外，您还须共享要应用的字体系列。</p>
     <p><b>注意：</b>所有浏览器都必须支持该字体系列。</p></td>
   </tr>
   <tr>

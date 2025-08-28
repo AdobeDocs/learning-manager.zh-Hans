@@ -4,10 +4,10 @@ jcr-language: en_us
 title: 流体播放器
 contentowner: manochan
 exl-id: 19dc07c4-9716-45f2-9c77-05d45da34b85
-source-git-commit: de57d96488851c31c380b34672767a803379842e
+source-git-commit: 5167a5a453776f2455fe8b0f762bca1d1f6ad0fe
 workflow-type: tm+mt
-source-wordcount: '540'
-ht-degree: 51%
+source-wordcount: '572'
+ht-degree: 48%
 
 ---
 
@@ -60,6 +60,8 @@ ht-degree: 51%
 
 退出课程后，您可以单击课程描述页面上的&#x200B;**重新访问** / **继续**&#x200B;按钮来重新访问课程。
 
+**自动播放**：Adobe Learning Manager的流体播放器没有内置选项可阻止视频自动播放。 视频是否自动播放取决于浏览器设置，而不是播放器本身。
+
 也可使用Learning Manager API将流体播放器嵌入到外部网站或应用程序中。
 
 移动流体播放器具有以下功能：
@@ -67,3 +69,4 @@ ht-degree: 51%
 * 触摸或点按屏幕不应暂停播放器。 相反，它应显示播放器导航栏。
 * 如果未与导航栏交互，则它将在3秒后消失。
 * 在关闭导航菜单项（目录、注释、设置）之前，导航栏将保持活动状态。
+

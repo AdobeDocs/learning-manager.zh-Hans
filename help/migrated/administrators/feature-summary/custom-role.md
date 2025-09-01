@@ -4,7 +4,7 @@ title: 自定义角色
 description: “学习路径”功能可帮助您定义自定义角色并将特定责任分配给一组用户。 利用此功能，您可以分配个人现有角色权限之外的责任。
 contentowner: dvenkate
 exl-id: dcc84f91-4e51-4ae2-b7cb-9eb29b398bc1
-source-git-commit: 7c21986eff480f15cb788cf9a1cb51644bc083c8
+source-git-commit: 9304c303d0be20e04aad2c0bc2092d1eaffaf53e
 workflow-type: tm+mt
 source-wordcount: '3466'
 ht-degree: 31%
@@ -300,7 +300,7 @@ _筛选自定义角色_
 
 1. 以管理员身份登录，然后选择&#x200B;**[!UICONTROL 用户]**。
 2. 在左侧面板上选择&#x200B;**[!UICONTROL 自定义角色]**。
-3. 创建新的自定义角色并添加帐户权限、目录、学习对象或范围。 请参阅[此处](#create-a-custom-role)提到的步骤。
+3. 创建新的自定义角色并添加帐户权限、目录、学习对象或范围。 请参阅此处提到的[步骤](#create-a-custom-role)。
 4. 将用户添加到自定义角色。
 
    ![](assets/add-users-in-custom-roles.png)
@@ -322,8 +322,8 @@ _筛选自定义角色_
 
 现在，您可以通过将两个文件上传到Box来通过CSV导入为用户分配多个角色：
 
-* role.csv
-* user_role.csv。
+* [role.csv](assets/role.csv)
+* [user_role.csv](assets/user_role.csv)
 
 user_role.csv文件包含“自定义角色”和“用户ID”字段。
 

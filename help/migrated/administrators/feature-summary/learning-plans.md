@@ -34,7 +34,7 @@ ht-degree: 60%
 
    ![](assets/add-learning-plandialog.png)
 
-1. 在&#x200B;**[!UICONTROL “Occurs when（执行时间）”]**下拉列表中，选择所需的事件。管理员一次可以添加一个事件。
+1. 在&#x200B;**[!UICONTROL “Occurs when（执行时间）”]**&#x200B;下拉列表中，选择所需的事件。管理员一次可以添加一个事件。
 这些选项决定了学习者参加课程的时间。 选择活动类型后，请选择相应的培训、课程、学习计划或认证。
 
 >[!NOTE]

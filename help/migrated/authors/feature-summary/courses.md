@@ -518,7 +518,7 @@ Adobe Learning Manager为作者提供了创建、编辑和管理由多个内容�
 3. 选择任意课程，然后选择&#x200B;**[!UICONTROL 编辑]**。
 4. 选择要更改的模块。
 5. 更改标题和说明。
-6. 使用&#x200B;**内容**选项选择模块。
+6. 使用&#x200B;**内容**&#x200B;选项选择模块。
    ![](assets/replace-the-module.png)
 7. 选择&#x200B;**[!UICONTROL 完成]**。
 8. 选择&#x200B;**[!UICONTROL 重新发布]**。

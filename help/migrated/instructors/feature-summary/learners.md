@@ -4,10 +4,10 @@ jcr-language: en_us
 title: 管理会话的学习者
 contentowner: shhivkum
 exl-id: 2f4f8589-2350-4683-a141-809084d6309a
-source-git-commit: 8b5343ae078f3d4774bbed713ad8db47e0cc0d86
+source-git-commit: 05a8b4da646f0b2e4a14aa26159c3e8cfdde35fe
 workflow-type: tm+mt
-source-wordcount: '1223'
-ht-degree: 71%
+source-wordcount: '1256'
+ht-degree: 69%
 
 ---
 
@@ -115,7 +115,9 @@ Adobe Learning Manager的新&#x200B;**[!UICONTROL 轮候表报告]**&#x200B;允�
 
 ## 捕获邀请响应
 
-您可以在“学习者”部分中查看邀请响应。 转到任何会话，选择&#x200B;**[!UICONTROL 学习者]**，然后从下拉菜单中选择邀请响应。
+只有在ACAP管理员启用了&#x200B;**[!UICONTROL 邀请回复]**&#x200B;选项时，讲师才能捕获学习者的邀请响应。 要启用此功能，管理员需要通过[learningmanagersupport@adobe.com](mailto:learningmanagersupport@adobe.com)联系支持团队。
+
+完成后，您可以在&#x200B;**[!UICONTROL 学习者]**&#x200B;部分中查看邀请响应。 转到任何会话，选择&#x200B;**[!UICONTROL 学习者]**，然后从下拉菜单中选择邀请响应。
 
 ![](assets/invitation-status.png)
 

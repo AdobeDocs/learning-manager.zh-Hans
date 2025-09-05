@@ -4,10 +4,10 @@ jcr-language: en_us
 title: 配对帐户
 contentowner: shhivkum
 exl-id: 251d0eeb-f5e8-4f70-a36c-dcecb4834042
-source-git-commit: f964dd3f1adeadb76f4843c9af229ce5f09afde1
+source-git-commit: 05a8b4da646f0b2e4a14aa26159c3e8cfdde35fe
 workflow-type: tm+mt
-source-wordcount: '638'
-ht-degree: 57%
+source-wordcount: '696'
+ht-degree: 52%
 
 ---
 
@@ -53,6 +53,18 @@ Adobe Learning Manager 已推出配对帐户功能，可让您共享已购买的
 1. 单击“添加”以添加配对帐户。
 
    如果管理员与配对帐户共享名额，那么配对帐户无法与其他任何人共享这些名额。 但是，配对帐户可单独购买并共享一些名额。
+
+## 查看配对帐户共享的名额
+
+管理员可以在管理员界面上查看配对帐户共享的名额数。
+
+要查看配对帐户共享的名额，请执行以下操作：
+
+1. 以管理员身份登录Adobe Learning Manager。
+2. 选择&#x200B;**[!UICONTROL 用户]**，然后选择&#x200B;**[!UICONTROL 内部]**。
+
+![](assets/peer-account-seats.png)
+_显示配对帐户共享名额数的用户部分_
 
 ## 查看与配对帐户关联的报告 {#viewreportsassociatedwithpeeraccounts}
 

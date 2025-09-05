@@ -855,7 +855,7 @@ Adobe Learning Manager 能让您轻松快速找到您想选择的课程。您可
 1. 使用 Adobe 凭据登录。如果没有 Adobe ID，请单击&#x200B;**[!UICONTROL “创建帐户”]**。授权后，您将被定向到模块发布页面。
 1. 提供有关模块的所有基本信息并单击“发布”。
 
-您可以在 Adobe Learning Manager 模块页面查看已发布的模块。有关更多信息，请参阅[发布项目至 Adobe Learning Manager](https://helpx.adobe.com/captivate/classic/publish-project-to-captivate-prime.html)。
+您可以在 Adobe Learning Manager 模块页面查看已发布的模块。有关更多信息，请参阅[发布项目至 Adobe Learning Manager](https://helpx.adobe.com/cn/captivate/classic/publish-project-to-captivate-prime.html)。
 
 ## 课程效果 {#courseeffectiveness}
 

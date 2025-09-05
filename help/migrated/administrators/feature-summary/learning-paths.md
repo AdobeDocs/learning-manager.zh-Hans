@@ -4,9 +4,9 @@ title: 学习路径
 description: 在 Adobe Learning Manager 中为管理员创建学习计划。
 contentowner: saghosh
 exl-id: 31f1d66f-4da1-49d2-8ec1-995fd2ebeadb
-source-git-commit: c365dca377e8c6ad7bb9489c6fe043e72660c54e
+source-git-commit: a01ec6117ad49a1f9af0b31d48ad19ddc8443dde
 workflow-type: tm+mt
-source-wordcount: '1430'
+source-wordcount: '1442'
 ht-degree: 32%
 
 ---
@@ -133,7 +133,7 @@ ht-degree: 32%
 
 在&#x200B;**课程**&#x200B;磁贴中，您可以看到对已注册此实例的学习者可见的课程实例。
 
-**[!UICONTROL 支持学习者选择实例（灵活学习路径）]**&#x200B;复选框仅适用于课程。 所有子学习路径均提供一个选项，用于将学习计划实例与学习路径映射。 默认情况下，映射设置为“默认实例”。
+**[!UICONTROL 支持学习者选择实例（灵活学习路径）]**&#x200B;复选框仅适用于课程。 此选项允许学习者在学习路径中切换实例。 所有子学习路径均提供一个选项，用于将学习计划实例与学习路径映射。 默认情况下，映射设置为“默认实例”。
 
 ![](assets/default-instance.png)
 

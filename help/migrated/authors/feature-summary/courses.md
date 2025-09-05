@@ -4,10 +4,10 @@ jcr-language: en_us
 title: 创建、修改和发布课程
 contentowner: manochan
 exl-id: c5257796-0afa-4021-bd17-d3f1e9a86948
-source-git-commit: a3a36fb1c68fb48809ad77b0d0a7ffa3daebe79e
+source-git-commit: a01ec6117ad49a1f9af0b31d48ad19ddc8443dde
 workflow-type: tm+mt
-source-wordcount: '7433'
-ht-degree: 70%
+source-wordcount: '7540'
+ht-degree: 69%
 
 ---
 
@@ -518,7 +518,7 @@ Adobe Learning Manager为作者提供了创建、编辑和管理由多个内容�
 3. 选择任意课程，然后选择&#x200B;**[!UICONTROL 编辑]**。
 4. 选择要更改的模块。
 5. 更改标题和说明。
-6. 使用&#x200B;**内容**&#x200B;选项选择模块。
+6. 使用&#x200B;**内容**选项选择模块。
    ![](assets/replace-the-module.png)
 7. 选择&#x200B;**[!UICONTROL 完成]**。
 8. 选择&#x200B;**[!UICONTROL 重新发布]**。
@@ -737,7 +737,19 @@ Adobe Learning Manager为作者提供了创建、编辑和管理由多个内容�
 
 ## 弃用课程 {#retireacourse}
 
+管理员可以为Adobe Learning Manager帐户启用注销选项。 此功能允许管理员弃用课程，从而使新注册者无法使用该课程，同时允许当前已注册的学习者保留访问权限。
+
 即使学习者已注册或已完成课程，弃用课程也会隐藏该课程。 如果弃用课程，则新的学习者无法再注册该课程。已经注册的学习者仍可参加课程。
+
+要为Adobe Learning Manager帐户启用“注销”选项，请执行以下操作：
+
+1. 以管理员身份登录Adobe Learning Manager。
+2. 选择&#x200B;**[!UICONTROL 设置]**，然后选择&#x200B;**[!UICONTROL 常规]**。
+3. 选择以下任一停用选项：
+   * 弃用后，已注册的学习者可以查看和执行操作，但尚未注册的学习者将失去访问权限。
+   * 弃用后，已注册和未注册的学习者都将失去访问权限。
+
+管理员可以从&#x200B;**[!UICONTROL 课程]**&#x200B;页面中弃用课程。
 
 要弃用课程，将鼠标悬停在课程卡的选项上，然后单击“弃用课程”。
 
@@ -843,7 +855,7 @@ Adobe Learning Manager 能让您轻松快速找到您想选择的课程。您可
 1. 使用 Adobe 凭据登录。如果没有 Adobe ID，请单击&#x200B;**[!UICONTROL “创建帐户”]**。授权后，您将被定向到模块发布页面。
 1. 提供有关模块的所有基本信息并单击“发布”。
 
-您可以在 Adobe Learning Manager 模块页面查看已发布的模块。有关更多信息，请参阅[发布项目至 Adobe Learning Manager](https://helpx.adobe.com/cn/captivate/classic/publish-project-to-captivate-prime.html)。
+您可以在 Adobe Learning Manager 模块页面查看已发布的模块。有关更多信息，请参阅[发布项目至 Adobe Learning Manager](https://helpx.adobe.com/captivate/classic/publish-project-to-captivate-prime.html)。
 
 ## 课程效果 {#courseeffectiveness}
 

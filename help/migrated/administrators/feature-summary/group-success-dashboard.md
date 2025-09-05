@@ -3,9 +3,9 @@ jcr-language: en_us
 title: 组成功信息板
 description: 了解有关Adobe Learning Manager中的“组成功仪表板”的更多信息
 exl-id: 2cfd0511-d77d-4e97-81e6-6caa8483cc64
-source-git-commit: 6880c5232ca20498d6fac517c4f0f786dfb8f6d5
+source-git-commit: a01ec6117ad49a1f9af0b31d48ad19ddc8443dde
 workflow-type: tm+mt
-source-wordcount: '1056'
+source-wordcount: '1083'
 ht-degree: 0%
 
 ---
@@ -37,13 +37,19 @@ Adobe Learning Manager中的组成功信息板(GSD)允许管理员和经理跨�
 管理员必须为帐户启用组成功信息板。 要启用组成功信息板，请执行以下步骤：
 
 1. 以管理员身份登录。
-2. 选择&#x200B;**[!UICONTROL 设置]**&#x200B;然后选择&#x200B;**[!UICONTROL 报表]**。
+2. 选择**[!UICONTROL 设置]**然后选择&#x200B;**[!UICONTROL 报表]**。
 3. 选择&#x200B;**[!UICONTROL 仪表板可见性]**&#x200B;切换。
 4. 键入仪表板名称（例如，**[!UICONTROL 商店经理仪表板]**）。
    ![](assets/enable-gsd.png)
    _仪表板名称、用户组和学习路径选择的字段_
 5. 选择&#x200B;**[!UICONTROL 概述可见性]**&#x200B;以在仪表板中启用概述部分。 您可通过此部分查看最多50名学习者的进度。
+
+   >[!NOTE]
+   >
+   >如果团队中学习者超过50人或学习对象超过50个，请转到&#x200B;**[!UICONTROL 学习者成绩单]**&#x200B;选项卡，而不是&#x200B;**[!UICONTROL 概述]**&#x200B;选项卡。
+
 6. 对于&#x200B;**[!UICONTROL 学习者成绩单]**&#x200B;部分，请选择您想要查看的所需列。
+
 
    * 学习者无法注册此类课程。
    * 路径和课程
@@ -86,7 +92,7 @@ Adobe Learning Manager中的组成功信息板(GSD)允许管理员和经理跨�
 
 7. 选择&#x200B;**[!UICONTROL 创建仪表板]**。
 
-对于大型团队，请在&#x200B;**[!UICONTROL 学习者成绩单]**&#x200B;选项卡中选择&#x200B;**默认目录**&#x200B;和&#x200B;**所有学习者**&#x200B;用户组来创建信息板。 其中包括&#x200B;**[!UICONTROL “学习者成绩单”]**&#x200B;视图中的所有课程和学习者，可以更轻松地搜索和跟踪每个学习者的进度。
+对于大型团队，请在&#x200B;**学习者成绩单**&#x200B;选项卡中选择&#x200B;**默认目录**&#x200B;和&#x200B;**[!UICONTROL 所有学习者]**&#x200B;用户组来创建信息板。 其中包括&#x200B;**[!UICONTROL “学习者成绩单”]**&#x200B;视图中的所有课程和学习者，可以更轻松地搜索和跟踪每个学习者的进度。
 
 ### 查看组成功信息板
 

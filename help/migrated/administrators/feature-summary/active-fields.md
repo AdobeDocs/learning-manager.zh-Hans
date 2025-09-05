@@ -3,9 +3,9 @@ description: 了解如何使用Adobe Learning Manager中的活动字段来捕获
 jcr-language: en_us
 title: 在Adobe Learning Manager中配置活动字段
 exl-id: e68300d6-9f19-4e42-b485-c4bbbbcf5518
-source-git-commit: 0dade561e53e46f879e22b53835b42d20b089b31
+source-git-commit: a01ec6117ad49a1f9af0b31d48ad19ddc8443dde
 workflow-type: tm+mt
-source-wordcount: '1012'
+source-wordcount: '1062'
 ht-degree: 0%
 
 ---
@@ -87,6 +87,10 @@ Adobe Learning Manager中的活动字段是自定义用户属性，可帮助管�
 
 3. 选择&#x200B;**保存**&#x200B;以应用更改。
 
+>[!NOTE]
+>
+>分配新角色不会影响自定义用户组。 但是，它将会影响自动生成的用户组，例如所有管理员、所有作者以及类似的基于角色的组。
+
 ## 多值活动字段
 
 多值活动字段允许您将多个值分配给单个用户属性，例如位置、职务或项目团队。 这有助于捕获更详细和更灵活的用户信息。
@@ -118,8 +122,10 @@ _用于在CSV上传期间启用值限制的复选框_
 
 ## 管理用户CSV导入中缺少的活动字段
 
-在某些情况下，管理员希望学习者在登录到Adobe Learning Manager时手动填写某些活动字段。 对于通过CSV文件导入的用户，此功能受支持。 请参阅此[文章](/help/migrated/administrators/feature-summary/add-users-user-groups.md)，了解如何批量添加用户。
+在某些情况下，管理员希望学习者在登录到Adobe Learning Manager时手动填写某些活动字段。 对于通过CSV文件导入的用户，此功能受支持。 请参阅此[文章](/help/migrated/administrators/feature-summary/add-users-user-groups.md)，了解如何批量添加用户。 根据Box FTP字段值，用户会自动添加到活动字段或基于角色的组中。 无法将它们添加到自定义组。
 
 如果CSV文件不包含所有活动字段，则管理员必须在导入后手动输入缺少的值。
 
-默认情况下，每个活动字段都必须映射到源CSV中的相应字段。 但是，如果您不想将特定的活动字段映射到CSV中的任何列，则可以在Box和FTP导入过程中从下拉列表中选择值&#x200B;**DontImportFromSource**。 通过FTP或Box连接器导入用户时，可使用此选项。 有关连接器的更多信息，请参阅此[文章](https://experienceleague.adobe.com/zh-hans/docs/learning-manager/using/integration/connectors)。
+默认情况下，每个活动字段都必须映射到源CSV中的相应字段。 但是，如果您不想将特定的活动字段映射到CSV中的任何列，则可以在Box和FTP导入过程中从下拉列表中选择值&#x200B;**DontImportFromSource**。 通过FTP或Box连接器导入用户时，可使用此选项。 有关连接器的更多信息，请参阅此[文章](https://experienceleague.adobe.com/en/docs/learning-manager/using/integration/connectors)。
+
+

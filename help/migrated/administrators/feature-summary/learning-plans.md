@@ -4,10 +4,10 @@ jcr-language: en_us
 title: 学习方案
 contentowner: manochan
 exl-id: 99e3d2f5-0bf0-4f4e-8874-8136af7c592a
-source-git-commit: 2a841234cd829d2a477d44e9cca095370ee25e51
+source-git-commit: a01ec6117ad49a1f9af0b31d48ad19ddc8443dde
 workflow-type: tm+mt
-source-wordcount: '1621'
-ht-degree: 61%
+source-wordcount: '1629'
+ht-degree: 60%
 
 ---
 
@@ -34,7 +34,8 @@ ht-degree: 61%
 
    ![](assets/add-learning-plandialog.png)
 
-1. 在&#x200B;**[!UICONTROL “Occurs when（执行时间）”]**&#x200B;下拉列表中，选择所需的事件。这些选项决定了学习者参加课程的时间。 选择活动类型后，请选择相应的培训、课程、学习计划或认证。
+1. 在&#x200B;**[!UICONTROL “Occurs when（执行时间）”]**下拉列表中，选择所需的事件。管理员一次可以添加一个事件。
+这些选项决定了学习者参加课程的时间。 选择活动类型后，请选择相应的培训、课程、学习计划或认证。
 
 >[!NOTE]
 >

@@ -4,10 +4,10 @@ title: 将Adobe Learning Manager与AEM集成
 description: Learning Manager是学习管理系统，具有内置的学习内容管理系统。 用户通过将学习内容上传至 Adobe Learning Manager 来对其进行管理，以便 Adobe Learning Manager 执行版本控制、将学习内容分配至相应课程、定义对学习者的可见性、跟踪使用情况并向管理员报告。
 contentowner: saghosh
 exl-id: 61fae7bd-1703-4ed1-9bd9-07387d67a91c
-source-git-commit: d487d87015e51f1b54ee3a2ed0a97398cfc09686
+source-git-commit: 65573768ca55978982d0c7bcdb0cd9009772197f
 workflow-type: tm+mt
-source-wordcount: '3006'
-ht-degree: 57%
+source-wordcount: '3117'
+ht-degree: 55%
 
 ---
 
@@ -52,7 +52,7 @@ Adobe Learning Manager (ALM) 与 Adobe Experience Manager (AEM) 站点集成。 
 
 >[!NOTE]
 >
->有关安装包的信息，请参阅&#x200B;[***如何使用包***](https://experienceleague.adobe.com/docs/experience-manager-65/administering/contentmanagement/package-manager.html?lang=zh-Hans#how-to-work-with-packages)。
+>有关安装包的信息，请参阅&#x200B;[***如何使用包***](https://experienceleague.adobe.com/docs/experience-manager-65/administering/contentmanagement/package-manager.html?lang=en#how-to-work-with-packages)。
 
 1. 以 AEM 作者示例打开 AEM Package Manager。
 1. 单击&#x200B;**[!UICONTROL “上传程序包”]**&#x200B;按钮。
@@ -322,7 +322,7 @@ Learning Manager组件要求在上一步中创建的配置映射到该页面。 
 
 学习者可以在页面中学习课程。
 
-为能够访问 Adobe Learning Manager 小组件，学习者应是已登录的 AEM 用户。此外，属性&#x200B;**email**&#x200B;应存在于学习者的rep：User节点的“/profile”节点中。 此电子邮件应与 Adobe Learning Manager 帐户中的电子邮件完全相同。
+为能够访问 Adobe Learning Manager 小组件，学习者应是已登录的 AEM 用户。此外，属性&#x200B;**email**&#x200B;应存在于学习者的rep:User节点的“/profile”节点中。 此电子邮件应与 Adobe Learning Manager 帐户中的电子邮件完全相同。
 
 学习者可以在页面中学习课程。
 
@@ -397,6 +397,22 @@ Skyline是AEM的云版本。 必须首先从包管理器安装Skyline。 要在A
  } 
 }
 ```
+
+### 在AEM站点中配置我保存的课程小组件
+
+“已保存的课程”小组件允许学习者直接在其学习页面上查看已添加书签或保存的课程，方便其访问想要重新访问或稍后完成的课程。
+
+要在AEM站点中配置“我保存的课程”小组件，请执行以下操作：
+
+1. 启动AEM站点。
+2. 在&#x200B;**[!UICONTROL 编辑]**&#x200B;模式下打开页面。
+3. 转到&#x200B;**[!UICONTROL 组件浏览器]**&#x200B;并将&#x200B;**[!UICONTROL 我的学习小部件]**&#x200B;添加到页面。
+4. 选择该组件，然后选择&#x200B;**[!UICONTROL 配置]**。
+5. 从&#x200B;**[!UICONTROL 属性]**&#x200B;的下拉菜单中选择&#x200B;**[!UICONTROL 我保存的课程]**。
+6. 选择“**[!UICONTROL 完成]**”，然后在“**[!UICONTROL 预览]**”或“**[!UICONTROL Publish]**”模式下刷新页面。
+
+小组件会向学习者显示已保存的课程。
+
 
 ### 忽略高阶学习对象注册
 

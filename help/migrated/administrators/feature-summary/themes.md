@@ -4,10 +4,10 @@ jcr-language: en_us
 title: 颜色主题
 contentowner: jayakarr
 exl-id: 8616e38a-023f-4acb-ac68-df71a5153ad2
-source-git-commit: a01ec6117ad49a1f9af0b31d48ad19ddc8443dde
+source-git-commit: 7a096b4d28cf5b13f16291b0d3cb1dc5e8b04ba8
 workflow-type: tm+mt
-source-wordcount: '1261'
-ht-degree: 43%
+source-wordcount: '1295'
+ht-degree: 42%
 
 ---
 
@@ -86,6 +86,8 @@ Learning Manager应用程序为用户提供了五个颜色主题选项：
 在预览实时更改时，实时主题预览弹窗仍会显示在屏幕底部。 您可以选择将其最小化。
 
 ## 多个品牌 {#multiple-branding}
+
+管理员可以在公司中应用多种品牌推广样式。 品牌推广可以根据活动字段进行自定义，允许不同的用户组体验根据其个人资料或角色定制的品牌推广。
 
 以下是如何实施多个品牌推广的：
 

@@ -4,10 +4,10 @@ title: 将Adobe Learning Manager与AEM集成
 description: Learning Manager是学习管理系统，具有内置的学习内容管理系统。 用户通过将学习内容上传至 Adobe Learning Manager 来对其进行管理，以便 Adobe Learning Manager 执行版本控制、将学习内容分配至相应课程、定义对学习者的可见性、跟踪使用情况并向管理员报告。
 contentowner: saghosh
 exl-id: 61fae7bd-1703-4ed1-9bd9-07387d67a91c
-source-git-commit: aa8a45427e7e78ac66a21531a9511bf9a21d03b4
+source-git-commit: 7a096b4d28cf5b13f16291b0d3cb1dc5e8b04ba8
 workflow-type: tm+mt
-source-wordcount: '3116'
-ht-degree: 55%
+source-wordcount: '3138'
+ht-degree: 54%
 
 ---
 
@@ -36,7 +36,7 @@ Adobe Learning Manager (ALM) 与 Adobe Experience Manager (AEM) 站点集成。 
 
 在保证 AEM 站点的环境安全后，必须安装 ALM 参考站点包。 此站点包中包含 AEM 网页和网站组件，可帮助您构建学习平台。
 
-引用站点包托管在&#x200B;[**GitHub存储库**](https://github.com/adobe/adobe-learning-manager-reference-site/releases/tag/1.0.0)上。
+引用站点包托管在&#x200B;[**GitHub存储库**](https://github.com/adobe/adobe-learning-manager-reference-site/releases)上。
 
 有关更多信息，请参阅说明文件。
 
@@ -52,7 +52,7 @@ Adobe Learning Manager (ALM) 与 Adobe Experience Manager (AEM) 站点集成。 
 
 >[!NOTE]
 >
->有关安装包的信息，请参阅&#x200B;[***如何使用包***](https://experienceleague.adobe.com/docs/experience-manager-65/administering/contentmanagement/package-manager.html?lang=zh-Hans#how-to-work-with-packages)。
+>有关安装包的信息，请参阅&#x200B;[***如何使用包***](https://experienceleague.adobe.com/docs/experience-manager-65/administering/contentmanagement/package-manager.html?lang=en#how-to-work-with-packages)。
 
 1. 以 AEM 作者示例打开 AEM Package Manager。
 1. 单击&#x200B;**[!UICONTROL “上传程序包”]**&#x200B;按钮。
@@ -413,6 +413,7 @@ Skyline是AEM的云版本。 必须首先从包管理器安装Skyline。 要在A
 
 小组件会向学习者显示已保存的课程。
 
+在目录中应用其他筛选器时，仅显示与该筛选器匹配的结果。 已添加书签的项目不会自动包括在内。
 
 ### 忽略高阶学习对象注册
 

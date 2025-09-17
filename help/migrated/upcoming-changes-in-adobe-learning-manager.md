@@ -2,9 +2,9 @@
 title: Adobe Learning Manager 10月版的新增功能
 description: 了解Adobe Learning Manager 2025年10月版的新增功能、改进和重要更新。
 exl-id: 4d2129c4-42d8-446f-8837-879b5c2f42bf
-source-git-commit: a01ec6117ad49a1f9af0b31d48ad19ddc8443dde
+source-git-commit: 7217001ed6d4f19f43e0bed83813a956e85bd9c2
 workflow-type: tm+mt
-source-wordcount: '8390'
+source-wordcount: '8348'
 ht-degree: 0%
 
 ---
@@ -74,12 +74,6 @@ _学习者成绩单报告会以黄色显示一个新列，突出显示所有用�
 * 通过集成功能支持下游用户管理工作流程。
 * 改进了组织映射，并更好地了解报告关系。
 * 保持组织界限并防止意外交叉通信。
-
-**重要注意事项**
-
-* 如果自定义管理员的作用域发生更改，则受影响的公告会显示一个警告图标，并要求重置各个作用域。
-* 当范围发生更改时，必须单独更新每个公告。
-* “ Notification Announcement ”报告仅显示自定义管理员分配范围内的学习者。
 
 ### 包含新列的用户报告
 
@@ -1732,4 +1726,4 @@ Custom administrators can create announcements only for the user groups or catal
 * The format of the report will remain unchanged. If custom administrators download it from the User Interface, the content of the report will be subject to their scope. 
 * No modifications are necessary if this report is not utilized in any automated or downstream workflow.
 
-See the [Release notes](https://experienceleague.adobe.com/zh-hans/docs/learning-manager/using/introduction/release-notes) article for a cumulative list of new features and changes to Adobe Learning Manager.-->
+See the [Release notes](https://experienceleague.adobe.com/en/docs/learning-manager/using/introduction/release-notes) article for a cumulative list of new features and changes to Adobe Learning Manager.-->

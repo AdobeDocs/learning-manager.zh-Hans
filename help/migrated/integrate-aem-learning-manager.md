@@ -4,9 +4,9 @@ title: 将Adobe Learning Manager与AEM集成
 description: Learning Manager是学习管理系统，具有内置的学习内容管理系统。 用户通过将学习内容上传至 Adobe Learning Manager 来对其进行管理，以便 Adobe Learning Manager 执行版本控制、将学习内容分配至相应课程、定义对学习者的可见性、跟踪使用情况并向管理员报告。
 contentowner: saghosh
 exl-id: 61fae7bd-1703-4ed1-9bd9-07387d67a91c
-source-git-commit: 7a096b4d28cf5b13f16291b0d3cb1dc5e8b04ba8
+source-git-commit: ffd45cb8cb2d35817e8fc19d5256c14931e31ff3
 workflow-type: tm+mt
-source-wordcount: '3138'
+source-wordcount: '3163'
 ht-degree: 54%
 
 ---
@@ -52,7 +52,7 @@ Adobe Learning Manager (ALM) 与 Adobe Experience Manager (AEM) 站点集成。 
 
 >[!NOTE]
 >
->有关安装包的信息，请参阅&#x200B;[***如何使用包***](https://experienceleague.adobe.com/docs/experience-manager-65/administering/contentmanagement/package-manager.html?lang=zh-Hans#how-to-work-with-packages)。
+>有关安装包的信息，请参阅&#x200B;[***如何使用包***](https://experienceleague.adobe.com/docs/experience-manager-65/administering/contentmanagement/package-manager.html?lang=en#how-to-work-with-packages)。
 
 1. 以 AEM 作者示例打开 AEM Package Manager。
 1. 单击&#x200B;**[!UICONTROL “上传程序包”]**&#x200B;按钮。
@@ -411,7 +411,7 @@ Skyline是AEM的云版本。 必须首先从包管理器安装Skyline。 要在A
 5. 从&#x200B;**[!UICONTROL 属性]**&#x200B;的下拉菜单中选择&#x200B;**[!UICONTROL 我保存的课程]**。
 6. 选择“**[!UICONTROL 完成]**”，然后在“**[!UICONTROL 预览]**”或“**[!UICONTROL Publish]**”模式下刷新页面。
 
-小组件会向学习者显示已保存的课程。
+学习者可以在学习者主页上的&#x200B;**[!UICONTROL 由我保存]**&#x200B;部分中查看已保存的课程。选择&#x200B;**[!UICONTROL 由我保存]**&#x200B;部分会将学习者引导至目录页面并显示已添加书签的课程的确切数量。
 
 在目录中应用其他筛选器时，仅显示与该筛选器匹配的结果。 已添加书签的项目不会自动包括在内。
 

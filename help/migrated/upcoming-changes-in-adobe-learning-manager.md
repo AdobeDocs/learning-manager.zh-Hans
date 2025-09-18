@@ -2,9 +2,9 @@
 title: Adobe Learning Manager 10月版的新增功能
 description: 了解Adobe Learning Manager 2025年10月版的新增功能、改进和重要更新。
 exl-id: 4d2129c4-42d8-446f-8837-879b5c2f42bf
-source-git-commit: 7217001ed6d4f19f43e0bed83813a956e85bd9c2
+source-git-commit: ffd45cb8cb2d35817e8fc19d5256c14931e31ff3
 workflow-type: tm+mt
-source-wordcount: '8348'
+source-wordcount: '8361'
 ht-degree: 0%
 
 ---
@@ -1063,9 +1063,11 @@ Adobe Learning Manager现在支持在现有多增量用户导入工作流程（�
 * **角色状态(role.csv)**：指示系统中角色的当前状态。
 * **用户角色状态(user_role.csv)**：指示用户 — 角色关联的状态。
 
+>[!NOTE]
+>
+>上述CSV更改仅适用于使用增量用户的帐户。
+
 在此处下载[示例CSV](assets/sample-csv-Incremnetal.zip)。
-
-
 
 ## 在Salesforce应用程序中重置推荐
 
@@ -1726,4 +1728,4 @@ Custom administrators can create announcements only for the user groups or catal
 * The format of the report will remain unchanged. If custom administrators download it from the User Interface, the content of the report will be subject to their scope. 
 * No modifications are necessary if this report is not utilized in any automated or downstream workflow.
 
-See the [Release notes](https://experienceleague.adobe.com/zh-hans/docs/learning-manager/using/introduction/release-notes) article for a cumulative list of new features and changes to Adobe Learning Manager.-->
+See the [Release notes](https://experienceleague.adobe.com/en/docs/learning-manager/using/introduction/release-notes) article for a cumulative list of new features and changes to Adobe Learning Manager.-->

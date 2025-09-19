@@ -4,10 +4,10 @@ title: 将Adobe Learning Manager与AEM集成
 description: Learning Manager是学习管理系统，具有内置的学习内容管理系统。 用户通过将学习内容上传至 Adobe Learning Manager 来对其进行管理，以便 Adobe Learning Manager 执行版本控制、将学习内容分配至相应课程、定义对学习者的可见性、跟踪使用情况并向管理员报告。
 contentowner: saghosh
 exl-id: 61fae7bd-1703-4ed1-9bd9-07387d67a91c
-source-git-commit: ffd45cb8cb2d35817e8fc19d5256c14931e31ff3
+source-git-commit: 976dc0123cd44b7601b5a53e75dca7af5fadabca
 workflow-type: tm+mt
-source-wordcount: '3163'
-ht-degree: 54%
+source-wordcount: '3274'
+ht-degree: 52%
 
 ---
 
@@ -52,7 +52,7 @@ Adobe Learning Manager (ALM) 与 Adobe Experience Manager (AEM) 站点集成。 
 
 >[!NOTE]
 >
->有关安装包的信息，请参阅&#x200B;[***如何使用包***](https://experienceleague.adobe.com/docs/experience-manager-65/administering/contentmanagement/package-manager.html?lang=zh-Hans#how-to-work-with-packages)。
+>有关安装包的信息，请参阅&#x200B;[***如何使用包***](https://experienceleague.adobe.com/docs/experience-manager-65/administering/contentmanagement/package-manager.html?lang=en#how-to-work-with-packages)。
 
 1. 以 AEM 作者示例打开 AEM Package Manager。
 1. 单击&#x200B;**[!UICONTROL “上传程序包”]**&#x200B;按钮。
@@ -360,7 +360,20 @@ Skyline是AEM的云版本。 必须首先从包管理器安装Skyline。 要在A
 目录选项包含以下选项：
 
 * **[!UICONTROL 目录ID]：**&#x200B;需要显示培训的目录ID，以逗号分隔。
-* **[!UICONTROL 排序]：**&#x200B;培训的排序顺序。 选项有名称、日期、创建日期、注册日期等。
+* **[!UICONTROL 排序]：**&#x200B;培训的排序顺序。 以下是排序选项：
+   * 名称：按字母顺序从A到Z对学习对象进行排序。
+   * -name：按字母顺序将学习对象从Z排序到A。
+   * 日期：按日期升序排序。
+   * -date：按日期降序排序（最新先排）。
+   * dateCreated：按学习对象的创建日期排序（最早的在前）。
+   * -dateCreated：按创建日期排序（最新在前）。
+   * dateEnrolled：按学习者的注册日期（最早的优先）排序。
+   * -dateEnrolled：按注册日期（最近注册日期在前）排序。
+   * 评级：按学习者评级（从最低到最高）排序。
+   * -rating：按评级（从高到低）排序。
+   * dueDate：按课程的到期日排序（最早的截止日期在前）。
+   * 效果：根据学习者反馈按效果分数排序。
+   * 进度：按学习者进度排序（进度最慢到最多）。
 * **[!UICONTROL 学习者状态]：**&#x200B;返回所有符合以下筛选条件的培训：已注册、已开始、已完成和未注册。 如果排序选项为dateEnrolled、dueDate或dateEnrolled，则不会显示搜索结果。
 * **[!UICONTROL 技能名称]：**&#x200B;用于筛选具体训练的技能。
 * **[!UICONTROL 标记名称]：**&#x200B;用于筛选具体结果的标记。

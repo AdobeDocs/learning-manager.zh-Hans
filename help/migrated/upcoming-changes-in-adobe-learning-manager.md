@@ -2,9 +2,9 @@
 title: Adobe Learning Manager 10月版的新增功能
 description: 了解Adobe Learning Manager 2025年10月版的新增功能、改进和重要更新。
 exl-id: 4d2129c4-42d8-446f-8837-879b5c2f42bf
-source-git-commit: ffd45cb8cb2d35817e8fc19d5256c14931e31ff3
+source-git-commit: 40071158037ece57c8511a554ae69ca5701f32ad
 workflow-type: tm+mt
-source-wordcount: '8361'
+source-wordcount: '8349'
 ht-degree: 0%
 
 ---
@@ -1260,8 +1260,6 @@ Experience Builder提供了用于自定义门户外观的工具。 管理员可�
 
 已创建页面，并将其保存为“自定义页面”部分中的草稿。 管理员可以使用小组件编辑和设计草稿页面。
 
-按照相同的步骤为Illustrator等其他产品创建页面。
-
 #### Experience Builder中的“设计”页面
 
 Adobe Learning Manager使管理员能够使用可自定义的小组件设计符合其要求的页面。
@@ -1728,4 +1726,4 @@ Custom administrators can create announcements only for the user groups or catal
 * The format of the report will remain unchanged. If custom administrators download it from the User Interface, the content of the report will be subject to their scope. 
 * No modifications are necessary if this report is not utilized in any automated or downstream workflow.
 
-See the [Release notes](https://experienceleague.adobe.com/zh-hans/docs/learning-manager/using/introduction/release-notes) article for a cumulative list of new features and changes to Adobe Learning Manager.-->
+See the [Release notes](https://experienceleague.adobe.com/en/docs/learning-manager/using/introduction/release-notes) article for a cumulative list of new features and changes to Adobe Learning Manager.-->

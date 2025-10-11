@@ -135,7 +135,7 @@ c.通过启用&#x200B;**[!UICONTROL 包含技能数据和摘要表]**&#x200B;复
 | Highest_Quiz_score_max | 与学习者多次尝试所完成的最高测试尝试相关联的最大可能分数。 这不是学习者的最高分数。 相反，它会捕获学习者在尝试中可能获得的最高分数。 |
 | 已尝试的次数 | 学习者迄今为止尝试此模块的总次数。 |
 | 允许尝试次数上限 | 学习者允许尝试使用模块的最大次数。 |
-| 关于提交内容的评论 | 学习者经理在完成学习对象后的评论。<br>讲师提供的提交注释数据包含在文件提交模块中。 有关详细信息，请参阅<a href="https://experienceleague.adobe.com/en/docs/learning-manager/using/instructor/modules#filesubmissionforactivitymodules">Modules-Adobe Learning Manager。</a></br> |
+| 关于提交内容的评论 | 学习者经理在完成学习对象后的评论。<br>讲师提供的提交注释数据包含在文件提交模块中。 有关详细信息，请参阅<a href="https://experienceleague.adobe.com/zh-hans/docs/learning-manager/using/instructor/modules#filesubmissionforactivitymodules">Modules-Adobe Learning Manager。</a></br> |
 | 完成源 | 指用于记录学习者完成课程、学习计划或认证的源或方法。 它可帮助管理员了解如何完成任务或如何在系统中登录。 该列标识完成是自我报告、自动记录，还是由特定角色或配置推动。 <b>注意：</b>对于VC连接器出席工作流程，当学习者被标记为自动出席时，源将显示“SELF， (learner_email)”。 |
 | 完成评论 | 管理员在完成课程、认证或学习路径后将学习者标记为完成时添加的注释。 管理员可以为一个或多个学习者添加完成注释。 |
 
@@ -260,7 +260,7 @@ c.通过启用&#x200B;**[!UICONTROL 包含技能数据和摘要表]**&#x200B;复
 
 | 列 | 描述 |
 |---|---|
-| 之后 | 表示在规定时段（以天为单位）之前习得技能的学习者数，超过该时段后，技能将被视为过时或需要刷新。 识别技能成就接近或过期的学习者时非常有用。<br>查看<a href="https://experienceleague.adobe.com/en/docs/learning-manager/using/admin/skills-levels">技能级别</a>了解更多信息。 |
+| 之后 | 表示在规定时段（以天为单位）之前习得技能的学习者数，超过该时段后，技能将被视为过时或需要刷新。 识别技能成就接近或过期的学习者时非常有用。<br>查看<a href="https://experienceleague.adobe.com/zh-hans/docs/learning-manager/using/admin/skills-levels">技能级别</a>了解更多信息。 |
 | 名称 | 向其分配技能的学习者的全名。 |
 | 经理姓名 | 学习者报告经理的姓名。 |
 | 行标签 | 此行中显示的分配给学习者的特定技能名称。 用作分组标题，汇总每个技能类别下的学习者技能数据。 |

@@ -131,7 +131,7 @@ _Content update options_-->
 
 * 修复了内容模块更新为新版本后，已完成课程的学习者在重修课程时看到白色屏幕的问题。
 
-此外，有关即将对Adobe Learning Manager进行的更改的详细信息，请参阅此[文章](https://experienceleague.adobe.com/en/docs/learning-manager/using/introduction/upcoming-changes-in-adobe-learning-manager)。
+此外，有关即将对Adobe Learning Manager进行的更改的详细信息，请参阅此[文章](https://experienceleague.adobe.com/zh-hans/docs/learning-manager/using/introduction/upcoming-changes-in-adobe-learning-manager)。
 
 +++
 

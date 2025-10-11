@@ -139,8 +139,8 @@ Adobe Learning Manager提供AI支持的帮助，让管理员能够更轻松地�
 12. 在确认提示中选择&#x200B;**是**。
 13. 从&#x200B;**[!UICONTROL 选择要导入提示的播放列表]**&#x200B;中选择播放列表。
 
-   ![](assets/add-playlist-to-lp.png)
-   _从Adobe Learning Manager的Go1库中选择并导入Sales Engineer Skills Enhancement播放列表_
+    ![](assets/add-playlist-to-lp.png)
+    _从Adobe Learning Manager的Go1库中选择并导入Sales Engineer Skills Enhancement播放列表_
 
 14. 选择&#x200B;**[!UICONTROL 将播放列表添加到学习路径]**，然后选择&#x200B;**[!UICONTROL Publish]**。
 

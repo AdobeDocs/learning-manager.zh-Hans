@@ -4,10 +4,10 @@ jcr-language: en_us
 title: 设置
 contentowner: manochan
 exl-id: a563d955-f67e-4218-88df-625cde673601
-source-git-commit: a28ac8f57710c118ca4ad02872fd100c6f24beac
+source-git-commit: 8ccf5a9b0f9f928f7489ca5fec2a18e0ba43e2c1
 workflow-type: tm+mt
-source-wordcount: '3669'
-ht-degree: 64%
+source-wordcount: '3697'
+ht-degree: 63%
 
 ---
 
@@ -15,13 +15,13 @@ ht-degree: 64%
 
 了解管理员可配置的 Adobe Learning Manager 帐户设置。
 
-您可以更改管理员个人资料设置并更新自己的帐户设置。View your profile information, add/change profile photo, and modify **[!UICONTROL About me]** content. 更新公司信息，为用户设置登录方法，并通过帐户设置来设置连接集成。
+您可以更改管理员个人资料设置并更新自己的帐户设置。查看个人资料信息，添加/更改个人资料照片并修改&#x200B;**[!UICONTROL 关于我]**&#x200B;的内容。 更新公司信息，为用户设置登录方法，并通过帐户设置来设置连接集成。
 
 ![](assets/settings-admin.png)
 
-## Configure your Adobe Learning Manager
+## 配置您的Adobe Learning Manager
 
-This training captures the basics of account-level settings.
+本培训介绍了帐户级别设置的基础知识。
 
 [![按钮](assets/launch-training-button.png)](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/7476018)
 
@@ -213,7 +213,7 @@ This training captures the basics of account-level settings.
   <tr>
    <td>报告时区<br></td>
    <td>
-    <p>Set an account level preference to export the Learning Transcript in the following time zones:</p>
+    <p>设置帐户级首选项即可导出以下时区的学习成绩单：</p>
     <ul>
      <li>UTC（默认行为）</li>
      <li>帐户级时区首选项</li>
@@ -343,7 +343,7 @@ This training captures the basics of account-level settings.
    <td height="19">管理员可以启用及修改摘要电子邮件选项。</td>
   </tr>
   <tr>
-   <td height="20">From the Profile Settings on the learber app, a learner (not in the DND list) can opt to subscribe/unsubscribe to the digest email.</td>
+   <td height="20">在“学习者”应用的“个人资料设置”中，学习者（不在DND列表中）可以选择订阅/取消订阅摘要电子邮件。</td>
   </tr>
   <tr>
    <td height="20">启用训练卡图标</td>
@@ -357,10 +357,10 @@ This training captures the basics of account-level settings.
    <td height="19">要自定义页脚上的链接，请执行以下步骤：</td>
   </tr>
   <tr>
-   <td height="19">1. Click Add More, enter the name, and the URL or email id in the fields specified. 使用 http:// 或 https:// 作为 URL 的前缀。</td>
+   <td height="19">1.单击“添加更多”，在指定的字段中输入名称和URL或电子邮件ID。 使用 http:// 或 https:// 作为 URL 的前缀。</td>
   </tr>
   <tr>
-   <td height="19">2. To cascade the change across all locales, click Replicate. 这样可确保所有语言都获得此名称和 URL。</td>
+   <td height="19">2.要在所有区域设置中级联更改，请单击“复制”。 这样可确保所有语言都获得此名称和 URL。</td>
   </tr>
   <tr>
    <td height="19">3.要保存更改，请单击“保存”。 您可以看到一条确认更改的弹出消息。单击“确定”后，页脚将填充新添加的链接。</td>
@@ -376,7 +376,7 @@ This training captures the basics of account-level settings.
   </tr>
   <tr>
    <td rowspan="5" height="96">报告时区</td>
-   <td> Set an account level preference to export the Learning Transcript in the following time zones:</td>
+   <td> 设置帐户级首选项即可导出以下时区的学习成绩单：</td>
   </tr>
   <tr>
    <td height="19">UTC（默认行为）</td>
@@ -411,6 +411,10 @@ This training captures the basics of account-level settings.
    <td height="19">弃用</td>
    <td>选择以下任一停用选项：<li>弃用后，已注册的学习者可以查看和执行操作，但尚未注册的学习者将失去访问权限。</li><li>弃用后，已注册和未注册的学习者都将失去访问权限。</li><div><b>注意：</b>您可以从概述页面弃用课程、学习路径或认证。</div> </td>
   </tr>
+  <tr>
+   <td height="19">在搜索结果中显示所有已注册的课程</td>
+   <td>如果启用，学习者可以在搜索结果中查看课程，即使其已注册的学习路径或认证包含在该课程中。</td>
+  </tr>
  </tbody>
 </table>
 
@@ -420,7 +424,7 @@ This training captures the basics of account-level settings.
    <td>
     <p>学习路径</p></td>
    <td>
-    <p>如果<b>“启用学习路径的扩展功能”</b>选项已启用，管理员将能够在“学习路径”中加入新的“学习路径”，并将这些“学习路径”与“课程”相结合。该选项不可逆。<br></p></td>
+    <p>如果选择了<b>“启用学习路径的扩展功能”</b>选项，管理员将能够在“学习路径”中加入新的“学习路径”，并将这些“学习路径”与“课程”相结合。 该选项不可逆。<br></p></td>
   </tr>
   <tr>
    <td>
@@ -477,18 +481,18 @@ This training captures the basics of account-level settings.
 
 ## 个人资料设置 {#profilesettings}
 
-1. Click the drop-down arrow at the upper-right corner, adjacent to your photo/account and choose **[!UICONTROL Profile Settings]**.
-1. From the pop-up dialog, you can add/change a photo by hovering the mouse and by clicking **[!UICONTROL Edit]** in the profile photo area.
-1. Add/modify **[!UICONTROL About]** content by clicking **[!UICONTROL Edit]** adjacent to it.
+1. 单击右上角的下拉箭头，在照片/帐户旁边选择&#x200B;**[!UICONTROL 个人资料设置]**。
+1. 在弹出对话框中，可以将鼠标悬停在照片并单击个人资料照片区域的&#x200B;**[!UICONTROL 编辑]**&#x200B;来添加/更改照片。
+1. 通过单击旁边的&#x200B;**[!UICONTROL 编辑]**，添加/修改&#x200B;**[!UICONTROL 关于]**&#x200B;内容。
 1. 单击&#x200B;**[!UICONTROL 保存]。**
 
 ## 内容文件夹 {#content-folder}
 
-Learning Manager supports private content folders. 管理员可以使用自定义角色配置私有内容文件夹，并向特定的自定义作者提供其访问权限。 请注意，标准作者（也称为“拥有完整权限的作者”）仍有权访问帐户中的所有内容。 Hence Full Authors have access to all folders and all the content.
+Learning Manager支持私人内容文件夹。 管理员可以使用自定义角色配置私有内容文件夹，并向特定的自定义作者提供其访问权限。 请注意，标准作者（也称为“拥有完整权限的作者”）仍有权访问帐户中的所有内容。 因此，拥有完整权限的作者有权访问所有文件夹和所有内容。
 
 内容文件夹可由管理员配置。 只有经过配置后，内容文件夹才对作者可见，然后这些作者才可将内容放入一个或多个文件夹中。
 
-To add a content folder, in the Administrator app, click **[!UICONTROL Settings]** > **[!UICONTROL Content Folder]**.
+要添加内容文件夹，请在管理员应用中单击&#x200B;**[!UICONTROL 设置]** > **[!UICONTROL 内容文件夹]**。
 
 ![](assets/manage-content-folders.png)
 
@@ -571,22 +575,22 @@ To add a content folder, in the Administrator app, click **[!UICONTROL Settings]
 
 选择“**编辑**”以更改以下内容：
 
-* **Allow authors to create locations**: Once enabled, all the locations created by authors will be listed under &#39;All Locations&#39; tab. Learners will also see these locations under Catalog and calendar filters.
-* **Allow authors to modify and delete locations**:
-Once enabled, authors will be able to modify and delete all Classroom locations. The modifications by authors will be reflected across the platform, including reports.
+* **允许作者创建位置**：启用后，作者创建的所有位置都将列在“所有位置”选项卡下。 学习者还将在目录和日历过滤器下看到这些位置。
+* **允许作者修改和删除位置**：
+启用后，作者将能够修改和删除所有教室位置。 作者的修改将反映在整个平台中，包括报告。
 
 ## 常见问题解答 {#frequentlyaskedquestions}
 
 +++如何为内容库创建不同的文件夹？
 
-单击&#x200B;**[!UICONTROL 设置]** > **[!UICONTROL 内容文件夹]**。 To add a folder, click **[!UICONTROL Add]** on the upper-right corner, and in the dialog, enter the name and description of the folder.
+单击&#x200B;**[!UICONTROL 设置]** > **[!UICONTROL 内容文件夹]**。 要添加文件夹，请单击右上角的&#x200B;**[!UICONTROL “添加”]**，然后在对话框中输入文件夹的名称和说明。
 
 内容文件夹可由管理员配置。 只有经过配置后，内容文件夹才对作者可见，然后这些作者才可将内容放入一个或多个文件夹中。
 
 有关详细信息，请参阅[“内容文件夹”](settings.md#content-folder)部分。
 +++
 
-+++How to add financial year for the account?
++++如何为帐户添加财务年度？
 
 在“**[!UICONTROL 设置]**”>“**[!UICONTROL 基本信息]**”中，单击“**[!UICONTROL 更改]**”。 从&#x200B;**[!UICONTROL 财务年度开始日期]**&#x200B;下拉列表中，选择月份。
 +++

@@ -4,10 +4,10 @@ title: 管理 CSV 文件中的自定义角色
 description: 集成管理员可以通过 CSV 在其账户中批量添加多个自定义角色，并可将相应的角色分配给不同的用户。此方法可以自动创建相关自定义角色。
 contentowner: saghosh
 exl-id: fce2f457-2834-491a-8331-64086f5a51b5
-source-git-commit: f328076016d8c41455cad71f00d1dc9a1531e007
+source-git-commit: dfb83c88a39401f5ae9048d71fd19ca71569a14c
 workflow-type: tm+mt
-source-wordcount: '905'
-ht-degree: 81%
+source-wordcount: '992'
+ht-degree: 72%
 
 ---
 
@@ -178,7 +178,7 @@ ht-degree: 81%
 
 *选择“启用自动同步”选项*
 
-选中此项后，您即可在“同步时间”字段中指定确切时间，安排同步时间。 如果指定的同步时间为上午 12:00，自定义角色即会在每天指定的时间准时进行更新。
+选中此项后，您即可在“同步时间”字段中指定确切时间，安排同步时间。 如果将同步时间指定为12:00 AM，则自定义角色将在每天的指定时间完全更新。
 
 如果要按需同步数据，单击&#x200B;**[!UICONTROL “立即同步”]**。
 
@@ -189,3 +189,34 @@ ht-degree: 81%
 同样，在管理员用户界面上，无法为用户分配由 CSV 创建的可配置角色，因为这些角色不可用。
 
 然而，用户分配 CSV 可以分配由用户界面创建的角色。
+
+## 对自定义角色的增量和多增量支持
+
+管理员可以更高效地为增量用户分配自定义角色。 它们可以上传用户、角色和用户角色数据，而无需每次重新上传整个数据集。
+
+对于每个上传的用户导入文件，使用以下结构在FTP中创建单独的文件夹：
+
+```
+import/user/internal/
+     user1.csv
+     user2.csv
+     user3.csv
+
+UserRole/
+    user1_role.csv
+    user1_user_role.csv
+    user2_role.csv
+    user2_user_role.csv
+    user3_role.csv
+    user3_user_role.csv
+```
+
+**文件详细信息**
+
+* 用户导入文件：user1.csv
+* 角色文件：user1_role.csv
+* 用户 — 角色映射文件：user1_user_role.csv
+
+在此处下载[示例CSV](/help/migrated/assets/sample-csv-Incremnetal.zip)。
+
+每个用户导入文件都与其相应的角色和用户 — 角色映射文件直接关联，确保进行正确的增量处理。

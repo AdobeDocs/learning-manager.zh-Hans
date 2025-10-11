@@ -2,10 +2,10 @@
 user-guide-title: Adobe Learning Manager 指南
 breadcrumb-title: Learning Manager
 user-guide-description: Adobe Learning Manager 的文档
-source-git-commit: 9304c303d0be20e04aad2c0bc2092d1eaffaf53e
+source-git-commit: 5d50bd56b6663b26fc6db0ff33d19ad809e9bf6a
 workflow-type: tm+mt
-source-wordcount: '691'
-ht-degree: 78%
+source-wordcount: '760'
+ht-degree: 71%
 
 ---
 
@@ -14,13 +14,14 @@ ht-degree: 78%
 
 * [Adobe Learning Manager 用户指南](user-guide.md)
 * 简介 {#introduction}
-   * [Adobe Learning Manager 2025年10月版的新增功能](/help/migrated/upcoming-changes-in-adobe-learning-manager.md)
-   * [2025年5月新增功能摘要](/help/migrated/whats-new.md)
+   * [2025年10月新增功能摘要](/help/migrated/whats-new.md)
+   * [2025年5月新增功能摘要](/help/migrated/whats-new-may-2025.md)
    * [2024年11月新增功能摘要](/help/migrated/whats-new-nov-24.md)
    * [2024年7月新增功能摘要](whats-new-july-2024.md)
    * [2024年3月版新增功能](whats-new-march-2024.md)
    * [新增功能2023年11月](whats-new-november-2023.md)
    * [新增功能2023年7月](whats-new-2023-july.md)
+   * [Adobe Learning Manager中即将推出的更改](/help/migrated/upcoming-changes-in-adobe-learning-manager.md)
    * [发行说明](release-note/release-notes.md)
    * [系统要求](system-requirements.md)
    * [适用于 Microsoft Teams 的 Adobe Learning Manager 应用程序](adobe-learning-manager-app-microsoft-teams.md)
@@ -48,7 +49,25 @@ ht-degree: 78%
       * [活动字段](/help/migrated/administrators/feature-summary/active-fields.md)
    * [添加教室位置](administrators/feature-summary/classroom.md)
    * [创建课程实例和学习路径](administrators/feature-summary/courses.md)
-   * [内容市场](administrators/feature-summary/content-marketplace.md)
+   * Adobe Learning Manager中的Experience Builder {#experience-builder}
+      * [概述](/help/migrated/administrators/feature-summary/experience-builder/overview.md)
+      * [Experience Builder的核心组件](/help/migrated/administrators/feature-summary/experience-builder/components-in-experience-builder.md)
+      * Experience Builder中的页面 {#pages-in-experience-builder}
+         * [概述](/help/migrated/administrators/feature-summary/experience-builder/pages-overview.md)
+         * [在Experience Builder中创建自定义页面](/help/migrated/administrators/feature-summary/experience-builder/create-a-page.md)
+      * Experience Builder中的构件 {#widgets-in-experience-builder}
+         * [概述](/help/migrated/administrators/feature-summary/experience-builder/widget-overview.md)
+         * [添加和配置小组件](/help/migrated/administrators/feature-summary/experience-builder/add-a-widget.md)
+      * Experience Builder中的菜单 {#menu-in-experience-builder}
+         * [概述](/help/migrated/administrators/feature-summary/experience-builder/menu-overview.md)
+         * [创建菜单](/help/migrated/administrators/feature-summary/experience-builder/create-a-menu.md)
+      * Experience Builder中的自定义 {#customization-in-experience-builder}
+         * [概述](/help/migrated/administrators/feature-summary/experience-builder/customization-overview.md)
+         * [自定义Experience Builder](/help/migrated/administrators/feature-summary/experience-builder/customization-experience-builder.md)
+      * [Experience Builder准则和限制](/help/migrated/administrators/feature-summary/experience-builder/experience-builder-guidelines.md)
+   * 内容市场 {#content-marketplace}
+      * [内容市场](administrators/feature-summary/content-marketplace.md)
+      * [策划Go1课程到学习路径](administrators/feature-summary/content-marketplace/curate-go1-playlist.md)
    * [报告](administrators/feature-summary/reports.md)
    * [组成功信息板](/help/migrated/administrators/feature-summary/group-success-dashboard.md)
    * [学习路径](administrators/feature-summary/learning-paths.md)
@@ -81,6 +100,7 @@ ht-degree: 78%
    * [标记](administrators/feature-summary/tags.md)
    * [Adobe Learning Manager 内容目录](administrators/feature-summary/content-catalogs.md)
    * [自定义角色](administrators/feature-summary/custom-role.md)
+   * [公告权限的自定义角色](/help/migrated/administrators/feature-summary/create-custom-role-for-announcement.md)
    * [目录标签](administrators/feature-summary/catalog-labels.md)
    * [Adobe Learning Manager 中的 xAPI](authors/feature-summary/xapi.md)
    * [以管理员身份监测并审阅社交学习](administrators/feature-summary/social-learning-configurations-as-an-admin.md)

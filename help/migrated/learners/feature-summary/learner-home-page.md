@@ -4,10 +4,10 @@ title: 学习者主页
 description: 管理员启用沉浸式布局后，学习者在登录应用程序后，即可看到经过全面改进的用户界面。
 contentowner: saghosh
 exl-id: 71b495c7-a6c8-4e6e-9f00-ec93d7b483ad
-source-git-commit: c4eb9a7c4fca73bc029f9afad1f3d48725779d30
+source-git-commit: 92ddeb8ad58d78ac139e7106bf22e7f1ff45b5b0
 workflow-type: tm+mt
-source-wordcount: '1179'
-ht-degree: 40%
+source-wordcount: '1203'
+ht-degree: 39%
 
 ---
 
@@ -143,7 +143,11 @@ _合规性信息板构件_
 * 按月开展培训。 向左或向右滚动。
 * 您可注册的后续教室培训或虚拟教室培训。
 * 您已注册的后续教室培训或虚拟教室培训。
+* 您已完成的教室或虚拟教室会话
 * 得到经理批准的教室培训或虚拟教室培训。
+
+您可以应用过滤器&#x200B;**[!UICONTROL 仅查看已注册的会话]**&#x200B;以仅查看日历上的已注册会话。
+
 
 ## 社交动态 {#socialfeed}
 

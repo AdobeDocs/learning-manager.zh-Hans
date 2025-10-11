@@ -4,10 +4,10 @@ jcr-language: en_us
 title: 在Adobe Learning Manager中添加用户
 contentowner: manochan
 exl-id: 7df98f2b-c422-4733-8ce4-5489506d4fdf
-source-git-commit: 4350c192a70005fe37620e1ea083c6db8ece30e3
+source-git-commit: 07d7b03fb098d01b9d1514a2f1f1550d8421bc3d
 workflow-type: tm+mt
-source-wordcount: '2216'
-ht-degree: 1%
+source-wordcount: '2451'
+ht-degree: 2%
 
 ---
 
@@ -172,6 +172,37 @@ _显示可供内部用户使用的现有自行注册URL的列表视图_
 
 随后将一封验证电子邮件发给用户。 用户必须选择电子邮件中的链接才能激活其帐户并开始使用Adobe Learning Manager。
 
+### 下载用户报告
+
+管理员可以将用户数据作为综合报告进行导出和下载。 通过导出此数据，管理员可以跟踪学习者活动、监控帐户生命周期、识别非活动用户以及维护准确的记录以用于法规遵从性、审核和报告目的。
+
+要下载用户报告，请执行以下操作：
+
+1. 以管理员身份登录Adobe Learning Manager。
+2. 选择&#x200B;**用户**，然后选择&#x200B;**内部**。
+3. 选择&#x200B;**导出用户数据**。 报告准备好后，您将收到通知。
+
+   ![](assets/select-export-user-data.png)
+   _内部用户部分显示用于导出和下载用户报告的选项。_
+4. 选择通知并下载用户报告。
+
+该报告包含以下信息：
+
+* 姓名
+* 电子邮件
+* 状态
+* 添加日期 (UTC 时区)
+* 删除日期 (UTC 时区)
+* 上次登录日期(UTC 时区)
+* Adobe ID
+* 用户状态
+* 配置文件
+* 界面语言
+* 内容语言
+* 时区
+* 内部用户 ID
+* 经理电子邮件
+
 ## 外部用户
 
 Adobe Learning Manager允许您添加公司以外的用户（例如客户、合作伙伴、供应商或客户）访问学习内容。 添加课程后，您可以将其分组、分配课程并跟踪其学习进度。
@@ -239,7 +270,7 @@ _复制外部配置文件的注册URL_
 | 内部用户 | 外部用户 |
 |---|---|
 | 可以使用Adobe ID或SSO凭据登录。 | 可以使用任何电子邮件ID登录。 |
-| 游戏功能可用。 | 游戏功能可用。 管理员必须在[游戏设置](https://experienceleague.adobe.com/zh-hans/docs/learning-manager/using/admin/gamification)中为外部学习者启用游戏。 |
+| 游戏功能可用。 | 游戏功能可用。 管理员必须在[游戏设置](https://experienceleague.adobe.com/en/docs/learning-manager/using/admin/gamification)中为外部学习者启用游戏。 |
 
 ### 暂停外部注册配置文件
 
@@ -266,6 +297,32 @@ _从“操作”菜单中暂停现有外部注册配置文件的选项_
 
 ![](assets/resume-an-external-user.png)
 _恢复以前暂停的外部注册个人资料的选项_
+
+### 更改外部个人资料
+
+管理员可以将学习者从一个外部个人资料重新分配给另一个个人资料。
+
+要更改外部个人资料，请执行以下操作：
+
+1. 以管理员身份登录Adobe Learning Manager。
+2. 选择&#x200B;**[!UICONTROL 用户]**，然后选择&#x200B;**[!UICONTROL 外部]**。
+3. 在外部个人资料列表中选择&#x200B;**[!UICONTROL 使用的坐席]**。
+
+   ![](assets/select-learners-external-profile.png)
+   _显示已用名额数的外部个人资料部分_
+
+4. 选择学习者，然后选择&#x200B;**[!UICONTROL 操作]**。
+
+   ![](assets/select-change-profile-external-learner.png)
+   _突出显示“更改配置文件”选项的外部配置文件页面可将学习者移动到其他配置文件_
+
+5. 选择&#x200B;**[!UICONTROL 更改配置文件]**。
+6. 搜索并选择不同的外部个人资料。
+
+   ![](assets/search-and-select-profile.png)
+   _“更改配置文件”提示显示用于搜索外部配置文件的选项_
+
+选定的学习者将移至选定的外部个人资料。
 
 ### 监控外部座位使用情况
 

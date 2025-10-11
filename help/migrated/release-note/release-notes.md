@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Adobe Learning Manager发行说明
 contentowner: jayakarr
 exl-id: ae9251b6-5326-42c2-881e-2ab3393d9e17
-source-git-commit: ffb4883227f1e461df5fc4a025fef1ba1b8568c2
+source-git-commit: 5d50bd56b6663b26fc6db0ff33d19ad809e9bf6a
 workflow-type: tm+mt
-source-wordcount: '27312'
-ht-degree: 69%
+source-wordcount: '27340'
+ht-degree: 70%
 
 ---
 
@@ -22,6 +22,15 @@ ht-degree: 69%
   </tr>
  </tbody>
 </table>-->
+
++++更新102：Adobe Learning Manager 2025年10月版
+
+**发布日期**：2025年10月12日
+
+## 此版本中新增的功能
+
+有关详细信息，请参阅[Adobe Learning Manager 2025年10月版中的新增功能](/help/migrated/whats-new.md)。
++++
 
 +++更新101：Adobe Learning Manager 2025年7月版
 
@@ -93,7 +102,7 @@ Adobe Learning Manager现在为作者提供了更清晰的选项来管理内容�
 
 | 旧标签 | 新选项 |
 |---|---|
-| 将内容更新应用于所有学习者 | 立即更新所有学习者：为所有学习者应用内容更新 |
+| 将内容更新应用于所有学习者 | 立即更新所有学习者:Apply更新所有学习者的内容 |
 | 将更新应用于尚未开始的学习者 | 仅更新未开始学习者：仅对未开始学习者应用内容更新 |
 | 学习者完成更新后收到进行中更新 | 最终更新所有学习者：最终对所有学习者应用内容更新 |
 
@@ -122,7 +131,7 @@ _Content update options_-->
 
 * 修复了内容模块更新为新版本后，已完成课程的学习者在重修课程时看到白色屏幕的问题。
 
-此外，有关即将对Adobe Learning Manager进行的更改的详细信息，请参阅此[文章](https://experienceleague.adobe.com/zh-hans/docs/learning-manager/using/introduction/upcoming-changes-in-adobe-learning-manager)。
+此外，有关即将对Adobe Learning Manager进行的更改的详细信息，请参阅此[文章](https://experienceleague.adobe.com/en/docs/learning-manager/using/introduction/upcoming-changes-in-adobe-learning-manager)。
 
 +++
 
@@ -132,7 +141,7 @@ _Content update options_-->
 
 ## 此版本中新增的功能
 
-查看[“Adobe Learning Manager 新增功能”](/help/migrated/whats-new.md)了解更多信息。
+查看[“Adobe Learning Manager 新增功能”](/help/migrated/whats-new-may-2025.md)了解更多信息。
 +++
 
 +++更新99：Adobe Learning Manager 2025年2月版
@@ -191,7 +200,7 @@ Adobe Learning Manager (ALM)现在接受语言的SAML属性。 然后将该属�
 查看[“Adobe Learning Manager 新增功能”](/help/migrated/whats-new-november-2023.md)了解更多信息。
 +++
 
-+++更新94
++++更新 94
 
 **发行日期：** 2023年8月23日
 
@@ -222,7 +231,7 @@ Adobe Learning Manager 引入了一个经改良的全新课程推荐系统。 �
 有关更多信息，请参阅[Adobe Learning Manager 2023年7月版中的新增功能](/help/migrated/whats-new-2023-july.md)。
 +++
 
-+++更新：92
++++更新 92
 
 **发行日期：** 2023 年 6 月 23 日
 
@@ -240,7 +249,7 @@ Adobe Learning Manager 引入了一个经改良的全新课程推荐系统。 �
 * 添加一个菜单，以便在播放视频时选择屏幕分辨率。
 +++
 
-+++更新91
++++更新 91
 
 **发行日期：** 2023年6月1日
 
@@ -262,7 +271,7 @@ Adobe Learning Manager 引入了一个经改良的全新课程推荐系统。 �
 * 在单个或多个实例中将学习者的课程标记为完成后，课程中的所有学习者均将被标记为完成，而不仅仅是当前实例中的学习者。
 +++
 
-+++更新90
++++更新 90
 
 **发行日期：** 2023 年 4 月 4 日
 
@@ -380,7 +389,7 @@ Microsoft Teams 上的新 Adobe Learning Manager 应用程序旨在加强工作�
 * 您将无法登录 LinkedIn 学习。
 +++
 
-+++更新88
++++更新 88
 
 **发行日期：** 2023 年 3 月 7 日
 
@@ -390,7 +399,7 @@ Microsoft Teams 上的新 Adobe Learning Manager 应用程序旨在加强工作�
 我们优化了大量用户注册学习计划时的处理流程， 这样可以避免任何搜索问题或滞后。
 +++
 
-+++更新87
++++更新 87
 
 **发行日期：** 2023 年 3 月 1 日
 
@@ -400,7 +409,7 @@ Microsoft Teams 上的新 Adobe Learning Manager 应用程序旨在加强工作�
 * 将GetNotificationData从GET更改为POST。 原始实现生成了错误&#x200B;**IllegalArgumentException：请求标头太大**，导致通知失败。
 +++
 
-+++更新：86
++++更新 86
 
 **发行日期：** 2023 年 2 月 17 日
 
@@ -409,7 +418,7 @@ Microsoft Teams 上的新 Adobe Learning Manager 应用程序旨在加强工作�
 在学习者应用程序中，由于区域设置存在一些问题，无法搜索用户和用户组。
 +++
 
-+++更新85
++++更新 85
 
 **发行日期：** 2023年2月13日
 
@@ -423,7 +432,7 @@ Microsoft Teams 上的新 Adobe Learning Manager 应用程序旨在加强工作�
 如果课程的同一区域设置有多个变体，课程元数据则会被覆盖。
 +++
 
-+++更新84
++++更新 84
 
 **发行日期：** 2023年2月2日
 
@@ -466,7 +475,7 @@ Microsoft Teams 上的新 Adobe Learning Manager 应用程序旨在加强工作�
 * 对于少数区域设置，电子邮件模板中缺少电子邮件正文中的某些内容，并且模板中的语言翻译不一致。
 +++
 
-+++更新83
++++更新 83
 
 **发行日期：** 2023 年 1 月 18 日
 
@@ -502,7 +511,7 @@ Microsoft Teams 上的新 Adobe Learning Manager 应用程序旨在加强工作�
 * 其中包含多个用户模板的模板，其主题被某些值覆盖。
 +++
 
-+++更新82
++++更新 82
 
 **发行日期：** 2022年12月15日
 
@@ -521,7 +530,7 @@ Microsoft Teams 上的新 Adobe Learning Manager 应用程序旨在加强工作�
 * 加入 Zoom/BJ VC 会话时，未正确识别用户。
 +++
 
-+++更新81 - 2022年11月版Adobe Learning Manager
++++更新81 - Adobe Learning Manager 2022年11月版
 
 **发行日期：** 2022年11月5日
 
@@ -562,7 +571,7 @@ Microsoft Teams 上的新 Adobe Learning Manager 应用程序旨在加强工作�
 * 在某些情况下，测验分数图表无法按预期显示。 调整图表大小时，开始处会显示一个空白。 此外，未显示所有问题，并且间歇性地显示错误的数据。
 +++
 
-+++更新80
++++更新 80
 
 **发行日期：** 2022年9月20日
 
@@ -575,7 +584,7 @@ Microsoft Teams 上的新 Adobe Learning Manager 应用程序旨在加强工作�
 * 增强了应用程序的性能。
 +++
 
-+++更新79
++++更新 79
 
 **发行日期：** 2022年8月18日
 
@@ -592,7 +601,7 @@ Microsoft Teams 上的新 Adobe Learning Manager 应用程序旨在加强工作�
 * 尝试将已集成的 Adobe Connect 帐户与另一个 Adobe Learning Manager 帐户集成时，系统会显示一条错误消息。
 +++
 
-+++更新78
++++更新 78
 
 **发行日期：** 2022 年 8 月 4 日
 
@@ -605,7 +614,7 @@ Microsoft Teams 上的新 Adobe Learning Manager 应用程序旨在加强工作�
 * 品牌推广页面上的子域URL不正确。
 +++
 
-+++更新77
++++更新 77
 
 **发行日期：** 2022 年 5 月 24 日
 
@@ -633,7 +642,7 @@ Microsoft Teams 上的新 Adobe Learning Manager 应用程序旨在加强工作�
 请与您公司的 IT 部门合作完成此操作。 有关详细信息，请通过`learningmanagersupport@adobe.com`联系我们。
 +++
 
-+++更新76
++++更新 76
 
 **发行日期：** 2022年4月20日
 
@@ -645,7 +654,7 @@ Microsoft Teams 上的新 Adobe Learning Manager 应用程序旨在加强工作�
 * 徽章 PDF 上显示的完成日期不正确。
 +++
 
-+++更新75
++++更新 75
 
 **发行日期：** 2022年3月29日
 
@@ -653,7 +662,7 @@ Microsoft Teams 上的新 Adobe Learning Manager 应用程序旨在加强工作�
 * 在 Adobe Learning Manager 的往期版本中，要配置 Zoom 连接器，必须先配置 Exavault FTP 才能复制 csv 文件。在此版本中，FTP 连接器将不再用于 csv 文件，因此您无需先配置 FTP。
 +++
 
-+++更新74：Learning Manager AWS印度实例
++++更新 74：Adobe Learning Manager AWS 印度实例
 
 **发行日期：** 2022年2月15日
 
@@ -686,14 +695,14 @@ Adobe Learning Manager 印度实例所提供的功能体验可以与欧盟和美
 是。新实例符合通用控制框架 (CCF) 规定要求。
 +++
 
-+++更新73
++++更新 73
 
 发行日期：2022 年 2 月 5 日
 
 * 电子邮件模板现在可支持内容语言，包括匈牙利语和芬兰语。
 +++
 
-+++更新72 - 2022年1月版Learning Manager
++++更新 72 - Adobe Learning Manager 2022 年 1 月版
 
 发行日期：2022年1月15日
 
@@ -795,7 +804,7 @@ For more information, see What's new in the [**January 2022 release of Adobe Lea
 * 在 Safari 移动浏览器中，学习者无法在“社交学习”页面中上传超过 200 MB 的文件。 这属于浏览器的限制。
 +++
 
-+++更新71
++++更新 71
 
 发布日期：2021 年 11 月 17 日
 
@@ -820,7 +829,7 @@ Learning Manager为所有管理员和经理提供合规性信息板。 经理发
 * 当管理员创建实例并添加新会话时，讲师不会收到会话邀请电子邮件。 Zoom VC 课程中会出现此问题。
 +++
 
-+++更新70
++++更新 70
 
 发行日期：2021 年 10 月 28 日
 
@@ -831,7 +840,7 @@ Learning Manager为所有管理员和经理提供合规性信息板。 经理发
 * 在某些情况下，学习对象 API 会返回元数据错误。
 +++
 
-+++更新69 - 2021年10月版Learning Manager
++++更新 69 - Adobe Learning Manager 2021 年 10 月版
 
 **发行日期**：2021 年 10 月 9 日
 
@@ -879,7 +888,7 @@ Adobe Learning Manager 2021年10月版&#x200B;**引入了学习路径的概念�
 * 为学习者生成的徽章 PDF 在非英语区域设置中生成时会出现格式问题。 此类问题现已修复。
 +++
 
-+++更新68
++++更新 68
 
 发行日期：2021 年 9 月 28 日
 
@@ -911,7 +920,7 @@ Adobe Learning Manager 2021年10月版&#x200B;**引入了学习路径的概念�
 * 学习者不会收到包含会话详细信息的邮件。
 +++
 
-+++更新67 - Azure更新
++++更新 67 - Azure 更新
 
 此更新引入新的 Azure 实例。
 
@@ -925,9 +934,9 @@ Adobe Learning Manager 2021年10月版&#x200B;**引入了学习路径的概念�
 
 +++
 
-+++更新66 - 2021年8月版Learning Manager
++++更新 66 - Adobe Learning Manager 2021 年 8 月版
 
-**2021年8月**&#x200B;**版Adobe Learning Manager**&#x200B;侧重于改进学习者体验、报告和管理工作流程。 其中一些亮点如下：
+**2021年8月****版Adobe Learning Manager**&#x200B;侧重于改进学习者体验、报告和管理工作流程。 其中一些亮点如下：
 
 * **内容市场：** Learning Manager现提供70000多门来自不同领域的课程，如技术、管理、领导力等。
 * **增强的辅助功能支持：**&#x200B;通过强化键盘导航、屏幕阅读器功能和对比度合规性，增强对学习者角色的辅助功能支持。
@@ -982,7 +991,7 @@ Adobe Learning Manager 2021年10月版&#x200B;**引入了学习路径的概念�
 * 在目录页上，课程不会按照预期进行排序。
 +++
 
-+++更新65
++++更新 65
 
 发行日期：2021 年 7 月
 
@@ -994,7 +1003,7 @@ Adobe Learning Manager 2021年10月版&#x200B;**引入了学习路径的概念�
 * 有关用户 GDPR 数据删除的问题。
 +++
 
-+++更新64
++++更新 64
 
 发行日期：2021 年 7 月
 
@@ -1004,7 +1013,7 @@ Adobe Learning Manager 2021年10月版&#x200B;**引入了学习路径的概念�
 * 生成作为徽章的自定义证书时，德语不支持该日期格式。
 +++
 
-+++更新63
++++更新 63
 
 发行日期：2021 年 6 月
 
@@ -1017,7 +1026,7 @@ Adobe Learning Manager 2021年10月版&#x200B;**引入了学习路径的概念�
 * 搜索具有多种技能的学习对象会产生意外结果。
 +++
 
-+++更新62
++++更新 62
 
 发行日期：2021 年 6 月
 
@@ -1031,7 +1040,7 @@ Adobe Learning Manager 2021年10月版&#x200B;**引入了学习路径的概念�
 * 文件提交 API 无法在 EU 集群中按预期工作。
 +++
 
-+++更新61
++++更新 61
 
 发行日期：2021 年 5 月
 
@@ -1044,7 +1053,7 @@ Adobe Learning Manager 2021年10月版&#x200B;**引入了学习路径的概念�
 * 音频模块未按预期上传。
 +++
 
-+++更新60
++++更新 60
 
 发行日期：2021 年 4 月
 
@@ -1135,7 +1144,7 @@ CaptivateLearning Manager移动应用程序3.3版本更新引入了全新的主�
 <!--## Previous update releases {#previousupdatereleases}-->
 +++
 
-+++更新60 - 2021年2月版Learning Manager
++++更新 60 - Adobe Learning Manager 2021 年 2 月版
 
 发行日期：2021 年 2 月 20 日
 
@@ -1254,7 +1263,7 @@ CaptivateLearning Manager移动应用程序3.3版本更新引入了全新的主�
 
 +++
 
-+++更新59
++++更新 59
 
 ## 更新 59
 
@@ -1273,7 +1282,7 @@ BlueJeans Events 连接器可连接 Adobe Learning Manager 和 BlueJeans 系统�
 
 +++
 
-+++更新58 - 2020年12月版Learning Manager
++++更新 58 - Adobe Learning Manager 2020 年 12 月版
 
 ## 更新 58 - Adobe Learning Manager 2020 年 12 月版
 
@@ -1325,7 +1334,7 @@ BlueJeans Events 连接器可连接 Adobe Learning Manager 和 BlueJeans 系统�
 
 +++
 
-+++更新57
++++更新 57
 
 ## 更新 57
 
@@ -1353,7 +1362,7 @@ BlueJeans Events 连接器可连接 Adobe Learning Manager 和 BlueJeans 系统�
 
 +++
 
-+++更新56 — 移动应用程序
++++更新 56 - 移动应用程序
 
 发行日期：2020 年 8 月 25 日
 
@@ -1389,7 +1398,7 @@ Adobe Learning Manager 现已在学习平台中支持 LinkedIn 学习课程。�
 
 +++
 
-+++更新55 - 2020年8月版Learning Manager
++++更新 55 - Adobe Learning Manager 2020 年 8 月版
 
 发行日期：2020 年 8 月 23 日
 
@@ -1521,7 +1530,7 @@ Adobe Learning Manager 现已在学习平台中支持 LinkedIn 学习课程。�
 
 +++
 
-+++更新54 — 移动应用程序
++++更新 54 - 移动应用程序
 
 ## 更新 54 - 移动应用程序
 
@@ -1552,7 +1561,7 @@ Adobe Learning Manager 现已在学习平台中支持 LinkedIn 学习课程。�
 
 +++
 
-+++更新53 - 2020年4月版Learning Manager
++++更新 53 - Adobe Learning Manager 2020 年 4 月版
 
 发行日期：2020 年 4 月 4 日
 
@@ -1570,7 +1579,7 @@ Adobe Learning Manager 2020 年 4 月版本侧重于以下内容：
 
 +++
 
-+++更新52 — 移动应用程序
++++更新 52 - 移动应用程序
 
 ## 更新 52 - 移动应用程序
 
@@ -1601,7 +1610,7 @@ Adobe Learning Manager 2020 年 4 月版本侧重于以下内容：
 
 学习者可以打开外部证书并上传 pdf、文本或图像文件等资产。
 
-有关详细信息，请参阅&#x200B;[***上传外部证书中的资产***](../learners/feature-summary/ipad-android-tablet-users.md#externalcert)。**&#x200B;**
+有关详细信息，请参阅&#x200B;[***上传外部证书中的资产***](../learners/feature-summary/ipad-android-tablet-users.md#externalcert)。****
 
 ### 此版本中修复的问题 {#issuesfixedinthisrelease}
 
@@ -1612,7 +1621,7 @@ Adobe Learning Manager 2020 年 4 月版本侧重于以下内容：
 
 +++
 
-+++更新51
++++更新 51
 
 在此更新中，您还可以更改学习对象的横幅图像。
 
@@ -1720,7 +1729,7 @@ Adobe Learning Manager 现在允许您自定义帐户，从而为用户提供更
 
 +++
 
-+++更新50
++++更新 50
 
 ## 更新 50
 
@@ -1855,7 +1864,7 @@ Adobe Learning Manager 现在还允许学习者通过 SSO 身份验证进入连�
 
 +++
 
-+++更新49
++++更新 49
 
 ## 更新 49
 
@@ -1912,7 +1921,7 @@ Adobe Learning Manager 现在还允许学习者通过 SSO 身份验证进入连�
 
 +++
 
-+++更新48
++++更新 48
 
 ## 更新 48
 
@@ -1920,7 +1929,7 @@ Adobe Learning Manager 现在还允许学习者通过 SSO 身份验证进入连�
 
 ### 新功能和增强功能 {#Newandenhancedfeatures-5}
 
-**为内部和外部用户区分社交学习中的范围**&#x200B;管理员可以为内部和外部学习者定义不同的范围。 新增了分别面向内外部用户的两个部分。在这两个部分中，您可定义各学习者组的相应范围。对于内部用户，您可以定义“用户特征”的值。对于外部用户，您可以定义外部个人资料，学习者可以在其中共享相同的社交空间。有关详细信息，请参阅&#x200B;[***范围设置***](../administrators/feature-summary/social-learning-configurations-as-an-admin.md#scopesettings)。  **对社交讨论区的创建加以限制**&#x200B;为加强讨论区管理，对学习者人人可以创建讨论区的情况加以限制，管理员可将讨论区创建权限授予选定的用户组。 管理员可将讨论区创建权限授予选定的用户组，而非参与社交学习的所有学习者。有关详细信息，请参阅&#x200B;[***讨论区创建权限***](../administrators/feature-summary/social-learning-configurations-as-an-admin.md#permission)。  **仅向学习者显示空白活动字段**&#x200B;在填充值后，管理员可选择显示活动字段或隐藏这些字段。 有关详细信息，请参阅&#x200B;[***用户显示***](../administrators/feature-summary/add-users-user-groups.md#activefields)。  **内部用户处于非活动状态达到指定持续时间后将被删除**&#x200B;管理员可针对内部学习者设置非活动状态持续时间（以天为单位），达到限值的用户即会被删除。 有关详细信息，请参阅&#x200B;***[自动删除用户](../administrators/feature-summary/settings.md#autodelete)***。  **自定义页脚上的链接**&#x200B;管理员可以在页脚上添加和自定义链接。 这些链接还可根据不同的区域设置进行自定义。在页脚添加“联系管理员”链接的现有方法可在&#x200B;**页脚链接**&#x200B;部分中使用。 有关详细信息，请参阅&#x200B;[***自定义页脚链接***](../administrators/feature-summary/settings.md#footer)。
+**为内部和外部用户区分社交学习中的范围**&#x200B;管理员可以为内部和外部学习者定义不同的范围。 新增了分别面向内外部用户的两个部分。在这两个部分中，您可定义各学习者组的相应范围。对于内部用户，您可以定义“用户特征”的值。对于外部用户，您可以定义外部个人资料，学习者可以在其中共享相同的社交空间。有关详细信息，请参阅&#x200B;[***范围设置***](../administrators/feature-summary/social-learning-configurations-as-an-admin.md#scopesettings)。  **对社交讨论区的创建加以限制**&#x200B;为加强讨论区管理，对学习者人人可以创建讨论区的情况加以限制，管理员可将讨论区创建权限授予选定的用户组。 管理员可将讨论区创建权限授予选定的用户组，而非参与社交学习的所有学习者。有关详细信息，请参阅&#x200B;[***讨论区创建权限***](../administrators/feature-summary/social-learning-configurations-as-an-admin.md#permission)。  **仅向学习者显示空白活动字段**&#x200B;在填充值后，管理员可选择显示活动字段或隐藏这些字段。 有关详细信息，请参阅&#x200B;[***用户显示***](../administrators/feature-summary/add-users-user-groups.md#activefields)。  **内部用户处于非活动状态达到指定持续时间后将被删除**&#x200B;管理员可针对内部学习者设置非活动状态持续时间（以天为单位），达到限值的用户即会被删除。 有关详细信息，请参阅***[自动删除用户](../administrators/feature-summary/settings.md#autodelete)***。  **自定义页脚上的链接**&#x200B;管理员可以在页脚上添加和自定义链接。 这些链接还可根据不同的区域设置进行自定义。在页脚添加“联系管理员”链接的现有方法可在&#x200B;**页脚链接**&#x200B;部分中使用。 有关详细信息，请参阅&#x200B;[***自定义页脚链接***](../administrators/feature-summary/settings.md#footer)。
 
 ### 此版本中的已知问题 {#Knownissuesinthisrelease-2}
 
@@ -1928,7 +1937,7 @@ Adobe Learning Manager 现在还允许学习者通过 SSO 身份验证进入连�
 
 +++
 
-+++更新47 — 移动应用程序
++++更新 47 - 移动应用程序
 
 ## 更新 47 - 移动应用程序
 
@@ -1969,7 +1978,7 @@ Adobe Learning Manager 移动应用程序现支持 Android 7 及更高版本的�
 
 +++
 
-+++更新46
++++更新 46
 
 ### 新功能和增强功能 {#Newandenhancedfeatures-7}
 
@@ -2013,7 +2022,7 @@ Adobe Learning Manager 移动应用程序现支持 Android 7 及更高版本的�
 
 +++
 
-+++更新45
++++更新 45
 
 发行日期：2019 年 5 月 30 日
 
@@ -2049,7 +2058,7 @@ Adobe Learning Manager 移动应用程序现支持 Android 7 及更高版本的�
 
 +++
 
-+++更新44 — 移动应用程序
++++更新 44 - 移动应用程序
 
 发行日期：2019 年 4 月 26 日
 
@@ -2065,7 +2074,7 @@ Adobe Learning Manager 移动应用程序现支持 Android 7 及更高版本的�
 
 +++
 
-+++更新43
++++更新 43
 
 ## 更新 43
 
@@ -2090,7 +2099,7 @@ Adobe Learning Manager 移动应用程序现支持 Android 7 及更高版本的�
 
 +++
 
-+++更新42
++++更新 42
 
 更新 42
 
@@ -2101,7 +2110,7 @@ Adobe Learning Manager 移动应用程序现支持 Android 7 及更高版本的�
 
 +++
 
-+++更新41
++++更新 41
 
 更新41发布日期：2018年12月1日。
 
@@ -2120,7 +2129,7 @@ Adobe Learning Manager 移动应用程序现支持 Android 7 及更高版本的�
 
 +++
 
-+++更新40
++++更新 40
 
 更新 40
 
@@ -2136,7 +2145,7 @@ Adobe Learning Manager 移动应用程序现支持 Android 7 及更高版本的�
 
 +++
 
-+++更新39
++++更新 39
 
 发行日期：2018 年 5 月 19 日
 
@@ -2150,7 +2159,7 @@ Adobe Learning Manager 移动应用程序现支持 Android 7 及更高版本的�
 
 +++
 
-+++更新38
++++更新 38
 
 * 处于“待处理”或“等待接受”状态的学习者被标记为完成。 此问题现已修复。
 * 当讲师搜索并选择所有学习者时，选择的学习者数量与显示的计数存在差距。 此问题现已修复。
@@ -2171,7 +2180,7 @@ Adobe Learning Manager 移动应用程序现支持 Android 7 及更高版本的�
 
 +++
 
-+++更新37
++++更新 37
 
 发行日期：2018 年 3 月 25 日
 
@@ -2187,7 +2196,7 @@ Adobe Learning Manager 移动应用程序现支持 Android 7 及更高版本的�
 
 +++
 
-+++更新36
++++更新 36
 
 发行日期：2018 年 1 月 22 日。
 
@@ -2209,7 +2218,7 @@ Adobe Learning Manager 移动应用程序现支持 Android 7 及更高版本的�
 
 +++
 
-+++更新35
++++更新 35
 
 发行日期：2018 年 1 月 7 日。
 
@@ -2223,7 +2232,7 @@ Adobe Learning Manager 移动应用程序现支持 Android 7 及更高版本的�
 
 +++
 
-+++更新34
++++更新 34
 
 ### 已修复问题 {#IssuesFixed-1}
 
@@ -2237,7 +2246,7 @@ Adobe Learning Manager 移动应用程序现支持 Android 7 及更高版本的�
 
 +++
 
-+++更新33
++++更新 33
 
 发行日期：2017 年 10 月 5 日
 
@@ -2257,7 +2266,7 @@ Adobe Learning Manager 移动应用程序现支持 Android 7 及更高版本的�
 
 +++
 
-+++更新32
++++更新 32
 
 发行日期：2017 年 8 月 17 日
 
@@ -2337,7 +2346,7 @@ Adobe Learning Manager 移动应用程序现支持 Android 7 及更高版本的�
 
 +++
 
-+++更新31
++++更新 31
 
 发行日期：2017 年 7 月 16 日
 
@@ -2375,7 +2384,7 @@ Adobe Learning Manager 移动应用程序现支持 Android 7 及更高版本的�
 
 +++
 
-+++更新30
++++更新 30
 
 发行日期：2017 年 6 月 30 日
 
@@ -2409,7 +2418,7 @@ Adobe Learning Manager 用户在学习者应用程序中遇到一些翻译问题
 
 +++
 
-+++更新29
++++更新 29
 
 发行日期：2017 年 4 月 9 日
 
@@ -2535,7 +2544,7 @@ Learning Manager现在允许多个作者同时编辑相同的内容组。
 
 +++
 
-+++更新28
++++更新 28
 
 发行日期：2017 年 1 月 30 日
 
@@ -2567,7 +2576,7 @@ Learning Manager现在允许多个作者同时编辑相同的内容组。
 
 +++
 
-+++更新27
++++更新 27
 
 发行日期：2016 年 12 月 23 日
 
@@ -2597,13 +2606,13 @@ Adobe Learning Manager 提供了各种必要的工具和模板，可供公司的
 
 +++
 
-+++更新26
++++更新 26
 
 发行日期：2016 年 12 月 6 日
 
 ### 增强功能 {#enhancement}
 
-作为此更新的一部分，Learning Manager提供了端点[PATCH/用户/{id}]&#x200B;(<https://learningmanager.adobe.com/docs/Learning>Managerapi/v1/#！/user/patch_users_id)更新应用程序中的用户。 您可以通过管理员角色访问该 API 端点。使用&#x200B;**&#x200B;**&#x200B;端点，您可以更新Learning Manager用户的以下信息：
+作为此更新的一部分，Learning Manager提供了端点[PATCH/用户/{id}]&#x200B;(<https://learningmanager.adobe.com/docs/Learning>Managerapi/v1/#！/user/patch_users_id)更新应用程序中的用户。 您可以通过管理员角色访问该 API 端点。使用****端点，您可以更新Learning Manager用户的以下信息：
 
 * 姓名
 * 电子邮件
@@ -2619,7 +2628,7 @@ Adobe Learning Manager 提供了各种必要的工具和模板，可供公司的
 
 +++
 
-+++更新25
++++更新 25
 
 发行日期：2016 年 11 月 17 日
 
@@ -2666,7 +2675,7 @@ Adobe Learning Manager 提供了各种必要的工具和模板，可供公司的
 
 +++
 
-+++更新24
++++更新 24
 
 发行日期：2016 年 10 月 12 日
 
@@ -2731,7 +2740,7 @@ Adobe Learning Manager 提供了各种必要的工具和模板，可供公司的
 
 +++
 
-+++更新23
++++更新 23
 
 发行日期：2016 年 9 月 19 日
 
@@ -2748,7 +2757,7 @@ Adobe Learning Manager 提供了各种必要的工具和模板，可供公司的
 
 +++
 
-+++更新22
++++更新 22
 
 发行日期：2016 年 9 月 13 日
 
@@ -2761,7 +2770,7 @@ Adobe Learning Manager 提供了各种必要的工具和模板，可供公司的
 
 +++
 
-+++更新21
++++更新 21
 
 发行日期：2016 年 9 月 1 日
 
@@ -2821,7 +2830,7 @@ Adobe Learning Manager 将外部自助注册的最大限制数提高至 5 位数
 
 +++
 
-+++更新20
++++更新 20
 
 发行日期：2016 年 8 月 22 日
 
@@ -2869,7 +2878,7 @@ Adobe Learning Manager 将外部自助注册的最大限制数提高至 5 位数
 
 +++
 
-+++更新19
++++更新 19
 
 发行日期：2016 年 8 月 11 日
 
@@ -2948,7 +2957,7 @@ Adobe Learning Manager 将外部自助注册的最大限制数提高至 5 位数
 
 +++
 
-+++更新18
++++更新 18
 
 发行日期：2016 年 7 月 31 日
 
@@ -2997,7 +3006,7 @@ Adobe Learning Manager 允许您将徽章导出为 PDF 文件。有关更多信�
 
 +++
 
-+++更新17
++++更新 17
 
 发行日期：2016 年 6 月 15 日
 
@@ -3013,7 +3022,7 @@ Adobe Learning Manager 允许您将徽章导出为 PDF 文件。有关更多信�
 
 +++
 
-+++更新16
++++更新 16
 
 发行日期：2016 年 6 月 10 日
 
@@ -3023,7 +3032,7 @@ Adobe Learning Manager 允许您将徽章导出为 PDF 文件。有关更多信�
 
 +++
 
-+++更新15
++++更新 15
 
 发行日期：2016 年 5 月 25 日
 
@@ -3066,7 +3075,7 @@ Adobe Learning Manager 允许您将徽章导出为 PDF 文件。有关更多信�
 
 +++
 
-+++更新14
++++更新 14
 
 发行日期：2016 年 5 月 4 日
 
@@ -3093,7 +3102,7 @@ Adobe Learning Manager 允许您将徽章导出为 PDF 文件。有关更多信�
 
 +++
 
-+++更新13
++++更新 13
 
 发行日期：2016 年 4 月 20 日
 
@@ -3113,14 +3122,14 @@ Adobe Learning Manager 允许您将徽章导出为 PDF 文件。有关更多信�
 
 **电子邮件模板**
 
-* **合作伙伴**&#x200B;这个曾用来表示外部组的词&#x200B;**&#x200B;**&#x200B;已&#x200B;**&#x200B;**&#x200B;从电子邮件模板正文和标题中删除。 外部组不一定是合作伙伴。\
+* **合作伙伴**&#x200B;这个曾用来表示外部组的词&#x200B;****&#x200B;已&#x200B;****&#x200B;从电子邮件模板正文和标题中删除。 外部组不一定是合作伙伴。\
   **注意：**&#x200B;如果默认模板已修改，则该更新模板不会显示。 若要查看更新的模板，请单击&#x200B;**模板预览**&#x200B;对话框中的&#x200B;**恢复为原始**。
 
 * 无论何时编辑&#x200B;**“已创建个人资料”（自助注册）**&#x200B;和&#x200B;**“已创建个人资料”（外部/合作伙伴）**&#x200B;电子邮件模板，管理员收到的电子邮件中的URL都无法单击。 此问题现已修复。
 
 +++
 
-+++更新12
++++更新 12
 
 发行日期：2016 年 4 月 7 日
 
@@ -3192,7 +3201,7 @@ Adobe Learning Manager 允许您将徽章导出为 PDF 文件。有关更多信�
 
 +++
 
-+++更新11
++++更新 11
 
 发行日期：2016 年 3 月 15 日
 
@@ -3231,7 +3240,7 @@ CSV 上传功能中的帮助 URL 转至英文帮助内容。此问题现已修�
 
 +++
 
-+++更新10
++++更新 10
 
 发行日期：2016 年 2 月 28 日
 
@@ -3349,7 +3358,7 @@ Adobe Learning Manager 的现有功能已得到显著改进。部分主要增强
 
 +++
 
-+++更新9
++++更新 9
 
 发行日期：2016 年 2 月 9 日
 
@@ -3359,7 +3368,7 @@ Adobe Learning Manager 的现有功能已得到显著改进。部分主要增强
 
 +++
 
-+++更新8
++++更新 8
 
 发行日期：2016 年 1 月 20 日
 
@@ -3397,7 +3406,7 @@ Adobe Learning Manager 的现有功能已得到显著改进。部分主要增强
 
 +++
 
-+++更新7
++++更新 7
 
 发行日期：2016 年 1 月 13 日
 
@@ -3414,7 +3423,7 @@ Adobe Learning Manager 的现有功能已得到显著改进。部分主要增强
 
 +++
 
-+++更新6
++++更新 6
 
 发行日期：2015 年 12 月 22 日
 
@@ -3444,7 +3453,7 @@ Adobe Learning Manager 的现有功能已得到显著改进。部分主要增强
 
 +++
 
-+++更新5
++++更新 5
 
 发行日期：2015 年 12 月 11 日
 
@@ -3460,7 +3469,7 @@ Adobe Learning Manager 的现有功能已得到显著改进。部分主要增强
 
 +++
 
-+++更新4
++++更新 4
 
 发行日期：2015 年 12 月 9 日
 
@@ -3505,7 +3514,7 @@ Adobe Learning Manager 的现有功能已得到显著改进。部分主要增强
 
 +++
 
-+++更新3
++++更新 3
 
 发行日期：2015 年 10 月 26 日
 
@@ -3537,7 +3546,7 @@ Adobe Learning Manager 的现有功能已得到显著改进。部分主要增强
 
 +++
 
-+++更新2
++++更新 2
 
 发行日期：2015 年 9 月 28 日
 

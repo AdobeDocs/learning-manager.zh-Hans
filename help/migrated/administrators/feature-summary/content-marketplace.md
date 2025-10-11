@@ -4,10 +4,10 @@ title: 内容市场
 description: Adobe Learning Manager 现提供内容市场，您可以在其中浏览和购买培训课程。现有 70,000 多门课程，这些课程涵盖不同主题并以多种格式提供。 精选的播放列表可迎合不同角色的需要，满足您学习和提升技能的需求。
 contentowner: saghosh
 exl-id: 023593d9-06c9-4b91-bbbd-e8ec595b6d60
-source-git-commit: 7c21986eff480f15cb788cf9a1cb51644bc083c8
+source-git-commit: 85eeebb33a67bf5528c88b26941345e00e98e0d3
 workflow-type: tm+mt
-source-wordcount: '733'
-ht-degree: 9%
+source-wordcount: '683'
+ht-degree: 10%
 
 ---
 
@@ -145,11 +145,9 @@ When a learner clicks Express interest to Catalog in the Learner app, the intere
 
 ## 内容中心
 
-内容中心允许管理员从学习者应用程序中将所需的播放列表列入候选清单。 管理员随时可通过学习者角色查看“内容中心”页面，以便轻松将播放列表列入候选清单。 为帮助将正确的播放列表列入候选清单，管理员可允许其帐户中的行业专家访问此页面，但可访问人数受限。
+管理员可以直接在Adobe Learning Manager中访问Go1平台。 转到&#x200B;**[!UICONTROL 内容市场]**，然后选择&#x200B;**[!UICONTROL 内容中心]**。
 
-Adobe Learning Manager会定期与内容中心同步，确保新的添加和更新会自动反映在平台中。
-
-所有内容都映射到支持的语言，从而允许管理员根据语言首选项更有效地筛选和管理内容。
+内容中心复制Go1平台，允许管理员浏览课程、创建多个播放列表和浏览内容，从而在Adobe Learning Manager中提供无缝的Go1体验。
 
 ## 电子邮件模板
 

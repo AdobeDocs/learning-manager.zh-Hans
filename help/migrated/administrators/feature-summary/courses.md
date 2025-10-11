@@ -4,10 +4,10 @@ jcr-language: en_us
 title: 创建课程实例和学习路径
 contentowner: manochan
 exl-id: aba7417b-26a0-4160-878c-5814f84e5155
-source-git-commit: 411c171c314a3aa9ad9cc10d46c2f0d447e2c0a3
+source-git-commit: dfb83c88a39401f5ae9048d71fd19ca71569a14c
 workflow-type: tm+mt
-source-wordcount: '5673'
-ht-degree: 52%
+source-wordcount: '5803'
+ht-degree: 51%
 
 ---
 
@@ -707,7 +707,7 @@ Adobe Learning Manager 可让您更轻松快速地找到所选择的课程/学�
 
 ## 用户电子邮件 ID
 
-+++电子邮件ID
++++电子邮件 ID
 
 复制粘贴您想要注册的学习者的电子邮件 ID（用分号、逗号或行距分隔）。使用&#x200B;**[!UICONTROL “验证电子邮件 ID”]**&#x200B;选项验证条目。所有无效条目均将显示为红色。删除或更正这些条目，然后单击&#x200B;**[!UICONTROL “继续”]**&#x200B;以继续。
 
@@ -788,7 +788,36 @@ Adobe Learning Manager 管理员可以向学习者分享二维码，以便快速
 
    ![](assets/qr-code-download-01.png)
 
-   *与查找器共享二维码*
+   *与学习者共享二维码*
+
+## 下载感兴趣的学习者报告
+
+查看[注册感兴趣的课程](/help/migrated/learners/feature-summary/courses.md#register-interest-for-the-courses)，了解学习者如何注册感兴趣的课程。
+
+管理员可以查看感兴趣的学习者并从课程概述页面下载感兴趣的学习者报告。
+
+要下载感兴趣的学习者报告：
+
+1. 以管理员身份登录Adobe Learning Manager。
+2. 转到&#x200B;**[!UICONTROL 课程]**&#x200B;并选择课程。
+3. 选择&#x200B;**[!UICONTROL 感兴趣的学习者]**。
+
+   ![](assets/select-interested-learner.png)
+   管理员界面的&#x200B;_课程概述页面会显示感兴趣的学习者部分，供您查看和下载报告_
+4. 选择操作，然后选择导出报告。
+此时将下载包含感兴趣学习者列表的报告。 该报告包含以下列：
+
+   * 课程 ID
+   * 学习者姓名
+   * 电子邮件
+   * 类型
+   * 状态
+   * 注册日期和时间(UTC)
+   * 活动状态
+
+>[!NOTE]
+>
+>如果帐户启用了报告，则报告中将包含学习者的UUID。
 
 ## 课程生命周期 {#courselifecycle}
 
@@ -826,7 +855,7 @@ Adobe Learning Manager 管理员可以向学习者分享二维码，以便快速
 
 +++如何添加课程URL，以便学习者直接重定向到课程？
 
-将鼠标悬停在课程卡上，然后单击&#x200B;**“复制 URL”**。复制 URL 后，学习者可以直接使用 URL 访问课程。
+将鼠标悬停在课程卡上，然后单击&#x200B;]**“复制 URL”**[!UICONTROL 。复制 URL 后，学习者可以直接使用 URL 访问课程。
 
 +++
 

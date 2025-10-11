@@ -2,18 +2,18 @@
 title: Adobe Learning Manager 10月版的新增功能
 description: 了解Adobe Learning Manager 2025年10月版的新增功能、改进和重要更新。
 exl-id: 4d2129c4-42d8-446f-8837-879b5c2f42bf
-source-git-commit: 40071158037ece57c8511a554ae69ca5701f32ad
+source-git-commit: 1e7e7ba6e419476476e18ed3f826cc07ac2e1f88
 workflow-type: tm+mt
-source-wordcount: '8349'
+source-wordcount: '8348'
 ht-degree: 0%
 
 ---
 
-# Adobe Learning Manager 2025年10月版的新增功能
+# Adobe Learning Manager中即将推出的更改
 
 >[!IMPORTANT]
 >
->请注意，概述的功能只是暂时的，可能会发生变化。 欲知更多详细信息和确认，请联系您指定的客户成功经理。 如果您遇到任何问题，请通过[learningmanagersupport@adobe.com](mailto:learningmanagersupport@adobe.com)联系我们的客户支持团队。
+>Adobe Learning Manager 2025年10月版现已上线。 有关最新功能和增强功能的更多信息，请查看[新增功能](/help/migrated/whats-new.md)。 此页面将在下一版本中更新新功能和增强功能。 敬请等待更多更新。
 
 ## 版本概述
 
@@ -1726,4 +1726,4 @@ Custom administrators can create announcements only for the user groups or catal
 * The format of the report will remain unchanged. If custom administrators download it from the User Interface, the content of the report will be subject to their scope. 
 * No modifications are necessary if this report is not utilized in any automated or downstream workflow.
 
-See the [Release notes](https://experienceleague.adobe.com/zh-hans/docs/learning-manager/using/introduction/release-notes) article for a cumulative list of new features and changes to Adobe Learning Manager.-->
+See the [Release notes](https://experienceleague.adobe.com/en/docs/learning-manager/using/introduction/release-notes) article for a cumulative list of new features and changes to Adobe Learning Manager.-->

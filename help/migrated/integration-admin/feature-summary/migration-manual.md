@@ -3,10 +3,10 @@ description: 本参考手册适用于希望将现有LMS迁移到Adobe Learning M
 jcr-language: en_us
 title: 迁移手册
 exl-id: bfdd5cd8-dc5c-4de3-8970-6524fed042a8
-source-git-commit: 0dade561e53e46f879e22b53835b42d20b089b31
+source-git-commit: 3644e5d14cc5feaefefca85685648a899b406fce
 workflow-type: tm+mt
-source-wordcount: '3619'
-ht-degree: 72%
+source-wordcount: '3850'
+ht-degree: 67%
 
 ---
 
@@ -523,6 +523,89 @@ A sample snapshot of project files and folder of FTP is shown below for your ref
 ## 迁移验证 {#registration}
 
 在对公司旧 LMS 系统的学习数据和内容完成迁移后，您可使用各种学习对象功能对导入的数据和内容进行验证。 例如，您可以管理员身份登录 Adobe Learning Manager 应用程序，然后对导入的模块及课程数据和内容进行可用性验证。
+
+### 通过API进行迁移验证
+
+新的迁移API `runStatus`允许集成管理员跟踪通过API触发的迁移运行的进度。
+
+`runStatus` API还提供了一个直接链接，可用于以CSV格式下载已完成运行的错误日志。 下载链接将保持活动状态七天，日志将保留一个月。
+
+**卷曲示例**
+
+**端点**
+
+```
+GET /bulkimport/runStatus
+```
+
+**参数**
+
+* **migrationProjectId**： （必需）。 迁移项目的唯一标识符。 迁移项目用于将数据和内容从现有学习管理系统(LMS)传输到Adobe Learning Manager。 每个迁移项目可以由多个Sprint组成，它们是较小的迁移任务单元。
+
+* **sprintId**： （必需）。 迁移项目中Sprint的唯一标识符。 Sprint是迁移任务的子集，其中包括要从现有LMS迁移到Adobe Learning Manager的特定学习项目（如课程、模块、学习者记录）。 每个Sprint都可以独立执行，从而允许分阶段迁移。
+
+* **sprintRunId**： （必需）。 一个唯一标识符，用于跟踪迁移项目中特定Sprint的执行情况。 它与Sprint中定义的项目的实际迁移过程相关联。 sprintRunId有助于监视、故障排除和管理迁移作业。
+
+**响应**
+
+```
+{
+  "sprintId": 2510080,
+  "sprintRunId": 2740845,
+  "migrationProjectId": 2509173,
+  "startTime": 1746524711052,
+  "endTime": 1746524711052,
+  [
+    {
+      "id": 2609923,
+      "lastHeartbeatTime": 1746524711052,
+      "objectName": "content",
+      "jobState": "COMPLETED",
+      "errorCsvLink": "",
+      "errorLogLink": "migration/5830/2509173/2510080/2740845/content_err.csv",
+      "sequenceNumber": 1
+    },
+    {
+      "id": 2609922,
+      "lastHeartbeatTime": 1746524713577,
+      "objectName": "course",
+      "jobState": "WAITING_IN_QUEUE",
+      "errorCsvLink": "",
+      "errorLogLink": null,
+      "sequenceNumber": 2
+    }
+  ]
+}
+```
+
+此外，`startRun` API响应现在包括迁移项目ID、Sprint ID和Sprint运行ID，这些都是查询新状态终结点所必需的。
+
+```
+curl -X GET --header 'Accept: text/html' 'https://learningmanager.adobe.com/primeapi/v2/bulkimport/runStatus?migrationProjectId=001&sprintId=10001&sprintRunId=7'
+```
+
+生成以下响应。 响应包含：
+
+* `migrationId`
+* `sprintId`
+* `sprintRunId`
+
+**响应**
+
+```
+{
+  "status": "OK",
+  "title": "BULKIMPORT_RUN_INITIATED_SUCCESSFULLY",
+  "source": {
+    "info": "Success",
+    "migrationInfo": {
+      "migrationProjectId": "001",
+      "sprintId": "10001",
+      "sprintRunId": "7"
+    }
+  }
+}
+```
 
 ## 在迁移时翻新 {#retrofittinginmigration}
 

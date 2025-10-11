@@ -4,9 +4,9 @@ jcr-language: en_us
 title: Adobe Learning Manager 连接器
 contentowner: jayakarr
 exl-id: 1f44934b-6a2b-484d-bc7f-d0f23e3008ca
-source-git-commit: aecc98cff7a46193627c961222f7e64f858dfa2c
+source-git-commit: 5d50bd56b6663b26fc6db0ff33d19ad809e9bf6a
 workflow-type: tm+mt
-source-wordcount: '15862'
+source-wordcount: '15810'
 ht-degree: 59%
 
 ---
@@ -145,9 +145,9 @@ Learning Manager支持将学习记录（如成绩单、用户报告、技能报�
 
 1. 下载并安装程序包以创建自定义对象。
 
-   * [程序包 1](https://test.salesforce.com/packaging/installPackage.apexp?p0=04t1k0000008WPJ)
-   * [程序包 2](https://test.salesforce.com/packaging/installPackage.apexp?p0=04t1k0000008WPT)
-   * [程序包 3](https://test.salesforce.com/packaging/installPackage.apexp?p0=04t1k0000008WPi)
+   * [程序包 1](https://login.salesforce.com/packaging/installPackage.apexp?p0=04tDb000000LSlL)
+   * [程序包 2](https://login.salesforce.com/packaging/installPackage.apexp?p0=04tDb000000FtK9)
+   * [程序包 3](https://login.salesforce.com/packaging/installPackage.apexp?p0=04tDb000000FtKE)
 
 1. 在 Salesforce 中为自定义对象重命名。
 1. 选择活动，然后单击&#x200B;**[!UICONTROL 保存]**。
@@ -183,7 +183,7 @@ Learning Manager提供Salesforce应用程序包。 在 SFDC 中安装和配置�
 1. 在Salesforce应用程序页面上，请注意描述中提到的应用程序ID（也称为客户端ID）和客户端密钥。
 1. 单击&#x200B;**[!UICONTROL 批准]**，您的应用必须成功获得批准。
 1. 单击&#x200B;**[!UICONTROL 开发人员资源]** > **[!UICONTROL 用于测试和开发的访问令牌]**。
-1. 在“获取OAuth代码”部分中，“客户端ID”和作用域必须设置为“admin：read，admin：write”。 单击&#x200B;**[!UICONTROL 提交]**。
+1. 在“获取OAuth代码”部分中，客户端ID和作用域必须设置为 — admin:read，admin:write。 单击&#x200B;**[!UICONTROL 提交]**。
 1. 在“获取刷新令牌”中，输入“客户端 ID”和客户端密钥。 单击&#x200B;**[!UICONTROL 提交]**&#x200B;并记下刷新令牌。
 
 ### 在 Salesforce 应用中创建帐户 {#create-account-in-salesforce-app}
@@ -337,7 +337,7 @@ Adobe Learning Manager 应用程序也适用于任何使用 Salesforce 帐户的
 
 数据导出允许用户将用户技能和学习者成绩单导出到 FTP 位置，从而与任何第三方系统集成。
 
-#### 计划 {#scheduling}
+#### 日程计划 {#scheduling}
 
 管理员可以根据公司要求设置计划任务，Learning Manager应用程序中的用户可以根据计划获得最新消息。 同样，集成管理员可以及时安排技能导出，以便与外部系统集成。 每天可以在Learning Manager应用程序中执行同步。
 
@@ -447,7 +447,7 @@ Adobe Learning Manager 应用程序也适用于任何使用 Salesforce 帐户的
 
 +++
 
-+++使用Learning Manager FTP连接器
++++使用 Adobe Learning Manager FTP 连接器
 
 1. 必须将来自外部系统的CSV文件放在以下路径中：
 
@@ -469,13 +469,13 @@ Adobe Learning Manager 应用程序也适用于任何使用 Salesforce 帐户的
 
 +++
 
-+++导入xAPI
++++导入 xAPI
 
 导入 xAPI 选项允许您根据需要安排将第三方服务的 xAPI 语句导入 Adobe Learning Manager。
 
 +++
 
-+++导入xAPI所需的配置
++++导入 xAPI 时所需的配置
 
 1. 在配置页面中，选择配置列表中可用的现有配置，以从CSV导入xAPI语句。 单击编辑或&#x200B;**添加新配置**&#x200B;链接以导航到“配置导入源”页面。
 
@@ -803,7 +803,7 @@ Adobe Learning Manager 管理员可在导入用户前先对其过滤。例如，
 * 任何面向LMS管理员的客户端都不能删除通过Workday于填充的UUID字段。 如果要更改该值，请联系Adobe Learning Manager入门或支持团队。
 * “用户清除”选项也可能不起作用，因为“用户清除”每次运行仅支持50个用户进行清除。 通过UUID上传用户时请格外谨慎。
 
-### 计划 {#Scheduling-1}
+### 日程计划 {#Scheduling-1}
 
 管理员可以根据公司的要求计划相关任务，Adobe Learning Manager 应用程序中的用户可以根据计划获得最新消息。同样，集成管理员可以及时安排技能导出，以便与外部系统集成。可以在 Adobe Learning Manager 应用程序中每天执行同步。
 
@@ -876,74 +876,74 @@ Workday 有四个级别，而 Adobe Learning Manager 有两个级别。Workday�
 >
 >您可以添加其他 Workday 属性。 联系您的 CSAM 以添加属性。
 
-+++支持的Workday属性列表
++++支持的 Workday 属性列表
 
-wd：User_ID
-wd：Worker_ID
+wd:User_ID
+wd:Worker_ID
 管理者
-wd：Personal_Data.wd：Name_Data.wd：Preferred_Name_Data.wd：Name_Detail_Data。@wd：Formatted_Name
-wd：Personal_Data.wd：Name_Data.wd：Legal_Name_Data.wd：Name_Detail_Data.@wd：Formatted_Name
-wd：Personal_Data.wd：Name_Data.wd：Legal_Name_Data.wd：Name_Detail_Data.wd：Prefix_Data.wd：Title_Descriptor
-wd：Personal_Data.wd：Name_Data.wd：Preferred_Name_Data.wd：Name_Detail_Data.wd：Prefix_Data.wd：Title_Descriptor
-wd：Personal_Data.wd：Name_Data.wd：Preferred_Name_Data.wd：Name_Detail_Data.wd：First_Name
-wd：Personal_Data.wd：Name_Data.wd：Preferred_Name_Data.wd：Name_Detail_Data.wd：Last_Name
-wd：Personal_Data.wd：Name_Data.wd：Legal_Name_Data.wd：Name_Detail_Data.wd：First_Name
-wd：Personal_Data.wd：Name_Data.wd：Legal_Name_Data.wd：Name_Detail_Data.wd：Last_Name
-wd：Personal_Data.wd：Contact_Data.wd：Address_Data.0。@wd：Formatted_Address
-wd：Personal_Data.wd：Contact_Data.wd：Address_Data.0.wd：Postal_Code
-wd：Personal_Data.wd：Contact_Data.wd：Email_Address_Data.0.wd：Email_Address
-wd：Personal_Data.wd：Contact_Data.wd：Address_Data.0.wd：Country_Region_Descriptor
-wd：Personal_Data.wd：Contact_Data.wd：Phone_Data.0。@wd：Formatted_Phone
-wd：Personal_Data.wd：Contact_Data.wd：Phone_Data.0.wd：Country_ISO_Code
-wd：Personal_Data.wd：Contact_Data.wd：Phone_Data.0.wd：International_Phone_Code
-wd：Personal_Data.wd：Contact_Data.wd：Phone_Data.0.wd：Phone_Number
-wd：Personal_Data.wd：Primary_Nationality_Reference.wd：ID.1。$
-wd：Personal_Data.wd：Gender_Reference.wd：ID.1。$
-wd：Personal_Data.wd：Identification_Data.wd：National_ID.0.wd：National_ID_Data.wd：ID
-wd：Personal_Data.wd：Identification_Data.wd：Custom_ID.0.wd：Custom_ID_Data.wd：ID
-wd：User_Account_Data.wd：Default_Display_Language_Reference.wd：ID.1。$
-wd：Role_Data.wd：Organization_Role_Data.wd：Organization_Role.0.wd：Organization_Role_Reference.wd：ID.1。$
-wd：Employment_Data.wd：Worker_Job_Data.0.wd：Position_Data.wd：Position_Title
-wd：Employment_Data.wd：Worker_Job_Data.0.wd：Position_Data.wd：Business_Title
-wd：Employment_Data.wd：Worker_Job_Data.0.wd：Position_Data.wd：Business_Site_Summary_Data.wd：Name
-wd：Employment_Data.wd：Worker_Job_Data.0.wd：Position_Data.wd：Business_Site_Summary_Data.wd：Address_Data.@wd：Formatted_Address
-wd：Employment_Data.wd：Worker_Job_Data.0.wd：Position_Data.wd：Job_Classification_Summary_Data.0.wd：Job_Classification_Reference.wd：ID.1。$
-wd：Employment_Data.wd：Worker_Job_Data.0.wd：Position_Data.wd：Job_Classification_Summary_Data.0.wd：Job_Group_Reference.wd：ID.1。$
-wd：Employment_Data.wd：Worker_Job_Data.0.wd：Position_Data.wd：Work_Space__Reference.wd：ID.1。$
-wd：Employment_Data.wd：Worker_Job_Data.0.wd：Position_Data.wd：Job_Profile_Summary_Data.wd：Job_Family_Reference.0.wd：ID.1。$
-wd：Employment_Data.wd：Worker_Job_Data.0.wd：Position_Data.wd：Job_Profile_Summary_Data.wd：Job_Profile_Name
-wd：Employment_Data.wd：Worker_Job_Data.0.wd：Position_Data.wd：Job_Profile_Summary_Data.wd：Job_Profile_Reference.wd：ID.1。$
-wd：Employment_Data.wd：Worker_Job_Data.0.wd：Position_Data.wd：Business_Site_Summary_Data.wd：Address_Data.0.wd：Country_Reference.wd：ID.2。$
-wd：Employment_Data.wd：Worker_Job_Data.0.wd：Position_Data.wd：Worker_Type_Reference.wd：ID.1。$
-wd：Employment_Data.wd：Worker_Job_Data.0.wd：Position_Data.wd：Business_Site_Summary_Data.wd：Address_Data.0。@wd：Formatted_Address
-wd：Employment_Data.wd：Worker_Job_Data.0.wd：Position_Data.wd：Job_Profile_Summary_Data.wd：Management_Level_Reference.wd：ID.1。$
-wd：Employment_Data.wd：Worker_Status_Data.wd：Active
-wd：Employment_Data.wd：Worker_Status_Data.wd：Active_Status_Date
-wd：Employment_Data.wd：Worker_Status_Data.wd：Hire_Date
-wd：Employment_Data.wd：Worker_Status_Data.wd：Original_Hire_Date
-wd：Employment_Data.wd：Worker_Status_Data.wd：Retired
-wd：Employment_Data.wd：Worker_Status_Data.wd：Retirement_Date
-wd：Employment_Data.wd：Worker_Status_Data.wd：已终止
-wd：Employment_Data.wd：Worker_Status_Data.wd：Termination_Date
-wd：Employment_Data.wd：Worker_Status_Data.wd：Termination_Last_Day_of_Work
-wd：Organization_Data.wd：Worker_Organization_Data.0.wd：Organization_Data.wd：Organization_Code
-wd：Organization_Data.wd：Worker_Organization_Data.0.wd：Organization_Data.wd：Organization_Name
-wd：Organization_Data.wd：Worker_Organization_Data.0.wd：Organization_Data.wd：Organization_Type_Reference.wd：ID.1。$
-wd：Organization_Data.wd：Worker_Organization_Data.0.wd：Organization_Data.wd：Organization_Subtype_Reference.wd：ID.1。$
-wd：Qualification_Data.wd：Education.0.wd：School_Name
-wd：Qualification_Data.wd：External_Job_History.0.wd：Job_History_Data.wd：Job_Title
-wd：Qualification_Data.wd：External_Job_History.0.wd：Job_History_Data.wd：Company
-wd：Management_Chain_Data.wd：Worker_Supervisory_Management_Chain_Data.wd：Management_Chain_Data.0.wd：Manager.Employee_ID
+wd:Personal_Data.wd:Name_Data.wd:Preferred_Name_Data.wd:Name_Detail_Data。@wd:Formatted_Name
+wd:Personal_Data.wd:Name_Data.wd:Legal_Name_Data.wd:Name_Detail_Data。@wd:Formatted_Name
+wd:Personal_Data.wd:Name_Data.wd:Legal_Name_Data.wd:Name_Detail_Data.wd:Prefix_Data.wd:Title_Descriptor
+wd:Personal_Data.wd:Name_Data.wd:Preferred_Name_Data.wd:Name_Detail_Data.wd:Prefix_Data.wd:Title_Descriptor
+wd:Personal_Data.wd:Name_Data.wd:Preferred_Name_Data.wd:Name_Detail_Data.wd:First_Name
+wd:Personal_Data.wd:Name_Data.wd:Preferred_Name_Data.wd:Name_Detail_Data.wd:Last_Name
+wd:Personal_Data.wd:Name_Data.wd:Legal_Name_Data.wd:Name_Detail_Data.wd:First_Name
+wd:Personal_Data.wd:Name_Data.wd:Legal_Name_Data.wd:Name_Detail_Data.wd:Last_Name
+wd:Personal_Data.wd:Contact_Data.wd:Address_Data.0.@wd:Formatted_Address
+wd:Personal_Data.wd:Contact_Data.wd:Address_Data.0.wd:Postal_Code
+wd:Personal_Data.wd:Contact_Data.wd:Email_Address_Data.0.wd:Email_Address
+wd:Personal_Data.wd:Contact_Data.wd:Address_Data.0.wd:Country_Region_Descriptor
+wd:Personal_Data.wd:Contact_Data.wd:Phone_Data.0.@wd:Formatted_Phone
+wd:Personal_Data.wd:Contact_Data.wd:Phone_Data.0.wd:Country_ISO_Code
+wd:Personal_Data.wd:Contact_Data.wd:Phone_Data.0.wd:International_Phone_Code
+wd:Personal_Data.wd:Contact_Data.wd:Phone_Data.0.wd:Phone_Number
+wd:Personal_Data.wd:Primary_Nationality_Reference.wd:ID.1.$
+wd:Personal_Data.wd:Gender_Reference.wd:ID.1.$
+wd:Personal_Data.wd:Identification_Data.wd:National_ID.0.wd:National_ID_Data.wd:ID
+wd:Personal_Data.wd:Identification_Data.wd:Custom_ID.0.wd:Custom_ID_Data.wd:ID
+wd:User_Account_Data.wd:Default_Display_Language_Reference.wd:ID.1.$
+wd:Role_Data.wd:Organization_Role_Data.wd:Organization_Role.0.wd:Organization_Role_Reference.wd:ID.1.$
+wd:Employment_Data.wd:Worker_Job_Data.0.wd:Position_Data.wd:Position_Title
+wd:Employment_Data.wd:Worker_Job_Data.0.wd:Position_Data.wd:Business_Title
+wd:Employment_Data.wd:Worker_Job_Data.0.wd:Position_Data.wd:Business_Site_Summary_Data.wd:Name
+wd:Employment_Data.wd:Worker_Job_Data.0.wd:Position_Data.wd:Business_Site_Summary_Data.wd:Address_Data。@wd:Formatted_Address
+wd:Employment_Data.wd:Worker_Job_Data.0.wd:Position_Data.wd:Job_Classification_Summary_Data.0.wd:Job_Classification_Reference.wd:ID.1.$
+wd:Employment_Data.wd:Worker_Job_Data.0.wd:Position_Data.wd:Job_Classification_Summary_Data.0.wd:Job_Group_Reference.wd:ID.1.$
+wd:Employment_Data.wd:Worker_Job_Data.0.wd:Position_Data.wd:Work_Space__Reference.wd:ID.1.$
+wd:Employment_Data.wd:Worker_Job_Data.0.wd:Position_Data.wd:Job_Profile_Summary_Data.wd:Job_Family_Reference.0.wd:ID.1.$
+wd:Employment_Data.wd:Worker_Job_Data.0.wd:Position_Data.wd:Job_Profile_Summary_Data.wd:Job_Profile_Name
+wd:Employment_Data.wd:Worker_Job_Data.0.wd:Position_Data.wd:Job_Profile_Summary_Data.wd:Job_Profile_Reference.wd:ID.1.$
+wd:Employment_Data.wd:Worker_Job_Data.0.wd:Position_Data.wd:Business_Site_Summary_Data.wd:Address_Data.0.wd:Country_Reference.wd:ID.2.$
+wd:Employment_Data.wd:Worker_Job_Data.0.wd:Position_Data.wd:Worker_Type_Reference.wd:ID.1.$
+wd:Employment_Data.wd:Worker_Job_Data.0.wd:Position_Data.wd:Business_Site_Summary_Data.wd:Address_Data.0。@wd:Formatted_Address
+wd:Employment_Data.wd:Worker_Job_Data.0.wd:Position_Data.wd:Job_Profile_Summary_Data.wd:Management_Level_Reference.wd:ID.1.$
+wd:Employment_Data.wd:Worker_Status_Data.wd:Active
+wd:Employment_Data.wd:Worker_Status_Data.wd:Active_Status_Date
+wd:Employment_Data.wd:Worker_Status_Data.wd:Hire_Date
+wd:Employment_Data.wd:Worker_Status_Data.wd:Original_Hire_Date
+wd:Employment_Data.wd:Worker_Status_Data.wd:Retired
+wd:Employment_Data.wd:Worker_Status_Data.wd:Retirement_Date
+wd:Employment_Data.wd:Worker_Status_Data.wd:Terminated
+wd:Employment_Data.wd:Worker_Status_Data.wd:Termination_Date
+wd:Employment_Data.wd:Worker_Status_Data.wd:Termination_Last_Day_of_Work
+wd:Organization_Data.wd:Worker_Organization_Data.0.wd:Organization_Data.wd:Organization_Code
+wd:Organization_Data.wd:Worker_Organization_Data.0.wd:Organization_Data.wd:Organization_Name
+wd:Organization_Data.wd:Worker_Organization_Data.0.wd:Organization_Data.wd:Organization_Type_Reference.wd:ID.1.$
+wd:Organization_Data.wd:Worker_Organization_Data.0.wd:Organization_Data.wd:Organization_Subtype_Reference.wd:ID.1.$
+wd:Qualification_Data.wd:Education.0.wd:School_Name
+wd:Qualification_Data.wd:External_Job_History.0.wd:Job_History_Data.wd:Job_Title
+wd:Qualification_Data.wd:External_Job_History.0.wd:Job_History_Data.wd:Company
+wd:Management_Chain_Data.wd:Worker_Supervisory_Management_Chain_Data.wd:Management_Chain_Data.0.wd:Manager.Employee_ID
 主要工作电子邮件
-wd：Organization_Type_Reference_Cost_Center_ID
-wd：Organization_Type_Reference_Cost_Center_Name
-wd：Organization_Type_Reference_Company
-wd：Organization_Subtype_Reference_Department
-wd：Organization_Subtype_Reference_Division
-wd：Universal_ID
-wd：Employment_Data.wd：Worker_Job_Data.0.wd：Position_Data.wd：Business_Site_Summary_Data.wd：Address_Data.0.wd：Country_Region_Descriptor
-wd：Employment_Data.wd：Worker_Job_Data.0.wd：Position_Data.wd：Business_Site_Summary_Data.wd：Address_Data.0.wd：Country_Region_Reference.wd：ID.2。$
-wd：Personal_Data.wd：Contact_Data.wd：Address_Data.0.wd：Unsicillity
+wd:Organization_Type_Reference_Cost_Center_ID
+wd:Organization_Type_Reference_Cost_Center_Name
+wd:Organization_Type_Reference_Company
+wd:Organization_Subtype_Reference_Department
+wd:Organization_Subtype_Reference_Division
+wd:Universal_ID
+wd:Employment_Data.wd:Worker_Job_Data.0.wd:Position_Data.wd:Business_Site_Summary_Data.wd:Address_Data.0.wd:Country_Region_Descriptor
+wd:Employment_Data.wd:Worker_Job_Data.0.wd:Position_Data.wd:Business_Site_Summary_Data.wd:Address_Data.0.wd:Country_Region_Reference.wd:ID.2.$
+wd:Personal_Data.wd:Contact_Data.wd:Address_Data.0.wd:Municipality
 
 +++
 
@@ -952,7 +952,7 @@ wd：Personal_Data.wd：Contact_Data.wd：Address_Data.0.wd：Unsicillity
 您可以将出用户达成的全部技能从 Adobe Learning Manager 导出到 Workday。仅会导出所有活动用户技能，Adobe Learning Manager 不导出弃用的技能。您还可以连接多个Learning Manager\
 连接到同一Workday连接器。 如果两个Learning Manager帐户中的技能名称相同，则它们会被映射到Workday中的相同技能。 在Workday中更新技能之前，如果两个Learning Manager帐户使用的是同一个Workday帐户，则建议对所有Learning Manager帐户中的技能名称进行更新。
 
-+++用户技能 — 配置
++++用户技能 - 配置
 
 您可利用此选项来计划安排报表提取。确保已选中“使用此连接启用用户技能导出”选框。选中“启用计划”选框，然后指定开始日期和时间。您还可以指定生成和发送报告的时间间隔。选择“启用日程安排”复选框，然后输入开始日期、时间和几天后重复。完成后，单击“保存”。
 
@@ -961,7 +961,7 @@ wd：Personal_Data.wd：Contact_Data.wd：Address_Data.0.wd：Unsicillity
 
 +++
 
-+++用户技能 — 按需
++++用户技能 - 按需
 
 您可以利用此选项来指定开始日期并导出报告。将提取从输入的日期中到现在的报告。输入您要开始生成报告的日期，然后单击“执行”。
 
@@ -970,7 +970,7 @@ wd：Personal_Data.wd：Contact_Data.wd：Address_Data.0.wd：Unsicillity
 
 +++
 
-+++用户技能 — 执行状态
++++用户技能 - 执行状态
 
 在这里，您可以查看所有任务的摘要并获取其状态报告。您可以通过单击错误报告链接下载错误报告。
 
@@ -1159,13 +1159,13 @@ Adobe Learning Manager 需要获取以下范围，并且必须在 OAuth 应用�
 
 +++
 
-+++xAPI活动报告
++++xAPI 活动报告
 
 xAPI 活动报告选项允许您生成对第三方服务 xAPI 语句的导入。这些文件保存为 .CSV 文件，然后在导入 Adobe Learning Manager 时会转换为 xAPI 语句。
 
 +++
 
-+++导入xAPI所需的配置
++++导入 xAPI 时所需的配置
 
 1. 在配置页面中，选择配置列表中可用的现有配置，以从CSV导入xAPI语句。 单击编辑或&#x200B;**添加新配置**&#x200B;链接以导航至“导入xAPI语句 — 配置 — 源文件”页面。
 
@@ -2124,8 +2124,8 @@ Microsoft Teams 连接器可连接 Adobe Learning Manager 和 Microsoft Teams �
 1. 在您启用连接后，所有课程、学习路径和证书的图像都将迁移至CDN。
 1. 将课程、学习路径和证书的元数据导出到搜索和检索服务中。
 1. 您可以通过选择启用计划选项来计划元数据导出。 对于高级计划，计划每3小时自动执行一次。
-1. 对于按需报告，请转到&#x200B;**[!UICONTROL 按需]**，选择&#x200B;**[!UICONTROL 开始日期]**，然后&#x200B;**[!UICONTROL 单击]**&#x200B;执行。
-您可以在&#x200B;**[!UICONTROL 执行状态]**&#x200B;页面上检查报表执行状态。
+1. 对于按需报告，请转到&#x200B;**[!UICONTROL 按需]**，选择&#x200B;**[!UICONTROL 开始日期]**，然后&#x200B;**[!UICONTROL 单击]**执行。
+您可以在**[!UICONTROL 执行状态]**&#x200B;页面上检查报表执行状态。
 
 ### 在 AEM 中创建网站 {#create-website-in-aem}
 
@@ -2235,7 +2235,7 @@ Adobe Commerce 管理员将 Adobe Learning Manager 配置为集成。
 
 >[!NOTE]
 >
->在2024年3月版Adobe Learning Manager中，我们引入了对[Adobe Commerce 2.4.6](https://experienceleague.adobe.com/docs/commerce-operations/release/notes/adobe-commerce/2-4-6.html?lang=zh-Hans)的支持。
+>在2024年3月版Adobe Learning Manager中，我们引入了对[Adobe Commerce 2.4.6](https://experienceleague.adobe.com/docs/commerce-operations/release/notes/adobe-commerce/2-4-6.html?lang=en)的支持。
 
 
 1. 单击&#x200B;**[!UICONTROL 导出培训元数据]** > **[!UICONTROL 按需]**。

@@ -2,7 +2,7 @@
 description: 了解Adobe Learning Manager 2025年10月版的新增功能和增强功能
 jcr-language: en_us
 title: Adobe Learning Manager 2025年10月版的新增功能
-source-git-commit: 5d50bd56b6663b26fc6db0ff33d19ad809e9bf6a
+source-git-commit: 2df852f933fb0fb7b010dec5426a886b9e7b8ad5
 workflow-type: tm+mt
 source-wordcount: '5638'
 ht-degree: 0%

@@ -31,7 +31,7 @@ ht-degree: 72%
 
 下方链接是特定浏览器的缓存清理指南：
 
-* [Google Chrome](https://support.google.com/accounts/answer/32050?co=GENIE.Platform%3DDesktop&amp;hl=zh-Hans)
+* [Google Chrome](https://support.google.com/accounts/answer/32050?co=GENIE.Platform%3DDesktop&hl=zh-Hans)
 * [Internet Explorer](https://kb.wisc.edu/page.php?id=1514)
 * [Microsoft Edge](https://www.bitdefender.com/support/how-to-clear-the-cache-and-cookies%C2%A0in-microsoft-edge-1914.html)
 * [Firefox](https://kb.iu.edu/d/ahic)
@@ -39,7 +39,7 @@ ht-degree: 72%
 
 ## 使用无痕模式
 
-在浏览器中使用无痕模式登录 Adobe Learning Manager。请参阅[说明](https://support.google.com/chrome/answer/95464?co=GENIE.Platform%3DDesktop&amp;hl=cn&amp;oco=0)。
+在浏览器中使用无痕模式登录 Adobe Learning Manager。请参阅[说明](https://support.google.com/chrome/answer/95464?co=GENIE.Platform%3DDesktop&hl=cn&oco=0)。
 
 ## 联系管理员
 

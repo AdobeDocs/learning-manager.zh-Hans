@@ -183,7 +183,7 @@ Learning Manager流体播放器所使用的流技术可为学习者提供视频�
 
    您可以通过在集成管理员中设置嵌入式流体播放器来获取令牌。 您可以获取可用作访问令牌的身份验证令牌。
 
-   创建的URL示例；https://learningmanager.adobe.com/app/player?lo_id=&quot;+lo_id+&quot;&amp;access_token=&quot;+accToken
+   创建的URL示例；https://learningmanager.adobe.com/app/player?lo_id=&quot;+lo_id+&quot;&access_token=&quot;+accToken
 
    在此URL中， lo_id将是课程、学习计划、认证和工作辅助的ID。
 

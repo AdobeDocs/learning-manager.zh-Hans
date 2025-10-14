@@ -33,7 +33,7 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->观看此[网络研讨会](https://cdn.content.adobelearningmanageracademy.com/public/newlearner/newlearner_0dc0f1e8.html#/overviewPage?instanceId=11932477&amp;loId=11231360&amp;loType=course)，了解有关此版本中新增功能的更多信息。
+>观看此[网络研讨会](https://cdn.content.adobelearningmanageracademy.com/public/newlearner/newlearner_0dc0f1e8.html#/overviewPage?instanceId=11932477&loId=11231360&loType=course)，了解有关此版本中新增功能的更多信息。
 
 ## Adobe Learning Manager中的AI支持搜索
 

@@ -352,7 +352,7 @@ Harvard ManageMentor 连接器：Harvard ManageMentor 的企业用户可使用�
    client_hmm12_20150125.xlsx：此文件是 Harvard ManageMentor 连接器的用户订阅源。文件命名必须遵循以下约定：**client_hmm12_yyyyMMdd.xlsx**。
 
    请参阅以下两个用于此连接器的用户订阅源和课程订阅源文件样本：
-   [ Harvard ManageMentor连接器的课程元数据文件](assets/hmm12-metadata.xlsx) [ Harvard ManageMentor连接器的用户订阅源](assets/client-hmm12-20170304.xlsx)
+   [&#x200B; Harvard ManageMentor连接器的课程元数据文件](assets/hmm12-metadata.xlsx) [&#x200B; Harvard ManageMentor连接器的用户订阅源](assets/client-hmm12-20170304.xlsx)
 
 ## Workday 连接器 {#workdayconnector}
 

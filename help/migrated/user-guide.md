@@ -16,7 +16,7 @@ ht-degree: 19%
 
 ## 加入对话 {#jointheconversation}
 
-访问[Adobe Learning Manager用户社区](https://community.adobe.com/t5/adobe-learning-manager/ct-p/ct-captivate-prime?page=1&amp;sort=latest_replies&amp;lang=all&amp;tabid=all)以获得灵感和常见问题解答。
+访问[Adobe Learning Manager用户社区](https://community.adobe.com/t5/adobe-learning-manager/ct-p/ct-captivate-prime?page=1&sort=latest_replies&lang=all&tabid=all)以获得灵感和常见问题解答。
 
 ## 热门主题 {#populartopics}
 

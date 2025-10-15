@@ -16,7 +16,7 @@ ht-degree: 0%
 
 要创建试用帐户，请执行以下操作：
 
-1. 转到[Adobe Learning Manager](https://business.adobe.com/products/learning-manager/adobe-learning-manager.html)。
+1. 转到[Adobe Learning Manager](https://business.adobe.com/cn/products/learning-manager/adobe-learning-manager.html)。
 2. 选择&#x200B;**[!UICONTROL 30天免费试用]**。
 
    ![](assets/free-trial.png)

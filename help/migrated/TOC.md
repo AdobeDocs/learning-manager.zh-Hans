@@ -2,9 +2,9 @@
 user-guide-title: Adobe Learning Manager 指南
 breadcrumb-title: Learning Manager
 user-guide-description: Adobe Learning Manager 的文档
-source-git-commit: 5d50bd56b6663b26fc6db0ff33d19ad809e9bf6a
+source-git-commit: 3120756396fa20170f9a5b96861cbdaa4d4bb8c8
 workflow-type: tm+mt
-source-wordcount: '760'
+source-wordcount: '763'
 ht-degree: 71%
 
 ---
@@ -68,6 +68,7 @@ ht-degree: 71%
    * 内容市场 {#content-marketplace}
       * [内容市场](administrators/feature-summary/content-marketplace.md)
       * [策划Go1课程到学习路径](administrators/feature-summary/content-marketplace/curate-go1-playlist.md)
+   * [L1反馈表单](/help/migrated/administrators/feature-summary/l1-feedback-form.md)
    * [报告](administrators/feature-summary/reports.md)
    * [组成功信息板](/help/migrated/administrators/feature-summary/group-success-dashboard.md)
    * [学习路径](administrators/feature-summary/learning-paths.md)

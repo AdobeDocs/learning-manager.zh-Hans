@@ -2,7 +2,7 @@
 description: 了解如何在Adobe Learning Manager中创建Go1播放列表并将其添加到学习路径。 本指南介绍了集成播放列表的分步说明和最佳实践。
 jcr-language: en_us
 title: 策划Adobe Learning Manager学习路径的Go1播放列表
-source-git-commit: 9931265d7cbecf42413011fb7e635ebb8e0f4006
+source-git-commit: fd72f959e1c1d53841cf095a447e16e2387969c2
 workflow-type: tm+mt
 source-wordcount: '1665'
 ht-degree: 0%
@@ -53,7 +53,7 @@ Adobe Learning Manager提供AI支持的帮助，让管理员能够更轻松地�
 
 要使用AI创建播放列表，请执行以下操作：
 
-1. 在Go1内容中心上选择&#x200B;**[!UICONTROL 使用AI聊天]**&#x200B;选项。
+1. 在&#x200B;**[!UICONTROL Go1内容中心]**&#x200B;上选择&#x200B;**使用AI聊天**&#x200B;选项。
 
    ![](assets/select-chat-with-ai.png)
    _显示“使用AI聊天”选项的内容中心屏幕，管理员可在此处与AI Assistant交互以提出问题_
@@ -139,8 +139,8 @@ Adobe Learning Manager提供AI支持的帮助，让管理员能够更轻松地�
 12. 在确认提示中选择&#x200B;**是**。
 13. 从&#x200B;**[!UICONTROL 选择要导入提示的播放列表]**&#x200B;中选择播放列表。
 
-    ![](assets/add-playlist-to-lp.png)
-    _从Adobe Learning Manager的Go1库中选择并导入Sales Engineer Skills Enhancement播放列表_
+   ![](assets/add-playlist-to-lp.png)
+   _从Adobe Learning Manager的Go1库中选择并导入Sales Engineer Skills Enhancement播放列表_
 
 14. 选择&#x200B;**[!UICONTROL 将播放列表添加到学习路径]**，然后选择&#x200B;**[!UICONTROL Publish]**。
 

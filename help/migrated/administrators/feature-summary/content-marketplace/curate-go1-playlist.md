@@ -2,7 +2,7 @@
 description: 了解如何在Adobe Learning Manager中创建Go1播放列表并将其添加到学习路径。 本指南介绍了集成播放列表的分步说明和最佳实践。
 jcr-language: en_us
 title: 策划Adobe Learning Manager学习路径的Go1播放列表
-source-git-commit: fd72f959e1c1d53841cf095a447e16e2387969c2
+source-git-commit: 6d7c4f615bc69ba2d9cb6b1dfbfe4fae09ecfb18
 workflow-type: tm+mt
 source-wordcount: '1665'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 
 要使用Go1课程创建学习路径，请执行以下操作：
 
-1. 以管理员身份登录Adobe Learning Manager。
+1. 以管理员身份登录&#x200B;**Adobe Learning Manager**。
 2. 在左侧导览窗格中选择&#x200B;**[!UICONTROL 学习路径]**。
 3. 选择&#x200B;**[!UICONTROL 添加]**。
 

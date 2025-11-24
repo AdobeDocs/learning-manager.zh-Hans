@@ -2,9 +2,9 @@
 description: 了解如何在Adobe Learning Manager中访问、下载和解释反馈报告。 了解报告列、问题类型、经理和学习者回应，以及反馈见解如何支持培训评估和持续改进。
 jcr-language: en_us
 title: Adobe Learning Manager中的反馈报告
-source-git-commit: 6fceea6cc1f5fbe47e0dbb211cfb9e2de67957f6
+source-git-commit: 339207c1a1d4f365a4c25c4d2ef7e4527b1dfefc
 workflow-type: tm+mt
-source-wordcount: '821'
+source-wordcount: '856'
 ht-degree: 8%
 
 ---
@@ -41,7 +41,7 @@ ht-degree: 8%
    ![](assets/select-feedback-report.png)
    _自定义报告部分显示选择“反馈报告”以访问学习者和经理反馈数据的选项_
 
-5. 选择&#x200B;**[!UICONTROL 所有培训]**&#x200B;或&#x200B;**[!UICONTROL 所选培训]**&#x200B;以及日期范围。 如果选择第二个选项，您最多可以添加10个课程或学习路径并生成反馈报告。 此外，您最多可以生成一年的报告。
+5. 选择&#x200B;**[!UICONTROL 所有培训]**&#x200B;或&#x200B;**[!UICONTROL 所选培训]**以及日期范围。 如果选择第二个选项，您最多可以添加10个课程或学习路径并生成反馈报告。 此外，您最多可以生成一年的报告。
    ![](assets/feedback-report.png)
    _通过选择培训范围、设置日期范围并在下载之前选择翻译选项来配置反馈报告_
 
@@ -102,4 +102,6 @@ ht-degree: 8%
 | 反馈版本 | 反馈表单的版本号 |
 | 学习者语言 | 学习者选择的语言 |
 
-
+>[!NOTE]
+>
+>“学习对象”级别报告还包含已添加到反馈表单的问题。 每个问题都显示为列标题，学习者对这些问题的回答显示在下面的相应行中。

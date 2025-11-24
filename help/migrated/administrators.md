@@ -4,7 +4,7 @@ title: 管理员
 description: 阅读以了解 Adobe Learning Manager 功能以及与管理员角色相关联的常见问题解答。
 contentowner: manochan
 preview: true
-source-git-commit: 0fabd369e70e15ba22fead0177a24aafd851d88d
+source-git-commit: fcc50e80f94bdcbc8de2cddac92f1a12b55e1e18
 workflow-type: tm+mt
 source-wordcount: '125'
 ht-degree: 100%
@@ -36,7 +36,7 @@ ht-degree: 100%
 
 * [颜色主题和品牌推广](administrators/feature-summary/themes.md)
 * [Adobe Connect 集成](administrators/feature-summary/adobeconnect-integration.md)
-* [学习者成绩单](/help/migrated/administrators/feature-summary/learner-transcripts.md)
+* [学习者成绩单](/help/migrated/administrators/feature-summary/reports/learner-transcripts.md)
 * [游戏](administrators/feature-summary/gamification.md)
 * [添加用户/用户组](administrators/feature-summary/add-users-user-groups.md)
 * [徽章](administrators/feature-summary/badges.md)

@@ -2,7 +2,7 @@
 description: 了解Adobe Learning Manager 2025年10月版的新增功能和增强功能
 jcr-language: en_us
 title: Adobe Learning Manager 2025年10月版的新增功能
-source-git-commit: c1a201e97a8944dddb6361aade0017f5745f933c
+source-git-commit: fcc50e80f94bdcbc8de2cddac92f1a12b55e1e18
 workflow-type: tm+mt
 source-wordcount: '5638'
 ht-degree: 0%
@@ -731,7 +731,7 @@ curl -X GET --header 'Accept: application/vnd.api+json' --header 'Authorization:
 ![在Adobe学习中，学习者成绩单报告显示了已标记的完成日期（以黄色高亮显示）用于课程完成跟踪](/help/migrated/assets/mark-completion-column.png)
 _学习者成绩单报告会以黄色显示一个新列，突出显示所有用户的各个完成日期_
 
-查看[学习者成绩单](/help/migrated/administrators/feature-summary/learner-transcripts.md)，了解有关学习者成绩单报告的更多信息。
+查看[学习者成绩单](/help/migrated/administrators/feature-summary/reports/learner-transcripts.md)，了解有关学习者成绩单报告的更多信息。
 
 ### 增强型用户报告及扩展数据字段
 
@@ -774,7 +774,7 @@ _用户报告，重点介绍内部用户ID和经理电子邮件地址，以简�
 >
 >默认情况下，现有帐户禁用此标志，对于新帐户，必须明确请求使用此标志。
 
-查看[学习者成绩单](/help/migrated/administrators/feature-summary/learner-transcripts.md)文章详细信息。
+查看[学习者成绩单](/help/migrated/administrators/feature-summary/reports/learner-transcripts.md)文章详细信息。
 
 ### 包含直接访问链接的工作辅助报告
 

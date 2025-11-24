@@ -4,10 +4,10 @@ jcr-language: en_us
 title: 报告
 contentowner: manochan
 exl-id: 31b176b7-4b8f-4851-a0c5-4eee58bceb41
-source-git-commit: f6bc1fa9384fc728f6abca7bb0fd9f62bb1f9e04
+source-git-commit: 03484f1c95f7dbf1e06b7cb9559b1a6b012759c1
 workflow-type: tm+mt
-source-wordcount: '7809'
-ht-degree: 52%
+source-wordcount: '7576'
+ht-degree: 53%
 
 ---
 
@@ -338,7 +338,7 @@ _合规性信息板 — 管理员视图_
    ![](assets/share-manager.png)
    _与经理共享合规性信息板_
 
-5. 从&#x200B;**[!UICONTROL 选择自定义合规性]**&#x200B;下拉菜单中选择合规性标签。
+5. 从&#x200B;**[!UICONTROL 选择自定义合规性]**下拉菜单中选择合规性标签。
 此选项将选择具有选定合规性标签的所有课程。
 6. 选择要与管理员共享的其他课程、学习路径或认证。
 7. 选择要共享仪表板的用户或用户组，然后选择&#x200B;**[!UICONTROL 共享]**。
@@ -450,15 +450,9 @@ _合规性信息板 — 管理员视图_
 
 ### 学习者成绩单 {#LearnerTranscripts-1}
 
-公司的管理员可通过 Adobe Learning Manager 生成与学习者相关联的成绩单。学习者成绩单报告载有以下内容：
+公司的管理员可通过 Adobe Learning Manager 生成与学习者相关联的成绩单。
 
-1. 学习者成绩单：学习活动信息板
-1. 技能：技能信息板
-1. 合规性信息板
-
-Excel 报告中学习者成绩单的“必修积分”和“已修积分”列显示小数数值。
-
-有关生成学习者成绩单报告等方面的信息，请参阅[学习者成绩单](learner-transcripts.md)。
+有关详细信息，请参阅[学习者成绩单](/help/migrated/administrators/feature-summary/reports/learner-transcripts.md)。
 
 ### 公告报告 {#announcementsreports}
 
@@ -750,22 +744,7 @@ Excel 报告中学习者成绩单的“必修积分”和“已修积分”列�
 
 作为管理员，您现在可以获取特定时间段内所选培训的学员反馈 (L1) 和经理反馈 (L3)。
 
-您可以从UI或通过PowerBI连接器导出数据以进行更深入的分析。
-
-L1和L3反馈报告提供了一个可用选项，允许用户下载&#x200B;**一年**&#x200B;内选定培训或任意日期范围内多达10项选定培训的L1和L3响应综合反馈报告。
-
-以管理员身份登录，单击&#x200B;**[!UICONTROL 报告]** > **[!UICONTROL 自定义报告]**，然后在报告列表中，单击&#x200B;**[!UICONTROL 反馈报告]**。
-
-![](assets/download-feedbackreport.png)
-*下载反馈报告*
-
-选择过滤器后单击下载，您将收到以CSV格式下载报告的通知。
-
-下载的报告将包含各种详细信息，例如培训名称和类型、实例名称、学习者姓名和电子邮件、反馈类型（L1或L3）、为新数据提交的反馈日期等。
-
-对于此功能实施之前的现有数据，将显示学习对象完成日期、学习对象完成日期、L1反馈问题、不同列中的自定进度的实际文本和课堂文本、L1反馈各自的响应、经理姓名和电子邮件、L3反馈值和提交日期、活动字段。
-
-您也可以从用户界面导出数据或将数据导出到Power BI（支持任何日期范围内的所有培训），以便进行更深入的分析
+有关详细信息，请参阅[反馈报告](/help/migrated/administrators/feature-summary/reports/feedback-report.md)。
 
 ### 培训报告 {#training-report}
 
@@ -1035,7 +1014,7 @@ Adobe Learning Manager (ALM)中的历史报告是指捕获学习平台内的历�
    *报表轴*
 
 1. 从下拉列表选项中选择报告的次要 **[!UICONTROL Y 轴]**&#x200B;条件/范围。例如，对于学习计划注册选项，在“状态”下拉列表中选择一个或多个状态。次要范围数据以线形图的形式展现。
-1. 从下拉选项中为报告选择适当的X&#x200B;**轴**&#x200B;条件。 如果 X 轴已选定为日期，则可以使用按天、月、季度和年对 X 轴条件进行分组。
+1. 从下拉选项中为报告选择适当的X**轴**条件。 如果 X 轴已选定为日期，则可以使用按天、月、季度和年对 X 轴条件进行分组。
 1. 在“时间跨度”部分，从下拉列表中选择对应的选项。可用选项包括：
 
    * 最近一个月

@@ -4,7 +4,7 @@ title: 解释学习者成绩单 CSV
 description: 解释学习者成绩单 CSV
 contentowner: saghosh
 preview: true
-source-git-commit: fba5e5ddc1964b485be473bf356806f234688cf4
+source-git-commit: fcc50e80f94bdcbc8de2cddac92f1a12b55e1e18
 workflow-type: tm+mt
 source-wordcount: '2997'
 ht-degree: 88%
@@ -29,9 +29,9 @@ ht-degree: 88%
 
 ## 从用户界面获取学习者成绩单 {#fetchlearnertranscriptfromtheuserinterface}
 
-学习者可以通过“个人资料设置”下载自己的成绩单。 有关详细信息，请参阅&#x200B;*** [下载学习者成绩单](../../administrators/feature-summary/learner-transcripts.md)***。
+学习者可以通过“个人资料设置”下载自己的成绩单。 有关更多信息，请参阅***[下载学习者成绩单](/help/migrated/administrators/feature-summary/reports/learner-transcripts.md)***。
 
-管理员可以为整个组织、一组特定用户或一组特定学习对象、一组特定用户和学习对象生成学习者成绩单。 他们还可以获取一个时间段内的所有学习记录，并指示是否需要模块级别信息（默认情况下，忽略模块级别信息）。 有关更多详细信息，请参阅&#x200B;[***下载学习者成绩单***](../../administrators/feature-summary/learner-transcripts.md)。
+管理员可以为整个组织、一组特定用户或一组特定学习对象、一组特定用户和学习对象生成学习者成绩单。 他们还可以获取一个时间段内的所有学习记录，并指示是否需要模块级别信息（默认情况下，忽略模块级别信息）。 有关更多详细信息，请参阅&#x200B;[***下载学习者成绩单***](/help/migrated/administrators/feature-summary/reports/learner-transcripts.md)。
 
 <!--Update above link?-->
 

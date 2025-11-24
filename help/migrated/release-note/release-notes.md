@@ -18,7 +18,7 @@ ht-degree: 70%
   <tr>
    <td><img src="assets/cp-prime-appicon-88x84.png"></td>
    <td>
-    <p><a href="https://business.adobe.com/products/learning-manager/adobe-learning-manager.html">Adobe Learning Manager</a> was launched in August 2015. As part of our continuous improvement efforts to enhance the product, we have been rolling out regular updates. Read on to know the features enhanced/issues fixed in update releases.<br></p></td>
+    <p><a href="https://business.adobe.com/cn/products/learning-manager/adobe-learning-manager.html">Adobe Learning Manager</a> was launched in August 2015. As part of our continuous improvement efforts to enhance the product, we have been rolling out regular updates. Read on to know the features enhanced/issues fixed in update releases.<br></p></td>
   </tr>
  </tbody>
 </table>-->
@@ -131,7 +131,7 @@ _Content update options_-->
 
 * 修复了内容模块更新为新版本后，已完成课程的学习者在重修课程时看到白色屏幕的问题。
 
-此外，有关即将对Adobe Learning Manager进行的更改的详细信息，请参阅此[文章](https://experienceleague.adobe.com/en/docs/learning-manager/using/introduction/upcoming-changes-in-adobe-learning-manager)。
+此外，有关即将对Adobe Learning Manager进行的更改的详细信息，请参阅此[文章](https://experienceleague.adobe.com/zh-hans/docs/learning-manager/using/introduction/upcoming-changes-in-adobe-learning-manager)。
 
 +++
 

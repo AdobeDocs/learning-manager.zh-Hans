@@ -2,23 +2,15 @@
 description: 详细了解Experience Builder，Adobe Learning Manager中的一种无代码/低代码工具，使管理员无需技术专业知识即可设计和发布品牌化的用户友好页面。
 jcr-language: en_us
 title: Adobe Learning Manager中的Experience Builder
-source-git-commit: 13efc4d72ac56cecf6313dbda28a3853fc3b5498
+source-git-commit: b1225d4c1c322a75d97c813b0d97eb3229ffd35c
 workflow-type: tm+mt
-source-wordcount: '1059'
+source-wordcount: '994'
 ht-degree: 0%
 
 ---
 
 
 # 概述
-
->[!IMPORTANT]
->
->我们很高兴宣布，Experience Builder是用于创建可自定义学习门户的创新工具，将在Adobe Learning Manager 2025年10月版后推出。
->
->随着发布日期的临近，敬请关注更多更新。 我们期待看到您如何使用Experience Builder转变学习门户。
->
->如有任何问题或其他信息，请联系您的客户成功经理。
 
 Experience Builder是Adobe Learning Manager中的一种无代码/低代码工具，可帮助您创建自定义学习门户。 它允许您设计品牌化、用户友好的学习门户，而无需具备技术技能或丰富的编码知识。
 

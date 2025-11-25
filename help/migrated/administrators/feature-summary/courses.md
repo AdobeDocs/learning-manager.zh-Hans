@@ -4,9 +4,9 @@ jcr-language: en_us
 title: 创建课程实例和学习路径
 contentowner: manochan
 exl-id: aba7417b-26a0-4160-878c-5814f84e5155
-source-git-commit: dfb83c88a39401f5ae9048d71fd19ca71569a14c
+source-git-commit: 40cd12c186463517b20017229e44b6864056dedf
 workflow-type: tm+mt
-source-wordcount: '5803'
+source-wordcount: '5832'
 ht-degree: 51%
 
 ---
@@ -355,6 +355,11 @@ Adobe Learning Manager允许管理员下载课程所有实例的轮候学习者�
 下载 PDF 时，您可看到创建课程时使用的时区 (UTC)。
 
 ## 添加 L1 和 L3 反馈 {#addl1andl3feedback}
+
+>[!NOTE]
+>
+>如果您的帐户中看不到此反馈选项，则表明您的帐户已升级到新的L1反馈表单。 有关详细信息，请查看[L1反馈表单](/help/migrated/administrators/feature-summary/l1-feedback-form.md)。
+
 
 您可以在创建课程时添加 L1 和 L3 反馈选项：
 
@@ -855,7 +860,7 @@ Adobe Learning Manager 管理员可以向学习者分享二维码，以便快速
 
 +++如何添加课程URL，以便学习者直接重定向到课程？
 
-将鼠标悬停在课程卡上，然后单击&#x200B;**“复制 URL”**。复制 URL 后，学习者可以直接使用 URL 访问课程。
+将鼠标悬停在课程卡上，然后单击&#x200B;]**“复制 URL”**[!UICONTROL 。复制 URL 后，学习者可以直接使用 URL 访问课程。
 
 +++
 

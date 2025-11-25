@@ -2,10 +2,10 @@
 description: 了解如何在Adobe Learning Manager中访问、下载和解释反馈报告。 了解报告列、问题类型、经理和学习者回应，以及反馈见解如何支持培训评估和持续改进。
 jcr-language: en_us
 title: Adobe Learning Manager中的反馈报告
-source-git-commit: e0553621dd67338d2433bb1f82af43cacc2d8b8c
+source-git-commit: b1225d4c1c322a75d97c813b0d97eb3229ffd35c
 workflow-type: tm+mt
-source-wordcount: '856'
-ht-degree: 8%
+source-wordcount: '902'
+ht-degree: 7%
 
 ---
 
@@ -41,7 +41,7 @@ ht-degree: 8%
    ![](assets/select-feedback-report.png)
    _自定义报告部分显示选择“反馈报告”以访问学习者和经理反馈数据的选项_
 
-5. 选择&#x200B;**[!UICONTROL 所有培训]**&#x200B;或&#x200B;**[!UICONTROL 所选培训]**&#x200B;以及日期范围。 如果选择第二个选项，您最多可以添加10个课程或学习路径并生成反馈报告。 此外，您最多可以生成一年的报告。
+5. 选择&#x200B;**[!UICONTROL 所有培训]**&#x200B;或&#x200B;**[!UICONTROL 所选培训]**以及日期范围。 如果选择第二个选项，您最多可以添加10个课程或学习路径并生成反馈报告。 此外，您最多可以生成一年的报告。
    ![](assets/feedback-report.png)
    _通过选择培训范围、设置日期范围并在下载之前选择翻译选项来配置反馈报告_
 
@@ -92,6 +92,16 @@ ht-degree: 8%
 >[!NOTE]
 >
 >帐户级别报告还包括为学习者配置的所有活动字段。
+
+## 下载学习对象级别报告
+
+要下载“学习对象”级别报告：
+
+1. 以管理员身份登录Adobe Learning Manager。
+2. 从左侧导航菜单中选择&#x200B;**[!UICONTROL 课程]**。
+3. 选择任意课程，然后选择&#x200B;**[!UICONTROL 查看课程]**。
+4. 选择&#x200B;**[!UICONTROL L1反馈]**。
+5. 选择&#x200B;**[!UICONTROL 导出报告]**，然后选择&#x200B;**[!UICONTROL 确定]**。
 
 “学习对象”级别报告中显示以下列：
 

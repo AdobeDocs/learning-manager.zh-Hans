@@ -3,10 +3,10 @@ description: 本参考手册适用于希望将现有LMS迁移到Adobe Learning M
 jcr-language: en_us
 title: 迁移手册
 exl-id: bfdd5cd8-dc5c-4de3-8970-6524fed042a8
-source-git-commit: 3644e5d14cc5feaefefca85685648a899b406fce
+source-git-commit: acef8666ce207fdb81011265814b4d4278da7406
 workflow-type: tm+mt
-source-wordcount: '3850'
-ht-degree: 67%
+source-wordcount: '4438'
+ht-degree: 59%
 
 ---
 
@@ -524,9 +524,117 @@ A sample snapshot of project files and folder of FTP is shown below for your ref
 
 在对公司旧 LMS 系统的学习数据和内容完成迁移后，您可使用各种学习对象功能对导入的数据和内容进行验证。 例如，您可以管理员身份登录 Adobe Learning Manager 应用程序，然后对导入的模块及课程数据和内容进行可用性验证。
 
+## 使用API迁移
+
+Adobe Learning Manager (ALM)提供了从外部系统摄取数据或内容的迁移功能，主要用于从旧版LMS平台迁移。
+
+但是，某些组织可能要求此流程定期运行（例如，每夜或每周），而不是作为一次性导入运行。
+
+例如，您将看到一个虚构的客户(NovaFX)如何与一个虚构的外部提供商(SquareCorp)集成并自动化计划的迁移。 该集成允许：
+
+* 对于NovaFX学习者，SquareCorp课程在ALM中显示为学习对象。
+* NovaFX可直接在ALM中跟踪SquareCorp主办课程的学习者进度。
+
+### 集成要求
+
+SquareCorp必须提供：
+
+* 课程元数据信息：一个API，用于共享NovaFX有权访问的课程元数据。
+* 进度数据信息：用于定期共享学习者进度和完成信息的API。
+
+### 关键定义
+
+* **活动项目：**&#x200B;如果项目处于“进行中”或“已初始化”状态，则项目处于活动状态。
+* **活动Sprint：**&#x200B;如果Sprint处于“进行中”或“已初始化”状态，则它处于活动状态。
+
+### 自动执行Sprint
+
+生成可按计划执行以下操作的应用程序或脚本：
+
+1. 从SquareCorp获取课程元数据、用户注册和学习者成绩。
+2. 生成CSV文件。
+3. 将文件上传到Box或FTP。
+4. 使用迁移API触发Sprint。
+
+### API详细信息
+
+#### 启动迁移运行
+
+**终结点：** POST/primeapi/v2/bulkimport/startrun
+
+参数：
+
+* **lockaccount （布尔值）：**&#x200B;参数确定是否在开始执行时锁定帐户。 默认情况下，它设置为false。 建议用户避免使用此参数，除非存在锁定帐户的有效理由。
+* **目录ID （整数）：**&#x200B;此参数允许您在迁移期间选择目标目录。 它通常在创建迁移项目时设置，但可以针对单个运行进行调整。 更改目录ID后，未来运行中添加的学习对象将放入最近选择的目录中。 如果必须返回到在创建迁移项目期间选择的目录，则还必须明确指定此项。
+* **migrationProjectId (Integer)：**&#x200B;在帐户中启用多个启用了API的运行时，需要该参数来触发特定的迁移项目。
+
+#### 检查是否可以开始同步
+
+确保内容可以同步到Sprint文件夹。 除非此API返回成功的响应对象，否则请勿将内容或元数据文件复制到FTP文件夹。
+
+**终结点：** GET/primeapi/v2/bulkimport/cansync
+
+参数：
+
+* **migrationProjectId (Integer)**&#x200B;在帐户中启用多个启用了API的运行时，需要该参数来触发特定的迁移项目。
+
+<b>响应成功</b>
+
+```
+{  
+    "status": "OK",  
+    "title": "BULKIMPORT_CAN_SYNC_NOW",  
+    "source": {  
+        "info": "Yes"  
+    }  
+} 
+```
+
+<b>响应成功</b>
+
+```
+{ 
+    "status": "BAD_REQUEST", 
+    "title": "BULKIMPORT_ERROR_CANNOT_SYNC", 
+    "source": { 
+        "info": "Error, No active projects" 
+    } 
+} 
+```
+
+<b>可能的API响应</b>
+
+| 操作 | 类型 | 消息 |
+| ------------------------------------- | ------- | ------------------------------------------------------------------------------------- |
+| BULKIMPORT_RUN_INITIATED_SUCCESSFULLY | 成功 | 已成功启动运行 |
+| BULKIMPORT_ERROR_CANNOT_INITATE_RUN | 错误 | 运行正在进行中 |
+| BULKIMPORT_ERROR_CANNOT_INITATE_RUN | 错误 | 有多个活动项目 |
+| BULKIMPORT_ERROR_CANNOT_INITATE_RUN | 错误 | 有不止一个Sprint |
+| BULKIMPORT_ERROR_CANNOT_INITATE_RUN | 错误 | 无活动项目 |
+| BULKIMPORT_ERROR_CANNOT_INITATE_RUN | 错误 | 无活动Sprint |
+| BULKIMPORT_ERROR_CANNOT_INITATE_RUN | 错误 | 提供的目录不是有效ID或不属于Prime帐户 |
+| BULKIMPORT_CAN_SYNC_NOW | 信息 | 现在可以同步 |
+| BULKIMPORT_ERROR_CANNOT_SYNC | 错误 | 运行正在进行中 |
+| BULKIMPORT_ERROR_CANNOT_SYNC | 错误 | 有多个活动项目 |
+| BULKIMPORT_ERROR_CANNOT_SYNC | 错误 | 有不止一个Sprint |
+| BULKIMPORT_ERROR_CANNOT_SYNC | 错误 | 无活动项目 |
+| BULKIMPORT_ERROR_CANNOT_SYNC | 错误 | 无活动Sprint |
+| BULKIMPORT_ERROR_CANNOT_SYNC | 错误 | 文件夹中不存在有效文件 |
+
+### 集成流程示例
+
+1. 检查cansync API。
+2. 生成并上传CSV文件。
+3. 使用startrun API触发Sprint。
+4. 监视响应并处理错误。
+
+### 限制
+
+迁移API不提供在执行Sprint后直接在输出CSV文件中检查迁移相关错误的功能。 但是，通过在Sprint运行后访问集成管理员用户界面，可将这些错误作为CSV文件中的行进行审阅。
+
 ### 通过API进行迁移验证
 
-新的迁移API `runStatus`允许集成管理员跟踪通过API触发的迁移运行的进度。
+迁移API `runStatus`允许集成管理员跟踪通过API触发的迁移运行的进度。
 
 `runStatus` API还提供了一个直接链接，可用于以CSV格式下载已完成运行的错误日志。 下载链接将保持活动状态七天，日志将保留一个月。
 

@@ -2,10 +2,10 @@
 user-guide-title: Adobe Learning Manager 指南
 breadcrumb-title: Learning Manager
 user-guide-description: Adobe Learning Manager 的文档
-source-git-commit: 03484f1c95f7dbf1e06b7cb9559b1a6b012759c1
+source-git-commit: c57896abd8f00ca4a7b26c981eb490cd53ce437b
 workflow-type: tm+mt
-source-wordcount: '765'
-ht-degree: 71%
+source-wordcount: '776'
+ht-degree: 70%
 
 ---
 
@@ -198,6 +198,7 @@ ht-degree: 71%
    * [不显示 L1 反馈自动弹窗](kb/l1-feedback-auto-popup-does-not-appear.md)
    * [在创建认证时，无法查看目录下的某些课程](kb/unable-to-view-certain-courses.md)
    * [在创建学习计划时，无法查看目录下的某些课程](kb/unable-view-course-catalog.md)
+   * [解决Adobe Learning Manager的Salesforce (SFDC)集成问题] (kb/troubleshoot-sfdc-integration-issues.md)
    * [有关停用学习计划的问题](kb/issues-retiring-learning-program.md)
    * [无法分配徽章](kb/badge-not-assigned.md)
    * [Adobe Learning Manager 中的会话过期](kb/login-issue.md)

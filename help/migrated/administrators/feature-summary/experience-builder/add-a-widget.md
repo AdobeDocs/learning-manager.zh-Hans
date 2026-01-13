@@ -2,9 +2,9 @@
 title: 在Experience Builder中添加和配置小组件
 description: 了解如何在Adobe Learning Manager内的Experience Builder中添加、自定义和配置各种小组件。 本指南涵盖常用小组件，例如日历、类别、合规性状态、课程和路径、游戏、HTML内容、IFrames、社交学习等。
 jcr-language: en-us
-source-git-commit: 85eeebb33a67bf5528c88b26941345e00e98e0d3
+source-git-commit: 7fe4576e2a90b27f51d035f01a30ce3a818b95c2
 workflow-type: tm+mt
-source-wordcount: '2459'
+source-wordcount: '2483'
 ht-degree: 0%
 
 ---
@@ -60,6 +60,8 @@ ht-degree: 0%
 
 查看[目录](/help/migrated/administrators/feature-summary/catalogs.md)和[Recommendations](/help/migrated/recommendations-adobe-learning-manager.md)文章，详细了解配置目录和建议。
 
+<b>注意</b>：在“类别”小组件中，当选中“目录”时，默认情况下，列表按创建日期排序。 最近创建的目录会首先显示。
+
 ### 添加类别小组件
 
 在金融服务公司，不同的团队通常需要获得特定于角色的培训。 “类别”小组件有助于将学习内容整理为清晰的可单击磁贴，使销售团队和CSM团队可以更轻松地快速找到他们所需的内容。
@@ -85,8 +87,8 @@ ht-degree: 0%
 9. 键入&#x200B;**[!UICONTROL 小组件标题]**&#x200B;和&#x200B;**[!UICONTROL 小组件描述]**。
 10. 搜索并从&#x200B;**[!UICONTROL 类别源]**&#x200B;中选择目录。
 
-    ![](assets/configure-calendar-widget.png)
-    _配置类别小组件选项以设置小组件标题和描述，并选择类别源_
+   ![](assets/configure-calendar-widget.png)
+   _配置类别小组件选项以设置小组件标题和描述，并选择类别源_
 
 11. 选择&#x200B;**[!UICONTROL 添加小组件]**。
 
@@ -153,7 +155,7 @@ ht-degree: 0%
 
 ![](assets/configure-course-paths.png)
 _课程和路径小组件，管理员可在其中设置小组件标题、描述并选择课程或学习路径以交互卡片形式显示_
-11.选择&#x200B;**[!UICONTROL 添加小组件]**。
+11.选择**[!UICONTROL 添加小组件]**。
 
 “课程和路径”小组件将添加到页面中。 管理员可以添加其他小组件并发布页面。
 
@@ -182,14 +184,14 @@ _课程和路径小组件，管理员可在其中设置小组件标题、描述�
 9. 将文本键入到&#x200B;**[!UICONTROL 动作按钮标签]**&#x200B;中，并提供链接。
 10. 选择背景填充的任何选项：
 
-    * **[!UICONTROL 颜色]**：从拾色器中选择颜色或在文本字段中键入颜色代码。
-    * **[!UICONTROL 图像]**：浏览并上传图片。
+   * **[!UICONTROL 颜色]**：从拾色器中选择颜色或在文本字段中键入颜色代码。
+   * **[!UICONTROL 图像]**：浏览并上传图片。
 
 11. 使用&#x200B;**[!UICONTROL 内容框高度]**&#x200B;选项调整框高度。
 12. 选择文本格式选项。
 
-    ![](assets/configure-content-box.png)
-    _内容框小组件自定义屏幕，管理员可以在其中输入标题、描述、操作按钮标签和链接_
+   ![](assets/configure-content-box.png)
+   _内容框小组件自定义屏幕，管理员可以在其中输入标题、描述、操作按钮标签和链接_
 
 13. 选择&#x200B;**[!UICONTROL 添加小组件]**。
 

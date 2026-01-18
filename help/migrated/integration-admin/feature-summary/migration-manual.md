@@ -3,10 +3,10 @@ description: 本参考手册适用于希望将现有LMS迁移到Adobe Learning M
 jcr-language: en_us
 title: 迁移手册
 exl-id: bfdd5cd8-dc5c-4de3-8970-6524fed042a8
-source-git-commit: acef8666ce207fdb81011265814b4d4278da7406
+source-git-commit: 8801cee7914c7bea849d47f272b19996a5e28f4d
 workflow-type: tm+mt
-source-wordcount: '4438'
-ht-degree: 59%
+source-wordcount: '4483'
+ht-degree: 58%
 
 ---
 
@@ -27,6 +27,10 @@ Adobe Learning Manager 提供了各种必要的工具和规范，可供公司的
 ## 迁移过程 {#apidescription}
 
 迁移的先决条件、迁移过程中涉及的关键步骤、迁移Sprint、规范、数据和内容迁移步骤在本部分中介绍如下：
+
+### 重要迁移建议
+
+您应了解，迁移时间轴在很大程度上取决于数据的质量和大小。 如果您在登入期间需要迁移，请提前计划此活动，并与Adobe Learning Manager登入团队紧密合作以避免延迟。
 
 ### 先决条件 {#prerequisites}
 

@@ -768,7 +768,7 @@ Harvard ManageMentor 的企业用户可以使用 Harvard ManageMentor 连接器�
 
    请参阅以下两个用于此连接器的用户订阅源和课程订阅源文件样本：
 
-   * [ Harvard ManageMentor连接器的课程元数据文件](assets/hmm12-metadata.csv)
+   * [&#x200B; Harvard ManageMentor连接器的课程元数据文件](assets/hmm12-metadata.csv)
    * [用于 Harvard ManageMentor 连接器的用户订阅源。](assets/client-hmm12-20170304.csv)
 
 ## Workday 连接器 {#workdayconnector}
@@ -2124,8 +2124,8 @@ Microsoft Teams 连接器可连接 Adobe Learning Manager 和 Microsoft Teams �
 1. 在您启用连接后，所有课程、学习路径和证书的图像都将迁移至CDN。
 1. 将课程、学习路径和证书的元数据导出到搜索和检索服务中。
 1. 您可以通过选择启用计划选项来计划元数据导出。 对于高级计划，计划每3小时自动执行一次。
-1. 对于按需报告，请转到&#x200B;**[!UICONTROL 按需]**，选择&#x200B;**[!UICONTROL 开始日期]**，然后&#x200B;**[!UICONTROL 单击]**执行。
-您可以在**[!UICONTROL 执行状态]**&#x200B;页面上检查报表执行状态。
+1. 对于按需报告，请转到&#x200B;**[!UICONTROL 按需]**，选择&#x200B;**[!UICONTROL 开始日期]**，然后&#x200B;**[!UICONTROL 单击]**&#x200B;执行。
+您可以在&#x200B;**[!UICONTROL 执行状态]**&#x200B;页面上检查报表执行状态。
 
 ### 在 AEM 中创建网站 {#create-website-in-aem}
 

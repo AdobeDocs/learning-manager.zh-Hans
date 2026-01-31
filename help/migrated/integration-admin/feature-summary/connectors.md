@@ -4,9 +4,9 @@ jcr-language: en_us
 title: Adobe Learning Manager 连接器
 contentowner: jayakarr
 exl-id: 1f44934b-6a2b-484d-bc7f-d0f23e3008ca
-source-git-commit: 5d50bd56b6663b26fc6db0ff33d19ad809e9bf6a
+source-git-commit: 32cd456a3ed4a4a8fa674979e2e4e67ea83bdc68
 workflow-type: tm+mt
-source-wordcount: '15810'
+source-wordcount: '15789'
 ht-degree: 59%
 
 ---
@@ -768,7 +768,7 @@ Harvard ManageMentor 的企业用户可以使用 Harvard ManageMentor 连接器�
 
    请参阅以下两个用于此连接器的用户订阅源和课程订阅源文件样本：
 
-   * [&#x200B; Harvard ManageMentor连接器的课程元数据文件](assets/hmm12-metadata.csv)
+   * [ Harvard ManageMentor连接器的课程元数据文件](assets/hmm12-metadata.csv)
    * [用于 Harvard ManageMentor 连接器的用户订阅源。](assets/client-hmm12-20170304.csv)
 
 ## Workday 连接器 {#workdayconnector}
@@ -2124,8 +2124,8 @@ Microsoft Teams 连接器可连接 Adobe Learning Manager 和 Microsoft Teams �
 1. 在您启用连接后，所有课程、学习路径和证书的图像都将迁移至CDN。
 1. 将课程、学习路径和证书的元数据导出到搜索和检索服务中。
 1. 您可以通过选择启用计划选项来计划元数据导出。 对于高级计划，计划每3小时自动执行一次。
-1. 对于按需报告，请转到&#x200B;**[!UICONTROL 按需]**，选择&#x200B;**[!UICONTROL 开始日期]**，然后&#x200B;**[!UICONTROL 单击]**&#x200B;执行。
-您可以在&#x200B;**[!UICONTROL 执行状态]**&#x200B;页面上检查报表执行状态。
+1. 对于按需报告，请转到&#x200B;**[!UICONTROL 按需]**，选择&#x200B;**[!UICONTROL 开始日期]**，然后&#x200B;**[!UICONTROL 单击]**执行。
+您可以在**[!UICONTROL 执行状态]**&#x200B;页面上检查报表执行状态。
 
 ### 在 AEM 中创建网站 {#create-website-in-aem}
 
@@ -2158,7 +2158,7 @@ Adobe Learning Manager中的未登录体验可使用&#x200B;**[!UICONTROL 培训
 
 **高级产品**
 
-高级产品可帮助用户构建由&#x200B;**[!UICONTROL 培训数据访问]**&#x200B;连接器配置的无头界面。 如此一来，用户可以实时获取课程和学习路径的相关数据，如姓名、描述、作者、技能、持续时间等。 对于混合式学习情景，您还可以获得实时名额限制、已占用名额、轮候表限制和轮候表数量。 客户可以使用这些API创建搜索和筛选功能，并为未登录学习者创建完整的课程摘要。
+高级产品可帮助用户构建由&#x200B;**[!UICONTROL 培训数据访问]**&#x200B;连接器配置的无头界面。 对于混合式学习情景，您还可以获得实时名额限制、已占用名额、轮候表限制和轮候表数量。 客户可以使用这些API创建搜索和筛选功能，并为未登录学习者创建完整的课程摘要。
 
 客户可以购买高级计划来构建这种高度可扩展的非登录体验。
 
@@ -2235,7 +2235,7 @@ Adobe Commerce 管理员将 Adobe Learning Manager 配置为集成。
 
 >[!NOTE]
 >
->在2024年3月版Adobe Learning Manager中，我们引入了对[Adobe Commerce 2.4.6](https://experienceleague.adobe.com/docs/commerce-operations/release/notes/adobe-commerce/2-4-6.html?lang=zh-Hans)的支持。
+>在2024年3月版Adobe Learning Manager中，我们引入了对[Adobe Commerce 2.4.6](https://experienceleague.adobe.com/docs/commerce-operations/release/notes/adobe-commerce/2-4-6.html?lang=en)的支持。
 
 
 1. 单击&#x200B;**[!UICONTROL 导出培训元数据]** > **[!UICONTROL 按需]**。

@@ -3,10 +3,10 @@ description: 本参考手册适用于希望将现有LMS迁移到Adobe Learning M
 jcr-language: en_us
 title: 迁移手册
 exl-id: bfdd5cd8-dc5c-4de3-8970-6524fed042a8
-source-git-commit: 8801cee7914c7bea849d47f272b19996a5e28f4d
+source-git-commit: a620f70fbdfc01eb089c70586a548288c8b8290b
 workflow-type: tm+mt
-source-wordcount: '4483'
-ht-degree: 58%
+source-wordcount: '4600'
+ht-degree: 57%
 
 ---
 
@@ -412,6 +412,14 @@ Adobe Learning Manager 仅支持 UTF 8 和 32 位格式的日期和时间值。�
 * certification_course.csv依赖于certification.csv和course.csv
 * certification_commit.csv依赖于certification.csv和certification_course.csv
 * certification_enrollment.csv 依赖于 certification.csv、certification_course.csv 和 certification_enrollment.csv
+
+### 迁移CSV文件中的学习计划课程顺序
+
+在迁移规范的早期版本中，learning_program_course.csv文件包含顺序列，建议您在迁移期间控制学习计划中的课程顺序。
+
+Adobe Learning Manager不再使用此列。 学习计划中的课程顺序无法通过迁移CSV进行控制，即使您将&#x200B;**orderEnforced**&#x200B;设置为True，系统也会忽略“顺序”列中提供的任何值。
+
+为避免混淆，已从官方CSV规范中删除了订单列。 如果您已有脚本或工具仍在生成此列，则可放心将其删除；这不会影响学习计划的创建或显示方式。
 
 ## 迁移程序 {#migrationprocedure}
 

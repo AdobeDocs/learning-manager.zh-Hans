@@ -2,9 +2,9 @@
 title: Adobe Learning Manager 2026年4月版的新增功能
 description: 了解Adobe Learning Manager 2026年4月版的新增功能、改进和重要更新。
 exl-id: 4d2129c4-42d8-446f-8837-879b5c2f42bf
-source-git-commit: 48a20033896a9d9f370c2e53bce353a886b05e35
+source-git-commit: 847c42493043f3f6a1f1c18868d08ddca7f9b113
 workflow-type: tm+mt
-source-wordcount: '7400'
+source-wordcount: '7425'
 ht-degree: 1%
 
 ---
@@ -433,7 +433,7 @@ ht-degree: 1%
 
 * 营销和支持团队可以在所有区域设置中为每个主题管理一个工作辅助。
 
-## 限制模块可以启动的时间
+## 对模块启动时间设置限制
 
 ### 概述
 
@@ -680,6 +680,11 @@ ht-degree: 1%
 
 ### 概述
 
+>[!IMPORTANT]
+>
+>请注意，只有在帐户中启用该功能后，才能使用该功能。 联系ALM支持或客户成功经理。
+
+
 目前，ALM支持在LMS级别通过多次测验尝试(MQA)功能进行多次尝试：
 
 * 作者可以在课程级别（适用于课程中所有测验模块）或模块级别（每个测验模块）配置尝试次数。
@@ -880,7 +885,7 @@ L2测验报告将更新，以将每次内容级别尝试视为单独的尝试行
 
    * PDF按预期生成。
 
-## “学习者成绩单”的更改
+## 改进了“学习者成绩单”中花费的计算时间
 
 ### 概述
 
@@ -911,7 +916,7 @@ Adobe Learning Manager在2026年4月版中修订了“学习者成绩单”中�
 * **视频和音频模块**：播放内容时处于活动状态，即使学习者切换到其他选项卡也是如此。 跟踪回放时间不需要制表符焦点。
 * **静态模块(PDF、PPT、Excel等)**：如果在过去10分钟内点击选项卡并执行活动（鼠标移动、滚动、单击、键盘输入），则处于活动状态。 如果连续10分钟没有活动，则变为空闲。
 * **SCORM和Captivate**&#x200B;保留原始打开/关闭逻辑。
-* **xAPI**&#x200B;现在使用基于选项卡的活动时间检测，其中仅在选项卡处于活动状态时计算时间。 请注意，不支持AICC内容&#x200B;**&#x200B;**。
+* **xAPI**&#x200B;现在使用基于选项卡的活动时间检测，其中仅在选项卡处于活动状态时计算时间。 请注意，不支持AICC内容&#x200B;****。
 * **HTML、LTI和其他内容**：可能有所不同；请查看学习者成绩单以了解准确性。
 
 扣除空闲时间，确保仅报告真正的参与时间。
@@ -924,7 +929,7 @@ Adobe Learning Manager在2026年4月版中修订了“学习者成绩单”中�
 | **静态(PDF/PPT/DOC)** | 过去&#x200B;**10分钟**&#x200B;内选项卡活动的&#x200B;**和**&#x200B;活动 | 无活动&#x200B;**\>10分钟**；选项卡处于非活动状态 |
 | **SCORM** | 内容运行时报告的时间 | 无法检测到空闲 |
 | **Captivate** | 基于幻灯片的计时 | 无法检测到空闲 |
-| **&#x200B;**&#x200B;| 选项卡处于活动状态 | 选项卡处于非活动状态 |
+| **** | 选项卡处于活动状态 | 选项卡处于非活动状态 |
 | **HTML** | 选项卡处于活动状态的播放器打开时间 | 选项卡处于非活动状态 |
 | **LTI制作者/使用者** | 如果LTI内容在ALM的播放器中播放（即，ALM使用在另一台充当制作者的LMS上托管的LTI内容），则应用此花费时间的逻辑。<br><br>但是，如果内容在LMS之外播放（即，内容托管在ALM中，则ALM是制作者，但播放发生在外部播放器中），则这部分时间计算逻辑不适用。  <br>**注意**：Adobe Learning Manager不支持LTI Consumer。 | 选项卡处于非活动状态 |
 
@@ -2700,4 +2705,4 @@ Custom administrators can create announcements only for the user groups or catal
 * The format of the report will remain unchanged. If custom administrators download it from the User Interface, the content of the report will be subject to their scope. 
 * No modifications are necessary if this report is not utilized in any automated or downstream workflow.
 
-See the [Release notes](https://experienceleague.adobe.com/zh-hans/docs/learning-manager/using/introduction/release-notes) article for a cumulative list of new features and changes to Adobe Learning Manager.-->
+See the [Release notes](https://experienceleague.adobe.com/en/docs/learning-manager/using/introduction/release-notes) article for a cumulative list of new features and changes to Adobe Learning Manager.-->

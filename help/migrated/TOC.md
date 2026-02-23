@@ -2,9 +2,9 @@
 user-guide-title: Adobe Learning Manager 指南
 breadcrumb-title: Learning Manager
 user-guide-description: Adobe Learning Manager 的文档
-source-git-commit: dd62feee5ad32588fd815c8b86f01935720860ce
+source-git-commit: c7552519ec78a8cec7b8142e5ba3b357694afd18
 workflow-type: tm+mt
-source-wordcount: '774'
+source-wordcount: '777'
 ht-degree: 70%
 
 ---
@@ -163,6 +163,7 @@ ht-degree: 70%
    * [用户通知](learners/feature-summary/user-notifications.md)
    * [公告](learners/feature-summary/announcements.md)
    * [轮候表和出席管理](learners/feature-summary/waitlist-attendance-management.md)
+   * [学习者AI助手](learners/feature-summary/ai-buddy.md)
    * [Adobe Learning Manager中的AI支持搜索](/help/migrated/learners/feature-summary/advanced-search.md)
    * [适用于 Salesforce 的 Adobe Learning Manager 应用程序](learners/feature-summary/sfdc-app.md)
    * [Adobe Connect 集成](learners/feature-summary/adobeconnect-integration.md)

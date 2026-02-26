@@ -1,11 +1,11 @@
 ---
-description: 学习者的AI Assistant (Beta)是Adobe Learning Manager中受GenAI支持的聊天助手，可帮助学习者从分配的学习内容中快速准确地获得答案。 通过使用自然语言查询，学习者可以立即检索引用内容明确的针对性回复，从而轻松找到正确信息、验证源并高效学习，而无需搜索整个课程。
+description: 学习者的AI Assistant (Beta)是Adobe Learning Manager中受GenAI支持的聊天搭配，可帮助学习者从分配的学习内容中快速准确地获得答案。 通过使用自然语言查询，学习者可以立即检索引用内容明确的针对性回复，从而轻松找到正确信息、验证源并高效学习，而无需搜索整个课程。
 jcr-language: en_us
-title: Adobe Learning Manager中面向学习者的AI Assistant (Beta)
+title: Adobe Learning Manager中面向学习者的AI助理
 exl-id: 8203488d-74a6-4463-9383-76d16cabccfa
-source-git-commit: 3534061465070cc98747c8273e1a005707e5a22b
+source-git-commit: 64765bdd9f364267f7c7f5d23a03cc576b875be3
 workflow-type: tm+mt
-source-wordcount: '1990'
+source-wordcount: '2008'
 ht-degree: 0%
 
 ---

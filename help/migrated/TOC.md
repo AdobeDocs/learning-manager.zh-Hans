@@ -2,10 +2,10 @@
 user-guide-title: Adobe Learning Manager 指南
 breadcrumb-title: Learning Manager
 user-guide-description: Adobe Learning Manager 的文档
-source-git-commit: 3534061465070cc98747c8273e1a005707e5a22b
+source-git-commit: 922e6bed551baca8ef0e9f6b8124fb26fcce97e6
 workflow-type: tm+mt
-source-wordcount: '778'
-ht-degree: 70%
+source-wordcount: '784'
+ht-degree: 69%
 
 ---
 
@@ -25,7 +25,8 @@ ht-degree: 70%
    * [发行说明](release-note/release-notes.md)
    * [系统要求](system-requirements.md)
    * [适用于 Microsoft Teams 的 Adobe Learning Manager 应用程序](adobe-learning-manager-app-microsoft-teams.md)
-   * [Adobe Learning Manager 的 GDPR 合规性](kb/prime-gdpr.md)
+   * [Adobe Learning Manager符合GDPR规范](kb/prime-gdpr.md)
+  <!-- * [Adobe Learning Manager administrative account lifecyle](/help/migrated/alm-administrative-lifecycle.md) -->
    * [Adobe Learning Manager 中的辅助功能](accessibility-learning-manager.md)
    * [自定义域支持](custom-domain.md)
    * [从 Adobe FTP Manager 过渡](transition-from-ftp-manager.md)
@@ -99,7 +100,7 @@ ht-degree: 70%
    * [通知](administrators/feature-summary/user-notifications.md)
    * [iPad 和 Android 平板电脑用户](administrators/feature-summary/ipad-android-tablet-users.md)
    * [清除用户](administrators/feature-summary/purge-users.md)
-   * [标记](administrators/feature-summary/tags.md)
+   * [标签](administrators/feature-summary/tags.md)
    * [Adobe Learning Manager 内容目录](administrators/feature-summary/content-catalogs.md)
    * [自定义角色](administrators/feature-summary/custom-role.md)
    * [公告权限的自定义角色](/help/migrated/administrators/feature-summary/create-custom-role-for-announcement.md)
@@ -147,7 +148,7 @@ ht-degree: 70%
 * 讲师 {#instructor}
    * [模块](instructors/feature-summary/modules.md)
    * [管理会话的学习者](instructors/feature-summary/learners.md)
-* 学习者 {#learner}
+* Prime 中的讲师 {#learner}
    * [登录](learners/feature-summary/user-login.md)
    * [配置文件设置](learners/feature-summary/settings.md)
    * [目录](learners/feature-summary/catalogs.md)
@@ -163,7 +164,7 @@ ht-degree: 70%
    * [用户通知](learners/feature-summary/user-notifications.md)
    * [公告](learners/feature-summary/announcements.md)
    * [轮候表和出席管理](learners/feature-summary/waitlist-attendance-management.md)
-   * [面向学习者的AI助理](learners/feature-summary/ai-buddy.md)
+   * [面向学习者的AI助理](learners/feature-summary/learner-ai-assistant.md)
    * [Adobe Learning Manager中的AI支持搜索](/help/migrated/learners/feature-summary/advanced-search.md)
    * [适用于 Salesforce 的 Adobe Learning Manager 应用程序](learners/feature-summary/sfdc-app.md)
    * [Adobe Connect 集成](learners/feature-summary/adobeconnect-integration.md)

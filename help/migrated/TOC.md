@@ -2,7 +2,7 @@
 user-guide-title: Adobe Learning Manager 指南
 breadcrumb-title: Learning Manager
 user-guide-description: Adobe Learning Manager 的文档
-source-git-commit: 5682c45a4e5789a3eede53faf7cb257cd9685759
+source-git-commit: 8f9a2f192d778e282c34e874e56ddb7c6875f8bc
 workflow-type: tm+mt
 source-wordcount: '808'
 ht-degree: 67%
@@ -36,8 +36,7 @@ ht-degree: 67%
    * [Adobe Learning Manager中支持的语言](/help/migrated/languages-supported.md)
    * [Adobe Learning Manager中的API弃用和更改](api-deprecations-list.md)
    * [Adobe Learning Manager 中的推荐](recommendations-adobe-learning-manager.md)
-   * [Adobe Learning Manager中的白色标签](white-label.md)
-   * [嵌入式播放器的交互 API 文档](/help/migrated/embedded-player-interaction.md)
+   * [Adobe Learning Manager中的白标签](white-label.md)
 * 入门指南 {#get-started}
    * [管理员快速入门指南](administrators/feature-summary/getting-started-admin.md)
    * [作者快速入门指南](authors/feature-summary/getting-started-author.md)
@@ -135,6 +134,7 @@ ht-degree: 67%
    * [适用于 Salesforce 的 Adobe Learning Manager 应用程序](integration-admin/feature-summary/sfdc-app.md)
    * [设置](integration-admin/feature-summary/settings.md)
    * [管理 CSV 文件中的自定义角色](integration-admin/feature-summary/configure-role-csv-files.md)
+   * [嵌入式播放器的交互 API 文档](/help/migrated/embedded-player-interaction.md)
 * 作者 {#authors}
    * [用户登录](authors/feature-summary/user-login.md)
    * [内容库](authors/feature-summary/content-library.md)

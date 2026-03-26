@@ -1,13 +1,13 @@
 ---
 jcr-language: en_us
 title: 嵌入式播放器的交互 API 文档
-description: 了解用于在嵌入式播放器中侦听事件和触发操作的各种API
+description: 了解Adobe Learning Manager嵌入式播放器中用于侦听事件和触发操作的各种API
 contentowner: chandrum
 exl-id: 4734ecc1-cc8a-40b0-8997-32a31ec661ec
-source-git-commit: 3d183dc40e4d1962d25160b74d8cf6cfa26e3171
+source-git-commit: 06fdb3aa12af664ba87bbb26b9926991763e3ce9
 workflow-type: tm+mt
-source-wordcount: '833'
-ht-degree: 69%
+source-wordcount: '849'
+ht-degree: 70%
 
 ---
 

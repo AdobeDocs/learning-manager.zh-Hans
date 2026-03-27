@@ -1,12 +1,13 @@
 ---
+description: 定义并设置身份系统，根据该系统对最终用户进行身份验证。
 jcr-language: en_us
 title: Learning Manager部署指南 — 第2部分
 contentowner: sanm
 preview: true
-source-git-commit: fba5e5ddc1964b485be473bf356806f234688cf4
+source-git-commit: ac4432a2fda4be4ffde5e58c0f44e623b55703b5
 workflow-type: tm+mt
-source-wordcount: '2232'
-ht-degree: 59%
+source-wordcount: '2257'
+ht-degree: 63%
 
 ---
 
@@ -26,11 +27,11 @@ Learning Manager帐户技术设置主要适用于企业用户。 本文档将介
 
    ![](assets/configure-sso-step1.png)
 
-1. 根据您的用户类型，选择&#x200B;**[!UICONTROL **&#x200B;内部用户&#x200B;**&#x200B;或&#x200B;**&#x200B;外部用户&#x200B;**。]**
+1. 根据您的用户类型，选择&#x200B;**[!UICONTROL **&#x200B;内部用户&#x200B;**或**&#x200B;外部用户&#x200B;**。]**
 
 
 
-1. 从&#x200B;**[!UICONTROL **登录**]**&#x200B;下拉字段中，选择&#x200B;**[!UICONTROL **&#x200B;单点登录&#x200B;**。]**
+1. 从&#x200B;**[!UICONTROL **&#x200B;登录&#x200B;**]**下拉字段中，选择&#x200B;**[!UICONTROL **单点登录**。]**
 
    ![](assets/configure-sso-step3.png)
 
@@ -38,13 +39,13 @@ Learning Manager帐户技术设置主要适用于企业用户。 本文档将介
 
    ![](assets/configure-sso-step4.png)
 
-1. 在&#x200B;**&#x200B;**&#x200B;[!UICONTROL “IDP 启动的身份验证 URL”]&#x200B;**&#x200B;**&#x200B;字段中，输入服务提供商提供的身份验证 URL。
+1. 在&#x200B;****[!UICONTROL “IDP 启动的身份验证 URL”]****&#x200B;字段中，输入服务提供商提供的身份验证 URL。
 
 
 
    ![](assets/configure-sso-step5.png)
 
-1. 单击&lbrace;2** **IDP元数据XML文件&#x200B;**&#x200B;**&#x200B;**&#x200B;**字段旁边的[!UICONTROL **“上传”**]&#x200B;**，然后上传XML文件。**
+1. 单击{2 **** IDP元数据XML文件&#x200B;**]******字段旁边的[!UICONTROL **“上传”**]**，然后上传XML文件。**[!UICONTROL 
 1. 单击&#x200B;**[!UICONTROL **&#x200B;保存&#x200B;**。]**
 1. 已成功为您的帐户配置 SSO 身份验证。 您应能使用SSO登录Learning Manager帐户。
 
@@ -79,7 +80,7 @@ Learning Manager允许您通过逐步向导在迭代Sprint中迁移现有LMS。 
 
 
 
-***建议管理员在将数据和内容迁移到Learning Manager生产环境之前，先在试用帐户中尝试迁移过程。 &#x200B;***
+***建议管理员在将数据和内容迁移到Learning Manager生产环境之前，先在试用帐户中尝试迁移过程。 ***
 
 ### 评估和导出数据 {#evaluatingandexportingdata}
 
@@ -118,7 +119,7 @@ Learning Manager允许您通过逐步向导在迭代Sprint中迁移现有LMS。 
 <table> 
  <tbody> 
   <tr> 
-   <th width="7%" valign="top"><p><strong>编号</strong></p></th> 
+   <th width="7%" valign="top"><p><strong>数字</strong></p></th> 
    <th width="29%" valign="top"><p><strong>Excel 工作表名称</strong></p></th> 
    <th width="31%" valign="top"><p><strong>内容描述</strong></p></th> 
    <th width="31%" valign="top"><p><strong>备注</strong></p></th> 
@@ -138,19 +139,19 @@ Learning Manager允许您通过逐步向导在迭代Sprint中迁移现有LMS。 
   <tr> 
    <td><p>3</p></td> 
    <td><p>module_version.xlsx </p></td> 
-   <td><p>module_version.csv的元数据</p></td> 
+   <td><p>module_version.csv 的元数据</p></td> 
    <td><p>确保提供用于存放上传内容的 Box 帐户文件夹的 URL 路径。 </p></td> 
   </tr> 
   <tr> 
    <td><p>4</p></td> 
    <td><p>course_instance.xlsx</p></td> 
-   <td><p>course_instance.csv的元数据 </p></td> 
+   <td><p>course_instance.csv 的元数据 </p></td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td><p>5</p></td> 
    <td><p>course_module.xlsx</p></td> 
-   <td><p>course_module.csv的元数据</p></td> 
+   <td><p>course_module.csv 的元数据</p></td> 
    <td> </td> 
   </tr> 
   <tr> 
@@ -162,43 +163,43 @@ Learning Manager允许您通过逐步向导在迭代Sprint中迁移现有LMS。 
   <tr> 
    <td><p>7</p></td> 
    <td><p>skill_level.xlsx</p></td> 
-   <td><p>skill_level.csv的元数据</p></td> 
+   <td><p>skill_level.csv 的元数据</p></td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td><p>8</p></td> 
    <td><p>skill_course.xlsx</p></td> 
-   <td><p>skill_course.csv的元数据</p></td> 
+   <td><p>skill_course.csv 的元数据</p></td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td><p>9</p></td> 
    <td><p>Certification.xlsx</p></td> 
-   <td><p>Certification.csv的元数据</p></td> 
+   <td><p>Certification.csv 的元数据</p></td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td><p>10</p></td> 
    <td><p>certification_course.xlsx</p></td> 
-   <td><p>certification_course.csv的元数据</p></td> 
+   <td><p>certification_course.csv 的元数据</p></td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td><p>11</p></td> 
    <td><p>certification_commit.xlsx</p></td> 
-   <td><p>certification_commit.csv的元数据</p></td> 
+   <td><p>certification_commit.csv 的元数据</p></td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td><p>12</p></td> 
    <td><p>learning_program.xlsx</p></td> 
-   <td><p>learning_program.csv的元数据</p></td> 
+   <td><p>learning_program.csv 的元数据</p></td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td><p>13</p></td> 
    <td><p>learning_program_course.xls </p></td> 
-   <td><p>learning_program_course.csv的元数据 </p></td> 
+   <td><p>learning_program_course.csv 的元数据 </p></td> 
    <td> </td> 
   </tr> 
   <tr> 
@@ -222,7 +223,7 @@ Learning Manager允许您通过逐步向导在迭代Sprint中迁移现有LMS。 
   <tr> 
    <td><p>17</p></td> 
    <td><p>certification_enrollment.xlsx</p></td> 
-   <td><p>certification_enrollment.csv的元数据</p></td> 
+   <td><p>certification_enrollment.csv 的元数据</p></td> 
    <td> </td> 
   </tr> 
   <tr> 
@@ -235,7 +236,7 @@ Learning Manager允许您通过逐步向导在迭代Sprint中迁移现有LMS。 
    <td><p>19</p></td> 
    <td><p>User_course_grade.xlsx</p></td> 
    <td><p>User_course_grade.csv 的元数据</p></td> 
-   <td><p>在 .csv 文件中提供所需的学习者记录数据（即使这些并非必需数据）。如果没有此数据，即使对该 .csv 进行了迁移处理，Adobe Learning Manager 应用程序也可能无法呈现任何数据。 </p></td> 
+   <td><p>在 .csv 文件中提供所需的学习者记录数据（即使这些并非必需数据）。 如果没有此数据，即使对该 .csv 进行了迁移处理，Adobe Learning Manager 应用程序也可能无法呈现任何数据。 </p></td> 
   </tr> 
  </tbody> 
 </table>
@@ -258,8 +259,8 @@ Learning Manager允许您通过逐步向导在迭代Sprint中迁移现有LMS。 
 * learning_program_course.csv 依赖于 learning_program.csv
 * learning_program_enrollment.csv 依赖于 learning program 和 learning_program_instance.csv
 * learning_program_instance_course_instance.csv 依赖于 learning_program.csv、learning_program_instance.csv 和 course_instance.csv
-* certification_course.csv依赖于certification.csv和course.csv
-* certification_commit.csv依赖于certification.csv和certification_course.csv
+* certification_course.csv 依赖于 certification.csv 和 course.csv
+* certification_commit.csv 依赖于 certification.csv 和 certification_course.csv
 * certification_enrollment.csv 依赖于 certification.csv、certification_course.csv 和 certification_enrollment.csv
 
 
@@ -272,7 +273,7 @@ Learning Manager允许您通过逐步向导在迭代Sprint中迁移现有LMS。 
 
 ### 设置 FTP 帐户 {#setupanftpaccount}
 
-在集成管理员主页中，单击&#x200B;**[!UICONTROL **&#x200B;请求CSV FTP文件夹&#x200B;**。]**&#x200B;在显示的弹出对话框中，输入您的电子邮件 ID。通过联机向导创建 Exavault FTP 帐户。 创建帐户后，即可在Exavault FTP中查看迁移项目和Sprint项目文件夹。
+在集成管理员主页中，单击&#x200B;**[!UICONTROL **&#x200B;请求CSV FTP文件夹&#x200B;**。]** 在显示的弹出对话框中，输入您的电子邮件ID。 通过联机向导创建 Exavault FTP 帐户。 创建帐户后，即可在 Exavault FTP 中查看迁移项目和 Sprint 项目文件夹。
 
 请参阅 ExaVault 的项目文件和文件夹的示例快照，如下所示：
 
@@ -290,20 +291,20 @@ Learning Manager允许您通过逐步向导在迭代Sprint中迁移现有LMS。 
 
 ![](assets/set-up-a-box-account.png)
 
-在&#x200B;**&#x200B;**&#x200B;[!UICONTROL “输入电子邮件”]&#x200B;**&#x200B;**&#x200B;字段中，输入要从中接收连接至 Box 的登录说明的电子邮件 ID。
+在&#x200B;****[!UICONTROL “输入电子邮件”]****&#x200B;字段中，输入要从中接收连接至 Box 的登录说明的电子邮件 ID。
 
 单击&#x200B;**[!UICONTROL **&#x200B;连接&#x200B;**。]**
 
-您会收到 Box 的电子邮件，其中包含指向该共享文件夹的链接。如果没有 Box 帐户，请单击“注册”创建一个。相关登录说明随后会发送到集成管理员的电子邮件 ID。
+您会收到 Box 的电子邮件，其中包含指向该共享文件夹的链接。 如果没有 Box 帐户，请单击“注册”创建一个。 相关登录说明随后会发送到集成管理员的电子邮件 ID。
 
 保存连接后，迁移页面会显示以下消息：“Box文件夹设置已完成”。
 
 ## 将内容迁移至Learning Manager {#migratingthecontenttocaptivateprime}
 
-在开始迁移之前，请务必注意以下几点：
+在迁移之前，请务必注意以下几点：
 
-* 在任何时间点，每个帐户只能有一个活动的迁移项目。在任何时间点，每个项目只能有一个活动的 Sprint。
-* 无法撤消正在迁移的“运行”。然而，您可以使用 Adobe Learning Manager 各项功能中的删除选项来撤消对相关数据或内容的迁移。
+* 在任何时间点，每个帐户只能有一个活动的迁移项目。 在任何时间点，每个项目只能有一个活动的 Sprint。
+* 无法撤消正在迁移的“运行”。 然而，您可以使用 Adobe Learning Manager 各项功能中的删除选项来撤消对相关数据或内容的迁移。
 
 迁移项目一旦开始，项目即会进入“迁移中”状态。 在此状态下，除集成管理员外，其他任何用户均无法登录Learning Manager。
 
@@ -313,51 +314,51 @@ Learning Manager允许您通过逐步向导在迭代Sprint中迁移现有LMS。 
 
 在“迁移主页”中，系统会显示公司已创建的迁移项目。
 
-单击页面右上角的&#x200B;**[!UICONTROL **新建**]**&#x200B;可创建迁移项目。
+单击页面右上角的**[!UICONTROL **新建**]**可创建迁移项目。
 
-***如果您尚未创建FTP文件夹，系统将提示您创建一个FTP文件夹Exavault帐户。 在创建迁移项目之前，必须先完成此步骤。 &#x200B;***
+***如果您尚未创建FTP文件夹，系统将提示您创建一个FTP文件夹Exavault帐户。 在创建迁移项目之前，必须先完成这一步。 ***
 
-在&#x200B;**&#x200B;**&#x200B;[!UICONTROL “创建新迁移项目”]&#x200B;**&#x200B;**&#x200B;页面中，指定项目名称。
+在&#x200B;****[!UICONTROL “创建新迁移项目”]****&#x200B;页面中，指定项目名称。
 
 ![](assets/migrating-the-content-1.png)
 
-为项目和课程目录指定标签，并提供迁移项目的描述。 迁移数据项将通过“迁移项目标签”进行识别。如果没有特定的课程目录，请从下拉列表中选择默认目录，您使用迁移项目所迁移的所有课程均包含在您此时选择的目录中。 如果不选择任何目录，则迁移的所有课程均会包含在默认目录中。
+为项目和课程目录指定标签，并提供迁移项目的描述。 迁移数据项将通过“迁移项目标签”进行识别。 如果没有特定的课程目录，请从下拉列表中选择默认目录，您使用迁移项目所迁移的所有课程均包含在您此时选择的目录中。 如果不选择任何目录，则迁移的所有课程均会包含在默认目录中。
 
 单击&#x200B;**[!UICONTROL “创建”。]**
 
-在“Sprint 配置”页面中，为迁移项目创建 Sprint。 在Learning Manager迁移过程中，Sprint用于定义已选择从现有LMS迁移的一组迁移项。
+在“Sprint 配置”页面中，为迁移项目创建 Sprint。 在 Adobe Learning Manager 迁移过程中，Sprint 用于定义已被选中从现有 LMS 迁移的一组迁移项。
 
 ![](assets/migrating-the-content-2.png)
 
 指定 Sprint 的名称，并提供 Sprint 的描述。
 
-选中“**&#x200B;**&#x200B;[!UICONTROL 自上次运行后已添加或修改的用户”复选框]&#x200B;**&#x200B;**，以便将用户列表与Learning Manager应用程序同步。 如果要将内容和数据迁移到Learning Manager应用程序，则可能无需此操作。 然而，如果先前的 Sprint 迁移与最新的 Sprint 迁移之间存在时间差，则建议选择同步用户列表。此步骤可使Learning Manager数据库与您的LMS用户保持同步。
+选中“****[!UICONTROL 自上次运行后已添加或修改的用户”复选框]****，以便将用户列表与Learning Manager应用程序同步。 如果要将内容和数据迁移到Learning Manager应用程序，则可能无需此操作。 然而，如果先前的 Sprint 迁移与最新的 Sprint 迁移之间存在时间差，则建议选择同步用户列表。 此步骤可让 Adobe Learning Manager 数据库与您的 LMS 用户保持同步。
 
 ***建议在迁移enrollment.csv和user_course_grade.csv时执行此同步步骤。 此步骤可使Learning Manager数据库与迁移数据库保持同步，并确保所有通过Sprint迁移其记录的用户在迁移数据库中均可用。***
 
 单击&#x200B;**[!UICONTROL **&#x200B;下一步&#x200B;**。]**
 
-单击&#x200B;**[!UICONTROL **开始**]&#x200B;**以使用上传的数据和内容开始进行Sprint迁移。 在开始“Sprint运行”之前，单击“**&#x200B;**[!UICONTROL 刷新]**&#x200B;**”，以便将FTP和内容文件夹与Learning Manager同步。
+单击**[!UICONTROL **开始**]**以使用上传的数据和内容开始进行Sprint迁移。 在开始“Sprint运行”之前，单击“****[!UICONTROL 刷新]****”，以便将FTP和内容文件夹与Learning Manager同步。
 
 ![](assets/migrating-the-content-3.png)
 
-在Sprint迁移过程中的任何时间点，单击&#x200B;**&#x200B;**&#x200B;[!UICONTROL 停止]&#x200B;**&#x200B;**&#x200B;可中止Sprint迁移。
+在Sprint迁移过程中的任何时间点，单击****[!UICONTROL 停止]****可中止Sprint迁移。
 
 系统会显示所有 Sprint 数据项和内容的迁移状态。 在迁移 Sprint 运行过程中，检查迁移的成功项和失败项数量。
 
 如果要上传模块内容，请确保在*module_version.csv *文件中提供相应内容文件夹的路径。 如未执行此步骤，在迁移期间则可能会出错。 例如，如果要上传自学模块内容（例如视频），则需要在*module_version.csv *文件中指定Box URL的相对路径。
 
-以下是迁移过程的示例快照，仅供参考。如快照所示，您可以查看每个迁移数据项的已处理记录数以及成功和失败项状态。单击失败项对应的“下载错误记录”即可下载和查看错误日志。 您可以修复 CSV 中的问题并再次通过 FTP 上传。
+以下是迁移过程的示例快照，仅供参考。 如快照所示，您可以查看每个迁移数据项的已处理记录数以及成功和失败项状态。 单击失败项对应的“下载错误记录”即可下载和查看错误日志。 您可以修复 CSV 中的问题并再次通过 FTP 上传。
 
 ![](assets/migrating-the-content-4.png)
 
-要查看迁移项目的所有Sprint列表，请单击左侧导览窗格中的&#x200B;**[!UICONTROL **Sprint**]**。 如以下示例快照所示，您可以查看所有 Sprint 的列表、每个 Sprint 的运行次数、开始日期、持续时间和完成状态。
+要查看迁移项目的所有Sprint列表，请单击左侧导览窗格中的**[!UICONTROL **Sprint**]**。 如以下示例快照所示，您可以查看所有 Sprint 的列表、每个 Sprint 的运行次数、开始日期、持续时间和完成状态。
 
 ![](assets/migrating-the-content-5.png)
 
-要查看迁移项目的所有Sprint列表，请单击左侧导览窗格中的&#x200B;**[!UICONTROL **Sprint**]**。 如以下示例快照所示，您可以查看所有 Sprint 的列表、每个 Sprint 的运行次数、开始日期、持续时间和完成状态。
+要查看迁移项目的所有Sprint列表，请单击左侧导览窗格中的**[!UICONTROL **Sprint**]**。 如以下示例快照所示，您可以查看所有 Sprint 的列表、每个 Sprint 的运行次数、开始日期、持续时间和完成状态。
 
-要查看迁移项目的所有Sprint列表，请单击左侧导览窗格中的&#x200B;**[!UICONTROL **Sprint**]**。 如以下示例快照所示，您可以查看所有 Sprint 的列表、每个 Sprint 的运行次数、开始日期、持续时间和完成状态。
+要查看迁移项目的所有Sprint列表，请单击左侧导览窗格中的**[!UICONTROL **Sprint**]**。 如以下示例快照所示，您可以查看所有 Sprint 的列表、每个 Sprint 的运行次数、开始日期、持续时间和完成状态。
 
 ***在将迁移项目标记为“完成”之前，请确保该项目的所有Sprint均已完成。 在将迁移项目标记为“完成”后，将无法返回该项目并在其中创建任何 Sprint， 也不能对该项目进行任何修改。 您只能创建另一个迁移项目并向其中添加Sprint。***
 

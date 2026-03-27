@@ -2,7 +2,7 @@
 user-guide-title: Adobe Learning Manager 指南
 breadcrumb-title: Learning Manager
 user-guide-description: Adobe Learning Manager 的文档
-source-git-commit: decdeed5958f690a12094d3d6eb3cea51e2d3486
+source-git-commit: ac4432a2fda4be4ffde5e58c0f44e623b55703b5
 workflow-type: tm+mt
 source-wordcount: '850'
 ht-degree: 65%
@@ -130,7 +130,7 @@ ht-degree: 65%
       * [AEM Sites的ALM参考站点包](/help/migrated/adobe-learning-manager-integration-aem.md)
       * [将 Adobe Learning Manager 与 AEM 集成](integrate-aem-learning-manager.md)
    * [在 Adobe Learning Manager 中安装 Salesforce 程序包](integration-admin/feature-summary/install-salesforce-package.md)
-   * [部署指南](#deployment-guide)
+   * 部署指南 {#deployment-guide}
       * [简介](/help/migrated/deployment-guide/introduction.md)
       * [第三方连接器](/help/migrated/deployment-guide/third-party-connectors.md)
       * [用户迁移](/help/migrated/deployment-guide/user-migration.md)

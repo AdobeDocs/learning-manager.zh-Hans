@@ -1,12 +1,13 @@
 ---
 jcr-language: en_us
 title: Learning Manager中的已知问题
+description: 以下是每个Learning Manager更新的已知问题汇编。 该列表是累积性的，包含以前更新的已知问题。
 contentowner: saghosh
 preview: true
-source-git-commit: 6f9bac5e4a434c4073409d2f7e78645deabc6685
+source-git-commit: 3188d7f5593aeee87978e1e46456f01e1f41d57b
 workflow-type: tm+mt
-source-wordcount: '227'
-ht-degree: 60%
+source-wordcount: '253'
+ht-degree: 62%
 
 ---
 
@@ -31,9 +32,9 @@ ht-degree: 60%
    <td><p> </p> 
     <ul> 
      <li>在 Android 设备上，无法在帖子、评论或评论回复中上传 GIF 文件。</li> 
-     <li>任何讨论区的版主均无法删除用户的帖子、评论或回复，但在网页版应用程序中可执行这些操作。</li> 
+     <li>任何讨论区的版主均无法删除用户的帖子、评论或回复， 但在网页版应用程序中可执行这些操作。</li> 
      <li>在应用程序中无法标记问题类型。</li> 
-     <li>在应用程序中启用“社交学习”后，须重新启动应用程序才会显示“社交学习”选项卡。 如果“社交学习”仍未显示，请终止应用程序，然后重新启动。此时，将显示“社交学习”选项卡。</li> 
+     <li>在应用程序中启用“社交学习”后，须重新启动应用程序才会显示“社交学习”选项卡。 如果“社交学习”仍未显示，请终止应用程序，然后重新启动。 此时，将显示“社交学习”选项卡。</li> 
     </ul><p></p></td> 
   </tr> 
   <tr> 

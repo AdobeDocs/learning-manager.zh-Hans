@@ -1,12 +1,13 @@
 ---
 jcr-language: en_us
 title: Learning Manager中的API速率限制
+description: AdobeLearning Manager提供了丰富的REST API套件，可帮助客户构建与Learning Manager集成的应用程序，甚至还可以构建自定义用户体验和工作流扩展以帮助客户开展业务。
 contentowner: saghosh
 preview: true
-source-git-commit: 544c695a77c21dd9162b9b943b6119d27aa373dc
+source-git-commit: 3188d7f5593aeee87978e1e46456f01e1f41d57b
 workflow-type: tm+mt
-source-wordcount: '1757'
-ht-degree: 51%
+source-wordcount: '1801'
+ht-degree: 80%
 
 ---
 
@@ -110,7 +111,7 @@ x-burst: 2
 
 为了便于您查看，您可以查看说明此情况的示例JavaCript代码。 单击此 [小提琴](https://jsfiddle.net/ACAPJS/9yv8zcmL/) 并查看实际操作代码。
 
-此应用程序要求您为帐户提供学习者角色应用程序令牌。 有关API令牌的信息，请参阅[《应用程序开发人员手册》](https://captivateLearning Manager.adobe.com/docs/Learning Managerapi/v2/)，您可以使用Learning Manager集成管理应用程序的“开发人员资源”部分中的令牌帮助程序生成令牌。
+此应用程序要求您为帐户提供学习者角色应用程序令牌。 有关API令牌的信息，请参阅[《应用程序开发人员手册》]&#x200B;(https://captivateLearning Manager.adobe.com/docs/Learning Managerapi/v2/)，您可以使用Learning Manager集成管理应用程序的“开发人员资源”部分中的令牌帮助程序生成令牌。
 
 此应用程序正在一次性循环对虚拟API进行10次调用。 由于虚拟API的速率限制为(5， 2)，因此Learning Manager收到的前5+2个调用成功后，即会超出速率限制，您会看到相应的成功响应。
 
@@ -147,28 +148,28 @@ x-burst: 2
   </tr> 
   <tr> 
    <td><p>DELETE</p></td> 
-   <td><p>(25， 10) <br></p></td> 
-   <td><p>(20， 10)<br></p></td> 
+   <td><p>(25, 10) <br></p></td> 
+   <td><p>(20, 10)<br></p></td> 
   </tr> 
   <tr> 
    <td><p>PATCH</p></td> 
    <td><p>(60, 20)</p></td> 
-   <td><p>(15， 5) <br></p></td> 
+   <td><p>(15, 5) <br></p></td> 
   </tr> 
   <tr> 
    <td><p>POST</p></td> 
-   <td><p>(30， 10)<br></p></td> 
-   <td><p>(30， 10)<br></p></td> 
+   <td><p>(30, 10)<br></p></td> 
+   <td><p>(30, 10)<br></p></td> 
   </tr> 
   <tr> 
    <td><p>PUT</p></td> 
-   <td><p>(20， 10)<br></p></td> 
-   <td><p>(20， 10)<br></p></td> 
+   <td><p>(20, 10)<br></p></td> 
+   <td><p>(20, 10)<br></p></td> 
   </tr> 
   <tr> 
    <td><p>GET</p></td> 
-   <td><p>(100， 100)<br></p></td> 
-   <td><p>(100， 30)<br></p></td> 
+   <td><p>(100, 100)<br></p></td> 
+   <td><p>(100, 30)<br></p></td> 
   </tr> 
  </tbody>
 </table>

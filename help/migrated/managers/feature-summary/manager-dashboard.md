@@ -4,10 +4,10 @@ jcr-language: en_us
 title: 经理信息板
 contentowner: kuppan
 exl-id: 32d017bf-ee5a-4749-947d-0d62b32d6f38
-source-git-commit: fc10dcbedf1e91ccff2e0ccbcedb9bf6bbb89c67
+source-git-commit: 864c3a4e60cf1bf1c049838fb2ba46ebbcb28ddf
 workflow-type: tm+mt
-source-wordcount: '1499'
-ht-degree: 46%
+source-wordcount: '1507'
+ht-degree: 50%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 46%
 
 ## 学习摘要 {#learningsummary}
 
-经理可查看选定时间段内团队的学习活动摘要。从下拉菜单中选择月、季度或年。
+经理可查看选定时间段内团队的学习活动摘要。 从下拉菜单中选择月、季度或年。
 
 “月”和“年”基于日历年，而“季度”则基于管理员在帐户设置中配置的财务年度。
 
@@ -43,13 +43,13 @@ ht-degree: 46%
 
 *团队视图显示团队、团队成员及其各自的注册情况*
 
-单击团队名称（例如，Venkatesh的团队）时，您可以查看Venkatesh团队的成员以及学习对象的注册、进展和完成的总数。
+点击团队名称（例如 Venkatesh 团队），即可查看该团队的成员以及学习对象的注册人数、进展中人数和完成人数。
 
 ![](assets/ls-click-team-names.png)
 
 *选择团队成员*
 
-要查看各团队成员的学习摘要，请单击与团队经理对应各列中的数字。此时会打开一个表格，其中显示含有“注册日期”，“到期日期”和“进度”信息的学习对象列表。
+要查看各团队成员的学习摘要，请单击与团队经理对应各列中的数字。 此时会打开一个表格，其中显示含有“注册日期”，“到期日期”和“进度”信息的学习对象列表。
 
 ![](assets/ls-click-on-valuestogetlearningsofamember.png)
 
@@ -133,13 +133,14 @@ _向学习者发送电子邮件_
 要下载报告，请执行以下步骤：
 
 1. 在经理应用中，转到&#x200B;**[!UICONTROL 合规性仪表板]** > **[!UICONTROL 团队视图]**。
-1. 选择&#x200B;**[!UICONTROL 下载报告]**&#x200B;以将仪表板另存为报告。
+1. 选择&#x200B;**[!UICONTROL 下载报告]**以将仪表板另存为报告。
 这样您就可以跟踪团队的整体学习进度。
 
 ![](assets/download-report.png)
 _下载报告_
 
-<!--On this dashboard, managers can also view the learners who are compliant, in a safe deadline, approaching deadline, and non-compliant for a selected learning object. 
+<!--
+On this dashboard, managers can also view the learners who are compliant, in a safe deadline, approaching deadline, and non-compliant for a selected learning object. 
 
 Learning Objects with completion deadlines can be configured in compliance dashboard for tracking. 
 
@@ -197,11 +198,12 @@ On further clicking the values in the compliant, safe deadline, upcoming deadlin
 
 ![](assets/cs-send-email-andexport.png)
 
-*Export and email data*-->
+*Export and email data*
+-->
 
 ## 团队技能 {#teamskills}
 
-经理可以查看技能完成图并配置不同级别的技能完成预测。技能下拉列表包括五种技能。 经理开始了解团队成员获得的专业知识，并在某些技能方面发现优秀人才。
+经理可以查看技能完成图并配置不同级别的技能完成预测。 技能下拉列表包括五种技能。 经理开始了解团队成员获得的专业知识，并在某些技能方面发现优秀人才。
 
 经理还可以通过设置目标并预测在时间轴内为特定百分比的团队获得技能所需的时间，来推动团队中的特定技能。
 
@@ -213,10 +215,10 @@ On further clicking the values in the compliant, safe deadline, upcoming deadlin
 
 要查看团队的技能状态，请执行以下步骤：
 
-1. 从左侧窗格中的“我的团队视图”部分下单击&#x200B;**[!UICONTROL 团队技能]**。
+1. 在“我的团队视图”部分左侧窗格中单击&#x200B;**[!UICONTROL “团队技能”]**。
 1. 要查看显示的技能，请单击技能过滤器，从下拉列表中选择一个。
 1. 要选择级别（级别 1、级别 2 或级别 3），请单击级别下拉菜单。
-1. 根据所选的技能和级别，屏幕上会显示相应的技能状态图表。在该图表上悬停鼠标，您可以查看以下技能状态的比例：**“正在进行”**&#x200B;和&#x200B;**“已获得”**。
+1. 根据所选的技能和级别，屏幕上会显示相应的技能状态图表。 在该图表上悬停鼠标，您可以查看以下技能状态的比例：**“正在进行”**&#x200B;和&#x200B;**“已获得”**。
 
    ![](assets/first-graph.png)
 
@@ -232,13 +234,13 @@ On further clicking the values in the compliant, safe deadline, upcoming deadlin
 
    *选择配置超链接*
 
-1. 在配置弹出对话框中，对于要配置的技能，在&#x200B;**目标完成比例%**&#x200B;字段中输入百分比值，并在&#x200B;**目标日期**&#x200B;字段中输入希望达到目标完成比例%的日期。**&#x200B;**
+1. 在配置弹出对话框中，对于要配置的技能，在&#x200B;**目标完成比例%**&#x200B;字段中输入百分比值，并在&#x200B;**目标日期**&#x200B;字段中输入希望达到目标完成比例%的日期。****
 
    ![](assets/configure-tracker.png)
 
    *输入目标完成百分比*
 
-1. 要查看预测结果，请单击&#x200B;**“预计”**&#x200B;按钮。输出结果如下图所示。
+1. 要查看预测结果，请单击&#x200B;**“预计”**&#x200B;按钮。 预测结果如下图所示。
 
    ![](assets/skill-tracker-output.png)
 
@@ -290,7 +292,7 @@ On further clicking the values in the compliant, safe deadline, upcoming deadlin
 
 *查看在技能跟踪器中提供的目标日期完成的团队完成率%*
 
-在图表下方会显示一个表格，其中包含团队视图以及已注册、已获得和正在进行的技能数。如果学习项目有完成日期，同样会显示预计完成日期。
+在图表下方会显示一个表格，其中包含团队视图以及已注册、已获得和正在进行的技能数。 如果学习项目有完成日期，同样会显示预计完成日期。
 
 ![](assets/ts-details.png)
 
@@ -308,7 +310,7 @@ On further clicking the values in the compliant, safe deadline, upcoming deadlin
 
 *查看成员的技能*
 
-如果在某个团队对应的“已注册”、“已获得”和“正在进行”列下选择相应的值，可以查看已注册该技能的用户人数。您还可以查看用户注册该技能的日期、状态和完成日期（如果该用户已完成）。
+如果在某个团队对应的“已注册”、“已获得”和“正在进行”列下选择相应的值，可以查看已注册该技能的用户人数。 您还可以查看用户注册该技能的日期、状态和完成日期（如果该用户已完成）。
 
 <!--![](assets/ts-click-on-valuesunderskillstatus.png) ![](assets/1-solid-line.png)-->
 

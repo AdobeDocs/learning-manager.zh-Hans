@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Adobe Learning Manager 桌面应用程序
 contentowner: kuppan
 exl-id: 3012ab23-e326-4e7c-b450-e33c046fd656
-source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
+source-git-commit: 864c3a4e60cf1bf1c049838fb2ba46ebbcb28ddf
 workflow-type: tm+mt
-source-wordcount: '1689'
-ht-degree: 76%
+source-wordcount: '1694'
+ht-degree: 79%
 
 ---
 
@@ -15,15 +15,15 @@ ht-degree: 76%
 
 了解如何使用 Adobe Learning Manager 桌面应用程序来创建和丰富可在社交学习中共享的内容。
 
-Adobe Learning Manager 桌面应用程序主要面向使用 Adobe Learning Manager 社交学习的学习者。安装后，学习者可使用该应用程序创建内容并将其发布到 Adobe Learning Manager 中的讨论区，以促进同行之间非正式、协作性社交学习。此外，桌面应用程序还可确保学习者在桌面上获得社交学习通知（甚至无需登录 Adobe Learning Manager 网页应用程序）。
+Adobe Learning Manager 桌面应用程序主要面向使用 Adobe Learning Manager 社交学习的学习者。 安装后，学习者可使用该应用程序创建内容并将其发布到 Adobe Learning Manager 中的讨论区，以促进同行之间非正式、协作性社交学习。 此外，桌面应用程序还可确保学习者在桌面上获得社交学习通知（甚至无需登录 Adobe Learning Manager 网页应用程序）。
 
-学习者可创建丰富的内容（包括视频、音频和屏幕截图），并与其他学习者分享。其内容可以是任何内容 — 软件演示或演练、演示文稿、播客或可共享内容的附注屏幕截图。
+学习者可创建丰富的内容（包括视频、音频和屏幕截图），并与其他学习者分享。 其内容可以是任何内容 — 软件演示或演练、演示文稿、播客或可共享内容的附注屏幕截图。
 
-在 Adobe Learning Manager 社交学习网页上，单击“新帖子”，然后选择“录制视频”、“录制音频”、“截取屏幕截图”或“Adobe Learning Manager 图库”以启动桌面应用程序。有关社交学习的更多信息，请[单击此处](feature-summary/social-learning-web-user.md)。
+在 Adobe Learning Manager 社交学习网页上，单击“新帖子”，然后选择“录制视频”、“录制音频”、“截取屏幕截图”或“Adobe Learning Manager 图库”以启动桌面应用程序。 有关社交学习的更多信息，请[单击此处](feature-summary/social-learning-web-user.md)。
 
-如果用户没有桌面应用程序，可从 Adobe Learning Manager 桌面版页面下载。如果无法下载，请[点击此处](../kb/troubleshooting-issues-with-adobe-learning-manager-desktop-app.md)。
+如果用户没有桌面应用程序，可从 Adobe Learning Manager 桌面版页面下载。 如果无法下载，请[点击此处](../kb/troubleshooting-issues-with-adobe-learning-manager-desktop-app.md)。
 
-安装完该应用程序后，用户必须使用 Adobe Learning Manager 学习者凭据登录。主页如下图所示。
+安装完该应用程序后，用户必须使用 Adobe Learning Manager 学习者凭据登录。 主页如下图所示。
 
 >[!NOTE]
 >
@@ -41,22 +41,22 @@ Adobe Learning Manager 桌面应用程序主要面向使用 Adobe Learning Manag
 
 执行以下操作进行视频录制并发布到社交学习网络平台：
 
-1. 确保满足硬件和软件要求。详情请参阅[系统要求](../system-requirements.md)。
-1. 要在社交学习中启动录制，请选择视频录制（网页、屏幕、两者）图标，随即会打开 Adobe Learning Manager 桌面应用程序。用户在登录桌面应用程序后，即可创建并发布内容。
+1. 确保满足硬件和软件要求。 详情请参阅[系统要求](../system-requirements.md)。
+1. 要在社交学习中启动录制，请选择视频录制（网页、屏幕、两者）图标，随即会打开 Adobe Learning Manager 桌面应用程序。 用户在登录桌面应用程序后，即可创建并发布内容。
 1. 要从桌面应用程序启动录制，请以学习者身份使用 Adobe Learning Manager 凭据登录应用程序。
 1. 此时会显示主页。
-1. 要创建帖子，可以选择主页中提供的三个选项之一。要启动录制窗口，请单击“录制视频”图标。
+1. 要创建帖子，可以选择主页中提供的三个选项之一。 要启动录制窗口，请单击“录制视频”图标。
 1. 根据要求，可选择网络摄像头、屏幕或两者。
 
    **网络摄像头**&#x200B;网络摄像头会捕捉演示或演示项目或应用程序（包括音频）的讲述人。 从上述选项中选择网络摄像头图标以显示“实时”窗口。
 
    **屏幕**&#x200B;录制在监视器屏幕上执行的操作。 选择屏幕图标后，该屏幕将突出显示，屏幕中央会显示录制对话框。
 
-   **两者**&#x200B;都记录讲述人和屏幕的操作。 通过选择最后一个图标，屏幕会高亮显示，并且用户会看到一个实时窗口。
+   **两者**&#x200B;都记录讲述人和屏幕的操作。 选择最后一个图标后，该屏幕将突出显示，用户会同时获得一个活动窗口。
 
 1. 设置录制首选项。
 
-   **选择摄像头：**&#x200B;单击录制视频窗口底部的视频摄像头图标。从给定选项中选择用户想要使用的摄像头。
+   **选择摄像头：**&#x200B;单击录制视频窗口底部的视频摄像头图标。 从给定选项中选择用户想要使用的摄像头。
 
    **选择麦克风**&#x200B;单击视频或音频窗口底部的麦克风图标，然后从给定选项中选择用户要使用的麦克风。
 
@@ -64,10 +64,10 @@ Adobe Learning Manager 桌面应用程序主要面向使用 Adobe Learning Manag
    >
    >如果在录制屏幕或视频时不想录制音频，请在单击音频图标后所显示的下拉列表中选择&#x200B;**“无”**&#x200B;选项。
    >
-   >当用户启动其屏幕录制或自身录制时，屏幕是会弹出一个对话框，要求确认是否要在无音频支持的情况下继续录制。单击“是”以继续。
+   >当用户启动其屏幕录制或自身录制时，屏幕是会弹出一个对话框，要求确认是否要在无音频支持的情况下继续录制。 单击“是”以继续。
 
-1. 单击“录制”按钮以开始录制。倒计时（3 秒）后开始录制。
-1. 单击“暂停”或“恢复”按钮可在录制时暂停，然后根据需要恢复。要编辑录制内容，请参阅[编辑录制内容](adobe-learning-manager-app-for-desktop.md#Editing)；要发布，请参阅[发布录制内容](adobe-learning-manager-app-for-desktop.md#Publishing)。
+1. 单击“录制”按钮以开始录制。 倒计时（3 秒）后开始录制。
+1. 单击“暂停”或“恢复”按钮可在录制时暂停，然后根据需要恢复。 要编辑录制内容，请参阅[编辑录制内容](adobe-learning-manager-app-for-desktop.md#Editing)；要发布，请参阅[发布录制内容](adobe-learning-manager-app-for-desktop.md#Publishing)。
 
 ## 创建音频 {#creatinganaudio}
 
@@ -81,7 +81,7 @@ Adobe Learning Manager 桌面应用程序主要面向使用 Adobe Learning Manag
 1. 单击“录制”按钮以开始录制。
 1. 用户录制完音频后，单击“暂停”按钮停止录制。
 1. 要预览录制内容，请单击“播放”按钮。
-1. 若要将附加音频录制到同一个文件中，请单击&#x200B;**[!UICONTROL “恢复”]**。满足所需录制要求后，单击“**[!UICONTROL 下一步]**”将文件保存到所需位置。 录制内容会保存在 Adobe Learning Manager 桌面应用程序的图库中，用户可在其中查看录制内容和屏幕截图。
+1. 若要将附加音频录制到同一个文件中，请单击&#x200B;**[!UICONTROL “恢复”]**。 满足所需录制要求后，单击“**[!UICONTROL 下一步]**”将文件保存到所需位置。 录制内容会保存在 Adobe Learning Manager 桌面应用程序的图库中，用户可在其中查看录制内容和屏幕截图。
 1. 要编辑录制内容，请参阅[编辑录制内容](adobe-learning-manager-app-for-desktop.md#Editing)；要发布，请参阅[发布录制内容](adobe-learning-manager-app-for-desktop.md#Publishing)。
 
 ## 创建屏幕截图 {#creatingascreenshot}
@@ -89,10 +89,12 @@ Adobe Learning Manager 桌面应用程序主要面向使用 Adobe Learning Manag
 要截取屏幕截图，请执行以下操作：
 
 1. 从 Adobe Learning Manager 桌面应用程序主页中单击屏幕截图图标。
-1. 若只截取部分屏幕，请单击截取部分屏幕图标。若要截取整个屏幕，请单击全屏截图图标。
+1. 若只截取部分屏幕，请单击截取部分屏幕图标。 若要截取整个屏幕，请单击全屏截图图标。
 
-   <!--![](assets/capture-screenshot.png)
-   *Capture a screenshot*-->
+   <!--
+   ![](assets/capture-screenshot.png)
+   *Capture a screenshot*
+   -->
 
 1. 为帮助其他学习者更好地理解和保留演示文稿或静态内容，请在内容中添加批注。
 1. 要编辑屏幕截图，请[单击此处](adobe-learning-manager-app-for-desktop.md#Editing)，然后[单击此处](adobe-learning-manager-app-for-desktop.md#Publishing)发布屏幕截图。
@@ -122,7 +124,7 @@ Adobe Learning Manager 桌面应用程序主要面向使用 Adobe Learning Manag
 
 要修剪或移除不需要的视频或音频片段，请使用修剪工具。
 
-要修剪，请单击&#x200B;**[!UICONTROL 开始修剪]**&#x200B;按钮或单击时间轴上的加号图标以开始修剪。 然后单击播放器上的“暂停”按钮以停止修剪。单击&#x200B;**[!UICONTROL “确认”]**&#x200B;按钮以完成修剪。
+要修剪，请单击&#x200B;**[!UICONTROL 开始修剪]**&#x200B;按钮或单击时间轴上的加号图标以开始修剪。 然后单击播放器上的“暂停”按钮以停止修剪。 单击&#x200B;**[!UICONTROL “确认”]**&#x200B;按钮以完成修剪。
 
 启用&#x200B;**[!UICONTROL 更改时间]**&#x200B;后，可以通过在&#x200B;**[!UICONTROL 开始时间]**&#x200B;和&#x200B;**[!UICONTROL 结束时间]**&#x200B;输入字段中输入时间来修剪录制。
 
@@ -134,14 +136,14 @@ Adobe Learning Manager 桌面应用程序主要面向使用 Adobe Learning Manag
 
 ## 平移和缩放（任何视频） {#panampzoomanyvideorecording}
 
-平移和缩放操作只能在&#x200B;**两者**（网络摄像头和屏幕）视频录制上完成。 默认情况下，选择整个网络摄像头或屏幕。选择并拖动角控点以选择要显示或聚焦的那部分屏幕。双击窗口全屏。
+平移和缩放操作只能在&#x200B;**两者**（网络摄像头和屏幕）视频录制上完成。 默认情况下，选择整个网络摄像头或屏幕。 选择并拖动角控点以选择要显示或聚焦的那部分屏幕。 双击该窗口以全屏显示。
 
 ![](assets/pan-zoom-artboard10.png)
 *平移和缩放*
 
 ## 品牌推广（所有类型的视频） {#brandingalltypesofvideorecordings}
 
-要为视频创建唯一名称以及一致主题，请选择品牌推广工具。品牌推广旨在对学习管理系统进行重点和差异化标识，从而吸引并留住学习者观看完整视频。
+要为视频创建唯一名称以及一致主题，请选择品牌推广工具。 品牌推广旨在对学习管理系统进行重点和差异化标识，从而吸引并留住学习者观看完整视频。
 
 要为视频添加品牌或主题，请执行以下操作：
 
@@ -156,10 +158,10 @@ Adobe Learning Manager 桌面应用程序主要面向使用 Adobe Learning Manag
 
    >[!NOTE]
    >
-   >标题文本只能添加为品牌推广视频的一部分。在为品牌推广视频添加标题之前，需要一个主题。
+   >标题文本只能添加为品牌推广视频的一部分。 在为品牌推广视频添加标题之前，需要一个主题。
 
-1. 如有必要，为视频添加演示者姓名和演示者头衔。在“显示在”播放头字段中输入视频时间范围内的数字，以便在播放视频时显示演示者姓名和头衔。
-1. 如有必要，在视频屏幕的左侧或右侧添加品牌推广图标。要选择品牌图标，请单击&#x200B;**[!UICONTROL 选择]** > **[!UICONTROL 从系统浏览]**。
+1. 如有必要，为视频添加演示者姓名和演示者头衔。 在“显示在”播放头字段中输入视频时间范围内的数字，以便在播放视频时显示演示者姓名和头衔。
+1. 如有必要，在视频屏幕的左侧或右侧添加品牌推广图标。 要选择品牌图标，请单击&#x200B;**[!UICONTROL 选择]** > **[!UICONTROL 从系统浏览]**。
 1. 要预览视频，请单击预览屏幕中的“播放”按钮。
 
    ![](assets/branding-options.png)
@@ -170,7 +172,7 @@ Adobe Learning Manager 桌面应用程序主要面向使用 Adobe Learning Manag
 
 附加的音频和视频剪辑可以录制到现有的视频或音频文件中。
 
-要开始新录制，请单击“录制附加剪辑”图标。新录制插入到正在编辑的录制中的播放指示器位置。
+要开始新录制，请单击“录制附加剪辑”图标。 新录制插入到正在编辑的录制中的播放指示器位置。
 
 ## 发布视频、录音和屏幕截图 {#publishing}
 
@@ -181,7 +183,7 @@ Adobe Learning Manager 桌面应用程序主要面向使用 Adobe Learning Manag
 
 ## 浏览 Adobe Learning Manager 桌面应用程序图库 {#browsingcaptivateprimedesktopgallery}
 
-所有录制内容和屏幕截图均保存在 Adobe Learning Manager 桌面应用程序中。要浏览这些文件，请单击主页左侧导航面板中的&#x200B;**[!UICONTROL 图库]**。
+所有录制内容和屏幕截图均保存在 Adobe Learning Manager 桌面应用程序中。 要浏览这些文件，请单击主页左侧导航面板中的&#x200B;**[!UICONTROL “图库”]**。
 
 >[!NOTE]
 >
@@ -195,9 +197,9 @@ Adobe Learning Manager 桌面应用程序主要面向使用 Adobe Learning Manag
 
 ## 通知 {#notifications}
 
-无论学习者是否已登录 Adobe Learning Manager 网页版应用程序，Adobe Learning Manager 的通知窗口中皆会显示相关通知。通知中会包括用户已创建、正在关注或已参与的帖子或讨论区。单击通知会将用户导航到 Adobe Learning Manager 社交学习网页。
+无论学习者是否已登录 Adobe Learning Manager 网页版应用程序，Adobe Learning Manager 的通知窗口中皆会显示相关通知。 通知中会包括用户已创建、正在关注或已参与的帖子或讨论区。 单击通知会将用户导航到 Adobe Learning Manager 社交学习网页。
 
-要将通知静音，请单击&#x200B;**[!UICONTROL 配置文件菜单*]* > &#x200B;** [!UICONTROL 设置] > **[!UICONTROL 将通知静音]**。
+要将通知静音，请单击**[!UICONTROL 配置文件菜单*]* > **[!UICONTROL 设置] > **[!UICONTROL 将通知静音]**。
 
 ## Adobe Learning Manager 桌面应用程序中的设置 {#settingsinadobecaptivateprimedesktopapplication}
 

@@ -2,13 +2,13 @@
 jcr-language: en_us
 title: Adobe Learning Manager中的Admin AI Assistant (Beta)
 description: 了解有关Adobe Learning Manager Admin AI Assistant (Beta)的更多信息
-source-git-commit: 7c21986eff480f15cb788cf9a1cb51644bc083c8
+exl-id: af3d935b-c158-4a8e-9282-62251d29249c
+source-git-commit: 864c3a4e60cf1bf1c049838fb2ba46ebbcb28ddf
 workflow-type: tm+mt
-source-wordcount: '929'
+source-wordcount: '934'
 ht-degree: 1%
 
 ---
-
 
 # Adobe Learning Manager中的Admin AI Assistant (Beta)
 
@@ -20,11 +20,13 @@ Adobe Learning Manager中的Admin AI Assistant (Beta)可使用简单的语言进
 
 该助理减少了对于手动导航的依赖，缩短了发现时间，并帮助快速呈现可操作的见解。
 
-<!--## Key benefits
+<!--
+## Key benefits
 
 * Perform common administrator tasks faster with conversational guidance.
 * Get instant answers without browsing through extensive menus.
-* Gain real-time insights and step-by-step guidance for administrative workflows.-->
+* Gain real-time insights and step-by-step guidance for administrative workflows.
+-->
 
 
 >[!IMPORTANT]
@@ -129,25 +131,25 @@ Adobe会使用此反馈随时间推移而改进Admin AI Assistant (Beta)。
 
 ## 常见问题解答
 
-+++我是否可以使用Admin AI Assistant (Beta)作为学习者？
++++学习者是否可以使用Admin AI Assistant (Beta)？
 
-讨论区创建的帖子数此助理仅适用于管理员。
+数字 此助理仅适用于管理员。
 
 +++
 
-+++这款软件可以在移动应用程序中下载吗？
++++是否可在移动应用程序中找到？   
 
 暂时不需要。
 
 +++
 
-+++是否可以执行管理操作？
++++是否可以执行管理操作？    
 
-讨论区创建的帖子数Admin AI Assistant (Beta)仅提供指导。
+数字 Admin AI Assistant (Beta)仅提供指导。
 
 +++
 
-+++它将支持更多语言吗？
++++它是否支持更多语言？
 
 Adobe Learning Manager团队正在评估对未来更新的多语言支持。
 

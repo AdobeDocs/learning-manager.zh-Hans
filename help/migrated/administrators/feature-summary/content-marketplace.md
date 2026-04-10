@@ -1,12 +1,12 @@
 ---
 jcr-language: en_us
 title: 内容市场
-description: Adobe Learning Manager 现提供内容市场，您可以在其中浏览和购买培训课程。现有 70,000 多门课程，这些课程涵盖不同主题并以多种格式提供。 精选的播放列表可迎合不同角色的需要，满足您学习和提升技能的需求。
+description: Adobe Learning Manager 现提供内容市场，您可以在其中浏览和购买培训课程。 现有 70,000 多门课程，这些课程涵盖不同主题并以多种格式提供。 精选的播放列表可迎合不同角色的需要，满足您学习和提升技能的需求。
 contentowner: saghosh
 exl-id: 023593d9-06c9-4b91-bbbd-e8ec595b6d60
-source-git-commit: 85eeebb33a67bf5528c88b26941345e00e98e0d3
+source-git-commit: 864c3a4e60cf1bf1c049838fb2ba46ebbcb28ddf
 workflow-type: tm+mt
-source-wordcount: '683'
+source-wordcount: '687'
 ht-degree: 10%
 
 ---
@@ -26,7 +26,8 @@ ht-degree: 10%
 | 来自250多家提供商的内容 | 包含所有Premium Essentials内容 |
 | 来自受信任的提供商的独家内容，例如：<li>易拉玛</li><li>斯基尔舒布</li><li>汤森路透</li><li>Emtran</li><li>Harvard ManageMentor</li> | 顶级提供商提供的独家课程，例如： <li>闪烁</li><li>Pluralsight</li>Skillsoft</li><li>Traliant</li><li>库尔塞拉</li> |
 
-<!--**[!UICONTROL Premium Essentials]**:
+<!--
+**[!UICONTROL Premium Essentials]**:
 A cost-effective solution designed to enhance employee engagement. 
 
 * Access to over 90,000 courses
@@ -50,7 +51,8 @@ A cost-effective solution designed to enhance employee engagement.
    * Traliant
    * Coursera
 
-Select the plan that best meets your organization's learning goals and budget.-->
+Select the plan that best meets your organization's learning goals and budget.
+-->
 
 ## 从提供商处获取内容
 
@@ -65,7 +67,8 @@ Select the plan that best meets your organization's learning goals and budget.--
 
 内容提供商负责管理过时内容的移除，确保不提前通知即停止使用任何学习材料。
 
-<!--Learning Manager now offers Content Marketplace for you to explore and purchase trainings. Explore 70,000+ courses that cover a wide range of topics, available in multiple formats. Choose from curated playlists that cater to a vast variety of roles and meet your learning and upskilling needs.
+<!--
+Learning Manager now offers Content Marketplace for you to explore and purchase trainings. Explore 70,000+ courses that cover a wide range of topics, available in multiple formats. Choose from curated playlists that cater to a vast variety of roles and meet your learning and upskilling needs.
 
 In the Administrator app, there is a new option **[!UICONTROL Content Marketplace]**, which you'll find on the left panel.
 
@@ -73,7 +76,8 @@ Users can purchase from curated playlists covering various topics or purchase th
 
 On the page, you can see two tiles, Enterprise Training and Creative Cloud Training. The first tile launches the marketplace, using which you can acquire courses for your learners. The latter launches the content catalog.
 
-The Enterprise Training page in the Administrator app enables you to invite users and download the Express Interest report, and also purchase the entire catalog or curated playlist.-->
+The Enterprise Training page in the Administrator app enables you to invite users and download the Express Interest report, and also purchase the entire catalog or curated playlist.
+-->
 
 ## 请求报价
 
@@ -109,7 +113,8 @@ _邀请用户访问内容中心_
 
 默认情况下，对所有新帐户启用此选项。 对于现有帐户，管理员必须手动邀请学习者访问内容市场。
 
-<!--## Purchase
+<!--
+## Purchase
 
 You get unlimited access to the entire library of courses. Click the **[!UICONTROL Purchase]** button to download a Purchase Request form.
 
@@ -133,15 +138,18 @@ Once the courses are added to the catalog, the Administrator can then grant acce
 
 ![](assets/licenses.png)
 
-*Grant access to training to users and user groups*-->
+*Grant access to training to users and user groups*
+-->
 
-<!--## Express interest report
+<!--
+## Express interest report
 
 When a learner clicks Express interest to Catalog in the Learner app, the interest is recorded in an Express interest report. The Administrator can download the report. The report (csv) contains the following fields:
 
 * Name of the catalog
 * Number of users expressing interest
-* Email of the user expressing interest-->
+* Email of the user expressing interest
+-->
 
 ## 内容中心
 
@@ -159,12 +167,15 @@ Adobe Learning Manager提供预配置的电子邮件模板，可通知管理员�
 2. **[!UICONTROL 自动用户上传失败]：**&#x200B;通过CSV自动导入用户失败时触发。 此警报可帮助管理员快速确定计划用户更新中的问题，以便采取更正操作。
 3. **[!UICONTROL 邀请用户浏览内容]：**&#x200B;当管理员从市场购买内容后，会向学习者发送一封邀请电子邮件。 之后，用户可以立即开始学习旅程。
 
-<!--Purchased courses cannot be added in recurring certificates.
+<!--
+Purchased courses cannot be added in recurring certificates.
 Purchased courses cannot be shared to peer accounts.
 Purchased courses can be consumed by all users who get access to it. Configure the catalog visibility to restrict the visibility of purchased courses to limited users.
-Purchased courses cannot be consumed once the activation key expires. Please purchase/activate another key to allow consumption.-->
+Purchased courses cannot be consumed once the activation key expires. Please purchase/activate another key to allow consumption.
+-->
 
-<!--## Content Hub in Content Marketplace
+<!--
+## Content Hub in Content Marketplace
 
 Content Hub allows Administrators and Subject Matter Experts (SMEs) to shortlist required playlists from learner app. Once shortlisted, Admins can download the Purchase Request Form and share it with the Adobe Sales agent.
 
@@ -190,4 +201,5 @@ Then as Administrator, click **[!UICONTROL Content Marketplace]** > **[!UICONTRO
 
 *Download the Purchase Request form*
 
-The courses and Playlist which you see in the Content Hub are the same as what you see in the Content Marketplace. Content Hub simply provides an ability for Administrators and limited SMEs to shortlist playlist easily for purchase.-->
+The courses and Playlist which you see in the Content Hub are the same as what you see in the Content Marketplace. Content Hub simply provides an ability for Administrators and limited SMEs to shortlist playlist easily for purchase.
+-->

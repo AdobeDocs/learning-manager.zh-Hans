@@ -4,10 +4,10 @@ title: 自定义学习者主页
 description: 管理员可以自定义学习者主页，使其更与时俱进、更以内容为导向且更加个性化。
 contentowner: saghosh
 exl-id: 1551d240-fa07-4b7b-a06e-61b2bd3bff74
-source-git-commit: a28ac8f57710c118ca4ad02872fd100c6f24beac
+source-git-commit: 864c3a4e60cf1bf1c049838fb2ba46ebbcb28ddf
 workflow-type: tm+mt
-source-wordcount: '1139'
-ht-degree: 46%
+source-wordcount: '1159'
+ht-degree: 63%
 
 ---
 
@@ -37,7 +37,7 @@ ht-degree: 46%
 
 管理员可以切换到“沉浸式用户界面小组件”视图，相应地自定义小组件/功能，然后启用沉浸式用户界面。
 
-**学习者主页**&#x200B;屏幕包含以下部分：
+**“学习者主页”**&#x200B;屏幕包含以下部分：
 
 ## 沉浸式布局选项 {#immersivelayoutoption}
 
@@ -80,13 +80,13 @@ ht-degree: 46%
 >
 >复选框&#x200B;**探索技能**&#x200B;已移至“设置”>“常规”。
 
-如果选择“沉浸式体验”，此功能将启用并呈灰显状态。 此复选框仅会在“经典”体验中启用。
+如果选择“沉浸式”体验，则此选项将启用并显示为灰色。 此复选框仅会在“经典”体验中启用。
 
 ![](assets/option-immersive.png)
 
 *学习者主页设置*
 
-沉浸式布局是所有新帐户的默认布局。 布局由管理员可以启用或禁用的小组件控制。 小组件放置方式不同，系统会在学习者主页上显示相同内容。
+沉浸式布局是所有新帐户的默认设置。 布局由管理员可以启用或禁用的小组件控制。 根据小组件的摆放位置，学习者主页上也会显示相同布局。
 
 以下是您可以启用/禁用的小组件。
 
@@ -111,7 +111,7 @@ ht-degree: 46%
     <p>刊头</p></td>
    <td>
     <p><b>什么是刊头？如何自定义学习者刊头？ </b><br></p>
-    <p>这是学习者的欢迎横幅。 横幅可以是图像或视频。 您可以将刊头定位到特定的用户组，学习者可以在登录主页后立即查看刊头。 根据管理员设置的目标计划，用户组可能会看到多个hero images或视频。 </p>
+    <p>这是学习者的欢迎横幅。 横幅可以是图像或视频。 您可针对特定用户组指定对应刊头，这样学习者在登陆主页后即可看到该刊头。 根据管理员设定的目标计划，用户组可能会看到多个主页横幅图像或视频。 </p>
     <p>以下是管理员上传横幅的方式：</p>
     <ol>
      <li>在左侧面板上，单击<b>公告</b>。<br></li>
@@ -151,7 +151,7 @@ ht-degree: 46%
    <td>
     <p>社交学习</p></td>
    <td>
-    <p>按与学习者位于相同用户范围内的用户列出活动和帖子。 </p></td>
+    <p>列出与学习者处于同一用户范围的用户的活动和帖子。 </p></td>
   </tr>
   <tr>
    <td>
@@ -160,29 +160,33 @@ ht-degree: 46%
     <p>启用后，此小组件将向特定用户组推荐培训。 每个用户组都可以定位到一项或多项培训，并且目标计划将基于时间范围。 <br></p>
     <ul>
      <li>
-      <p>首先，管理员<a href="announcements.md#recommendation">创建一个<b>作为推荐</b>类型的公告</a>，然后选择所需的培训并使用组。 属于用户组的学习者将可以看到推荐的培训。</p></li>
+      <p>首先，管理员<a href="announcements.md#recommendation">会创建“<b>推荐用</b>”类型的公告</a>，然后选择必要的培训和用户组。 某个用户组的学习者将能查看推荐的培训。</p></li>
      <li>
       <p>其次，管理员还可决定推荐是立即生效还是在指定日期生效。</p></li>
     </ul></td>
   </tr>
-  <!--<tr>
+  <!--
+  <tr>
    <td>
     <p>Recommendation based on area of interest</p></td>
    <td>
     <p>Displays Learning Objects based on the learner's chosen area of interest. The recommendation is driven by a Machine Learning algorithm.</p></td>
-  </tr>-->
+  </tr>
+  -->
   <tr>
    <td>
     <p>按目录浏览<br></p></td>
    <td>
     <p>在主页上平铺显示目录。 </p></td>
   </tr>
-  <!--<tr>
+  <!--
+  <tr>
    <td>
     <p>Recommendation based on peer activity<br></p></td>
    <td>
     <p>Displays training based on what a learner's peers are taking. This is again driven by a Machine Learning algorithm.</p></td>
-  </tr>-->
+  </tr>
+  -->
  </tbody>
 </table>
 
@@ -267,7 +271,7 @@ ht-degree: 46%
    <td>
     <p>“推荐作用域设置”<br></p></td>
    <td>
-    <p>选择一或多个活动字段。 对于“<b>自定义</b>”，您至多可以选择一个活动字段。 对于<b>Industry Aligned</b>，您至多可以选择五个活动字段。<br></p></td>
+    <p>选择一或多个活动字段。 对于“<b>自定义</b>”，您至多可以选择一个活动字段。 对于<b>“业界公认”</b>，您至多可以选择五个活动字段。<br></p></td>
   </tr>
   <tr>
    <td>
@@ -279,7 +283,7 @@ ht-degree: 46%
    <td>
     <p>提示用户选择感兴趣的领域（技能） <br></p></td>
    <td>
-    <p>仅适用于沉浸式体验。 选择<b>是</b>或<b>否</b>。 <br></p></td>
+    <p>仅适用于沉浸式体验。 选择<b>“是”</b>或<b>“否”</b>。 <br></p></td>
   </tr>
  </tbody>
 </table>

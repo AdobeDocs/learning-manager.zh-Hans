@@ -3,10 +3,10 @@ description: 本参考手册适用于希望将现有LMS迁移到Adobe Learning M
 jcr-language: en_us
 title: 迁移手册
 exl-id: bfdd5cd8-dc5c-4de3-8970-6524fed042a8
-source-git-commit: 864c3a4e60cf1bf1c049838fb2ba46ebbcb28ddf
+source-git-commit: 0ae0dee3a43108b707e13778edbc7367c67d63e3
 workflow-type: tm+mt
-source-wordcount: '4636'
-ht-degree: 70%
+source-wordcount: '5322'
+ht-degree: 61%
 
 ---
 
@@ -479,6 +479,127 @@ A sample snapshot of project files and folder of FTP is shown below for your ref
 
 *Box帐户中的CSV位置*
 
+## 替代项和等效项的迁移
+
+### 概述
+
+本主题概述了在系统中引入学习对象(LO)等价性的基于CSV的数据模型和迁移行为。
+
+### 现有CSV文件（上下文）
+
+这些CSV已存在于平台中，可提供主要学习对象、模块和完成上下文（非详尽列表）：
+
+* user_course_grade.csv
+* 模块版本
+* module.csv
+* course.csv
+* course_module.csv
+
+这些文件将继续按原样使用，并且不会因新的对等功能而改变，但它们构成了对等操作将基于的基础数据。
+
+### 替代项的新CSV文件
+
+引入了两个新的CSV以支持学习对象替代关系和相关用户完成。
+
+#### 1. equivalence_relationships.csv
+
+定义源学习对象（可以是课程，也可以是学习路径，即LP）与目标学习对象（即LO）之间的等价映射。
+
+**架构：**
+
+* sourceId
+* sourcelotype（课程/学习计划）
+* targetId
+* targetLotype（课程/学习计划）
+* dateCreated
+* relationshipStatus（活动/DELETE）
+* dateModified
+
+**目的：**
+
+* 表示两个学习对象之间的等价关系。
+* relationshipStatus控制关系当前是处于活动状态还是已删除状态。
+* dateCreated和dateModified支持审计。
+
+#### equivalence_user_completion.csv
+
+捕获等效学习对象的用户级完成信息，这些信息与equivalence_relationship.csv中定义的关系一致。
+
+**架构：**
+
+* userId
+* sourceId
+* sourcelotype（课程/学习计划）
+* targetId
+* targetLotype（课程/学习计划）
+* dateCompleted
+
+**目的：**
+
+* 显式记录应根据等价关系和现有源学习对象完成情况为用户推断&#x200B;**目标学习对象完成情况**。
+* 作为与迁移的等效数据关联的用户完成的&#x200B;**权威源**。
+
+### 迁移规则和行为语义
+
+#### &#x200B;1. 不支持新等效项CSV
+
+* 必须通过迁移引入所有与等效相关的数据。
+* 系统不支持以下情况：
+   * 学习对象数据（课程/学习计划）通过UI创建，并且
+   * 对等关系以后仅通过CSV导入。
+
+这意味着：
+
+* 支持的模式是：学习对象定义及其等价关系作为连贯迁移流程的一部分进行管理。
+* 不支持将UI创建的学习对象改造成仅CSV等效的混合流。
+
+#### &#x200B;2. 没有来自迁移关系的追溯完成/不完成
+
+通过迁移（即通过equivality_relationships.csv）引入等价关系时：
+
+* 系统将不会仅根据该关系执行追溯完成或不完成计算。
+* 相反，必须通过equivalence_user_completion.csv显式提供所有必需的用户完成数据。
+
+**含义：**
+
+* equivalence_user_completion.csv是所有应在迁移时作为等价结果识别的完成的单一真实来源。
+* 平台不会尝试从现有课程进度推断或回填这些完成情况。
+
+#### &#x200B;3. 迁移后新完成时的行为
+
+如果：
+
+* 通过迁移创建了对等关系，并且
+* 学习者随后完成源学习对象（迁移后），
+
+然后：
+
+* 该系统将触发目标学习对象的替代完成，即，对于新源完成而言，对等行为通常继续进行。
+
+**关键区别：**
+
+* **在迁移时：**&#x200B;完成必须通过equivalence_user_completion.csv进行。
+* **迁移后：**&#x200B;本机运行时逻辑将在新完成源学习对象时处理替代完成。
+
+#### &#x200B;4. 对高阶学习对象的影响
+
+通过CSV传入的替代完成（即通过equivalence_user_completion.csv）将触发重新计算高阶学习对象。
+
+高阶学习对象可能包括：
+
+* 学习路径
+
+**技术含义：**
+
+* 引入equivalence_user_completion.csv不是“静默”操作：它启动由正常运行时完成触发的相同重新计算/汇总逻辑。
+* 集成或安排此迁移的系统必须规划重新计算的负载和时间。
+
+## 替代的Webhook
+
+当学习者通过替代注册或关系完成课程时，Adobe Learning Manager会生成专用的Webhook事件，与标准课程完成Webhook不同，允许集成对替代完成应用不同的处理逻辑。 系统还会生成Webhook事件以用于追溯完成和追溯完成，涵盖课程状态的历史更改，包括那些由关系更新驱动的更改，以便外部系统与学习者的当前完成状态保持同步。
+
+有关替代的Webhook的信息，请查看[替代的Webhook](/help/migrated/integration-admin/feature-summary/webhooks.md#webhooks-for-alternates)
+
 ## 数据和内容迁移程序 {#dataandcontentmigrationprocedure}
 
 将企业 LMS 数据和内容迁移到 Adobe Learning Manager 的程序如下：
@@ -789,3 +910,9 @@ Adobe Learning Manager 会识别并记住个人用户的加入方式，例如：
 
 * [CSV 上传常见问题解答](/help/migrated/administrators/feature-summary/add-users-user-groups.md#bulk-upload-internal-users/)
 * [有关添加用户的功能帮助](/help/migrated/administrators/feature-summary/add-users-user-groups.md)
+
+## API 更改
+
+2026年4月版Adobe Learning Manager在替代项和对等项、时间窗口内容访问、内容驱动测验尝试、未登录学习者体验和工作辅助管理等领域对公共API进行了有针对性的增强。 这些更新旨在很大程度上保持向后兼容，同时实现更精确和更可扩展的集成模式。
+
+对于API更改，请查看[API更改](/help/migrated/api-changes-alm.md)。

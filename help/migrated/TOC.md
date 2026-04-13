@@ -2,10 +2,10 @@
 user-guide-title: Adobe Learning Manager 指南
 breadcrumb-title: Learning Manager
 user-guide-description: Adobe Learning Manager 的文档
-source-git-commit: ac4432a2fda4be4ffde5e58c0f44e623b55703b5
+source-git-commit: 03ac3f985aa523e494e05393ee8fa478faf35646
 workflow-type: tm+mt
-source-wordcount: '850'
-ht-degree: 65%
+source-wordcount: '900'
+ht-degree: 61%
 
 ---
 
@@ -14,7 +14,8 @@ ht-degree: 65%
 
 * [Adobe Learning Manager 用户指南](user-guide.md)
 * 简介 {#introduction}
-   * [2025年10月新增功能摘要](/help/migrated/whats-new.md)
+   * [2026年4月新增功能摘要](/help/migrated/whats-new.md)
+   * [2025年10月新增功能摘要](/help/migrated/whats-new-october-2025.md)
    * [2025年5月新增功能摘要](/help/migrated/whats-new-may-2025.md)
    * [2024年11月新增功能摘要](/help/migrated/whats-new-nov-24.md)
    * [2024年7月新增功能摘要](whats-new-july-2024.md)
@@ -38,6 +39,7 @@ ht-degree: 65%
    * [Adobe Learning Manager 中的推荐](recommendations-adobe-learning-manager.md)
    * [Adobe Learning Manager中的白标签](white-label.md)
 * 入门指南 {#get-started}
+   * [使用OpenID Connect登录Adobe Learning Manager](/help/migrated/oidc.md)
    * [管理员快速入门指南](administrators/feature-summary/getting-started-admin.md)
    * [作者快速入门指南](authors/feature-summary/getting-started-author.md)
    * [学习者快速入门指南](learners/feature-summary/getting-started-learner.md)
@@ -52,6 +54,7 @@ ht-degree: 65%
       * [活动字段](/help/migrated/administrators/feature-summary/active-fields.md)
    * [添加教室位置](administrators/feature-summary/classroom.md)
    * [创建课程实例和学习路径](administrators/feature-summary/courses.md)
+   * [模块访问时间控制](/help/migrated/administrators/feature-summary/module-access-time-control.md)
    * Adobe Learning Manager中的Experience Builder {#experience-builder}
       * [概述](/help/migrated/administrators/feature-summary/experience-builder/overview.md)
       * [Experience Builder的核心组件](/help/migrated/administrators/feature-summary/experience-builder/components-in-experience-builder.md)
@@ -68,6 +71,12 @@ ht-degree: 65%
          * [概述](/help/migrated/administrators/feature-summary/experience-builder/customization-overview.md)
          * [自定义Experience Builder](/help/migrated/administrators/feature-summary/experience-builder/customization-experience-builder.md)
       * [Experience Builder准则和限制](/help/migrated/administrators/feature-summary/experience-builder/experience-builder-guidelines.md)
+      * [Experience Builder中的未登录体验](/help/migrated/administrators/feature-summary/experience-builder/non-logged-in-experience.md)
+   * 设置 {#settings}
+      * [概述](/help/migrated/administrators/feature-summary/settings/settings-overview.md)
+      * [基本设置](/help/migrated/administrators/feature-summary/settings/basic-settings.md)
+      * [集成设置](/help/migrated/administrators/feature-summary/settings/integration-settings.md)
+      * [高级设置](/help/migrated/administrators/feature-summary/settings/advanced-settings.md)
    * 内容市场 {#content-marketplace}
       * [内容市场](administrators/feature-summary/content-marketplace.md)
       * [策划Go1课程到学习路径](administrators/feature-summary/content-marketplace/curate-go1-playlist.md)
@@ -75,10 +84,12 @@ ht-degree: 65%
    * [报告](administrators/feature-summary/reports.md)
    * [组成功信息板](/help/migrated/administrators/feature-summary/group-success-dashboard.md)
    * [学习路径](administrators/feature-summary/learning-paths.md)
+   * [替代项和等效项](/help/migrated/administrators/feature-summary/alternates-equivalence.md)
    * [学习计划](administrators/feature-summary/learning-plans.md)
    * [管理 Adobe Learning Manager 订单和帐单](administrators/feature-summary/billing-management.md)
    * [工作辅助](administrators/feature-summary/job-aids.md)
    * [认证](administrators/feature-summary/certifications.md)
+   * [创建和自定义证书](/help/migrated/administrators/feature-summary/create-customize-certificate.md)
    * [目录](administrators/feature-summary/catalogs.md)
    * [模拟学习者和经理](administrators/feature-summary/impersonation-learner-manager.md)
    * [多个 SSO 登录](administrators/feature-summary/multiple-sso-logins.md)
@@ -92,6 +103,7 @@ ht-degree: 65%
    * [徽章](administrators/feature-summary/badges.md)
    * [颜色主题](administrators/feature-summary/themes.md)
    * [学习者成绩单](/help/migrated/administrators/feature-summary/reports/learner-transcripts.md)
+   * [“学习者成绩单”中的更改](/help/migrated/administrators/feature-summary/reports/changes-in-learner-transcript.md)
    * [反馈报告](/help/migrated/administrators/feature-summary/reports/feedback-report.md)
    * [轮候表和出席管理](administrators/feature-summary/waitlist-attendance-management.md)
    * [流体播放器](administrators/feature-summary/fluidic-player.md)
@@ -132,7 +144,6 @@ ht-degree: 65%
    * [在 Adobe Learning Manager 中安装 Salesforce 程序包](integration-admin/feature-summary/install-salesforce-package.md)
    * 部署指南 {#deployment-guide}
       * [简介](/help/migrated/deployment-guide/introduction.md)
-      * [第三方连接器](/help/migrated/deployment-guide/third-party-connectors.md)
       * [用户迁移](/help/migrated/deployment-guide/user-migration.md)
       * [用户设置](/help/migrated/deployment-guide/user-setup.md)
    * [安装 Microsoft Teams 连接器](integration-admin/feature-summary/install-microsoft-teams-connector.md)
@@ -202,6 +213,8 @@ ht-degree: 65%
    * [新的Experience League公告](/help/migrated/new-experience-league-announcement.md)
    * [如何在Experience League时提交支持票证](/help/migrated/how-to-submit-support-ticket.md)
    * [在Adobe Learning Manager中创建试用帐户](/help/migrated/create-trial-account.md)
+* API更改 {#api-changes}
+   * [4月版中的API更改](/help/migrated/api-changes-alm.md)
 * 知识库 {#knowledge-base}
    * [无法登录 Adobe Learning Manager](kb/unable-log-in-learning-manager.md)
    * [学习摘要不显示当前数据](kb/learning-summary-not-display-data.md)

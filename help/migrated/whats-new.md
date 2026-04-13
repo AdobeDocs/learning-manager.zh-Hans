@@ -2,13 +2,13 @@
 description: 了解Adobe Learning Manager 2026年4月版的新增功能和增强功能，包括API和Webhook更改
 jcr-language: en_us
 title: Adobe Learning Manager 2026年4月版的新增功能
-source-git-commit: f4ff53bf053b2c8c756961af990505d23ab22db3
+exl-id: da46f186-3ff3-422a-af49-31c7405fd584
+source-git-commit: 971a9c79fc2b831b990e30a44a2eeab5d5c5ce63
 workflow-type: tm+mt
 source-wordcount: '1768'
 ht-degree: 0%
 
 ---
-
 
 # Adobe Learning Manager 2026年4月版的新增功能
 
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 **报告和分析：** SCORM内容现在可以在L2报告中报告多次测试尝试。 “学习者成绩单”中的计算所花费的学习时间得到改进。 管理员的学习成绩单报告已更新。 提供了高级搜索增强功能。
 
-**登录方法：**&#x200B;了解OpenID Connect如何在Adobe Learning Manager中为学习者、作者和管理员登录。 OpenID Connect (OIDC)是基于Web标准构建的通用登录方法。 许多组织使用
+**登录方法：**了解OpenID Connect如何在Adobe Learning Manager中为学习者、作者和管理员登录。 OpenID Connect (OIDC)是基于Web标准构建的通用登录方法。 许多组织使用
 员工和合作伙伴的身份提供方（例如Okta、Google Workspace或Microsoft Entra ID）。
 
 有关详细信息，请查看[使用OIDC登录](/help/migrated/oidc.md)。

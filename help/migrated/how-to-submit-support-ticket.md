@@ -3,9 +3,9 @@ jcr-language: en_us
 title: 如何在Experience League提交支持票证
 description: 了解如何在Experience League时提交支持请求
 exl-id: ff216f75-3441-4194-b254-0bf6c9fda518
-source-git-commit: 5cf246440f56dfa4ffd23edcfdc7c1190ad89c42
+source-git-commit: aa9bf441507251c536cb6ee550fee0177e69cf6e
 workflow-type: tm+mt
-source-wordcount: '621'
+source-wordcount: '633'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 请注意，提交支持票证仅适用于授权支持联系人。 对于您的支持查询，请在2025年5月11日之前继续通过电子邮件将支持票证提交到Adobe Learning Manager。 在此日期之后，除了现有的电子邮件渠道之外，您还可以通过如下所述的Experience League支持门户提交支持票证。
 
-1. 要访问支持门户，请访问&#x200B;**[!UICONTROL Experience League]**&#x200B;网站，然后选择位于页面顶部的&#x200B;**[!UICONTROL 支持]**&#x200B;选项卡。 您也可以访问[直接链接](https://experienceleague.adobe.com/home?lang=zh-Hans#support)。
+1. 要访问支持门户，请访问&#x200B;**[!UICONTROL Experience League]**&#x200B;网站，然后选择位于页面顶部的&#x200B;**[!UICONTROL 支持]**&#x200B;选项卡。 您也可以访问[直接链接](https://experienceleague.adobe.com/home#support)。
 
    ![](assets/support.png)
    _支持主页_
@@ -26,7 +26,7 @@ ht-degree: 0%
    ![](assets/open-ticket.png)
    _打开票证_
 
-3. 要提交案例，请选择选项&#x200B;**[!UICONTROL 打开支持案例]**。 您也可以在侧边栏菜单中选择&#x200B;**[!UICONTROL 打开票证]**&#x200B;选项。 您将定向到案例创建页面，您可以在其中输入您的产品名称(Adobe Learning Manager、Audience Manager、Campaign、Target等)、**[!UICONTROL 案例标题]**&#x200B;和&#x200B;**[!UICONTROL 案例说明]**。 为了加快故障排除过程，请在描述您遇到的问题时尽可能进行描述。
+3. 要提交案例，请选择选项&#x200B;**[!UICONTROL 打开支持案例]**。 您也可以在侧边栏菜单中选择&#x200B;**[!UICONTROL 打开票证]**&#x200B;选项。 您将定向到案例创建页面，您可以在其中输入您的产品名称（Adobe Learning Manager、Audience Manager、Campaign、Target等）、**[!UICONTROL 案例标题]**&#x200B;和&#x200B;**[!UICONTROL 案例说明]**。 为了加快故障排除过程，请在描述您遇到的问题时尽可能进行描述。
 
    在表单的末尾，请填写以下字段，向我们提供更具体的信息，以帮助我们进行故障排除：
 
@@ -43,7 +43,7 @@ ht-degree: 0%
    ![](assets/ticket-form.png)
    _票证表单_
 
-4. 单击&#x200B;**[!UICONTROL 提交案例]**&#x200B;后，您将被重定向到&#x200B;**[!UICONTROL 我的案例]**&#x200B;页面，您可以在其中查看您的组织提交的任何和所有案例。 您也可以通过单击侧边栏菜单上的&#x200B;**[!UICONTROL 我的案例]**&#x200B;按钮导航到此页面。 在此页面上，您将能够查看所有未结和已关闭的支持案例。 使用页面顶部的选项，您可以按案例状态（未结或已结）或Experience Cloud解决方案进行筛选。 您还可以使用搜索栏搜索与您的支持问题相关的任何关键字。
+4. 单击&#x200B;**[!UICONTROL 提交案例]**&#x200B;后，您将被重定向到&#x200B;**[!UICONTROL 我的案例]**&#x200B;页面，您可以在其中查看您的组织提交的任何和所有案例。 您也可以通过单击侧边栏菜单上的&#x200B;**[!UICONTROL 我的案例]**&#x200B;按钮导航到此页面。 在此页面上，您将能够查看所有未结和已关闭的支持案例。 使用页面顶部的选项，您可以按案例状态（未结或已结）或Adobe CX企业版解决方案进行筛选。 您还可以使用搜索栏搜索与您的支持问题相关的任何关键字。
 
    ![](assets/open-cases.png)
    _未结案例_

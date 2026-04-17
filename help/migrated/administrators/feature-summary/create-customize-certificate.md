@@ -3,9 +3,9 @@ title: 创建和自定义证书
 description: Adobe Learning Manager (ALM)中的自定义证书可让管理员和作者设计、管理和为学习者颁发个性化证书。
 jcr-language: en-us
 exl-id: 99e20f00-9f8f-477f-9416-24636ed23b87
-source-git-commit: 54755d739e7f7396f7a9adc28b413cf69af189cc
+source-git-commit: 0d4e8f06c3a9a3dcd6461036ec7fbfa4a54c0b58
 workflow-type: tm+mt
-source-wordcount: '2632'
+source-wordcount: '2845'
 ht-degree: 0%
 
 ---
@@ -240,14 +240,38 @@ Defaults、Firefly和库可帮助客户：
 - 管理员可以逐渐转移到基于设计器的模板，从高优先级程序开始。
 - 如果迁移无法保留映射（例如，中途禁用的徽章），系统则会回退到全局默认模板，以便不会阻止学习者。
 
+## 使用自定义证书时要注意的例外情况
+
+M45中引入的自定义证书创作体验扩展了创建和管理证书的方式。 使用在此版本之前创建的证书时，适用以下例外情况：
+
+### 现有证书将保留但不可编辑
+
+在M45之前创建并已与学习对象关联的证书会自动迁移。 这些证书将继续为现有学习对象颁发。 迁移后，它们将以只读模式提供。 不能修改它们的布局或内容。
+
+要更新证书设计，请使用自定义证书编辑器创建新的证书模板。
+
+### 新学习对象使用新创建的证书
+
+2026年4月发行后创建的学习对象必须使用通过新编辑器创作的证书。 配置新学习对象时，无法选择迁移的证书。
+
+管理员可以创建新证书并将它们设置为默认证书以简化重复使用。
+
+### 在创作过程中必须启用证书和徽章
+
+作者必须为每个学习对象明确启用证书或徽章。 这样可确保只为预期学习对象颁发证书。
+
+### 创建证书需要一次性设置
+
+依赖多个学习对象证书的组织应计划时间来重新创建常用模板。 拖放编辑器旨在使此过程快速且一致。
+
 ## 创建自定义证书
 
 1. 以&#x200B;**管理员**&#x200B;的身份登录Adobe Learning Manager。
-2. 在&#x200B;**配置**&#x200B;部分，选择&#x200B;**成就**。 将打开&#x200B;**徽章**&#x200B;页面。
+2. 在&#x200B;**配置**&#x200B;部分，选择&#x200B;**成就**。 将打开&#x200B;**徽章**页面。
    ![创建自定义证书](/help/migrated/administrators/feature-summary/assets/custom-cert-alm_images/create-custom-certificate1.png)
    *导航到左侧导航面板上的“成就”*
 
-3. 在左侧导航面板中，选择&#x200B;**证书**。 将打开&#x200B;**证书**&#x200B;页。
+3. 在左侧导航面板中，选择&#x200B;**证书**。 将打开&#x200B;**证书**页。
    ![创建自定义证书](/help/migrated/administrators/feature-summary/assets/custom-cert-alm_images/create-custom-certificate2.png)
    *证书页*
 
@@ -261,8 +285,8 @@ Defaults、Firefly和库可帮助客户：
 8. 在下拉菜单中，选择默认语言。
 9. 选择&#x200B;**创建**。 如果选择空白模板，则您的证书名称下方会显示一个空白画布。
 10. 添加元素： **文本**、**图像**、**动态值**&#x200B;和&#x200B;**证书背景**。
-    ![创建自定义证书](/help/migrated/administrators/feature-summary/assets/custom-cert-alm_images/create-custom-certificate4.png)
-    *向证书添加元素*
+   ![创建自定义证书](/help/migrated/administrators/feature-summary/assets/custom-cert-alm_images/create-custom-certificate4.png)
+   *向证书添加元素*
 
 11. 对于&#x200B;**文本**，请在&#x200B;**预格式文本**&#x200B;或&#x200B;**文本模板**&#x200B;下添加内容，或添加自定义文本。 文本将显示在画布上。 选中文本后，画布上方将显示格式选项。 要删除不需要的内容，请选择画布右上角的&#x200B;**删除**&#x200B;图标。
 12. 要添加图像，请选择&#x200B;**添加元素**&#x200B;旁边的&#x200B;**图像**。 从计算机上传图像，或从类别列表中选择图像。
@@ -270,12 +294,12 @@ Defaults、Firefly和库可帮助客户：
 14. 选择&#x200B;**证书背景**&#x200B;以应用颜色或图像。 若要创建具有Adobe Firefly的图像，请选择&#x200B;**生成图像**。
 15. 在提示字段中，描述所需内容（最多100个字符），然后选择&#x200B;**生成**。 系统会根据您的提示显示四个图像选项。
 16. 选择您想要的图像。 它将被应用为证书背景。
-    ![创建自定义证书](/help/migrated/administrators/feature-summary/assets/custom-cert-alm_images/create-custom-certificate5.png)
-    *将图像添加到证书*
+   ![创建自定义证书](/help/migrated/administrators/feature-summary/assets/custom-cert-alm_images/create-custom-certificate5.png)
+   *将图像添加到证书*
 
 17. 选择“**预览**”以在发布之前查看证书。 这可以帮助您了解证书的外观。
-    ![创建自定义证书](/help/migrated/administrators/feature-summary/assets/custom-cert-alm_images/create-custom-certificate6.png)
-    *预览证书*
+   ![创建自定义证书](/help/migrated/administrators/feature-summary/assets/custom-cert-alm_images/create-custom-certificate6.png)
+   *预览证书*
 
 18. 在预览中，您可以保存到Google云端硬盘，下载、打印或使用其他选项，例如批注或文档属性。
 19. 选择&#x200B;**另存为草稿**&#x200B;以稍后继续，或选择&#x200B;**Publish**&#x200B;以发布证书。 发布后，学习者可以在达到配置的里程碑后下载证书。
@@ -327,7 +351,7 @@ Defaults、Firefly和库可帮助客户：
    ![从操作菜单中重命名证书](/help/migrated/administrators/feature-summary/assets/custom-cert-alm_images/image_0003.png)
    *下拉菜单中的“重命名”选项*
 
-5. 在&#x200B;**重命名证书**&#x200B;对话框中，输入新名称。
+5. 在&#x200B;**重命名证书**对话框中，输入新名称。
    ![重命名证书对话框](/help/migrated/administrators/feature-summary/assets/custom-cert-alm_images/image_0004.png)
    *输入新名称*
 

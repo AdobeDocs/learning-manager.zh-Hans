@@ -2,7 +2,7 @@
 title: Adobe Learning Manager即将推出的功能
 description: 探索Adobe Learning Manager中即将推出的更改。 及时了解最新的更新以及未来的公告。
 exl-id: 4d2129c4-42d8-446f-8837-879b5c2f42bf
-source-git-commit: 1a374d09b1866d50d8e4001e8fab0ad9b202c587
+source-git-commit: 4a4c42968caf6c0c8265014d99a2211da4c1cbb9
 workflow-type: tm+mt
 source-wordcount: '53'
 ht-degree: 0%
@@ -13,7 +13,8 @@ ht-degree: 0%
 
 已发布[2026年4月版](/help/migrated/whats-new.md)。 目前，没有即将推出的其他更改。 当发布新公告时，将更新此页面。
 
-<!-- >[!IMPORTANT]
+<!-- 
+>[!IMPORTANT]
 >
 >The features in this release are available in beta. Functionality and behavior may change before general availability. Share feedback through your usual Adobe support channels.
 
@@ -2435,4 +2436,5 @@ The LT report now uses a refined logic to distinguish between active and idle ti
 
 #### Impact
 
-Provides more accurate measurement of learning engagement, supporting compliance and analytics.  -->
+Provides more accurate measurement of learning engagement, supporting compliance and analytics.  
+-->

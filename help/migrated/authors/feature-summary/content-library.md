@@ -3,9 +3,9 @@ description: 了解如何创建内容以作为与课程对应的自学内容。
 jcr-language: en_us
 title: 内容库
 exl-id: cc19eca6-6b47-44b2-ad23-2d7ad8975f65
-source-git-commit: 0ae0dee3a43108b707e13778edbc7367c67d63e3
+source-git-commit: 1dd1c6751df7e4b3f1d0fb5df36705a6f8b46762
 workflow-type: tm+mt
-source-wordcount: '5368'
+source-wordcount: '5385'
 ht-degree: 38%
 
 ---
@@ -266,6 +266,10 @@ WebVTT支持不可用于：
 ### 多语言VTT支持
 
 Adobe Learning Manager对多语言视频文本轨道(VTT)的支持使作者能够为多语言视频和音频内容提供字幕和字幕。 此功能可简化本地化，使培训面向全球受众，并确保遵守辅助功能标准。 作者可以直接在平台内自动生成、翻译、审阅和编辑VTT文件。
+
+>[!NOTE]
+>
+>此功能在FedRAMP授权的环境中不可用。 有关详细信息，请参阅[FedRAMP环境中的功能可用性](/help/migrated/feature-availability-in-fedramp-authorized-environment.md)。
 
 #### 用例
 

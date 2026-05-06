@@ -4,9 +4,9 @@ jcr-language: en_us
 title: 创建、修改和发布课程
 contentowner: manochan
 exl-id: c5257796-0afa-4021-bd17-d3f1e9a86948
-source-git-commit: 0ae0dee3a43108b707e13778edbc7367c67d63e3
+source-git-commit: f7f392fd585108f7853b092c3f2230a366d579f9
 workflow-type: tm+mt
-source-wordcount: '8840'
+source-wordcount: '8841'
 ht-degree: 65%
 
 ---
@@ -80,9 +80,9 @@ Adobe Learning Manager 允许作者使用一个或多个与虚拟培训、自学
    您可以针对以下课程类型启用该选项：
 
    * 自学
+   * 虚拟教室
    * 教室
    * 活动
-   * 混合
 
    注意：复制课程时，如果您已在源课程中启用“实例配置”选项，则该选项在目标课程中仍为禁用。
 

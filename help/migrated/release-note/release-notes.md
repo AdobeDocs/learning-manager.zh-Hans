@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Adobe Learning Manager发行说明
 contentowner: jayakarr
 exl-id: ae9251b6-5326-42c2-881e-2ab3393d9e17
-source-git-commit: 0ae0dee3a43108b707e13778edbc7367c67d63e3
+source-git-commit: e4fbde07314dcb99ee2d16aa4977308b8ab5b990
 workflow-type: tm+mt
-source-wordcount: '29372'
-ht-degree: 76%
+source-wordcount: '29433'
+ht-degree: 75%
 
 ---
 
@@ -24,6 +24,18 @@ ht-degree: 76%
  </tbody>
 </table>
 -->
+
++++更新106：Adobe Learning Manager 2026年4月版
+
+发行日期：2026年4月30日
+
+## 修复的错误
+
+**VTT覆盖被字符限制阻止：**&#x200B;修复了客户无法覆盖ALM自动生成的VTT文件的问题，因为在审阅/编辑模式下有字符限制。 现在，VTT编辑模式的字符数限制已增加至100万。
+
+
++++
+
 
 +++更新105：Adobe Learning Manager 2026年4月版
 

@@ -3,14 +3,16 @@ jcr-language: en_us
 title: Adobe Learning Manager中的Admin AI Assistant (Beta)
 description: 了解有关Adobe Learning Manager Admin AI Assistant (Beta)的更多信息
 exl-id: af3d935b-c158-4a8e-9282-62251d29249c
-source-git-commit: 864c3a4e60cf1bf1c049838fb2ba46ebbcb28ddf
+source-git-commit: 1dd1c6751df7e4b3f1d0fb5df36705a6f8b46762
 workflow-type: tm+mt
-source-wordcount: '934'
+source-wordcount: '952'
 ht-degree: 1%
 
 ---
 
 # Adobe Learning Manager中的Admin AI Assistant (Beta)
+
+## 简介
 
 在复杂的学习设置中，由于菜单复杂和工作流程断开连接，管理员可能难以找到内容或完成任务。 例如，运行报告或访问特定信息等任务可能需要在多个屏幕中导航。 Admin AI Assistant (Beta)可帮助您查找正确的信息，以便了解并高效地完成任务。
 
@@ -20,7 +22,12 @@ Adobe Learning Manager中的Admin AI Assistant (Beta)可使用简单的语言进
 
 该助理减少了对于手动导航的依赖，缩短了发现时间，并帮助快速呈现可操作的见解。
 
+>[!NOTE]
+>
+>此功能在FedRAMP授权的环境中不可用。 有关详细信息，请参阅[FedRAMP环境中的功能可用性](/help/migrated/feature-availability-in-fedramp-authorized-environment.md)。
+
 <!--
+help\migrated\feature-availability-in-fedramp-authorized-environment.md
 ## Key benefits
 
 * Perform common administrator tasks faster with conversational guidance.

@@ -2,13 +2,13 @@
 description: 了解有关为学习者创建L1反馈表单的更多信息
 jcr-language: en_us
 title: L1反馈表单
-source-git-commit: 13efc4d72ac56cecf6313dbda28a3853fc3b5498
+exl-id: 4e8ed747-898e-43e1-91af-869aa93112bc
+source-git-commit: 1dd1c6751df7e4b3f1d0fb5df36705a6f8b46762
 workflow-type: tm+mt
-source-wordcount: '1180'
+source-wordcount: '1206'
 ht-degree: 0%
 
 ---
-
 
 # L1反馈表单
 
@@ -29,6 +29,10 @@ ht-degree: 0%
 * 根据需要分配定制的表单
 
 **[!UICONTROL L1反馈报告]**&#x200B;和&#x200B;**[!UICONTROL 反馈报告]**（自定义报告）现在包含两个新列：反馈表单名称和反馈版本。 这些列提供有关使用的反馈表单的详细信息。
+
+>[!NOTE]
+>
+>此功能 — **L1反馈报告** — 在FedRAMP授权的环境中不可用。 有关详细信息，请参阅[FedRAMP环境中的功能可用性](/help/migrated/feature-availability-in-fedramp-authorized-environment.md)。
 
 ## 创建L1反馈表单
 
@@ -62,7 +66,7 @@ ht-degree: 0%
      ![](assets/free-text.png)
      _向反馈表单中添加自由文本问题_
 
-   b. **[!UICONTROL 数值等级/NPS]**：学习者可以使用数值等级（通常为1至10）评定课程满意度或推荐课程的可能性。
+   b. **[!UICONTROL 数值等级/NPS]**：学习者可以使用数值等级（通常为1到10）评定课程满意度或推荐课程的可能性。
 
    * 在&#x200B;**[!UICONTROL 问题]**&#x200B;文本字段中键入您的问题。
    * 选择评分范围（1至10）。
@@ -70,20 +74,20 @@ ht-degree: 0%
      ![](assets/numerical.png)\
      _向反馈表单添加数字/NPS比例问题_
 
-   c. **[!UICONTROL 李克特量表]**：学习者可以指定自己对陈述的同意程度，从“强烈不同意”到“强烈同意”。
+   c. **[!UICONTROL 李克特评分]**：学习者可以指定自己对陈述的同意程度，从“强烈不同意”到“强烈同意”。
 
    * 在&#x200B;**[!UICONTROL 问题]**&#x200B;文本字段中键入您的问题。
    * 要将问题设为必填，请选择&#x200B;**[!UICONTROL 必填]**&#x200B;切换开关。
      ![](assets/likert.png)
      _向反馈表单添加Likert比例问题_
 
-   d. **[!UICONTROL 课程效果分数]**：使用相对评分系统衡量课程对学习者影响程度的比率。
+   d. **[!UICONTROL 课程效果分数]**：使用相对评分系统衡量课程对学习者影响效果的等级。
 
    * 反馈表单中将添加一个李克特评分为1至10的预定义问题。
    * 您只能添加一个&#x200B;**[!UICONTROL 课程效果分数]**&#x200B;问题，且无法编辑
      ![](assets/course-effective.png)
      _向反馈表单添加课程效果分数问题_
-7. 选择&#x200B;**[!UICONTROL 保存]**。 您可以在反馈Forms部分中查看创建的表单。
+7. 选择&#x200B;**[!UICONTROL “保存”]**。 您可以在反馈Forms部分中查看创建的表单。
 
 ### 预览反馈表单
 
@@ -166,6 +170,3 @@ _显示学习者反馈设置的“学习者反馈”屏幕_
 >[!NOTE]
 >
 >如果不更改表单，课程将使用默认反馈表单。
-
-
-

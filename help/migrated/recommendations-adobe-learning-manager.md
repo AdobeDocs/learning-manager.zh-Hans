@@ -2,20 +2,26 @@
 title: Adobe Learning Manager 中的推荐
 description: 推荐引擎的核心是由Learning Manager的新课程排名算法驱动的。 该算法使用来自数百万用户的5000万数据点和5年汇总学习数据，根据注册可能性对课程进行排名。 此排名可确保优先向学习者显示大多数可注册的课程。
 exl-id: 42083095-60a0-4e20-9097-3344d290da1a
-source-git-commit: 864c3a4e60cf1bf1c049838fb2ba46ebbcb28ddf
+source-git-commit: 1dd1c6751df7e4b3f1d0fb5df36705a6f8b46762
 workflow-type: tm+mt
-source-wordcount: '1490'
-ht-degree: 58%
+source-wordcount: '1508'
+ht-degree: 57%
 
 ---
 
 # Adobe Learning Manager 中的推荐
+
+## 简介
 
 Adobe Learning Manager 引入了一个经改良的全新课程推荐系统。 此推荐功能使用AI算法和用户的兴趣（如产品、角色和级别）来提供个性化的内容推荐。 管理员可以根据产品、角色和级别设置其帐户。
 
 新的推荐系统允许您创建自定义参数，学习者可以选择这些参数来接收个性化推荐。 这些推荐将以“课程”、“学习路径”和“认证”的形式在学习者的主页动态中显示。
 
 要开始使用此功能，您必须在管理员应用程序中启用该功能。
+
+>[!NOTE]
+>
+>此功能在FedRAMP授权的环境中不可用。 有关详细信息，请参阅[FedRAMP环境中的功能可用性](/help/migrated/feature-availability-in-fedramp-authorized-environment.md)。
 
 ## 启用和配置建议
 

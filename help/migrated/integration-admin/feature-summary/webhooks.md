@@ -4,16 +4,22 @@ title: Webhook
 description: 了解Webhook，以将课程注册、课程创建和其他信息等实时信息发送到特定URL
 contentowner: chandrum
 exl-id: 472aaf2b-9c2f-4f43-a791-2b2d81e69471
-source-git-commit: 3b35c16d74c83329cee24ee9ad007a53ccbd8cf3
+source-git-commit: 1dd1c6751df7e4b3f1d0fb5df36705a6f8b46762
 workflow-type: tm+mt
-source-wordcount: '1633'
+source-wordcount: '1651'
 ht-degree: 0%
 
 ---
 
 # Webhook
 
+## 简介
+
 Webhook允许一个实体在特定事件发生时自动向另一个实体发送实时数据或通知。 这样，应用程序就可以向其他应用程序提供信息，而无需经常请求这些信息。 例如，如果用户完成学习管理系统(LMS)课程，Webhook会自动将该信息发送到其他平台，如CRM或报告工具。 Webhook通常用于集成中，以自动化流程并减少系统之间手动更新的需求。 通过提供要向其发送数据的回调URL来设置Webhook。
+
+>[!NOTE]
+>
+>此功能在FedRAMP授权的环境中不可用。 有关详细信息，请参阅[FedRAMP环境中的功能可用性](/help/migrated/feature-availability-in-fedramp-authorized-environment.md)。
 
 ## Webhook与API
 

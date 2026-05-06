@@ -4,7 +4,7 @@ jcr-language: en_us
 title: Adobe Learning Manager发行说明
 contentowner: jayakarr
 exl-id: ae9251b6-5326-42c2-881e-2ab3393d9e17
-source-git-commit: e4fbde07314dcb99ee2d16aa4977308b8ab5b990
+source-git-commit: 5af1306122d1a2099e6bbcf471d53f7c982e5a10
 workflow-type: tm+mt
 source-wordcount: '29433'
 ht-degree: 75%
@@ -31,7 +31,7 @@ ht-degree: 75%
 
 ## 修复的错误
 
-**VTT覆盖被字符限制阻止：**&#x200B;修复了客户无法覆盖ALM自动生成的VTT文件的问题，因为在审阅/编辑模式下有字符限制。 现在，VTT编辑模式的字符数限制已增加至100万。
+**VTT覆盖被字符限制阻止：**&#x200B;修复了用户无法覆盖ALM自动生成的VTT文件的问题，因为处于审阅/编辑模式时存在字符限制。 现在，VTT编辑模式的字符数限制已增加至100万。
 
 
 +++

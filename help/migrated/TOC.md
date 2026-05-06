@@ -2,9 +2,9 @@
 user-guide-title: Adobe Learning Manager 指南
 breadcrumb-title: Learning Manager
 user-guide-description: Adobe Learning Manager 的文档
-source-git-commit: b4371272c60fb43a21d2ceeaf75065156e786615
+source-git-commit: 8aa74f220c7bd0694fdb6d80b16d9a744eb3f7f3
 workflow-type: tm+mt
-source-wordcount: '900'
+source-wordcount: '906'
 ht-degree: 61%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 61%
    * [2024年7月新增功能摘要](whats-new-july-2024.md)
    * [2024年3月版新增功能](whats-new-march-2024.md)
    * [新增功能2023年11月](whats-new-november-2023.md)
-   * {hide-from-toc}[&#x200B; 2023年7月版新增功能](whats-new-2023-july.md)
+   * {hide-from-toc}[ 2023年7月版新增功能](whats-new-2023-july.md)
    * [Adobe Learning Manager中即将推出的更改](/help/migrated/upcoming-changes-in-adobe-learning-manager.md)
    * [发行说明](release-note/release-notes.md)
    * [系统要求](system-requirements.md)
@@ -31,6 +31,7 @@ ht-degree: 61%
       * [Adobe Learning Manager管理帐户生命周期](/help/migrated/alm-administrative-lifecycle.md)
       * [Adobe Learning Manager安全管理指南](/help/migrated/alm-secure-administration-guide.md)
       * [Adobe Learning Manager管理安全设置和配置管理](/help/migrated/alm-security-settings-config-management.md)
+      * [FedRAMP授权环境中的功能可用性](/help/migrated/feature-availability-in-fedramp-authorized-environment.md)
    * [Adobe Learning Manager 中的辅助功能](accessibility-learning-manager.md)
    * [自定义域支持](custom-domain.md)
    * [从 Adobe FTP Manager 过渡](transition-from-ftp-manager.md)

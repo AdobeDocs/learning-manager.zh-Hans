@@ -4,9 +4,9 @@ jcr-language: en_us
 title: Adobe Learning Manager 连接器
 contentowner: jayakarr
 exl-id: 1f44934b-6a2b-484d-bc7f-d0f23e3008ca
-source-git-commit: 71b68a6d08d1337afd915162d8130a6ad2379886
+source-git-commit: 061433edb12bf10287e56899e01dcc462c9ba5f0
 workflow-type: tm+mt
-source-wordcount: '15926'
+source-wordcount: '15903'
 ht-degree: 72%
 
 ---
@@ -1068,29 +1068,29 @@ To delete an established  miniOrange  connection, follow these steps.
 1. 在Learning Manager主页中，将鼠标悬停在“缩放”缩览图上。 此时会显示菜单。 单击菜单中的&#x200B;**[!UICONTROL 连接]**&#x200B;选项。
 
    <!--
-![](assets/connectors.png)
+   ![](assets/connectors.png)
 
-*Zoom连接器图块*
--->
+   *Zoom connector tile* 
+   -->
 
 1. Zoom连接器页面即会打开。 在相应字段中输入您帐户的详细信息，以集成和同步用户订阅源。 您可以从您连接器帐户的管理员处获取这些详细信息。
 
    <!--
-![](assets/bluejeans-connecotrpage.png)
-*连接到BlueJeans/Zoom*
--->
+   ![](assets/bluejeans-connecotrpage.png)
+   *Connect to BlueJeans/ Zoom* 
+   -->
 
->[!NOTE]
->
->作为学习者，启用连接器时，应使用您的 Adobe Learning Manager 帐户所用的电子邮件 ID 来启用将用户订阅源发送回 Adobe Learning Manager。
+   >[!NOTE]
+   >
+   >作为学习者，启用连接器时，应使用您的 Adobe Learning Manager 帐户所用的电子邮件 ID 来启用将用户订阅源发送回 Adobe Learning Manager。
 
 1. 建立连接后，作为作者，即可使用Zoom创建VC课程作为会议系统。
 
    <!--
-![](assets/vc.jpg)
-
-*创建虚拟教室课程*
--->
+   ![](assets/vc.jpg)
+   
+   *Create a VC course* 
+   -->
 
 1. 管理员、经理和学习者均可为已创建的课程注册学习者。 注册后，学习者会收到一封电子邮件。 学习者便可登录其 Adobe Learning Manager 帐户来查看计划的详细信息，并参加课程学习。
 1. 课程完成后，完成报告将被发送至 Adobe Learning Manager。 管理员可查阅完成报告，检查学习者的出勤和得分。
@@ -1340,11 +1340,11 @@ LinkedIn.com 的企业用户可使用 LinkedIn 学习连接器供其学习者在
 1. 如果您是第一次配置LinkedIn学习连接器，请单击“[!UICONTROL 连接]”。
 
    <!--
-配置此连接器之前，您需要配置 Exavault FTP 帐户。
+   Configure the Exavault FTP account before you configure this connector.
 
-![](assets/configure.jpg)
-*配置连接*
--->
+   ![](assets/configure.jpg)
+   *Configure connection*
+   -->
 
 1. 在连接页面，为您的连接器指定名称。 输入 Appkey 和您的连接的密钥。
 

@@ -2,9 +2,9 @@
 user-guide-title: Adobe Learning Manager 指南
 breadcrumb-title: Learning Manager
 user-guide-description: Adobe Learning Manager 的文档
-source-git-commit: 50ffbc77676e456eda1eca331be9f20575a5595c
+source-git-commit: a6d8564888f232bc642cfcac7b17db52be1ef024
 workflow-type: tm+mt
-source-wordcount: '944'
+source-wordcount: '946'
 ht-degree: 61%
 
 ---
@@ -132,7 +132,8 @@ ht-degree: 61%
 * 集成管理员 {#integration}
    * [应用程序开发人员手册](integration-admin/feature-summary/developer-manual.md)
    * [迁移手册](integration-admin/feature-summary/migration-manual.md)
-   * [Learning Manager连接器]{#connectors}
+   * Adobe Learning Manager 连接器 {#connectors}
+      * [连接器概述](integration-admin/feature-summary/connectors.md)
       * [ADFS连接器](integration-admin/feature-summary/adfs-connector.md)
       * [Adobe Commerce 连接器](integration-admin/feature-summary/adobe-commerce-connector.md)
       * [Adobe Connect连接器](integration-admin/feature-summary/adobe-connect-connector.md)

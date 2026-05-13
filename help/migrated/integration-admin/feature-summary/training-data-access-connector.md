@@ -83,7 +83,7 @@ ht-degree: 2%
 2. 使用&#x200B;**基本URL**、**CDN URL**、**客户端ID**、**客户端密钥**&#x200B;和&#x200B;**管理员刷新令牌**&#x200B;在AEM中创建配置。
 3. 使用AEM组件构建站点。
 4. 为学习者Publish站点。
-5. 有关完整的设置详细信息，请参阅[此文章](https://experienceleague.adobe.com/en/docs/learning-manager/using/integration/aem-sites/adobe-learning-manager-integration-aem)和[此文章](https://experienceleague.adobe.com/en/docs/learning-manager/using/integration/aem-sites/integrate-aem-learning-manager)。
+5. 有关完整的设置详细信息，请参阅[此文章](https://experienceleague.adobe.com/zh-hans/docs/learning-manager/using/integration/aem-sites/adobe-learning-manager-integration-aem)和[此文章](https://experienceleague.adobe.com/zh-hans/docs/learning-manager/using/integration/aem-sites/integrate-aem-learning-manager)。
 
 ### 学习者体验
 

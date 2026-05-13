@@ -165,4 +165,4 @@ getAbstract连接器使Adobe Learning Manager管理员能够集成来自getAbstr
    - report_export_yyyy_MM_dd_HHmmss.xlsx或，
    - report_export_yyyy_MM_dd.xlsx
 
-下载[示例getAbstract用户订阅源文件](https://experienceleague.adobe.com/docs/learning-manager/assets/report-export-20170401175342.xlsx?lang=en)以了解格式。
+下载[示例getAbstract用户订阅源文件](https://experienceleague.adobe.com/docs/learning-manager/assets/report-export-20170401175342.xlsx?lang=zh-Hans)以了解格式。

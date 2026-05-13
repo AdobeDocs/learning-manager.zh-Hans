@@ -21,7 +21,7 @@ ht-degree: 61%
    * [2024年7月新增功能摘要](whats-new-july-2024.md)
    * [2024年3月版新增功能](whats-new-march-2024.md)
    * [新增功能2023年11月](whats-new-november-2023.md)
-   * {hide-from-toc}[ 2023年7月版新增功能](whats-new-2023-july.md)
+   * {hide-from-toc}[&#x200B; 2023年7月版新增功能](whats-new-2023-july.md)
    * [Adobe Learning Manager中即将推出的更改](/help/migrated/upcoming-changes-in-adobe-learning-manager.md)
    * [发行说明](release-note/release-notes.md)
    * [系统要求](system-requirements.md)

@@ -1,19 +1,19 @@
 ---
 description: 在 Adobe Learning Manager 中安装 Microsoft Teams 连接器
 jcr-language: en_us
-title: 在 Adobe Learning Manager 中安装 Microsoft Teams 连接器
+title: Microsoft Teams 连接器
 contentowner: saghosh
 exl-id: 68092187-ac69-4727-a3dc-f3047a1e164d
-source-git-commit: 864c3a4e60cf1bf1c049838fb2ba46ebbcb28ddf
+source-git-commit: 368017670470b818ce2a77c5498ee069036da3eb
 workflow-type: tm+mt
-source-wordcount: '1212'
-ht-degree: 49%
+source-wordcount: '1206'
+ht-degree: 48%
 
 ---
 
-# 在 Adobe Learning Manager 中安装 Microsoft Teams 连接器
+# Adobe Learning Manager中的Microsoft Teams连接器
 
-## 概述
+## 简介
 
 ®是基于持续聊天的协作平台，可完全支持文档共享、在线会议和其他业务沟通功能。
 

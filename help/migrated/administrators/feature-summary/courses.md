@@ -4,7 +4,7 @@ jcr-language: en_us
 title: 创建课程实例和学习路径
 contentowner: manochan
 exl-id: aba7417b-26a0-4160-878c-5814f84e5155
-source-git-commit: 864c3a4e60cf1bf1c049838fb2ba46ebbcb28ddf
+source-git-commit: efdbba048d27d4100dad28bae3f788abafa19c85
 workflow-type: tm+mt
 source-wordcount: '5898'
 ht-degree: 60%
@@ -243,7 +243,7 @@ Excel 文件包含每个实例的工作表。 工作表中包含以下字段：
 
 使用Adobe Learning Manager的批量注册功能，管理员可以通过上传CSV文件，将大批学习者注册到课程、认证或学习计划中。 此流程可节省时间、确保一致性并支持组织可扩展性。 此外，管理员和讲师可以通过CSV上传大量更新学习者信息、出勤和完成情况，最大程度减少手动操作并确保数据准确性。
 
-您可以使用相同的CSV文件格式进行注册、出席和完成。 只需在“电子邮件”列下输入学习者电子邮件ID，并根据操作（例如bulk_enrollment.csv、bulk_authence.csv或bulk_completion.csv）使用名称保存文件。 仅支持CSV格式。 不支持UTF-8格式。 下载[示例csv](assets/Sample-Bulk-Action-CSV.csv)。
+您可以使用相同的CSV文件格式进行注册、出席和完成。 只需在“电子邮件”列下输入学习者电子邮件ID，并根据操作（例如bulk_enrollment.csv、bulk_authence.csv或bulk_completion.csv）使用名称保存文件。 仅支持CSV格式。 不支持UTF-8格式。 下载[示例csv](assets/sample-bulk-action.csv)。
 
 ### 使用csv批量注册学习者
 
@@ -860,7 +860,7 @@ Adobe Learning Manager 管理员可以向学习者分享二维码，以便快速
 
 +++如何添加课程 URL，以便学习者直接重定向到课程？
 
-将鼠标悬停在课程卡上，然后单击&#x200B;**“复制 URL”**。 复制 URL 后，学习者可以直接使用 URL 访问课程。
+将鼠标悬停在课程卡上，然后单击&#x200B;]**“复制 URL”**[!UICONTROL 。 复制 URL 后，学习者可以直接使用 URL 访问课程。
 
 +++
 

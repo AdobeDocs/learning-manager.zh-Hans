@@ -1,16 +1,16 @@
 ---
 description: ALM中的API更改
 jcr-language: en_us
-title: 4月版中的API更改
-source-git-commit: 7d3314f9293e1ad7e4ff4f6e537e19c82f7416e9
+title: 2026年5月修补程序版本中的API更改
+source-git-commit: 24f54599749bce60916a57634144b0ca7f6a6d10
 workflow-type: tm+mt
-source-wordcount: '109'
+source-wordcount: '113'
 ht-degree: 0%
 
 ---
 
 
-# 2026年5月版中的API更改
+# 2026年5月修补程序版本中的API更改
 
 ## GET/learningObjects API增强
 

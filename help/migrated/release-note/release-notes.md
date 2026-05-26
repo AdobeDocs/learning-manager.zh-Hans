@@ -4,9 +4,9 @@ jcr-language: en_us
 title: Adobe Learning Manager发行说明
 contentowner: jayakarr
 exl-id: ae9251b6-5326-42c2-881e-2ab3393d9e17
-source-git-commit: 5af1306122d1a2099e6bbcf471d53f7c982e5a10
+source-git-commit: ee0b90d1ef01c073ea0c138f98bde6415622ca89
 workflow-type: tm+mt
-source-wordcount: '29433'
+source-wordcount: '29658'
 ht-degree: 75%
 
 ---
@@ -25,7 +25,48 @@ ht-degree: 75%
 </table>
 -->
 
-+++更新106：Adobe Learning Manager 2026年4月版
++++更新107：Adobe Learning Manager 2026年5月修补程序版本
+
+发行日期：2026年5月26日
+
+## 增强功能（实例和会话邀请电子邮件）
+
+**实例的开始日期：**&#x200B;作为管理员或作者，您现在可以在创建或编辑实例时包含实例的开始日期。
+
+**开始日期之前的电子邮件提醒：**&#x200B;这与实例中新引入的&#x200B;**开始日期**&#x200B;字段有关。 作为管理员或作者，您现在可以在实例开始日期之前的不同时间点设置两次电子邮件提醒，并设置各种类型的重复事件。
+
+有关详细信息，请参阅[为管理员创建实例](/help/migrated/administrators/feature-summary/courses.md#createinstanceofacourse)和[为作者创建实例](/help/migrated/authors/feature-summary/courses.md#createaninstance)。
+
+**会话邀请电子邮件：**&#x200B;将用户添加为CR/VCR类型会话的讲师时，讲师会收到自动通知邮件。 这封邮件的外观和感觉在美学上得到了增强。 有关详细信息，请参阅[日历邀请](/help/migrated/instructors/feature-summary/learners.md#calendarinvites)
+
+## API 更改
+
+### 开始在getLO API中提供
+
+**GET/learningObjects API增强**
+
+当包含GET关系时，/learningObjects API现在会在learningObjectInstance资源中包含新的startDate属性。
+
+**端点**
+
+/learningObjects/{id}？include=instancesGET
+
+**更改**
+
+新字段startDate已添加在下方：
+included[].attributes.startDate
+
+**描述**
+
+startDate表示学习对象实例的预定开始日期和时间。
+
+有关详细信息，[请参阅5月版](/help/migrated/api-changes-alm-may.md)中的API更改。
+
+
++++
+
+
++++更新106：Adobe Learning Manager 2026年4月修补程序版本
 
 发行日期：2026年4月30日
 

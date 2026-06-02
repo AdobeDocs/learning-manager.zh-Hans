@@ -2,13 +2,13 @@
 description: ALM中的API更改
 jcr-language: en_us
 title: 4月版中的API更改
-source-git-commit: 3b35c16d74c83329cee24ee9ad007a53ccbd8cf3
+exl-id: 8c7cd33a-60c4-4bc2-8859-167536a90014
+source-git-commit: f3df7e2defc479c270c16f91918903fb27560b19
 workflow-type: tm+mt
 source-wordcount: '4093'
 ht-degree: 0%
 
 ---
-
 
 # 2026年4月版中的API更改
 
@@ -288,7 +288,7 @@ jobAid:131032_2_fr_FR
 
 ### 向后兼容性： 
 
-```/resources/{resourceId}```
+`/resources/{resourceId}`
 
 旧版资源端点仍然可用：
 
@@ -314,7 +314,7 @@ jobAid:131032_2_fr_FR
    - 使用resource.attributes.locale为学习者区域设置选择正确的URL（位置/下载网址）。
    - 如果学习者的精确区域设置不可用，请实施回退行为（例如，回退到美国英语）。
 - _API和存储_
-   - 对于新集成，请存储&#x200B;_新格式的资源ID_ (```jobAid:<jobAidId>_<version>_<localeCode>```)以启用明确的特定于区域设置的检索。
+   - 对于新集成，请存储&#x200B;_新格式的资源ID_ (`jobAid:<jobAidId>_<version>_<localeCode>`)以启用明确的特定于区域设置的检索。
    - 旧版ID仍可与/resources/{resourceId}一起使用，但它们无法区分区域设置。
 
 ## 启动模块的时隙限制
@@ -323,13 +323,13 @@ jobAid:131032_2_fr_FR
 
 通过终结点提供时隙元数据：
 
-```GET /primeapi/v2/learningObjects/{loId}?include=instances.loResources```
+`GET /primeapi/v2/learningObjects/{loId}?include=instances.loResources`
 
 在学习对象资源级别，timeSlot对象现在可能存在于属性中，startTime和endTime值以UTC表示。 此选项指定启动资源的时间。
 
 在启动模块之前，集成可以调用新的验证终结点：
 
-```GET /primeapi/v2/learningObjects/{loId}/instances/{loInstanceId}/loResources/{loResourceId}/canStart```
+`GET /primeapi/v2/learningObjects/{loId}/instances/{loInstanceId}/loResources/{loResourceId}/canStart`
 
 此端点适用于学习者阅读场景，根据配置的时隙、交付类型和其他后端规则，返回当前是否允许学习者启动资源。
 
@@ -341,7 +341,7 @@ jobAid:131032_2_fr_FR
 
 通过：
 
-```GET /primeapi/v2/learningObjects/{loId}?include=instances.loResources```
+`GET /primeapi/v2/learningObjects/{loId}?include=instances.loResources`
 
 学习对象资源现在可能公开布尔属性hasContentDrivenAttemptTracking。 如果为True，则测试或模块在内部管理尝试（例如，通过SCORM或xAPI逻辑），平台的标准尝试计数器可能无法完全反映学习者的体验。
 
@@ -353,11 +353,11 @@ jobAid:131032_2_fr_FR
 
 以前，工作辅助资源ID使用的格式如下：
 
-```jobAid:<jobAidId>_-1_-1_2_resource```
+`jobAid:<jobAidId>_-1_-1_2_resource`
 
 在2026年4月版中，此格式被简化且更明确的格式取代：
 
-```jobAid:<jobAidId>_<version>_<localeCode>```
+`jobAid:<jobAidId>_<version>_<localeCode>`
 
 例如：
 
@@ -365,9 +365,9 @@ jobAid:131032_2_fr_FR
 
 这些组件包括：
 
-- ```<jobAidId>```：数字工作辅助ID（例如，131032），
-- ```<version>```：工作辅助的版本号（例如，2），
-- ```<localeCode>```：区域设置代码（例如，en_US、fr_FR、es_ES）。
+- `<jobAidId>`：数字工作辅助ID（例如，131032），
+- `<version>`：工作辅助的版本号（例如，2），
+- `<localeCode>`：区域设置代码（例如，en_US、fr_FR、es_ES）。
 
 为资源编制索引或保留在工作辅助资源ID中的任何集成必须更新其分析和存储逻辑以识别新格式。 由于标识符本身发生变化，强烈建议您在升级到2026年4月版后重新构建由工作辅助资源ID键入的任何本地索引。
 
@@ -657,7 +657,7 @@ _如何以编程方式重置学习者完成课程或学习计划的情况？_
 
 使用新端点：
 
-```POST /primeapi/v2/learningObjects/{loId}/instances/{loInstanceId}/refreshCompletion```
+`POST /primeapi/v2/learningObjects/{loId}/instances/{loInstanceId}/refreshCompletion`
 当权限和状态允许时，这将重置目标实例的完成情况。
 
 _如何判断学习者是否通过替代或等效的学习对象完成了某些工作？_
@@ -668,7 +668,7 @@ _如何查找所有能够满足特定学习对象的替代字？_
 
 使用以下端点：
 
-```GET /primeapi/v2/learningObjects/{loId}/relatedLOs?type=sourceAlternateLOs&limit={n}```
+`GET /primeapi/v2/learningObjects/{loId}/relatedLOs?type=sourceAlternateLOs&limit={n}`
 
 并使用数据数组（用于替代）和meta.count （用于替代的总数）。
 
@@ -676,10 +676,10 @@ _如何确定此时是否允许学习者启动模块？_
 
 首先，从以下位置获取资源的timeSlot：
 
-```GET /primeapi/v2/learningObjects/{loId}?include=instances.loResources```
+`GET /primeapi/v2/learningObjects/{loId}?include=instances.loResources`
 然后使用：
 
-```GET /primeapi/v2/learningObjects/{loId}/instances/{loInstanceId}/loResources/{loResourceId}/canStart```
+`GET /primeapi/v2/learningObjects/{loId}/instances/{loInstanceId}/loResources/{loResourceId}/canStart`
 
 _hasContentDrivenAttemptTracking对资源意味着什么？_
 
@@ -689,7 +689,7 @@ _如何获取适用于未登录用户（公共体验）的菜单？_
 
 使用：
 
-```GET /primeapi/v2/templates/menus?include=pages,subMenus.pages&isNonLoggedIn=true```
+`GET /primeapi/v2/templates/menus?include=pages,subMenus.pages&isNonLoggedIn=true`
 
 这将返回为匿名用户过滤的菜单和页面结构，适用于Experience Builder或其他无头站点。
 
@@ -701,10 +701,10 @@ _工作辅助资源ID格式发生了什么变化，我应该如何处理？_
 
 ID格式已从如下值更改：
 
-```jobAid:<jobAidId>_-1_-1_2_resource```
+`jobAid:<jobAidId>_-1_-1_2_resource`
 
 收件人：
 
-```jobAid:<jobAidId>_<version>_<localeCode>```
+`jobAid:<jobAidId>_<version>_<localeCode>`
 
 例如jobAid:131032_2_fr_FR。 必须更新任何存储或分析工作辅助资源ID的系统，在升级到2026年4月版后，您应计划重建由这些ID键控的本地索引。

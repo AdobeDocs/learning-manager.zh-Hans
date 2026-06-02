@@ -3,9 +3,9 @@ description: 了解Adobe Learning Manager 2024年7月版的新增功能和增强
 jcr-language: en_us
 title: 新功能摘要
 exl-id: e63c3d9a-4b91-4acb-950f-8b1cdb0caa1a
-source-git-commit: 2dc01be9cd7200814a1bbd7a30610c162e7d93bf
+source-git-commit: f3df7e2defc479c270c16f91918903fb27560b19
 workflow-type: tm+mt
-source-wordcount: '2392'
+source-wordcount: '2336'
 ht-degree: 2%
 
 ---
@@ -28,10 +28,10 @@ ht-degree: 2%
 
 ### 此版本中改进的功能
 
-使用增强的合规性信息板，管理员和经理可以查看与其特定类别（例如，销售、营销和法律部门）相关的合规性类型的课程、学习路径或认证。 管理员可以将自定义合规性课程分类为特定类别。 自定义合规性类别由目录标签提供支持。  管理员可以创建课程信息板并与经理共享。 然后，经理可以在各自的实例上查看同一信息板。 合规性信息板和合规性电子邮件通知的用户界面也得到了增强。
+使用增强的合规性信息板，管理员和经理可以查看与其特定类别（例如，销售、营销和法律部门）相关的合规性类型的课程、学习路径或认证。管理员可以将自定义合规性课程分类为特定类别。自定义合规性类别由目录标签提供支持。 管理员可以创建课程信息板并与经理共享。然后，经理可以在各自的实例上查看同一信息板。合规性信息板和合规性电子邮件通知的用户界面也得到了增强。
 ![](assets/compliance-dashboard-admin.png)
 
-#### 工作流
+#### 工作流程
 
 以下是使用增强的合规性信息板的步骤：
 
@@ -123,7 +123,7 @@ _完成条件选项 — 活动模块_
 
 Search API包含以下更改：
 
-学习者可以使用```GET /search``` API在目录过滤器中搜索标签。 学习者可以通过选择```tag```作为```filter.loTypes```参数的值来搜索标签。
+学习者可以使用`GET /search` API在目录过滤器中搜索标签。 学习者可以通过选择`tag`作为`filter.loTypes`参数的值来搜索标签。
 
 **卷曲示例**
 
@@ -131,13 +131,13 @@ Search API包含以下更改：
 curl -X GET --header 'Accept: application/vnd.api+json' --header 'Authorization: oauth <oauth_token>' 'https://example.com/primeapi/v2/search?page[limit]=10&query=Business&autoCompleteMode=true&filter.loTypes=tag&sort=relevance&filter.ignoreEnhancedLP=true&matchType=phrase&persistSearchHistory=true&stemmed=false&highlightResults=true'
 ```
 
-新过滤器、可用名额、可用轮候表和时间范围过滤器已添加到以下API： ```GET /search```和`GET /learningObjects`。
+新过滤器、可用名额、可用轮候表和时间范围过滤器已添加到以下API： `GET /search`和`GET /learningObjects`。
 
-新筛选器`filter.session.includeEnrollmentDeadline`已添加到以下API ```GET /search```。
+新筛选器`filter.session.includeEnrollmentDeadline`已添加到以下API `GET /search`。
 
 ### 帐户API
 
-已在```GET /account``` API中添加了新列`custom_injections`、`showComplianceLabel`和`complianceLabelDefaultID`以获取用户终结点的帐户数据。
+已在`GET /account` API中添加了新列`custom_injections`、`showComplianceLabel`和`complianceLabelDefaultID`以获取用户终结点的帐户数据。
 
 ### 学习对象 API
 

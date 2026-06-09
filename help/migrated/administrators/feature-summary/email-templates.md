@@ -4,7 +4,7 @@ jcr-language: en_us
 title: 电子邮件模板
 contentowner: manochan
 exl-id: acc85500-2ed1-47a4-8e65-6e1b8ef7d156
-source-git-commit: 7d1ccc52ab4f8320b1191e0abb5972181c56df01
+source-git-commit: ef2e0fe06a0191329bf9aeecdcb4f56ce9932bf9
 workflow-type: tm+mt
 source-wordcount: '1753'
 ht-degree: 60%
@@ -35,7 +35,7 @@ Adobe Learning Manager 应用程序根据事件向多个用户角色发送电子
 
 作为管理员，您可以轻松启用、禁用或修改这些电子邮件模板。
 
-下面提到的电子邮件模板是此模板组的一部分。
+下面提到的电子邮件模板是此模板组的一部分：
 
 **进度刷新：**&#x200B;此模板通知学习者，由于其活动配置文件或学习路径配置发生变化，已自动重新计算学习路径的完成状态和进度。 它提示学习者查看任何新待处理的要求并采取措施以完成学习路径。
 

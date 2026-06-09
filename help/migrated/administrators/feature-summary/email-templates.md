@@ -4,7 +4,7 @@ jcr-language: en_us
 title: 电子邮件模板
 contentowner: manochan
 exl-id: acc85500-2ed1-47a4-8e65-6e1b8ef7d156
-source-git-commit: 7d1ccc52ab4f8320b1191e0abb5972181c56df01
+source-git-commit: ef2e0fe06a0191329bf9aeecdcb4f56ce9932bf9
 workflow-type: tm+mt
 source-wordcount: '1753'
 ht-degree: 60%
@@ -35,7 +35,7 @@ Adobe Learning Manager 应用程序根据事件向多个用户角色发送电子
 
 作为管理员，您可以轻松启用、禁用或修改这些电子邮件模板。
 
-下面提到的电子邮件模板是此模板组的一部分。
+下面提到的电子邮件模板是此模板组的一部分：
 
 **进度刷新：**&#x200B;此模板通知学习者，由于其活动配置文件或学习路径配置发生变化，已自动重新计算学习路径的完成状态和进度。 它提示学习者查看任何新待处理的要求并采取措施以完成学习路径。
 
@@ -84,7 +84,7 @@ Adobe Learning Manager 应用程序根据事件向多个用户角色发送电子
 1. 要打开设置页面，请单击&#x200B;**[!UICONTROL 设置]**。 您现在可以自定义电子邮件模板。
 1. 要自定义学习者从中接收电子邮件的姓名和电子邮件ID，请编辑&#x200B;**[!UICONTROL 发件人姓名和地址]。**
 
-   请与&#x200B;[***Adobe支持***](https://helpx.adobe.com/cn/contact/enterprise-support.other.html#learning-manager)联系以配置或更改这些详细信息。
+   请与&#x200B;[***Adobe支持***](https://helpx.adobe.com/contact/enterprise-support.other.html#learning-manager)联系以配置或更改这些详细信息。
 
 1. 通过&#x200B;**[!UICONTROL 电子邮件横幅]**&#x200B;选项自定义您的电子邮件横幅。 选择&#x200B;**[!UICONTROL 横幅背景]**&#x200B;来更改横幅的颜色。
 
@@ -173,7 +173,7 @@ DND 列表内的学习者无法查看摘要电子邮件的用户设置。 该选
 
 ## 自定义电子邮件域 {#customizeemaildomain}
 
-要自定义学习者从中接收通知的电子邮件域和电子邮件ID，请联系&#x200B;[***Learning Manager支持***](https://helpx.adobe.com/cn/contact/enterprise-support.other.html#learning-manager)，并提供您要添加的域的详细信息，以及您的新电子邮件ID。
+要自定义学习者从中接收通知的电子邮件域和电子邮件ID，请联系&#x200B;[***Learning Manager支持***](https://helpx.adobe.com/contact/enterprise-support.other.html#learning-manager)，并提供您要添加的域的详细信息，以及您的新电子邮件ID。
 
 系统将处理您的请求，并向您指定的新电子邮件地址发送一封包含确认链接的电子邮件。 单击电子邮件中的验证链接以确认并完成验证过程。
 
@@ -270,6 +270,6 @@ Learning Manager用户现在将收到内嵌电子邮件邀请。 不再使用ICS
 
 +++如何在模板中更改发件人姓名和地址？
 
-要更改发件人姓名和电子邮件地址，请联系 [Adobe Learning Manager 支持](https://helpx.adobe.com/cn/contact/enterprise-support.other.html#learning-manager)。
+要更改发件人姓名和电子邮件地址，请联系 [Adobe Learning Manager 支持](https://helpx.adobe.com/contact/enterprise-support.other.html#learning-manager)。
 
 +++

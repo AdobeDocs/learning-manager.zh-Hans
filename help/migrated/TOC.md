@@ -21,7 +21,7 @@ ht-degree: 53%
    * [2024年7月新增功能摘要](whats-new-july-2024.md)
    * [2024年3月版新增功能](whats-new-march-2024.md)
    * [新增功能2023年11月](whats-new-november-2023.md)
-   * {hide-from-toc}[ 2023年7月版新增功能](whats-new-2023-july.md)
+   * {hide-from-toc}[&#x200B; 2023年7月版新增功能](whats-new-2023-july.md)
    * [Adobe Learning Manager中即将推出的更改](/help/migrated/upcoming-changes-in-adobe-learning-manager.md)
    * [发行说明](release-note/release-notes.md)
    * [系统要求](system-requirements.md)
@@ -251,7 +251,7 @@ ht-degree: 53%
    * [在Adobe Learning Manager中创建试用帐户](/help/migrated/create-trial-account.md)
 * API更改 {#api-changes}
    * [4月版中的API更改](/help/migrated/api-changes-alm.md)
-   * [ 5月版中的API更改](/help/migrated/api-changes-alm-may.md)
+   * [&#x200B; 5月版中的API更改](/help/migrated/api-changes-alm-may.md)
 * 知识库 {#knowledge-base}
    * [无法登录 Adobe Learning Manager](kb/unable-log-in-learning-manager.md)
    * [学习摘要不显示当前数据](kb/learning-summary-not-display-data.md)

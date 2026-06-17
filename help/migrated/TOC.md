@@ -2,10 +2,10 @@
 user-guide-title: Adobe Learning Manager 指南
 breadcrumb-title: Learning Manager
 user-guide-description: Adobe Learning Manager 的文档
-source-git-commit: 7d3314f9293e1ad7e4ff4f6e537e19c82f7416e9
+source-git-commit: a5e02f0ed0a691becbf52e310682360c0ba67a20
 workflow-type: tm+mt
-source-wordcount: '953'
-ht-degree: 61%
+source-wordcount: '1070'
+ht-degree: 53%
 
 ---
 
@@ -82,8 +82,26 @@ ht-degree: 61%
       * [内容市场](administrators/feature-summary/content-marketplace.md)
       * [策划Go1课程到学习路径](administrators/feature-summary/content-marketplace/curate-go1-playlist.md)
    * [L1反馈表单](/help/migrated/administrators/feature-summary/l1-feedback-form.md)
+   * Report Builder {#report-builder}
+      * [Adobe Learning Manager中的Report Builder](administrators/feature-summary/alm-report-builder.md)
+      * [Report Builder：概念和术语](administrators/feature-summary/alm-report-builder-concepts-terminology.md)
+      * [Report Builder中的可用数据集](administrators/feature-summary/alm-report-builder-datasets.md)
+      * [开始使用Report Builder模板](administrators/feature-summary/alm-create-report.md)
+      * [自定义重复的Report Builder模板](administrators/feature-summary/alm-report-builder-customize-duplicated-template.md)
+      * [在Report Builder中构建自定义报告](administrators/feature-summary/alm-report-builder-custom-report.md)
+      * [在Report Builder中应用分组依据和聚合](administrators/feature-summary/alm-report-builder-group-by-and-aggregations.md)
+      * [在报告中添加和合并过滤器](administrators/feature-summary/alm-report-builder-add-combine-filters.md)
+      * [在Report Builder中对报表列进行排序](administrators/feature-summary/alm-report-builder-sort-report-columns.md)
+      * [通过Report Builder查看讲师表现](administrators/feature-summary/alm-report-builder-review-instructor-performance.md)
+      * [在Report Builder中按用户组跟踪参与情况](administrators/feature-summary/alm-report-builder-track-engagement.md)
+      * [在Report Builder中构建趋势报告](administrators/feature-summary/alm-report-builder-build-trend-report.md)
+      * [下载、共享和订阅报告](administrators/feature-summary/alm-report-builder-download-share-subscribe.md)
+      * [在Report Builder中复制和重复使用报告](administrators/feature-summary/alm-report-builder-duplicate-reuse.md)
+      * [Adobe Learning Manager中的Report Builder限制](administrators/feature-summary/alm-report-builder-limitations.md)
+      * [常见问题解答](administrators/feature-summary/alm-report-builder-faq.md)
    * [报告](administrators/feature-summary/reports.md)
    * [组成功信息板](/help/migrated/administrators/feature-summary/group-success-dashboard.md)
+   * [在Adobe学习管理器中设置一键式注册](/help/migrated/administrators/feature-summary/admin-one-click-enrollment.md)
    * [学习路径](administrators/feature-summary/learning-paths.md)
    * [替代项和等效项](/help/migrated/administrators/feature-summary/alternates-equivalence.md)
    * [学习计划](administrators/feature-summary/learning-plans.md)
@@ -190,6 +208,7 @@ ht-degree: 61%
    * [登录](learners/feature-summary/user-login.md)
    * [配置文件设置](learners/feature-summary/settings.md)
    * [目录](learners/feature-summary/catalogs.md)
+   * [一键式注册](learners/feature-summary/learner-one-click-enrollment.md)
    * [我的学习](learners/feature-summary/courses.md)
    * [流体播放器](learners/feature-summary/fluidic-player.md)
    * [学习计划](learners/feature-summary/learning-programs.md)
@@ -232,7 +251,7 @@ ht-degree: 61%
    * [在Adobe Learning Manager中创建试用帐户](/help/migrated/create-trial-account.md)
 * API更改 {#api-changes}
    * [4月版中的API更改](/help/migrated/api-changes-alm.md)
-   * [5月修补程序版本中的API更改](/help/migrated/api-changes-alm-may.md)
+   * [&#x200B; 5月版中的API更改](/help/migrated/api-changes-alm-may.md)
 * 知识库 {#knowledge-base}
    * [无法登录 Adobe Learning Manager](kb/unable-log-in-learning-manager.md)
    * [学习摘要不显示当前数据](kb/learning-summary-not-display-data.md)

@@ -3,10 +3,10 @@ description: 本参考手册适用于希望将现有LMS迁移到Adobe Learning M
 jcr-language: en_us
 title: 迁移手册
 exl-id: bfdd5cd8-dc5c-4de3-8970-6524fed042a8
-source-git-commit: f3df7e2defc479c270c16f91918903fb27560b19
+source-git-commit: bb98f6ff998a09682bbd7c50d9bf92469859f0be
 workflow-type: tm+mt
-source-wordcount: '5320'
-ht-degree: 61%
+source-wordcount: '6280'
+ht-degree: 52%
 
 ---
 
@@ -916,3 +916,141 @@ Adobe Learning Manager 会识别并记住个人用户的加入方式，例如：
 2026年4月版Adobe Learning Manager在替代项和对等项、时间窗口内容访问、内容驱动测验尝试、未登录学习者体验和工作辅助管理等领域对公共API进行了有针对性的增强。 这些更新旨在很大程度上保持向后兼容，同时实现更精确和更可扩展的集成模式。
 
 对于API更改，请查看[API更改](/help/migrated/api-changes-alm.md)。
+
+## 将VILT会话迁移到Adobe Learning Manager {#migrationofviltsessiontoalm}
+
+Adobe Learning Manager支持通过CSV文件批量迁移和更新虚拟讲师指导培训(VILT)会话数据。 使用此工作流程配置实例开始日期、将学习路径实例与课程实例相关联以及设置Microsoft Teams、Adobe Connect和Zoom的虚拟教室会话。
+
+>[!NOTE]
+>
+>所有迁移CSV文件中的列ID现在都使用alm前缀，例如`almCourseID`和`almModuleID`。 这将替换早期版本中使用的旧版Prime前缀。
+
+### 基于CSV的VILT会话迁移
+
+Adobe Learning Manager迁移允许管理员使用结构化CSV文件批量创建或更新学习内容。 您可以将这些CSV工作流程应用于迁移课程（从外部系统导入的内容）和改进课程（直接在ALM作者应用程序中创建的内容）。
+
+VILT会话迁移涉及四个CSV文件：
+
+* **课程实例CSV：**&#x200B;创建或更新课程实例，包括开始日期
+* **LP实例CSV：**&#x200B;创建或更新学习路径实例，包括开始日期
+* **学习路径与课程实例关联CSV：**&#x200B;将学习路径实例映射到特定课程实例
+* **会话CSV：**&#x200B;创建包含会议系统详细信息的虚拟教室会话
+
+在[此处](assets/csv-and-xlsx-migration-files.zip)下载上述文件。
+
+所有四个CSV文件均接受`almCourseID`作为参考课程，`almModuleID`作为参考模块。 这些ID是在创建课程或模块时ALM分配的唯一标识符。
+
+### 设置课程和学习路径实例的开始日期
+
+使用&#x200B;**课程实例CSV**&#x200B;和&#x200B;**LP实例CSV**&#x200B;添加或更新实例的开始日期。 这适用于迁移创建的和UI创建的（翻新）实例。
+
+**课程实例CSV：添加开始日期**
+
+1. 打开课程实例CSV文件。
+2. 如果`startDate`列不存在，请添加它。
+3. 以YYYY-MM-DD格式输入每个实例行的开始日期。
+4. 使用要更新的课程的ALM课程ID填充`almCourseID`列。
+5. 通过迁移运行上传CSV。
+
+**LP实例CSV：添加开始日期**
+
+1. 打开您的LP实例CSV文件。
+2. 如果`startDate`列不存在，请添加它。
+3. 以YYYY-MM-DD格式输入每个实例行的开始日期。
+4. 使用ALM学习路径ID填充`almLearningProgramID`列。
+5. 通过中运行的迁移上传CSV。
+
+>[!NOTE]
+>
+>`startDate`列是可选的。 如果包括它，该值必须早于`completionDate`。 `startDate`晚于`completionDate`的行将出错并出现在迁移中。
+
+### 将学习路径实例与课程实例相关联
+
+使用学习方案与课程实例关联CSV将学习路径实例链接到特定课程实例。 属于学习路径的VILT课程需要执行此步骤。
+
+1. 打开学习计划与课程实例关联CSV文件。
+2. 对于每个行，填充以下列：
+a. `almLearningProgramID` — ALM学习路径ID
+b. `almLearningProgramInstanceID` — ALM学习路径实例ID
+c. `almCourseID` — ALM课程ID
+d. `almCourseInstanceID` — ALM课程实例ID
+3. 通过迁移运行上传CSV。
+
+### 支持的关联方案
+
+并非支持所有迁移和改造源的组合。 在构建CSV之前，请查看下表。
+
+| 学习路径源 | 课程实例源 | 支持 |
+|-----------------------------|-------------------------------|-----------|
+| 迁移 | 迁移 | 是 |
+| 翻新（UI创建） | 翻新（UI创建） | 是 |
+| 迁移 | 翻新（UI创建） | 否 |
+| 翻新（UI创建） | 迁移 | 否 |
+
+>[!NOTE]
+>
+>如果您需要将更新学习路径实例与迁移课程实例相关联（反之亦然），请直接通过ALM作者应用程序将课程添加到学习路径，而不是使用此CSV。
+
+### 配置虚拟教室会话详细信息
+
+使用&#x200B;**会话CSV**&#x200B;创建或更新包含虚拟教室会议详细信息的VILT会话。 会话CSV中添加了四列来支持此功能：
+
+| 列 | 描述 |
+|--------------|-------------------------------------------------------|
+| `almCourseID ` | 课程的ALM ID |
+| `almModuleID` | 模块的ALM ID |
+| `metadata` | 包含VC系统特定配置的JSON对象 |
+| `meetingID` | 来自外部VC系统的会议ID |
+
+### 按会议系统划分的元数据格式
+
+`metadata`字段接受JSON对象。 会议系统不同，其结构也不同。 所有键名称都区分大小写，并且必须完全按照图示使用camelCase **。**
+
+**Microsoft Teams**
+
+```
+{
+  "organizerEmail": "user@example.com",
+  "coOrganizerEmail": "user2@example.com",
+  "lobbyBypass": true,
+  "isCompletionCriteria": false
+}
+```
+
+所有团队元数据字段都是可选的。 如果未提供`organizerEmail`，ALM将使用在ALM帐户中配置的团队管理员电子邮件作为默认组织者。
+
+**Adobe Connect**
+
+```
+{
+  "primaryInstructor": "instructor@example.com",
+  "persistentRoom": true,
+  "templateID": "template-id-value"
+}
+```
+
+对于Adobe Connect会话，`primaryInstructor`字段为&#x200B;**必填**。 所有其他字段都是可选的。 您可以提供`persistentRoom`或`templateID`，如果您提供`templateID`，则ALM会使用该模板创建会议室。
+
+**缩放**
+
+缩放不需要元数据JSON对象。 使用会话CSV中的标准讲师列传递会话讲师。
+
+### 上传会话CSV
+
+1. 打开您的会话CSV文件。
+2. 添加四个新列：almCourseID、almModuleID、元数据和meetingID。
+3. 对于每个会话行，使用课程和模块的ALM ID填充almCourseID和almModuleID。
+4. 从VC系统（Teams、Adobe Connect或Zoom）添加meetingID。
+5. 使用会议系统的格式构建元数据JSON对象。
+6. 确保所有JSON密钥名称使用完全相同的camelCase拼写。 大小写不正确会导致行失败。
+7. 通过迁移运行上传CSV。
+
+解决常见迁移错误
+
+| 问题 | 解决方案 |
+|-------|----------|
+| 出现“完成截止日期应晚于开始日期”的行错误 | 确保实例CSV中的`startDate`早于`completionDate`。 |
+| 学习计划与课程实例关联失败 | 确认学习路径和课程实例是通过同一来源（迁移和改装）创建的。 不支持混合源。 |
+| 会话行失败，出现元数据错误 | 检查`metadata`字段中的所有JSON键名是否都使用完全相同的camelCase。 键区分大小写。 |
+| 团队`isCompletionCriteria`无效 | 团队的完成标准功能标志必须由您的ALM帐户管理员启用，迁移值才能生效。 |
+| 已创建会话行，但讲师字段为空 | 如果提供的讲师电子邮件与ALM中的用户不匹配，则会创建一个包含空讲师字段的会话。 在上传之前验证ALM中是否存在讲师电子邮件。 |

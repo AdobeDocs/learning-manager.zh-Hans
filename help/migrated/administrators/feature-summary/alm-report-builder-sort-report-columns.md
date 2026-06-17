@@ -53,7 +53,7 @@ b.统计不同的用户 — 名称
 c. Count If=COMPLETED Module Transcript — 状态
 d.平均模块成绩单 — 进度百分比
    ![](assets/image033.png)
-5. 在&#x200B;**排序**部分中，添加以下多列排序：
+5. 在&#x200B;**排序**&#x200B;部分中，添加以下多列排序：
 a.模块成绩单 — 状态：降序
 b.用户 — 经理姓名：升序
    ![](assets/image034.jpg)

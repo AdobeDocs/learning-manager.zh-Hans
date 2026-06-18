@@ -4,9 +4,9 @@ jcr-language: en_us
 title: Adobe Learning Manager发行说明
 contentowner: mmanuel
 exl-id: ae9251b6-5326-42c2-881e-2ab3393d9e17
-source-git-commit: 1e53a39cce3758eb2535d0bb32056a75846cd563
+source-git-commit: 4c7127cb179605685a2b0f62c34430f61ff1f955
 workflow-type: tm+mt
-source-wordcount: '30634'
+source-wordcount: '30524'
 ht-degree: 72%
 
 ---
@@ -30,8 +30,6 @@ ht-degree: 72%
 发行日期：2026年6月17日
 
 ## 此版本中新增的功能
-
-Adobe Learning Manager中的&#x200B;**Report Builder：** Report Builder是一种自助服务报告工具，管理员可以通过该工具仅选择所需列、应用灵活筛选器和访问一致数据来创建和下载自定义报告 — 所有操作均可通过单个界面完成。 它允许用户轻松配置、保存和重新使用报告，从而消除了对外部工具中固定、预构建的报告和手动后处理的依赖。 通过解决刚性列结构、受限的过滤选项和不一致的数据源等限制，Report Builder简化了报告工作流程，确保了准确的信息并节省了时间，同时补充了现有标准报告对预定义使用案例的影响。 有关详细信息，请参阅[Report Builder](/help/migrated/administrators/feature-summary/alm-report-builder.md)。
 
 **一键式注册：**&#x200B;一键式注册允许学习者打开管理员共享模块的深层链接，并开始立即访问内容，而无需先注册然后单独启动课程。 这可以简化访问、节省时间并改善整体学习体验。 有关详细信息，请参阅[一键式注册](/help/migrated/administrators/feature-summary/admin-one-click-enrollment.md)。
 

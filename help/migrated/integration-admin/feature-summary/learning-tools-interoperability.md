@@ -5,7 +5,7 @@ description: 了解LTI集成ALM
 exl-id: 760c00fc-9f6e-450b-aad0-56f103424043
 source-git-commit: e4c3489db8207ead0416656161b918eba42f4582
 workflow-type: tm+mt
-source-wordcount: '1976'
+source-wordcount: '1993'
 ht-degree: 1%
 
 ---
@@ -120,8 +120,7 @@ _LTI集成自定义角色_
 
 ## Adobe Learning Manager作为LTI消费者 — 管理员工作流程
 
-作为LTI消费者，Adobe Learning Manager允许您使用外部LTI提供商提供的活动、工具、内容和小组件。
-要将Adobe Learning Manager添加为LTI消费者，您需要外部LTI提供商提供以下凭据：
+作为LTI消费者，Adobe Learning Manager允许您使用外部LTI提供商提供的活动、工具、内容和小组件。要将Adobe Learning Manager添加为LTI消费者，您需要外部LTI提供商提供以下凭据：
 
 * 启动登录 URL
 * 目标链接URL
@@ -165,8 +164,7 @@ LTI提供商为您提供启动链接或IMSCC文件，以将其课程添加到Ado
 4. 从LTI提供程序键入&#x200B;**[!UICONTROL 启动链接]**&#x200B;和&#x200B;**[!UICONTROL 自定义参数]**。
 5. 从&#x200B;**[!UICONTROL 工具提供商]**&#x200B;下拉菜单中选择您的[!UICONTROL LTI提供商]。
 6. 在&#x200B;**[!UICONTROL 添加到文件夹]**&#x200B;选项中搜索并选择&#x200B;**[!UICONTROL 公共]**。 课程因此可供所有作者使用。
-7. 选择&#x200B;**[!UICONTROL 保存]**。
-创建内容后，您可以在创建课程时添加此内容。
+7. 选择&#x200B;**[!UICONTROL “保存”]**。创建内容后，您可以在创建课程时添加此内容。
 
 ### 使用LTI内容创建课程 — 作者工作流程
 

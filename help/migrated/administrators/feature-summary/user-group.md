@@ -1,11 +1,11 @@
 ---
 description: 了解如何在Adobe Learning Manager中创建和管理用户组。 了解分组用户如何帮助您高效分配课程、跟踪进度以及自动执行学习工作流程。
 jcr-language: en_us
-title: 在Adobe Learning Manager中管理用户组 | 组织和分配学习者
+title: 在Adobe Learning Manager中管理用户组 |组织和分配学习者
 exl-id: 5569a201-0648-4b2c-bab3-927e5c149290
 source-git-commit: cd81d076b44b513afc6d21be0c3ea17d7359972e
 workflow-type: tm+mt
-source-wordcount: '1441'
+source-wordcount: '1458'
 ht-degree: 0%
 
 ---
@@ -172,7 +172,7 @@ _从“操作”菜单下载组级别信息和元数据的选项_
 | 列 | 描述 |
 |---|---|
 | 用户组类型 | 用户组的类别，如自动生成或自定义组。 |
-| 名称 | 分配给用户组的名称。 |
+| 姓名 | 分配给用户组的名称。 |
 | 描述 | 有关用户组用途或范围的简要说明。 |
 | 创建者（名称） | 创建组的管理员的全名。 |
 | 创建者（电子邮件） | 创建组的管理员的电子邮件地址。 |

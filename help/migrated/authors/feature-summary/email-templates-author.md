@@ -5,7 +5,7 @@ title: 电子邮件模板
 exl-id: 3b17f889-52be-4073-ab91-7c76dd79f1d2
 source-git-commit: 6862dc1958a34a369f0e0e7218f28151a47beb3b
 workflow-type: tm+mt
-source-wordcount: '475'
+source-wordcount: '478'
 ht-degree: 72%
 
 ---

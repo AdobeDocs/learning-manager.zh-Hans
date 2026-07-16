@@ -5,8 +5,8 @@ description: Adobe Learning Manager 与 Slack 集成
 contentowner: dvenkate
 source-git-commit: 864b1796f1ca99ae7b5643e8c58d1756ff2461a1
 workflow-type: tm+mt
-source-wordcount: '468'
-ht-degree: 43%
+source-wordcount: '469'
+ht-degree: 51%
 
 ---
 
@@ -16,13 +16,13 @@ ht-degree: 43%
 
 我们已&#x200B;**移除**&#x200B;**Slack**&#x200B;作为Learning Manager中的连接器。 您将无法再访问Slack连接器。
 
-作为 Slack 用户，您可以将 Slack 应用程序目录中的 Adobe Learning Manager 应用程序安装到您的 Slack 团队中，然后直接从 Slack 中浏览 Adobe Learning Manager 的内容。您可以与Primebot交互以在Learning Manager中搜索新课程、查看推荐内容并收到临近截止日期的通知。 您还可以注册并直接从Slack中学习。
+作为 Slack 用户，您可以将 Slack 应用程序目录中的 Adobe Learning Manager 应用程序安装到您的 Slack 团队中，然后直接从 Slack 中浏览 Adobe Learning Manager 的内容。 您可以与Primebot交互以在Learning Manager中搜索新课程、查看推荐内容并收到临近截止日期的通知。 您还可以注册并直接从Slack中学习。
 
 Learning Manager的Azure实例不支持Learning ManagerSlack应用程序。
 
 ## 安装 Adobe Learning Manager 应用程序 {#installingadobecaptivateprimeapp}
 
-作为学员，您可以在您的 Slack 帐户中安装 Adobe Learning Manager 应用程序。 要安装应用程序，请在您的 Slack 帐户中打开 App 目录并搜索 Adobe Learning Manager。下载并安装该应用程序。 如果您的帐户中未批准该应用程序，请联系您的集成管理员进行批准。 如果已获得批准，您将能够登录。
+作为学员，您可以在您的 Slack 帐户中安装 Adobe Learning Manager 应用程序。 要安装应用程序，请在您的 Slack 帐户中打开 App 目录并搜索 Adobe Learning Manager。 下载并安装该应用程序。 如果您的帐户中未批准该应用程序，请联系您的集成管理员进行批准。 如果已获得批准，您将能够登录。
 
 ## 批准学员以集成管理员身份登录 {#approvinglearnersigninasanintegrationadmin}
 
@@ -36,7 +36,7 @@ Learning Manager的Azure实例不支持Learning ManagerSlack应用程序。
 
    ![](assets/approval.png)
 
-1. 返回到&#x200B;**[!UICONTROL 应用程序]**&#x200B;页面。 批准后，Slack应显示在&#x200B;**[!UICONTROL 外部应用程序]**&#x200B;选项卡中。
+1. 返回到&#x200B;**[!UICONTROL 应用程序]**&#x200B;页。 批准后，Slack应显示在&#x200B;**[!UICONTROL 外部应用程序]**&#x200B;选项卡中。
 1. 学习者现在可以使用Slack登录其Prime帐户。
 
 ## 原始功能 {#primebotfunctionalities}

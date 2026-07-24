@@ -18,7 +18,7 @@ ht-degree: 3%
 
 这些端点仅适用于自定义用户组。 系统管理的组（例如“所有用户”组和自动生成的用户组）在API响应中具有readOnly： true，无法通过这些端点修改或删除。
 
-有关API身份验证要求，请参阅[Adobe Learning Manager API身份验证](https://experienceleague.adobe.com/en/docs/learning-manager/using/integration/developer-manual#authentication-using-oauth-20)。
+有关API身份验证要求，请参阅[Adobe Learning Manager API身份验证](https://experienceleague.adobe.com/zh-hans/docs/learning-manager/using/integration/developer-manual#authentication-using-oauth-20)。
 
 ### 用户组API端点
 
@@ -205,7 +205,7 @@ X-acap-caller-role: ROLE_ADMIN
 
 所有五个端点均属于学习者范围。 学习者只能访问自己的提交内容 — 如果学习者尝试访问其他学习者的数据，则API会返回错误。
 
-有关API身份验证要求，请参阅[Adobe Learning Manager API身份验证](https://experienceleague.adobe.com/en/docs/learning-manager/using/integration/developer-manual#authentication-using-oauth-20)。
+有关API身份验证要求，请参阅[Adobe Learning Manager API身份验证](https://experienceleague.adobe.com/zh-hans/docs/learning-manager/using/integration/developer-manual#authentication-using-oauth-20)。
 
 ### 外部学习API端点
 

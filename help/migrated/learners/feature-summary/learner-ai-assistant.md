@@ -351,7 +351,7 @@ Adobe Learning Manager的Learning Assistant可以回答学习者针对平台上�
 
 >[!IMPORTANT]
 >
->作为先决条件，管理员必须向“学习者助理”添加所需的目录。 有关更多详细信息，请参阅[配置AI Assistant访问权限](https://experienceleague.adobe.com/en/docs/learning-manager/using/learner/learner-ai-assistant#configure-ai-assistant-access)。
+>作为先决条件，管理员必须向“学习者助理”添加所需的目录。 有关更多详细信息，请参阅[配置AI Assistant访问权限](https://experienceleague.adobe.com/zh-hans/docs/learning-manager/using/learner/learner-ai-assistant#configure-ai-assistant-access)。
 
 
 管理员将Go1或LinkedIn学习目录添加到Adobe Learning Manager时，目录内容会按照预定的摄取过程进行处理。 收录完成后，该目录中的学习对象将可供学习助手查询。

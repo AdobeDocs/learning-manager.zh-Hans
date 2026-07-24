@@ -3,12 +3,13 @@ description: 了解Adobe Learning Manager 2025年10月版的新增功能和增�
 jcr-language: en_us
 title: Adobe Learning Manager 2025年10月版的新增功能
 exl-id: 8a2f5c82-2150-46c6-a50b-a3d8a4c8ae53
-source-git-commit: f200caa15d4e58ce1a4b947c1d5b8a35ba87afc3
+source-git-commit: 0f7f42d18c81d18b6f6592a90f9322f0cd9dcce4
 workflow-type: tm+mt
-source-wordcount: '5643'
+source-wordcount: '5580'
 ht-degree: 0%
 
 ---
+
 
 # Adobe Learning Manager 2025年10月版的新增功能
 
@@ -23,7 +24,7 @@ Adobe Learning Manager 2025年10月版引入了重要的增强功能，旨在提
 
 ## Experience Builder
 
-Experience Builder是Adobe Learning Manager中的一种无代码/低代码工具，可帮助您创建自定义学习门户。 它允许您设计品牌化、用户友好的学习门户，而无需具备技术技能或丰富的编码知识。
+Experience Builder是Adobe Learning Manager中的一种无代码/低代码工具，可帮助您创建自定义学习门户。它允许您设计品牌化、用户友好的学习门户，而无需具备技术技能或丰富的编码知识。
 使用Experience Builder，管理员可以轻松创建页面、菜单和小组件，以根据受众提供定制的个性化学习体验。
 
 使用Experience Builder之前，企业面临以下挑战：
@@ -641,7 +642,7 @@ API响应现在包括两个附加字段：
 }
 ```
 
-作为响应，**课程:15067_30122_41715_1_3400468**&#x200B;是要为其请求信息的学习对象资源级别的ID。 可从`GET /enrollments/{id}` API获取`learningObjectResourceGrad`e ID。
+作为响应，**course：15067_30122_41715_1_3400468**&#x200B;是要为其请求信息的学习对象资源等级的ID。 可从`GET /enrollments/{id}` API获取`learningObjectResourceGrad`e ID。
 
 ### API响应支持区分作者姓名的大小写
 

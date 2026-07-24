@@ -1,18 +1,18 @@
 ---
 title: 欢迎使用 Adobe Learning Manager 用户指南
-description: 了解Adobe Learning Manager(以前为Adobe Captivate Prime)中的最新产品。 首先，请单独访问每个章节，或访问社区以从头开始创建一个项目。
+description: 了解Adobe Learning Manager（以前为Adobe Captivate Prime）中的最新产品。 自始至终，独自访问各个部分；或与社区交流互动，用你的方式完成整个项目。
 contentowner: dhv
 exl-id: 482314a1-1cb1-4fb7-aa52-ee1969c5240a
-source-git-commit: f384503e2e0a7833c737bfdb94bdf2ad9e3d2736
+source-git-commit: 3376f0d23e3c964360b782ce1678b533eee4e65d
 workflow-type: tm+mt
-source-wordcount: '126'
-ht-degree: 19%
+source-wordcount: '142'
+ht-degree: 45%
 
 ---
 
 # 欢迎使用 Adobe Learning Manager 用户指南
 
-继续阅读以了解Adobe Learning Manager(以前为Adobe Captivate Prime)的最新产品。 首先，请单独访问每个章节，或访问社区以从头开始创建一个项目。
+继续阅读以了解Adobe Learning Manager（以前为Adobe Captivate Prime）的最新产品。 自始至终，独自访问各个部分；或与社区交流互动，用你的方式完成整个项目。
 
 ## 加入对话 {#jointheconversation}
 
@@ -35,7 +35,7 @@ ht-degree: 19%
     <a href="system-requirements.md">
     <img alt="系统要求" src="assets/prime-reqs.jpeg">
     </a>
-    <a href="whats-new.md"><strong>系统要求</strong></a>
+    <a href="system-requirements.md"><strong>系统要求</strong></a>
     </p>
    </td>
    <td>

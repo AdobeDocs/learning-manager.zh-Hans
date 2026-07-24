@@ -2,16 +2,23 @@
 title: Adobe Learning Manager即将推出的功能
 description: 探索Adobe Learning Manager中即将推出的更改。 及时了解最新的更新以及未来的公告。
 exl-id: 4d2129c4-42d8-446f-8837-879b5c2f42bf
-source-git-commit: 4a4c42968caf6c0c8265014d99a2211da4c1cbb9
+source-git-commit: 0f7f42d18c81d18b6f6592a90f9322f0cd9dcce4
 workflow-type: tm+mt
-source-wordcount: '53'
+source-wordcount: '114'
 ht-degree: 0%
 
 ---
 
+
 # Adobe Learning Manager中的更新
 
-已发布[2026年4月版](/help/migrated/whats-new.md)。 目前，没有即将推出的其他更改。 当发布新公告时，将更新此页面。
+>[!IMPORTANT]
+>
+>即将发布的&#x200B;**更改**&#x200B;文档即将停用。 以后，发行信息将合并到两个主要文档中：**发行说明**&#x200B;和&#x200B;**新增功能**。
+>
+>计划用于&#x200B;**正式发布**&#x200B;的功能和增强功能将在Beta版阶段的&#x200B;**新增功能**&#x200B;中引入，在正式发布后还将包含在发行文档中。 **新增功能**&#x200B;和&#x200B;**发行说明**&#x200B;都将包含指向新文章的链接以及对现有文档的更新。
+>
+>有关2026年8月版本的文档，请参阅[发行说明](/help/migrated/release-note/release-notes.md)和[新增功能](/help/migrated/whats-new.md)
 
 <!-- 
 >[!IMPORTANT]

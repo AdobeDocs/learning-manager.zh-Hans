@@ -3,9 +3,9 @@ description: 了解Adobe Learning Manager 2026年4月版的新增功能和增强
 jcr-language: en_us
 title: Adobe Learning Manager 2026年8月版的新增功能
 exl-id: da46f186-3ff3-422a-af49-31c7405fd584
-source-git-commit: 558b239bd393c175384e6559559929d4d21ee131
+source-git-commit: e476ca4736098ced4e21d0d713628b9682aab3da
 workflow-type: tm+mt
-source-wordcount: '2747'
+source-wordcount: '2839'
 ht-degree: 0%
 
 ---
@@ -100,6 +100,11 @@ Live Hub是Adobe Learning Manager中由AI提供支持的虚拟培训体验，可
 * 使用AI生成的摘要和按主题搜索的会话记录，帮助您的学习者从每个会话中获得更多内容。
 * 衡量参与度分析的重要性，该分析不仅限于出勤率，还能揭示真正的学习参与度。
 * 协助作者使用AI技术支持的讲师查找器，按技能、可用性、首选时间、时区以及当前利用率匹配合适的讲师。
+
+>[!NOTE]
+>
+>Live Hub目前处于测试阶段，即将于8月发布的Adobe Learning Manager版本中推出。 该功能发布后，即可获得有关Live Hub的文档。
+
 
 ## 基于组件的电子邮件模板生成器
 
@@ -214,6 +219,8 @@ Report Builder为管理员提供了灵活的自助报告工具，不只是Adobe 
 ## 即将推出：Adobe Learning Manager Content Composer
 
 Adobe Learning Manager Content Composer是Adobe Learning Manager中即将推出的AI课程创作工具，可帮助您立即创建可发布课程。
+
+对话AI助手将指导您完成整个流程 — “提示”、“简介”、“大纲”和“课程”，以便您在前进之前在每个步骤都保持控制、审阅和完善。 您将能够在自己的源文档中植入内容、应用即时课程主题，以及通过SCORM共享或导出完成的课程或直接发布到Adobe Learning Manager。
 
 ## 报告版本中的更改
 

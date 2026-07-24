@@ -3,9 +3,9 @@ description: 了解Adobe Learning Manager 2026年4月版的新增功能和增强
 jcr-language: en_us
 title: Adobe Learning Manager 2026年8月版的新增功能
 exl-id: da46f186-3ff3-422a-af49-31c7405fd584
-source-git-commit: d61e81b0df6a6043b938c65adaabecb5699c2ce9
+source-git-commit: 558b239bd393c175384e6559559929d4d21ee131
 workflow-type: tm+mt
-source-wordcount: '2712'
+source-wordcount: '2747'
 ht-degree: 0%
 
 ---
@@ -95,11 +95,11 @@ Live Hub是Adobe Learning Manager中由AI提供支持的虚拟培训体验，可
 
 主要亮点：
 
-&#x200B;- 利用原生Adobe Learning Manager体验提升实时学习能力，从而提高教学质量和学习者成果。
-&#x200B;- 为您的讲师提供由AI提供支持的共同促进者，通过智能投票、问答支持和突破室见解来促进参与。
-&#x200B;- 使用AI生成的摘要和按主题搜索的会话记录，帮助您的学习者从每个会话中获得更多内容。
-&#x200B;- 衡量参与度分析的重要性，该分析不仅限于出勤率，还能揭示真正的学习参与度。
-&#x200B;- 协助作者使用AI技术支持的讲师查找器，按技能、可用性、首选时间、时区以及当前利用率匹配合适的讲师。
+* 利用原生Adobe Learning Manager体验提升实时学习能力，从而提高教学质量和学习者成果。
+* 为您的讲师提供由AI提供支持的共同促进者，通过智能投票、问答支持和突破室见解来促进参与。
+* 使用AI生成的摘要和按主题搜索的会话记录，帮助您的学习者从每个会话中获得更多内容。
+* 衡量参与度分析的重要性，该分析不仅限于出勤率，还能揭示真正的学习参与度。
+* 协助作者使用AI技术支持的讲师查找器，按技能、可用性、首选时间、时区以及当前利用率匹配合适的讲师。
 
 ## 基于组件的电子邮件模板生成器
 
@@ -128,6 +128,8 @@ Live Hub是Adobe Learning Manager中由AI提供支持的虚拟培训体验，可
 * 管理员可以配置必填字段，包括自定义字段
 * 管理员和学习者成绩单中的新列：外部学习名称、完成注释、自定义字段列
 * API支持：五个新的学习者范围端点，用于创建、检索和更新提交内容
+
+有关管理员级别的更多信息，请参阅[外部学习支持](/help/migrated/administrators/feature-summary/settings/basic-settings.md)。 有关经理级别的更多信息，请参阅[外部学习支持](/help/migrated/managers/feature-summary/review-external-learning-requests.md)。 有关学习者级别的更多信息，请参阅[外部学习支持](/help/migrated/learners/feature-summary/submit-external-learning.md)。
 
 ## AI功能
 
@@ -209,7 +211,7 @@ Report Builder为管理员提供了灵活的自助报告工具，不只是Adobe 
 
 有关详细信息，请参阅[教室位置](/help/migrated/administrators/feature-summary/classroom.md)
 
-## Adobe Learning Manager Content Composer
+## 即将推出：Adobe Learning Manager Content Composer
 
 Adobe Learning Manager Content Composer是Adobe Learning Manager中即将推出的AI课程创作工具，可帮助您立即创建可发布课程。
 

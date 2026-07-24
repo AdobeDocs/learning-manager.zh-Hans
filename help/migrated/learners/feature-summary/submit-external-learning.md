@@ -61,7 +61,7 @@ ht-degree: 2%
 
    6. **分数：**&#x200B;如果培训包括评估，请输入您的分数。
 
-   7. **附件：**上传证书、转录文本或其他文档作为证据。支持的文件类型包括PDF、DOC、DOCX、PNG、JPEG和JPG。最大文件大小为50 MB。
+   7. **附件：**&#x200B;上传证书、转录文本或其他文档作为证据。支持的文件类型包括PDF、DOC、DOCX、PNG、JPEG和JPG。最大文件大小为50 MB。
       ![](assets/add-external-learning.png)
 
    8. 填写管理员配置的任何其他自定义字段。

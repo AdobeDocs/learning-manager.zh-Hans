@@ -3,10 +3,10 @@ description: 本参考手册适用于希望将现有LMS迁移到Adobe Learning M
 jcr-language: en_us
 title: 迁移手册
 exl-id: bfdd5cd8-dc5c-4de3-8970-6524fed042a8
-source-git-commit: bb98f6ff998a09682bbd7c50d9bf92469859f0be
+source-git-commit: 0862e0d042fac74377b44c3387a72336ec625161
 workflow-type: tm+mt
-source-wordcount: '6280'
-ht-degree: 52%
+source-wordcount: '7489'
+ht-degree: 43%
 
 ---
 
@@ -545,8 +545,8 @@ A sample snapshot of project files and folder of FTP is shown below for your ref
 
 * 必须通过迁移引入所有与等效相关的数据。
 * 系统不支持以下情况：
-   * 学习对象数据（课程/学习计划）通过UI创建，并且
-   * 对等关系以后仅通过CSV导入。
+  * 学习对象数据（课程/学习计划）通过UI创建，并且
+  * 对等关系以后仅通过CSV导入。
 
 这意味着：
 
@@ -1054,3 +1054,213 @@ d. `almCourseInstanceID` — ALM课程实例ID
 | 会话行失败，出现元数据错误 | 检查`metadata`字段中的所有JSON键名是否都使用完全相同的camelCase。 键区分大小写。 |
 | 团队`isCompletionCriteria`无效 | 团队的完成标准功能标志必须由您的ALM帐户管理员启用，迁移值才能生效。 |
 | 已创建会话行，但讲师字段为空 | 如果提供的讲师电子邮件与ALM中的用户不匹配，则会创建一个包含空讲师字段的会话。 在上传之前验证ALM中是否存在讲师电子邮件。 |
+
+## 迁移LTI模块 {#migrationofltimodules}
+
+### 概述
+
+LTI迁移扩展了现有迁移工作流程，且不需要额外的迁移文件。 现有课程、模块和模块关联记录继续采用标准迁移格式。 LTI特定的信息通过模块版本数据提供。
+
+### 使用文件进行LTI迁移
+
+LTI模块使用标准迁移文件进行迁移。
+
+以下文件继续使用现有迁移格式：
+
+* course.csv
+* module.csv
+* course_module.csv
+
+这些文件中不需要任何特定于LTI的字段。 `module_version.csv`文件中配置了LTI特定设置。
+
+### 配置LTI模块版本
+
+使用`module_version.csv`文件定义LTI模块版本的属性。
+
+除了`module_version.csv`中支持的现有字段之外，Adobe Learning Manager还支持LTI特定的值和属性。
+
+#### contentType
+
+使用`contentType`字段中的值`LTI`将模块版本标识为LTI模块。
+
+*用于标识LTI模块版本的字段和值*
+
+| **字段** | **值** |
+|-------------|-----------|
+| contentType | LTI |
+
+#### ltiLaunchUrl
+
+指定外部LTI提供程序的启动URL。
+
+当学习者在Adobe Learning Manager中启动模块时，学习者将被重定向到配置的LTI端点。
+
+*用于指定外部LTI提供程序的启动URL的字段*
+
+| **字段** | **描述** |
+|--------------|--------------------------------------------------|
+| ltiLaunchUrl | 外部LTI平台提供的启动URL |
+
+#### ltiCustomParams
+
+指定在启动期间传递给LTI提供程序的自定义启动参数。
+
+当外部平台需要其他启动上下文或配置参数时，请使用此字段。
+
+*用于将自定义启动参数传递给LTI提供程序的字段*
+
+| **字段** | **描述** |
+|-----------------|------------------------------------------------------------|
+| ltiCustomParams | 启动期间传递给LTI平台的自定义参数 |
+
+#### tpName
+
+指定与模块关联的第三方LTI提供程序的名称。
+
+*用于标识第三方LTI提供程序的字段*
+
+| **字段** | **描述** |
+|-----------|-----------------------------------------------------------------|
+| tpName | 与该模块关联的第三方LTI提供商的名称 |
+
+### LTI模块版本示例
+
+以下示例显示了为LTI模块配置的模块版本记录：
+
+```csv
+moduleId,moduleVersion,contentType,dateCreated,duration,desiredDuration,contentUrl,hasQuiz,ltiLaunchUrl,ltiCustomParams,tpName
+2024101905,1,LTI,2024-10-19T09:55:21.123Z,60,60,,,https://m42almintegrationsv01.moodlecloud.com/enrol/lti/launch.php,"id=8600f9a1-256f-4a0c-bcfc-36377eba8ae1
+param=1",DND_Moodle_isProducer
+```
+
+在此示例中：
+
+* 模块版本通过`contentType=LTI`值被标识为LTI模块。
+* 启动URL指向外部LTI提供程序。
+* 自定义启动参数是通过`ltiCustomParams`提供的。
+* 提供程序是通过`tpName`字段标识的。
+
+### 迁移LTI模块
+
+要迁移LTI模块，请执行以下操作：
+
+1. 在`course.csv`中创建课程记录。
+2. 在`module.csv`中创建模块记录。
+3. 在`course_module.csv`中关联课程和模块。
+4. 在`module_version.csv`中添加模块版本详细信息。
+5. 将`contentType`值设置为`LTI`。
+6. 提供LTI启动URL和任何可选启动参数。
+7. 运行迁移Sprint。
+
+迁移框架将LTI模块作为标准迁移工作流程的一部分进行处理。
+
+### 验证LTI模块版本
+
+创建LTI模块版本时：
+
+* 对`contentType`字段使用值`LTI`。
+* 在`ltiLaunchUrl`字段中提供有效的启动URL。
+* 在`tpName`字段中指定外部提供程序名称。
+* 确保模块已通过标准迁移文件与课程关联。
+* 继续遵循为`module_version.csv`记录的所有现有模块版本迁移要求和验证规则。
+
+除了LTI特定的字段之外，迁移系统还应用标准的迁移处理工作流程。
+
+## 迁移自适应课程
+
+如果要从外部系统向Adobe Learning Manager迁移课程，并且希望将课程配置为具有模块级可见性和每个用户组完成规则的自适应课程，则可以使用两个CSV文件定义课程及其自适应规则。
+
+### 您需要迁移什么
+
+迁移自适应课程需要对标准迁移CSV包进行两项更改：
+
+* **** _course.csv_&#x200B;的更新：将课程标记为自适应课程的新列
+* **新文件，** _course_ module_user_group.csv_：每个模块到用户组规则一行
+
+这两个文件必须包含在同一个迁移项目中。
+
+### Update course.csv
+
+将isAdaptive列添加到您的course.csv文件。
+
+| **列** | **值** | **描述** |
+| --- | --- | --- |
+| isAdaptive | true或blank | 将自适应课程设置为true。 对于常规课程，留空或设置为false。 |
+
+所有其他course.csv列保持不变。
+
+**列顺序示例：**
+
+* ID
+* courseName
+* 描述
+* courseCreationDate
+* 或
+* 顺序
+* 作者
+* thumbnailUrl
+* 标记
+* isAdaptive
+
+>[!NOTE]
+>
+>isAdaptive列对于常规课程是可选的。 如果省略或留空，该课程将被视为常规课程。
+
+### 添加course_module_user_group.csv
+
+这是一个新的CSV文件，其中定义了每个自适应课程中每个模块的自适应可见性和完成规则。 每一行将一个模块映射到具有规则类型的一个用户组。
+
+| **列** | **描述** |
+| --- | --- |
+| 课程ID | 课程的源标识符（必须与course.csv中的ID匹配） |
+| moduleId | 模块的源标识符（必须与模块文件中的模块标识符匹配） |
+| userGroupId | 应用此规则的用户组的Adobe Learning Manager ID |
+| 类型 | 必修 — 用户组必须完成此模块才能完成课程。 可选 — 用户组可以查看和访问此模块，但无需完成此模块。 |
+| operation | 添加 — 创建或更新此规则。 DELETE — 移除此规则。 |
+
+**列顺序示例：**
+
+* 课程ID
+* moduleId
+* userGroupId
+* 类型
+* operation
+
+### 文件的规则
+
+* 自适应课程中的每个内容模块都必须在此文件中至少包含一行。 任何学习者都看不到没有规则的模块。
+* 准备工作模块和测试模块不需要规则。 它们会自动应用于所有已注册的学习者，且不应出现在此文件中。
+* 同一模块可以有多行。 每个用户组一个。
+* 如果为系统中已存在的规则提交ADD行，则会更新现有规则，而不是创建副本。
+
+### 上传顺序
+
+必须按照以下顺序上传和处理迁移项目中的文件。 后续文件取决于先前文件创建的数据，如果未遵循顺序，则后续文件将失败。
+
+* **module.csv**：定义模块
+* **module_version.csv**：定义模块版本
+* **course.csv**：（自适应课程为isAdaptive=true） — 创建课程
+* **course_module.csv**：将模块链接到课程
+* **course_module_user_group.csv**：应用自适应可见性和完成规则
+
+在此处下载迁移文件：[自适应课程迁移文件](/help/migrated/integration-admin/feature-summary/assets/adaptive-courses-migration-files.zip)
+
+>[!IMPORTANT]
+>
+>必须最后上传&#x200B;**course_module_user_group.csv**。 此文件中的规则既引用了课程，又引用了必须已链接到步骤4才能应用规则的模块。
+
+### 校验和错误参考
+
+Adobe Learning Manager在应用这些规则之前会验证course_module_user_group.csv中的每一行。 验证失败的任何行都会被拒绝，并显示错误消息。 仍会处理其余的有效行。
+
+| **方案** | **发生的情况** | **错误消息** |
+| --- | --- | --- |
+| 为未标记为自适应的课程提供的规则 | 行被拒绝 | 课程必须能够适应内容可见性规则。 课程ID： {courseId} |
+| 课程标记为自适应，但未为其任何内容模块提供规则 | 课程被拒绝 | 自适应课程必须为每个内容模块至少具有一个可见性规则。 课程ID {courseId}没有模块{moduleIds}的规则 |
+| 模块未链接到课程 | 行被拒绝 | 模块{moduleId}未链接到课程{courseId}。 首先通过course_module.csv将模块添加到课程。 |
+| 模块是预习或测试模块（不是内容模块） | 行被拒绝 | 可见性规则仅适用于内容类型模块。 模块{moduleId}具有类型{actualType}。 |
+| 用户组不存在或处于非活动状态 | 行被拒绝 | 未找到用户组{userGroupId}或用户组处于非活动状态。 |
+| 类型值不是必填或可选值 | 行被拒绝 | 类型“{type}”无效。 必须是COMMANDARY或OPTIONAL。 |
+| 操作值不是ADD或DELETE | 行被拒绝 | 操作“{operation}”无效。 必须为ADD或DELETE。 |
+| 为已经存在的规则提交ADD | 规则已以静默方式更新 | 无错误 — 使用新的类型值更新现有规则。 |
+

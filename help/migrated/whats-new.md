@@ -3,9 +3,9 @@ description: 了解Adobe Learning Manager 2026年4月版的新增功能和增强
 jcr-language: en_us
 title: Adobe Learning Manager 2026年8月版的新增功能
 exl-id: da46f186-3ff3-422a-af49-31c7405fd584
-source-git-commit: e476ca4736098ced4e21d0d713628b9682aab3da
+source-git-commit: 798dfca0c4d0b33cf00507535ca5313dbaf82ad1
 workflow-type: tm+mt
-source-wordcount: '2839'
+source-wordcount: '2838'
 ht-degree: 0%
 
 ---
@@ -161,7 +161,7 @@ Live Hub是Adobe Learning Manager中由AI提供支持的虚拟培训体验，可
 * 在学习者主页上最多可见10条个性化学习路径
 * 可以与同事共享已完成的路径
 
-有关详细信息，请参阅[学习者的AI助手](/help/migrated/learners/feature-summary/learning-path-agent.md)。
+有关详细信息，请参阅[学习路径代理](/help/migrated/learners/feature-summary/learning-path-agent.md)。
 
 ### Insights代理
 

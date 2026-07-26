@@ -3,9 +3,9 @@ description: 了解Adobe Learning Manager 2026年4月版的新增功能和增强
 jcr-language: en_us
 title: Adobe Learning Manager 2026年8月版的新增功能
 exl-id: da46f186-3ff3-422a-af49-31c7405fd584
-source-git-commit: 798dfca0c4d0b33cf00507535ca5313dbaf82ad1
+source-git-commit: 92789c5c943c1b4de68bf70ce9781e9f7832a9df
 workflow-type: tm+mt
-source-wordcount: '2838'
+source-wordcount: '2889'
 ht-degree: 0%
 
 ---
@@ -88,6 +88,8 @@ Gradebook支持两种完成模型：
 * 在课程创作中选择模块时浏览文件夹体验
 
 有关管理员级别功能的详细信息，请参阅[分层内容文件夹](/help/migrated/administrators/feature-summary/settings/advanced-settings.md#content-folder)。 有关作者级别功能的详细信息，请参阅[分层内容文件夹](/help/migrated/authors/feature-summary/content-library.md#add-content-to-a-folder)。
+
+如果要将学习内容从其他平台迁移到Adobe Learning Manager并保留现有文件夹组织，可使用CSV文件创建分层文件夹结构并将内容文件与适当的文件夹关联。 详细了解[迁移内容文件夹层次结构](/help/migrated/integration-admin/feature-summary/migration-manual.md#migratecontentfolderhierarchy)中的迁移
 
 ## 直播中心
 

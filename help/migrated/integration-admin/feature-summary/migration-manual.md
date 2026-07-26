@@ -3,9 +3,9 @@ description: 本参考手册适用于希望将现有LMS迁移到Adobe Learning M
 jcr-language: en_us
 title: 迁移手册
 exl-id: bfdd5cd8-dc5c-4de3-8970-6524fed042a8
-source-git-commit: 92789c5c943c1b4de68bf70ce9781e9f7832a9df
+source-git-commit: eb8ce39432962f22fbeb299bebad9db39c2e1eaf
 workflow-type: tm+mt
-source-wordcount: '9158'
+source-wordcount: '9051'
 ht-degree: 36%
 
 ---
@@ -1174,7 +1174,7 @@ param=1",DND_Moodle_isProducer
 
 迁移自适应课程需要对标准迁移CSV包进行两项更改：
 
-* **&#x200B;**&#x200B;_course.csv_&#x200B;的更新：将课程标记为自适应课程的新列
+* **** _course.csv_&#x200B;的更新：将课程标记为自适应课程的新列
 * **新文件，** _course_ module_user_group.csv_：每个模块到用户组规则一行
 
 这两个文件必须包含在同一个迁移项目中。
@@ -1269,17 +1269,6 @@ Adobe Learning Manager在应用这些规则之前会验证course_module_user_gro
 如果要将学习内容从其他平台迁移到Adobe Learning Manager并保留现有文件夹组织，可使用CSV文件创建分层文件夹结构并将内容文件与适当的文件夹关联。
 
 在将用户、课程、模块和内容文件导入Adobe Learning Manager后，通常会在更大的平台迁移中执行此迁移。 此迁移步骤会将该内容重新组织到源系统中的文件夹结构中。
-
-### 先决条件
-
-在开始内容文件夹迁移之前，请确认以下各项：
-
-| 先决条件 | 为什么它很重要 |
-| --- | --- |
-| 您的帐户已启用分层内容文件夹功能 | 如果该功能未激活，则迁移将失败。 如果不确定，请联系Adobe。 |
-| 已在迁移工具中创建了迁移项目 | 所有CSV文件必须在迁移项目下运行，才能进行跟踪和重新运行支持。 |
-| 用户、课程、模块和内容文件已迁移（迁移的第1-4阶段） | 文件夹迁移是第5阶段 — 它整理Adobe Learning Manager中必须已存在的内容。 |
-| 您的管理员帐户具有迁移执行权限 | 需要触发迁移Sprint。 |
 
 ### 此迁移的功能
 

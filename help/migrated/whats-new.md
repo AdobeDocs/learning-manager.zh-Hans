@@ -1,9 +1,9 @@
 ---
-description: 了解Adobe Learning Manager 2026年4月版的新增功能和增强功能，包括API和Webhook更改
+description: 了解Adobe Learning Manager 2026年8月版的新增功能和增强功能，包括API和Webhook更改
 jcr-language: en_us
 title: Adobe Learning Manager 2026年8月版的新增功能
 exl-id: da46f186-3ff3-422a-af49-31c7405fd584
-source-git-commit: 92789c5c943c1b4de68bf70ce9781e9f7832a9df
+source-git-commit: 0e94a4dddaf2d0b60d93ad633d3e6e79e48bc185
 workflow-type: tm+mt
 source-wordcount: '2889'
 ht-degree: 0%

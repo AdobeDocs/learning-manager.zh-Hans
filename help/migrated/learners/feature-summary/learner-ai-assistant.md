@@ -3,9 +3,9 @@ description: 使用Adobe Learning Manager中的AI Assistant从学习内容中快
 jcr-language: en_us
 title: Adobe Learning Manager中面向学习者的AI助理
 exl-id: 8203488d-74a6-4463-9383-76d16cabccfa
-source-git-commit: 0862e0d042fac74377b44c3387a72336ec625161
+source-git-commit: 75857b4616180d6294d8374983bb3bf5453c0f46
 workflow-type: tm+mt
-source-wordcount: '3153'
+source-wordcount: '3167'
 ht-degree: 0%
 
 ---
@@ -175,22 +175,25 @@ AI Assistant包含内置提示，可帮助您快速开始处理常见问题和�
 
 要启用学习者AI Assistant，请执行以下操作：
 
-1.以管理员身份登录Adobe Learning Manager。
+1. 以管理员身份登录Adobe Learning Manager。
 
-2.从主页中选择&#x200B;**设置**。
-![管理员控制台左侧窗格中带有设置选项](assets/settings-menu.png)
+1. 从主页选择&#x200B;**设置**。
 
-3.从&#x200B;**设置**&#x200B;菜单中选择&#x200B;**学习者AI Assistant (Beta)**。
-![管理员控制台在左侧窗格中显示“学习者AI助手”选项](assets/learner-assistant-ai-beta.png)
+   ![管理员控制台左侧窗格中具有“设置”选项](assets/settings-menu.png)
 
-4.选择切换开关以启用&#x200B;**学习者AI Assistant (Beta)**。
-<!--![Administrators console displays the toggle enabled for Learner AI Assistant](assets/learner-assistant-toggle.png)-->
-<!--5. Select one or more user groups from the **Eligible user groups** option.-->
-<!--5. Select **Save** to apply the user group settings.-->
+1. 从&#x200B;**设置**&#x200B;菜单中选择&#x200B;**学习者AI Assistant (Beta)**。
 
-5.从&#x200B;**合格目录**&#x200B;选项中选择一个或多个目录。
+   ![管理员控制台在左侧窗格中显示“学习者AI助手”选项](assets/learner-assistant-ai-beta.png)
 
-6.选择&#x200B;**保存**&#x200B;以应用目录设置。
+1. 选择切换开关以启用&#x200B;**学习者AI Assistant (Beta)**。
+
+   <!--![Administrators console displays the toggle enabled for Learner AI Assistant](assets/learner-assistant-toggle.png)-->
+   <!--5. Select one or more user groups from the **Eligible user groups** option.-->
+   <!--5. Select **Save** to apply the user group settings.-->
+
+1. 从&#x200B;**合格目录**&#x200B;选项中选择一个或多个目录。
+
+1. 选择&#x200B;**保存**&#x200B;以应用目录设置。
 
 >[!IMPORTANT]
 >
@@ -202,20 +205,23 @@ AI Assistant包含内置提示，可帮助您快速开始处理常见问题和�
 
 1. 以学习者身份登录Adobe Learning Manager。
 
-2. 在主页上选择&#x200B;**询问AI助手**。
+1. 在主页上选择&#x200B;**询问AI助手**。
+
    ![学习者主页显示“请求AI Assistant”以选择并打开“学习者AI Assistant”面板](assets/ask-ai-assistant.png)
 
-3. 当显示&#x200B;**“学习者AI助手”**&#x200B;屏幕时，选择&#x200B;**开始使用**。
+1. 当显示&#x200B;**“学习者AI助手”**&#x200B;屏幕时，选择&#x200B;**开始使用**。
+
    ![选择“开始使用”以启动“学习者助理”](assets/get-started-learner-assistant.png)
 
->[!NOTE]
->
->首次启动AI Assistant时，必须在使用它之前提供您的同意。 同意对话框将仅在此初次启动时显示。 对于所有后续启动，您将直接转到AI Assistant以输入提示。
+   >[!NOTE]
+   >
+   >首次启动AI Assistant时，必须在使用它之前提供您的同意。 同意对话框将仅在此初次启动时显示。 对于所有后续启动，您将直接转到AI Assistant以输入提示。
 
-4.在文本字段中键入提示。
-<!-- ![Type prompt in the Learner Assistant](assets/type-prompt-new.png) -->
+1. 在文本字段中键入提示。
 
-5.按&#x200B;**Enter**&#x200B;接收响应。 查看您的答案、来源和建议。
+   <!-- ![Type prompt in the Learner Assistant](assets/type-prompt-new.png) -->
+
+1. 按&#x200B;**Enter**&#x200B;接收响应。 查看您的答案、来源和建议。
 
 您可以：
 
@@ -351,7 +357,7 @@ Adobe Learning Manager的Learning Assistant可以回答学习者针对平台上�
 
 >[!IMPORTANT]
 >
->作为先决条件，管理员必须向“学习者助理”添加所需的目录。 有关更多详细信息，请参阅[配置AI Assistant访问权限](https://experienceleague.adobe.com/zh-hans/docs/learning-manager/using/learner/learner-ai-assistant#configure-ai-assistant-access)。
+>作为先决条件，管理员必须向“学习者助理”添加所需的目录。 有关更多详细信息，请参阅[配置AI Assistant访问权限](https://experienceleague.adobe.com/en/docs/learning-manager/using/learner/learner-ai-assistant#configure-ai-assistant-access)。
 
 
 管理员将Go1或LinkedIn学习目录添加到Adobe Learning Manager时，目录内容会按照预定的摄取过程进行处理。 收录完成后，该目录中的学习对象将可供学习助手查询。

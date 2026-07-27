@@ -2,9 +2,9 @@
 description: 增量用户报告作业API允许管理员仅导出其数据在指定日期范围内发生更改的用户。 这消除了完全导出用户的需要，并使新用户或更新的用户记录能够更高效地同步。
 jcr-language: en_us
 title: 增量用户报告（作业API）
-source-git-commit: d61e81b0df6a6043b938c65adaabecb5699c2ce9
+source-git-commit: 40c3bcb1b23ad87a502692007f97b3df27b3a7b9
 workflow-type: tm+mt
-source-wordcount: '1602'
+source-wordcount: '1585'
 ht-degree: 1%
 
 ---
@@ -323,6 +323,4 @@ Adobe Learning Manager会维护上次修改的时间戳，每当用户的任何�
 
 增量用户报告设计用于Adobe Learning Manager连接器（PowerBI、Salesforce等），以作为常规同步管道中完整用户报告的下拉替代项。 这允许现在使用generateUsers的连接器迁移到增量模型，而无需更改下游数据架构。
 
-&#x200B;* 输出CSV与完整用户报告在列上兼容。
-&#x200B;* 连接器可以使用增量报告进行增量同步，并回退到完整报告以进行引导或恢复。
-&#x200B;* 支持连接器集成(PowerBI、SFDC)
+连接器可以使用增量报告进行增量同步，并回退到完整报告以进行引导或恢复。

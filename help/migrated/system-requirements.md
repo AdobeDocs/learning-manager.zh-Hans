@@ -6,8 +6,8 @@ contentowner: dvenkate
 exl-id: 3bf9818a-4b86-47e9-9b86-1c32b8bfee3a
 source-git-commit: f964dd3f1adeadb76f4843c9af229ce5f09afde1
 workflow-type: tm+mt
-source-wordcount: '590'
-ht-degree: 62%
+source-wordcount: '605'
+ht-degree: 81%
 
 ---
 
@@ -17,11 +17,11 @@ ht-degree: 62%
 
 ### 操作系统
 
-Windows 10和11、macOS X 10.12、10.13、10.14、10.15
+Windows 10 和 11、macOS X 10.12、10.13、10.14、10.15
 
 ### 处理器
 
-Intel® CoreTM i5或更快版本。
+Intel® CoreTM i5 或更快版本。
 
 ### 内存
 
@@ -39,7 +39,7 @@ Intel® CoreTM i5或更快版本。
 
 音频录制需要麦克风；视频录制需要网络摄像头。
 
-## 移动设备应用程序
+## 移动应用程序
 
 ### 设备
 
@@ -65,7 +65,7 @@ Intel® CoreTM i5或更快版本。
 
 >[!NOTE]
 >
->移动浏览器仅支持&#x200B;**沉浸式布局**&#x200B;中的学习者角色。
+>移动浏览器仅支持在&#x200B;**沉浸式布局**&#x200B;中使用学员角色。
 
 >[!NOTE]
 >
@@ -81,16 +81,16 @@ IE 11 浏览器不支持沉浸式布局主页。
 
 * Google Chrome 43 及更高版本。
 * Edge、Safari（版本 13 及更高版本）及 Firefox 的最新版本。
-* Internet Explorer版本11及更高版本
+* Internet Explorer 11 及更高版本
 
 ## 推荐的图像大小 {#recommendedsizeofimages}
 
 * 刊头：
-   * 对于最大设置：1280 x 360像素
-   * 对于中等设置：1280 x 273像素
-   * 对于最小设置：1280 x 187像素
-* 目录卡中的图像：280 x 100像素
-* 训练卡大小：300 x 240像素
+  * 对于最大设置：1280 x 360像素
+  * 对于中等设置：1280 x 273像素
+  * 对于最小设置：1280 x 187像素
+* 目录卡中的图像：280 x 100 像素
+* 训练卡大小：300 x 240 像素
 * 社交横幅：1600 x 240 像素
 
 ## 最大内容大小 {#maximumcontentsize}
@@ -101,7 +101,7 @@ IE 11 浏览器不支持沉浸式布局主页。
 >
 >如果 *user.csv* 文件的大小超过 100 MB，导入此文件可能会导致浏览器行为异常。 此问题是浏览器内存不足所致。
 
-我们建议使用Box/Exavault自动工作流导入大型&#x200B;*user.csv*&#x200B;文件。 要了解更多信息，请参阅[迁移文件](/help/migrated/integration-admin/feature-summary/migration-manual.md)。
+我们建议使用 Box/ Exavault 自动工作流导入大型 *user.csv* 文件。 要了解更多信息，请参阅[迁移文件](/help/migrated/integration-admin/feature-summary/migration-manual.md)。
 
 
 ## 支持的内容格式
@@ -222,31 +222,31 @@ IE 11 浏览器不支持沉浸式布局主页。
    <td>
     <p>“学习者应用程序”中的扩展徽章</p></td>
    <td>
-    <p>90 x 90像素</p></td>
+    <p>90 x 90 像素</p></td>
   </tr>
   <tr>
    <td>
     <p>“学习者成就”中的用户资料图片</p></td>
    <td>
-    <p>100 x 100像素</p></td>
+    <p>100 x 100 像素</p></td>
   </tr>
   <tr>
    <td>
     <p>“注销”下拉菜单中的用户资料图片</p></td>
    <td>
-    <p>42 x 42像素</p></td>
+    <p>42 x 42 像素</p></td>
   </tr>
   <tr>
    <td>
     <p>“标题”中的公司徽标</p></td>
    <td>
-    <p>高度使用45像素，并计算相应的宽度像素。</p></td>
+    <p>高度使用 45 像素，并计算相应的宽度像素。</p></td>
   </tr>
   <tr>
    <td>
     <p>Adobe Learning Manager 主页上的公司徽标</p></td>
    <td>
-    <p>高度使用100像素，并计算相应的宽度像素。</p></td>
+    <p>高度使用 100 像素，并计算相应的宽度像素。</p></td>
   </tr>
  </tbody>
 </table>
@@ -331,7 +331,7 @@ IE 11 浏览器不支持沉浸式布局主页。
    <td>Blue Jeans</td>
   </tr>
   <tr>
-   <td>MicrosoftPower BI</td>
+   <td>Power BI</td>
    <td>仅支持Power BI的商业许可。</td>
   </tr>
  </tbody>

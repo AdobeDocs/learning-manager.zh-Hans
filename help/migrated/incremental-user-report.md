@@ -2,9 +2,9 @@
 description: 增量用户报告作业API允许管理员仅导出其数据在指定日期范围内发生更改的用户。 这消除了完全导出用户的需要，并使新用户或更新的用户记录能够更高效地同步。
 jcr-language: en_us
 title: 增量用户报告（作业API）
-source-git-commit: 40c3bcb1b23ad87a502692007f97b3df27b3a7b9
+source-git-commit: aad13507c56f0c2020a97e809edd9fa0b223479f
 workflow-type: tm+mt
-source-wordcount: '1585'
+source-wordcount: '1576'
 ht-degree: 1%
 
 ---
@@ -135,7 +135,7 @@ lastSocialActivityDate
 
 ## 增量用户报告(generateUserIncrementalReport)
 
-本节介绍了M46中引入的新增量用户报告功能。 这是本文档的主题。
+本节介绍了新引入的功能 — 增量用户报告功能。
 
 ## 什么是增量导出？
 

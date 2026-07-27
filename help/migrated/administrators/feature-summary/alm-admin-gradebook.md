@@ -2,9 +2,9 @@
 description: 关于启用Gradebook，使其对作者和学习者可见的所有操作
 jcr-language: en_us
 title: 面向管理员的Gradebook
-source-git-commit: c6ad5527fa5156d1a681fa0f21fb259ac3ebf782
+source-git-commit: 588cb5209168b605405a4b3d6949006344b5468b
 workflow-type: tm+mt
-source-wordcount: '1128'
+source-wordcount: '1134'
 ht-degree: 0%
 
 ---
@@ -20,11 +20,12 @@ ht-degree: 0%
 
 “**设置**”>“**常规**”中的“**渐变画册可见性**”设置确定是否允许作者在课程级别向学习者公开渐变画册。
 
+有关详细信息，请参阅[Gradebook可见性](/help/migrated/administrators/feature-summary/settings/basic-settings.md#gradebookvisibility)。
+
 | 设置状态 | 效果 |
 | --- | --- |
 | 已启用 | 作者可以使用课程编辑器中的&#x200B;**向学习者显示成绩单**&#x200B;选项，控制每个课程的成绩单可见性。 学习者可以在作者启用的课程中看到&#x200B;**Gradebook**&#x200B;选项卡。 |
 | 已禁用 | 学习者无法在任何课程中查看成绩单。 如果禁用此设置，课程配置将无法向学习者显示成绩单。 |
-
 
 这意味着帐户级别设置和课程级别设置协同工作。 学习者若要查看成绩单，必须同时启用这两个选项。
 

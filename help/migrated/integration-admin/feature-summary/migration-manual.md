@@ -1174,7 +1174,7 @@ param=1",DND_Moodle_isProducer
 
 迁移自适应课程需要对标准迁移CSV包进行两项更改：
 
-* **** _course.csv_&#x200B;的更新：将课程标记为自适应课程的新列
+* **&#x200B;**&#x200B;_course.csv_&#x200B;的更新：将课程标记为自适应课程的新列
 * **新文件，** _course_ module_user_group.csv_：每个模块到用户组规则一行
 
 这两个文件必须包含在同一个迁移项目中。

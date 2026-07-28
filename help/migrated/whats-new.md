@@ -3,9 +3,9 @@ description: 了解Adobe Learning Manager 2026年8月版的新增功能和增强
 jcr-language: en_us
 title: Adobe Learning Manager 2026年8月版的新增功能
 exl-id: da46f186-3ff3-422a-af49-31c7405fd584
-source-git-commit: 0e94a4dddaf2d0b60d93ad633d3e6e79e48bc185
+source-git-commit: 3cb62ec615254bdda4103527eb953d3433363785
 workflow-type: tm+mt
-source-wordcount: '2889'
+source-wordcount: '2940'
 ht-degree: 0%
 
 ---
@@ -202,6 +202,10 @@ Report Builder为管理员提供了灵活的自助报告工具，不只是Adobe 
 | **只读** | 查看所有自定义角色、导入日志和删除用户；下载自定义角色报告 |
 | **完全控制** | 所有只读权能，以及：创建、编辑、删除和分配自定义角色；通过CSV导入用户；清除已删除的用户 |
 
+### 限制
+
+**仅手动创建角色**：扩展的自定义角色管理功能仅适用于通过Adobe Learning Manager管理员界面创建的角色。 不支持通过CSV上传功能导入的角色。
+
 了解有关自定义角色更改的详细信息。 有关详细信息，请参阅[高级用户权限解锁的内容](/help/migrated/administrators/feature-summary/custom-role.md#whatadvanceduserpermissionunlocks)
 
 ## LTI深度链接
@@ -246,7 +250,7 @@ Adobe Learning Manager Content Composer是Adobe Learning Manager中即将推出�
 | **Webhook时间戳标准化** | Webhook有效负载的`data`对象中的所有日期和时间字段现在将秒数设置为`00`，提供与学习者成绩单报告一致的分钟级精度。 |
 | **连接增强功能** | Azure数据湖存储(ADLS)连接器更新；对定期虚拟教室会话的持续教室名称支持；基于录制视图的出席情况跟踪。 |
 | **播放器性能改进** | 流体课程播放器经过优化，缩短了加载时间，模块之间的转换更加流畅。 |
-| **弃用课程/学习计划前出现影响警告** | 管理员现在会看到一条警告，其中列出了所有有效注册和相关学习路径，然后课程或学习路径才能停用。 |
+| **弃用课程/学习计划前出现影响警告** | 作者/管理员会先看到相关学习对象的警告列表，然后课程或学习路径才能停用。 通知作者组成学习对象已停用。 如果管理员编写了学习对象但没有编写者角色，则会收到错误消息。 |
 | **CR/VC模块：预计持续时间** | 作者现在可以为教室和虚拟教室模块设置预期持续时间，与计划的会话时间分开。 该值显示在报告和面向学习者的课程信息中。 |
 | **在编辑已获取的课程之前进行确认** | 配对帐户中的管理员现在可以在编辑通过目录共享获取的课程之前看到确认对话框，从而防止对共享内容进行意外更改。 |
 | **实例ID为**&#x200B;的会话URL | Microsoft Teams、Adobe Connect和Zoom会话的会话启动URL现在包含实例ID，从而确保当存在多个实例时，将学习者路由到正确的会话。 |

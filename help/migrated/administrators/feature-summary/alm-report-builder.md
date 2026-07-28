@@ -1,11 +1,11 @@
 ---
 jcr-language: en_us
 title: Adobe Learning Manager中的Report Builder
-description: Report Builder简介
+description: 使用您选择的列、筛选器和数据生成、预览和下载自定义报告，无需使用任何工具进行后期处理。
 contentowner: mmanuel
-source-git-commit: cb488d06aa4996ba4ede49c16def1c82c5eec150
+source-git-commit: a5afd09f5a8ed617383e2aee465cf035c004081d
 workflow-type: tm+mt
-source-wordcount: '414'
+source-wordcount: '410'
 ht-degree: 0%
 
 ---
@@ -14,8 +14,6 @@ ht-degree: 0%
 # Adobe Learning Manager中的Report Builder
 
 ## 概述
-
-使用您选择的列、筛选器和数据生成、预览和下载自定义报告，无需使用任何工具进行后期处理。
 
 Adobe Learning Manager的Report Builder为管理员提供了自助式报告画布，以准确创建他们所需的报告。 无需下载固定报告并在电子表格工具中改变其形状，只需从一处选择所需的列、应用滤镜并下载干净的输出。
 

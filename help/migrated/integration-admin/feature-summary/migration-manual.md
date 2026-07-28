@@ -3,7 +3,7 @@ description: 本参考手册适用于希望将现有LMS迁移到Adobe Learning M
 jcr-language: en_us
 title: 迁移手册
 exl-id: bfdd5cd8-dc5c-4de3-8970-6524fed042a8
-source-git-commit: eb8ce39432962f22fbeb299bebad9db39c2e1eaf
+source-git-commit: f85843d501de9da63cd9dde07c5e68e4b8d79c5c
 workflow-type: tm+mt
 source-wordcount: '9051'
 ht-degree: 36%
@@ -1166,7 +1166,7 @@ param=1",DND_Moodle_isProducer
 
 除了LTI特定的字段之外，迁移系统还应用标准的迁移处理工作流程。
 
-## 迁移自适应课程
+## 迁移自适应课程 {#migrateadaptivecourses}
 
 如果要从外部系统向Adobe Learning Manager迁移课程，并且希望将课程配置为具有模块级可见性和每个用户组完成规则的自适应课程，则可以使用两个CSV文件定义课程及其自适应规则。
 
@@ -1174,7 +1174,7 @@ param=1",DND_Moodle_isProducer
 
 迁移自适应课程需要对标准迁移CSV包进行两项更改：
 
-* **&#x200B;**&#x200B;_course.csv_&#x200B;的更新：将课程标记为自适应课程的新列
+* **** _course.csv_&#x200B;的更新：将课程标记为自适应课程的新列
 * **新文件，** _course_ module_user_group.csv_：每个模块到用户组规则一行
 
 这两个文件必须包含在同一个迁移项目中。

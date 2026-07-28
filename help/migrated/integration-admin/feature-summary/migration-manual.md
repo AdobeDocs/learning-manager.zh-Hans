@@ -3,9 +3,9 @@ description: 本参考手册适用于希望将现有LMS迁移到Adobe Learning M
 jcr-language: en_us
 title: 迁移手册
 exl-id: bfdd5cd8-dc5c-4de3-8970-6524fed042a8
-source-git-commit: f85843d501de9da63cd9dde07c5e68e4b8d79c5c
+source-git-commit: cb9791da19a68e8c5cad3ca12d1e9e51f31e742f
 workflow-type: tm+mt
-source-wordcount: '9051'
+source-wordcount: '9122'
 ht-degree: 36%
 
 ---
@@ -1174,10 +1174,21 @@ param=1",DND_Moodle_isProducer
 
 迁移自适应课程需要对标准迁移CSV包进行两项更改：
 
-* **&#x200B;**&#x200B;_course.csv_&#x200B;的更新：将课程标记为自适应课程的新列
+* **** _course.csv_&#x200B;的更新：将课程标记为自适应课程的新列
 * **新文件，** _course_ module_user_group.csv_：每个模块到用户组规则一行
 
 这两个文件必须包含在同一个迁移项目中。
+
+### 更新了用于自适应课程迁移的CSV文件名
+
+自适应课程和自适应学习路径迁移的CSV文件名现在遵循Adobe Learning Manager中所有其他迁移文件使用的全名约定。 例如，使用learning_object_section.csv而不是lo_section.csv。 如果现有迁移脚本或模板引用了以前的短表单名称，请在下次迁移运行之前将其更新为新名称。
+
+| 旧名称 | 新名称 |
+| --- | --- |
+| `lo_section.csv` | `learning_object_section.csv` |
+| `lp_section.csv` | `learning_program_section.csv` |
+| `lp_section_ug.csv` | `learning_program_section_user_group.csv` |
+| `course_module_ug.csv` | `course_module_user_group.csv` |
 
 ### Update course.csv
 

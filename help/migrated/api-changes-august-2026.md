@@ -2,9 +2,9 @@
 description: ALM中的API更改
 jcr-language: en_us
 title: Adobe Learning Manager 2026年8月版中的API更改
-source-git-commit: 857c94b5e9a7460d63a6dacc0beeddd41f362bf9
+source-git-commit: 2d61ce1366f086c5c1aad1eb59bfa6f0446beed3
 workflow-type: tm+mt
-source-wordcount: '3354'
+source-wordcount: '3353'
 ht-degree: 3%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 3%
 
 这些端点仅适用于自定义用户组。 系统管理的组（例如“所有用户”组和自动生成的用户组）在API响应中具有readOnly： true，无法通过这些端点修改或删除。
 
-有关API身份验证要求，请参阅[Adobe Learning Manager API身份验证](https://experienceleague.adobe.com/zh-hans/docs/learning-manager/using/integration/developer-manual#authentication-using-oauth-20)。
+有关API身份验证要求，请参阅[Adobe Learning Manager API身份验证](https://experienceleague.adobe.com/en/docs/learning-manager/using/integration/developer-manual#authentication-using-oauth-20)。
 
 ### 用户组API端点
 
@@ -204,7 +204,7 @@ X-acap-caller-role: ROLE_ADMIN
 
 所有五个端点均属于学习者范围。 学习者只能访问自己的提交内容 — 如果学习者尝试访问其他学习者的数据，则API会返回错误。
 
-有关API身份验证要求，请参阅[Adobe Learning Manager API身份验证](https://experienceleague.adobe.com/zh-hans/docs/learning-manager/using/integration/developer-manual#authentication-using-oauth-20)。
+有关API身份验证要求，请参阅[Adobe Learning Manager API身份验证](https://experienceleague.adobe.com/en/docs/learning-manager/using/integration/developer-manual#authentication-using-oauth-20)。
 
 ### 外部学习API端点
 
@@ -510,7 +510,9 @@ PUT /primeapi/v2/externalLearnings/{id}
 
 这意味着根据每个学习者的单独注册历史记录，同时查询同一根认证ID的两个学习者可能会收到不同的结果。
 
-**注意**：在新建版本和迁移注册时，重复期间可能会有一个短暂的窗口，其中API可能返回即将被取代的版本，而不是新创建的版本。
+>[!NOTE]
+>
+>当创建新版本和迁移注册时，重复期间可能会有一个短暂的窗口，其中API可能返回将要被取代的版本，而不是新创建的版本。
 
 **示例**
 

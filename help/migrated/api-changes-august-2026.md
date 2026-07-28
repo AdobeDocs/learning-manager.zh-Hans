@@ -2,9 +2,9 @@
 description: ALM中的API更改
 jcr-language: en_us
 title: Adobe Learning Manager 2026年8月版中的API更改
-source-git-commit: 0862e0d042fac74377b44c3387a72336ec625161
+source-git-commit: 857c94b5e9a7460d63a6dacc0beeddd41f362bf9
 workflow-type: tm+mt
-source-wordcount: '3369'
+source-wordcount: '3354'
 ht-degree: 3%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 3%
 
 这些端点仅适用于自定义用户组。 系统管理的组（例如“所有用户”组和自动生成的用户组）在API响应中具有readOnly： true，无法通过这些端点修改或删除。
 
-有关API身份验证要求，请参阅[Adobe Learning Manager API身份验证](https://experienceleague.adobe.com/zh-hans/docs/learning-manager/using/integration/developer-manual#authentication-using-oauth-20)。
+有关API身份验证要求，请参阅[Adobe Learning Manager API身份验证](https://experienceleague.adobe.com/en/docs/learning-manager/using/integration/developer-manual#authentication-using-oauth-20)。
 
 ### 用户组API端点
 
@@ -131,9 +131,8 @@ PUT /primeapi/v2/userGroups/{id}
 
 | **参数** | **必填** | **类型** | **描述** |
 |---------------|--------------|----------|---------------------------------------------------------------------------|
-| name | 否 | 字符串 | 新显示名称。 如果提供，则不能为空。 忽略以保持不变。 |
+| name | 是 | 字符串 | 新显示名称。 如果提供，则不能为空。 忽略以保持不变。 |
 | 描述 | 否 | 字符串 | 新描述。 传递null以清除。 忽略以保持不变。 |
-| 数据 | — | null | 必须为null或不存在。 任何非null值都会返回400错误。 |
 
 #### **响应200正常**
 
@@ -205,7 +204,7 @@ X-acap-caller-role: ROLE_ADMIN
 
 所有五个端点均属于学习者范围。 学习者只能访问自己的提交内容 — 如果学习者尝试访问其他学习者的数据，则API会返回错误。
 
-有关API身份验证要求，请参阅[Adobe Learning Manager API身份验证](https://experienceleague.adobe.com/zh-hans/docs/learning-manager/using/integration/developer-manual#authentication-using-oauth-20)。
+有关API身份验证要求，请参阅[Adobe Learning Manager API身份验证](https://experienceleague.adobe.com/en/docs/learning-manager/using/integration/developer-manual#authentication-using-oauth-20)。
 
 ### 外部学习API端点
 

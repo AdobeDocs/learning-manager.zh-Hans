@@ -3,9 +3,9 @@ description: 了解Adobe Learning Manager 2026年8月版的新增功能和增强
 jcr-language: en_us
 title: Adobe Learning Manager 2026年8月版的新增功能
 exl-id: da46f186-3ff3-422a-af49-31c7405fd584
-source-git-commit: 3cb62ec615254bdda4103527eb953d3433363785
+source-git-commit: a6f201e762963a524a6a935e84dafc4752604e4d
 workflow-type: tm+mt
-source-wordcount: '2940'
+source-wordcount: '2770'
 ht-degree: 0%
 
 ---
@@ -15,23 +15,6 @@ ht-degree: 0%
 >[!IMPORTANT]
 >
 >本文中介绍的功能作为Beta版的一部分提供。 Adobe Learning Manager Beta版功能仅供评估之用，在正式发布之前可能会进行修改、限制或删除。 功能名称、行为和配置选项如有更改，恕不另行通知。
-
-
-## 自适应课程
-
-通过自适应课程，您可以根据学习者所属的用户组来控制他们查看哪些模块以及哪些模块是必需的，从而实现个性化培训。 单个课程可自动将合适的内容呈现给合适的人员。
-
-作者为用户组规则使用&#x200B;**可选**&#x200B;和&#x200B;**强制**&#x200B;配置每个模块。 不同用户组中的学习者可以完成完全不同的模块组，但仍可以完成相同的课程。 教室和虚拟教室会话的名额限制现已在模块级别实施，因此学习者可以注册课程，而仅轮候特定会话。 有关更多信息，请参阅[自适应课程 — 作者](/help/migrated/authors/feature-summary/adaptive-course-author.md)
-
-关键功能：
-
-* 每个用户组的模块级别可见性和完成规则
-* OR合并逻辑：如果有任何组将模块设为必填，则该学习者为必填
-* 教室和虚拟教室会话的模块级轮候
-* 学习者的配置文件更改时触发刷新完成
-* 支持学习路径和认证，有记录的重复认证限制
-
-了解有关自适应课程的更多信息。
 
 ## 成绩册
 
@@ -106,7 +89,6 @@ Live Hub是Adobe Learning Manager中由AI提供支持的虚拟培训体验，可
 >[!NOTE]
 >
 >Live Hub目前处于测试阶段，即将于8月发布的Adobe Learning Manager版本中推出。 该功能发布后，即可获得有关Live Hub的文档。
-
 
 ## 基于组件的电子邮件模板生成器
 

@@ -3,7 +3,8 @@ description: 作为作者，了解如何为学习者创建自适应课程。
 jcr-language: en_us
 title: 面向作者的自适应课程
 contentowner: mmanuel
-source-git-commit: 5d4ba4ccd3b32a6108b5c8101f48f12f27775e00
+hide: true
+source-git-commit: a6f201e762963a524a6a935e84dafc4752604e4d
 workflow-type: tm+mt
 source-wordcount: '3038'
 ht-degree: 0%

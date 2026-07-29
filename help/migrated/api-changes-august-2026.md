@@ -2,9 +2,9 @@
 description: ALM中的API更改
 jcr-language: en_us
 title: Adobe Learning Manager 2026年8月版中的API更改
-source-git-commit: 2d61ce1366f086c5c1aad1eb59bfa6f0446beed3
+source-git-commit: bac89a2dc8e1f22e2d29b20696fc1c6b6dd071aa
 workflow-type: tm+mt
-source-wordcount: '3353'
+source-wordcount: '3357'
 ht-degree: 3%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 3%
 
 这些端点仅适用于自定义用户组。 系统管理的组（例如“所有用户”组和自动生成的用户组）在API响应中具有readOnly： true，无法通过这些端点修改或删除。
 
-有关API身份验证要求，请参阅[Adobe Learning Manager API身份验证](https://experienceleague.adobe.com/zh-hans/docs/learning-manager/using/integration/developer-manual#authentication-using-oauth-20)。
+有关API身份验证要求，请参阅[Adobe Learning Manager API身份验证](https://experienceleague.adobe.com/en/docs/learning-manager/using/integration/developer-manual#authentication-using-oauth-20)。
 
 ### 用户组API端点
 
@@ -204,7 +204,7 @@ X-acap-caller-role: ROLE_ADMIN
 
 所有五个端点均属于学习者范围。 学习者只能访问自己的提交内容 — 如果学习者尝试访问其他学习者的数据，则API会返回错误。
 
-有关API身份验证要求，请参阅[Adobe Learning Manager API身份验证](https://experienceleague.adobe.com/zh-hans/docs/learning-manager/using/integration/developer-manual#authentication-using-oauth-20)。
+有关API身份验证要求，请参阅[Adobe Learning Manager API身份验证](https://experienceleague.adobe.com/en/docs/learning-manager/using/integration/developer-manual#authentication-using-oauth-20)。
 
 ### 外部学习API端点
 
@@ -300,8 +300,8 @@ GET /primeapi/v2/externalLearningSettings
 | 标题 | 文本 | 是 | 培训名称。 始终在场。 管理员无法禁用。 |
 | description_notes | 文本 | 否 | 自由文本描述或注释。 |
 | 日期 | 时间戳 | 否 | 日期范围。 值形状： { &quot;start_date&quot;： &quot;<ISO-Z>&quot;， &quot;end_date&quot;： &quot;<ISO-Z>&quot; }. 任一值都可为空。 |
-| 分数 | 编号 | 是 | 值形状：{ &quot;achieded_score&quot;： <number>， &quot;max_score&quot;： <number> }. 两个值都必须是数值。 |
-| duration | 文本 | 否 | 自由格式字符串，例如“40小时”。 |
+| 分数 | 编号 | 是 | 值形状：{ &quot;achieded_score&quot;： <number>， &quot;max_score&quot;： <number> }. 两个值都必须是数值。  max_score不能为负数。 |
+| duration | 对象 | 否 | 例如，{ &quot;timeSpan&quot;： 8， &quot;period&quot;： &quot;HOURS&quot; }。 |
 | 附件 | FILE_UPLOAD | 是 | 完成证明。 **未**&#x200B;在字段内传递[] — 请改用顶级submissionUrl属性。 |
 
 自定义字段由管理员定义，并在customFields[]中返回。 它们的ID、类型、强制标记、标签和下拉选项因帐户配置而异。

@@ -4,9 +4,9 @@ jcr-language: en_us
 title: Adobe Learning Manager发行说明
 contentowner: mmanuel
 exl-id: ae9251b6-5326-42c2-881e-2ab3393d9e17
-source-git-commit: 47de040030c841641b9a554eac1a40c0ee0835a8
+source-git-commit: a6f201e762963a524a6a935e84dafc4752604e4d
 workflow-type: tm+mt
-source-wordcount: '33111'
+source-wordcount: '33074'
 ht-degree: 67%
 
 ---
@@ -33,7 +33,7 @@ ht-degree: 67%
 
 ## 发布亮点
 
-2026年8月发布的Adobe Learning Manager在个性化学习、AI、报告和集成方面取得了重大进展。 自适应课程引入了用户组驱动的模块可见性和完成规则，允许单个课程根据不同学习者的角色、区域或个人资料向其展示不同的内容，而无需维护单独的课程版本。
+2026年8月发布的Adobe Learning Manager在个性化学习、AI、报告和集成方面取得了重大进展。
 
 功能齐全的Gradebook为课程添加了加权评分和总计通过/失败计算，为组织提供了除了简单完成跟踪之外的学习者绩效精确、可配置的度量。
 

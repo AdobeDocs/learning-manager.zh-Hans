@@ -3,10 +3,10 @@ description: 本参考手册适用于希望将现有LMS迁移到Adobe Learning M
 jcr-language: en_us
 title: 迁移手册
 exl-id: bfdd5cd8-dc5c-4de3-8970-6524fed042a8
-source-git-commit: cb9791da19a68e8c5cad3ca12d1e9e51f31e742f
+source-git-commit: 56ecd41e891d06f61ae7178280b85d6ffe918738
 workflow-type: tm+mt
-source-wordcount: '9122'
-ht-degree: 36%
+source-wordcount: '8322'
+ht-degree: 39%
 
 ---
 
@@ -1166,115 +1166,6 @@ param=1",DND_Moodle_isProducer
 
 除了LTI特定的字段之外，迁移系统还应用标准的迁移处理工作流程。
 
-## 迁移自适应课程 {#migrateadaptivecourses}
-
-如果要从外部系统向Adobe Learning Manager迁移课程，并且希望将课程配置为具有模块级可见性和每个用户组完成规则的自适应课程，则可以使用两个CSV文件定义课程及其自适应规则。
-
-### 您需要迁移什么
-
-迁移自适应课程需要对标准迁移CSV包进行两项更改：
-
-* **&#x200B;**&#x200B;_course.csv_&#x200B;的更新：将课程标记为自适应课程的新列
-* **新文件，** _course_ module_user_group.csv_：每个模块到用户组规则一行
-
-这两个文件必须包含在同一个迁移项目中。
-
-### 更新了用于自适应课程迁移的CSV文件名
-
-自适应课程和自适应学习路径迁移的CSV文件名现在遵循Adobe Learning Manager中所有其他迁移文件使用的全名约定。 例如，使用learning_object_section.csv而不是lo_section.csv。 如果现有迁移脚本或模板引用了以前的短表单名称，请在下次迁移运行之前将其更新为新名称。
-
-| 旧名称 | 新名称 |
-| --- | --- |
-| `lo_section.csv` | `learning_object_section.csv` |
-| `lp_section.csv` | `learning_program_section.csv` |
-| `lp_section_ug.csv` | `learning_program_section_user_group.csv` |
-| `course_module_ug.csv` | `course_module_user_group.csv` |
-
-### Update course.csv
-
-将isAdaptive列添加到您的course.csv文件。
-
-| **列** | **值** | **描述** |
-| --- | --- | --- |
-| isAdaptive | true或blank | 将自适应课程设置为true。 对于常规课程，留空或设置为false。 |
-
-所有其他course.csv列保持不变。
-
-**列顺序示例：**
-
-* ID
-* courseName
-* 描述
-* courseCreationDate
-* 或
-* 顺序
-* 作者
-* thumbnailUrl
-* 标记
-* isAdaptive
-
->[!NOTE]
->
->isAdaptive列对于常规课程是可选的。 如果省略或留空，该课程将被视为常规课程。
-
-### 添加course_module_user_group.csv
-
-这是一个新的CSV文件，其中定义了每个自适应课程中每个模块的自适应可见性和完成规则。 每一行将一个模块映射到具有规则类型的一个用户组。
-
-| **列** | **描述** |
-| --- | --- |
-| 课程ID | 课程的源标识符（必须与course.csv中的ID匹配） |
-| moduleId | 模块的源标识符（必须与模块文件中的模块标识符匹配） |
-| userGroupId | 应用此规则的用户组的Adobe Learning Manager ID |
-| 类型 | 必修 — 用户组必须完成此模块才能完成课程。 可选 — 用户组可以查看和访问此模块，但无需完成此模块。 |
-| operation | 添加 — 创建或更新此规则。 DELETE — 移除此规则。 |
-
-**列顺序示例：**
-
-* 课程ID
-* moduleId
-* userGroupId
-* 类型
-* operation
-
-### 文件的规则
-
-* 自适应课程中的每个内容模块都必须在此文件中至少包含一行。 任何学习者都看不到没有规则的模块。
-* 准备工作模块和测试模块不需要规则。 它们会自动应用于所有已注册的学习者，且不应出现在此文件中。
-* 同一模块可以有多行。 每个用户组一个。
-* 如果为系统中已存在的规则提交ADD行，则会更新现有规则，而不是创建副本。
-
-### 上传顺序
-
-必须按照以下顺序上传和处理迁移项目中的文件。 后续文件取决于先前文件创建的数据，如果未遵循顺序，则后续文件将失败。
-
-* **module.csv**：定义模块
-* **module_version.csv**：定义模块版本
-* **course.csv**：（自适应课程为isAdaptive=true） — 创建课程
-* **course_module.csv**：将模块链接到课程
-* **course_module_user_group.csv**：应用自适应可见性和完成规则
-
-在此处下载迁移文件：[自适应课程迁移文件](/help/migrated/integration-admin/feature-summary/assets/adaptive-courses-migration-files.zip)
-
->[!IMPORTANT]
->
->必须最后上传&#x200B;**course_module_user_group.csv**。 此文件中的规则既引用了课程，又引用了必须已链接到步骤4才能应用规则的模块。
-
-### 校验和错误参考
-
-Adobe Learning Manager在应用这些规则之前会验证course_module_user_group.csv中的每一行。 验证失败的任何行都会被拒绝，并显示错误消息。 仍会处理其余的有效行。
-
-| **方案** | **发生的情况** | **错误消息** |
-| --- | --- | --- |
-| 为未标记为自适应的课程提供的规则 | 行被拒绝 | 课程必须能够适应内容可见性规则。 课程ID： {courseId} |
-| 课程标记为自适应，但未为其任何内容模块提供规则 | 课程被拒绝 | 自适应课程必须为每个内容模块至少具有一个可见性规则。 课程ID {courseId}没有模块{moduleIds}的规则 |
-| 模块未链接到课程 | 行被拒绝 | 模块{moduleId}未链接到课程{courseId}。 首先通过course_module.csv将模块添加到课程。 |
-| 模块是预习或测试模块（不是内容模块） | 行被拒绝 | 可见性规则仅适用于内容类型模块。 模块{moduleId}具有类型{actualType}。 |
-| 用户组不存在或处于非活动状态 | 行被拒绝 | 未找到用户组{userGroupId}或用户组处于非活动状态。 |
-| 类型值不是必填或可选值 | 行被拒绝 | 类型“{type}”无效。 必须是COMMANDARY或OPTIONAL。 |
-| 操作值不是ADD或DELETE | 行被拒绝 | 操作“{operation}”无效。 必须为ADD或DELETE。 |
-| 为已经存在的规则提交ADD | 规则已以静默方式更新 | 无错误 — 使用新的类型值更新现有规则。 |
-
 ## 迁移内容文件夹层次结构 {#migratecontentfolderhierarchy}
 
 如果要将学习内容从其他平台迁移到Adobe Learning Manager并保留现有文件夹组织，可使用CSV文件创建分层文件夹结构并将内容文件与适当的文件夹关联。
@@ -1307,7 +1198,6 @@ Adobe Learning Manager在应用这些规则之前会验证course_module_user_gro
 >[!NOTE]
 >
 >如果源系统在类别或文件夹名称中使用正斜杠(`/`)，请在准备CSV之前使用连字符(`-`)或下划线(`_`)替换它们。 Adobe Learning Manager不允许在文件夹名称中使用`/`，因为它是为文件夹路径解析而保留的。
-
 
 #### content_folder.csv
 
@@ -1352,7 +1242,6 @@ folder_005,Compliance,,folder_004,CREATE_FOLDER
 >[!NOTE]
 >
 >您可以在`parentExternalId`列中使用前缀`existing:`后跟文件夹ID （例如，`existing:12345`），将帐户中的现有文件夹（在此迁移之前创建）引用为新文件夹的父文件夹。
-
 
 ### 阶段2：将内容与文件夹关联
 
@@ -1402,7 +1291,6 @@ MOD004,1,content,...,Marketing
 >
 >必须在包含文件夹路径的模块版本文件之前处理`content_folder.csv`，因为文件夹结构必须存在，才能将内容与它关联。
 
-
 ### 校验和错误参考
 
 Adobe Learning Manager在处理前会验证`content_folder.csv`中的每一行。 验证失败的行将被跳过，并报告为错误。 将继续处理同一文件中的有效行。
@@ -1422,7 +1310,6 @@ Adobe Learning Manager在处理前会验证`content_folder.csv`中的每一行�
 | 已成功迁移的`id`的`CREATE_FOLDER` | 已跳过行 | 无需执行任何操作 — 这是重新运行迁移时的预期行为 |
 | `module_version.csv`中的文件夹路径引用的文件夹不存在 | 模块行被拒绝 | 首先运行文件夹结构Sprint，或验证文件夹名称和路径的拼写是否正确 |
 | 文件夹路径中的双斜杠（例如，`Training//Sales`） | 模块行被拒绝 | 从路径中删除多余的斜杠 |
-
 
 ### 向后兼容性
 

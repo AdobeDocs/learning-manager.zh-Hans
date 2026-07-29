@@ -2,7 +2,7 @@
 user-guide-title: Adobe Learning Manager 指南
 breadcrumb-title: Learning Manager
 user-guide-description: Adobe Learning Manager 的文档
-source-git-commit: 971576b95ab0f75b9d28a7f3d1d62440927925f7
+source-git-commit: a8ce2cca26c50bde68789ae423478af9a9494dc3
 workflow-type: tm+mt
 source-wordcount: '1153'
 ht-degree: 50%
@@ -23,7 +23,7 @@ ht-degree: 50%
   * [2024年3月版新增功能](whats-new-march-2024.md)
   * {hide-from-toc}[&#x200B; 2023年11月版新增功能](whats-new-november-2023.md)
   * {hide-from-toc}[&#x200B; 2023年7月版新增功能](whats-new-2023-july.md)
-  * [Adobe Learning Manager中即将推出的更改](/help/migrated/upcoming-changes-in-adobe-learning-manager.md)
+  * {hide-from-toc}[Adobe Learning Manager中即将推出的更改](/help/migrated/upcoming-changes-in-adobe-learning-manager.md)
   * [发行说明](release-note/release-notes.md)
   * [系统要求](system-requirements.md)
   * [适用于 Microsoft Teams 的 Adobe Learning Manager 应用程序](adobe-learning-manager-app-microsoft-teams.md)
@@ -113,7 +113,7 @@ ht-degree: 50%
   * [认证](administrators/feature-summary/certifications.md)
   * [创建和自定义证书](/help/migrated/administrators/feature-summary/create-customize-certificate.md)
   * [目录](administrators/feature-summary/catalogs.md)
-  * [自适应课程](administrators/feature-summary/adaptive-course-admin.md)
+  * {hide-from-toc}[自适应课程](administrators/feature-summary/adaptive-course-admin.md)
   * [模拟学习者和经理](administrators/feature-summary/impersonation-learner-manager.md)
   * [多个 SSO 登录](administrators/feature-summary/multiple-sso-logins.md)
   * [通过SAML设置界面语言](/help/migrated/administrators/feature-summary/set-up-interface-language-through-saml.md)
@@ -199,7 +199,7 @@ ht-degree: 50%
   * [内容库](authors/feature-summary/content-library.md)
   * [创建、修改和发布课程](authors/feature-summary/courses.md)
   * [目录](authors/feature-summary/catalogs.md)
-  * [自适应课程](authors/feature-summary/adaptive-course-author.md)
+  * {hide-from-toc}[自适应课程](authors/feature-summary/adaptive-course-author.md)
   * [工作辅助](authors/feature-summary/job-aids.md)
   * [成绩册](authors/feature-summary/alm-author-gradebook.md)
   * [iPad 和 Android 平板电脑用户](authors/feature-summary/ipad-android-tablet-users.md)
@@ -219,7 +219,7 @@ ht-degree: 50%
   * [目录](learners/feature-summary/catalogs.md)
   * [一键式注册](learners/feature-summary/learner-one-click-enrollment.md)
   * [我的学习](learners/feature-summary/courses.md)
-  * [自适应课程](learners/feature-summary/adaptive-course-learner.md)
+  * {hide-from-toc}[自适应课程](learners/feature-summary/adaptive-course-learner.md)
   * [流体播放器](learners/feature-summary/fluidic-player.md)
   * [学习计划](learners/feature-summary/learning-programs.md)
   * [认证](learners/feature-summary/certifications.md)

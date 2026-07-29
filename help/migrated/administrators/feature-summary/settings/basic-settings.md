@@ -3,7 +3,7 @@ description: 详细了解基本设置如何帮助您根据组织的结构和学�
 jcr-language: en_us
 title: 基本设置
 exl-id: b5cbe224-e3ee-4ac2-8d9b-95249044dfa6
-source-git-commit: 40c3bcb1b23ad87a502692007f97b3df27b3a7b9
+source-git-commit: a6f201e762963a524a6a935e84dafc4752604e4d
 workflow-type: tm+mt
 source-wordcount: '5921'
 ht-degree: 3%
@@ -202,7 +202,7 @@ b.拒绝更改以保持课程的前一版本处于活动状态。
 
 然后，学习者会探索他们可见的技能和标签，并订阅他们选择的技能。
 
-### 学习对象的唯一 ID
+### 唯一学习对象ID
 
 您可使用该选项为每个学习对象（如课程、学习路径、认证或工作辅助）分配唯一标识符。 这可确保每个学习对象都有一个独特的ID，对于跟踪、报告以及与外部系统的集成非常有用。
 

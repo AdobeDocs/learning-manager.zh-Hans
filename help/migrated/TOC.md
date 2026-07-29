@@ -2,7 +2,7 @@
 user-guide-title: Adobe Learning Manager 指南
 breadcrumb-title: Learning Manager
 user-guide-description: Adobe Learning Manager 的文档
-source-git-commit: a6f201e762963a524a6a935e84dafc4752604e4d
+source-git-commit: a8ce2cca26c50bde68789ae423478af9a9494dc3
 workflow-type: tm+mt
 source-wordcount: '1153'
 ht-degree: 50%
@@ -21,9 +21,9 @@ ht-degree: 50%
   * [2024年11月新增功能摘要](/help/migrated/whats-new-nov-24.md)
   * [2024年7月新增功能摘要](whats-new-july-2024.md)
   * [2024年3月版新增功能](whats-new-march-2024.md)
-  * {hide-from-toc}[&#x200B; 2023年11月版新增功能](whats-new-november-2023.md)
-  * {hide-from-toc}[&#x200B; 2023年7月版新增功能](whats-new-2023-july.md)
-  * [Adobe Learning Manager中即将推出的更改](/help/migrated/upcoming-changes-in-adobe-learning-manager.md)
+  * {hide-from-toc}[ 2023年11月版新增功能](whats-new-november-2023.md)
+  * {hide-from-toc}[ 2023年7月版新增功能](whats-new-2023-july.md)
+  * {hide-from-toc}[Adobe Learning Manager中即将推出的更改](/help/migrated/upcoming-changes-in-adobe-learning-manager.md)
   * [发行说明](release-note/release-notes.md)
   * [系统要求](system-requirements.md)
   * [适用于 Microsoft Teams 的 Adobe Learning Manager 应用程序](adobe-learning-manager-app-microsoft-teams.md)

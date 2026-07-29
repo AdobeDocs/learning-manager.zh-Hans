@@ -3,10 +3,10 @@ description: 本参考手册适用于希望将现有LMS迁移到Adobe Learning M
 jcr-language: en_us
 title: 迁移手册
 exl-id: bfdd5cd8-dc5c-4de3-8970-6524fed042a8
-source-git-commit: d87afb28445e260e068c05b392c916fd4ba2ef8a
+source-git-commit: 56ecd41e891d06f61ae7178280b85d6ffe918738
 workflow-type: tm+mt
-source-wordcount: '6760'
-ht-degree: 48%
+source-wordcount: '8322'
+ht-degree: 39%
 
 ---
 
@@ -1165,3 +1165,182 @@ param=1",DND_Moodle_isProducer
 * 继续遵循为`module_version.csv`记录的所有现有模块版本迁移要求和验证规则。
 
 除了LTI特定的字段之外，迁移系统还应用标准的迁移处理工作流程。
+
+## 迁移内容文件夹层次结构 {#migratecontentfolderhierarchy}
+
+如果要将学习内容从其他平台迁移到Adobe Learning Manager并保留现有文件夹组织，可使用CSV文件创建分层文件夹结构并将内容文件与适当的文件夹关联。
+
+在将用户、课程、模块和内容文件导入Adobe Learning Manager后，通常会在更大的平台迁移中执行此迁移。 此迁移步骤会将该内容重新组织到源系统中的文件夹结构中。
+
+### 此迁移的功能
+
+内容文件夹迁移在Adobe Learning Manager内容库中最多创建三个级别的嵌套文件夹，并将现有内容文件与正确的子文件夹相关联。 您的课程和模块与内容文件的关联不会受到影响。 只有文件夹组织会更改。
+
+迁移作为异步后台作业运行。 您上传CSV文件，在后台执行迁移过程，并且可以在系统正常工作时监控进度。 如果需要更正，则可以重新运行迁移；在后续运行中自动跳过已经成功处理的行。
+
+### 迁移的两个阶段
+
+内容文件夹迁移有两个独立的阶段。 每个应用程序都可以单独运行和验证。
+
+| 相位 | 您提供的内容 | 功能 |
+| --- | --- | --- |
+| **阶段1 — 文件夹结构** | `content_folder.csv` | 在Adobe Learning Manager中创建您的1级、2级和3级文件夹层次结构 |
+| **阶段2 — 内容关联** | `module_version.csv` （已使用文件夹路径更新） | 导入模块版本时，将内容文件与正确的文件夹关联 |
+
+阶段2不需要单独的CSV文件 — 您向现有`module_version.csv`文件添加文件夹路径列。
+
+### 阶段1：创建文件夹层次结构
+
+#### 首先规划您的文件夹层次结构
+
+在准备CSV之前，请将源系统的文件夹或类别结构映射到Adobe Learning Manager的三级层次结构。 Adobe Learning Manager支持最大深度为三个级别（级别1→级别2→级别3）。 如果源系统嵌套较深，请在迁移之前将其拼合到三个级别。
+
+>[!NOTE]
+>
+>如果源系统在类别或文件夹名称中使用正斜杠(`/`)，请在准备CSV之前使用连字符(`-`)或下划线(`_`)替换它们。 Adobe Learning Manager不允许在文件夹名称中使用`/`，因为它是为文件夹路径解析而保留的。
+
+#### content_folder.csv
+
+使用`content_folder.csv`定义目标文件夹层次结构。 文件中的每一行代表一个文件夹。
+
+**列引用：**
+
+| 列 | 必填项 | 描述 |
+| --- | --- | --- |
+| `id` | 是 | 分配给此文件夹的唯一标识符。 这是您自己的参考ID，例如，源系统中的类别ID。 用于链接文件中的父文件夹和子文件夹，并使迁移可安全地重新运行。 |
+| `name` | 是 | 文件夹的显示名称。 最多63个字符。 不能包含正斜杠(`/`)。 在具有相同父级的文件夹中必须是唯一的。 |
+| `description` | 否 | 文件夹的可选说明。 最多2,046个字符。 |
+| `parentExternalId` | 否 | 父文件夹的`id`。 对于级别1（根）文件夹，保留为空。 对于“级别2”文件夹，请输入“级别1”父级的`id`。 对于3级文件夹，请输入2级父级的`id`。 |
+| `action` | 是 | 要执行的操作： `CREATE_FOLDER`、`UPDATE_FOLDER`或`DELETE_FOLDER`。 |
+
+**示例：**
+
+```
+id,name,description,parentExternalId,action
+folder_001,Training,,, CREATE_FOLDER
+folder_002,Sales,,folder_001,CREATE_FOLDER
+folder_003,Onboarding,,folder_002,CREATE_FOLDER
+folder_004,HR,,,CREATE_FOLDER
+folder_005,Compliance,,folder_004,CREATE_FOLDER
+```
+
+在此示例中：
+
+* `Training`和`HR`是第1级文件夹（无父级）
+* `Sales`是`Training`下的2级文件夹
+* `Onboarding`是`Sales`下的3级文件夹
+* `Compliance`是`HR`下的2级文件夹
+
+**验证规则：**
+
+* 文件夹不能是其自己的祖先 — 不允许循环引用
+* 最大文件夹深度为3个级别（1级→2级→3级）
+* 两个具有相同主页的文件夹不能具有相同的名称
+* `parentExternalId`必须引用同一CSV文件中的另一行或您帐户中已存在的文件夹
+* 父文件夹必须在其子文件夹之前列出
+
+>[!NOTE]
+>
+>您可以在`parentExternalId`列中使用前缀`existing:`后跟文件夹ID （例如，`existing:12345`），将帐户中的现有文件夹（在此迁移之前创建）引用为新文件夹的父文件夹。
+
+### 阶段2：将内容与文件夹关联
+
+内容文件通过`module_version.csv`文件中的`folder`列与文件夹关联。 此阶段不需要单独的CSV。
+
+#### Updated module_version.csv — 文件夹列
+
+`module_version.csv`中的`folder`列现在除了支持简单文件夹名称外，还支持文件夹路径。
+
+| 文件夹值 | 如何解决此问题 |
+| --- | --- |
+| `Sales`（无斜杠） | 按文件夹名称解析 — 第1级文件夹的现有行为 |
+| `Training/Sales/Onboarding`（正斜杠） | 按路径解析 — 从级别1向下导航到每个级别以到达目标子文件夹 |
+| `"Training/Sales,HR/Compliance"`（用逗号分隔，带引号） | 将内容文件与多个文件夹关联；每个路径单独解析 |
+| （空白） | 无文件夹关联 — 内容保留在默认位置 |
+
+**示例：**
+
+```
+moduleId,moduleVersion,contentType,...,folder
+MOD001,1,content,...,Training/Sales/Onboarding
+MOD002,1,content,...,HR/Compliance
+MOD003,1,content,...,"Training/Sales,HR/Compliance"
+MOD004,1,content,...,Marketing
+```
+
+>[!IMPORTANT]
+>
+>在将内容文件与多个文件夹关联时，在CSV文件中，逗号分隔列表必须用双引号括起来，因为逗号也用作分栏符。
+
+>[!NOTE]
+>
+>此阶段支持将内容文件添加到文件夹。 不支持使用文件夹路径方法从文件夹中删除内容文件 — 迁移后，请使用Adobe Learning Manager管理界面删除文件夹关联。
+
+### 迁移顺序
+
+运行完整内容迁移时，请按以下顺序上传和处理文件：
+
+1. `module.csv` — 定义您的模块
+2. `module_version.csv`（无文件夹路径） — 上传模块内容
+3. `course.csv` — 创建您的课程
+4. `course_module.csv` — 将模块链接到课程
+5. `content_folder.csv` — 创建文件夹层次结构（阶段1）
+6. `module_version.csv`（带文件夹路径） — 将内容与文件夹关联（阶段2）
+
+>[!NOTE]
+>
+>必须在包含文件夹路径的模块版本文件之前处理`content_folder.csv`，因为文件夹结构必须存在，才能将内容与它关联。
+
+### 校验和错误参考
+
+Adobe Learning Manager在处理前会验证`content_folder.csv`中的每一行。 验证失败的行将被跳过，并报告为错误。 将继续处理同一文件中的有效行。
+
+| 情景 | 发生什么情况 | 解决方法 |
+| --- | --- | --- |
+| 文件夹名称超过63个字符 | 行被拒绝 | 在重新上传之前，在CSV中缩短名称 |
+| 说明超过2,046个字符 | 行被拒绝 | 缩短CSV中的描述 |
+| 文件夹名称包含正斜杠(`/`) | 行被拒绝 | 将文件夹名称中的`/`替换为`-`或`_` |
+| 两个具有相同父级的文件夹具有相同的名称 | 行被拒绝 | 重命名其中一个重复的文件夹 |
+| `parentExternalId`引用的ID在文件或帐户中找不到 | 行被拒绝 | 确认父文件夹ID正确且已成功处理父行 |
+| 文件夹深度超过3个级别 | 行被拒绝 | 在迁移之前，将您的层次结构拼合到最多3个级别 |
+| 检测到循环引用（文件夹A是文件夹B的上级，文件夹B列为A的父级） | 整个CSV被拒绝 | 查看`parentExternalId`链并删除循环引用 |
+| `action`不是`CREATE_FOLDER`、`UPDATE_FOLDER`或`DELETE_FOLDER` | 行被拒绝 | 更正`action`值 — 仅接受这三个值 |
+| `DELETE_FOLDER`用于仍包含内容文件的文件夹 | 行被拒绝 | 在删除前将内容文件移动到另一个文件夹，或在管理界面中移除删除行和手动处理 |
+| `UPDATE_FOLDER`用于帐户中不存在的`id` | 行被拒绝 | 确认在上一次运行中成功创建了文件夹；将`CREATE_FOLDER`用于新文件夹 |
+| 已成功迁移的`id`的`CREATE_FOLDER` | 已跳过行 | 无需执行任何操作 — 这是重新运行迁移时的预期行为 |
+| `module_version.csv`中的文件夹路径引用的文件夹不存在 | 模块行被拒绝 | 首先运行文件夹结构Sprint，或验证文件夹名称和路径的拼写是否正确 |
+| 文件夹路径中的双斜杠（例如，`Training//Sales`） | 模块行被拒绝 | 从路径中删除多余的斜杠 |
+
+### 向后兼容性
+
+如果您已在迁移工作流程中使用`content_folder.csv`或`module_version.csv`，则现有文件将继续工作，而不进行任何更改。
+
+| 情景 | 行为 |
+| --- | --- |
+| 没有`parentExternalId`列的现有`content_folder.csv` | 工作方式相同 — 文件夹创建为第1级文件夹，与之前相同 |
+| 包含简单文件夹名称的现有`module_version.csv` （无`/`） | 工作方式相同 — 文件夹名称按名称查找进行解析，与之前相同 |
+| 包含包含`/`的文件夹路径的新`module_version.csv` | `/`的存在自动触发基于路径的分辨率 |
+| 在同一`module_version.csv`中混合使用简单名称和路径 | 每行都单独解析 — 这两种格式在同一文件中工作 |
+| 重新运行相同的`content_folder.csv` | 安全 — 自动跳过已经成功处理的行 |
+
+### 最佳实践
+
+**正在准备content_folder.csv**
+
+* 将源系统自己的类别或文件夹ID用作`id`值。 这些应用程序将永久存储以便重新运行跟踪，并且应保持稳定。
+* 文件夹名称不能超过63个字符。 在上传之前在CSV中截断。 迁移将拒绝超出限制的名称。
+* 确保同一主页下的两个文件夹没有相同的名称。 不同主页下的文件夹可以共享一个名称。
+* 虽然文件中的行顺序不会影响结果（迁移会自动对行进行排序），但在子文件夹之前列出父文件夹可使文件更易于审阅。
+
+**正在准备包含文件夹路径的module_version.csv**
+
+* 文件夹路径匹配不区分大小写，但在其他情况下，文件夹名称必须与在第1阶段中创建的完全匹配。
+* 请先运行阶段1（文件夹结构），然后再运行阶段2（内容关联）。 路径解析会检查已存在的文件夹 — 如果尚未创建文件夹，则模块行将失败。
+* 避免在路径中使用双斜杠 — `Training//Sales`将因路径段为空而失败。
+* 前导斜杠和尾随斜杠会自动修剪 — `Training/Sales/`和`/Training/Sales`都可以正确解析，但请避免使用它们以提高清晰度。
+
+**正在运行迁移**
+
+* 先进行小批量测试 — 上传10-20行以验证CSV格式，然后扩展到完整数据集。
+* 在启动模块版本Sprint之前，请先完成文件夹结构Sprint。 并行运行它们会导致路径解析失败。
+* 完成两个Sprint后，在Adobe Learning Manager管理界面中验证文件夹树是否显示正确的层次结构，以及内容文件是否显示在预期的文件夹中。

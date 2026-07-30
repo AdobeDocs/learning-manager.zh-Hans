@@ -3,9 +3,9 @@ description: 了解如何使用Adobe Learning Manager中的活动字段来捕获
 jcr-language: en_us
 title: 在Adobe Learning Manager中配置活动字段
 exl-id: e68300d6-9f19-4e42-b485-c4bbbbcf5518
-source-git-commit: a01ec6117ad49a1f9af0b31d48ad19ddc8443dde
+source-git-commit: 77fddea1c5458485124b8f14d387a69c5ecd11a7
 workflow-type: tm+mt
-source-wordcount: '1062'
+source-wordcount: '1080'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ Adobe Learning Manager中的活动字段是自定义用户属性，可帮助管�
 
 >[!INFO]
 >
->观看此ALM Academy培训，了解如何添加、自定义和配置活动字段。<br>[![按钮](assets/launch-training-button.png)](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/7555741)</br>
+>观看此ALM学院培训，了解如何添加、自定义和配置活动字段。<br>[![按钮](assets/launch-training-button.png)](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/7555741)</br>
 
 ## 添加活动字段
 
@@ -77,7 +77,7 @@ Adobe Learning Manager中的活动字段是自定义用户属性，可帮助管�
    ![](assets/settings-active-field.png)
    _选择“设置”选项卡以自定义活动字段_
 
-2. 根据需要，选择一个或两个选项。：
+2. 根据需要，选择一个或两个选项：
 
    * **在学习者登录时仅显示未填写的字段：**&#x200B;选择此选项后，学习者将仅看到他们尚未填写的活动字段。 这将提示他们填写个人资料，帮助确保用户数据准确且处于最新状态。 显示这些字段支持完整的学习者配置文件并支持个性化的学习体验。
    * **如果未选中，“填写您的个人资料”页面不会向用户显示：**&#x200B;如果禁用此选项，学习者登录时将看不到&#x200B;**填写您的个人资料**&#x200B;页面。 系统不会提示他们更新或填写任何配置文件信息，他们可以直接访问平台。
@@ -126,6 +126,6 @@ _用于在CSV上传期间启用值限制的复选框_
 
 如果CSV文件不包含所有活动字段，则管理员必须在导入后手动输入缺少的值。
 
-默认情况下，每个活动字段都必须映射到源CSV中的相应字段。 但是，如果您不想将特定的活动字段映射到CSV中的任何列，则可以在Box和FTP导入过程中从下拉列表中选择值&#x200B;**DontImportFromSource**。 通过FTP或Box连接器导入用户时，可使用此选项。 有关连接器的更多信息，请参阅此[文章](https://experienceleague.adobe.com/zh-hans/docs/learning-manager/using/integration/connectors)。
+默认情况下，每个活动字段都必须映射到源CSV中的相应字段。 但是，如果您不想将特定的活动字段映射到CSV中的任何列，则可以在Box和FTP导入过程中从下拉列表中选择值&#x200B;**DontImportFromSource**。 通过FTP或Box连接器导入用户时，可使用此选项。 有关连接器的更多信息，请参阅此[文章](/help/migrated/integration-admin/feature-summary/connectors.md)。
 
 

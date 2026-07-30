@@ -3,9 +3,9 @@ title: Adobe Learning Manager — 安全设置和配置管理
 description: 本文档概述了Adobe Learning Manager的管理帐户类型、安全相关设置、推荐的安全默认值、API功能、导出功能、配置比较方法、发布实践和版本历史记录。 它提供了有关特权帐户如何操作、其安全含义以及如何在整个平台上支持配置管理的详细指导。
 jcr-language: en-us
 exl-id: a2e34104-c417-407f-af85-9f3f4b2a9fcb
-source-git-commit: 3188d7f5593aeee87978e1e46456f01e1f41d57b
+source-git-commit: 77fddea1c5458485124b8f14d387a69c5ecd11a7
 workflow-type: tm+mt
-source-wordcount: '1954'
+source-wordcount: '1945'
 ht-degree: 0%
 
 ---
@@ -35,10 +35,10 @@ Adobe Learning Manager的两个特权帐户类型 — 自定义管理员和集�
 
 **引用**：
 
-* [自定义角色| Adobe Learning Manager](https://experienceleague.adobe.com/zh-hans/docs/learning-manager/using/admin/custom-role)
-* [通过CSV管理自定义角色| Adobe Learning Manager](https://experienceleague.adobe.com/zh-hans/docs/learning-manager/using/integration/configure-role-csv-files)
-* [应用程序开发人员手册\| Adobe Learning Manager](https://experienceleague.adobe.com/zh-hans/docs/learning-manager/using/integration/developer-manual)
-* [Adobe Learning Manager连接器](https://experienceleague.adobe.com/zh-hans/docs/learning-manager/using/integration/connectors)
+* [自定义角色 |Adobe Learning Manager](https://experienceleague.adobe.com/en/docs/learning-manager/using/admin/custom-role)
+* [通过CSV管理自定义角色 |Adobe Learning Manager](https://experienceleague.adobe.com/en/docs/learning-manager/using/integration/configure-role-csv-files)
+* [应用程序开发人员手册\| Adobe Learning Manager](https://experienceleague.adobe.com/en/docs/learning-manager/using/integration/developer-manual)
+* [Adobe Learning Manager连接器](/help/migrated/integration-admin/feature-summary/connectors.md)
 
 +++
 
@@ -69,9 +69,9 @@ Adobe Learning Manager记录了“管理员”角色和特权帐户类型的特�
 
 **引用**：
 
-* [设置| Adobe Learning Manager](https://experienceleague.adobe.com/zh-hans/docs/learning-manager/using/admin/custom-role)
-* [保护用户身份验证和密码| Adobe Admin Console](https://helpx.adobe.com/cn/enterprise/using/authentication-settings.html)
-* [自定义角色| Adobe Learning Manager](https://experienceleague.adobe.com/zh-hans/docs/learning-manager/using/admin/custom-role)
+* [设置 |Adobe Learning Manager](https://experienceleague.adobe.com/en/docs/learning-manager/using/admin/custom-role)
+* [安全的用户身份验证和密码 |Adobe Admin Console](https://helpx.adobe.com/enterprise/using/authentication-settings.html)
+* [自定义角色 |Adobe Learning Manager](https://experienceleague.adobe.com/en/docs/learning-manager/using/admin/custom-role)
 
 +++
 
@@ -95,7 +95,7 @@ Adobe Learning Manager没有专用的比较仪表板，无法自动显示当前�
 
 **引用**
 
-* [应用程序开发人员手册| Adobe Learning Manager](https://experienceleague.adobe.com/zh-hans/docs/learning-manager/using/integration/developer-manual)
+* [应用程序开发人员手册 |Adobe Learning Manager](https://experienceleague.adobe.com/en/docs/learning-manager/using/integration/developer-manual)
 
 +++
 
@@ -122,7 +122,7 @@ Adobe Learning Manager支持通过多种机制导出与安全相关的配置数�
 
 **引用**
 
-* [应用程序开发人员手册| Adobe Learning Manager](https://experienceleague.adobe.com/zh-hans/docs/learning-manager/using/integration/developer-manual)
+* [应用程序开发人员手册 |Adobe Learning Manager](https://experienceleague.adobe.com/en/docs/learning-manager/using/integration/developer-manual)
 
 +++
 
@@ -156,7 +156,7 @@ Adobe Learning Manager目前不以计算机可读的格式发布其《安全配�
 
 没有公开可用的OSCAL组件定义、YAML基线或JSON策略文件编码为Adobe Learning Manager建议的安全默认值。
 
-需要自动将当前设置与推荐基线进行比较的客户应使用[ALM REST API](https://experienceleague.adobe.com/zh-hans/docs/learning-manager/using/integration/developer-manual)以JSON格式检索当前配置数据。
+需要自动将当前设置与推荐基线进行比较的客户应使用[ALM REST API](https://experienceleague.adobe.com/en/docs/learning-manager/using/integration/developer-manual)以JSON格式检索当前配置数据。
 
 +++
 
@@ -189,8 +189,8 @@ Adobe Learning Manager会为每次产品更新保留一个公开可用的详细�
 
 **引用**：
 
-* [Adobe Learning Manager发行说明](https://experienceleague.adobe.com/zh-hans/docs/learning-manager/using/introduction/release-notes)
-* [Adobe Learning Manager的新增功能](https://experienceleague.adobe.com/zh-hans/docs/learning-manager/using/introduction/whats-new-july-2024)
-* [Adobe Learning Manager中的API弃用](https://experienceleague.adobe.com/zh-hans/docs/learning-manager/using/introduction/api-deprecations-list)
+* [Adobe Learning Manager发行说明](https://experienceleague.adobe.com/en/docs/learning-manager/using/introduction/release-notes)
+* [Adobe Learning Manager的新增功能](https://experienceleague.adobe.com/en/docs/learning-manager/using/introduction/whats-new-july-2024)
+* [Adobe Learning Manager中的API弃用](https://experienceleague.adobe.com/en/docs/learning-manager/using/introduction/api-deprecations-list)
 
 +++

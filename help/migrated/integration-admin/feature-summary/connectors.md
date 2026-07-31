@@ -1,11 +1,11 @@
 ---
 description: 每个ALM支持的连接器的概述
 jcr-language: en_us
-title: 概述支持ALM的连接器
+title: Adobe Learning Manager中的连接器概述
 contentowner: mmanuel
-source-git-commit: bd80ca31ff633e21ec81e717772e43989f0d9aae
+source-git-commit: 3750b1f8784209d9efcbf5aaae890c37365d7030
 workflow-type: tm+mt
-source-wordcount: '1424'
+source-wordcount: '1426'
 ht-degree: 6%
 
 ---

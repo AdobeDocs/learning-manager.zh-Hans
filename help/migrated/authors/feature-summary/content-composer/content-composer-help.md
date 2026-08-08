@@ -2,9 +2,9 @@
 title: Adobe Learning Manager Content Composer (Beta)帮助
 description: 从普通语言提示到已发布的课程，Adobe Learning Manager Content Composer会处理教学设计，您可以通过创作极具冲击力的教学内容，重点满足学习者需求。
 contentowner: saghosh
-source-git-commit: 70827aa150f7fd9946732075c2c38f5b89c3e1f9
+source-git-commit: 229e407621281978f94783c3e9320c237c314fc3
 workflow-type: tm+mt
-source-wordcount: '677'
+source-wordcount: '654'
 ht-degree: 0%
 
 ---
@@ -104,20 +104,7 @@ Content Composer通过对话引导作者完成培训目标、源资料和学习�
     <p>将您完成的课程部署到Adobe Learning Manager，并了解Content Composer和ALM如何划分创作、交付和报告职责。</p>
    </td>
   </tr>
-  <tr>
-   <td style="border:none;">
-    <a href="write-effective-prompts.md">
-    <img alt="编写有效提示" src="../assets/cc-prompts.png" style="width:200px; height:120px; object-fit:cover;">
-    </a>
-    <div>
-    <a href="write-effective-prompts.md"><strong>编写有效提示</strong></a>
-    </div>
-    <p>了解如何编写提示，以生成更好的摘要、更强大的轮廓和更准确的AI生成内容。</p>
-   </td>
-   <td style="border:none;"></td>
-   <td style="border:none;"></td>
-  </tr>
- </tbody>
+  </tbody>
 </table>
 
 ## 查找内容 {#lookthingsup}

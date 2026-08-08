@@ -1,10 +1,10 @@
 ---
 user-guide-title: Adobe Learning Manager 指南
-breadcrumb-title: Adobe Learning Manager
+breadcrumb-title: Learning Manager
 user-guide-description: Adobe Learning Manager 的文档
-source-git-commit: d0e810587cea3c4aba9ea2f79972d32e0315d2aa
+source-git-commit: 13e964e56d6c8adf1f6289ee11ace0e9fa29a083
 workflow-type: tm+mt
-source-wordcount: '1659'
+source-wordcount: '1658'
 ht-degree: 36%
 
 ---
@@ -14,15 +14,15 @@ ht-degree: 36%
 
 * [Adobe Learning Manager 用户指南](user-guide.md)
 * 简介 {#introduction}
-  * [2026年8月新增功能摘要](/help/migrated/whats-new.md)
-  * [2026年4月新增功能摘要](/help/migrated/whats-new-april-2026.md)
+  * [2026年8月新增功能摘要](whats-new.md)
+  * [2026年4月新增功能摘要](whats-new-april-2026.md)
   * [2025年10月新增功能摘要](/help/migrated/whats-new-october-2025.md)
   * [2025年5月新增功能摘要](/help/migrated/whats-new-may-2025.md)
   * [2024年11月新增功能摘要](/help/migrated/whats-new-nov-24.md)
   * [2024年7月新增功能摘要](whats-new-july-2024.md)
   * [2024年3月版新增功能](whats-new-march-2024.md)
-  * {hide-from-toc}[&#x200B; 2023年11月版新增功能](whats-new-november-2023.md)
-  * {hide-from-toc}[&#x200B; 2023年7月版新增功能](whats-new-2023-july.md)
+  * {hide-from-toc}[ 2023年11月版新增功能](whats-new-november-2023.md)
+  * {hide-from-toc}[ 2023年7月版新增功能](whats-new-2023-july.md)
   * {hide-from-toc}[Adobe Learning Manager中即将推出的更改](/help/migrated/upcoming-changes-in-adobe-learning-manager.md)
   * [发行说明](release-note/release-notes.md)
   * [系统要求](system-requirements.md)

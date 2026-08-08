@@ -2,9 +2,9 @@
 user-guide-title: Adobe Learning Manager 指南
 breadcrumb-title: Learning Manager
 user-guide-description: Adobe Learning Manager 的文档
-source-git-commit: 13e964e56d6c8adf1f6289ee11ace0e9fa29a083
+source-git-commit: 2ce14029fdeb3ffcb3bcd974405ba9c8eed2dba6
 workflow-type: tm+mt
-source-wordcount: '1658'
+source-wordcount: '1649'
 ht-degree: 36%
 
 ---
@@ -21,8 +21,8 @@ ht-degree: 36%
   * [2024年11月新增功能摘要](/help/migrated/whats-new-nov-24.md)
   * [2024年7月新增功能摘要](whats-new-july-2024.md)
   * [2024年3月版新增功能](whats-new-march-2024.md)
-  * {hide-from-toc}[&#x200B; 2023年11月版新增功能](whats-new-november-2023.md)
-  * {hide-from-toc}[&#x200B; 2023年7月版新增功能](whats-new-2023-july.md)
+  * {hide-from-toc}[ 2023年11月版新增功能](whats-new-november-2023.md)
+  * {hide-from-toc}[ 2023年7月版新增功能](whats-new-2023-july.md)
   * {hide-from-toc}[Adobe Learning Manager中即将推出的更改](/help/migrated/upcoming-changes-in-adobe-learning-manager.md)
   * [发行说明](release-note/release-notes.md)
   * [系统要求](system-requirements.md)
@@ -233,8 +233,6 @@ ht-degree: 36%
       * [编辑或添加图像](authors/feature-summary/content-composer/edit-add-image.md)
       * [添加内容组件](authors/feature-summary/content-composer/add-content-component.md)
       * [预览课程](authors/feature-summary/content-composer/preview-course.md)
-    * 编写有效提示 {#write-effective-prompt}
-      * [在Content Composer中编写有效提示](authors/feature-summary/content-composer/write-effective-prompts.md)
     * 共享和协作 {#share}
       * [共享和协作处理Content Composer课程](authors/feature-summary/content-composer/share-collaborate.md)
       * {hide-from-toc}[共享课程以供审阅](authors/feature-summary/content-composer/share-course-review.md)

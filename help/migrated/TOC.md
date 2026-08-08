@@ -1,11 +1,11 @@
 ---
 user-guide-title: Adobe Learning Manager 指南
-breadcrumb-title: Learning Manager
+breadcrumb-title: Adobe Learning Manager
 user-guide-description: Adobe Learning Manager 的文档
-source-git-commit: a8ce2cca26c50bde68789ae423478af9a9494dc3
+source-git-commit: b38c15a869caab4e6e3a86bc35ba27b11b1c0844
 workflow-type: tm+mt
-source-wordcount: '1153'
-ht-degree: 50%
+source-wordcount: '1659'
+ht-degree: 36%
 
 ---
 
@@ -21,8 +21,8 @@ ht-degree: 50%
   * [2024年11月新增功能摘要](/help/migrated/whats-new-nov-24.md)
   * [2024年7月新增功能摘要](whats-new-july-2024.md)
   * [2024年3月版新增功能](whats-new-march-2024.md)
-  * {hide-from-toc}[&#x200B; 2023年11月版新增功能](whats-new-november-2023.md)
-  * {hide-from-toc}[&#x200B; 2023年7月版新增功能](whats-new-2023-july.md)
+  * {hide-from-toc}[ 2023年11月版新增功能](whats-new-november-2023.md)
+  * {hide-from-toc}[ 2023年7月版新增功能](whats-new-2023-july.md)
   * {hide-from-toc}[Adobe Learning Manager中即将推出的更改](/help/migrated/upcoming-changes-in-adobe-learning-manager.md)
   * [发行说明](release-note/release-notes.md)
   * [系统要求](system-requirements.md)
@@ -47,7 +47,10 @@ ht-degree: 50%
   * [学习者快速入门指南](learners/feature-summary/getting-started-learner.md)
   * [面向经理的快速入门指南](managers/feature-summary/getting-started-manager.md)
   * [面向讲师的 Adobe Learning Manager 入门指南](instructors/feature-summary/getting-started.md)
+  * [Live Hub (Beta)快速入门](./getting-started-with-live-hub/getting-started-live-hub.md)
 * 管理员 {#admin}
+  * AI学习版(Beta) {#ai-in-learning}
+    * [启用实时中心](./administrators/feature-summary/enable-live-hub.md)
   * [Adobe Learning Manager中的Admin AI Assistant (Beta)](/help/migrated/administrators/feature-summary/alm-ai-assistant.md)
   * [Adobe Learning Manager中的Insights代理(Beta)](/help/migrated/administrators/feature-summary/insights-agent.md)
   * [用户](administrators/feature-summary/user-login.md)
@@ -58,6 +61,7 @@ ht-degree: 50%
   * [添加教室位置](administrators/feature-summary/classroom.md)
   * [创建课程实例和学习路径](administrators/feature-summary/courses.md)
   * [模块访问时间控制](/help/migrated/administrators/feature-summary/module-access-time-control.md)
+  * [管理假日](./getting-started-with-live-hub/manage-holidays.md)
   * Adobe Learning Manager中的Experience Builder {#experience-builder}
     * [概述](/help/migrated/administrators/feature-summary/experience-builder/overview.md)
     * [Experience Builder的核心组件](/help/migrated/administrators/feature-summary/experience-builder/components-in-experience-builder.md)
@@ -85,7 +89,7 @@ ht-degree: 50%
     * [策划Go1课程到学习路径](administrators/feature-summary/content-marketplace/curate-go1-playlist.md)
   * [L1反馈表单](/help/migrated/administrators/feature-summary/l1-feedback-form.md)
   * [报告](administrators/feature-summary/reports.md)
-  * [Report Builder] {#reportbuilder}
+  * Report Builder {#reportbuilder}
     * [Adobe Learning Manager中的Report Builder](administrators/feature-summary/alm-report-builder.md)
     * [Report Builder：概念和术语](administrators/feature-summary/report-builder-concepts-terminology.md)
     * [Report Builder中的可用数据集](administrators/feature-summary/report-builder-available-datasets.md)
@@ -101,7 +105,7 @@ ht-degree: 50%
     * [下载、共享和订阅报告](administrators/feature-summary/download-share-subscribe-report.md)
     * [在Report Builder中复制和重复使用报告](administrators/feature-summary/duplicate-reuse-report-in-report-builder.md)
     * [常见问题解答](administrators/feature-summary/faq-report-builder.md)
-    * [Adobe Learning Manager中的Report Builder限制](administrators/feature-summary/limitations-report-builder.md)
+    * [Report Builder限制](administrators/feature-summary/limitations-report-builder.md)
   * [组成功信息板](/help/migrated/administrators/feature-summary/group-success-dashboard.md)
   * [在Adobe学习管理器中设置一键式注册](/help/migrated/administrators/feature-summary/admin-one-click-enrollment.md)
   * [学习路径](administrators/feature-summary/learning-paths.md)
@@ -109,7 +113,7 @@ ht-degree: 50%
   * [学习计划](administrators/feature-summary/learning-plans.md)
   * [管理 Adobe Learning Manager 订单和帐单](administrators/feature-summary/billing-management.md)
   * [工作辅助](administrators/feature-summary/job-aids.md)
-  * [创建通道](administrators/feature-summary/create-channels.md)
+  * [创建渠道(Beta)](administrators/feature-summary/create-channels.md)
   * [认证](administrators/feature-summary/certifications.md)
   * [创建和自定义证书](/help/migrated/administrators/feature-summary/create-customize-certificate.md)
   * [目录](administrators/feature-summary/catalogs.md)
@@ -209,6 +213,57 @@ ht-degree: 50%
   * [电子邮件模板](authors/feature-summary/email-templates-author.md)
   * [如何选择课程模块？](authors/how-to-choose-modules.md)
   * [学习者预览](authors/feature-summary/fluidic-player.md)
+  * Adobe Learning Manager Content Composer (Beta) {#alm-content-composer}
+    * [Adobe Learning Manager Content Composer (Beta)帮助](authors/feature-summary/content-composer/content-composer-help.md)
+    * 快速入门 {#get-started}
+      * [什么是内容书写器](authors/feature-summary/content-composer/what-is-content-composer.md)
+      * [内容书写器工作原理](authors/feature-summary/content-composer/how-content-composer-works.md)
+      * [内容书写器适用对象](authors/feature-summary/content-composer/who-content-composer-is-for.md)
+      * [开始之前需要的](authors/feature-summary/content-composer/before-you-start.md)
+      * [将课程置于您自己的文档中](authors/feature-summary/content-composer/ground-course-documents.md)
+      * [内容书写器不是什么](authors/feature-summary/content-composer/what-content-composer-is-not.md)
+    * 创建课程 {#create-course}
+      * [编写提示](authors/feature-summary/content-composer/write-a-prompt.md)
+      * [完成课程简介](authors/feature-summary/content-composer/complete-course-brief.md)
+      * [管理源文件](authors/feature-summary/content-composer/manage-source-files.md)
+      * [编辑课程大纲](authors/feature-summary/content-composer/edit-course-outline.md)
+      * [查看生成的课程](authors/feature-summary/content-composer/review-generated-course.md)
+      * [查看和编辑测验](authors/feature-summary/content-composer/review-edit-quiz.md)
+      * [编辑课程文本](authors/feature-summary/content-composer/edit-course-text.md)
+      * [编辑或添加图像](authors/feature-summary/content-composer/edit-add-image.md)
+      * [添加内容组件](authors/feature-summary/content-composer/add-content-component.md)
+      * [预览课程](authors/feature-summary/content-composer/preview-course.md)
+    * 编写有效提示 {#write-effective-prompt}
+      * [在Content Composer中编写有效提示](authors/feature-summary/content-composer/write-effective-prompts.md)
+    * 共享和协作 {#share}
+      * [共享和协作处理Content Composer课程](authors/feature-summary/content-composer/share-collaborate.md)
+      * {hide-from-toc}[共享课程以供审阅](authors/feature-summary/content-composer/share-course-review.md)
+      * {hide-from-toc}[与学习者共享课程](authors/feature-summary/content-composer/share-course-learners.md)
+      * {hide-from-toc}[查看共享的课程](authors/feature-summary/content-composer/review-shared-course.md)
+      * {hide-from-toc}[查看课程并添加评论](authors/feature-summary/content-composer/view-add-comments-course.md)
+    * 配置课程设置 {#settings}
+      * [常规课程设置](authors/feature-summary/content-composer/general-course-settings.md)
+      * [设置完成和成功标准](authors/feature-summary/content-composer/set-completion-success-criteria.md)
+      * [配置测验设置](authors/feature-summary/content-composer/configure-quiz-settings.md)
+      * [连接并发布到Adobe Learning Manager](authors/feature-summary/content-composer/configure-alm-publish-settings.md)
+    * 管理课程主题 {#themes}
+      * [应用主题](authors/feature-summary/content-composer/apply-theme.md)
+      * [更改字体](authors/feature-summary/content-composer/change-fonts.md)
+      * [添加页眉和页脚](authors/feature-summary/content-composer/add-header-footer.md)
+      * [设置浅色模式或深色模式](authors/feature-summary/content-composer/set-light-dark-mode.md)
+      * [高级主题自定义](authors/feature-summary/content-composer/advanced-theme-customization.md)
+      * [创建主题](authors/feature-summary/content-composer/create-theme.md)
+      * [导出主题](authors/feature-summary/content-composer/export-theme.md)
+      * [导入主题](authors/feature-summary/content-composer/import-theme.md)
+    * 发布到 Adobe Learning Manager {#publishalm}
+      * [Adobe Learning Manager Content Composer和Adobe Learning Manager如何协同工作](authors/feature-summary/content-composer/alm-coco-work-together.md)
+      * [ALM中的模块版本控制](authors/feature-summary/content-composer/module-version-alm.md)
+      * [最佳实践](authors/feature-summary/content-composer/best-practices-publishing.md)
+      * [发布到 Adobe Learning Manager](authors/feature-summary/content-composer/publish-to-alm.md)
+    * 参考 {#reference}
+      * [Adobe Learning Manager Content Composer Beta版限制](authors/feature-summary/content-composer/content-composer-beta-limitations.md)
+      * [Adobe Learning Manager Content Composer常见问题](authors/feature-summary/content-composer/content-composer-faq.md)
+      * [主题JSON属性引用](authors/feature-summary/content-composer/theme-json-reference.md)
   * [设置](authors/feature-summary/settings.md)
 * 讲师 {#instructor}
   * [模块](instructors/feature-summary/modules.md)
@@ -224,7 +279,7 @@ ht-degree: 50%
   * [学习计划](learners/feature-summary/learning-programs.md)
   * [认证](learners/feature-summary/certifications.md)
   * [工作辅助](learners/feature-summary/job-aids.md)
-  * [发现渠道并参与其中](learners/feature-summary/discover-and-engage-with-channels.md)
+  * [发现渠道并参与其中(Beta)](learners/feature-summary/discover-and-engage-with-channels.md)
   * [ALM中的多物料购物车](learners/feature-summary/multi-item-cart.md)
   * [学习者成绩单](learners/feature-summary/alm-learner-gradebook.md)
   * [提交外部学习](learners/feature-summary/submit-external-learning.md)
@@ -255,14 +310,75 @@ ht-degree: 50%
   * [学习者成绩单](managers/feature-summary/learner-transcripts.md)
   * [设置](managers/feature-summary/settings.md)
   * [iPad 和 Android 平板电脑用户](managers/feature-summary/ipad-android-tablet-users.md)
-* Live Hub快速入门{#getting-started-with-live-hub}
-  * [关于Live中心](../migrated/getting-started-with-live-hub/about-live-hub.md)
+* 使用Live Hub (Beta) {#work-with-live-hub}
+  * [系统要求](./getting-started-with-live-hub/system-requirements-for-live-hub.md)
+  * Live Hub中的角色 {#roles-in-live-hub}
+    * [管理员](../migrated/getting-started-with-live-hub/administrator.md)
+    * [作者](../migrated/getting-started-with-live-hub/authors-in-live-hub-session.md)
+    * [讲师](../migrated/getting-started-with-live-hub/instructors-in-a-live-hub-session.md)
+    * [学习者](../migrated/getting-started-with-live-hub/learners-in-live-hub-session.md)
+  * [添加和管理讲师](../migrated/getting-started-with-live-hub/instructor-management.md)
+  * [创建实时中心会话](../migrated/getting-started-with-live-hub/create-a-live-hub-session.md)
+  * 加入实时中心会话 {#join-a-live-hub-session}
+    * [设置加入前屏幕](./getting-started-with-live-hub/setup-pre-join-screen-in-live-hub.md)
+    * [以讲师身份加入Live Hub会话](../migrated/getting-started-with-live-hub/join-live-hub-session-as-an-instructor.md)
+    * [以学习者身份加入实时中心会话](../migrated/getting-started-with-live-hub/join-live-hub-session-as-a-learner.md)
+  * [了解实时中心布局](../migrated/getting-started-with-live-hub/understand-the-live-hub-layout.md)
+  * 参与工具 {#engagement-tools}
+    * [以讲师身份管理会议室设置](../migrated/getting-started-with-live-hub/manage-settings.md)
+    * “与会者”面板 {#attendees-panel}
+      * [关于与会者面板](../migrated/getting-started-with-live-hub/about-the-attendees-panel.md)
+      * [管理“与会者”面板](../migrated/getting-started-with-live-hub/manage-the-attendees-panel.md)
+      * [使用“与会者”面板作为学习者](../migrated/getting-started-with-live-hub/use-the-attendees-panel-as-a-learner.md)
+    * “聊天”面板{#chat-panel}
+      * [关于“聊天”面板](../migrated/getting-started-with-live-hub/about-the-chat-panel.md)
+      * [以讲师身份使用“聊天”面板](../migrated/getting-started-with-live-hub/use-the-chat-panel-as-an-instructor.md)
+      * [学习者可使用“聊天”面板](../migrated/getting-started-with-live-hub/use-the-chat-panel-as-a-learner.md)
+    * 举手做出反应 {#raise-your-hand-and-use-reactions}
+      * [关于举手和反应](../migrated/getting-started-with-live-hub/about-raise-hand-and-reactions.md)
+      * [管理参与者的举手和反应](../migrated/getting-started-with-live-hub/manage-participant-raised-hand-and-reactions.md)
+      * [举手做出反应](../migrated/getting-started-with-live-hub/raise-hand-and-send-reactions.md)
+    * 会话中的屏幕共享 {#screen-sharing-in-sessions}
+      * [关于屏幕共享](../migrated/getting-started-with-live-hub/about-the-screen-sharing.md)
+      * [以讲师身份共享屏幕](../migrated/getting-started-with-live-hub/share-your-screen-as-an-instructor.md)
+      * [以学习者身份共享屏幕](../migrated/getting-started-with-live-hub/share-your-screen-as-a-learner.md)
+    * 共享白板{#share-a-whiteboard}
+      * [关于白板](../migrated/getting-started-with-live-hub/about-the-whiteboard.md)
+      * [共享白板](../migrated/getting-started-with-live-hub/share-a-whiteboard.md)
+      * [使用白板作为学习者](../migrated/getting-started-with-live-hub/use-whiteboard-as-a-learner.md)
+    * 进行投票 {#conduct-polls}
+      * [关于投票](../migrated/getting-started-with-live-hub/about-the-polls.md)
+      * [创建和启动投票](../migrated/getting-started-with-live-hub/create-and-launch-a-poll.md)
+      * [响应投票](../migrated/getting-started-with-live-hub/respond-to-a-poll.md)
+    * 创建测验{#create-a-quiz}
+      * [关于测验](../migrated/getting-started-with-live-hub/about-the-quiz.md)
+      * [创建和管理测验](../migrated/getting-started-with-live-hub/create-and-manage-a-quiz.md)
+      * [尝试测试](../migrated/getting-started-with-live-hub/attempt-a-quiz.md)
+    * [跟踪参与者的参与情况](../migrated/getting-started-with-live-hub/track-the-participant-engagement.md)
+    * 拆分 {#breakouts}
+      * [关于分组讨论](../migrated/getting-started-with-live-hub/about-the-breakouts.md)
+      * [创建和管理分组讨论会话](../migrated/getting-started-with-live-hub/create-and-manage-breakout-rooms.md)
+      * [参加分组讨论](../migrated/getting-started-with-live-hub/participate-in-a-breakout-session.md)
+    * 隐藏式字幕 {#closed-captions}
+      * [了解隐藏式字幕](../migrated/getting-started-with-live-hub/closed-captions-in-live-hub.md)
+      * [以讲师身份管理隐藏式字幕](../migrated/getting-started-with-live-hub/manage-closed-captions-as-an-instructor.md)
+      * [以学习者身份管理隐藏字幕](../migrated/getting-started-with-live-hub/manage-closed-captions-as-a-learner.md)
+    * 录制和转录文本{#recordings-and-transcripts}
+      * [了解录制内容和转录文本](../migrated/getting-started-with-live-hub/understanding-recordings-and-transcripts.md)
+      * [录制会话](../migrated/getting-started-with-live-hub/record-a-session.md)
+      * [以学习者身份查看录制](../migrated/getting-started-with-live-hub/view-recordings-as-a-learner.md)
+    * 会话信息板 {#session-dashboard}
+      * [查看会话信息板](../migrated/getting-started-with-live-hub/view-the-session-dashboard.md)
+      * [“会话”操控板的组件](../migrated/getting-started-with-live-hub/components-of-the-session-dashboard.md)
+  * [最佳实践](../migrated/getting-started-with-live-hub/best-practices-for-a-live-hub-session.md)
+  * [使用移动设备上的Live Hub作为学习者](./getting-started-with-live-hub/live-hub-mobile-experience-for-learners.md)
 * 常见问题解答 {#faq}
   * [管理员常见问题解答](administrators/frequently-asked-questions-for-administrators.md)
   * [作者常见问题解答](authors/frequently-asked-questions-for-authors.md)
   * [讲师常见问题解答](instructors/frequently-asked-questions-for-instructors.md)
   * [经理常见问题解答](managers/frequently-asked-questions-for-managers.md)
   * [学习者常见问题解答](learners/frequently-asked-questions-for-learners.md)
+  * [Live Hub会话的常见问题解答](../migrated/getting-started-with-live-hub/frequently-asked-questions-for-live-hub.md)
   * [新的Experience League公告](/help/migrated/new-experience-league-announcement.md)
   * [如何在Experience League时提交支持票证](/help/migrated/how-to-submit-support-ticket.md)
   * [在Adobe Learning Manager中创建试用帐户](/help/migrated/create-trial-account.md)
@@ -274,6 +390,7 @@ ht-degree: 50%
 * 报告更改 {#reporting-changes}
   * [报告2026年8月版中的更改](/help/migrated/reporting-changes-august-2026.md)
 * 知识库 {#knowledge-base}
+  * [Live Hub故障排除指南](./kb/troubleshooting-guide-for-live-hub.md)
   * [无法登录 Adobe Learning Manager](kb/unable-log-in-learning-manager.md)
   * [学习摘要不显示当前数据](kb/learning-summary-not-display-data.md)
   * [无法上传 CSV](kb/unable-to-upload-csv.md)

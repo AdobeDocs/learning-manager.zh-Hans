@@ -138,9 +138,9 @@ ht-degree: 0%
 
 学习者可以通过以下两种方式注册实时中心课程：
 
-1. **管理员**&#x200B;根据组织要求为学习者注册了课程。 有关详细信息，请查看[创建课程实例和学习路径](https://experienceleague.adobe.com/en/docs/learning-manager/using/admin/courses)。
+1. **管理员**&#x200B;根据组织要求为学习者注册了课程。 有关详细信息，请查看[创建课程实例和学习路径](https://experienceleague.adobe.com/zh-hans/docs/learning-manager/using/admin/courses)。
 
-1. 学习者可以直接从&#x200B;**目录**&#x200B;页面自行注册课程。 如果课程配置为自助注册，则学习者可立即注册并从&#x200B;**我的学习**&#x200B;中访问课程。 有关详细信息，请查看[我的学习](https://experienceleague.adobe.com/en/docs/learning-manager/using/learner/courses)。
+1. 学习者可以直接从&#x200B;**目录**&#x200B;页面自行注册课程。 如果课程配置为自助注册，则学习者可立即注册并从&#x200B;**我的学习**&#x200B;中访问课程。 有关详细信息，请查看[我的学习](https://experienceleague.adobe.com/zh-hans/docs/learning-manager/using/learner/courses)。
 
 注册后，学习者便会添加到课程中并在其Adobe Learning Manager帐户中收到通知。 根据帐户的电子邮件通知设置，学习者还可能会收到通过电子邮件加入课程的邀请。
 

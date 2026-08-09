@@ -4,9 +4,9 @@ title: 学习者预览
 description: 流体播放器是一个平台，能为学习者在学习中提供不间断和混合式学习体验。 所有受支持的格式都会在此播放器上播放。 作者和管理员可以使用播放器预览内容。
 contentowner: manochan
 exl-id: 68d43f50-f2ad-4c7e-8e5b-62ddd8097770
-source-git-commit: 0f7f42d18c81d18b6f6592a90f9322f0cd9dcce4
+source-git-commit: 47845b67e3ac66898d521fea4173b8a04b07f959
 workflow-type: tm+mt
-source-wordcount: '275'
+source-wordcount: '274'
 ht-degree: 68%
 
 ---
@@ -33,7 +33,7 @@ ht-degree: 68%
 
 流体播放器支持11种语言。 这些报告分别是：
 
-| 语言 | 地区 | IBM标识符 |
+| 语言 | 地区 | 标识信息 |
 |---|---|---|
 | 阿拉伯语 | 沙特阿拉伯 | ar-SA |
 | 繁体中文 | 中国香港特别行政区 | zh-Hant-HK |

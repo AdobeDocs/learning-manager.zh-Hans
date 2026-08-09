@@ -4,16 +4,16 @@ title: 如何选择课程模块？
 description: Adobe Learning Manager支持四种类型的课程模块。 如果您是创建培训计划的负责人，则可能会想知道如何选择模块以满足公司的需求。 根据您公司的预算和受众需求，您可以选择不同的课程模块。 下文将介绍每类模块的一些典型用例，供您参考。
 contentowner: jayakarr
 exl-id: 21f9aae7-e192-4318-9df4-4fedf52c6d85
-source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
+source-git-commit: fcbe70fb0eef5aae891f6a222112804707dfe626
 workflow-type: tm+mt
-source-wordcount: '579'
-ht-degree: 88%
+source-wordcount: '648'
+ht-degree: 75%
 
 ---
 
 # 如何选择课程模块？
 
-Adobe Learning Manager 支持四类课程模块。如果您是创建培训计划的负责人，则可能会想知道如何选择模块以满足公司的需求。 根据您公司的预算和受众需求，您可以选择不同的课程模块。 下文将介绍每类模块的一些典型用例，供您参考。
+Adobe Learning Manager 支持四类课程模块。 如果您是创建培训计划的负责人，则可能会想知道如何选择模块以满足公司的需求。 根据您公司的预算和受众需求，您可以选择不同的课程模块。 下文将介绍每类模块的一些典型用例，供您参考。
 
 <table>
  <tbody>
@@ -106,14 +106,15 @@ Adobe Learning Manager 支持四类课程模块。如果您是创建培训计划
   <tr>
    <td><img src="assets/virtual-classroom.png"></td>
    <td>
-    <p>在虚拟教室培训中，讲师现场直播，学习者通过网络参加课程。 学习者需要在规定的时间上课。 但是上课的地点没有任何限制。</p>
+    <p>如果希望学习者在在线环境中参加讲师引导的实时课程，请使用虚拟教室模块。 这些会话可使用Live Hub（Learning Manager中内置的AI实时虚拟培训工具）或Zoom、Microsoft Teams等外部工具来交付。</p>
     <p> </p>
     <p> </p>
     <p><strong>优势</strong></p>
     <ul>
-     <li>如果课程并不复杂，则可以选择教室模块</li>
-     <li>如果学习者和讲师属于位于不同地点的分布式团队。 </li>
-     <li>您可以节省学习者和讲师的后勤成本。</li>
+     <li>适用于需要与讲师实时互动的会话，例如讨论、问答或引导式学习</li>
+     <li>支持跨不同地点的分布式团队培训，而无需实际驻留。 </li>
+     <li>降低学习者和讲师的后勤成本。</li>
+     <li>借助Live Hub，您可以直接在Learning Manager中开展会议，而无需依赖外部工具，从而确保无缝集成的学习体验。 其AI功能还可以帮助您快速找到合适的讲师和时间段。</li>
     </ul></td>
   </tr>
  </tbody>
@@ -125,7 +126,7 @@ Adobe Learning Manager 支持四类课程模块。如果您是创建培训计划
  <tbody>
   <tr>
    <td>
-    <p><strong>功能 </strong></p></td>
+    <p><strong>特色 </strong></p></td>
    <td>
     <p><strong>教室模块</strong></p></td>
    <td>

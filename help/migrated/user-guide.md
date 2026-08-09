@@ -3,16 +3,16 @@ title: 欢迎使用 Adobe Learning Manager 用户指南
 description: 了解Adobe Learning Manager（以前为Adobe Captivate Prime）中的最新产品。 自始至终，独自访问各个部分；或与社区交流互动，用你的方式完成整个项目。
 contentowner: dhv
 exl-id: 482314a1-1cb1-4fb7-aa52-ee1969c5240a
-source-git-commit: 3376f0d23e3c964360b782ce1678b533eee4e65d
+source-git-commit: 7df65804882833d8a840634d0d4007142e6a72de
 workflow-type: tm+mt
-source-wordcount: '142'
-ht-degree: 45%
+source-wordcount: '150'
+ht-degree: 30%
 
 ---
 
 # 欢迎使用 Adobe Learning Manager 用户指南
 
-继续阅读以了解Adobe Learning Manager（以前为Adobe Captivate Prime）的最新产品。 自始至终，独自访问各个部分；或与社区交流互动，用你的方式完成整个项目。
+继续阅读以了解Adobe Learning Manager（以前为Adobe Captivate Prime）的最新产品。 从头开始，按照自己的进度探索每个部分，或者在项目完成时与社区建立联系。
 
 ## 加入对话 {#jointheconversation}
 
@@ -23,35 +23,36 @@ ht-degree: 45%
 <table style="table-layout:fixed">
  <tbody>
   <tr>
-   <td>
+   <td style="width:25%; text-align:left; vertical-align:top;">
     <a href="whats-new.md">
-    <img alt="新增功能" src="assets/prime-new.jpeg">
+    <img alt="新增功能" src="assets/new-features-summary.png" width="150">
     </a>
-    <div>
+    <div style="margin-top:12px; line-height:1.4;">
     <a href="whats-new.md"><strong>新功能摘要</strong></a>
     </div>
    </td>
-   <td>
+   <td style="width:25%; text-align:left; vertical-align:top;">
     <a href="system-requirements.md">
-    <img alt="系统要求" src="assets/prime-reqs.jpeg">
+    <img alt="系统要求" src="assets/system-requirements.png" width="150">
     </a>
+    <div style="margin-top:12px; line-height:1.4;">
     <a href="system-requirements.md"><strong>系统要求</strong></a>
-    </p>
+    </div>
    </td>
-   <td>
+   <td style="width:25%; text-align:left; vertical-align:top;">
     <a href="integration-admin/feature-summary/connectors.md">
-    <img alt="连接器" src="assets/prime-connector.jpeg">
+    <img alt="连接器" src="assets/learning-manager-connectors.png" width="150">
     </a>
-    <div>
+    <div style="margin-top:12px; line-height:1.4;">
     <a href="integration-admin/feature-summary/connectors.md"><strong>Learning Manager连接器</strong></a>
     </div>
    </td>
-   <td>
-    <a href="accessibility-learning-manager.md">
-    <img alt="辅助功能" src="assets/prime-accessibility.jpeg">
+   <td style="width:25%; text-align:left; vertical-align:top;">
+    <a href="getting-started-live-hub.md">
+    <img alt="live hub快速入门" src="assets/getting-started-live-hub.png" width="150">
     </a>
-    <div>
-    <a href="accessibility-learning-manager.md"><strong>Adobe Learning Manager中的辅助功能</strong></a>
+    <div style="margin-top:12px; line-height:1.4;">
+    <a href="../migrated/getting-started-with-live-hub/getting-started-live-hub.md"><strong>开始使用Live Hub</strong></a>
     </div>
    </td>
   </tr>

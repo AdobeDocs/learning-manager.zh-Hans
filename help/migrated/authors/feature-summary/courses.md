@@ -4,10 +4,10 @@ jcr-language: en_us
 title: 创建、修改和发布课程
 contentowner: manochan
 exl-id: c5257796-0afa-4021-bd17-d3f1e9a86948
-source-git-commit: 0862e0d042fac74377b44c3387a72336ec625161
+source-git-commit: 69b71c03b9efa8726d939b53a185d5efb8eb9cca
 workflow-type: tm+mt
-source-wordcount: '10009'
-ht-degree: 57%
+source-wordcount: '10239'
+ht-degree: 56%
 
 ---
 
@@ -55,10 +55,10 @@ Adobe Learning Manager 允许作者使用一个或多个与虚拟培训、自学
 4. 要提供课程的其他语言版本，请单击页面左上角的“添加新语言”。 选择希望提供的课程语言。 单击“**[!UICONTROL 保存]**”。 有关更多信息，请参阅[添加不同语言的内容](/help/migrated/authors/feature-summary/content-library.md)。
 5. **修改课程设置**-
 
-   a.在“课程设置”页面上，选择课程的技能。从“技能”下拉列表中，选择所需的技能。然后，从“级别”下拉列表中选择所需的级别。
-   b.选择课程技能、级别并设置技能的积分。如果需要，添加更多技能。
-   c.如果需要，可将自定义合规性标签添加到课程中。请参阅[将合规性标签添加到课程/学习路径/认证](/help/migrated/authors/feature-summary/courses.md#add-compliance-labels-to-courselearning-pathcertification)。
-   d.从&#x200B;**注册类型**&#x200B;下拉列表中，选择注册类型。
+   a. 在“课程设置”页面，选择该课程的技能。 从“技能”下拉列表中，选择所需的技能。 然后，从“级别”下拉列表中，选择所需的级别。
+   b. 选择课程技能、级别并设置技能的积分。 如有需要，添加更多技能。
+   c. 如果需要，可将自定义合规性标签添加到课程中。 请参阅[将合规性标签添加到课程/学习路径/认证](/help/migrated/authors/feature-summary/courses.md#add-compliance-labels-to-courselearning-pathcertification)。
+   d. 从&#x200B;**“注册类型”**&#x200B;下拉列表中，选择注册类型。
 
    注册类型说明如下：
 
@@ -213,7 +213,7 @@ Adobe Learning Manager 允许作者使用一个或多个与虚拟培训、自学
    >对于自定义合规性类型标签，最多可有50个课程、学习路径或认证具有相同的值。
 
 1. 保存并发布课程/学习路径/认证。
-现在，课程/学习路径/认证被视为一种合规性类型。管理员可将此课程添加到合规性信息板，并与经理共享以跟踪进度
+现在，课程/学习路径/认证被视为一种合规性类型。 管理员可将此课程添加到合规性信息板，并与经理共享以跟踪进度
 
 >[!NOTE]
 >
@@ -230,7 +230,7 @@ Adobe Learning Manager 允许作者使用一个或多个与虚拟培训、自学
 5. 输入实例的属性：
 
    * 在&#x200B;**[!UICONTROL 实例名称]**&#x200B;字段中，输入要与该课程关联的实例的名称。 确保对实例使用唯一的名称。
-   * **开始日期：**&#x200B;这是课程的开始日期。您可以在两个不同的选定日期在此开始日期之前向学习者发送两封提醒电子邮件。开始日期必须早于完成日期。选择开始日期后，该日期将在实例的&#x200B;**通知警报**&#x200B;部分的日历中以蓝色突出显示。
+   * **开始日期：**&#x200B;这是课程的开始日期。 您可以在两个不同的选定日期在此开始日期之前向学习者发送两封提醒电子邮件。 开始日期必须早于完成日期。 选择开始日期后，该日期将在实例的&#x200B;**通知警报**&#x200B;部分的日历中以蓝色突出显示。
      ![](assets/start-date-instance.png)
      ![](assets/start-date-highlighted-instance.png)
    * 指定实例的完成截止日期。 学习者必须在此日期之前达到课程完成状态。
@@ -249,7 +249,7 @@ Adobe Learning Manager 允许作者使用一个或多个与虚拟培训、自学
 2. 在日历上，选择第一个提醒的实例开始日期之前的日期。
 3. 选择右侧的&#x200B;**添加提醒**。
 4. **电子邮件模板：**&#x200B;从下拉列表中选择一个模板
-5. **重复周期：**&#x200B;从下拉列表中选择重复周期类型。选择右侧的蓝色复选标记以保存提醒日期。请记住，必须单独保存每个提醒日期。
+5. **重复周期：**&#x200B;从下拉列表中选择重复周期类型。 选择右侧的蓝色复选标记以保存提醒日期。 请记住，必须单独保存每个提醒日期。
    ![](assets/start-date-reminder1.png)
 6. 选择另一个日期（该日期也早于第二个提醒的课程开始日期），重复此过程，并选择右侧的蓝色复选标记以保存此提醒日期。
    ![](assets/start-date-reminder2.png)
@@ -591,6 +591,8 @@ Adobe Learning Manager 允许作者使用一个或多个与虚拟培训、自学
    * 如果选择&#x200B;**否**，则学习者需向组织者发送请求，而组织者可决定允许或拒绝其加入会议。
 
    **注意**：学习者必须在 Microsoft Teams 中可用， 但是该学习者能以访客的身份加入 Adobe Learning Manager。
+
+   如果管理员为ALM帐户启用了Live Hub，您还可以创建Live Hub课程。 如需使用Live Hub创建VC会话，请查看[创建Live Hub会话](../../getting-started-with-live-hub/create-a-live-hub-session.md)
 
    **教室模块：**&#x200B;在该模式下，学习者可以参加面对面讲座，并由受过培训的讲师提供协助。 输入标题、描述并设置会话的持续时间。 您还可指定教室的位置和执行会话的讲师。 要保存更改，请单击&#x200B;**[!UICONTROL “完成”]**。
 
@@ -1013,7 +1015,7 @@ Adobe Learning Manager为作者提供了创建、编辑和管理由多个内容�
 6. 键入必要的详细信息并选择日期。
 7. 选择“**[!UICONTROL 允许讲师标记课程通过”]**&#x200B;选项。
 
-   ![突出显示了“是否允许讲师标记学习成功？”复选框，作者能够让讲师记录模块的学习者成功状态](/help/migrated/authors/feature-summary/assets/allow-instructor-mark-success.png)
+   ![“是否允许讲师标记课程通过？” 复选框已突出显示，使得作者能够让讲师记录模块的学习者成功状态](/help/migrated/authors/feature-summary/assets/allow-instructor-mark-success.png)
    _针对教室或虚拟教室模块的“会话详细信息”屏幕，其中突出显示了“允许讲师标记成功”选项_
 
 8. 选择&#x200B;**[!UICONTROL 完成]**。

@@ -4,10 +4,10 @@ jcr-language: en_us
 title: 模块
 contentowner: shhivkum
 exl-id: b81e7ee4-b25f-498d-a780-3ef897f38268
-source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
+source-git-commit: a2b71f6c4f3255a814e1dad30b87059cc8315764
 workflow-type: tm+mt
-source-wordcount: '960'
-ht-degree: 70%
+source-wordcount: '1098'
+ht-degree: 61%
 
 ---
 
@@ -73,7 +73,7 @@ ht-degree: 70%
 
 模块讲师可批准/拒绝这些文件。 只有在讲师批准提交内容后，该模块才算完成。
 
- ![](assets/approve-reject-option.png)
+![](assets/activity-modules.png) ![](assets/approve-reject-option.png)
 *批准或拒绝文件*
 
 ## 评估清单模块 {#evaluate-checklist-module}
@@ -168,3 +168,16 @@ ht-degree: 70%
    *编辑分数和评论*
 
 1. 单击“**[!UICONTROL 保存]**”。
+
+## 实时中心会话
+
+对于使用Live Hub创建的会话，**会话概述**&#x200B;页面上的&#x200B;**Live Hub**&#x200B;部分提供了对关键会话活动的快速访问。
+
+&#x200B;- **进入虚拟教室**：选择&#x200B;**进入教室**&#x200B;以加入虚拟教室，或者在会话开始之前进行设置。 您还可以选择&#x200B;**复制URL**&#x200B;以复制会话链接并与参与者共享。
+
+&#x200B;- **查看会话分析**：选择&#x200B;**查看分析页面**&#x200B;以在会话结束后打开会话分析仪表板。 信息板可让您深入了解学习者出勤率、参与率、参与情况以及其他课程指标。
+
+&#x200B;- **查看录制**：如果会话已录制，请选择&#x200B;**查看录制**&#x200B;以直接从&#x200B;**会话概述**&#x200B;页面访问录制。 如果没有可用的录制，该卡会指示其状态。
+
+![“会话概述”页面](../../getting-started-with-live-hub/assets/session-overview-page.png)
+*显示有权访问实时中心活动的“实时中心”部分的“会话概述”页面。*

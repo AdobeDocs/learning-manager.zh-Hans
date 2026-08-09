@@ -3,9 +3,9 @@ description: 了解如何创建内容以作为与课程对应的自学内容。
 jcr-language: en_us
 title: 内容库
 exl-id: cc19eca6-6b47-44b2-ad23-2d7ad8975f65
-source-git-commit: 29302e039dfd8b8cc0c5fc20b46dc2403ce6c45b
+source-git-commit: ab7a0a07ebbb2607d67c7b8488e1a310878ab13a
 workflow-type: tm+mt
-source-wordcount: '6048'
+source-wordcount: '6082'
 ht-degree: 33%
 
 ---
@@ -444,20 +444,15 @@ Adobe Learning Manager对多语言视频文本轨道(VTT)的支持使作者能�
 4. 在&#x200B;**添加内容文件**&#x200B;下，拖放内容文件，或选择要浏览和上传的字段。
    ![](assets/cl2.png)
 
-5. 在&#x200B;**添加到文件夹**&#x200B;下，浏览文件夹或在搜索字段中搜索文件夹。
+5. 在&#x200B;**添加到文件夹**&#x200B;下，浏览文件夹或在搜索字段中搜索文件夹。 还可以选择多个文件夹。
    ![](assets/cl3.png)
 
 6. 选择&#x200B;**添加**。
 
 7. 根据需要，填写其余字段： **持续时间**、**标记**、**内容唯一ID**&#x200B;和&#x200B;**到期日期**。
 
-8. 选择&#x200B;**保存**。内容文件即会添加到内容库中，并显示在列表顶部。
+8. 选择&#x200B;**“保存”**。 内容文件即会添加到内容库中，并显示在列表顶部。
    ![](assets/cl4.png)
-
->[!NOTE]
->
->不能在公用和专用文件夹之间复制或移动内容。 如果您尝试这样做，Adobe Learning Manager会显示错误。
-
 
 ## 查看内容库中的文件夹路径
 
@@ -486,7 +481,7 @@ Adobe Learning Manager对多语言视频文本轨道(VTT)的支持使作者能�
 
 3. 使用下拉搜索框按名称查找文件夹。
 
-4. 一次最多可选择&#x200B;**25个文件夹**。 选择超过25则显示错误。
+4. 您可以一次选择多个文件夹。
 
 ## 将内容移至文件夹 {#movecontenttofolder}
 
@@ -721,8 +716,8 @@ Copying a folder means that you'd be adding a tag to the folder. The copy operat
    _用于输入唯一字母数字内容ID的字段_
 
 8. 选择内容的“Expiry Date”（到期日期）。 此日期不会影响内容可用性或学习者访问权限。 您可以选择1990到2037之间的任何日期。 如果选择了过去的日期，则会显示警告，但内容仍然可以发布。
-9. 选择&#x200B;**[!UICONTROL 保存]**。
-上传的内容现在显示在&#x200B;**[!UICONTROL 内容库]**&#x200B;中。
+9. 选择&#x200B;**[!UICONTROL “保存”]**。
+上载的内容现在显示在&#x200B;**[!UICONTROL 内容库]**&#x200B;中。
 
 ### 为语言设置内容唯一ID和到期日期
 
@@ -732,7 +727,7 @@ Copying a folder means that you'd be adding a tag to the folder. The copy operat
 2. 选择&#x200B;**[!UICONTROL “编辑”]**。
 3. 选择&#x200B;**[!UICONTROL 添加新语言]**。
 4. 从列表中选择任何语言。
-5. 选择&#x200B;**[!UICONTROL 保存]**。
+5. 选择&#x200B;**[!UICONTROL “保存”]**。
 内容唯一ID和到期日期现在显示在内容的特定语言版本上，如本示例中的德语。
 
 ### 使用内容唯一ID进行搜索

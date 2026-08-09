@@ -3,7 +3,7 @@ description: 了解Adobe Learning Manager 2025年5月版的新增功能和增强
 jcr-language: en_us
 title: 新功能摘要
 exl-id: 812d33c8-b2e4-43eb-adda-67dc356ca1ca
-source-git-commit: f9ab669fc4a4adbe582f269583e746473c991fc9
+source-git-commit: 51c59280cd44a025beda7d1183aafa6b7d6ebed4
 workflow-type: tm+mt
 source-wordcount: '2544'
 ht-degree: 0%
@@ -90,7 +90,8 @@ Adobe Learning Manager是一个多语言平台，其中学习者的语言偏好�
 
 对于Adobe Learning Manager本机平台的用户，此增强功能解决了即时用户配置的需要。 当用户创建帐户并首次登录时，此功能可确保准确捕获并应用其语言首选项。
 
-此功能可确保用户在通过SAML登录时自动更新语言首选项。 这有助于通过以用户的首选语言显示界面来提供个性化体验。当用户通过SAML登录时，将根据登录过程中提供的信息检查并更新其语言首选项（界面和内容语言）。
+此功能可确保用户在通过SAML登录时自动更新语言首选项。 这有助于通过以用户的首选语言显示界面来提供个性化体验。
+当用户通过SAML登录时，将根据登录过程中提供的信息检查并更新其语言首选项（界面和内容语言）。
 
 该功能与SAML登录进程集成，可无缝地捕获和更新用户的语言首选项。
 
@@ -126,9 +127,11 @@ _会话仪表板_
 
 ### 使用迁移确定内容的成功标准
 
-Adobe Learning Manager中用于导入模块的迁移过程现在支持添加用于定义成功标准的参数。现在，可通过在module_version.csv中添加三个新的可选列来支持此功能。 三个新的可选列为： `successCriteria`、`successQuizData`和`successViewPercent`。
+Adobe Learning Manager中用于导入模块的迁移过程现在支持添加用于定义成功标准的参数。
+现在，可通过在module_version.csv中添加三个新的可选列来支持此功能。 三个新的可选列为： `successCriteria`、`successQuizData`和`successViewPercent`。
 
-这些字段只接受特定值，如果输入的值无效，连接器将无法处理该文件。测验模块可以使用三种成功标准。 如果学习者根据得分的百分比值（由`successViewPercent`：以下定义）启动内容，则可将测试标记为“通过”，也可基于测验模块的结果（由`successQuizData`：以下定义）。 此值将根据以下说明进行填写。 successCriteria参数用于确定此项。
+这些字段只接受特定值，如果输入的值无效，连接器将无法处理该文件。
+测验模块可以使用三种成功标准。 如果学习者根据得分的百分比值（由`successViewPercent`：以下定义）启动内容，则可将测试标记为“通过”，也可基于测验模块的结果（由`successQuizData`：以下定义）。 此值将根据以下说明进行填写。 successCriteria参数用于确定此项。
 
 `successCriteria`：接受`LAUNCH_CONTENT`、`VIEW_PERCENT`、`QUIZ`或`VIEWPERCENT_OR_QUIZ`。
 
@@ -152,13 +155,14 @@ Webhook更改。
 
 ### 使用迁移为内容添加内容唯一ID和到期日期
 
-迁移期间现在支持内容唯一ID和到期日期。 module_version.csv文件中还添加了两个附加列：expiryDate和uniqueContentId，以启用此功能。 有关详细信息，请参阅此[示例CSV](assets/module_version_content.csv)和[CSV规范文件](assets/4-module_version_content.xlsx)。
+迁移期间现在支持内容唯一ID和到期日期。 module_version.csv文件中还添加了两个附加列：expiryDate和uniqueContentId，以启用此功能。 有关详细信息，请参阅此[示例CSV](/help/migrated/integration-admin/feature-summary/assets/sample-csvs-may-2025.zip)和[CSV规范文件](/help/migrated/integration-admin/feature-summary/assets/module-version.zip)。
 
 有关迁移过程的详细信息，请查看此[文章](/help/migrated/integration-admin/feature-summary/migration-manual.md)。
 
 ## Webhook的增强功能
 
-现在，Webhook支持在发生注册、取消注册或完成时的学习路径(LP)中的课程和认证事件。除了父级学习对象事件之外，还包括学习计划或认证中每个课程的支持事件。
+现在，Webhook支持在发生注册、取消注册或完成时的学习路径(LP)中的课程和认证事件。
+除了父级学习对象事件之外，还包括学习计划或认证中每个课程的支持事件。
 
 有关Webhook的详细信息，请查看此[文章](/help/migrated/integration-admin/feature-summary/webhooks-usage-guide.md)。
 

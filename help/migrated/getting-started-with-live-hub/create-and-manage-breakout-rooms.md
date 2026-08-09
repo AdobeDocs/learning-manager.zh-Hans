@@ -31,7 +31,7 @@ ht-degree: 0%
 将打开“拆分”面板。 在此处，您可以配置分组讨论室、分配学习者以及管理分组讨论会话设置。
 
 >[!NOTE]
->如果分组会话未启动，请查看[ Live Hub故障排除指南](../kb/troubleshooting-guide-for-live-hub.md#breakout-session-issues)，以了解常见错误消息的列表以及如何解决这些错误。
+>如果分组会话未启动，请查看[&#x200B; Live Hub故障排除指南](../kb/troubleshooting-guide-for-live-hub.md#breakout-session-issues)，以了解常见错误消息的列表以及如何解决这些错误。
 
 ## 设计分组讨论
 

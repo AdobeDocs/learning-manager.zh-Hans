@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # 编辑课程文本
 
-    ！[](../assets/15_lesson_image_text_block_fall_prevention_updated.png)
+    ！[&#128279;](../assets/15_lesson_image_text_block_fall_prevention_updated.png)
 
 选择任意文本元素以将光标置于其中。 画布底部会显示一个格式工具栏，其中包含粗体、斜体、下划线、删除线、链接、对齐和列表控件。
 

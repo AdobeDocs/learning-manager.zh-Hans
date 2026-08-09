@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # 查看生成的课程
 
-    ！[](../assets/11_course_view_generated_topic_content_updated.png)
+    ！[&#128279;](../assets/11_course_view_generated_topic_content_updated.png)
 
 Adobe Learning Manager Content Composer可生成包含文本、图像、知识检查以及测验的完整课程，且只需一个步骤。 生成完成后，**课程**&#x200B;编辑器自动打开。
 

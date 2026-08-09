@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # 编辑课程大纲
 
-    ！[](../assets/10_outline_tab_generated_lessons_topics_updated.png)
+    ！[&#128279;](../assets/10_outline_tab_generated_lessons_topics_updated.png)
 
 Adobe Learning Manager Content Composer会根据您的摘要和源文件生成课程和主题结构。 此时画布上会显示大纲，显示所有课程及其主题。
 

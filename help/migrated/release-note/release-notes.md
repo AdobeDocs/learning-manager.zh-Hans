@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Adobe Learning Manager发行说明
 contentowner: mmanuel
 exl-id: ae9251b6-5326-42c2-881e-2ab3393d9e17
-source-git-commit: a6f201e762963a524a6a935e84dafc4752604e4d
+source-git-commit: ab7a0a07ebbb2607d67c7b8488e1a310878ab13a
 workflow-type: tm+mt
-source-wordcount: '33074'
-ht-degree: 67%
+source-wordcount: '34007'
+ht-degree: 65%
 
 ---
 
@@ -19,17 +19,13 @@ ht-degree: 67%
   <tr>
    <td><img src="assets/cp-prime-appicon-88x84.png"></td>
    <td>
-    <p><a href="https://business.adobe.com/cn/products/learning-manager/adobe-learning-manager.html">Adobe Learning Manager</a> was launched in August 2015. As part of our continuous improvement efforts to enhance the product, we have been rolling out regular updates. Read on to know the features enhanced/issues fixed in update releases.<br></p></td>
+    <p><a href="https://business.adobe.com/products/learning-manager/adobe-learning-manager.html">Adobe Learning Manager</a> was launched in August 2015. As part of our continuous improvement efforts to enhance the product, we have been rolling out regular updates. Read on to know the features enhanced/issues fixed in update releases.<br></p></td>
   </tr>
  </tbody>
 </table>
 -->
 
 +++更新110：Adobe Learning Manager 2026年8月版
-
->[!IMPORTANT]
->
->本发行说明中描述的功能作为Beta版的一部分提供。 Adobe Learning Manager Beta版功能仅供评估之用，在正式发布之前可能会进行修改、限制或删除。 功能名称、行为和配置选项如有更改，恕不另行通知。
 
 ## 发布亮点
 
@@ -119,6 +115,66 @@ AI Orchestrator代理会将单个查询请求的目的检测移入Orchestrator�
 
 ## 版本中的已知问题
 
+### 讲师无法在模块之间加入虚拟教室
+
+讲师在尝试进入为其分配的课程模块安排的时间之外的教室时，无法加入虚拟教室。
+
+Adobe Learning Manager使用一个虚拟教室教室来容纳课程中的所有模块。 当讲师启动会议室时，会话将与链接到该讲师加入的模块相关联
+URL。 任何后续的加入请求都必须与与文件室关联的活动模块匹配。 如果在其他模块处于活动状态时，其他讲师尝试使用其他模块的加入链接进行加入，请访问
+房间被拒收。 在共享房间中，一次只能有一个模块处于活动状态。
+
+此行为在当前版本中是预期的。 在未来版本中，计划推出相关增强功能，无论活动模块为何，都允许课程讲师加入会议室。
+
+### macOS上的麦克风和扬声器不同时音频中断
+
+当选定的麦克风和扬声器是不同的设备时，在macOS上的虚拟教室会话期间，音频可能会间歇性中断或声音变得杂乱无章。
+
+当音频输入和输出使用不同的设备（例如用于麦克风的AirPod和用于播放的内置扬声器）时，可能会出现此行为。 因为每个设备都会引入自己的音频延迟、回声
+取消的效果不太好，背景噪声抑制有时可能会将语音部分误认为噪声。 这可能会导致短暂的音频中断。 在下列情况下，此问题会更加明显
+扬声器的声音以低音量捕捉，例如麦克风位于较远的位置。
+
+这是已知的平台限制，并非特定于Adobe Learning Manager。 在其他会议应用程序中也观察到类似行为。 此版本中未包含修补程序，正在评估未来版本的问题。
+
+对麦克风和扬声器使用同一设备以避免此行为。
+
+### 共享视频在失去焦点后在Chrome中冻结
+
+当讲师共享播放视频的Chrome窗口，然后将焦点从窗口移开时，与会者可能会看到共享内容冻结或显示黑屏。
+
+视频继续为讲师在本地播放，但远程与会者可能会在共享窗口失焦时看不到内容更新。 该行为因操作系统而异：
+
+- 在Windows上，与会者看到黑屏。
+- 在macOS上，与会者可以看到上次显示的视频帧。
+
+当焦点返回到共享浏览器窗口时，通常会恢复为与会者播放视频。
+
+这是浏览器和操作系统的限制，并非特定于Adobe Learning Manager。 此版本没有特定于产品的修补程序。
+
+在演示视频内容时，请聚焦共享浏览器窗口。 避免在播放期间切换回“虚拟教室”窗口。
+
+### 讲师无法加入已在使用的模块
+
+当讲师尝试同时启动使用同一虚拟教室的两个课程模块时，只有第一位讲师才能成功进入教室。
+
+Adobe Learning Manager使用单个共享虚拟教室作为课程实例。 当第一位讲师加入会议室时，会议室即与该讲师的模块相关联。 其他加入请求包括
+已针对活动模块进行验证。 如果其他讲师尝试使用其他模块链接加入，则拒绝访问。 因此，无法在同一个讲师主导的并发会话中进行
+课程实例，使用共享房间的各个模块。
+
+此行为在当前版本中是预期的，并且与现有会议室体系结构一致。 我们正在审核此功能，以便日后根据客户反馈进行增强。
+
+### 共享内容在返回实时中心窗口后显示隧道效果
+
+当讲师共享整个屏幕并返回实时中心窗口时，参与者可能会在共享内容中遇到隧道效应。 共享整个屏幕时，共享源将包含桌面上显示的所有内容。 切换回实时中心窗口会导致共享内容重复捕获和显示实时中心界面，从而导致意外的视觉行为。 这是全屏共享的已知限制，正在针对未来版本进行评估。
+
+共享特定的应用程序或窗口，而不是整个屏幕。 例如，共享您希望参与者查看的演示文稿或文档窗口。 共享单个应用程序可将共享内容隔离开来，并防止隧道效应。
+
+### 在重新加入已结束的会话后，会话信息板报告不会立即可用
+
+在重新加入已结束的会话后，会话信息板报告不会立即可用
+如果讲师在会话结束后查看会话信息板，然后使用其URL重新加入同一会话，则现有的会话信息板报告可能不再可用。 在处理上一个会话实例时，报告可能需要大约5到7分钟才能刷新并再次可用。 这是一个已知限制，正在针对未来版本进行评估。
+
+请在关闭会话后等待五到七分钟，然后再重新打开信息板URL。 这允许上一个会话实例完成处理，在此之后，会话仪表板报告再次可用。
+
 ### 导出的教室位置CSV中的列名称未本地化
 
 将UI区域设置设为英语以外的语言时，从“教室位置”页面导出的CSV文件会以英语显示列名（标题行），而不是以选定的语言显示。
@@ -137,7 +193,7 @@ AI Orchestrator代理会将单个查询请求的目的检测移入Orchestrator�
 
 ### “名额限制”字段允许的不现实值最大为4,294,967,295
 
-教室位置模式中的“名额限制”字段最多可接受4,294,967,295（约43亿）个值，该上限从技术上讲是由基础数据类型驱动的，而不是现实的业务约束。用户可以输入并保存不真实的席位数，例如1,000,000,000，而无需任何业务级别的验证拒绝。
+教室位置模式中的“名额限制”字段最多可接受4,294,967,295（约43亿）个值，该上限从技术上讲是由基础数据类型驱动的，而不是现实的业务约束。 用户可以输入并保存不真实的席位数，例如1,000,000,000，而无需任何业务级别的验证拒绝。
 此版本尚未应用任何修复；尚未商定或实施切合实际的业务上限。
 
 +++
@@ -184,7 +240,7 @@ AI Orchestrator代理会将单个查询请求的目的检测移入Orchestrator�
 4. 在左侧导航面板中导航至学习者。
    ![](assets/instructor-send-email1.png)
 5. 从学习者列表中选择一个学习者。
-6. 在右上角，**操作**&#x200B;下拉列表打开以显示更多选项（包括灰显选项）。**向全体人员发送电子邮件**&#x200B;是选项之一。
+6. 在右上角，**操作**&#x200B;下拉列表打开以显示更多选项（包括灰显选项）。 **向全体人员发送电子邮件**是选项之一。
    ![](assets/instructor-send-email2.png)
 
 **自动清除已删除的用户：**&#x200B;已删除用户的自动清除设置为一年作为删除所需的最短期限。 此功能已得到增强，以适应“天”后的数量。 管理员现在可以通过联系其客户成功经理来请求此更改，并从后端获取更改。
@@ -557,7 +613,7 @@ _Content update options_
 
 * 修复了内容模块更新为新版本后，已完成课程的学习者在重修课程时看到白色屏幕的问题。
 
-此外，有关即将对Adobe Learning Manager进行的更改的详细信息，请参阅此[文章](https://experienceleague.adobe.com/zh-hans/docs/learning-manager/using/introduction/upcoming-changes-in-adobe-learning-manager)。
+此外，有关即将对Adobe Learning Manager进行的更改的详细信息，请参阅此[文章](https://experienceleague.adobe.com/en/docs/learning-manager/using/introduction/upcoming-changes-in-adobe-learning-manager)。
 
 +++
 
@@ -795,8 +851,8 @@ Microsoft Teams 上的新 Adobe Learning Manager 应用程序旨在加强工作�
 **此更新中的已知问题**
 
 * 在Safari浏览器、移动设备和iPad MS Teams应用程序中，学习者目录上的“共享”按钮无法按预期工作。
-* 在其他计算机上删除应用程序后，“活动”选项卡中不显示通知。
-在iPhone 14上单击应用程序的“活动”选项卡中的通知时，不会发生任何情况。
+* 在其他计算机中删除应用程序后，“活动”选项卡中不会显示通知。
+在 iPhone 14 上单击应用程序的“活动”选项卡中的通知时，没有任何反应。
 * 在 MS Teams 应用程序上，Learning Manager 通知（已完成、已注册、截止和过期）不会在“活动”选项卡中显示课程状态和课程名称。
 * 如果集成管理员未批准 MS Teams 应用程序，则会显示包含 XML 内容的弹出窗口。
 * 更改语言后，MS Teams 上的 Adobe Learning Manager 应用程序的用户界面语言有时不会按预期更改。
@@ -821,8 +877,8 @@ Microsoft Teams 上的新 Adobe Learning Manager 应用程序旨在加强工作�
 
 ### 此版本中的性能改进
 
-执行学习者批量注册时，不会为每个学习者生成任何日志文件。
-我们优化了大型客户学习计划的处理过程。这样可以避免任何搜索问题或滞后。
+当学习者们进行批量注册时，不会为每个学习者生成任何日志文件。
+我们优化了大量用户注册学习计划时的处理流程， 这样可以避免任何搜索问题或滞后。
 +++
 
 +++更新 87
@@ -854,8 +910,8 @@ Microsoft Teams 上的新 Adobe Learning Manager 应用程序旨在加强工作�
 
 ### 本次更新中修复的错误
 
-对于某些区域设置，搜索返回的结果不正确。
-当课程包含同一区域设置的多个变体时，课程元数据会被覆盖。
+对于某些区域设置，搜索后会返回错误结果。
+如果课程的同一区域设置有多个变体，课程元数据则会被覆盖。
 +++
 
 +++更新 84
@@ -1363,7 +1419,7 @@ Adobe Learning Manager 为所有管理员和经理提供合规性信息板。 �
 
 +++更新 66 - Adobe Learning Manager 2021 年 8 月版
 
-**2021 年 8 月**&#x200B;**版 Adobe Learning Manager** 侧重于改进学习者体验、报告和管理工作流程。 其中一些亮点如下：
+**2021 年 8 月****版 Adobe Learning Manager** 侧重于改进学习者体验、报告和管理工作流程。 其中一些亮点如下：
 
 * **内容市场：** Adobe Learning Manager 现提供 70000 多门来自不同领域的课程，如技术、管理、领导力等。
 * **增强辅助功能支持：**&#x200B;通过强化键盘导航、屏幕阅读器功能和对比度合规性，增强对学习者角色的辅助功能支持。
@@ -2037,7 +2093,7 @@ Adobe Learning Manager 2020 年 4 月版本侧重于以下内容：
 
 学习者可以打开外部证书并上传 pdf、文本或图像文件等资产。
 
-有关详细信息，请参阅&#x200B;[***上传外部证书中的资产***](../learners/feature-summary/ipad-android-tablet-users.md#externalcert)。**&#x200B;**
+有关详细信息，请参阅&#x200B;[***上传外部证书中的资产***](../learners/feature-summary/ipad-android-tablet-users.md#externalcert)。****
 
 ### 此版本中修复的问题 {#issuesfixedinthisrelease}
 
@@ -2356,7 +2412,7 @@ Adobe Learning Manager 现在还允许学习者通过 SSO 身份验证进入连�
 
 ### 新功能和增强功能 {#Newandenhancedfeatures-5}
 
-**为内部和外部用户区分社交学习中的范围**&#x200B;管理员可以为内部和外部学习者定义不同的范围。 新增了分别面向内外部用户的两个部分。 在这两个部分中，您可定义各学习者组的相应范围。 对于内部用户，您可以定义“用户特征”的值。 对于外部用户，您可以定义外部个人资料，学习者可以在其中共享相同的社交空间。 有关更多信息，请参阅&#x200B;[***范围设置***](../administrators/feature-summary/social-learning-configurations-as-an-admin.md#scopesettings)。  **对社交讨论区的创建加以限制**&#x200B;为加强讨论区管理，对学习者人人可以创建讨论区的情况加以限制，管理员可将讨论区创建权限授予选定的用户组。 管理员可将讨论区创建权限授予选定的用户组，而非参与社交学习的所有学习者。 有关更多信息，请参阅&#x200B;[***讨论区创建权限***](../administrators/feature-summary/social-learning-configurations-as-an-admin.md#permission)。  **仅向学习者显示空白活动字段**&#x200B;在填充值后，管理员可选择显示活动字段或隐藏这些字段。 有关更多信息，请参阅&#x200B;[***用户显示***](../administrators/feature-summary/add-users-user-groups.md#activefields)。  **内部用户处于非活动状态达到指定持续时间后将被删除**&#x200B;管理员可针对内部学习者设置非活动状态持续时间（以天为单位），达到限值的用户即会被删除。 有关详细信息，请参阅&#x200B;***[自动删除用户](../administrators/feature-summary/settings.md#autodelete)***。  **自定义页脚上的链接**&#x200B;管理员可以在页脚上添加和自定义链接。 这些链接还可根据不同的区域设置进行自定义。 在页脚添加“联系管理员”链接的现有方法可在&#x200B;**“页脚链接”**&#x200B;部分查看。 有关更多信息，请参阅&#x200B;[***自定义页脚链接***](../administrators/feature-summary/settings.md#footer)。
+**为内部和外部用户区分社交学习中的范围**&#x200B;管理员可以为内部和外部学习者定义不同的范围。 新增了分别面向内外部用户的两个部分。 在这两个部分中，您可定义各学习者组的相应范围。 对于内部用户，您可以定义“用户特征”的值。 对于外部用户，您可以定义外部个人资料，学习者可以在其中共享相同的社交空间。 有关更多信息，请参阅&#x200B;[***范围设置***](../administrators/feature-summary/social-learning-configurations-as-an-admin.md#scopesettings)。  **对社交讨论区的创建加以限制**&#x200B;为加强讨论区管理，对学习者人人可以创建讨论区的情况加以限制，管理员可将讨论区创建权限授予选定的用户组。 管理员可将讨论区创建权限授予选定的用户组，而非参与社交学习的所有学习者。 有关更多信息，请参阅&#x200B;[***讨论区创建权限***](../administrators/feature-summary/social-learning-configurations-as-an-admin.md#permission)。  **仅向学习者显示空白活动字段**&#x200B;在填充值后，管理员可选择显示活动字段或隐藏这些字段。 有关更多信息，请参阅&#x200B;[***用户显示***](../administrators/feature-summary/add-users-user-groups.md#activefields)。  **内部用户处于非活动状态达到指定持续时间后将被删除**&#x200B;管理员可针对内部学习者设置非活动状态持续时间（以天为单位），达到限值的用户即会被删除。 有关详细信息，请参阅***[自动删除用户](../administrators/feature-summary/settings.md#autodelete)***。  **自定义页脚上的链接**&#x200B;管理员可以在页脚上添加和自定义链接。 这些链接还可根据不同的区域设置进行自定义。 在页脚添加“联系管理员”链接的现有方法可在&#x200B;**“页脚链接”**&#x200B;部分查看。 有关更多信息，请参阅&#x200B;[***自定义页脚链接***](../administrators/feature-summary/settings.md#footer)。
 
 ### 此版本中的已知问题 {#Knownissuesinthisrelease-2}
 
@@ -3041,7 +3097,7 @@ Adobe Learning Manager 提供了各种必要的工具和模板，可供公司的
 
 ### 增强功能 {#enhancement}
 
-作为更新的一部分，Learning Manager提供端点<!-- [PATCH/users/{id}](<https://learningmanager.adobe.com/docs/Learning>Managerapi/v1/#!/user/patch_users_id) -->来更新应用程序中的用户。 您可以通过管理员角色访问该 API 端点。 使用&#x200B;**&#x200B;**&#x200B;端点，您可以更新Learning Manager用户的以下信息：
+作为更新的一部分，Learning Manager提供端点<!-- [PATCH/users/{id}](<https://learningmanager.adobe.com/docs/Learning>Managerapi/v1/#!/user/patch_users_id) -->来更新应用程序中的用户。 您可以通过管理员角色访问该 API 端点。 使用****端点，您可以更新Learning Manager用户的以下信息：
 
 * 姓名
 * 电子邮件
@@ -3551,7 +3607,7 @@ Adobe Learning Manager 允许您将徽章导出为 PDF 文件。 有关更多信
 
 **电子邮件模板**
 
-* 曾用来表示外部组的词——**合作伙伴**，**&#x200B;**&#x200B;现已从&#x200B;**&#x200B;**&#x200B;电子邮件模板正文和标题中删除。 外部组不一定是合作伙伴。\
+* 曾用来表示外部组的词——**合作伙伴**，****&#x200B;现已从&#x200B;****&#x200B;电子邮件模板正文和标题中删除。 外部组不一定是合作伙伴。\
   **注意：**&#x200B;如果默认模板已修改，则该更新模板不会显示。 若要查看更新的模板，请单击&#x200B;**模板预览**&#x200B;对话框中的&#x200B;**恢复为原始**。
 
 * 无论何时编辑&#x200B;**“已创建个人资料”（自助注册）**&#x200B;和&#x200B;**“已创建个人资料”（外部/合作伙伴）**&#x200B;电子邮件模板，管理员收到的电子邮件中的 URL 都无法单击。 此问题现已修复。

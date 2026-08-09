@@ -3,9 +3,9 @@ description: 了解如何在Adobe Learning Manager中创建和管理用户组。
 jcr-language: en_us
 title: 在Adobe Learning Manager中管理用户组 |组织和分配学习者
 exl-id: 5569a201-0648-4b2c-bab3-927e5c149290
-source-git-commit: cd81d076b44b513afc6d21be0c3ea17d7359972e
+source-git-commit: fbe0fd05b8ff57bf009024069073887c073da43e
 workflow-type: tm+mt
-source-wordcount: '1458'
+source-wordcount: '1519'
 ht-degree: 0%
 
 ---
@@ -215,4 +215,10 @@ _使用AND逻辑显示多个组的示例_
 
 ![](assets/or-logic.png)
 _显示使用OR逻辑合并多个组的示例_
+
+## 为Live Hub会话添加和管理讲师
+
+在Adobe Learning Manager中，管理员还可以管理Live Hub会话的讲师，包括定义他们的技能、可用性和教学偏好。 这有助于确保根据日程安排和专业知识为合适的课程指定合适的讲师。
+
+有关创建和管理讲师配置文件的详细步骤，请查看[添加和管理讲师](../../getting-started-with-live-hub/instructor-management.md)。
 

@@ -4,10 +4,10 @@ title: 系统要求
 description: Adobe Learning Manager系统要求
 contentowner: dvenkate
 exl-id: 3bf9818a-4b86-47e9-9b86-1c32b8bfee3a
-source-git-commit: f964dd3f1adeadb76f4843c9af229ce5f09afde1
+source-git-commit: d463fb1bb54e14717eb51d0c13f66551018a0f92
 workflow-type: tm+mt
-source-wordcount: '605'
-ht-degree: 81%
+source-wordcount: '660'
+ht-degree: 75%
 
 ---
 
@@ -344,3 +344,9 @@ IE 11 浏览器不支持沉浸式布局主页。
 ## ALM安全白皮书
 
 [ALM白皮书](assets/alm-security-whitepaper-2024.pdf)
+
+## Live Hub系统要求
+
+在加入或主持实时中心会话之前，请确保您的设备、浏览器、网络、音频和视频设置满足获得最佳体验的最低系统要求。
+
+Live Hub拥有一套自己支持的浏览器、操作系统、网络要求和硬件建议。 有关详细信息，请查看[实时中心系统要求](../migrated/getting-started-with-live-hub/system-requirements-for-live-hub.md)。

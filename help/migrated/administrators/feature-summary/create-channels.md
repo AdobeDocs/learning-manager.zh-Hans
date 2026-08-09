@@ -1,15 +1,15 @@
 ---
-title: 创建通道
+title: 创建渠道(Beta)
 description: 了解如何在Adobe Learning Manager中启用、创建和编辑频道，将网页和Confluence Cloud页面中基于视频的学习内容导入学习者的单个可搜索位置。
-source-git-commit: 362d56b5758d55e7aa564893beade853f4c72deb
+source-git-commit: 2ca8cf23fa622ce522456c1e1a526e175ddfc8e7
 workflow-type: tm+mt
-source-wordcount: '1125'
+source-wordcount: '1127'
 ht-degree: 0%
 
 ---
 
 
-# 创建通道
+# 创建渠道(Beta)
 
 组织经常跨精选的非正式学习内容Web和Confluence Cloud页面存储知识共享会话、培训录制内容和其他视频内容。 渠道可将Adobe Learning Manager连接到这些内容源，以便更轻松地发现和使用视频，而无需学习者在多个系统中导航。 渠道可帮助您在一个可搜索的位置组织和共享企业网页和Confluence Cloud页面中基于视频的学习内容。 学习者可以直接从Adobe Learning Manager发现并访问相关录制，而无需跨多个内部网站进行搜索。 查看[发现并参与频道](../../learners/feature-summary/discover-and-engage-with-channels.md)以了解更多信息。
 
@@ -43,7 +43,7 @@ ht-degree: 0%
 
    ![启用通道功能](assets/enable-channels-feature.png)
 
-   *在&#x200B;**设置**&#x200B;选项卡中启用频道功能，以便管理员为帐户创建频道。*
+   *在&#x200B;**设置**选项卡中启用频道功能，以便管理员为帐户创建频道。*
 
 1. 启用&#x200B;**频道功能**。
 
@@ -92,7 +92,7 @@ ht-degree: 0%
 
       ![频道内容检查计划](assets/channel-content-check-schedule.png)
 
-      *选择“显示高级设置”以配置通道主题颜色、游动深度和游动频率。*
+      *选择“显示高级设置”以配置通道主题颜色、爬网深度和爬网频率。*
 
 1. 选择&#x200B;**立即测试**&#x200B;以验证源。 从配置的源中检索并显示示例视频。
 
@@ -108,12 +108,12 @@ ht-degree: 0%
 
 1. 选择“**频道**”选项卡。
 1. 选择“**搜索频道**”框。
-1. 在&#x200B;**搜索频道**&#x200B;框中输入频道名称或其一部分。
+1. 在&#x200B;**搜索频道**框中输入频道名称或其一部分。
    <br>列表筛选器仅显示与您的搜索匹配的频道。
 
    ![搜索频道](assets/search-channels.png)
 
-   *在搜索框中输入频道名称以筛选&#x200B;**频道**&#x200B;列表。*
+   *在搜索框中输入频道名称以筛选&#x200B;**频道**列表。*
 
 ## 管理渠道可见性
 
@@ -155,14 +155,14 @@ ht-degree: 0%
 
 要编辑频道：
 
-1. 从&#x200B;**通道**&#x200B;列表中选择所需的通道。
+1. 从&#x200B;**通道**列表中选择所需的通道。
    <br>“**编辑频道**”页面将打开，并显示当前的频道配置。
 
 1. 根据需要更新频道设置。
 
    ![编辑频道设置](assets/edit-channel-settings.png)
 
-   *从&#x200B;**编辑频道**&#x200B;页面更新频道的名称、描述、源和设置。*
+   *从&#x200B;**编辑频道**页面更新频道的名称、描述、源和设置。*
 
 1. （可选）选择&#x200B;**立即测试**。
 

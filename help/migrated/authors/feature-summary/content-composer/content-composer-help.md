@@ -2,9 +2,9 @@
 title: Adobe Learning Manager Content Composer (Beta)帮助
 description: 从普通语言提示到已发布的课程，Adobe Learning Manager Content Composer会处理教学设计，您可以通过创作极具冲击力的教学内容，重点满足学习者需求。
 contentowner: saghosh
-source-git-commit: 229e407621281978f94783c3e9320c237c314fc3
+source-git-commit: 04c741a5e04d956b443228727ce062fe050cce70
 workflow-type: tm+mt
-source-wordcount: '654'
+source-wordcount: '741'
 ht-degree: 0%
 
 ---
@@ -30,11 +30,18 @@ Content Composer通过对话引导作者完成培训目标、源资料和学习�
 - **直接发布到Adobe Learning Manager**：完成的课程直接发布到Adobe Learning Manager；无单独的创作工具，无手动SCORM导出。
 - **单系统工作流**：课程创建、学习者管理和报告都集中在一个平台上，从而消除了管理多个创作和交付工具的开销。
 
+## 登录之前
+
+>[!IMPORTANT]
+>
+>您必须使用有效的Adobe Creative Cloud帐户登录。 如果您还没有免费帐户，可以通过Adobe Express创建一个免费帐户。 有关详细信息，请参阅[创建免费Adobe Express帐户](https://helpx.adobe.com/express/web/adobe-express-subscription/free.html)。 创建Adobe凭据后，启动Content Composer并登录以开始创建课程。 如果您的组织已有Creative Cloud订阅，请联系您的管理员，以便在登录到Content Composer之前为您预配Creative Cloud帐户。
+
+
 ## 试用Content Composer {#trycontent-composer}
 
 准备好制作第一门课程了吗？ 打开Content Composer，并立即从普通语言提示转变为发布就绪课程。
 
-[**尝试内容书写器**](https://contentcomposer-dev.adobe.io/)
+[**尝试内容书写器**](https://contentcomposer.adobe.io/)
 
 <!--
 [![Open Content Composer](/assets/CTA.png)](https://contentcomposer-dev.adobe.io/)
@@ -149,4 +156,4 @@ Content Composer通过对话引导作者完成培训目标、源资料和学习�
 
 你拥有你需要的一切。 打开Content Composer并构建您的第一个课程。
 
-[**尝试内容书写器**](https://contentcomposer-dev.adobe.io/)
+[**尝试内容书写器**](https://contentcomposer.adobe.io/)

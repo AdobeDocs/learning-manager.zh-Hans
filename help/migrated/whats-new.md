@@ -222,7 +222,7 @@ Report Builder为管理员提供了灵活的自助报告工具，不只是Adobe 
 
 ## 此版本中的API更改
 
-有关详细信息，请查看Adobe Learning Manager 2026年8月版](/help/migrated/api-changes-august-2026.md)中的[API更改。
+有关详细信息，请查看Adobe Learning Manager 2026年8月版[&#128279;](/help/migrated/api-changes-august-2026.md)中的API更改。
 
 ## 版本中的其他增强功能
 

@@ -18,7 +18,7 @@ ht-degree: 52%
 
 管理 Adobe Learning Manager 帐单、使用信用卡下单、使用采购订单或通过每月活动用户计划进行订阅。
 
-Adobe Learning Manager 采用客户友好和高度灵活的定价模式，可满足多种不同需求，是企业的绝佳之选。 有关更多信息，请参阅 [Adobe Learning Manager](https://www.adobe.com/products/learningmanager.html) 页面。
+Adobe Learning Manager 采用客户友好和高度灵活的定价模式，可满足多种不同需求，是企业的绝佳之选。 有关更多信息，请参阅 [Adobe Learning Manager](https://www.adobe.com/cn/products/learningmanager.html) 页面。
 
 只有企业的管理员才可管理帐单。
 
@@ -442,7 +442,7 @@ Credit card-based purchase is only available in the [US region](http://learningm
 
 Manage Learning Manager billing, place orders by using a credit card, subscribe using a Purchase Order, or via a Monthly Active Users plan.
 
-Adobe Learning Manager has a flexible, customer-friendly, and one of the best pricing models to cater to your organization needs. For more information, see the [Learning Manager](https://www.adobe.com/products/learningmanager.html) page.
+Adobe Learning Manager has a flexible, customer-friendly, and one of the best pricing models to cater to your organization needs. For more information, see the [Learning Manager](https://www.adobe.com/cn/products/learningmanager.html) page.
 
 Only the Administrators of your organization can manage billing.
 

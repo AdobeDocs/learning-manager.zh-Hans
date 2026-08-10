@@ -3,9 +3,9 @@ description: 了解Adobe Learning Manager 2026年8月版的新增功能和增强
 jcr-language: en_us
 title: Adobe Learning Manager 2026年8月版的新增功能
 exl-id: da46f186-3ff3-422a-af49-31c7405fd584
-source-git-commit: 458d21d11bfcfb701dbd61b865411f80a306adc1
+source-git-commit: 659829ef14fb3aea67f6bd5f191c1051f1b93a66
 workflow-type: tm+mt
-source-wordcount: '2743'
+source-wordcount: '2673'
 ht-degree: 0%
 
 ---
@@ -163,11 +163,13 @@ Insights代理可帮助管理员通过自然语言查询分析学习数据。 �
 
 有关详细信息，请查看[Insights代理](/help/migrated/administrators/feature-summary/insights-agent.md)。
 
-### Gen AI积分
+<!--
+### Gen AI credits
 
-Adobe Learning Manager集成了AI支持的功能，这些功能通过与Agent Orchestrator许可证关联的基于积分的系统进行管理。 此系统要求管理员通过“帐单”页面激活功能、设置信用限额并监控使用情况。 要启用Gen AI功能，请务必将Adobe Learning Manager帐户与具有有效Agent Orchestrator许可证的Adobe Admin Console组织关联。
+Adobe Learning Manager integrates AI-powered features managed through a credit-based system linked to Agent Orchestrator licenses. This system requires administrators to activate features, set credit limits, and monitor usage via the Billing page. Linking the Adobe Learning Manager account to an Adobe Admin Console organization with an active Agent Orchestrator license is essential for enabling Gen AI features.
 
-有关详细信息，请查看[Gen AI积分](/help/migrated/administrators/feature-summary/billing-management.md#genaicredits)。
+View [Gen AI credits](/help/migrated/administrators/feature-summary/billing-management.md#genaicredits) for more information.
+-->
 
 ## 渠道（Beta版）
 

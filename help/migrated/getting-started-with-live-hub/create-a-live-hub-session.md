@@ -1,7 +1,7 @@
 ---
 title: 创建实时中心会话
 description: 了解如何创建Live Hub课程、添加课程实例、为讲师分配“讲师查找器”、注册学习者以及自定义会议室品牌。
-source-git-commit: 398fb6d707983fd021604396113c0f2af574dc17
+source-git-commit: b8f529b45fb222fe3dd7f335ad45b37a9be713e5
 workflow-type: tm+mt
 source-wordcount: '1111'
 ht-degree: 0%
@@ -61,7 +61,7 @@ ht-degree: 0%
 
    1. 在&#x200B;**讲师**&#x200B;字段中输入讲师姓名。
 
-   1. 选择&#x200B;**使用AI查找讲师**&#x200B;以查看AI推荐的讲师。 有关详细信息，请参阅[使用讲师查找器添加讲师](#add-instructors-using-instructor-finder)。
+   1. 选择&#x200B;**使用AI查找讲师**&#x200B;以查看AI推荐的讲师。 有关详细信息，请查看[使用讲师查找器添加讲师](#add-instructors-using-instructor-finder)。
 
 1. 选择&#x200B;**添加** > **保存**。
 
@@ -109,7 +109,7 @@ ht-degree: 0%
    ![会话配置面板](assets/session-configuration-panel.png)
    *为特定会话实例配置计划、讲师和位置。*
 
-1. 在&#x200B;**讲师**&#x200B;字段中，手动输入姓名，或为AI推荐的讲师选择&#x200B;**使用AI查找讲师**。 有关详细信息，请参阅[使用讲师查找器添加讲师](#add-instructors-using-instructor-finder)。
+1. 在&#x200B;**讲师**&#x200B;字段中，手动输入姓名，或为AI推荐的讲师选择&#x200B;**使用AI查找讲师**。 有关详细信息，请查看[使用讲师查找器添加讲师](#add-instructors-using-instructor-finder)。
 
 1. 输入&#x200B;**位置**&#x200B;详细信息，然后选择&#x200B;**保存**。 会话会按照配置的时间表、讲师和位置详细信息进行更新。
 
@@ -150,4 +150,4 @@ ht-degree: 0%
 
 自定义品牌有助于打造一致的学习体验，并确保实时培训课程反映贵组织的身份。
 
-有关配置主题的详细信息，请参阅[颜色主题](../administrators/feature-summary/themes.md#color-themes)一文。
+有关配置主题的详细信息，请参阅[颜色主题](../administrators/feature-summary/themes.md#color-themes)文章。

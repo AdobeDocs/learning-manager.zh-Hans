@@ -4,10 +4,10 @@ jcr-language: en_us
 title: 管理 Adobe Learning Manager 订单和帐单
 contentowner: manochan
 exl-id: 91635ef7-dbb9-4bb1-98f9-129f6fd5b6b4
-source-git-commit: d61e81b0df6a6043b938c65adaabecb5699c2ce9
+source-git-commit: 659829ef14fb3aea67f6bd5f191c1051f1b93a66
 workflow-type: tm+mt
-source-wordcount: '3488'
-ht-degree: 37%
+source-wordcount: '2660'
+ht-degree: 48%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 37%
 
 管理 Adobe Learning Manager 帐单、使用信用卡下单、使用采购订单或通过每月活动用户计划进行订阅。
 
-Adobe Learning Manager 采用客户友好和高度灵活的定价模式，可满足多种不同需求，是企业的绝佳之选。 有关更多信息，请参阅 [Adobe Learning Manager](https://www.adobe.com/cn/products/learningmanager.html) 页面。
+Adobe Learning Manager 采用客户友好和高度灵活的定价模式，可满足多种不同需求，是企业的绝佳之选。 有关更多信息，请参阅 [Adobe Learning Manager](https://www.adobe.com/products/learningmanager.html) 页面。
 
 只有企业的管理员才可管理帐单。
 
@@ -291,90 +291,92 @@ Adobe Learning Manager 采用客户友好和高度灵活的定价模式，可满
 
 要取消活动订阅，请联系 Adobe Learning Manager 支持团队。
 
-## Gen AI积分 {#genaicredits}
+<!--
+## Gen AI credits {#genaicredits}
 
-### Gen AI积分的工作方式
+### How Gen AI credits work
 
-学习者每次与AI支持的功能进行交互时（例如，通过AI Assistant提问或生成个性化学习推荐时），都会使用Gen AI积分。 在每次交互开始之前，Adobe Learning Manager会检查积分是否可用。 如果积分可用，则继续互动。 如果用尽了平衡，学习者会看到一条消息，说明该功能暂时不可用。
+Gen AI credits are consumed each time a learner interacts with an AI-powered feature — for example, when asking a question through the AI Assistant or generating a personalized learning recommendation. Before each interaction begins, Adobe Learning Manager checks that credits are available. If credits are available, the interaction proceeds. If the balance has been exhausted, the learner sees a message that the feature is temporarily unavailable.
 
-积分作为Adobe Experience Platform代理Orchestrator许可证的一部分购买。 该许可证在您的Adobe Admin Console中进行管理，Adobe Learning Manager会自动连接到它以检测可用的积分。
+Credits are purchased as part of an Adobe Experience Platform Agent Orchestrator license. That license is managed in your Adobe Admin Console, and Adobe Learning Manager connects to it automatically to detect available credits.
 
-**积分优先级规则：**&#x200B;如果您的Adobe Learning Manager计划包含捆绑的Gen AI积分，并且您还拥有Agent Orchestrator许可证，则捆绑的积分会先被使用。 只有在用完捆绑的积分后，才能使用Agent Orchestrator积分。
+**Credit priority rule:** If your Adobe Learning Manager plan includes bundled Gen AI credits and you also have an Agent Orchestrator license, the bundled credits are consumed first. Agent Orchestrator credits are used only after the bundled credits are exhausted.
 
-**共享积分池：**&#x200B;如果您的组织有多个Adobe Learning Manager帐户全部与同一Adobe Admin Console组织关联，则所有帐户都将从单个共享积分池提取资金。
+**Shared credit pools:** If your organization has multiple Adobe Learning Manager accounts all linked to the same Adobe Admin Console organization, all accounts draw from a single shared credit pool.
 
 >[!IMPORTANT]
 >
->默认情况下，所有Gen AI功能都处于关闭状态。 您必须启用每项功能并设置信用使用限制，学习者才能访问这些功能。
+>All Gen AI features are turned off by default. You must enable each feature and set a credit usage limit before learners can access it.
 
-### 访问“Gen AI积分”选项卡
+### Access the Gen AI Credits tab
 
-1. 选择&#x200B;**[!UICONTROL 管理员]** > **[!UICONTROL 帐单]**。
-2. 选择“**[!UICONTROL 积分]**”选项卡。
+1. Select **[!UICONTROL Admin]** > **[!UICONTROL Billing]**.
+2. Select the **[!UICONTROL Credits]** tab.
 
-仅当已购买Gen AI积分或帐户历来处于Gen AI积分活动状态时，**积分**&#x200B;选项卡才可见。 如果该选项卡未显示，请验证您的帐户是否已链接到拥有有效Agent Orchestrator许可证的Adobe Admin Console组织。
+The **Credits** tab is visible only when Gen AI credits have been purchased or were historically active on the account. If the tab is not visible, verify that your account is linked to an Adobe Admin Console organization that has an active Agent Orchestrator license.
 
-### Gen AI功能表
+### Gen AI Features table
 
-**Gen AI功能**&#x200B;表列出了帐户上可用的每个AI功能。
+The **Gen AI Features** table lists every AI feature available on the account.
 
-| 列 | 描述 |
+| Column | Description |
 |---|---|
-| **功能名称** | AI功能的名称。 选择名称以转到该功能的设置页面。 |
-| **状态** | 该功能是开启还是关闭。 从其设置页面切换功能。 |
-| **最大积分使用限制** | 此功能在合同期内可消耗的最大积分。 必须先设置才能启用该功能。 仅适用于面向学习者的功能。 |
-| **个已用积分** | 自合同开始日期以来此功能已使用的积分总数，会实时更新。 |
+| **Feature Name** | Name of the AI feature. Select the name to go to that feature's settings page. |
+| **Status** | Whether the feature is on or off. Toggle the feature from its settings page. |
+| **Max Credits Usage Limit** | Maximum credits this feature can consume during the contract period. Must be set before the feature can be enabled. Applies to learner-facing features only. |
+| **Credits Used** | Total credits consumed by this feature since the contract start date, updated in real time. |
 
-### 启用通用AI功能
+### Enable a Gen AI feature
 
-1. 在“**[!UICONTROL 积分]**”选项卡上，在“**代AI功能**”表中找到该功能。
-2. 在&#x200B;**最大积分使用限制**&#x200B;列中，输入此功能在合同期内可消耗的最大积分数。
-3. 选择功能名称以转到其&#x200B;**功能设置**&#x200B;页面。
-4. 在&#x200B;**功能设置**&#x200B;页面上，打开该功能。
-5. 完成任何其他配置，例如将学习者和目录分配给AI Assistant。
+1. On the **[!UICONTROL Credits]** tab, locate the feature in the **Gen AI Features** table.
+2. In the **Max Credits Usage Limit** column, enter the maximum number of credits this feature can consume during the contract period.
+3. Select the feature name to go to its **Feature Settings** page.
+4. On the **Feature Settings** page, toggle the feature on.
+5. Complete any additional configuration, such as assigning learners and catalogs to the AI Assistant.
 
-### 信用额度用完后会发生什么
+### What happens when credits run out
 
-- 如果功能达到&#x200B;**最大积分使用限制**，学习者会看到一条消息，说明该功能暂时不可用。 随时从&#x200B;**积分**&#x200B;选项卡提高限制。
-- 如果帐户积分全部用尽，则在购买额外积分之前，学习者将无法使用所有Gen AI功能。 管理员仍可访问使用情况报告和信用指标。
-- 如果学习者在积分耗尽时处于交互中间，则该交互完成。 将阻止所有后续交互。
-- 管理员可以设置高于已购买积分数的积分限制。 允许过度分配，并且可以在续订时进行调整。
+- If a feature reaches its **Max Credits Usage Limit**, learners see a message that the feature is temporarily unavailable. Raise the limit at any time from the **Credits** tab.
+- If overall account credits are exhausted, all Gen AI features stop working for learners until additional credits are purchased. Usage reports and credit metrics remain accessible to admins.
+- If a learner is mid-interaction when credits are exhausted, that interaction completes. All subsequent interactions are blocked.
+- Admins can set a credit limit higher than the number of purchased credits. Over-allocation is permitted, and a true-up can happen at renewal.
 
-### 每月积分使用情况图表
+### Monthly Credits Usage chart
 
-在Gen AI功能表下方，**每月积分使用情况**&#x200B;图表显示每月每个功能已使用的积分。 默认情况下，此图表根据客服专员Orchestrator合同开始日期显示当前合同年期。 选择&#x200B;**[!UICONTROL 下载]**&#x200B;以导出所选期间的每月报告。 报告生成是异步的 — 当文件准备就绪时，您会收到应用程序内通知和电子邮件。
+Below the Gen AI Features table, a **Monthly Credits Usage** chart shows credits consumed per feature per month. By default, the chart shows the current contract year period based on the Agent Orchestrator contract start date. Select **[!UICONTROL Download]** to export the monthly report for the selected period. Report generation is asynchronous — you receive an in-app notification and email when the file is ready.
 
-### 生成AI使用情况报告
+### Gen AI usage reports
 
-Adobe Learning Manager在&#x200B;**[!UICONTROL 报告]** > **[!UICONTROL AI报告]**&#x200B;下提供两个Gen AI使用情况报告。
+Adobe Learning Manager provides two Gen AI usage reports under **[!UICONTROL Reports]** > **[!UICONTROL AI Reports]**.
 
-**每月积分使用情况报告**
+**Monthly credits usage report**
 
-显示每月每项功能已使用的积分。 适用于预算规划和合同续订。
+Shows credits consumed per feature per month. Useful for budget planning and contract renewal.
 
-- **列：**&#x200B;个月 |功能 |已用积分
-- **筛选器：**&#x200B;选择跨一个或多个合同期的日期范围
-- **下载：**&#x200B;异步 — 当文件准备就绪时，您会收到应用程序内通知和电子邮件
+- **Columns:** Month | Feature | Credits Used
+- **Filter:** Select a date range spanning one or more contract periods
+- **Download:** Asynchronous — you receive an in-app notification and email when the file is ready
 
-**学习者Gen AI积分使用情况报告**
+**Learner Gen AI credits usage report**
 
-显示哪些学习者使用了哪些功能以及每个互动消耗了多少积分的审核追踪。
+An audit trail showing which learners used which features and how many credits each interaction consumed.
 
-- **列：**&#x200B;日期 |学习者姓名 |学习者电子邮件 |功能 |已用积分
-- **筛选器：**&#x200B;选择要审核的日期范围
-- **下载：**&#x200B;异步 — 当文件准备就绪时，您会收到应用程序内通知和电子邮件
+- **Columns:** Date | Learner Name | Learner Email | Feature | Credits Used
+- **Filter:** Select the date range you want to audit
+- **Download:** Asynchronous — you receive an in-app notification and email when the file is ready
 
-### 信用使用情况警报
+### Credit usage alerts
 
-当信用消耗量超过关键阈值时，Adobe Learning Manager会自动通知您。 通知可在应用程序内或通过电子邮件发送。
+Adobe Learning Manager automatically notifies you when credit consumption crosses key thresholds. Notifications are delivered both in-app and by email.
 
-| 触发器 | 通知 |
+| Trigger | Notification |
 |---|---|
-| 帐户积分达到已购买总积分的90% | 警告 — 帐户级别的积分即将用尽 |
-| 帐户积分达到购买总额的100% | 警报 — 学习者将消耗所有积分并停止使用Gen AI功能 |
-| 某项功能已达到其个人最高积分使用限制 | 警报 — 命名特定功能；学习者停止使用该功能 |
+| Account credits reach 90% of total purchased | Warning — credits are nearly exhausted at the account level |
+| Account credits reach 100% of total purchased | Alert — all credits are consumed and Gen AI features stop for learners |
+| A feature reaches its individual Max Credits Usage Limit | Alert — names the specific feature; that feature stops for learners |
 
-当您收到90%警告时，请在达到100%阈值之前联系Adobe客户团队以购买额外的积分。
+When you receive a 90% warning, contact your Adobe account team to purchase additional credits before the 100% threshold is reached.
+-->
 
 ## 常见问题解答 {#frequentlyaskedquestions}
 
@@ -438,7 +440,7 @@ Credit card-based purchase is only available in the [US region](http://learningm
 
 Manage Learning Manager billing, place orders by using a credit card, subscribe using a Purchase Order, or via a Monthly Active Users plan.
 
-Adobe Learning Manager has a flexible, customer-friendly, and one of the best pricing models to cater to your organization needs. For more information, see the [Learning Manager](https://www.adobe.com/cn/products/learningmanager.html) page.
+Adobe Learning Manager has a flexible, customer-friendly, and one of the best pricing models to cater to your organization needs. For more information, see the [Learning Manager](https://www.adobe.com/products/learningmanager.html) page.
 
 Only the Administrators of your organization can manage billing.
 

@@ -3,7 +3,7 @@ description: 了解Adobe Learning Manager 2024年11月版的新增功能和增�
 jcr-language: en_us
 title: 2024年11月新增功能摘要
 exl-id: 4dfe0e31-d202-4a6e-8c4f-43851218699f
-source-git-commit: 7b84a4565ccf109ed4789f4963d6e250f5d0a852
+source-git-commit: e9a12b732e5c23aaafc174e3a3887a619c4d1b07
 workflow-type: tm+mt
 source-wordcount: '3307'
 ht-degree: 1%
@@ -151,7 +151,8 @@ Adobe Learning Manager的新&#x200B;**[!UICONTROL 轮候表报告]**&#x200B;允�
 
 ## 学习者主页中的辅助功能
 
-Adobe Learning Manager现在支持为所有刊头使用替换文本，以提高学习者的辅助功能。 这让有特殊需求的学习者可以使用屏幕阅读器阅读替代文本并了解图像。 您可以选择多种语言并为每种语言提供替代文本。 确保添加相应语言的替代文本。 确保您的帐户中的公司徽标还包括带有公司名称的替代文本。有关详细信息，请参阅这篇文章[公告](/help/migrated/administrators/feature-summary/announcements.md#masthead)。
+Adobe Learning Manager现在支持为所有刊头使用替换文本，以提高学习者的辅助功能。 这让有特殊需求的学习者可以使用屏幕阅读器阅读替代文本并了解图像。 您可以选择多种语言并为每种语言提供替代文本。 确保添加相应语言的替代文本。 确保您的帐户中的公司徽标还包括带有公司名称的替代文本。
+有关详细信息，请参阅这篇文章[公告](/help/migrated/administrators/feature-summary/announcements.md#masthead)。
 
 ## 支持印地语
 
@@ -227,7 +228,7 @@ Adobe Learning Manager现已在学习者应用程序中阻止包含禁止单词�
 * 如果为已存在于其他文件夹中的模块添加新文件夹名称，新值将不会覆盖或替换分配的文件夹。 模块将添加到新文件夹中，并且可以在现有文件夹中找到。
 * 如果值为空，则该文件夹将默认为&#x200B;**[!UICONTROL Public]**。
 
-有关详细信息，请参阅[module_version csv spec](assets/4-module_version.xlsx)文件。
+有关详细信息，请参阅[module_version csv spec](assets/module_version.csv)文件。
 
 ### 模块迁移中的更改 — 完成标准
 
@@ -238,10 +239,10 @@ Adobe Learning Manager现已在学习者应用程序中阻止包含禁止单词�
 1. `completionCriteria`:
 
    * 数据类型应为字符串值，支持的值为：
-      * `LAUNCH_CONTENT`
-      * `VIEW_PERCENT`
-      * `QUIZ`
-      * `MARK_COMPLETE`
+     * `LAUNCH_CONTENT`
+     * `VIEW_PERCENT`
+     * `QUIZ`
+     * `MARK_COMPLETE`
    * 仅在模块级别为自学模块类型添加完成标准。
    * 静态内容支持的值为`LAUNCH_CONTENT`和`VIEW_PERCENT`。
    * 交互式内容支持的值为`LAUNCH_CONTENT`、`VIEW_PERCENT`和`QUIZ`。
@@ -257,7 +258,7 @@ Adobe Learning Manager现已在学习者应用程序中阻止包含禁止单词�
    * 数据类型应为字符串值，支持的值为`QUIZ_ATTEMPTED`、`QUIZ_PASSED`和`QUIZPASSED_OR_LIMITREACHED`。
    * 在`completionCriteria`设置为`QUIZ`时，请在`quizData`列中输入相应的测验值。
 
-有关详细信息，请参阅[module_version csv spec](assets/4-module_version.xlsx)文件。
+有关详细信息，请参阅[module_version csv spec](assets/module_version.csv)文件。
 
 ### 课程迁移中的更改 — 完成标准
 
@@ -271,27 +272,27 @@ Adobe Learning Manager现已在学习者应用程序中阻止包含禁止单词�
 * 如果将`completionCriteria`设置为`SELECTEDMODULES`，则需要在[course_module.csv](assets/course_module.csv)文件中标记必修模块。
 * 在`optionalCriteria`列中输入`TRUE`或`FALSE`。 如果将值设置为`TRUE`，则会将模块设置为必填。
 
-有关更多信息，请参阅[课程csv规范](assets/3-course.xlsx)和[course_module csv规范](assets/6-course_module.xlsx)文件。
+有关更多信息，请参阅[课程csv规范](assets/course.csv)和[course_module csv规范](assets/course_module.csv)文件。
 
 ## API 更改
 
 下面是API更改：
 
 * **搜索API**：
-   * 新增带选项的模式过滤器： classicSearch和advanceSearch。
-   * snippetTypes的新loMetadata选项。
+  * 新增带选项的模式过滤器： classicSearch和advanceSearch。
+  * snippetTypes的新loMetadata选项。
 * **公告API**：
-   * 包含刊头说明的altText属性。
+  * 包含刊头说明的altText属性。
 * **实例API**：
-   * 用于检索区域设置详细信息的新的区域设置属性。
+  * 用于检索区域设置详细信息的新的区域设置属性。
 * **亵渎检查**：
-   * 更新了API，以检查社交帖子上的评论和回复中是否有禁止的字词：
+  * 更新了API，以检查社交帖子上的评论和回复中是否有禁止的字词：
 * **RPM和突发限制**：
-   * 为所有API添加了RPM（每分钟请求数）和突发限制。
+  * 为所有API添加了RPM（每分钟请求数）和突发限制。
 * **徽章API**：
-   * 用于检索有关外部徽章信息的新属性externalProvider。
+  * 用于检索有关外部徽章信息的新属性externalProvider。
 * **作业API**：
-   * 使用作业API下载用户组报告和自定义角色审核报告。
+  * 使用作业API下载用户组报告和自定义角色审核报告。
 
 ### 搜索API中的更改
 

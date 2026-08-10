@@ -2,9 +2,9 @@
 description: 在提交为完整课程生成之前，请查看AI生成的课程和主题结构。 通过聊天面板请求更改。 对课程和主题进行重命名、添加、删除、拆分或合并。
 jcr-language: en_us
 title: 编辑课程大纲
-source-git-commit: f8687710f5b73e8b7cf8d56057cac25483f38cdc
+source-git-commit: af3ab42eba15e609ad7a52a16939211f3ddca9bf
 workflow-type: tm+mt
-source-wordcount: '247'
+source-wordcount: '245'
 ht-degree: 0%
 
 ---
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # 编辑课程大纲
 
-    ！[&#128279;](../assets/10_outline_tab_generated_lessons_topics_updated.png)
+![](../assets/10_outline_tab_generated_lessons_topics_updated.png)
 
 Adobe Learning Manager Content Composer会根据您的摘要和源文件生成课程和主题结构。 此时画布上会显示大纲，显示所有课程及其主题。
 

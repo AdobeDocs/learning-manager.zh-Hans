@@ -1,15 +1,15 @@
 ---
-title: 创建实时中心会话
+title: 创建Live Hub (Beta)会话
 description: 了解如何创建Live Hub课程、添加课程实例、为讲师分配“讲师查找器”、注册学习者以及自定义会议室品牌。
-source-git-commit: b8f529b45fb222fe3dd7f335ad45b37a9be713e5
+source-git-commit: fcdedf246e9efa4509e9dd51f56856a79a0791ae
 workflow-type: tm+mt
-source-wordcount: '1111'
+source-wordcount: '1113'
 ht-degree: 0%
 
 ---
 
 
-# 创建实时中心会话
+# 创建Live Hub (Beta)会话
 
 通过Live Hub在Adobe Learning Manager课程中实时提供讲师指导培训。 您可以将实时中心会话与自学内容相结合，打造混合式学习体验。
 
@@ -138,9 +138,9 @@ ht-degree: 0%
 
 学习者可以通过以下两种方式注册实时中心课程：
 
-1. **管理员**&#x200B;根据组织要求为学习者注册了课程。 有关详细信息，请查看[创建课程实例和学习路径](https://experienceleague.adobe.com/zh-hans/docs/learning-manager/using/admin/courses)。
+1. **管理员**&#x200B;根据组织要求为学习者注册了课程。 有关详细信息，请查看[创建课程实例和学习路径](https://experienceleague.adobe.com/en/docs/learning-manager/using/admin/courses)。
 
-1. 学习者可以直接从&#x200B;**目录**&#x200B;页面自行注册课程。 如果课程配置为自助注册，则学习者可立即注册并从&#x200B;**我的学习**&#x200B;中访问课程。 有关详细信息，请查看[我的学习](https://experienceleague.adobe.com/zh-hans/docs/learning-manager/using/learner/courses)。
+1. 学习者可以直接从&#x200B;**目录**&#x200B;页面自行注册课程。 如果课程配置为自助注册，则学习者可立即注册并从&#x200B;**我的学习**&#x200B;中访问课程。 有关详细信息，请查看[我的学习](https://experienceleague.adobe.com/en/docs/learning-manager/using/learner/courses)。
 
 注册后，学习者便会添加到课程中并在其Adobe Learning Manager帐户中收到通知。 根据帐户的电子邮件通知设置，学习者还可能会收到通过电子邮件加入课程的邀请。
 

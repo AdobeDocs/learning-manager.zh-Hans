@@ -1,9 +1,9 @@
 ---
-title: 在Live Hub中设置预加入屏幕
+title: 在Live Hub (Beta)中设置预加入屏幕
 description: 了解实时中心预加入屏幕的工作原理、如何允许浏览器权限以及在加入会话之前如何配置音频和摄像头控件。
-source-git-commit: 99ec553a973ea24ab185e471a79e19fe159738d3
+source-git-commit: fcdedf246e9efa4509e9dd51f56856a79a0791ae
 workflow-type: tm+mt
-source-wordcount: '436'
+source-wordcount: '437'
 ht-degree: 0%
 
 ---

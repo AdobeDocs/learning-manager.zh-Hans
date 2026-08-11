@@ -1,15 +1,15 @@
 ---
-title: Live Hub常见问题解答
+title: Live Hub (Beta)常见问题解答
 description: 有关Adobe Learning Manager Live Hub的常见问题解答，按角色分组，面向管理员、作者、讲师和学习者。
-source-git-commit: 5cc382cc869b7653262b24ff639110367acc8c93
+source-git-commit: 43d4a9fb47d94ef541984a1c1fb9c70ba4e3f61d
 workflow-type: tm+mt
-source-wordcount: '4473'
+source-wordcount: '4475'
 ht-degree: 0%
 
 ---
 
 
-# Live Hub的常见问题解答
+# Live Hub (Beta)的常见问题解答
 
 <table>
  <tbody>

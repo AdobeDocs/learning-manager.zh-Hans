@@ -2,9 +2,9 @@
 user-guide-title: Adobe Learning Manager 指南
 breadcrumb-title: Learning Manager
 user-guide-description: Adobe Learning Manager 的文档
-source-git-commit: 2ce14029fdeb3ffcb3bcd974405ba9c8eed2dba6
+source-git-commit: 43d4a9fb47d94ef541984a1c1fb9c70ba4e3f61d
 workflow-type: tm+mt
-source-wordcount: '1649'
+source-wordcount: '1652'
 ht-degree: 36%
 
 ---
@@ -21,8 +21,8 @@ ht-degree: 36%
   * [2024年11月新增功能摘要](/help/migrated/whats-new-nov-24.md)
   * [2024年7月新增功能摘要](whats-new-july-2024.md)
   * [2024年3月版新增功能](whats-new-march-2024.md)
-  * {hide-from-toc}[&#x200B; 2023年11月版新增功能](whats-new-november-2023.md)
-  * {hide-from-toc}[&#x200B; 2023年7月版新增功能](whats-new-2023-july.md)
+  * {hide-from-toc}[ 2023年11月版新增功能](whats-new-november-2023.md)
+  * {hide-from-toc}[ 2023年7月版新增功能](whats-new-2023-july.md)
   * {hide-from-toc}[Adobe Learning Manager中即将推出的更改](/help/migrated/upcoming-changes-in-adobe-learning-manager.md)
   * [发行说明](release-note/release-notes.md)
   * [系统要求](system-requirements.md)
@@ -50,7 +50,7 @@ ht-degree: 36%
   * [Live Hub (Beta)快速入门](./getting-started-with-live-hub/getting-started-live-hub.md)
 * 管理员 {#admin}
   * AI学习版(Beta) {#ai-in-learning}
-    * [启用实时中心](./administrators/feature-summary/enable-live-hub.md)
+    * [启用Live Hub (Beta)](./administrators/feature-summary/enable-live-hub.md)
   * [Adobe Learning Manager中的Admin AI Assistant (Beta)](/help/migrated/administrators/feature-summary/alm-ai-assistant.md)
   * [Adobe Learning Manager中的Insights代理(Beta)](/help/migrated/administrators/feature-summary/insights-agent.md)
   * [用户](administrators/feature-summary/user-login.md)
@@ -369,14 +369,14 @@ ht-degree: 36%
       * [查看会话信息板](../migrated/getting-started-with-live-hub/view-the-session-dashboard.md)
       * [“会话”操控板的组件](../migrated/getting-started-with-live-hub/components-of-the-session-dashboard.md)
   * [最佳实践](../migrated/getting-started-with-live-hub/best-practices-for-a-live-hub-session.md)
-  * [使用移动设备上的Live Hub作为学习者](./getting-started-with-live-hub/live-hub-mobile-experience-for-learners.md)
+  * [以学习者身份使用移动设备上的实时中心(Beta)](./getting-started-with-live-hub/live-hub-mobile-experience-for-learners.md)
 * 常见问题解答 {#faq}
   * [管理员常见问题解答](administrators/frequently-asked-questions-for-administrators.md)
   * [作者常见问题解答](authors/frequently-asked-questions-for-authors.md)
   * [讲师常见问题解答](instructors/frequently-asked-questions-for-instructors.md)
   * [经理常见问题解答](managers/frequently-asked-questions-for-managers.md)
   * [学习者常见问题解答](learners/frequently-asked-questions-for-learners.md)
-  * [Live Hub会话的常见问题解答](../migrated/getting-started-with-live-hub/frequently-asked-questions-for-live-hub.md)
+  * [Live Hub (Beta)会话的常见问题解答](../migrated/getting-started-with-live-hub/frequently-asked-questions-for-live-hub.md)
   * [新的Experience League公告](/help/migrated/new-experience-league-announcement.md)
   * [如何在Experience League时提交支持票证](/help/migrated/how-to-submit-support-ticket.md)
   * [在Adobe Learning Manager中创建试用帐户](/help/migrated/create-trial-account.md)

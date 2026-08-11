@@ -1,9 +1,9 @@
 ---
 title: 了解实时中心布局
 description: 了解构成Live Hub会议室的面板和控件，包括控制栏、“与会者”面板、“聊天”面板和“讲座”面板。
-source-git-commit: 5cc382cc869b7653262b24ff639110367acc8c93
+source-git-commit: 43d4a9fb47d94ef541984a1c1fb9c70ba4e3f61d
 workflow-type: tm+mt
-source-wordcount: '818'
+source-wordcount: '820'
 ht-degree: 1%
 
 ---

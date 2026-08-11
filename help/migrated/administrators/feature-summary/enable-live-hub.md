@@ -1,15 +1,15 @@
 ---
-title: 在Adobe Learning Manager中启用实时中心
+title: 在Adobe Learning Manager中启用Live Hub (Beta)
 description: 了解管理员如何为帐户启用Live Hub、将其设置为默认虚拟教室提供商以及打开AI支持的实时中心助理。
-source-git-commit: 4f68cdabcfdd5980239652f1e8f7c63a12cb4509
+source-git-commit: 43d4a9fb47d94ef541984a1c1fb9c70ba4e3f61d
 workflow-type: tm+mt
-source-wordcount: '326'
+source-wordcount: '328'
 ht-degree: 0%
 
 ---
 
 
-# 在Adobe Learning Manager中启用实时中心
+# 在Adobe Learning Manager中启用Live Hub (Beta)
 
 管理员可以为Adobe Learning Manager帐户启用Live Hub，并配置AI支持的助理，以便在实时会话期间支持讲师。 启用Live Hub后，作者可以使用Live Hub虚拟培训工具创建和管理课程的虚拟教室模块。
 

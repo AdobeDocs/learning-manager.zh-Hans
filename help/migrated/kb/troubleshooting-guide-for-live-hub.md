@@ -1,15 +1,15 @@
 ---
-title: Live Hub故障排除指南
+title: Live Hub (Beta)故障排除指南
 description: 在Live Hub会话中可能遇到的常见错误消息和通知、其原因以及解决这些问题的步骤。
-source-git-commit: 02de0cee632d34c99e1cba12cddb846f7e6cae81
+source-git-commit: 43d4a9fb47d94ef541984a1c1fb9c70ba4e3f61d
 workflow-type: tm+mt
-source-wordcount: '1009'
+source-wordcount: '1011'
 ht-degree: 2%
 
 ---
 
 
-# Live Hub故障排除指南
+# Live Hub (Beta)故障排除指南
 
 在Live Hub会话期间，讲师可能会遇到导致某些操作无法按预期完成的错误消息或通知。 本文介绍了常见的面向讲师的错误、其可能的原因以及解决这些错误可以采取的步骤。
 

@@ -2,9 +2,9 @@
 description: 关于启用Gradebook，使其对作者和学习者可见的所有操作
 jcr-language: en_us
 title: 面向管理员的Gradebook
-source-git-commit: 588cb5209168b605405a4b3d6949006344b5468b
+source-git-commit: 2f1a64abe8be62bfc23da052232d6ceb1202ebad
 workflow-type: tm+mt
-source-wordcount: '1134'
+source-wordcount: '1149'
 ht-degree: 0%
 
 ---
@@ -114,7 +114,10 @@ Adobe Learning Manager管理员可以查看课程中所有注册学习者的加�
 * 在&#x200B;**活动反馈分级簿**&#x200B;中，选择页面右上角的&#x200B;**下载学习者成绩单**。
 * 在管理员主页上，选择&#x200B;**报告**，然后选择&#x200B;**自定义报告**。 从可用报告列表中选择&#x200B;**学习者成绩单**。
 
-有关更多信息，请参阅报告版本中的更改。
+>[!NOTE]
+>
+>在课程级别启用“成绩单”时，“学习者成绩单”（CSV报告和作业API）会将加权数添加为列。
+
 
 ## 内容审查追踪事件
 

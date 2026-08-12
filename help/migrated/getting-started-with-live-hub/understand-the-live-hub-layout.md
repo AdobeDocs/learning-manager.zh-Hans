@@ -1,15 +1,15 @@
 ---
-title: 了解实时中心布局
+title: 了解实时中心(Beta)布局
 description: 了解构成Live Hub会议室的面板和控件，包括控制栏、“与会者”面板、“聊天”面板和“讲座”面板。
-source-git-commit: 43d4a9fb47d94ef541984a1c1fb9c70ba4e3f61d
+source-git-commit: fcdedf246e9efa4509e9dd51f56856a79a0791ae
 workflow-type: tm+mt
-source-wordcount: '820'
+source-wordcount: '822'
 ht-degree: 1%
 
 ---
 
 
-# 了解实时中心布局
+# 了解实时中心(Beta)布局
 
 在Adobe Learning Manager Live Hub中，会话室旨在帮助讲师和学习者在实时会话期间高效协作。 版面包括多个面板和控件，您可以通过这些面板和控件实时管理音频、视频、参与者和交互。
 

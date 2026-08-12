@@ -1,15 +1,15 @@
 ---
 title: 以学习者身份加入实时中心会话
 description: 了解学习者如何通过已注册的课程加入实时中心会话，包括在进入会议室之前测试音频和摄像头设置。
-source-git-commit: 83b1509610f1923424db1797c6e85d1f32422ce7
+source-git-commit: fcdedf246e9efa4509e9dd51f56856a79a0791ae
 workflow-type: tm+mt
-source-wordcount: '137'
+source-wordcount: '138'
 ht-degree: 4%
 
 ---
 
 
-# 以学习者身份加入实时中心会话
+# 以学习者身份加入实时中心(Beta)会话
 
 学习者直接从注册的课程加入实时中心会话。 加入后，您可以通过聊天、投票、测验、白板和分组会议室参加实时培训。
 

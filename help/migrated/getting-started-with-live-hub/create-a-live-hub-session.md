@@ -1,15 +1,15 @@
 ---
-title: 创建实时中心会话
+title: 创建Live Hub (Beta)会话
 description: 了解如何创建Live Hub课程、添加课程实例、为讲师分配“讲师查找器”、注册学习者以及自定义会议室品牌。
-source-git-commit: b8f529b45fb222fe3dd7f335ad45b37a9be713e5
+source-git-commit: fcdedf246e9efa4509e9dd51f56856a79a0791ae
 workflow-type: tm+mt
-source-wordcount: '1111'
+source-wordcount: '1113'
 ht-degree: 0%
 
 ---
 
 
-# 创建实时中心会话
+# 创建Live Hub (Beta)会话
 
 通过Live Hub在Adobe Learning Manager课程中实时提供讲师指导培训。 您可以将实时中心会话与自学内容相结合，打造混合式学习体验。
 

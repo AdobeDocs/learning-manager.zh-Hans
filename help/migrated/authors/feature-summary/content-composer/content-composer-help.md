@@ -2,9 +2,9 @@
 title: Adobe Learning Manager Content Composer (Beta)帮助
 description: 从普通语言提示到已发布的课程，Adobe Learning Manager Content Composer会处理教学设计，您可以通过创作极具冲击力的教学内容，重点满足学习者需求。
 contentowner: saghosh
-source-git-commit: 04c9d7f773e84a9658f0ad014569b4463f4cc2cd
+source-git-commit: fc3affc155fd10bd74f4b11175bf76fe64ddf6d4
 workflow-type: tm+mt
-source-wordcount: '741'
+source-wordcount: '762'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,11 @@ Content Composer通过对话引导作者完成培训目标、源资料和学习�
 
 >[!IMPORTANT]
 >
->您必须使用有效的Adobe Creative Cloud帐户登录。 如果您还没有免费帐户，可以通过Adobe Express创建一个免费帐户。 有关详细信息，请参阅[创建免费Adobe Express帐户](https://helpx.adobe.com/cn/express/web/adobe-express-subscription/free.html)。 创建Adobe凭据后，启动Content Composer并登录以开始创建课程。 如果您的组织已有Creative Cloud订阅，请联系您的管理员，以便在登录到Content Composer之前为您预配Creative Cloud帐户。
+>您必须使用有效的Adobe Creative Cloud帐户登录。 如果您还没有免费帐户，可以通过Adobe Express创建一个免费帐户。 有关详细信息，请参阅[创建免费Adobe Express帐户](https://helpx.adobe.com/express/web/adobe-express-subscription/free.html)。 创建Adobe凭据后，启动Content Composer并登录以开始创建课程。 如果您的组织已有Creative Cloud订阅，请联系您的管理员，以便在登录到Content Composer之前为您预配Creative Cloud帐户。
+
+>[!NOTE]
+>
+>要获得内容书写器的最佳体验，建议使用Google Chrome。 Firefox和Safari在功能或行为上可能存在差异。
 
 ## 试用Content Composer
 

@@ -3,9 +3,9 @@ description: 了解Adobe Learning Manager 2026年8月版的新增功能和增强
 jcr-language: en_us
 title: Adobe Learning Manager 2026年8月版的新增功能
 exl-id: da46f186-3ff3-422a-af49-31c7405fd584
-source-git-commit: 659829ef14fb3aea67f6bd5f191c1051f1b93a66
+source-git-commit: f5a988186fdc44d64389ad850af57bde10b728e9
 workflow-type: tm+mt
-source-wordcount: '2673'
+source-wordcount: '2647'
 ht-degree: 0%
 
 ---
@@ -50,7 +50,7 @@ Gradebook支持两种完成模型：
 
 不可评分的模块类型、PDF文件、视频文件、音频文件、PowerPoint演示文稿、Word文档、Excel文件和HTML内容，不能分配权重百分比，也不影响总分数。 完成课程可能仍需要这些模块。 启用“包含不参与最终分级的模块”选项后，这些模块将显示在成绩簿中，且没有权重值。
 
-有关详细信息，请查看[作者等级簿](/help/migrated/authors/feature-summary/alm-author-gradebook.md)。
+了解有关[作者的Gradebook](/help/migrated/authors/feature-summary/alm-author-gradebook.md)的更多信息。
 
 ## 分层内容文件夹
 
@@ -66,9 +66,9 @@ Gradebook支持两种完成模型：
 * 公用文件夹和专用文件夹结构互斥
 * 在课程创作中选择模块时浏览文件夹体验
 
-有关管理员级别功能的详细信息，请查看[分层内容文件夹](/help/migrated/administrators/feature-summary/settings/advanced-settings.md#content-folder)。 查看[分层内容文件夹](/help/migrated/authors/feature-summary/content-library.md#add-content-to-a-folder)，了解有关作者级功能的详细信息。
+详细了解[分层内容文件夹 — 管理员级功能](/help/migrated/administrators/feature-summary/settings/advanced-settings.md#content-folder)。 详细了解[分层内容文件夹 — 作者级功能](/help/migrated/authors/feature-summary/content-library.md#add-content-to-a-folder)。
 
-如果要将学习内容从其他平台迁移到Adobe Learning Manager并保留现有文件夹组织，可使用CSV文件创建分层文件夹结构并将内容文件与适当的文件夹关联。 详细了解[迁移内容文件夹层次结构](/help/migrated/integration-admin/feature-summary/migration-manual.md#migratecontentfolderhierarchy)中的迁移
+如果要将学习内容从其他平台迁移到Adobe Learning Manager并保留现有文件夹组织，可使用CSV文件创建分层文件夹结构并将内容文件与适当的文件夹关联。 详细了解[迁移内容文件夹层次结构](/help/migrated/integration-admin/feature-summary/migration-manual.md#migratecontentfolderhierarchy)中的迁移。
 
 ## Live Hub (Beta)
 
@@ -82,7 +82,7 @@ Live Hub是Adobe Learning Manager中由AI提供支持的虚拟培训体验，可
 * 衡量参与度分析的重要性，该分析不仅限于出勤率，还能揭示真正的学习参与度。
 * 协助作者使用AI技术支持的讲师查找器，按技能、可用性、首选时间、时区以及当前利用率匹配合适的讲师。
 
-有关详细信息，请查看[Live Hub快速入门](./getting-started-with-live-hub/getting-started-live-hub.md)。
+详细了解[开始使用Live Hub](./getting-started-with-live-hub/getting-started-live-hub.md)。
 
 ## Adobe Learning Manager Content Composer (Beta)
 
@@ -97,7 +97,7 @@ Adobe Learning Manager现在包括Content Composer，这是一种AI本机课程�
 * 发布前可配置的完成标准、成功标准、测验设置和SCORM版本。
 * 等等。
 
-有关详细信息，请查看[Adobe Learning Manager Content Composer](/help/migrated/authors/feature-summary/content-composer/content-composer-help.md)。
+了解有关[Adobe Learning Manager Content Composer](/help/migrated/authors/feature-summary/content-composer/content-composer-help.md)的更多信息。
 
 
 ## 基于组件的电子邮件模板生成器
@@ -113,7 +113,7 @@ Adobe Learning Manager现在包括Content Composer，这是一种AI本机课程�
 * 发布前预览并测试发送
 * 向后兼容性：现有电子邮件模板继续工作
 
-有关详细信息，请查看[基于组件的电子邮件生成器](/help/migrated/administrators/feature-summary/email-builder.md)。
+详细了解[基于组件的电子邮件生成器](/help/migrated/administrators/feature-summary/email-builder.md)。
 
 ## 外部学习支持
 
@@ -128,7 +128,7 @@ Adobe Learning Manager现在包括Content Composer，这是一种AI本机课程�
 * 管理员和学习者成绩单中的新列：外部学习名称、完成注释、自定义字段列
 * API支持：五个新的学习者范围端点，用于创建、检索和更新提交内容
 
-有关管理员级别的更多信息，请参阅[外部学习支持](/help/migrated/administrators/feature-summary/settings/basic-settings.md)。 有关经理级别的更多信息，请参阅[外部学习支持](/help/migrated/managers/feature-summary/review-external-learning-requests.md)。 有关学习者级别的更多信息，请参阅[外部学习支持](/help/migrated/learners/feature-summary/submit-external-learning.md)。
+了解有关[外部学习支持 — 管理员级功能](/help/migrated/administrators/feature-summary/settings/basic-settings.md)的更多信息。 了解有关[外部学习支持 — 经理级功能](/help/migrated/managers/feature-summary/review-external-learning-requests.md)的更多信息。 了解有关[外部学习支持 — 学习者级别功能](/help/migrated/learners/feature-summary/submit-external-learning.md)的更多信息。
 
 ## AI功能
 
@@ -141,7 +141,7 @@ Adobe Learning Manager现在包括Content Composer，这是一种AI本机课程�
 * **Adobe Experience League答案**：助手现在从Adobe Learning Manager帮助文档获取操作方法问题的答案
 * **第三方内容查询**：可查询Go1和LinkedIn学习目录内容（仅限元数据；仅英语；添加目录后需要1-2小时才能摄取）
 
-有关详细信息，请查看[学习者的AI助手](/help/migrated/learners/feature-summary/learner-ai-assistant.md)。
+了解有关[学习者AI Assistant](/help/migrated/learners/feature-summary/learner-ai-assistant.md)的更多信息。
 
 ### 学习路径代理
 
@@ -155,13 +155,13 @@ Adobe Learning Manager现在包括Content Composer，这是一种AI本机课程�
 * 在学习者主页上最多可见10条个性化学习路径
 * 可以与同事共享已完成的路径
 
-有关详细信息，请查看[学习路径代理](/help/migrated/learners/feature-summary/learning-path-agent.md)。
+详细了解[学习路径代理](/help/migrated/learners/feature-summary/learning-path-agent.md)。
 
 ### Insights代理
 
 Insights代理可帮助管理员通过自然语言查询分析学习数据。 询问有关注册趋势、完成率、学习者参与度和技能差距的问题。 客服专员会生成报告和可视化效果以作为响应。
 
-有关详细信息，请查看[Insights代理](/help/migrated/administrators/feature-summary/insights-agent.md)。
+了解有关[Insights代理](/help/migrated/administrators/feature-summary/insights-agent.md)的更多信息。
 
 <!--
 ### Gen AI credits
@@ -175,7 +175,7 @@ View [Gen AI credits](/help/migrated/administrators/feature-summary/billing-mana
 
 渠道提供了一种从Web和Confluence页面组织、发布和发现视频内容的集中方式。 管理员可以通过连接支持的网页或Confluence页面来创建和管理渠道，配置渠道设置，控制可见性，以及从源同步内容。 学习者可以从单个位置浏览可用渠道、订阅目标渠道和观看精选视频内容。
 
-有关详细信息，请查看[创建通道](/help/migrated/administrators/feature-summary/create-channels.md)。
+详细了解[创建声道](/help/migrated/administrators/feature-summary/create-channels.md)。
 
 ## Report Builder
 
@@ -183,7 +183,7 @@ Report Builder为管理员提供了灵活的自助报告工具，不只是Adobe 
 
 报告创建一次并保存，以便重复使用。 无需在每次下载时重新生成筛选器、重新应用分组或重新加入数据集。 可以按需下载保存的报告、与其他管理员共享的报告或设置订阅，以便收件人定期自动接收更新的报告。
 
-有关详细信息，请查看[Report Builder](/help/migrated/administrators/feature-summary/alm-report-builder.md)。
+详细了解[Report Builder](/help/migrated/administrators/feature-summary/alm-report-builder.md)。
 
 ## 自定义角色更改
 
@@ -200,41 +200,41 @@ Report Builder为管理员提供了灵活的自助报告工具，不只是Adobe 
 
 **仅手动创建角色**：扩展的自定义角色管理功能仅适用于通过Adobe Learning Manager管理员界面创建的角色。 不支持通过CSV上传功能导入的角色。
 
-了解有关自定义角色更改的详细信息。 有关详细信息，请查看[高级用户权限解锁的内容](/help/migrated/administrators/feature-summary/custom-role.md#whatadvanceduserpermissionunlocks)
+在主题[高级用户权限解锁的内容](/help/migrated/administrators/feature-summary/custom-role.md#whatadvanceduserpermissionunlocks)中了解有关自定义角色更改的详细信息。
 
-## LTI深度链接
+## LTI深层链接
 
 集成管理员现在可以为LTI工具配置启用LTI深层链接，从而允许课程作者直接从外部LMS浏览和嵌入Adobe Learning Manager课程，而无需手动复制课程URL。
 
 启用后，作者将在外部LMS活动配置中看到&#x200B;**选择内容**&#x200B;按钮。 他们可以浏览已批准的目录、选择课程并确认选择 — 所有字段都会自动填充。
 
-有关详细信息，请查看[LTI深层链接](/help/migrated/integration-admin/feature-summary/lti-deep-links.md)。
+详细了解[LTI深层链接](/help/migrated/integration-admin/feature-summary/lti-deep-links.md)。
 
 ## 教室位置
 
 教室位置现在支持结构化的&#x200B;**四字段位置格式**，包括国家/地区、州/省/地区、城市和位置名称，从而更轻松地跨区域管理和组织培训位置。 此更新包括从旧版单字段格式进行一次性迁移，并添加了对&#x200B;**位置名称**&#x200B;和&#x200B;**位置信息**&#x200B;字段的多语言支持，从而使学习者能够获取本地化的教室详细信息。
 
-有关详细信息，请查看[教室位置](/help/migrated/administrators/feature-summary/classroom.md)。
+详细了解[教室位置](/help/migrated/administrators/feature-summary/classroom.md)。
 
 ## 报告版本中的更改
 
-有关详细信息，请查看[报告Adobe Learning Manager 2026年8月版中的更改](/help/migrated/reporting-changes-august-2026.md)。
+详细了解[报告Adobe Learning Manager 2026年8月版中的更改](/help/migrated/reporting-changes-august-2026.md)。
 
 ## 此版本中的API更改
 
-有关详细信息，请查看Adobe Learning Manager 2026年8月版[&#128279;](/help/migrated/api-changes-august-2026.md)中的API更改。
+了解有关Adobe Learning Manager 2026年8月版[API更改的更多信息](/help/migrated/api-changes-august-2026.md)。
 
 ## 版本中的其他增强功能
 
 | 增强功能 | 描述 |
 |---|---|
-| **MQA：最新与最高分数** | 对于多次尝试的模块，作者现在可以选择是否在学习者成绩单中记录最新尝试分数或最高尝试分数，并将其用于评分簿计算。 “最新”是现有的默认设置，并且在未配置该设置时保持不变。 有关详细信息，请参阅[作者的Gradebook](/help/migrated/authors/feature-summary/alm-author-gradebook.md#configurescoresettingsmultipleattempts)。 |
-| **内容库中的内容预览** | 作者现在可以直接在内容库中预览上传的内容文件，然后再将它们添加到课程中。 有关详细信息，请查看[预览内容库](/help/migrated/authors/feature-summary/content-library.md#previewcontentlibrary)。 |
-| **增量用户报告** | 新的基于API的用户报告仅返回自上次请求以来创建或修改的用户，从而减少使用自动用户同步工作流程的大型帐户的数据传输。 有关详细信息，请查看[增量用户报告](/help/migrated/incremental-user-report.md)。 |
-| **流体播放器中的11种新语言** | 流体播放器现在支持11种其他语言，包括从右到左(RTL)脚本支持。 有关更多信息，请查看[流体播放器](/help/migrated/learners/feature-summary/fluidic-player.md)。 |
-| **LTI模块迁移** | 现在可以使用迁移工具将现有的LTI 1.1模块迁移到LTI 1.3。 有关详细信息，请查看[模块的LTI迁移](/help/migrated/integration-admin/feature-summary/migration-manual.md#migrationofltimodules)。 |
-| **电子邮件生成器：支持富文本编辑器** | Adobe Learning Manager中的电子邮件模板现在支持富文本格式、附件和自定义自动化。 有关详细信息，请参阅[电子邮件生成器](/help/migrated/administrators/feature-summary/email-builder.md)。 |
-| **电子邮件生成器：预览功能** | 您可以使用“预览”选项检查您撰写的电子邮件，以查看它看起来像收件人的末尾。 有关详细信息，请参阅[电子邮件生成器](/help/migrated/administrators/feature-summary/email-builder.md)。 |
+| **MQA：最新与最高分数** | 对于多次尝试的模块，作者现在可以选择是否在学习者成绩单中记录最新尝试分数或最高尝试分数，并将其用于评分簿计算。 “最新”是现有的默认设置，并且在未配置该设置时保持不变。 有关详细信息，请详细了解[面向作者的Gradebook](/help/migrated/authors/feature-summary/alm-author-gradebook.md#configurescoresettingsmultipleattempts)。 |
+| **内容库中的内容预览** | 作者现在可以直接在内容库中预览上传的内容文件，然后再将它们添加到课程中。 了解有关[预览内容库](/help/migrated/authors/feature-summary/content-library.md#previewcontentlibrary)的更多信息。 |
+| **增量用户报告** | 新的基于API的用户报告仅返回自上次请求以来创建或修改的用户，从而减少使用自动用户同步工作流程的大型帐户的数据传输。 详细了解[增量用户报告](/help/migrated/incremental-user-report.md)。 |
+| **流体播放器中的11种新语言** | 流体播放器现在支持11种其他语言，包括从右到左(RTL)脚本支持。 了解有关[流体播放器](/help/migrated/learners/feature-summary/fluidic-player.md)的更多信息。 |
+| **LTI模块迁移** | 现在可以使用迁移工具将现有的LTI 1.1模块迁移到LTI 1.3。 详细了解[模块的LTI迁移](/help/migrated/integration-admin/feature-summary/migration-manual.md#migrationofltimodules)。 |
+| **电子邮件生成器：支持富文本编辑器** | Adobe Learning Manager中的电子邮件模板现在支持富文本格式、附件和自定义自动化。 详细了解[电子邮件生成器](/help/migrated/administrators/feature-summary/email-builder.md)。 |
+| **电子邮件生成器：预览功能** | 您可以使用“预览”选项检查您撰写的电子邮件，以查看它看起来像收件人的末尾。 详细了解[电子邮件生成器](/help/migrated/administrators/feature-summary/email-builder.md)。 |
 | **Webhook时间戳标准化** | Webhook有效负载的`data`对象中的所有日期和时间字段现在将秒数设置为`00`，提供与学习者成绩单报告一致的分钟级精度。 |
 | **连接增强功能** | Azure数据湖存储(ADLS)连接器更新；对定期虚拟教室会话的持续教室名称支持；基于录制视图的出席情况跟踪。 |
 | **播放器性能改进** | 流体课程播放器经过优化，缩短了加载时间，模块之间的转换更加流畅。 |
@@ -250,7 +250,7 @@ Report Builder为管理员提供了灵活的自助报告工具，不只是Adobe 
 
 ## 系统要求
 
-有关详细信息，请参阅[Adobe Learning Manager系统要求](/help/migrated/system-requirements.md)。
+详细了解[Adobe Learning Manager系统要求](/help/migrated/system-requirements.md)。
 
 ## 发行说明
 

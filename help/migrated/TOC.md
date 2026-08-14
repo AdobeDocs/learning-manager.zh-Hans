@@ -2,9 +2,9 @@
 user-guide-title: Adobe Learning Manager 指南
 breadcrumb-title: Learning Manager
 user-guide-description: Adobe Learning Manager 的文档
-source-git-commit: fcdedf246e9efa4509e9dd51f56856a79a0791ae
+source-git-commit: 055a04c6226146b1816241834a57ae4b1b8a1d2a
 workflow-type: tm+mt
-source-wordcount: '1653'
+source-wordcount: '1652'
 ht-degree: 36%
 
 ---
@@ -21,8 +21,8 @@ ht-degree: 36%
   * [2024年11月新增功能摘要](/help/migrated/whats-new-nov-24.md)
   * [2024年7月新增功能摘要](whats-new-july-2024.md)
   * [2024年3月版新增功能](whats-new-march-2024.md)
-  * {hide-from-toc}[&#x200B; 2023年11月版新增功能](whats-new-november-2023.md)
-  * {hide-from-toc}[&#x200B; 2023年7月版新增功能](whats-new-2023-july.md)
+  * {hide-from-toc}[ 2023年11月版新增功能](whats-new-november-2023.md)
+  * {hide-from-toc}[ 2023年7月版新增功能](whats-new-2023-july.md)
   * {hide-from-toc}[Adobe Learning Manager中即将推出的更改](/help/migrated/upcoming-changes-in-adobe-learning-manager.md)
   * [发行说明](release-note/release-notes.md)
   * [系统要求](system-requirements.md)
@@ -359,12 +359,12 @@ ht-degree: 36%
       * [参加分组讨论](../migrated/getting-started-with-live-hub/participate-in-a-breakout-session.md)
     * 隐藏式字幕 {#closed-captions}
       * [了解隐藏式字幕](../migrated/getting-started-with-live-hub/closed-captions-in-live-hub.md)
-      * [以讲师身份管理隐藏式字幕](../migrated/getting-started-with-live-hub/manage-closed-captions-as-an-instructor.md)
+      * [以讲师身份管理隐藏字幕](../migrated/getting-started-with-live-hub/manage-closed-captions-as-an-instructor.md)
       * [以学习者身份管理隐藏字幕](../migrated/getting-started-with-live-hub/manage-closed-captions-as-a-learner.md)
     * 录制和转录文本{#recordings-and-transcripts}
       * [了解录制内容和转录文本](../migrated/getting-started-with-live-hub/understanding-recordings-and-transcripts.md)
       * [录制会话](../migrated/getting-started-with-live-hub/record-a-session.md)
-      * [以学习者身份查看录制](../migrated/getting-started-with-live-hub/view-recordings-as-a-learner.md)
+      * [以学习者身份查看会话录制](../migrated/getting-started-with-live-hub/view-recordings-as-a-learner.md)
     * 会话信息板 {#session-dashboard}
       * [查看会话信息板](../migrated/getting-started-with-live-hub/view-the-session-dashboard.md)
       * [“会话”操控板的组件](../migrated/getting-started-with-live-hub/components-of-the-session-dashboard.md)

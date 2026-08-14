@@ -1,9 +1,9 @@
 ---
 title: 关于Live Hub中的分组讨论
 description: 了解分组讨论室如何让讲师将实时中心会话拆分为若干个较小的组，以便进行讨论、活动和协作。
-source-git-commit: 5cc382cc869b7653262b24ff639110367acc8c93
+source-git-commit: 055a04c6226146b1816241834a57ae4b1b8a1d2a
 workflow-type: tm+mt
-source-wordcount: '668'
+source-wordcount: '661'
 ht-degree: 0%
 
 ---
@@ -84,11 +84,12 @@ ht-degree: 0%
 
 这将标记分组活动的完成情况并启用会话后审阅。
 
-![分组讨论室分布](assets/breakout-room-distribution.png "实时中心界面，显示分组讨论室中学习者的分布。")
+![分组讨论会议室分布](assets/breakout-room-distribution.png)
+*显示分组会话布局的实时中心界面*
 
 ## 角色和权限
 
-讲师和学习者均可进入分组讨论区。 该面板中可用的操作和控制因用户在虚拟教室中的角色而异。
+讲师和学习者均可在实时中心会话期间参加分组讨论。 可用的操作和控制因用户角色而异。
 
 | **讲师** | **学习者** |
 |----|----|

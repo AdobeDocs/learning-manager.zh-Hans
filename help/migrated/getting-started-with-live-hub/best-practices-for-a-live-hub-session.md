@@ -1,9 +1,9 @@
 ---
 title: Live Hub (Beta)会话的最佳实践
 description: 按照这些最佳实践，在Adobe Learning Manager中为作者、管理员、讲师和学习者准备、运行和跟进实时中心课程。
-source-git-commit: fcdedf246e9efa4509e9dd51f56856a79a0791ae
+source-git-commit: e48747e8c9c520396b608dfae9aee2425815bad5
 workflow-type: tm+mt
-source-wordcount: '1879'
+source-wordcount: '1885'
 ht-degree: 0%
 
 ---
@@ -11,7 +11,7 @@ ht-degree: 0%
 
 # Live Hub (Beta)会话的最佳实践
 
-Adobe Learning Manager中的实时中心课程将讲师和学习者聚集在一起，提供实时培训，包括聊天、投票、测验、白板、分组讨论室、录制和分析。 本文说明如何执行每项任务。 这份文件是它的伴侣：它解释了如何做好这些工作。
+Adobe Learning Manager中的实时中心课程将讲师和学习者聚集在一起，利用聊天、投票、测验、白板、分组讨论室、录制和分析等交互式功能进行实时培训。 本随附指南重点介绍管理员、作者和讲师为创造顺畅、有吸引力且有效的学习体验而可采用的实践。
 
 每个实时中心会话都经历三个阶段。 本指南遵循相同的节奏，确定会话成功的大部分努力发生在任何人加入会议室之前。
 

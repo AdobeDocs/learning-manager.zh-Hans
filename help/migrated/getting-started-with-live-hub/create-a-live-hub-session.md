@@ -1,9 +1,9 @@
 ---
 title: 创建Live Hub (Beta)会话
 description: 了解如何创建Live Hub课程、添加课程实例、为讲师分配“讲师查找器”、注册学习者以及自定义会议室品牌。
-source-git-commit: fcdedf246e9efa4509e9dd51f56856a79a0791ae
+source-git-commit: 055a04c6226146b1816241834a57ae4b1b8a1d2a
 workflow-type: tm+mt
-source-wordcount: '1113'
+source-wordcount: '1084'
 ht-degree: 0%
 
 ---
@@ -130,7 +130,7 @@ ht-degree: 0%
    ![AI Assistant面板讲师Recommendations](assets/ai-assistant-panel-instructor-recommendations.png)
    *使用AI Assistant面板根据会话的详细信息获取讲师和时隙建议。*
 
-1. 查看推荐讲师列表。 讲师查找器根据课程技能和会话要求推荐讲师。 Recommendations还会考虑讲师的可用性、利用率和您组织的假日日历。 有关详细信息，请查看&#x200B;**讲师管理**。
+1. 查看推荐讲师列表。
 
 1. 导航到要分配的讲师，然后选择&#x200B;**添加**。<br> 所选讲师将作为标记添加到&#x200B;**讲师**&#x200B;字段中。
 

@@ -1,9 +1,9 @@
 ---
 title: Live Hub (Beta)常见问题解答
 description: 有关Adobe Learning Manager Live Hub的常见问题解答，按角色分组，面向管理员、作者、讲师和学习者。
-source-git-commit: 43d4a9fb47d94ef541984a1c1fb9c70ba4e3f61d
+source-git-commit: 318e902efea08f9c728813ff5d43293f91b6d46d
 workflow-type: tm+mt
-source-wordcount: '4475'
+source-wordcount: '4473'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 0%
  </tbody>
 </table>
 
-实时中心包括管理员、作者、讲师和学习者角色，他们分别负责培训工作流程的不同部分。 本文档按照角色对原始Live Hub FAQ内容进行重新组织，以便每位受众可以快速找到与他们最相关的问题。
+实时中心包括管理员、作者、讲师和学习者角色，他们分别负责培训工作流程的不同部分。 本文档按角色组织Live Hub常见问题解答，以便每位受众可以快速找到与他们最相关的问题。
 
 ## 管理员
 

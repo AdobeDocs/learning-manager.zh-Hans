@@ -1,9 +1,9 @@
 ---
 title: Live Hub (Beta)快速入门
 description: 了解Adobe Learning Manager中的Live Hub如何让您直接在平台上提供讲师指导的实时培训课程。
-source-git-commit: 8078e00844d3b2d757e37d65b6b4c99ff04ab1b6
+source-git-commit: f9fed45f8818ff34ff4a4c6750a3659b6d4dc49d
 workflow-type: tm+mt
-source-wordcount: '742'
+source-wordcount: '746'
 ht-degree: 0%
 
 ---
@@ -56,7 +56,7 @@ Live Hub是内置的虚拟培训解决方案，允许您：
 
 | **阶段** | **关键活动** |
 |---|---|
-| **会话前** | 管理员验证是否满足[系统要求](./system-requirements-for-live-hub.md)，并为帐户[启用Live Hub](../administrators/feature-summary/enable-live-hub.md)。 他们还可以为学习者注册课程。 作者[创建Live Hub课程](create-a-live-hub-session.md)，讲师通过[配置布局](./understand-the-live-hub-layout.md)、内容和交互活动为即将开始的会话准备会议室。 |
+| **会话前** | 管理员验证是否满足[系统要求](./system-requirements-for-live-hub.md)，并为帐户[启用Live Hub](../administrators/feature-summary/enable-live-hub.md)。 作者[创建Live Hub课程](create-a-live-hub-session.md)，学习者可以自行注册该课程，或者管理员可以注册该课程。 讲师通过[配置布局](./understand-the-live-hub-layout.md)、内容和即将开始的会话的交互式活动来准备会议室。 |
 | **会话期间** | 讲师交付实时会话并使用[聊天](about-the-chat-panel.md)、[投票](./about-the-polls.md)、[测验](./about-the-quiz.md)、[白板](./about-the-whiteboard.md)、[屏幕共享](./about-the-screen-sharing.md)和[分组讨论室](./about-the-breakouts.md)等功能吸引学习者。 学习者可以在整个会话中参与这些活动。 讲师可以[录制会话](./record-a-session.md)，以便学习者稍后查看。 |
 | **会话后** | 讲师会审核会话记录、出席报告和[参与分析](./view-the-session-dashboard.md)，以评估学习者参与情况并评估会话的有效性。 学习者可以通过[基于主题的录制](./view-recordings-as-a-learner.md)视图重新访问会话，该视图将录制拆分为可导航的主题，每个主题都具有标题、概述和注释，以便他们能够跳转到任何主题或阅读主题而不是观看。 |
 

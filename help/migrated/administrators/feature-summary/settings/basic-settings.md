@@ -3,9 +3,9 @@ description: 详细了解基本设置如何帮助您根据组织的结构和学�
 jcr-language: en_us
 title: 基本设置
 exl-id: b5cbe224-e3ee-4ac2-8d9b-95249044dfa6
-source-git-commit: 38f9b508ec91ee103d67f2e6e9716622b796b44b
+source-git-commit: 170d567c555ba831ea84c75fe3fad2f216eec932
 workflow-type: tm+mt
-source-wordcount: '6363'
+source-wordcount: '6386'
 ht-degree: 3%
 
 ---
@@ -431,6 +431,8 @@ Adobe Learning Manager使用某些产品术语来定义学习对象，例如课�
 
 为帐户中的所有学习者激活外部学习功能。 启用后，提交表单就会显示在“学习者”信息板上。 学习者可以输入培训名称、持续时间、日期、分数和完成证明等详细信息。 所提交的内容将发送给其经理以供审阅和批准。 获批提交内容会显示在学习者成绩单和管理员报告中。 被拒绝的提交内容不会记录在成绩单中。
 
+![选择“启用”以启用学习者的外部学习提交](../assets/external-learning-enable.png)
+
 >[!NOTE]
 >
 >启用此设置后，将在外部学习提交的“学习者成绩单”中添加新列。 如果您的组织使用自动化工作流程或集成来处理学习者成绩单数据，请在启用之前查看这些内容，以确保与更新的成绩单结构兼容。
@@ -502,6 +504,8 @@ Adobe Learning Manager使用某些产品术语来定义学习对象，例如课�
 | 编号 | 数值输入。 |
 | 复选框 | 单个是/否切换。 |
 | 下拉菜单 | 从管理员定义的选项列表中进行单次选择。 |
+
+![选择学习者用于提交外部学习的核心和自定义字段](../assets/external-learning-fields.png)
 
 ### 完成证明文件要求
 

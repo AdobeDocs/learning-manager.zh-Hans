@@ -4,7 +4,7 @@ jcr-language: en_us
 title: Adobe Learning Manager发行说明
 contentowner: mmanuel
 exl-id: ae9251b6-5326-42c2-881e-2ab3393d9e17
-source-git-commit: ab7a0a07ebbb2607d67c7b8488e1a310878ab13a
+source-git-commit: a3b1824c68247b73038b3226188f2b4b3fd9f8e6
 workflow-type: tm+mt
 source-wordcount: '34007'
 ht-degree: 65%
@@ -37,7 +37,7 @@ ht-degree: 65%
 
 通过以下功能加强了内容管理：基于所见即所得组件的电子邮件模板生成器、具有基于角色的访问的分层内容文件夹结构、用于提交和批准平台外培训的外部学习功能，以及聚合企业网页和Confluence页面中的视频内容的新“渠道”功能。
 
-有关更多信息，请参阅[Adobe Learning Manager 2026年8月版中的新增功能和更改](/help/migrated/whats-new.md)。
+了解有关[Adobe Learning Manager 2026年8月版中的新增功能和更改](/help/migrated/whats-new.md)的更多信息。
 
 ## 打破版本中的更改
 

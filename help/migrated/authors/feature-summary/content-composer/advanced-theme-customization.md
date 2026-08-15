@@ -1,10 +1,10 @@
 ---
-description: 了解如何使用Content Composer中的高级主题属性，通过精细的字体和样式控件自定义各个文本元素，包括课程名称、主题名称、块标题、字幕和段落。
+description: 了解如何使用Content Composer中的高级主题属性来自定义标题和文本元素的字体、颜色、间距和布局。
 jcr-language: en_us
 title: 高级主题自定义
-source-git-commit: 1fad4a773bfc5c32e47c034e6bf69d6c511b4920
+source-git-commit: 68d15fa96588b2569c9b1cdb480e2ba9f31a1cf6
 workflow-type: tm+mt
-source-wordcount: '341'
+source-wordcount: '332'
 ht-degree: 0%
 
 ---

@@ -1,10 +1,10 @@
 ---
-description: 了解如何向Content Composer课程添加页眉和页脚、上传页眉的徽标以及在画布中预览更改，然后再保存更新的主题。
+description: 了解如何向Content Composer课程添加页眉和页脚、上传徽标、启用切换以及在画布中实时预览主题更改。
 jcr-language: en_us
 title: 添加页眉和页脚
-source-git-commit: b7d67b494193163352947f255ef2c5be74e1bc30
+source-git-commit: 68d15fa96588b2569c9b1cdb480e2ba9f31a1cf6
 workflow-type: tm+mt
-source-wordcount: '128'
+source-wordcount: '124'
 ht-degree: 0%
 
 ---

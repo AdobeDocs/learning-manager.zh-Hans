@@ -1,10 +1,10 @@
 ---
-description: 选择任意文本元素以激活随文格式工具栏。 直接在画布上编辑正文文本、标题和标签。 可通过助理重命名课程和主题，而不是通过选择标题来重命名。
+description: 了解如何使用内联格式工具栏在Content Composer中编辑课程文本，以及如何通过助理重命名课程和主题。
 jcr-language: en_us
 title: 编辑课程文本
-source-git-commit: 9c9e683b3b99f64d33054d92e24e02385a6dc15f
+source-git-commit: 68d15fa96588b2569c9b1cdb480e2ba9f31a1cf6
 workflow-type: tm+mt
-source-wordcount: '109'
+source-wordcount: '102'
 ht-degree: 0%
 
 ---

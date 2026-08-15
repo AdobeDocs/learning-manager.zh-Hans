@@ -1,10 +1,10 @@
 ---
-description: 查看当前的Content Composer Beta版限制，包括大纲编辑、评估类型、主题自定义和协作方面的限制，以及每个限制的可用解决方法和路线图状态。
+description: 查看Content Composer Beta版限制 — 仅对话编辑、仅MCQ/True-False测验、固定轮廓 — 以及每种限制的解决方法。
 jcr-language: en_us
 title: 内容书写器Beta版限制
-source-git-commit: ea6d296fa99686136ab08d756a20570a4681d704
+source-git-commit: 68d15fa96588b2569c9b1cdb480e2ba9f31a1cf6
 workflow-type: tm+mt
-source-wordcount: '502'
+source-wordcount: '495'
 ht-degree: 0%
 
 ---

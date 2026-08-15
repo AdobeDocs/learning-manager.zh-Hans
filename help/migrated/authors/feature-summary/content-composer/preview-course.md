@@ -1,10 +1,10 @@
 ---
-description: 预览显示的课程与学习者体验的课程完全相同，应用的主题、激活的交互式组件以及应答模式下的测验。 在发布之前，可使用它来验证内容和交互。
+description: 了解如何在应用的主题、组件和测试处于活动状态的情况下，完全按照学习者看到的效果预览Content Composer课程。
 jcr-language: en_us
 title: 预览课程
-source-git-commit: 6c4ec330683920213b179b48957d0ae2ad46efef
+source-git-commit: 68d15fa96588b2569c9b1cdb480e2ba9f31a1cf6
 workflow-type: tm+mt
-source-wordcount: '94'
+source-wordcount: '84'
 ht-degree: 0%
 
 ---

@@ -1,10 +1,10 @@
 ---
-description: 您需要通过Creative Cloud订阅访问以试用Content Composer（了解课程应涵盖哪些内容的一般方法），以及（可选）源文档，以便将AI融入到组织的特定内容中。
+description: 了解开始使用Content Composer（一个Creative Cloud帐户、Google Chrome和可选源文档）之前，您需要什么来引导AI。
 jcr-language: en_us
 title: 开始之前需要的
-source-git-commit: fefb7d9b28633bd5c25d0fc80281d934e61cfbdf
+source-git-commit: bd8c9be016595799695cee675a1e3eeef5722c07
 workflow-type: tm+mt
-source-wordcount: '258'
+source-wordcount: '245'
 ht-degree: 0%
 
 ---

@@ -1,10 +1,10 @@
 ---
 title: Adobe Learning Manager Content Composer (Beta)帮助
-description: 从普通语言提示到已发布的课程，Adobe Learning Manager Content Composer会处理教学设计，您可以通过创作极具冲击力的教学内容，重点满足学习者需求。
+description: Adobe Learning Manager Content Composer使用AI将纯语言提示转变为可供发布的课程，其中包含课程、评估和媒体。
 contentowner: saghosh
-source-git-commit: fc3affc155fd10bd74f4b11175bf76fe64ddf6d4
+source-git-commit: 68d15fa96588b2569c9b1cdb480e2ba9f31a1cf6
 workflow-type: tm+mt
-source-wordcount: '762'
+source-wordcount: '752'
 ht-degree: 0%
 
 ---

@@ -1,10 +1,10 @@
 ---
-description: 在Content Composer中设置测验重试次数、时间限制、问题顺序和及格分数。 了解每个测验设置如何影响学习者体验以及如何向LMS报告分数。
+description: 了解如何在Content Composer中配置测验重试、时间限制、问题顺序、随机排布和SCORM评分设置。
 jcr-language: en_us
 title: 配置测验设置
-source-git-commit: 4adddf525ba27f9e0c3c3234cfde2c472102a9db
+source-git-commit: 68d15fa96588b2569c9b1cdb480e2ba9f31a1cf6
 workflow-type: tm+mt
-source-wordcount: '184'
+source-wordcount: '172'
 ht-degree: 0%
 
 ---

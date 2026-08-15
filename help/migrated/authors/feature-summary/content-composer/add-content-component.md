@@ -1,10 +1,10 @@
 ---
-description: 使用组件选择器，在现有元素、段落、图像、视频、翻转卡、可折叠面板、时间轴、Tab键、轮播、MCQ和True/False之间插入交互式和媒体块。
+description: 了解如何在“内容编辑器”中添加内容块 — 段落、图像、视频、翻转卡、可折叠面板、时间轴、选项卡、轮播、MCQ和真/假。
 jcr-language: en_us
 title: 添加内容组件
-source-git-commit: b7d67b494193163352947f255ef2c5be74e1bc30
+source-git-commit: 68d15fa96588b2569c9b1cdb480e2ba9f31a1cf6
 workflow-type: tm+mt
-source-wordcount: '186'
+source-wordcount: '182'
 ht-degree: 0%
 
 ---

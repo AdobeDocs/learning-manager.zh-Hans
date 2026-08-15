@@ -1,10 +1,10 @@
 ---
-description: 上传策略、过程或资料包，并将AI限制为仅包含该内容。 这可确保生成的课程准确反映您组织的语言，这对于合规性、监管和基于程序的培训至关重要。
+description: 了解如何通过将AI输出限制为仅用于策略、过程或资料夹，将Content Composer课程纳入您自己的文档。
 jcr-language: en_us
 title: 将课程置于您自己的文档中
-source-git-commit: 7fffe3c9d7b001c5a75a27ffc54fcb4490caad63
+source-git-commit: 68d15fa96588b2569c9b1cdb480e2ba9f31a1cf6
 workflow-type: tm+mt
-source-wordcount: '226'
+source-wordcount: '215'
 ht-degree: 0%
 
 ---

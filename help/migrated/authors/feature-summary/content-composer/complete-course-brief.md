@@ -1,10 +1,10 @@
 ---
-description: “简短”阶段通过引导式对话捕获三个输入内容 — 课程标题、学习者资料和学习目标。 必须先填写所有三个字段，AI才能生成大纲。
+description: 了解如何完成Content Composer Brief阶段 — 在生成大纲之前设置课程标题、定义学习者并编写目标。
 jcr-language: en_us
 title: 完成课程简介
-source-git-commit: 6c4ec330683920213b179b48957d0ae2ad46efef
+source-git-commit: 68d15fa96588b2569c9b1cdb480e2ba9f31a1cf6
 workflow-type: tm+mt
-source-wordcount: '248'
+source-wordcount: '242'
 ht-degree: 0%
 
 ---

@@ -1,10 +1,10 @@
 ---
-description: 一个分级测验会出现在课程末尾，每个问题都标记在它所测试的主题上。 编辑问题文本、更改正确答案、分配分数或询问AI以重新生成问题。
+description: 了解如何在Content Composer中编辑测验问题 — 更改正确答案、分配分数、删除问题或询问AI以重新生成问题。
 jcr-language: en_us
 title: 查看和编辑测验
-source-git-commit: 6c4ec330683920213b179b48957d0ae2ad46efef
+source-git-commit: 68d15fa96588b2569c9b1cdb480e2ba9f31a1cf6
 workflow-type: tm+mt
-source-wordcount: '143'
+source-wordcount: '130'
 ht-degree: 0%
 
 ---

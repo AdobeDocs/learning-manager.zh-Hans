@@ -1,10 +1,10 @@
 ---
-description: 了解Content Composer和Adobe Learning Manager如何划分创作和交付责任、已完成的课程如何从Content Composer转移到ALM内容库以及学习者如何在发布后进行跟踪和报告。
+description: 了解Content Composer如何处理创作以及Adobe Learning Manager如何处理发布后的交付、跟踪和报告。
 jcr-language: en_us
 title: 内容书写器和Adobe Learning Manager如何协同工作
-source-git-commit: 5a0f12b1ed0e5ae1bde7afbd539d70078d99f05d
+source-git-commit: 68d15fa96588b2569c9b1cdb480e2ba9f31a1cf6
 workflow-type: tm+mt
-source-wordcount: '551'
+source-wordcount: '533'
 ht-degree: 0%
 
 ---

@@ -1,10 +1,10 @@
 ---
-description: 上传现有文档、策略或资料包，以便将AI置于组织的内容中。 选择是仅对这些文件进行生成，还是让AI补充其一般知识。
+description: 了解如何在Content Composer中上传源文件、将AI输出限制到您的内容以及在素材更改时更新源文件。
 jcr-language: en_us
 title: 管理源文件
-source-git-commit: 9ef7ede817f226004430b4104ff78a2ebc45aec2
+source-git-commit: 68d15fa96588b2569c9b1cdb480e2ba9f31a1cf6
 workflow-type: tm+mt
-source-wordcount: '456'
+source-wordcount: '446'
 ht-degree: 0%
 
 ---

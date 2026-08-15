@@ -2,10 +2,9 @@
 description: 了解如何在Content Composer中生成学习者链接、学习者可以通过该链接访问哪些内容，以及为什么跟踪交付需要发布到Adobe Learning Manager而不是共享直接链接。
 jcr-language: en_us
 title: 与学习者共享课程
-hide: true
-source-git-commit: 90969a10aa9246a4c1cfd2e02641f79f5101f0cd
+source-git-commit: 92cefa03b21c2cf96a09f1f0f27df054cceaa80b
 workflow-type: tm+mt
-source-wordcount: '83'
+source-wordcount: '174'
 ht-degree: 0%
 
 ---
@@ -13,13 +12,21 @@ ht-degree: 0%
 
 # 与学习者共享课程
 
-1. 选择“**学习者**”。
+与学习者共享后，他们无需通过LMS连接或登录即可直接访问课程。 如果您希望学习者快速预览或完成课程，此功能非常有用 — 例如，在试点测试、非正式培训会话中，或者在课程发布到Adobe Learning Manager以供正式注册和跟踪之前。
 
-2. 选择“**生成链接**”以为学习者生成访问项目的链接。
+1. 在顶部工具栏中选择&#x200B;**共享**。
 
-3. 与学习者共享链接。
+2. 选择“**学习者**”选项卡。
+
+3. 选择&#x200B;**生成链接**&#x200B;以创建学习者访问链接。
+
+   ![](../assets/59_share_for_learners_generate_link_generated_links.png)
+
+4. 与学习者共享链接。
 
 >[!IMPORTANT]
 >
->每次更新课程时，学习者均可使用相同链接查看课程更改。
+>学习者链接因版本而异。 您每次更新课程时，都会生成并共享一个新链接，以便学习者访问最新版本。 上一个链接将继续显示早期版本。
+>
+>学习者访问权限不包含“评论”面板。 学习者无法添加评论或与审阅工作流程交互。
 

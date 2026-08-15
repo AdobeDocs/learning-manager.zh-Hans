@@ -1,10 +1,10 @@
 ---
-description: 查看将Content Composer连接到Adobe Learning Manager的最佳做法，包括何时配置完成标准、如何命名可发现性模块以及如何管理课程更新中的版本控制。
+description: 在Content Composer中生成课程的最佳实践 — 编写学习目标、查看大纲、限制AI输出和使用组件。
 jcr-language: en_us
 title: 从内容书写器发布到ALM的最佳实践
-source-git-commit: ea6d296fa99686136ab08d756a20570a4681d704
+source-git-commit: bd8c9be016595799695cee675a1e3eeef5722c07
 workflow-type: tm+mt
-source-wordcount: '172'
+source-wordcount: '160'
 ht-degree: 0%
 
 ---

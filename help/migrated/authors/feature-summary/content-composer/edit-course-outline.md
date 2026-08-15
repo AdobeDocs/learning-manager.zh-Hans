@@ -1,10 +1,10 @@
 ---
-description: 在提交为完整课程生成之前，请查看AI生成的课程和主题结构。 通过聊天面板请求更改。 对课程和主题进行重命名、添加、删除、拆分或合并。
+description: 了解如何编辑Content Composer课程大纲 — 通过“聊天”面板重命名、添加、删除、拆分或合并课程和主题。
 jcr-language: en_us
 title: 编辑课程大纲
-source-git-commit: af3ab42eba15e609ad7a52a16939211f3ddca9bf
+source-git-commit: 68d15fa96588b2569c9b1cdb480e2ba9f31a1cf6
 workflow-type: tm+mt
-source-wordcount: '245'
+source-wordcount: '237'
 ht-degree: 0%
 
 ---

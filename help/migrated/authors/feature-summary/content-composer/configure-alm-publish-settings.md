@@ -1,10 +1,10 @@
 ---
-description: 了解如何将Content Composer连接到Adobe Learning Manager、配置发布详细信息并将完成的课程作为模块直接部署到ALM内容库，而无需手动SCORM导出。
+description: 了解如何将Content Composer连接到Adobe Learning Manager、配置发布详细信息以及将课程部署到ALM内容库。
 jcr-language: en_us
 title: 连接并发布到Adobe Learning Manager
-source-git-commit: 6c4ec330683920213b179b48957d0ae2ad46efef
+source-git-commit: 68d15fa96588b2569c9b1cdb480e2ba9f31a1cf6
 workflow-type: tm+mt
-source-wordcount: '273'
+source-wordcount: '263'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ ht-degree: 0%
 
    - 输入与您的Adobe Learning Manager帐户关联的&#x200B;**电子邮件**&#x200B;地址。
 
-   - 选择&#x200B;**授权**&#x200B;以登录并将课程连接到您的ALM帐户。
+   - 选择&#x200B;**授权**以登录并将课程连接到您的ALM帐户。
      ![](../assets/32_alm_connection_not_connected_authorize_updated.png)
 
    - 授权后，确认&#x200B;**状态**&#x200B;字段从&#x200B;**断开连接**&#x200B;更新为&#x200B;**已连接**。

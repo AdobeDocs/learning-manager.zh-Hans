@@ -1,10 +1,10 @@
 ---
-description: 课程编辑器会在生成后自动打开。 在共享或发布之前，查看所有内容、文本、图像、知识检查和测验。 AI输出可能有所不同，需要作者验证。
+description: 了解在共享或发布之前，如何在Content Composer的课程编辑器中审阅AI生成的课程内容，因为AI输出可能会有所不同。
 jcr-language: en_us
 title: 查看生成的课程
-source-git-commit: 98b2d1829e0f61ca7c878677451b571dc45130c3
+source-git-commit: 68d15fa96588b2569c9b1cdb480e2ba9f31a1cf6
 workflow-type: tm+mt
-source-wordcount: '115'
+source-wordcount: '109'
 ht-degree: 0%
 
 ---

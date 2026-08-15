@@ -1,10 +1,10 @@
 ---
-description: 上传现有文档、策略或资料包，以便将AI置于组织的内容中。 选择是仅对这些文件进行生成，还是让AI补充其一般知识。
+description: 了解如何在Content Composer中上传源文件、将AI输出限制到您的内容以及在素材更改时更新源文件。
 jcr-language: en_us
 title: 管理源文件
-source-git-commit: 9ef7ede817f226004430b4104ff78a2ebc45aec2
+source-git-commit: 68d15fa96588b2569c9b1cdb480e2ba9f31a1cf6
 workflow-type: tm+mt
-source-wordcount: '456'
+source-wordcount: '446'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 0%
 1. 在聊天面板或工具栏中选择&#x200B;**管理源**&#x200B;或&#x200B;**添加文件**。
    ![](../assets/5_brief_manage_sources_prompt_updated.png)
 
-2. 将文件拖到对话框中或选择&#x200B;**+添加源文件**&#x200B;进行浏览。 您可以添加多个源文件。
+2. 将文件拖到对话框中或选择&#x200B;**+添加源文件**进行浏览。 您可以添加多个源文件。
    ![](../assets/6_manage_sources_no_files_added_updated.png)
 
 3. 选择&#x200B;**限制输出到文件中的内容**。 这允许Content Composer仅使用源内容生成课程。 如果未选中此选项，内容编辑器也会使用Web创建课程。

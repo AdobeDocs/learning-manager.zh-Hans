@@ -1,10 +1,10 @@
 ---
-description: 选择任何图像以调整大小、亮度、饱和度和透明度。 替换为上传的文件、Adobe Stock资源或AI生成的图像（使用纯语言描述）。
+description: 了解如何在Content Composer中编辑图像 — 调整大小、亮度和饱和度，或将其替换为Upload、Adobe Stock或AI。
 jcr-language: en_us
 title: 编辑或添加图像
-source-git-commit: 6c4ec330683920213b179b48957d0ae2ad46efef
+source-git-commit: 68d15fa96588b2569c9b1cdb480e2ba9f31a1cf6
 workflow-type: tm+mt
-source-wordcount: '116'
+source-wordcount: '110'
 ht-degree: 0%
 
 ---

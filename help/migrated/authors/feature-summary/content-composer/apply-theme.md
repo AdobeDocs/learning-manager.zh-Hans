@@ -1,10 +1,10 @@
 ---
-description: 了解如何在Content Composer中应用课程主题。 浏览默认主题和自定义主题，使用搜索栏按名称查找主题，并通过一次选择在整个课程中应用主题。
+description: 了解如何在Content Composer中应用课程主题。 浏览默认主题和自定义主题，按名称搜索，并立即在课程范围内应用。
 jcr-language: en_us
 title: 应用主题
-source-git-commit: 5a0f12b1ed0e5ae1bde7afbd539d70078d99f05d
+source-git-commit: 68d15fa96588b2569c9b1cdb480e2ba9f31a1cf6
 workflow-type: tm+mt
-source-wordcount: '129'
+source-wordcount: '118'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 将主题应用于您的课程，无需任何自定义即可实现快速、优美且一致的外观。
 
-1. 从工具栏中选择&#x200B;**主题**。 **课程主题**&#x200B;面板将打开，显示所有可用主题。
+1. 从工具栏中选择&#x200B;**主题**。 **课程主题**面板将打开，显示所有可用主题。
    ![](../assets/34_course_themes_panel_open_updated.png)
 
 2. 浏览可用主题：

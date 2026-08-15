@@ -1,10 +1,10 @@
 ---
-description: 了解如何通过编辑主题在Content Composer中更改标题和正文字体。 从可用的字体选项中进行选择，并另存为新的自定义主题或覆盖现有主题。
+description: 了解如何通过编辑主题在Content Composer中更改标题和正文字体，然后保存更改或创建新的自定义主题。
 jcr-language: en_us
 title: 更改字体
-source-git-commit: 93f8c8fd1fd9c9f708ba0085a268be53906d26f9
+source-git-commit: 68d15fa96588b2569c9b1cdb480e2ba9f31a1cf6
 workflow-type: tm+mt
-source-wordcount: '168'
+source-wordcount: '160'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 0%
 
    ![](../assets//37_edit_theme_body_font_dropdown_updated.png)
 
-4. 选择“**保存**”以用您的更改覆盖现有主题，或选择“**保存**&#x200B;**为新**”以创建新的自定义主题，同时保持原始主题不变。
+4. 选择“**保存**”以用您的更改覆盖现有主题，或选择“**保存****为新**”以创建新的自定义主题，同时保持原始主题不变。
 
    ![](../assets/38_edit_theme_full_panel_header_logo_updated.png)
 

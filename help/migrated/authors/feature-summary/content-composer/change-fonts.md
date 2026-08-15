@@ -26,7 +26,7 @@ ht-degree: 0%
 
    ![](../assets//37_edit_theme_body_font_dropdown_updated.png)
 
-4. 选择“**保存**”以用您的更改覆盖现有主题，或选择“**保存****为新**”以创建新的自定义主题，同时保持原始主题不变。
+4. 选择“**保存**”以用您的更改覆盖现有主题，或选择“**保存**&#x200B;**为新**”以创建新的自定义主题，同时保持原始主题不变。
 
    ![](../assets/38_edit_theme_full_panel_header_logo_updated.png)
 

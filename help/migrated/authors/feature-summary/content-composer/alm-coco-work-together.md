@@ -47,10 +47,10 @@ ht-degree: 0%
 1. **在Content Composer中创作课程**：在Content Composer中创建课程，包括课程、主题、主题、测验和完成设置。 在发布之前配置课程设置 — 完成标准、成功标准和测验评分。
 有关详细信息，请参阅[配置课程设置](#settings)。
 
-2. **Publish到Adobe Learning Manager：**&#x200B;创作完成后，通过&#x200B;**导出**设置将Content Composer连接到您的ALM帐户并发布课程。 Content Composer将课程作为符合SCORM规范的模块发送至ALM内容库。
+2. **Publish到Adobe Learning Manager：**&#x200B;创作完成后，通过&#x200B;**导出**&#x200B;设置将Content Composer连接到您的ALM帐户并发布课程。 Content Composer将课程作为符合SCORM规范的模块发送至ALM内容库。
    ![应用了自定义标题、徽标和字体主题的已发布课程](../assets/49_published_course_custom_branding_header_updated.png)
 
-3. **在ALM：**中配置模块发布后，课程将在ALM内容库中显示为模块。 ALM作者可配置模块元数据（包括持续时间、标签、唯一ID和到期设置），并将模块与其他学习内容一起添加到ALM课程。
+3. **在ALM：**&#x200B;中配置模块发布后，课程将在ALM内容库中显示为模块。 ALM作者可配置模块元数据（包括持续时间、标签、唯一ID和到期设置），并将模块与其他学习内容一起添加到ALM课程。
    ![模块元数据和完成条件字段](../assets/50_alm_add_content_composer_module_metadata_updated.png)
 
 >[!NOTE]
@@ -60,7 +60,7 @@ ht-degree: 0%
 4.**Publish the ALM课程：** ALM作者将模块组装到ALM课程中，添加课程图像和设置，然后发布该课程。 只有完成此步骤后，才能注册学习者。
 
 有关详细信息，请参阅[Adobe Learning Manager](https://experienceleague.adobe.com/en/docs/learning-manager/using/get-started/getting-started-author)。
-![ Adobe Learning Manager中的内容库，显示已发布和处理模块](../assets/51_alm_content_library_list_view_updated.png)
+![&#x200B; Adobe Learning Manager中的内容库，显示已发布和处理模块](../assets/51_alm_content_library_list_view_updated.png)
 
 有关更多信息，请参阅[在ALM上以作者身份创建课程](https://experienceleague.adobe.com/en/docs/learning-manager/using/authors/courses)。
 

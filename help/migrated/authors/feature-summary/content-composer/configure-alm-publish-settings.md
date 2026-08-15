@@ -32,7 +32,7 @@ ht-degree: 0%
 
    - 输入与您的Adobe Learning Manager帐户关联的&#x200B;**电子邮件**&#x200B;地址。
 
-   - 选择&#x200B;**授权**以登录并将课程连接到您的ALM帐户。
+   - 选择&#x200B;**授权**&#x200B;以登录并将课程连接到您的ALM帐户。
      ![](../assets/32_alm_connection_not_connected_authorize_updated.png)
 
    - 授权后，确认&#x200B;**状态**&#x200B;字段从&#x200B;**断开连接**&#x200B;更新为&#x200B;**已连接**。

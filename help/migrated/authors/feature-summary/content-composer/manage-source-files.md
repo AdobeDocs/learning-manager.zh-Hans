@@ -19,7 +19,7 @@ ht-degree: 0%
 1. 在聊天面板或工具栏中选择&#x200B;**管理源**&#x200B;或&#x200B;**添加文件**。
    ![](../assets/5_brief_manage_sources_prompt_updated.png)
 
-2. 将文件拖到对话框中或选择&#x200B;**+添加源文件**进行浏览。 您可以添加多个源文件。
+2. 将文件拖到对话框中或选择&#x200B;**+添加源文件**&#x200B;进行浏览。 您可以添加多个源文件。
    ![](../assets/6_manage_sources_no_files_added_updated.png)
 
 3. 选择&#x200B;**限制输出到文件中的内容**。 这允许Content Composer仅使用源内容生成课程。 如果未选中此选项，内容编辑器也会使用Web创建课程。

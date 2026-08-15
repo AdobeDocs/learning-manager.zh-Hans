@@ -2,7 +2,8 @@
 description: 了解如何共享Content Composer项目以供审阅 — 邀请审阅者、收集注释、管理访问权限并在其被删除时请求访问权限。
 jcr-language: en_us
 title: 共享项目以供审阅
-source-git-commit: 68d15fa96588b2569c9b1cdb480e2ba9f31a1cf6
+hide: true
+source-git-commit: cedd59c96bdd68681702242954dfba63b8591852
 workflow-type: tm+mt
 source-wordcount: '419'
 ht-degree: 0%

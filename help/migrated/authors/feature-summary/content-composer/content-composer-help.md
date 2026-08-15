@@ -34,7 +34,7 @@ Content Composer通过对话引导作者完成培训目标、源资料和学习�
 
 >[!IMPORTANT]
 >
->您必须使用有效的Adobe Creative Cloud帐户登录。 如果您还没有免费帐户，可以通过Adobe Express创建一个免费帐户。 有关详细信息，请参阅[创建免费Adobe Express帐户](https://helpx.adobe.com/express/web/adobe-express-subscription/free.html)。 创建Adobe凭据后，启动Content Composer并登录以开始创建课程。 如果您的组织已有Creative Cloud订阅，请联系您的管理员，以便在登录到Content Composer之前为您预配Creative Cloud帐户。
+>您必须使用有效的Adobe Creative Cloud帐户登录。 如果您还没有免费帐户，可以通过Adobe Express创建一个免费帐户。 有关详细信息，请参阅[创建免费Adobe Express帐户](https://helpx.adobe.com/cn/express/web/adobe-express-subscription/free.html)。 创建Adobe凭据后，启动Content Composer并登录以开始创建课程。 如果您的组织已有Creative Cloud订阅，请联系您的管理员，以便在登录到Content Composer之前为您预配Creative Cloud帐户。
 
 >[!NOTE]
 >

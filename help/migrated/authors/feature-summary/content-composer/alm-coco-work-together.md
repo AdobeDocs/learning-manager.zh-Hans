@@ -59,14 +59,14 @@ ht-degree: 0%
 
 4.**Publish the ALM课程：** ALM作者将模块组装到ALM课程中，添加课程图像和设置，然后发布该课程。 只有完成此步骤后，才能注册学习者。
 
-有关详细信息，请参阅[Adobe Learning Manager](https://experienceleague.adobe.com/en/docs/learning-manager/using/get-started/getting-started-author)。
+有关详细信息，请参阅[Adobe Learning Manager](https://experienceleague.adobe.com/zh-hans/docs/learning-manager/using/get-started/getting-started-author)。
 ![&#x200B; Adobe Learning Manager中的内容库，显示已发布和处理模块](../assets/51_alm_content_library_list_view_updated.png)
 
-有关更多信息，请参阅[在ALM上以作者身份创建课程](https://experienceleague.adobe.com/en/docs/learning-manager/using/authors/courses)。
+有关更多信息，请参阅[在ALM上以作者身份创建课程](https://experienceleague.adobe.com/zh-hans/docs/learning-manager/using/authors/courses)。
 
 5.**学习者完成课程：**&#x200B;学习者通过Adobe Learning Manager访问课程、启动Content Composer模块、完成课程和测验，并根据在步骤1中配置的完成和成功标准获得分数。
 
-有关更多信息，请参阅[以学习者身份访问课程](https://experienceleague.adobe.com/en/docs/learning-manager/using/get-started/getting-started-learner)。
+有关更多信息，请参阅[以学习者身份访问课程](https://experienceleague.adobe.com/zh-hans/docs/learning-manager/using/get-started/getting-started-learner)。
 
 6.ALM记录学习者进度：完成状态、测验分数和学习者数据均记录在ALM中，并可通过学习者成绩单和管理报告提供。
 

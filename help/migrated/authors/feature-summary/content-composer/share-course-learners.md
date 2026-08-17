@@ -2,7 +2,8 @@
 description: 了解如何在Content Composer中生成学习者链接、学习者可以通过该链接访问哪些内容，以及为什么跟踪交付需要发布到Adobe Learning Manager而不是共享直接链接。
 jcr-language: en_us
 title: 与学习者共享课程
-source-git-commit: 92cefa03b21c2cf96a09f1f0f27df054cceaa80b
+hide: true
+source-git-commit: babcf60fe3c1a8dddcd9f0c5871e406727c5ddf7
 workflow-type: tm+mt
 source-wordcount: '174'
 ht-degree: 0%

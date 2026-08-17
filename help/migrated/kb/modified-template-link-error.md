@@ -4,14 +4,13 @@ title: 在 Adobe Learning Manager 中，修改模板后触发的电子邮件链�
 description: 在Adobe Learning Manager中，修改模板后触发的电子邮件链接会引发错误
 contentowner: nluke
 preview: true
-source-git-commit: 6abc118c6ad7e66e3ded5bd26b9167c3a0b99e4b
+exl-id: a8fa64e1-aeab-4cb5-9bb0-7cfdad0aa389
+source-git-commit: 1529039e35d4190864e96826bfbea25dcad17c73
 workflow-type: tm+mt
-source-wordcount: '219'
-ht-degree: 73%
+source-wordcount: '220'
+ht-degree: 78%
 
 ---
-
-
 
 # 在 Adobe Learning Manager 中，修改模板后触发的电子邮件链接会引发错误
 
@@ -48,6 +47,6 @@ HTTP 状态 400 - 请求错误
    * 将修改后的模板复制粘贴到记事本/Word 文件中，以存储所做更改的副本。
    * 避免替换模板中以蓝色突出显示的动态文本。 例如，“**OrganizationName**”、“**学习者**”、“**单击此处**”、“**CertificateName**”等。
 
-1. 单击&#x200B;**[!UICONTROL 保存]**&#x200B;以确认应用于模板的更改。
+1. 单击&#x200B;**[!UICONTROL “保存”]**，以确认应用于此模板的更改。
 1. 触发电子邮件，以验证链接是否符合预期效果。
 1. 单击修改后模板的&#x200B;**“恢复为原始”**&#x200B;选项，恢复为原始设置。

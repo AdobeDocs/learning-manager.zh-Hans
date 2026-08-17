@@ -1,11 +1,11 @@
 ---
 title: 本机可扩展性
-description: 在Adobe Learning Manager本机版本中设置自定义体验，对于不太复杂的案例，不允许使用无头体验。
+description: 在 Adobe Learning Manager 本机版本中设置自定义体验，对于复杂度不高的案例，无需使用无头工具。
 exl-id: 510bd00f-4f52-4705-817e-4ee73380ca90
 source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
-source-wordcount: '758'
-ht-degree: 48%
+source-wordcount: '760'
+ht-degree: 51%
 
 ---
 
@@ -99,7 +99,7 @@ Adobe Learning Manager 在管理员、作者、学习者、经理和讲师应用
 
 在“设置”选项卡中，生成密钥。
 
-![共享密钥图像](assets/share-extension.png)
+![共享关键图像](assets/share-extension.png)
 *共享访问密钥*
 
 ## 下载扩展报告
@@ -123,9 +123,9 @@ Adobe Learning Manager 在管理员、作者、学习者、经理和讲师应用
    报告包含以下字段：
 
    * 扩展名
-   * 调用点数
+   * 调用点
    * 标签
-   * 在URL中打开
+   * 在 URL 中打开
    * 适用范围
    * 激活
    * 学习对象唯一 ID

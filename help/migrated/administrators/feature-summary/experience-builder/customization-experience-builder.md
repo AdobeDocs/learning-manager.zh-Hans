@@ -2,13 +2,13 @@
 title: 自定义Experience Builder
 jcr-language: en_us
 description: 了解Adobe Learning Manager中的Experience Builder如何实现学习者体验的深度自定义。
-source-git-commit: a6cd09ba81a41b389ed1ccbea22db6b1966a56e2
+exl-id: d8f36868-8e6d-4420-9fab-fadaf2fe31ef
+source-git-commit: 5221f4bde68561d5253e7dfab789815e4cd55d49
 workflow-type: tm+mt
-source-wordcount: '957'
+source-wordcount: '963'
 ht-degree: 1%
 
 ---
-
 
 # 自定义Experience Builder
 
@@ -62,18 +62,18 @@ ht-degree: 1%
 4. 选择以下选项以显示或隐藏与课程信息相关的详细信息：
 
    a. **[!UICONTROL 格式]**：混合/自学/教室/虚拟教室：学习对象的类型。
-b. **[!UICONTROL 持续时间]**：学习对象的持续时间。
-c. **[!UICONTROL 技能/产品]**：显示课程涵盖的关键技能或产品。
-d. **[!UICONTROL 评分]**：显示课程的学习者评分。
-e. **[!UICONTROL 作者姓名]**：显示课程作者的姓名
-f. **[!UICONTROL 描述（悬停时显示）]**：当学习者将鼠标悬停在课程卡上时，显示课程的简短摘要。
-g. **[!UICONTROL 发布日期/截止日期（悬停时显示）]**：显示课程发布的时间或完成截止日期。
+   b. **[!UICONTROL 持续时间]**：学习对象的持续时间。
+   c. **[!UICONTROL 技能/产品]**：显示课程涵盖的关键技能或产品。
+   d. **[!UICONTROL 评分]**：显示课程的学习者评分。
+   e. **[!UICONTROL 作者姓名]**：显示课程作者的姓名
+   f. **[!UICONTROL 描述（悬停时显示）]**：当学习者将鼠标悬停在课程卡上时，显示课程的简短摘要。
+   g. **[!UICONTROL 发布日期/截止日期（悬停时显示）]**：显示课程发布的时间或完成截止日期。
 
 5. 选择以下选项以显示或隐藏与课程操作相关的详细信息：
 
    a. **[!UICONTROL “添加到学习列表”按钮]**：允许学习者将课程保存到其个人学习列表，以供将来参考。
-b. **[!UICONTROL 保存按钮]**：保存对课程设置或首选项所做的任何更改。
-c. **[!UICONTROL 注册/继续按钮]**：允许学习者注册新课程或继续已开始的课程。 隐藏此选项也会删除它旁边显示的“不推荐”和“下载”操作。
+   b. **[!UICONTROL 保存按钮]**：保存对课程设置或首选项所做的任何更改。
+   c. **[!UICONTROL 注册/继续按钮]**：允许学习者注册新课程或继续已开始的课程。 隐藏此选项也会删除它旁边显示的“不推荐”和“下载”操作。
 
    ![](assets/select-details-to-show.png)
    _Adobe Learning Manager中的课程磁贴配置屏幕，管理员可在其中选择要为学习者显示的信息和操作_
@@ -372,5 +372,3 @@ _自定义后的销售工程师学习者页面_
 | 内容框 | alm-custom-content-box-container |
 | 游戏 | alm-leaderboard-container |
 | 社交学习 | alm-social-learning-container |
-
-

@@ -2,13 +2,13 @@
 title: 在Experience Builder中创建页面
 description: 了解如何在Adobe Learning Manager中的Experience Builder中创建新页面。 本指南涵盖了选择模板、命名页面、设置页面属性和发布自定义页面等操作。
 jcr-langauge: en-us
-source-git-commit: b3124c47d56a50437cb284fe809828bcd4c4008d
+exl-id: eebaca0b-c490-41c8-a8be-9b2a0bc5ad2b
+source-git-commit: 5221f4bde68561d5253e7dfab789815e4cd55d49
 workflow-type: tm+mt
 source-wordcount: '1274'
 ht-degree: 0%
 
 ---
-
 
 # 在Experience Builder中创建自定义页面
 
@@ -114,7 +114,7 @@ _显示布局选项的页面布局，可重新排序、扩展或删除章节_
 7. 选择&#x200B;**[!UICONTROL 添加小组件]**。
 8. 选择“**[!UICONTROL 保存]**”，然后从以下选项中进行选择：
 a. **[!UICONTROL 另存为草稿]**：页面将保存为草稿。 管理员稍后可以编辑该页面。
-b. **[!UICONTROL 保存和Publish]**：将发布页面，管理员可以将此页面添加到“菜单”。
+b. **[!UICONTROL 保存并Publish]**：页面将发布，管理员可以将此页面添加到菜单中。
 
    ![](assets/select-save-options.png)
    _保存选项允许管理员选择将页面保存为草稿以供将来编辑还是发布以供学习者访问_
@@ -136,7 +136,7 @@ b. **[!UICONTROL 保存和Publish]**：将发布页面，管理员可以将此�
    ![](assets/preview-the-page.png)
    _页面预览，显示带有横幅的自定义页面布局和特色课程_
 
-6. 选择Inspect模式以查看小组件的高度和宽度。
+6. 选择Inspect模式以查看小组件的Height和宽度。
 
    ![](assets/inspect-mode.png)
    _Experience Builder中的“页面预览”屏幕，Inspect模式切换开关高亮显示，允许管理员查看和检查小组件_

@@ -1,12 +1,12 @@
 ---
-description: Adobe Learning Manager通过多个SSO配置支持内部和外部用户以多种方式实现登录。
+description: Adobe Learning Manager 通过多个 SSO 配置支持内部和外部用户以多种方式实现登录。
 title: 多个 SSO 登录
 contentowner: saghosh
 exl-id: 398816e8-a144-459b-8c39-6517ce4573b4
 source-git-commit: f964dd3f1adeadb76f4843c9af229ce5f09afde1
 workflow-type: tm+mt
-source-wordcount: '794'
-ht-degree: 38%
+source-wordcount: '806'
+ht-degree: 43%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 38%
 
 >[!NOTE]
 >
->启用多个SSO时，您可以在自行注册个人资料中选择值或用户组。 选择值后，将创建不含用户的用户组。 此类用户组没有任何用户。 导入下一个CSV后，此用户组将被删除。
+>启用多个SSO时，您可以在自行注册个人资料中选择值或用户组。 如果选择值，系统则会创建不含用户的用户组。 此类用户组没有任何用户。 导入下一个CSV后，此用户组将被删除。
 
 ## 启用多个 SSO
 
@@ -34,7 +34,7 @@ ht-degree: 38%
 >
 >具有必要权限的管理员和自定义管理员可以执行这些步骤。
 
-要配置SSO，请执行以下步骤：
+要配置 SSO，请执行以下步骤：
 
 1. 单击“配置单点登录(SSO)”。
 1. 单击“添加新的SSO配置” 。\
@@ -44,10 +44,10 @@ ht-degree: 38%
    * 输入 SSO 名称。
    * 选择 IDP 或 SP 启用的 SSO 类型。
 
-      * 如果您选择了由IDP启用的URL，请输入IDP URL。 该 URL 将是您应用程序的唯一标识符，并且是 IDP 服务提供商提供的信息。 所有Adobe Learning Manager用户登录后都将被重定向至此URL。
-      * 上传 IDP 提供者提供的 IDP 元数据 XML。 此文件包含有关 IdP 的信息，该 IdP 可以帮助 Adobe Learning Manager 接受来自它的 SAML 断言
-      * 如果您选择了由SP启用的SSO，请输入实体ID。 实体 ID 是由服务提供商 (SP) 提供的 URL。
-      * 输入 SP 登录 URL。 用户使用此 URL 登录到应用程序。
+     * 如果您选择了由IDP启用的URL，请输入IDP URL。 该 URL 将是您应用程序的唯一标识符，并且是 IDP 服务提供商提供的信息。 所有Adobe Learning Manager用户登录后都将被重定向至此URL。
+     * 上传 IDP 提供者提供的 IDP 元数据 XML。 此文件包含有关 IdP 的信息，该 IdP 可以帮助 Adobe Learning Manager 接受来自它的 SAML 断言
+     * 如果您选择了由SP启用的SSO，请输入实体ID。 实体 ID 是由服务提供商 (SP) 提供的 URL。
+     * 输入 SP 登录 URL。 用户使用此 URL 登录到应用程序。
 
 1. SSO配置已被添加到列表中。
 
@@ -115,7 +115,7 @@ ht-degree: 38%
 不，这不会影响设置 SSO。 用户将被重定向到已配置的 SSO。
 +++
 
-+++在设置多个SSO时，管理员能否为页面上的活动字段添加新值？
++++管理员在设置多个SSO时能否向页面上的活动字段添加新值？
 
 是的，管理员可以为活动字段添加新值。
 +++

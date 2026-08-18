@@ -6,8 +6,8 @@ contentowner: jayakarr
 exl-id: 8616e38a-023f-4acb-ac68-df71a5153ad2
 source-git-commit: 7a096b4d28cf5b13f16291b0d3cb1dc5e8b04ba8
 workflow-type: tm+mt
-source-wordcount: '1295'
-ht-degree: 42%
+source-wordcount: '1327'
+ht-degree: 51%
 
 ---
 
@@ -33,7 +33,7 @@ Adobe Learning Manager 可让您更改应用程序的外观以符合所在组织
 
 单击&#x200B;**[!UICONTROL 编辑]**&#x200B;以在Learning Manager应用程序上设置所需徽标和公司名称的外观。
 
-单击 **[!UICONTROL “上传新徽标”]**，然后从计算机中选择要上传的徽标。 您可在下面预览徽标与公司名称的外观。 根据需要的标题样式，然后单击“**[!UICONTROL 保存]**”。
+单击 **[!UICONTROL “上传新徽标”]**，然后从计算机中选择要上传的徽标。 您可在下面预览徽标与公司名称的外观。 根据需要的标题样式，然后单击 **[!UICONTROL “保存”]**。
 
 ## 主题 {#themes}
 
@@ -41,13 +41,13 @@ Adobe Learning Manager 可让您更改应用程序的外观以符合所在组织
 
 **“挑选主题”**
 
-单击此部分下方的&#x200B;**[!UICONTROL 显示提示]**&#x200B;以显示该图像的提示，如下所示。
+单击此部分下方的 **[!UICONTROL “显示提示”]** 以显示该图像的提示（如下所示）。
 
 ![](assets/themes-preview-images.png)
 
 *查看有关主题的提示*
 
-Learning Manager应用程序为用户提供了五个颜色主题选项：
+Adobe Learning Manager 应用程序为用户提供了五个颜色主题选项：
 
 * Prime 默认
 * 鹅卵石
@@ -81,7 +81,7 @@ Learning Manager应用程序为用户提供了五个颜色主题选项：
 
 *实时预览弹出窗口*
 
-从下拉列表中选择所需的主题，调整设置，然后单击 **[!UICONTROL “预览”]** 以查看应用程序中的实时更改。 现在，您可以浏览应用程序的所有功能并看到相关更改。 您还可以在实时预览时更改自己的角色。 如果对更改满意，您可返回实时主题预览弹窗功能，然后单击&#x200B;**[!UICONTROL 应用主题]**。
+从下拉列表中选择所需的主题，调整设置，然后单击 **[!UICONTROL “预览”]** 以查看应用程序中的实时更改。 现在，您可以浏览应用程序的所有功能并看到相关更改。 您还可以在实时预览时更改自己的角色。 如果对更改满意，您可返回实时主题预览弹窗功能，然后单击 **[!UICONTROL “应用主题”]**。
 
 在预览实时更改时，实时主题预览弹窗仍会显示在屏幕底部。 您可以选择将其最小化。
 
@@ -146,7 +146,7 @@ Adobe Learning Manager 现在允许您自定义帐户，从而提供更丰富的
     <p> </p>
     <ul>
      <li>最多 12 种自定义颜色。 </li>
-     <li>颜色将应用于所有学习对象。 这些颜色将按顺序应用于所有学习对象（培训），并且所有颜色均应采用十六进制颜色代码格式，例如#ffffff。</li>
+     <li>颜色将应用于所有学习对象。 这些颜色将按顺序应用于所有学习对象（培训），并且所有颜色均应采用十六进制颜色代码格式，例如 #ffffff。</li>
      <li>如果仅提供一种颜色，则该颜色将应用于所有学习对象。</li>
     </ul>
     <p> </p></td>
@@ -228,7 +228,7 @@ Adobe Learning Manager 现在允许您自定义帐户，从而提供更丰富的
    <td>
     <p>“推荐作用域设置”<br></p></td>
    <td>
-    <p>选择一或多个活动字段。 对于“<strong>自定义</strong>”，您至多可以选择一个活动字段。 对于<strong>Industry Aligned</strong>，您至多可以选择五个活动字段。<br></p></td>
+    <p>选择一或多个活动字段。 对于“<strong>自定义</strong>”，您至多可以选择一个活动字段。 对于<strong>“业界公认”</strong>，您至多可以选择五个活动字段。<br></p></td>
   </tr>
   <tr>
    <td>
@@ -240,7 +240,7 @@ Adobe Learning Manager 现在允许您自定义帐户，从而提供更丰富的
    <td>
     <p>提示用户选择感兴趣的领域（技能） <br></p></td>
    <td>
-    <p>仅适用于沉浸式体验。 选择<strong>是</strong>或<strong>否</strong>。 </p></td>
+    <p>仅适用于沉浸式体验。 选择<strong>“是”</strong>或<strong>“否”</strong>。 </p></td>
   </tr>
  </tbody>
 </table>

@@ -3,7 +3,7 @@ description: Adobe Learning Manager 通过多个 SSO 配置支持内部和外部
 title: 多个 SSO 登录
 contentowner: saghosh
 exl-id: 398816e8-a144-459b-8c39-6517ce4573b4
-source-git-commit: 'null'
+source-git-commit: f964dd3f1adeadb76f4843c9af229ce5f09afde1
 workflow-type: tm+mt
 source-wordcount: '806'
 ht-degree: 43%

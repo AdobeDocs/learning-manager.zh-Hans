@@ -2,8 +2,7 @@
 description: 了解如何在“Content Composer注释”面板中查看和管理注释，包括如何回复、解决、使用@提及审阅人、按审阅人、时间或状态筛选，以及将注释标记为“已解决”。
 jcr-language: en_us
 title: 管理和回复注释
-hide: true
-source-git-commit: cedd59c96bdd68681702242954dfba63b8591852
+source-git-commit: f95e4336d9b403f5803af175359893ceaa2a5daf
 workflow-type: tm+mt
 source-wordcount: '126'
 ht-degree: 0%

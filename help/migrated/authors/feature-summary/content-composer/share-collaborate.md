@@ -2,9 +2,9 @@
 description: 了解如何与同事共享内容撰写器课程以供审阅，或者直接与学习者共享。 了解两种共享流、访问控制和跟踪含义之间的区别。
 jcr-language: en_us
 title: 共享和协作处理Content Composer课程
-source-git-commit: c9c3345c11cae687ec2c1192129bf941e24160f4
+source-git-commit: f95e4336d9b403f5803af175359893ceaa2a5daf
 workflow-type: tm+mt
-source-wordcount: '111'
+source-wordcount: '330'
 ht-degree: 0%
 
 ---
@@ -12,30 +12,24 @@ ht-degree: 0%
 
 # 共享和协作处理Content Composer课程
 
->[!AVAILABILITY]
->
->即将推出！
+在发布之前，您可以将课程发送给审阅者以获取反馈。 审阅者在浏览器中打开共享链接，在任何课程组件上添加注释，并尝试测试以预览完整的学习者体验。 作者无需更改审阅URL即可控制访问权限、收集反馈并更新课程。 您可以根据需要，处理反馈、更新课程并启动其他审核周期。
+
+利用Content Composer，您可以在创作过程中将课程分发给审阅者和学习者，并与团队进行协作，所有这些操作都无需离开应用程序。
 
 在发布之前，您可以将课程发送给审阅者以获取反馈。 审阅者在浏览器中打开共享链接，在任何课程组件上添加注释，并尝试测试以预览完整的学习者体验。 作者无需更改审阅URL即可控制访问权限、收集反馈并更新课程。 您可以根据需要，处理反馈、更新课程并启动其他审核周期。
 
-<!--
-Content Composer lets you distribute your course to reviewers and learners, and collaborate with your team throughout the authoring process, all without leaving the app.  
+课程准备就绪后，您可以直接提供给学习者使用，或将其发布到Adobe Learning Manager以进行注册、跟踪和报告。
 
-Before publishing, you can send your course to reviewers for feedback. Reviewers open the shared link in a browser, add comments on any course component, and attempt the quiz to preview the full learner experience. Authors control access, collect feedback, and update the course without changing the review URL. You can address the feedback, update the course, and initiate additional review cycles as needed.  
+在整个过程中，评论和提及有助于使每个人都保持一致。 协作者可以使用@mentions为团队成员添加标签、提问并讨论课程的特定部分，确保反馈始终具有上下文、可见性和可操作性。
 
-Once the course is ready, you can make it available to learners directly or publish it to Adobe Learning Manager for enrollment, tracking, and reporting.  
+Adobe Learning Manager Content Composer具有两种共享模式，可通过顶部工具栏中的&#x200B;**共享**&#x200B;按钮访问。
 
-Throughout the process, comments and mentions help keep everyone aligned. Collaborators can use @mentions to tag teammates, ask questions, and discuss specific parts of the course, ensuring that feedback remains contextual, visible, and actionable.
+在内容书写器中，从工具栏中选择&#x200B;**共享**。 **共享项目**&#x200B;面板将打开，其中包含两个选项卡：
 
-Adobe Learning Manager Content Composer has two sharing modes, accessed from the **Share** button in the top toolbar.
+* **审阅**：通过电子邮件邀请或共享链接发送项目。
 
-In Content Composer, select **Share** in the toolbar. The **Share project** panel opens with two tabs:
+* **对于学习者**：为他们提供项目链接 — 无需LMS连接。
 
-* **For review**: Send the project by email invite or share a link.
-
-* **For learners**: Provide them with a link to the project -- no need of LMS connection.
-
-Both these options give you control and flexibility in sharing your courses.
+这两个选项均可让您在共享课程时拥有控制权和灵活性。
 
 ![](../assets/52_share_project_for_review_add_names_emails.png)
--->

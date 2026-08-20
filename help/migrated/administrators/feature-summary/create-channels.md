@@ -1,15 +1,19 @@
 ---
 title: 创建渠道(Beta)
 description: 了解如何在Adobe Learning Manager中启用、创建和编辑频道，将网页和Confluence Cloud页面中基于视频的学习内容导入学习者的单个可搜索位置。
-source-git-commit: 4d41ac369f35e2a1de961288a5ded9c0c6af2c82
+source-git-commit: fcd21641183346cf88062b79600b1f8385f61803
 workflow-type: tm+mt
-source-wordcount: '1135'
+source-wordcount: '1283'
 ht-degree: 0%
 
 ---
 
 
 # 创建渠道(Beta)
+
+>[!IMPORTANT]
+>
+>Beta版功能可能包含缺陷，并按“原样”提供，不附带任何类型的担保。 Adobe自行决定是否正式提供测试版功能。 Adobe没有义务维护、更正、更新、更改、修改或以其他方式支持（通过Adobe支持服务或其他方式）Beta版功能。 如果Beta版功能可以普遍使用，则可能需要遵守附加条款和条件，包括适用的费用。 Beta版功能如有更改，恕不另行通知，包括停用。 我们建议客户谨慎使用，不要以任何方式依赖Beta版功能的不中断或无错误运行或性能。 因此，使用测试版功能完全由客户自行承担风险。 随着功能的发展，产品功能和相关文档可能会发生变化。 本文档反映了当前的Beta版体验，不应将其视为最终或完整的产品文档。
 
 组织经常跨精选的非正式学习内容Web和Confluence Cloud页面存储知识共享会话、培训录制内容和其他视频内容。 渠道可将Adobe Learning Manager连接到这些内容源，以便更轻松地发现和使用视频，而无需学习者在多个系统中导航。 渠道可帮助您在一个可搜索的位置组织和共享企业网页和Confluence Cloud页面中基于视频的学习内容。 学习者可以直接从Adobe Learning Manager发现并访问相关录制，而无需跨多个内部网站进行搜索。 查看[发现并参与频道](../../learners/feature-summary/discover-and-engage-with-channels.md)以了解更多信息。
 

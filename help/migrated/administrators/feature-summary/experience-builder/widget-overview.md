@@ -2,13 +2,13 @@
 title: Experience Builder中的构件
 jcr-language: en_us
 description: 了解Adobe Learning Manager Experience Builder中的小组件如何作为模块化的可配置块来构建自定义学习页面。 添加、配置和排列内容框、目录和横幅等构件，无需编码即可创建交互式品牌化体验。
-source-git-commit: b3124c47d56a50437cb284fe809828bcd4c4008d
+exl-id: 5e179d28-d89e-4524-9610-98b22934bca4
+source-git-commit: 5221f4bde68561d5253e7dfab789815e4cd55d49
 workflow-type: tm+mt
-source-wordcount: '476'
-ht-degree: 0%
+source-wordcount: '480'
+ht-degree: 1%
 
 ---
-
 
 # 概述
 
@@ -37,7 +37,7 @@ ht-degree: 0%
 ## 小组件的类型
 
 * 基于学习的构件，是动态的，可直接从Adobe Learning Manager中提取数据（例如，课程和路径、合规性状态）。
-* 静态或内容构件，可帮助您创建自定义品牌并向页面添加灵活的内容(例如，HTML、内容框)
+* 静态或内容构件，可帮助您创建自定义品牌并向页面添加灵活的内容（例如，HTML、内容框）
 
 | 小组件 | 描述 | 用例 |
 |---|---|---|
@@ -51,4 +51,3 @@ ht-degree: 0%
 | [Iframe](/help/migrated/administrators/feature-summary/experience-builder/add-a-widget.md#add-a-iframe-widget) | 在界面中嵌入外部网页或应用程序。 | 无需离开平台即可显示外部内容或工具。 |
 | [我的学习](/help/migrated/administrators/feature-summary/experience-builder/add-a-widget.md#add-a-my-learning-widget) | 显示学习者正在进行的课程和进度的个性化视图。 | 帮助学习者跟踪其课程完成情况和学习目标。 |
 | [社交学习](/help/migrated/administrators/feature-summary/experience-builder/add-a-widget.md#add-a-social-learning-widget) | 提供对论坛、讨论、群组或社交协作工具的访问。 | 鼓励同侪互动、协作和知识共享。 |
-

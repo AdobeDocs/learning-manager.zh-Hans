@@ -1,15 +1,19 @@
 ---
 title: 发现渠道并参与其中
 description: 了解如何在Adobe Learning Manager中通过渠道查找、订阅、观看和加入有关视频内容的讨论。
-source-git-commit: 2ca8cf23fa622ce522456c1e1a526e175ddfc8e7
+source-git-commit: fcd21641183346cf88062b79600b1f8385f61803
 workflow-type: tm+mt
-source-wordcount: '639'
-ht-degree: 1%
+source-wordcount: '787'
+ht-degree: 0%
 
 ---
 
 
 # 发现渠道并参与其中(Beta)
+
+>[!IMPORTANT]
+>
+>Beta版功能可能包含缺陷，并按“原样”提供，不附带任何类型的担保。 Adobe自行决定是否正式提供测试版功能。 Adobe没有义务维护、更正、更新、更改、修改或以其他方式支持（通过Adobe支持服务或其他方式）Beta版功能。 如果Beta版功能可以普遍使用，则可能需要遵守附加条款和条件，包括适用的费用。 Beta版功能如有更改，恕不另行通知，包括停用。 我们建议客户谨慎使用，不要以任何方式依赖Beta版功能的不中断或无错误运行或性能。 因此，使用测试版功能完全由客户自行承担风险。 随着功能的发展，产品功能和相关文档可能会发生变化。 本文档反映了当前的Beta版体验，不应将其视为最终或完整的产品文档。
 
 渠道可帮助学习者发现并访问Adobe Learning Manager在Web和Cloud Confluence页面中策划的基于视频的非正式学习内容。 管理员可以通过将渠道连接到企业网页或Cloud Confluence页面（这些页面承载录制的知识共享和知识传授会话）来创建渠道。
 

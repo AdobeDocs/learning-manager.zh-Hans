@@ -2,7 +2,7 @@
 user-guide-title: Adobe Learning Manager 指南
 breadcrumb-title: Learning Manager
 user-guide-description: Adobe Learning Manager 的文档
-source-git-commit: 3fa2129d55276bf566149b0616e48ae77939d1a7
+source-git-commit: f95e4336d9b403f5803af175359893ceaa2a5daf
 workflow-type: tm+mt
 source-wordcount: '1660'
 ht-degree: 36%
@@ -237,10 +237,10 @@ ht-degree: 36%
       * [在Content Composer中编写有效提示](authors/feature-summary/content-composer/write-effective-prompts.md)
     * 共享和协作 {#share}
       * [共享和协作处理Content Composer项目](authors/feature-summary/content-composer/share-collaborate.md)
-      * {hide-from-toc}[共享项目以供审阅](authors/feature-summary/content-composer/share-course-review.md)
-      * {hide-from-toc}[与学习者共享项目](authors/feature-summary/content-composer/share-course-learners.md)
-      * {hide-from-toc}[审阅共享项目](authors/feature-summary/content-composer/review-shared-course.md)
-      * {hide-from-toc}[管理和响应审阅注释](authors/feature-summary/content-composer/manage-and-respond-comments.md)
+      * [共享项目以供审阅](authors/feature-summary/content-composer/share-course-review.md)
+      * [与学习者共享项目](authors/feature-summary/content-composer/share-course-learners.md)
+      * [审阅共享项目](authors/feature-summary/content-composer/review-shared-course.md)
+      * [管理和响应审阅注释](authors/feature-summary/content-composer/manage-and-respond-comments.md)
     * 配置课程设置 {#settings}
       * [常规课程设置](authors/feature-summary/content-composer/general-course-settings.md)
       * [设置完成和成功标准](authors/feature-summary/content-composer/set-completion-success-criteria.md)

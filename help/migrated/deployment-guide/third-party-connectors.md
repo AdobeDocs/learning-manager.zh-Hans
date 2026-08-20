@@ -300,7 +300,7 @@ getAbstract 连接器：getAbstract.com 的企业用户可使用此连接器供�
 
    如要确保任意类型的同步均起作用，必须确保 getAbstract FTP 文件夹中存在对应同步所指定日期的用户订阅源。
 
-   请参阅以下 Excel 工作表，该工作表是 getAbstract 的用户订阅源文件的样本。 文件名应采用以下格式：**report_export_yyyy_MM_dd_HHmmss.xlsx**或**report_export_yyyy_MM_dd.xlsx**。
+   请参阅以下 Excel 工作表，该工作表是 getAbstract 的用户订阅源文件的样本。 文件名应采用以下格式：**report_export_yyyy_MM_dd_HHmmss.xlsx**&#x200B;或**report_export_yyyy_MM_dd.xlsx**。
    [getAbstract用户订阅源示例Excel表](assets/report-export-20170401175342.xlsx)
 
 ## Harvard ManageMentor 连接器 {#hmmconnector}
@@ -351,7 +351,7 @@ Harvard ManageMentor 连接器：Harvard ManageMentor 的企业用户可使用�
    client_hmm12_20150125.xlsx：此文件是 Harvard ManageMentor 连接器的用户订阅源。 文件命名必须遵循以下约定：**client_hmm12_yyyyMMdd.xlsx**。
 
    请参阅以下两个用于此连接器的用户订阅源和课程订阅源文件样本：
-   [ Harvard ManageMentor连接器的课程元数据文件](assets/hmm12-metadata.xlsx) [ Harvard ManageMentor连接器的用户订阅源](assets/client-hmm12-20170304.xlsx)
+   [&#x200B; Harvard ManageMentor连接器的课程元数据文件](assets/hmm12-metadata.xlsx) [&#x200B; Harvard ManageMentor连接器的用户订阅源](assets/client-hmm12-20170304.xlsx)
 
 ## Workday 连接器 {#workdayconnector}
 

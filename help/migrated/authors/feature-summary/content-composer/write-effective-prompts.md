@@ -2,7 +2,8 @@
 description: 提示是内容书写器中最重要的输入。 特定提示（例如命名观众、2-3个主题和范围信号）可生成更准确的摘要、更强烈的轮廓和更少的下游编辑。
 jcr-language: en_us
 title: 在Content Composer中编写有效提示
-source-git-commit: c58fff50e6ccf6ab45722a0aafb7f4cee73752b5
+hide: true
+source-git-commit: 2fff90164df5d54a6dbe1bb62bab5fd3da59029c
 workflow-type: tm+mt
 source-wordcount: '2339'
 ht-degree: 0%

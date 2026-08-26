@@ -2,13 +2,13 @@
 title: 如何在Experience Builder中创建和自定义菜单
 description: 本指南介绍管理员如何在Adobe Learning Manager内的Experience Builder中创建菜单。 学习将页面组织到菜单中、自定义菜单布局以及控制菜单对不同用户组的可见性。
 jcr-language: en-us
-source-git-commit: 85eeebb33a67bf5528c88b26941345e00e98e0d3
+exl-id: a9eaf86e-a4b8-4ae2-9873-ab76d8807168
+source-git-commit: 5221f4bde68561d5253e7dfab789815e4cd55d49
 workflow-type: tm+mt
-source-wordcount: '661'
+source-wordcount: '667'
 ht-degree: 0%
 
 ---
-
 
 # 创建菜单
 
@@ -87,4 +87,3 @@ _菜单配置屏幕，显示目录、社交学习、技能和徽章等隐藏页�
 ## 下一步
 
 在设置页面、小组件和菜单后，通过使用JavaScript和CSS添加自定义来增强整体的学习者体验。
-

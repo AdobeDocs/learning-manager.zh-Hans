@@ -2,13 +2,13 @@
 title: Adobe Learning Manager中Experience Builder的核心组件
 description: 详细了解Experience Builder的三个核心组件，包括菜单、页面和小组件。
 jcr-language: en-us
-source-git-commit: a6cd09ba81a41b389ed1ccbea22db6b1966a56e2
+exl-id: 9b1da75a-d47b-496d-9e6e-40ca27daee20
+source-git-commit: 5221f4bde68561d5253e7dfab789815e4cd55d49
 workflow-type: tm+mt
 source-wordcount: '306'
 ht-degree: 4%
 
 ---
-
 
 # Experience Builder的核心组件
 

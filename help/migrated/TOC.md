@@ -2,9 +2,9 @@
 user-guide-title: Adobe Learning Manager 指南
 breadcrumb-title: Learning Manager
 user-guide-description: Adobe Learning Manager 的文档
-source-git-commit: 2fff90164df5d54a6dbe1bb62bab5fd3da59029c
+source-git-commit: 49f7d7db50dc06675c2fb4c4894e80867cc593d7
 workflow-type: tm+mt
-source-wordcount: '1651'
+source-wordcount: '1670'
 ht-degree: 36%
 
 ---
@@ -21,8 +21,8 @@ ht-degree: 36%
   * [2024年11月新增功能摘要](/help/migrated/whats-new-nov-24.md)
   * [2024年7月新增功能摘要](whats-new-july-2024.md)
   * [2024年3月版新增功能](whats-new-march-2024.md)
-  * {hide-from-toc}[&#x200B; 2023年11月版新增功能](whats-new-november-2023.md)
-  * {hide-from-toc}[&#x200B; 2023年7月版新增功能](whats-new-2023-july.md)
+  * {hide-from-toc}[ 2023年11月版新增功能](whats-new-november-2023.md)
+  * {hide-from-toc}[ 2023年7月版新增功能](whats-new-2023-july.md)
   * {hide-from-toc}[Adobe Learning Manager中即将推出的更改](/help/migrated/upcoming-changes-in-adobe-learning-manager.md)
   * [发行说明](release-note/release-notes.md)
   * [系统要求](system-requirements.md)
@@ -39,7 +39,9 @@ ht-degree: 36%
   * [Adobe Learning Manager中支持的语言](/help/migrated/languages-supported.md)
   * [Adobe Learning Manager中的API弃用和更改](api-deprecations-list.md)
   * [Adobe Learning Manager 中的推荐](recommendations-adobe-learning-manager.md)
-  * [Adobe Learning Manager中的白标签](white-label.md)
+  * [Adobe Learning Manager中的白色标签](white-label.md)
+* 版本中可用的功能 {#feature-availability}
+  * [2026年8月版中提供的功能](/help/migrated/feature-availability-aug-2026.md)
 * 入门指南 {#get-started}
   * [使用OpenID Connect登录Adobe Learning Manager](/help/migrated/oidc.md)
   * [管理员快速入门指南](administrators/feature-summary/getting-started-admin.md)
@@ -158,7 +160,8 @@ ht-degree: 36%
   * [学习计划](administrators/feature-summary/learning-programs.md)
   * [产品术语](administrators/feature-summary/product-terminology.md)
 * 集成管理员 {#integration}
-  * [应用程序开发人员手册](integration-admin/feature-summary/developer-manual.md)
+  * [应用程序开发人员手册](/help/migrated/integration-admin/feature-summary/developer-manual.md)
+  * [使用iFrame集成学习者助手](/help/migrated/integration-admin/feature-summary/learner-assistant-integration-embed-iframe.md)
   * [迁移手册](integration-admin/feature-summary/migration-manual.md)
   * Adobe Learning Manager 连接器 {#connectors}
     * [连接器概述](integration-admin/feature-summary/connectors.md)
@@ -271,6 +274,7 @@ ht-degree: 36%
   * [配置文件设置](learners/feature-summary/settings.md)
   * [目录](learners/feature-summary/catalogs.md)
   * [一键式注册](learners/feature-summary/learner-one-click-enrollment.md)
+  * {hide-from-toc}[已由我保存Widget](learners/feature-summary/saved-by-me-widget.md)
   * [我的学习](learners/feature-summary/courses.md)
   * {hide-from-toc}[自适应课程](learners/feature-summary/adaptive-course-learner.md)
   * [流体播放器](learners/feature-summary/fluidic-player.md)

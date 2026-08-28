@@ -2,13 +2,13 @@
 title: 在Experience Builder中添加和配置小组件
 description: 了解如何在Adobe Learning Manager内的Experience Builder中添加、自定义和配置各种小组件。 本指南涵盖常用小组件，例如日历、类别、合规性状态、课程和路径、游戏、HTML内容、IFrames、社交学习等。
 jcr-language: en-us
-source-git-commit: 7fe4576e2a90b27f51d035f01a30ce3a818b95c2
+exl-id: 9f9fe71b-62ff-4873-a103-e80a7e88811a
+source-git-commit: 30372b696921be9e896f947e96683b72587f1323
 workflow-type: tm+mt
-source-wordcount: '2483'
+source-wordcount: '2495'
 ht-degree: 0%
 
 ---
-
 
 # 添加和配置小组件
 
@@ -154,8 +154,8 @@ ht-degree: 0%
 10. 选择目录或手动选择最多25个要显示的课程。
 
 ![](assets/configure-course-paths.png)
-_课程和路径小组件，管理员可在其中设置小组件标题、描述并选择课程或学习路径以交互卡片形式显示_
-11.选择&#x200B;**[!UICONTROL 添加小组件]**。
+_课程和路径小组件，管理员可在其中设置小件的标题、描述，并选择要以交互卡形式显示的课程或学习路径_
+&#x200B;11. 选择&#x200B;**[!UICONTROL 添加小组件]**。
 
 “课程和路径”小组件将添加到页面中。 管理员可以添加其他小组件并发布页面。
 
@@ -187,7 +187,7 @@ _课程和路径小组件，管理员可在其中设置小组件标题、描述�
     * **[!UICONTROL 颜色]**：从拾色器中选择颜色或在文本字段中键入颜色代码。
     * **[!UICONTROL 图像]**：浏览并上传图片。
 
-11. 使用&#x200B;**[!UICONTROL 内容框高度]**&#x200B;选项调整框高度。
+11. 使用&#x200B;**[!UICONTROL 内容框Height]**&#x200B;选项调整内容框Height。
 12. 选择文本格式选项。
 
     ![](assets/configure-content-box.png)
@@ -273,10 +273,10 @@ Iframe小组件可直接在学习平台的某个页面中显示外部URL中的�
    _构件选择屏幕，突出显示Iframe构件，用于在所选部分内嵌入外部应用程序或网页_
 
 8. 在&#x200B;**[!UICONTROL 链接到动作按钮的页面]**&#x200B;选项中键入URL。
-9. 使用&#x200B;**[!UICONTROL Iframe height]**&#x200B;选项调整Iframe高度。
+9. 使用&#x200B;**[!UICONTROL IframeHeight]**&#x200B;选项调整IframeHeight。
 
    ![](assets/configure-iframe.png)
-   _Iframe构件自定义屏幕，管理员可以在其中输入页面URL并指定iframe高度以嵌入外部内容_
+   _Iframe小组件自定义屏幕，管理员可以在此屏幕中输入页面URL并指定iframeHeight以嵌入外部内容_
 
 10. 选择&#x200B;**[!UICONTROL 添加小组件]**。
 
@@ -314,6 +314,58 @@ Iframe小组件将添加到页面中。 管理员可以添加其他小组件并�
 9. 选择&#x200B;**[!UICONTROL 添加小组件]**。
 
 此时页面会添加“我的学习”小部件。 管理员可以添加其他小组件并发布页面。
+
+<!--
+
+## Saved by me widget {#bookmark-widget}
+
+The **Saved by me** widget displays courses, Learning Paths, certifications, and job aids that a learner has bookmarked for later. It gives learners a single place to find content they have marked as saved without needing to search the catalog again. 
+
+As an administrator, you can add the **Saved by me** widget to a page to give learners quick access to their bookmarked content. Learners can use the widget to revisit courses they saved while browsing, without repeating their original search or navigation. 
+
+Adding this widget to a page can help: 
+
+* Streamline learner workflows by providing single-click access to frequently accessed content 
+
+* Reduce repetitive navigation and time spent searching for resources 
+
+* Create a more personalized learning experience that increases satisfaction and engagement 
+
+### Add a Saved by me widget 
+
+Consider a financial company rolling out a new curriculum of over 50 courses to its Sales and Customer Success Manager (CSM) teams.  As learners browse the catalog, they bookmark the five or six courses most relevant to their own role. 
+
+Those saved courses automatically appear in the Saved by me widget on the learner's personalized home page. Instead of navigating the catalog again, they can go straight to the widget to access or enroll in the content they set aside. 
+
+To configure the **Saved by me** widget: 
+
+1. Log in to Adobe Learning Manager as an administrator. 
+2. Select **Branding** in the left navigation pane. 
+3. Select **Custom Pages**. 
+4. Select the required page and then select **Page Design**. 
+5. Select the layout. 
+6. Select **Add Widget**. 
+7. Select **Saved by me** and then select **Proceed**. 
+
+   ![](/help/migrated/administrators/feature-summary/assets/saved-by-me-widget1.png)
+
+8. Type a **Widget title** and **Widget description**.
+
+   ![](/help/migrated/administrators/feature-summary/assets/saved-by-me-widget2.png)
+
+9. Select **Add widget**. 
+
+The **Saved by me** widget will be added to the page. Administrators can add other widgets and publish the page.
+
+![](/help/migrated/administrators/feature-summary/assets/saved-by-me-widget3.png)
+
+>[!NOTE]
+>
+>If a learner has not bookmarked any content, the Saved by me widget displays an empty state on their page. As the learner bookmarks courses, learning paths, certifications, or job aids, those items appear in the widget automatically.
+
+Widget title and description support localization the same way as other widgets in Experience Builder. If your account has multiple languages configured, provide a title and description for each language, so learners see the widget in their preferred locale.
+
+-->
 
 ## 社交学习小工具
 

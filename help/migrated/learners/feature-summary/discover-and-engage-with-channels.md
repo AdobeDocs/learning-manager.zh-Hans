@@ -1,9 +1,9 @@
 ---
 title: 发现渠道并参与其中
 description: 了解如何在Adobe Learning Manager中通过渠道查找、订阅、观看和加入有关视频内容的讨论。
-source-git-commit: fcd21641183346cf88062b79600b1f8385f61803
+source-git-commit: cb49d8e4159c7dc8650ef4c981d24f3507bfff93
 workflow-type: tm+mt
-source-wordcount: '787'
+source-wordcount: '802'
 ht-degree: 0%
 
 ---
@@ -35,6 +35,10 @@ ht-degree: 0%
 1. 登录 Adobe Learning Manager。
 
 1. 从顶部导航栏中选择&#x200B;**频道**。
+
+   >[!NOTE]
+   >
+   >如果无法在导航栏中查看&#x200B;**频道**&#x200B;选项卡，请与管理员联系。
 
    <br>将打开“**通道**”页面，默认情况下显示“**全部**”选项卡。
 

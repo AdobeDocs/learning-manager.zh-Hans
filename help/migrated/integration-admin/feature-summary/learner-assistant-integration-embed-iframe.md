@@ -32,7 +32,7 @@ Adobe Learning Manager (ALM)用户可以将&#x200B;**学习者助理**&#x200B;�
 在开始之前，请确保您已完成：
 
 * 已启用学习者助理的ALM租户。 从管理员设置页面配置所需目录。
-* 用于对学习者（或管理员）会话进行身份验证的有效accessToken。 要生成访问令牌，请按照[使用OAuth 2.0](https://experienceleague.adobe.com/en/docs/learning-manager/using/integration/developer-manual#authentication-using-oauth-20)进行身份验证页面上的说明进行操作。 该页面包含进行身份验证并生成继续操作所需的访问令牌所需的步骤。
+* 用于对学习者（或管理员）会话进行身份验证的有效accessToken。 要生成访问令牌，请按照[使用OAuth 2.0](https://experienceleague.adobe.com/zh-hans/docs/learning-manager/using/integration/developer-manual#authentication-using-oauth-20)进行身份验证页面上的说明进行操作。 该页面包含进行身份验证并生成继续操作所需的访问令牌所需的步骤。
 * 将`<iframe>`嵌入到应用程序中并通过浏览器的postMessage API与其通信的功能。
 * 父应用程序的前端代码所有权，因为您的应用程序必须侦听和响应来自嵌入式iFrame的消息。
 

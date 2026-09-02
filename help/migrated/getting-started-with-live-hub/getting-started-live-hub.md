@@ -1,9 +1,9 @@
 ---
 title: Live Hub (Beta)快速入门
 description: 了解Adobe Learning Manager中的Live Hub如何让您直接在平台上提供讲师指导的实时培训课程。
-source-git-commit: f9fed45f8818ff34ff4a4c6750a3659b6d4dc49d
+source-git-commit: d163afe818f4fc574fa4a809fce1f9eed5fd7ac6
 workflow-type: tm+mt
-source-wordcount: '746'
+source-wordcount: '767'
 ht-degree: 0%
 
 ---
@@ -21,11 +21,15 @@ ht-degree: 0%
 
 许多组织依靠单独的工具进行课程管理、会话交付和协作。 这可能会带来以下挑战：
 
-- 在多个培训平台之间切换
-- 其他设置和配置要求
-- 在学习者参与和参与方面的可见度有限
+- 在多个平台之间切换以进行培训。
+- 其他设置和配置要求。
+- 在学习者参与和参与方面的可见度有限。
 
 Live Hub通过将课程交付、协作、参与和跟踪整合到Adobe Learning Manager中的一种统一体验中来解决这些难题。
+
+在深入了解分步流程之前，先观看一段简短的演练视频，大致了解实时中心。
+
+>[!VIDEO](https://video.tv.adobe.com/v/3502433)
 
 ## 什么是Live Hub
 

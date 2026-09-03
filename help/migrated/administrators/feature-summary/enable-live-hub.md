@@ -1,9 +1,9 @@
 ---
 title: 在Adobe Learning Manager中启用Live Hub (Beta)
 description: 了解管理员如何为帐户启用Live Hub、将其设置为默认虚拟教室提供商以及打开AI支持的实时中心助理。
-source-git-commit: 43d4a9fb47d94ef541984a1c1fb9c70ba4e3f61d
+source-git-commit: 552ecc22af6d59d80bda48a05ed8b950a500ee0a
 workflow-type: tm+mt
-source-wordcount: '328'
+source-wordcount: '510'
 ht-degree: 0%
 
 ---
@@ -45,15 +45,15 @@ ht-degree: 0%
 
 1. 从Live Hub代理启用助理：
 
-   1. 投票助手
+   1. **投票助手**：根据课程内容和实时会话成绩单生成投票，创建随时可通过单击审阅和启动的破冰器或知识检查。 查看[创建并启动投票](../../getting-started-with-live-hub/create-and-launch-a-poll.md#create-a-poll-using-ai)以了解更多信息。
 
-   1. 问答助手
+   1. **问答助手**：检测会话聊天中的参与者问题，并根据上传的内容和会话成绩单草稿答案，以便讲师审阅、优化和共享。 查看[以讲师身份使用聊天面板](../../getting-started-with-live-hub/use-the-chat-panel-as-an-instructor.md#draft-replies-to-participant-questions-with-ai)，了解更多信息。
 
-   1. 分组监视助手
+   1. **分组讨论监控助手**：根据讲师的目标阅读每个分组讨论室的记录，每隔几分钟发布一张状态卡，并提供每个分组的讨论摘要以及跨会议室主题、决策和差距的单一综合图，以便立即进行汇报。 有关详细信息，请查看[创建和管理分组会话](../../getting-started-with-live-hub/create-and-manage-breakout-rooms.md#view-ai-generated-summaries-of-breakout-rooms)。
 
-   1. 录制的主题生成器
+   1. **录制的主题生成器**：使用时间戳和结构化笔记将会话录制自动分段为命名主题，以便参与者可以直接前往所需位置或从笔记中学习，而无需查看完整录制。 有关详细信息，请查看[了解录制和转录文本](../../getting-started-with-live-hub/record-a-session.md#generate-topics-in-recording)。
 
-   1. 讲师查找器助手
+   1. **讲师查找器助手**：通过权衡技能、可用性、利用率、首选指导时间和其他条件，为会话推荐讲师。 有关详细信息，请查看[创建Live Hub会话](../../getting-started-with-live-hub/create-a-live-hub-session.md#add-instructors-using-instructor-finder)。
 
 >[!NOTE]
 >

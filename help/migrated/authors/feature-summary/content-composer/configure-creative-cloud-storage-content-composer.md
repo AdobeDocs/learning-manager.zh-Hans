@@ -94,4 +94,4 @@ Content Composer使用Creative Cloud存储来存储课程。 未将存储空间�
 
 如果Adobe Admin Console管理员在分配Creative Cloud存储空间或调试与访问权限相关的问题时脸部问题，则该问题可能需要企业帐户级别支持。 在这种情况下，请通过Admin Console中的可用支持选项联系Adobe企业支持部门。
 
-有关详细信息，请查看[Adobe企业支持选项](https://helpx.adobe.com/business/enterprise/get-help/support-options/support-for-enterprise.html)
+有关详细信息，请查看[Adobe企业支持选项](https://helpx.adobe.com/cn/business/enterprise/get-help/support-options/support-for-enterprise.html)

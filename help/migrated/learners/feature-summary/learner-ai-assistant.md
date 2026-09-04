@@ -3,9 +3,9 @@ description: 使用Adobe Learning Manager中的AI Assistant从学习内容中快
 jcr-language: en_us
 title: Adobe Learning Manager中面向学习者的AI助理
 exl-id: 8203488d-74a6-4463-9383-76d16cabccfa
-source-git-commit: 75857b4616180d6294d8374983bb3bf5453c0f46
+source-git-commit: cab2a30f621c22aec273c29c257f5e13405df327
 workflow-type: tm+mt
-source-wordcount: '3167'
+source-wordcount: '3236'
 ht-degree: 0%
 
 ---
@@ -56,7 +56,7 @@ AI Assistant是Adobe Learning Manager中的生成式AI聊天助手，可使用�
 
 ## AI Assistant的功能
 
-AI Assistant是生成式AI支持的聊天助手，可使用分配的学习内容回答问题。 每个答复都包含带有指向原始资料直接链接的引文，以便您可以验证相关信息并继续学习。
+AI Assistant是生成式AI支持的聊天助手，可使用分配的学习内容回答问题。 每个响应都包含带有指向源材料的直接链接的引文，以便您可以验证相关信息并继续学习。
 
 除了回答问题外，AI Assistant还可以：
 
@@ -81,7 +81,7 @@ Adobe使用可信服务安全处理您的学习内容。
 
 ### 目录和内容源限制
 
-AI Assistant仅使用管理员明确配置的&#x200B;**内部**&#x200B;目录中的内容。
+AI Assistant仅使用内部目录、外部目录和第三方内容库中的内容。 学习者查询的答案仅从他们有权访问的目录派生。
 
 当前版本不支持以下内容源：
 
@@ -117,7 +117,7 @@ AI Assistant可帮助Marcus：
 
 ### 新员工入职
 
-詹妮弗刚加入公司，大量的培训材料令她不知所措。 她需要一种无需复习整个课程即可找到特定信息的方法。
+詹妮弗刚加入公司，培训的材料之多令她不知所措。 她需要一种无需复习整个课程即可找到特定信息的方法。
 
 AI助手帮助珍妮弗：
 
@@ -151,8 +151,8 @@ AI Assistant会在生成答案时逐步提供答案，因此您可以立即开�
 - 通过选择响应底部的&#x200B;**显示源**&#x200B;打开完整源列表。
 - 验证信息并从权威源探索其他上下文。
 
-> **重要**
-> AI Assistant根据管理员启用的内容提供答案。如果您无权访问引用的项目，则在尝试打开它时将看到“不受支持”消息。
+> **重要信息**
+> AI Assistant根据管理员启用的内容提供答案。 如果您无权访问引用的项目，则在尝试打开它时将看到“不受支持”消息。
 
 
 ## 内置提示
@@ -331,7 +331,7 @@ Adobe Learning Manager的Learning Assistant允许您并排比较目录中最多�
 
 ### 学习助手如何使用Experience League
 
-Adobe Learning Manager的学习助手可以从Adobe的官方帮助和文档网站[Adobe Experience League](/help/migrated/user-guide.md)中获取答案。 学习者询问程序性问题或操作问题时，学习助理可以检索相关答案，并包含完整Experience League文章的链接。
+Adobe Learning Manager的学习助手可以从Adobe的官方帮助和文档网站[Adobe Experience League](/help/migrated/user-guide.md)中获取答案。 当学习者询问程序化或操作方法问题时，学习助理可以检索相关答案，并包含完整Experience League文章的链接。
 
 ### 学习助手可以回答哪些类型的问题
 

@@ -2,10 +2,10 @@
 user-guide-title: Adobe Learning Manager 指南
 breadcrumb-title: Learning Manager
 user-guide-description: Adobe Learning Manager 的文档
-source-git-commit: f7bc8b49056786751a6ff5517e6a6b0fe424e7c0
+source-git-commit: 186c661ef9ee9d61a2ebc790dc4c6d2804d796fd
 workflow-type: tm+mt
-source-wordcount: '1679'
-ht-degree: 36%
+source-wordcount: '1686'
+ht-degree: 35%
 
 ---
 
@@ -222,6 +222,7 @@ ht-degree: 36%
       * [什么是内容书写器](authors/feature-summary/content-composer/what-is-content-composer.md)
       * [内容书写器工作原理](authors/feature-summary/content-composer/how-content-composer-works.md)
       * [内容书写器适用对象](authors/feature-summary/content-composer/who-content-composer-is-for.md)
+      * [为Content Composer配置Creative Cloud存储](authors/feature-summary/content-composer/configure-creative-cloud-storage-content-composer.md)
       * [开始之前需要的](authors/feature-summary/content-composer/before-you-start.md)
       * [将课程置于您自己的文档中](authors/feature-summary/content-composer/ground-course-documents.md)
       * [内容书写器不是什么](authors/feature-summary/content-composer/what-content-composer-is-not.md)

@@ -2,9 +2,9 @@
 user-guide-title: Adobe Learning Manager 指南
 breadcrumb-title: Learning Manager
 user-guide-description: Adobe Learning Manager 的文档
-source-git-commit: 49f7d7db50dc06675c2fb4c4894e80867cc593d7
+source-git-commit: f7bc8b49056786751a6ff5517e6a6b0fe424e7c0
 workflow-type: tm+mt
-source-wordcount: '1670'
+source-wordcount: '1679'
 ht-degree: 36%
 
 ---
@@ -225,6 +225,8 @@ ht-degree: 36%
       * [开始之前需要的](authors/feature-summary/content-composer/before-you-start.md)
       * [将课程置于您自己的文档中](authors/feature-summary/content-composer/ground-course-documents.md)
       * [内容书写器不是什么](authors/feature-summary/content-composer/what-content-composer-is-not.md)
+    * 编写有效提示 {#write-effective-prompt}
+      * [在Content Composer中编写有效提示](authors/feature-summary/content-composer/write-effective-prompts.md)
     * 创建课程 {#create-course}
       * [编写提示](authors/feature-summary/content-composer/write-a-prompt.md)
       * [完成课程简介](authors/feature-summary/content-composer/complete-course-brief.md)
@@ -274,7 +276,7 @@ ht-degree: 36%
   * [配置文件设置](learners/feature-summary/settings.md)
   * [目录](learners/feature-summary/catalogs.md)
   * [一键式注册](learners/feature-summary/learner-one-click-enrollment.md)
-  * {hide-from-toc}[已由我保存Widget](learners/feature-summary/saved-by-me-widget.md)
+  * [由我保存的小部件](learners/feature-summary/saved-by-me-widget.md)
   * [我的学习](learners/feature-summary/courses.md)
   * {hide-from-toc}[自适应课程](learners/feature-summary/adaptive-course-learner.md)
   * [流体播放器](learners/feature-summary/fluidic-player.md)

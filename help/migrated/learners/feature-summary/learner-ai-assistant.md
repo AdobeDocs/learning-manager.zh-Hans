@@ -3,13 +3,11 @@ description: 使用Adobe Learning Manager中的AI Assistant从学习内容中快
 jcr-language: en_us
 title: Adobe Learning Manager中面向学习者的AI助理
 exl-id: 8203488d-74a6-4463-9383-76d16cabccfa
-source-git-commit: cab2a30f621c22aec273c29c257f5e13405df327
+source-git-commit: ecd80d3000694ddffb53d3d2fa5bbcdae49a88f4
 workflow-type: tm+mt
-source-wordcount: '3236'
+source-wordcount: '3245'
 ht-degree: 0%
-
 ---
-
 # 面向学习者的AI助理
 
 ## 简介
@@ -81,15 +79,14 @@ Adobe使用可信服务安全处理您的学习内容。
 
 ### 目录和内容源限制
 
-AI Assistant仅使用内部目录、外部目录和第三方内容库中的内容。 学习者查询的答案仅从他们有权访问的目录派生。
+AI Assistant仅使用内部目录和第三方内容库中的内容。 学习者查询的答案仅从他们有权访问的目录派生。
 
 当前版本不支持以下内容源：
 
-- **共享**&#x200B;目录
-- **已获取**&#x200B;个目录
-- **外部**&#x200B;目录
-- **默认**&#x200B;目录
-- 第三方内容库（例如LinkedIn Learning或Go1）
+- 共享的外部目录
+- 默认目录
+
+支持获取的目录，并且还支持来自第三方内容库（例如，LinkedIn Learning或Go1）的元数据的响应。
 
 如果您无权访问课程或工作辅助，则AI Assistant不会显示这些内容中的信息，并且将无法访问引文链接。
 
@@ -357,7 +354,7 @@ Adobe Learning Manager的Learning Assistant可以回答学习者针对平台上�
 
 >[!IMPORTANT]
 >
->作为先决条件，管理员必须向“学习者助理”添加所需的目录。 有关更多详细信息，请参阅[配置AI Assistant访问权限](https://experienceleague.adobe.com/zh-hans/docs/learning-manager/using/learner/learner-ai-assistant#configure-ai-assistant-access)。
+>作为先决条件，管理员必须向“学习者助理”添加所需的目录。 有关更多详细信息，请参阅[配置AI Assistant访问权限](https://experienceleague.adobe.com/en/docs/learning-manager/using/learner/learner-ai-assistant#configure-ai-assistant-access)。
 
 
 管理员将Go1或LinkedIn学习目录添加到Adobe Learning Manager时，目录内容会按照预定的摄取过程进行处理。 收录完成后，该目录中的学习对象将可供学习助手查询。

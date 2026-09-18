@@ -2,14 +2,12 @@
 title: 具有限定范围的公告权限的自定义角色
 jcr-language: en_us
 description: 了解如何在Adobe Learning Manager中创建自定义角色，仅允许选定目录和用户组发布公告。
-source-git-commit: 85eeebb33a67bf5528c88b26941345e00e98e0d3
+exl-id: e038033c-ce06-454a-922b-ba0b0c894ac0
+source-git-commit: 5221f4bde68561d5253e7dfab789815e4cd55d49
 workflow-type: tm+mt
 source-wordcount: '820'
 ht-degree: 0%
-
 ---
-
-
 # 具有限定范围的公告权限的自定义角色
 
 管理员可以创建自定义角色，公告权限仅限于特定目录和用户组。 这样可以确保发布具有针对性、相关性和仅对预期学习者可见。 规定范围的公告可确保适当用户收到相关公告，而无需向他人发送详细信息。
@@ -65,7 +63,7 @@ ht-degree: 0%
 4. 从下拉菜单中选择&#x200B;**[!UICONTROL 公告类型]**。
 a. **[!UICONTROL 作为通知]**
 b. **[!UICONTROL 作为刊头]**
-c. **[!UICONTROL 作为建议]**
+c. **[!UICONTROL 作为推荐]**
 d. **[!UICONTROL 作为电子邮件]**
 5. 选择&#x200B;**[!UICONTROL 作为刊头]**。
 6. 选择语言并上传刊头的图像。

@@ -3,15 +3,12 @@ description: 此文档可帮助您配置 SSO 身份验证，以登录 Adobe Lear
 jcr-language: en_us
 title: 使用 SSO 身份验证登录 Adobe Learning Manager
 contentowner: dvenkate
-source-git-commit: a186a600e632e9a564c4ff30d1897c2cdf0d5aac
+exl-id: ef5ab232-0a87-4f76-8dfd-b2497f360cbe
+source-git-commit: 1529039e35d4190864e96826bfbea25dcad17c73
 workflow-type: tm+mt
-source-wordcount: '131'
-ht-degree: 70%
-
+source-wordcount: '135'
+ht-degree: 68%
 ---
-
-
-
 # 使用 SSO 身份验证登录 Adobe Learning Manager
 
 此文档可帮助您配置 SSO 身份验证，以登录 Adobe Learning Manager 帐户。
@@ -38,4 +35,3 @@ ht-degree: 70%
    您在 Adobe Learning Manager 中配置的 SSO 应支持 SAML 2.0。
 
    现在，您可以使用 SSO 身份验证登录 Adobe Learning Manager。
-

@@ -4,22 +4,19 @@ jcr-language: en_us
 title: 嵌入式流体播放器
 contentowner: dvenkate
 preview: true
-source-git-commit: decdeed5958f690a12094d3d6eb3cea51e2d3486
+exl-id: 8cb09053-189d-42dc-bc66-47cd5da45850
+source-git-commit: 1529039e35d4190864e96826bfbea25dcad17c73
 workflow-type: tm+mt
-source-wordcount: '1675'
-ht-degree: 31%
-
+source-wordcount: '1693'
+ht-degree: 32%
 ---
-
-
-
 # 嵌入式流体播放器
 
 阅读本文，了解如何在自定义应用程序中嵌入流体播放器。
 
 企业现在可以在 Adobe Learning Manager 之外为学习者提供自定义体验。 您可以使用公共API，获取与学习对象、学习者注册和学习进度相关的所有信息，并将这些信息显示在您的网站上。 更重要的是，您可以在自己的网站中嵌入 Adobe Learning Manager 的流体播放器，以便学习者可以直接从您的网站使用内容。 您能够使用流体播放器播放 Adobe Learning Manager 支持的任何内容。 在您的网站中嵌入的流体播放器与在 Adobe Learning Manager 中使用的流体播放器功能完全相同。
 
-**播放任何电子学习内容[&#128279;](../../learners/feature-summary/fluidic-player.md#main-pars_text_779047019)**
+**播放任何电子学习内容[](../../learners/feature-summary/fluidic-player.md#main-pars_text_779047019)**
 
 流体播放器能够以一致且直观的方式播放几乎任何类型的电子学习内容，无需任何插件，亦无需下载任何内容。 无论内容属于哪种文件类型，学习者启动内容之后，即开始播放。
 
@@ -31,7 +28,7 @@ ht-degree: 31%
 
 以下是您可以使用嵌入式流体播放器的一些示例。
 
-* 您可以在自己的&#x200B;**网站中使用嵌入式流体播放器**&#x200B;列出员工已注册的课程，并在同一页面提供启动培训的链接。 这意味着学习者可以在您的Intranet网站上参加培训。
+* 您可以在自己的**网站中使用嵌入式流体播放器**列出员工已注册的课程，并在同一页面提供启动培训的链接。 这意味着学习者可以在您的Intranet网站上参加培训。
 
 * 如果您从事培训业务，您可能拥有一个网站，供客户购买课程。 您可以将嵌入式播放器与该网站集成，以便客户可以使用在您的网站上购买的内容。
 
@@ -75,11 +72,11 @@ client_id= <application_id>
 &email=<email_id>
 ```
 
-在此，**[!UICONTROL 客户端ID]**&#x200B;是第1步中获取的应用程序ID。
-**[!UICONTROL redirect_url]**&#x200B;是第1步中设置的redirect_url。
-**[!UICONTROL state]**&#x200B;是我们需要以此为依据筛选重定向URL以获取OAuth代码的任何虚拟数据。 scope 是第 1 步中设置的学习者范围。
-**[!UICONTROL response_typ]**&#x200B;e始终为“CODE”。\
-**[!UICONTROL 帐户]**&#x200B;是可选字段\
+在此 URL 中，**[!UICONTROL client id]** 是第 1 步中获取的应用程序 ID。
+**[!UICONTROL redirect_url]**是第1步中设置的redirect_url。
+**[!UICONTROL state]**是我们需要以此为依据筛选重定向URL以获取OAuth代码的任何虚拟数据。 scope 是第 1 步中设置的学习者范围。
+**[!UICONTROL response_typ]**e始终为“CODE”。\
+**[!UICONTROL 帐户]**是可选字段\
 **[!UICONTROL 电子邮件]**&#x200B;是可选字段\
 &#42;如果同时提供了帐户ID和电子邮件，则上述URL将允许用户登录同一帐户。 示例应用程序的“index.html”文件中描述了此端点示例。
 
@@ -154,7 +151,7 @@ code window.addEventListener("message", function closePlayer(){
 
 ## 示例应用程序教程 {#sampleapplicationtutorial}
 
-附加的PDF文档包含示例应用程序教程。
+附件 PDF 文档包含示例应用程序教程。
 [嵌入流体播放器的示例教程和教程源。](assets/sample-applicationtutorial.zip) 替代内容
 
 如果您是管理员，您可以在流体播放器中设置课程材料，为学习者提供替代内容。 例如，如果不同地区的学习者可能希望使用多种语言，则您可以用多种语言创建相同的内容。 流体播放器将为学习者提供其可能设置的语言，但学习者还可以选择直接从播放器内切换到替代语言。
@@ -179,7 +176,7 @@ Learning Manager流体播放器所使用的流技术可为学习者提供视频�
 
 1. 将访问令牌用作必需的参数。
 
-   * access_token ：这是安全参数，使用公共API oauth   访问令牌
+   * access_token ：这是安全参数，请使用公共API oauth访问令牌
 
    您可以通过在集成管理员中设置嵌入式流体播放器来获取令牌。 您可以获取可用作访问令牌的身份验证令牌。
 
@@ -187,7 +184,7 @@ Learning Manager流体播放器所使用的流技术可为学习者提供视频�
 
    在此URL中， lo_id将是课程、学习计划、认证和工作辅助的ID。
 
-   lo_id — 课程:21324、学习计划:2143、认证:23432、工作辅助:237的示例
+   lo_id — 课程示例：21324，learningProgram：2143，certification：23432，jobAid：237
 
 1. 调用Learning Manager API以检索上述参数。
 
@@ -224,7 +221,7 @@ URL： [https://learningmanager.adobe.com/app/player](https://learningmanager.ad
 
 必需的参数：
 
-* access_token ：这是安全参数，使用公共API oauth   访问令牌
+* access_token ：这是安全参数，请使用公共API oauth访问令牌
 
 调用Learning Manager API以检索上述参数。 这些API调用将由IT团队/顾问编写并托管在您的站点上的应用程序进行。
 
@@ -235,5 +232,3 @@ Learning Manager V1 API - [https://learningmanager.adobe.com/docs/primeapi/v1/](
 
 
 Learning Manager V2 API - [https://learningmanager.adobe.com/docs/primeapi/v2/](https://learningmanager.adobe.com/docs/primeapi/v2/)
-
-

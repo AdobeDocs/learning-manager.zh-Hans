@@ -2,14 +2,12 @@
 description: 了解Adobe Learning Manager Experience Builder中的菜单如何帮助您在学习门户中组织导航。 创建和自定义菜单项，将其链接到页面或外部资源，并为不同用户组定制菜单结构，以提供无缝的品牌化学习体验。
 jcr-language: en_us
 title: Experience Builder中的菜单
-source-git-commit: a6cd09ba81a41b389ed1ccbea22db6b1966a56e2
+exl-id: aaf4cbe1-91ca-40de-809c-4a7d183a9276
+source-git-commit: 5221f4bde68561d5253e7dfab789815e4cd55d49
 workflow-type: tm+mt
-source-wordcount: '477'
+source-wordcount: '482'
 ht-degree: 0%
-
 ---
-
-
 # 概述
 
 Experience Builder中的菜单是可自定义的导航结构，您创建这些结构是为了组织页面并为特定受众提供定制的个性化学习体验。 它们是Experience Builder的核心组件以及页面和小部件，是控制不同学习者看到哪些内容以及如何在门户中导航的主要机制。
@@ -50,4 +48,4 @@ Experience Builder中的菜单是可自定义的导航结构，您创建这些�
 
 **微型学习营销活动**
 
-为短期营销活动构建一个面向特定受众的自定义菜单和一组页面。 这样，您就可以交付一组重点突出的学习材料，而不会中断公司其他部门的体验。
+为短期营销活动构建一个面向特定受众的自定义菜单和一组页面。 这样，您就可以交付一组高度集中的学习材料，而不会中断公司其他部门的体验。

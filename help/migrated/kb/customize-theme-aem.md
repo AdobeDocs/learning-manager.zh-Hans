@@ -4,15 +4,12 @@ title: 自定义 AEM 组件的主题
 description: 自定义 AEM 组件的主题
 contentowner: saghosh
 preview: true
-source-git-commit: ccdb222228f76fdae63ebb0a808824ad6ac1db7f
+exl-id: 907a305b-423d-4252-8597-a25819178f07
+source-git-commit: 1529039e35d4190864e96826bfbea25dcad17c73
 workflow-type: tm+mt
 source-wordcount: '24'
 ht-degree: 100%
-
 ---
-
-
-
 # 自定义 AEM 组件的主题
 
 使用下方的 JSON 自定义目录小组件。

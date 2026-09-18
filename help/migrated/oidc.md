@@ -2,14 +2,12 @@
 description: 了解OIDC登录方法
 jcr-language: en_us
 title: 使用OpenID Connect登录Adobe Learning Manager
-source-git-commit: 7c430e3fbb2716455310f2130d73af10ce2e56c7
+exl-id: 7f85f359-0f4c-428f-a104-c4ae3071793a
+source-git-commit: cfc09c74da2cc236147ccf883185926ed495f1ed
 workflow-type: tm+mt
 source-wordcount: '1402'
 ht-degree: 0%
-
 ---
-
-
 # 使用OpenID Connect (OIDC)登录Adobe Learning Manager
 
 了解OpenID Connect如何在Adobe Learning Manager中面向学习者、作者和管理员登录。 本文涵盖的是相关经验，而不是实施。
@@ -31,7 +29,7 @@ OIDC是您的帐户可能提供的其他登录选项的替代方法，如基于A
 
 * 用户看到的企业或云身份体验与其用于其他应用程序的体验相同。
 * 密码策略、多重身份验证和帐户生命周期在身份提供者中进行管理，这与其他企业应用程序一致。
-* 从用户和IT的角度来看，OIDC遵循的模式类似于其他新式的登录流程，没有与某些仅适用于SAML的设置相关的更繁重的文档交换。
+* OIDC遵循的模式类似于用户和IT透视提供的其他新式登录流程，而不会出现与某些仅限SAML的设置相关的更繁重的文档交换情况。
 
 您的体验仍然良好：转到Learning Manager，从公司告知您的位置登录，然后登录到应用程序。
 
@@ -50,7 +48,7 @@ OIDC是您的帐户可能提供的其他登录选项的替代方法，如基于A
 
 ### 使用您的组织登录
 
-在您的身份提供方的页面上，输入您的凭据并完成您的组织需要的任何额外步骤，例如多重身份验证。 当OIDC是正在使用的方法时，会在Adobe Learning Manager自己的登录表单之外执行此步骤。 从您的角度看，这就像登录到您的公司或学校帐户。 在此步骤中，您可能看不到&#x200B;*OIDC*&#x200B;或&#x200B;*OAuth*&#x200B;等技术术语。
+在您的身份提供方的页面上，输入您的凭据并完成您的组织需要的任何额外步骤，例如多重身份验证。 当OIDC是正在使用的方法时，会在Adobe Learning Manager自己的登录表单之外执行此步骤。 从您的透视中，感觉就像登录到您的公司或学校帐户。 在此步骤中，您可能看不到&#x200B;*OIDC*&#x200B;或&#x200B;*OAuth*&#x200B;等技术术语。
 
 ### 返回Adobe Learning Manager
 

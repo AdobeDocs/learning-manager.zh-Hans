@@ -2,14 +2,12 @@
 title: Adobe Learning Manager管理帐户生命周期
 description: 本文档提供了有关在Adobe Learning Manager (ALM)中安全管理顶级管理帐户的综合指导，以满足FedRAMP合规性和最佳安全实践的要求。
 jcr-language: en-us
-source-git-commit: db3ed4dc44da75b418e923999bdf3776bf81b11f
+exl-id: 79049f3d-8ebe-47e7-9895-9a7aaee504b3
+source-git-commit: 88298726a8cd4622e412200b3318e18890817ae8
 workflow-type: tm+mt
 source-wordcount: '2122'
 ht-degree: 0%
-
 ---
-
-
 # Adobe Learning Manager中的管理帐户类型
 
 ## ALM角色映射
@@ -27,7 +25,7 @@ ht-degree: 0%
 
 Adobe Learning Manager使用基于角色的访问控制(RBAC)模型来管理管理访问权限。 管理角色仅由授权管理员分配。
 
-有关详细信息，请参阅[Adobe Learning Manager中的自定义角色](https://experienceleague.adobe.com/zh-hans/docs/learning-manager/using/admin/custom-role)
+有关详细信息，请参阅[Adobe Learning Manager中的自定义角色](https://experienceleague.adobe.com/en/docs/learning-manager/using/admin/custom-role)
 
 ## 身份类型和推荐的身份验证
 
@@ -41,12 +39,12 @@ Adobe Admin Console支持管理员帐户的三种身份类型。 身份类型的
 
 有关更多信息，请参阅以下内容：
 
-* [身份类型](https://helpx.adobe.com/cn/enterprise/using/admin-console.html)
-* [安全的用户身份验证和密码](https://helpx.adobe.com/cn/enterprise/using/authentication-settings.html)
+* [身份类型](https://helpx.adobe.com/enterprise/using/admin-console.html)
+* [安全的用户身份验证和密码](https://helpx.adobe.com/enterprise/using/authentication-settings.html)
 
 ## 角色分配和访问控制
 
-现有管理员通过明确的[角色分配](https://experienceleague.adobe.com/zh-hans/docs/learning-manager/using/admin/user-management/add-users-user-groups)来控制对Adobe Learning Manager中管理帐户的访问。 安全管理访问的关键特性包括：
+现有管理员通过明确的[角色分配](https://experienceleague.adobe.com/en/docs/learning-manager/using/admin/user-management/add-users-user-groups)来控制对Adobe Learning Manager中管理帐户的访问。 安全管理访问的关键特性包括：
 
 * 管理角色仅由授权管理员分配。
 * 访问是基于角色的，并根据分配的权限划分范围。
@@ -69,12 +67,12 @@ Adobe强烈建议管理员在整个企业范围内强制执行两步验证(2FA)�
 >
 >Adobe建议强制实施2FA，而不是为用户保留可选功能。 2FA最多可能需要24小时才能应用。 对于Federated ID用户，请在您的身份提供方强制实施MFA。
 
-有关详细信息，请参阅[安全用户身份验证](https://helpx.adobe.com/cn/enterprise/using/authentication-settings.html)。
+有关详细信息，请参阅[安全用户身份验证](https://helpx.adobe.com/enterprise/using/authentication-settings.html)。
 
 
 ## 以管理员身份登录
 
-ALM [管理员](https://experienceleague.adobe.com/zh-hans/docs/learning-manager/using/get-started/getting-started-admin)使用通过Admin Console管理的组织凭据直接登录到ALM平台。
+ALM [管理员](https://experienceleague.adobe.com/en/docs/learning-manager/using/get-started/getting-started-admin)使用通过Admin Console管理的组织凭据直接登录到ALM平台。
 
 ### 分配管理员角色
 
@@ -89,7 +87,7 @@ ALM [管理员](https://experienceleague.adobe.com/zh-hans/docs/learning-manager
 
 自定义管理角色使客户能够委派管理任务，同时保持对帐户级别权限的集中控制。 自定义管理员的范围可以限定为特定的用户组或目录。
 
-有关详细信息，请参阅[添加用户和用户组](https://experienceleague.adobe.com/zh-hans/docs/learning-manager/using/admin/user-management/add-users-user-groups)。
+有关详细信息，请参阅[添加用户和用户组](https://experienceleague.adobe.com/en/docs/learning-manager/using/admin/user-management/add-users-user-groups)。
 
 ## 配置登录方法和SSO
 
@@ -100,7 +98,7 @@ ALM管理员通过“设置”>“登录方法”（一个与安全性相关的�
 
 Adobe建议使用Federated ID/SAML 2.0 SSO作为所有内部用户的登录方法。 这可确保身份验证完全由您组织的身份提供者控制，从而实现集中式MFA强制以及在用户离开时立即撤销帐户。
 
-有关详细信息，请参阅[设置](https://experienceleague.adobe.com/zh-hans/docs/learning-manager/using/admin/settings)。
+有关详细信息，请参阅[设置](https://experienceleague.adobe.com/en/docs/learning-manager/using/admin/settings)。
 
 ## 建议的安全设置默认值
 
@@ -140,14 +138,14 @@ Adobe建议使用Federated ID/SAML 2.0 SSO作为所有内部用户的登录方�
 
 执行管理操作时，管理员应遵循其组织的内部访问控制和更改管理策略。
 
-请参阅[Adobe Learning Manager管理员常见问题解答](https://experienceleague.adobe.com/zh-hans/docs/learning-manager/using/faq/frequently-asked-questions-for-administrators)
+请参阅[Adobe Learning Manager管理员常见问题解答](https://experienceleague.adobe.com/en/docs/learning-manager/using/faq/frequently-asked-questions-for-administrators)
 
 
 ### 角色层次结构和委派
 
 Adobe Admin Console使用分层管理结构。 系统管理员可以将责任委派给较低权限的角色，以减少顶层管理员帐户的攻击面：
 
-* 产品管理员：管理对特定Adobe产品(例如Adobe Learning Manager)的访问。
+* 产品管理员：管理对特定Adobe产品（例如Adobe Learning Manager）的访问。
 * 产品配置文件管理员：管理特定产品配置文件中的用户会员资格。
 * 用户组管理员：管理用户组成员资格。
 * ALM自定义管理员：ALM内具有每个目录和用户组可配置权限的限定范围的管理员。
@@ -161,7 +159,7 @@ Adobe Admin Console使用分层管理结构。 系统管理员可以将责任委
 * **最小静态访问权限**：避免将顶级管理员帐户用于例行任务。 为特别需要的任务保留完全管理员访问权限。
 * **会话安全性**：在“Admin Console”>“设置”>“高级设置”中配置“最长会话寿命”和“最长空闲时间”，以限制无人参与会话的暴露情况。
 
-有关详细信息，请参阅[Admin Console概述](https://helpx.adobe.com/cn/enterprise/using/admin-console.html)。
+有关详细信息，请参阅[Admin Console概述](https://helpx.adobe.com/enterprise/using/admin-console.html)。
 
 ### 在管理员控制下管理用户帐户
 
@@ -174,8 +172,8 @@ ALM管理员管理内部和外部用户帐户。 与安全相关的操作包括�
 
 有关更多信息，请参阅以下内容：
 
-* [添加用户和用户组](https://experienceleague.adobe.com/zh-hans/docs/learning-manager/using/admin/user-management/add-users-user-groups)
-* [清除用户](https://experienceleague.adobe.com/zh-hans/docs/learning-manager/using/admin/purge-users)
+* [添加用户和用户组](https://experienceleague.adobe.com/en/docs/learning-manager/using/admin/user-management/add-users-user-groups)
+* [清除用户](https://experienceleague.adobe.com/en/docs/learning-manager/using/admin/purge-users)
 
 ## 行政账户解除
 
@@ -203,8 +201,8 @@ ALM管理员管理内部和外部用户帐户。 与安全相关的操作包括�
 
 有关更多信息，请参阅以下内容：
 
-* [在Admin Console上创建、更新或删除用户帐户](https://helpx.adobe.com/cn/enterprise/using/manage-users-individually.html)
-* [如何退出您组织拥有的帐户](https://helpx.adobe.com/cn/enterprise/using/leave-organization.html)
+* [在Admin Console上创建、更新或删除用户帐户](https://helpx.adobe.com/enterprise/using/manage-users-individually.html)
+* [如何退出您组织拥有的帐户](https://helpx.adobe.com/enterprise/using/leave-organization.html)
 
 ### 删除ALM管理员角色
 
@@ -217,7 +215,7 @@ ALM管理员管理内部和外部用户帐户。 与安全相关的操作包括�
 
 用户将恢复为“学习者”角色。 他们的学习历史记录和课程注册信息将得以保留。
 
-有关详细信息，请参阅[添加用户和用户组](https://experienceleague.adobe.com/zh-hans/docs/learning-manager/using/admin/user-management/add-users-user-groups)。
+有关详细信息，请参阅[添加用户和用户组](https://experienceleague.adobe.com/en/docs/learning-manager/using/admin/user-management/add-users-user-groups)。
 
 ### 删除和清除用户
 
@@ -226,7 +224,7 @@ ALM管理员管理内部和外部用户帐户。 与安全相关的操作包括�
 * 删除用户：用户>内部>选择用户>操作>删除用户。 这将禁用帐户并删除活动访问权限。
 * 清除用户：删除后，转到“用户”>“用户清理”，选择删除月份，选择用户，然后选择“操作”>“清除用户”。 清除操作将永久删除所有用户记录。
 
-有关详细信息，请参阅[清除用户](https://experienceleague.adobe.com/zh-hans/docs/learning-manager/using/admin/purge-users)。
+有关详细信息，请参阅[清除用户](https://experienceleague.adobe.com/en/docs/learning-manager/using/admin/purge-users)。
 
 
 ## 安全和共同责任
@@ -236,7 +234,7 @@ Adobe Learning Manager采用共享责任模式：
 * Adobe负责保护基础ALM平台和基础设施。
 * 客户负责管理其ALM帐户中的管理访问权限、角色分配和用户生命周期活动。
 
-有关Adobe Learning Manager安全实践的其他信息，请参见[Adobe Learning Manager安全概述(PDF)](https://experienceleague.adobe.com/docs/learning-manager/assets/alm-security-whitepaper-2024.pdf?lang=zh-Hans)
+有关Adobe Learning Manager安全实践的其他信息，请参见[Adobe Learning Manager安全概述(PDF)](https://experienceleague.adobe.com/docs/learning-manager/assets/alm-security-whitepaper-2024.pdf)
 
 ## 文档维护
 

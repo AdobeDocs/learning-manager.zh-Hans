@@ -2,14 +2,12 @@
 title: Experience Builder中的自定义
 jcr-language: en_us
 description: 了解Adobe Learning Manager中的Experience Builder如何实现学习者体验的深度自定义。 配置页脚、应用全局CSS和JavaScript、调整课程磁贴和定制小组件，以创建品牌化的动态学习门户，同时降低实施成本。
-source-git-commit: b3124c47d56a50437cb284fe809828bcd4c4008d
+exl-id: d1eb3ef5-bcee-4aa9-bd27-f0545077d6ab
+source-git-commit: 5221f4bde68561d5253e7dfab789815e4cd55d49
 workflow-type: tm+mt
-source-wordcount: '827'
+source-wordcount: '844'
 ht-degree: 0%
-
 ---
-
-
 # 概述
 
 Experience Builder允许管理员在平台中创建定制的学习者体验，以弥补开箱即用的本机界面与完全无头解决方案之间的差距。 它允许使用各种构件、灵活的菜单配置以及通过CSS和JavaScript的高级品牌推广设计自定义页面。 与无头版本相比，此方法缩短了面市时间和实施成本，同时仍为品牌化和布局提供了深度定制。
@@ -36,7 +34,7 @@ Experience Builder允许管理员在平台中创建定制的学习者体验，�
 
 **构件**
 
-从多种小组件类型(如日历、类别、课程和路径、自定义内容框、游戏、HTML、iFrame、社交学习、我的学习)中选择，并配置其属性、布局和内容，以自定义Experience Builder中的小组件。 小组件支持自定义标题、说明、图像、动作，在某些情况下，还支持高级选项(如注入HTML、CSS和JavaScript)，以获得动态体验或API驱动体验。
+从多种小组件类型（如日历、类别、课程和路径、自定义内容框、游戏、HTML、iFrame、社交学习、我的学习）中选择，并配置其属性、布局和内容，以自定义Experience Builder中的小组件。 小组件支持自定义标题、说明、图像、动作，在某些情况下，还支持高级选项（如注入HTML、CSS和JavaScript），以获得动态体验或API驱动体验。
 
 有关详细信息，请查看此部分。
 
@@ -71,5 +69,3 @@ Experience Builder允许公司构建品牌定制的客户培训门户，而无�
 集成外部工具
 * **嵌入外部应用程序**：使用iFrame构件，您可以直接将外部Web应用程序或网页嵌入到自定义页面中，为学习者打造更流畅的体验。
 * **使用API创建动态组件**：HTML小组件允许您添加JavaScript以允许用户进行交互，例如与学习者API交互。 通过这种方法，您可以在本机Learning Manager环境中创造体验，而无需构建新应用程序。
-
-

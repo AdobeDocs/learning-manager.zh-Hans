@@ -3,13 +3,12 @@ description: Adobe Learning Manager 的用户界面使用的是一套标准术�
 jcr-language: en_us
 title: 产品术语
 contentowner: chandrum
-source-git-commit: b48e97151c95c55db72f91a2b187189c786d43ae
+exl-id: 4fd0dd43-9e6c-4586-8f0b-eadac3374bec
+source-git-commit: b4b3252ef797eb271468dbe0bf06a8b64d5403d3
 workflow-type: tm+mt
-source-wordcount: '278'
+source-wordcount: '279'
 ht-degree: 72%
-
 ---
-
 # 产品术语
 
 >[!IMPORTANT]
@@ -81,4 +80,3 @@ _确认提示_
 
 * 电子邮件模板（**[!UICONTROL 管理员]** > **[!UICONTROL 电子邮件模板]**）
 * 报告（**[!UICONTROL 管理员]** > **[!UICONTROL 报告]**）
-

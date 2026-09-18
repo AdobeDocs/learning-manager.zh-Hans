@@ -34,7 +34,7 @@ ht-degree: 0%
 
    * **[!UICONTROL 添加课程或学习路径]**：添加Adobe Learning Manager中可用的现有课程或学习路径。
    * **[!UICONTROL 从Go1监管内容]**：从Go1平台添加课程。
-6. 从Go1 ]**中选择**[!UICONTROL &#x200B;监管内容。
+6. 从Go1 **中选择**&#x200B;监管内容。
 
    ![替代文本](assets/select-go1-courses.png)
    _将Go1课程添加到您的销售工程师技能开发播放列表中，以使用精选的第三方内容扩展学习选项_

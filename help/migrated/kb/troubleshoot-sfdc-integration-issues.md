@@ -3,14 +3,12 @@ jcr-language: en_us
 title: 解决Salesforce (SFDC)与Adobe Learning Manager的集成问题
 description: 解决与Adobe Learning Manager (ALM)的常见Salesforce (SFDC)集成问题，包括导出失败、SFDC自定义对象中的字段权限问题和重要的SFDC-ALM兼容性说明。
 contentowner: saghosh
-source-git-commit: cedb4acc89e7d972a4752e10c4fb6930c4633f6a
+exl-id: 65acb7f9-45c3-4dbb-a9db-053533890040
+source-git-commit: 5221f4bde68561d5253e7dfab789815e4cd55d49
 workflow-type: tm+mt
-source-wordcount: '596'
+source-wordcount: '601'
 ht-degree: 0%
-
 ---
-
-
 # 解决Salesforce (SFDC)与Adobe Learning Manager的集成问题
 
 ## 解决SFDC导出失败问题（2-3个小时以上没有导出）
@@ -64,11 +62,11 @@ ht-degree: 0%
 
 ### SFDC中没有自动创建对象/字段
 
-- **SFDC连接器未在Salesforce**&#x200B;中创建新对象或字段。
+- **SFDC连接器不会在Salesforce**&#x200B;中创建新对象或字段。
 - 如果在ALM **中添加了**&#x200B;新字段，并且您希望该字段显示在SFDC中：
-   - 在SFDC中手动&#x200B;**创建相应的自定义字段**。
-   - **将** SFDC自定义字段映射到连接器配置中的&#x200B;**适当的ALM字段**。
-   - 确保新字段具有&#x200B;**适当的字段级别权限**（使用第2部分）。
+  - 在SFDC中手动&#x200B;**创建相应的自定义字段**。
+  - **将SFDC自定义字段映射**&#x200B;到连接器配置中的&#x200B;**适当的ALM字段**。
+  - 确保新字段具有&#x200B;**适当的字段级别权限**（使用第2部分）。
 
 ### 具有自定义域的ALM帐户的回调URL
 

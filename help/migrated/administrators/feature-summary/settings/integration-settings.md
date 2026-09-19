@@ -2,14 +2,12 @@
 description: 详细了解集成设置如何将Adobe Learning Manager与第三方解决方案相连接
 jcr-language: en_us
 title: Adobe Learning Manager中的集成设置
-source-git-commit: 03123dcd8d9066cdfcb0fe97e61acb3df625a23e
+exl-id: 175028e0-5dd2-4fe4-aa98-03b233a9531b
+source-git-commit: cfc09c74da2cc236147ccf883185926ed495f1ed
 workflow-type: tm+mt
 source-wordcount: '616'
 ht-degree: 3%
-
 ---
-
-
 # Adobe Learning Manager中的集成设置
 
 ## 登录方法
@@ -74,7 +72,7 @@ Adobe Learning Manager支持单点登录(SSO)，允许用户仅进行一次身�
 **数据源类型示例**
 
 * **FTP连接器**：基于FTP的数据源允许组织通过安全文件传输协议将用户数据文件直接上传到Adobe Learning Manager。 这些连接对于批量导入用户信息、课程注册和其他批量数据操作尤为有用。
-* **第三方集成**：Adobe Learning Manager支持通过预构建的连接器与各种企业系统集成。 这些集成可以包括人力资源管理系统、客户关系管理平台和其他学习管理系统。
+* **第三方集成**：Adobe Learning Manager支持通过预构建连接器与各种企业系统集成。 这些集成可以包括人力资源管理系统、客户关系管理平台和其他学习管理系统。
 *** Salesforce集成**：Salesforce连接器支持在Salesforce和Adobe Learning Manager之间直接同步用户数据、课程信息和学习记录。
 
 有关详细信息，请参阅[Adobe Learning Manager中的连接器](/help/migrated/integration-admin/feature-summary/connectors.md)。
@@ -84,8 +82,3 @@ Adobe Learning Manager支持单点登录(SSO)，允许用户仅进行一次身�
 Adobe Learning Manager中的配对帐户允许您跨关联帐户共享已购买的名额和查看报告。 对于需要在不同帐户之间协作或共享资源的组织，此功能非常有用。
 
 有关详细信息，请参阅Adobe Learning Manager中的[配对帐户](/help/migrated/administrators/feature-summary/peer-account.md)。
-
-
-
-
-

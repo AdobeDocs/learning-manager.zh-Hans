@@ -2,14 +2,12 @@
 title: Adobe Learning Manager中的Experience Builder准则和限制
 description: Experience Builder准则和限制为使用AI驱动算法的学习者提供个性化的课程和内容建议。
 jcr-language: en-us
-source-git-commit: b3124c47d56a50437cb284fe809828bcd4c4008d
+exl-id: 2eaeb2af-cd72-4400-9f6e-410c05acda55
+source-git-commit: 5221f4bde68561d5253e7dfab789815e4cd55d49
 workflow-type: tm+mt
-source-wordcount: '796'
+source-wordcount: '805'
 ht-degree: 0%
-
 ---
-
-
 # Experience Builder准则和限制
 
 Experience Builder是一个功能强大的工具，旨在帮助用户轻松创建动态且引人入胜的网页。 为确保最佳性能、可用性和安全性，在配置页面、使用小组件和自定义布局时，必须遵循某些指导原则和建议。 本文档提供了用户使用Experience Builder时应考虑的重要备注和点的详细概述。
@@ -115,13 +113,3 @@ Experience Builder是一个功能强大的工具，旨在帮助用户轻松创�
 * 全局级别：在所有页面上应用CSS更改。
 * 构件级别：将CSS更改应用于特定构件。
 * 页面级别：将CSS更改应用于特定页面中的所有小组件。
-
-
-
-
-
-
-
-
-
-

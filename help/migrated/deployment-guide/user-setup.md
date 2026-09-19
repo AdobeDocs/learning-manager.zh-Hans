@@ -4,15 +4,12 @@ jcr-language: en_us
 title: 在 Adobe Learning Manager 中设置用户
 contentowner: shhivkum
 preview: true
-source-git-commit: ac4432a2fda4be4ffde5e58c0f44e623b55703b5
+exl-id: 9cf893a5-9282-40fa-a12a-1d7078f0b98a
+source-git-commit: 1529039e35d4190864e96826bfbea25dcad17c73
 workflow-type: tm+mt
 source-wordcount: '1862'
 ht-degree: 70%
-
 ---
-
-
-
 # 在 Adobe Learning Manager 中设置用户
 
 ## 内部和外部用户 {#internalandexternalusers}
@@ -203,4 +200,3 @@ Adobe Learning Manager 中有两种类型的用户组：自定义和自动生成
 1. 通过在&#x200B;**[!UICONTROL **&#x200B;添加用户&#x200B;**&#x200B;字段中输入用户名或用户配置文件，将用户添加到自定义用户组。]**
 1. 若要向自定义组添加更多用户，请单击&#x200B;**[!UICONTROL **&#x200B;添加更多用户&#x200B;**。]**
 1. 添加完所有用户后，单击&#x200B;**[!UICONTROL 保存]**&#x200B;以保存自定义用户组。
-

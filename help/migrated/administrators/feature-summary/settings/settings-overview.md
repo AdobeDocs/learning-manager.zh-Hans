@@ -2,14 +2,12 @@
 description: 了解可在Adobe Learning Manager中配置的管理员设置，以便管理用户、控制访问权限、为学习环境添加品牌以及根据组织的需要定制平台。
 jcr-language: en_us
 title: 设置概述
-source-git-commit: 03123dcd8d9066cdfcb0fe97e61acb3df625a23e
+exl-id: b52f3f51-e119-42f5-a105-49f74092ffb6
+source-git-commit: cfc09c74da2cc236147ccf883185926ed495f1ed
 workflow-type: tm+mt
 source-wordcount: '225'
 ht-degree: 1%
-
 ---
-
-
 # 设置
 
 ## 概述
@@ -34,9 +32,8 @@ Adobe Learning Manager提供了详细的管理员设置，可让您配置和自�
 
 ### 高级设置
 
-* 创建和管理自定义标签以组织和分类学习内容，方便学习者查找相关材料。
+* 创建和管理自定义标签以整理和分类学习内容，方便学习者查找相关材料。
 * 针对讲师主导的培训课程设置和管理物理教室位置，包括容量、设备和日程安排详细信息。
 * 配置合规性和组成功信息板。
 
 有关更多信息，请参阅Adobe Learning Manager中的设置。
-

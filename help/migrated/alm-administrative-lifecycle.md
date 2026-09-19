@@ -2,14 +2,12 @@
 title: Adobe Learning Manager管理帐户生命周期
 description: 本文档提供了有关在Adobe Learning Manager (ALM)中安全管理顶级管理帐户的综合指导，以满足FedRAMP合规性和最佳安全实践的要求。
 jcr-language: en-us
-source-git-commit: db3ed4dc44da75b418e923999bdf3776bf81b11f
+exl-id: 79049f3d-8ebe-47e7-9895-9a7aaee504b3
+source-git-commit: 88298726a8cd4622e412200b3318e18890817ae8
 workflow-type: tm+mt
 source-wordcount: '2122'
 ht-degree: 0%
-
 ---
-
-
 # Adobe Learning Manager中的管理帐户类型
 
 ## ALM角色映射
@@ -147,7 +145,7 @@ Adobe建议使用Federated ID/SAML 2.0 SSO作为所有内部用户的登录方�
 
 Adobe Admin Console使用分层管理结构。 系统管理员可以将责任委派给较低权限的角色，以减少顶层管理员帐户的攻击面：
 
-* 产品管理员：管理对特定Adobe产品(例如Adobe Learning Manager)的访问。
+* 产品管理员：管理对特定Adobe产品（例如Adobe Learning Manager）的访问。
 * 产品配置文件管理员：管理特定产品配置文件中的用户会员资格。
 * 用户组管理员：管理用户组成员资格。
 * ALM自定义管理员：ALM内具有每个目录和用户组可配置权限的限定范围的管理员。

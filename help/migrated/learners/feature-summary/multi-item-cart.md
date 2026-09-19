@@ -2,14 +2,12 @@
 description: 了解如何使用ALM中的新购物车支持购买多个SKU。
 jcr-language: en_us
 title: ALM中的多物料购物车
-source-git-commit: c4eb9a7c4fca73bc029f9afad1f3d48725779d30
+exl-id: 471b956b-dbeb-4e73-b009-fb217812ce12
+source-git-commit: b4b3252ef797eb271468dbe0bf06a8b64d5403d3
 workflow-type: tm+mt
-source-wordcount: '242'
+source-wordcount: '246'
 ht-degree: 0%
-
 ---
-
-
 # ALM中的多物料购物车
 
 学习者可以在购物车中添加并购买多个课程、学习路径或认证。 他们可以使用购物车一次购买多个课程、学习路径或认证。 此功能仅在学习者应用程序中可用，包括现有UI、新学习者UI和移动沉浸式应用程序。

@@ -2,13 +2,12 @@
 description: 了解用于开发无头界面的未登录API。
 jcr-language: en_us
 title: 未登录的API
-source-git-commit: 21e2a4a5e73fcbddb64e0afec0a896b315e38688
+exl-id: 12419c9a-3864-404c-8b32-922429d68ffb
+source-git-commit: b4b3252ef797eb271468dbe0bf06a8b64d5403d3
 workflow-type: tm+mt
-source-wordcount: '574'
+source-wordcount: '582'
 ht-degree: 0%
-
 ---
-
 # 未登录的API
 
 在本文中，了解有关Adobe Learning Manager API的更多信息，这些API为无头体验或未登录体验提供数据。
@@ -22,7 +21,7 @@ Public Search API允许您获取筛选数据，可与basic search API结合使�
 
 **卷曲示例**
 
-使用GET方法提出以下请求。 在下面的curl命令中，将&lt;Base_URL>替换为您的基本URL。 您可以在培训数据访问连接器页面上找到&lt;Base_URL>。
+使用GET方法提出以下请求。 在下面的curl命令中，将&lt;Base_URL>替换为您的基本URL。 您可以在培训数据访问连接器页上找到&lt;Base_URL>。
 
 ```
 curl --location '<Base_URL>/filterableData'
@@ -114,7 +113,7 @@ curl --location '<Base_URL>/filterableData'
 
 **卷曲示例**
 
-使用POST方法提出以下请求。 在下面的curl命令中，将&lt;Base_URL>替换为您的基本URL。 您可以在培训数据访问连接器页面上找到&lt;Base_URL>。
+使用POST方法提出以下请求。 在下面的curl命令中，将&lt;Base_URL>替换为您的基本URL。 您可以在培训数据访问连接器页上找到&lt;Base_URL>。
 
 ```
 curl --location '<Base_URL>/search?size=1000' \
@@ -282,7 +281,7 @@ curl --location '<Base_URL>/search?size=1000' \
 
 **卷曲示例**
 
-使用GET方法提出以下请求。 在下面的curl命令中，将&lt;Base_URL>替换为您的基本URL。 您可以在培训数据访问连接器页面上找到&lt;Base_URL>。
+使用GET方法提出以下请求。 在下面的curl命令中，将&lt;Base_URL>替换为您的基本URL。 您可以在培训数据访问连接器页上找到&lt;Base_URL>。
 
 ```
 curl --location '<Base_URL>/learningObjectIds'
@@ -306,7 +305,7 @@ curl --location '<Base_URL>/learningObjectIds'
 
 **卷曲示例**
 
-使用GET方法提出以下请求。 在下面的curl命令中，将&lt;Base_URL>替换为您的基本URL。 您可以在培训数据访问连接器页面上找到&lt;Base_URL>。 将&lt;Course_ID>替换为特定的课程ID。
+使用GET方法提出以下请求。 在下面的curl命令中，将&lt;Base_URL>替换为您的基本URL。 您可以在培训数据访问连接器页上找到&lt;Base_URL>。 将&lt;Course_ID>替换为特定的课程ID。
 
 ```
 curl --location '<Base_URL>/loSummary?loId=course%3A<Course_ID>'
@@ -343,7 +342,7 @@ CDN JSON API允许您检索有关特定课程的完整课程信息。
 
 **课程卷曲示例**
 
-使用GET方法提出以下请求。 在下面的curl命令中，将&lt;CDN_path>替换为您的基本URL。 您可以在培训数据访问连接器页面上找到&lt;CDN_path>。 将&lt;Course_ID>替换为特定的课程ID。
+使用GET方法提出以下请求。 在下面的curl命令中，将&lt;CDN_path>替换为您的基本URL。 您可以在“培训数据访问连接器”页面上找到&lt;CDN_path>。 将&lt;Course_ID>替换为特定的课程ID。
 
 ```
 curl --location '<CDN_path_URL>/course/<Course_ID>.json'

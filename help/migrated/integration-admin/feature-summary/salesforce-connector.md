@@ -3,19 +3,17 @@ description: 了解如何将Salesforce连接器与Adobe Learning Manager集成
 jcr-language: en_us
 title: Salesforce 连接器
 contentowner: mmanuel
-source-git-commit: 8a5212062c6b172b0e9d4f3faa2e66d26c5c2b56
+source-git-commit: abd49abdde8ba8d957cd2c9dc34b9407d8e27d79
 workflow-type: tm+mt
 source-wordcount: '2251'
-ht-degree: 5%
-
+ht-degree: 4%
 ---
-
 
 # 适用于Adobe Learning Manager的Salesforce连接器
 
 ## 简介
 
-Salesforce连接器集成您的Salesforce和Adobe Learning Manager (ALM)帐户，可实现自动用户导入、数据同步和学习记录导出。 本指南介绍如何在Salesforce中配置连接器、管理用户数据和集成学习见解。
+Salesforce连接器可集成您的Salesforce和Adobe Learning Manager (ALM)帐户，实现自动用户导入、数据同步和学习记录导出。 本指南介绍如何在Salesforce中配置连接器、管理用户数据和集成学习见解。
 
 适用于Adobe Learning Manager的Salesforce连接器通过自动导入用户、支持自定义数据映射以及将学习记录导出到Salesforce来实现顺畅集成。
 
@@ -25,17 +23,17 @@ Salesforce连接器集成您的Salesforce和Adobe Learning Manager (ALM)帐户�
 - 从Salesforce配置自动用户导入流程。
 - 有效地将Salesforce字段映射到Adobe Learning Manager属性。
 - 将学习记录导出回Salesforce以进行综合报告。
-- 设置筛选和计划以进行目标数据同步。
+- 设置目标数据同步的筛选和计划。
 
 ## 什么是Salesforce连接器？
 
-Salesforce连接器是一个强大的集成工具，可在您的Salesforce CRM和Adobe Learning Manager之间建立无缝桥梁。 此连接器通过在两个平台之间自动同步用户信息、联系数据和学习记录来消除手动数据输入。
+Salesforce连接器是一个强大的集成工具，可在您的Salesforce CRM和Adobe Learning Manager之间架起无缝桥梁。 该连接器通过在两个平台之间自动同步用户信息、联系数据和学习记录来消除手动数据输入。
 
 ## 关键功能
 
 ### 属性映射
 
-它有助于在Salesforce字段和Adobe Learning Manager用户属性之间创建灵活的链接。 您可以将名称、电子邮件和经理等标准字段映射到Learning Manager中的相应属性。 连接器还支持两个平台上的自定义字段，包括用于保持数据准确性的所需字段验证，并允许您保存映射配置以供将来导入时重复使用。
+它有助于在Salesforce字段和Adobe Learning Manager用户属性之间创建灵活的链接。 您可以将名称、电子邮件和经理等标准字段映射到Learning Manager中的相应属性。 该连接器还支持两个平台上的自定义字段，包括用于保持数据准确性的必填字段验证，并允许您保存映射配置，以便在以后的导入中重复使用。
 
 ### 自动导入用户
 
@@ -54,10 +52,10 @@ Salesforce连接器是一个强大的集成工具，可在您的Salesforce CRM�
 
 ### 用户过滤器
 
-- 将过滤条件应用于特定用户群体，并优化数据同步效率。
-- 针对目标培训计划的基于角色的筛选。
-- 用于区域实施的地理或位置过滤
-- 使用Salesforce标准和公式进行自定义字段筛选。
+- 将筛选条件应用于特定的用户群体，并优化数据同步效率。
+- 针对性培训方案的基于角色的筛选。
+- 用于区域实施的地理或位置筛选
+- 使用Salesforce条件和公式的自定义字段筛选。
 
 ## 先决条件
 
@@ -70,7 +68,7 @@ Salesforce连接器是一个强大的集成工具，可在您的Salesforce CRM�
 
 ## 配置 Salesforce 连接器
 
-借助Adobe Learning Manager中的Salesforce连接器，集成管理员能够在Salesforce和Adobe Learning Manager之间自动同步用户数据和学习记录。
+集成管理员可以使用Adobe Learning Manager中的Salesforce连接器在Salesforce和Adobe Learning Manager之间自动同步用户数据和学习记录。
 
 要创建Salesforce连接器，请执行以下操作：
 
@@ -78,7 +76,7 @@ Salesforce连接器是一个强大的集成工具，可在您的Salesforce CRM�
 2. 选择&#x200B;**Salesforce**，然后选择&#x200B;**连接**。
 
    ![](assets/salesforce-connector1.png)
-   _显示Salesforce连接器的Adobe Learning Manager连接器页面，其中突出显示了“连接”按钮_
+   _显示Salesforce连接器的Adobe Learning Manager“连接”按钮突出显示的页面_
 
 3. 键入Salesforce组织URL并选择&#x200B;**连接**。 您将转到Salesforce登录页面。
 
@@ -128,7 +126,7 @@ Salesforce连接器允许Adobe Learning Manager与您的Salesforce帐户连接�
 
 Salesforce连接器允许Adobe Learning Manager与您的Salesforce帐户连接，并根据您的配置自动导入用户。
 
-除了标准Salesforce用户之外，连接器还支持导入联系人。 这有助于将培训计划扩展到外部利益相关者，例如客户或合作伙伴。
+除了标准Salesforce用户之外，该连接器还支持导入联系人。 这有助于将培训计划扩展到外部利益相关者，例如客户或合作伙伴。
 
 要导入联系人，请执行以下操作：
 
@@ -136,7 +134,7 @@ Salesforce连接器允许Adobe Learning Manager与您的Salesforce帐户连接�
 2. 在连接页面上选择&#x200B;**导入内部用户**。
 
    ![](assets/salesforce-connector5.png)
-   _突出显示了“导入内部用户”选项的Salesforce连接器页面_
+   _突出显示了“导入内部连接器”选项的Salesforce用户页面_
 
 3. 在&#x200B;**导入用户**&#x200B;页面上选择&#x200B;**联系人**。
 4. 为&#x200B;**导入前筛选联系人**&#x200B;选项选择&#x200B;**是**。 **
@@ -164,9 +162,9 @@ Salesforce连接器允许Adobe Learning Manager与您的Salesforce帐户连接�
 
 Adobe提供可创建必要自定义对象的预构建包：
 
-- [包1](https://test.salesforce.com/packaging/installPackage.apexp?p0=04t1k0000008WPJ)：核心学习对象和字段
-- [包2](https://test.salesforce.com/packaging/installPackage.apexp?p0=04t1k0000008WPT)：扩展学习分析对象
-- [包3](https://test.salesforce.com/packaging/installPackage.apexp?p0=04t1k0000008WPi)：其他报表和集成对象
+- [包1](https://login.salesforce.com/packaging/installPackage.apexp?p0=04tDb000000HciS)：核心学习对象和字段
+- [包2](https://login.salesforce.com/packaging/installPackage.apexp?p0=04tDb000000HciX)：扩展学习分析对象
+- [包3](https://login.salesforce.com/packaging/installPackage.apexp?p0=04tDb000000Hcic)：其他报表和集成对象
 
 >[!IMPORTANT]
 >

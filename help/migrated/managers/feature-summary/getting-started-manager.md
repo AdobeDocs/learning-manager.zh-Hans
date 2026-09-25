@@ -6,11 +6,9 @@ contentowner: manochan
 exl-id: 122b2fca-ad7c-4799-9a2e-ced820780d3f
 source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
-source-wordcount: '162'
-ht-degree: 66%
-
+source-wordcount: '167'
+ht-degree: 90%
 ---
-
 # 面向经理的快速入门指南
 
 开始使用页面可协助您了解应用程序的关键功能。
@@ -19,9 +17,9 @@ ht-degree: 66%
 
 ## 查看示例视频 {#viewsamplevideos}
 
-浏览示例视频教程以了解经理角色的关键功能。如果您不希望在登录期间看见此弹出窗口，可以单击弹出窗口右下角的“不在登录时显示”选项以将其禁用。
+浏览示例视频教程以了解经理角色的关键功能。 如果您不希望在登录期间看见此弹出窗口，可以单击弹出窗口右下角的“不在登录时显示”选项以将其禁用。
 
-单击&#x200B;**[!UICONTROL 关闭窗口]**&#x200B;以关闭弹出窗口。
+单击&#x200B;**[!UICONTROL “关闭窗口”]**&#x200B;关闭弹出窗口。
 
 <!--![](assets/welcome-videos.png) -->
 

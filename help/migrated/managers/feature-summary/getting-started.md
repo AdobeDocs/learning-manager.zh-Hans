@@ -5,11 +5,9 @@ title: 面向经理的快速入门指南
 contentowner: manochan
 source-git-commit: a495c86f8dff3ebc51e7700a3f3bcf7ce57d1311
 workflow-type: tm+mt
-source-wordcount: '170'
-ht-degree: 67%
-
+source-wordcount: '175'
+ht-degree: 90%
 ---
-
 
 # 面向经理的快速入门指南
 
@@ -21,9 +19,9 @@ ht-degree: 67%
 
 ## 查看示例视频 {#viewsamplevideos}
 
-浏览示例视频教程以了解经理角色的关键功能。如果您不希望在登录期间看见此弹出窗口，可以单击弹出窗口右下角的“不在登录时显示”选项以将其禁用。
+浏览示例视频教程以了解经理角色的关键功能。 如果您不希望在登录期间看见此弹出窗口，可以单击弹出窗口右下角的“不在登录时显示”选项以将其禁用。
 
-单击&#x200B;**[!UICONTROL 关闭窗口]**&#x200B;以关闭弹出窗口。
+单击&#x200B;**[!UICONTROL “关闭窗口”]**&#x200B;关闭弹出窗口。
 
 ![](assets/welcome-videos.png)
 

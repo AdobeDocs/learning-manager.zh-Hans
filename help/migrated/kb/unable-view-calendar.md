@@ -6,11 +6,9 @@ contentowner: saghosh
 exl-id: 1b7e5594-714a-4a1d-9b8f-d481c1b48cb5
 source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
-source-wordcount: '170'
-ht-degree: 88%
-
+source-wordcount: '171'
+ht-degree: 95%
 ---
-
 # 无法查看日历
 
 ## 问题
@@ -26,9 +24,9 @@ ht-degree: 88%
 出现此问题的原因如下：
 
 * 浏览器的缩放级别超过 100%。
-* 显示设置中的缩放和布局超过100%。
+* 显示设置中的缩放和布局超过 100%。
 
-## 解决方法
+## 解决方案
 
 ### 浏览器
 

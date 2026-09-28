@@ -1,28 +1,26 @@
 ---
 jcr-language: en_us
 title: Adobe Learning Manager 中的辅助功能
-description: 本文档概述 Adobe Learning Manager 学习管理系统为残障学习者提供的辅助功能支持。它还为用户提供平台的导航选项和辅助功能。
+description: 本文档概述 Adobe Learning Manager 学习管理系统为残障学习者提供的辅助功能支持。 它还为用户提供平台的导航选项和辅助功能。
 contentowner: saghosh
 source-git-commit: c4d06af2eee167677fef050a3f2885dfd4c91446
 workflow-type: tm+mt
-source-wordcount: '932'
-ht-degree: 71%
-
+source-wordcount: '959'
+ht-degree: 78%
 ---
-
 
 # Adobe Learning Manager 中的辅助功能
 
-本文档概述 Adobe Learning Manager 学习管理系统为残障学习者提供的辅助功能支持。它还为用户提供平台的导航选项和辅助功能。
+本文档概述 Adobe Learning Manager 学习管理系统为残障学习者提供的辅助功能支持。 它还为用户提供平台的导航选项和辅助功能。
 
 Learning Manager遵循W3C的WCAG 2.1 A级和AA级平台辅助功能标准。
 
-Adobe Learning Manager的“学习者”角色支持学习者探索此平台并利用以下关键辅助功能：
+Adobe Learning Manager 的“学习者”角色支持学习者探索此平台并利用以下关键辅助功能：
 
 * 屏幕阅读器
 * 键盘
 * 隐藏字幕
-* 其他 
+* 其他
 
 ## 支持屏幕阅读器 {#supportforscreenreaders}
 
@@ -222,7 +220,7 @@ Adobe Learning Manager 的“学习者”角色还支持其他几项辅助功能
 1. 确定培训后，使用`kbd Tab`或`kbd Shift + Tab`导航至“注册/开始”按钮。 按钮状态取决于该培训的注册状态。
 
 1. 按`kbd ENTER`开始培训。
-1. 以下是无论内容类型如何显示的控件：
+1. 以下控件是否出现与内容类型无关：
 
    * 目录
    * 备注
@@ -250,7 +248,7 @@ Adobe Learning Manager 的“学习者”角色还支持其他几项辅助功能
 
 * 在使用 Adobe Captivate 创作工具创建的内容中使用可用的隐藏字幕。
 * 对于视频，作者可以在视频中编入隐藏字母文本。 此类视频拥有内嵌的隐藏字幕，可以供学习者使用。
-* Adobe Learning Manager 可就视频内容提供隐藏字幕 WebVTT 文件上传支持。有关详细信息，请参阅&#x200B;[*上传隐藏字幕WebVTT文件*](authors/feature-summary/content-library.md#webvtt)。
+* Adobe Learning Manager 可就视频内容提供隐藏字幕 WebVTT 文件上传支持。 有关详细信息，请参阅&#x200B;[*上传隐藏字幕WebVTT文件*](authors/feature-summary/content-library.md#webvtt)。
 
 ### 盲人或弱视用户
 

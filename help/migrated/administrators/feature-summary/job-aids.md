@@ -6,16 +6,14 @@ contentowner: jayakarr
 exl-id: 4881f7d0-27da-4c41-a8cd-ad937f913157
 source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
-source-wordcount: '309'
-ht-degree: 39%
-
+source-wordcount: '314'
+ht-degree: 62%
 ---
-
 # 工作辅助
 
 Adobe Learning Manager 中管理员的工作辅助。
 
-工作辅助是一个培训内容知识库，可供学习者访问，无需任何注册或完成标准。 学习者可参考这些工作辅助，获取在公司内执行任何活动或任务的相关协助。
+工作辅助是一个培训内容知识库，可供学习者访问，无需任何注册或完成标准。 学员可参考这些工作辅助，获取在公司内执行任何活动或任务的相关协助。
 
 工作辅助可单独使用，也可与 Adobe Learning Manager 中的课程一起使用。
 
@@ -31,7 +29,7 @@ Adobe Learning Manager 中管理员的工作辅助。
 
 *管理工作辅助*
 
-通过单击“已撤消”选项卡查看已撤消的工作辅助。 通过单击“设置”图标并选择“Publish”，您可以重新发布已撤销的作业。 单击设置中的“预览”即可在播放器中预览工作辅助。
+单击“撤消”选项卡即可查看已撤销的工作辅助。 单击设置图标并选择“发布”，即可重新发布已经撤消的工作辅助。 单击设置中的“预览”即可在播放器中预览工作辅助。
 
 ## 管理工作辅助分配 {#managejobaidassignments}
 
@@ -46,9 +44,9 @@ Adobe Learning Manager 中管理员的工作辅助。
 
    *查看“注册学习者”对话框*
 
-1. 在“**[!UICONTROL 学习者]**”字段中，开始输入学习者姓名，然后从下拉列表中选择学习者。 您还可以按姓名、个人资料等条件查找学习者。
+1. 在“**[!UICONTROL 学习者]**”字段中，开始输入学习者姓名，然后从下拉列表中选择学习者。 您也可以按姓名、配置文件等查找学习者。
 1. 单击&#x200B;**[!UICONTROL 添加]。**
-1. 单击&#x200B;**[!UICONTROL “保存”]**。
+1. 单击“**[!UICONTROL 保存]**”。
 
 ## 常见问题解答 {#frequentlyaskedquestions}
 

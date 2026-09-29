@@ -7,10 +7,8 @@ exl-id: 706cafe3-2650-4837-9dee-e381a4a711f9
 source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '231'
-ht-degree: 55%
-
+ht-degree: 61%
 ---
-
 # 有关停用学习计划的问题
 
 ## 问题
@@ -23,7 +21,7 @@ ht-degree: 55%
 
 出现此问题的原因是，学习计划是一系列课程的合集。 如果高阶培训中的任何课程包含已停用的实例或课程实例停用，则高阶培训便会停用。
 
-## 解决方法
+## 解决方案
 
 如需检查包含已停用实例的课程，请执行以下步骤：
 

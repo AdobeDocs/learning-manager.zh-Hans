@@ -8,9 +8,7 @@ source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '246'
 ht-degree: 83%
-
 ---
-
 # 无法发布到 Adobe Learning Manager 欧盟域 {#unable-to-publish-to-learning-manager-eu-domain}
 
 ## 问题
@@ -23,7 +21,7 @@ ht-degree: 83%
 
 ## 描述
 
-作者尝试将 Adobe Captivate 中的课程发布到 Adobe Learning Manager 的情况时有发生。该操作无法执行，出现错误消息“未找到帐户”。
+作者尝试将 Adobe Captivate 中的课程发布到 Adobe Learning Manager 的情况时有发生。 该操作无法执行，出现错误消息“未找到帐户”。
 
 ## 原因
 

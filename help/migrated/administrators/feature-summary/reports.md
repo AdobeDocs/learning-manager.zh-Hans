@@ -4,13 +4,11 @@ jcr-language: en_us
 title: 报告
 contentowner: manochan
 exl-id: 31b176b7-4b8f-4851-a0c5-4eee58bceb41
-source-git-commit: 1dd1c6751df7e4b3f1d0fb5df36705a6f8b46762
+source-git-commit: 10d3de1a5a537bd6132f4d350ddd7a8612689bde
 workflow-type: tm+mt
 source-wordcount: '7677'
 ht-degree: 63%
-
 ---
-
 # 报告 {#reports}
 
 了解 Adobe Learning Manager 应用程序中与管理员角色相关联的报告。
@@ -338,7 +336,7 @@ _合规性信息板 — 管理员视图_
    ![](assets/share-manager.png)
    _与经理共享合规性信息板_
 
-5. 从&#x200B;**[!UICONTROL 选择自定义合规性]**&#x200B;下拉菜单中选择合规性标签。
+5. 从&#x200B;**[!UICONTROL 选择自定义合规性]**下拉菜单中选择合规性标签。
 此选项将选择具有选定合规性标签的所有课程。
 6. 选择要与管理员共享的其他课程、学习路径或认证。
 7. 选择要共享仪表板的用户或用户组，然后选择&#x200B;**[!UICONTROL 共享]**。
@@ -1018,7 +1016,7 @@ Adobe Learning Manager (ALM)中的历史报告是指捕获学习平台内的历�
    *报表轴*
 
 1. 从下拉列表选项中选择报告的次要 **[!UICONTROL Y 轴]**&#x200B;条件/范围。 例如，对于学习计划注册选项，在“状态”下拉列表中选择一个或多个状态。 次要范围数据以线形图的形式展现。
-1. 从下拉选项中为报告选择适当的X&#x200B;**轴**&#x200B;条件。 如果 X 轴已选定为日期，则可以使用按天、月、季度和年对 X 轴条件进行分组。
+1. 从下拉选项中为报告选择适当的X轴**条件。 如果 X 轴已选定为日期，则可以使用按天、月、季度和年对 X 轴条件进行分组。
 1. 在“时间跨度”部分，从下拉列表中选择对应的选项。 可用选项包括：
 
    * 最近一个月
@@ -1119,7 +1117,7 @@ Adobe Learning Manager (ALM)中的历史报告是指捕获学习平台内的历�
 
 ### 用户组 {#usergroups}
 
-要根据用户组生成报告，请从下拉选项列表中选择&#x200B;**[!UICONTROL X轴用户组]**，如下面的屏幕截图所示。
+要根据用户组生成报告，请从下拉选项列表中选择x轴中的&#x200B;**[!UICONTROL 用户组]**，如下面的屏幕截图所示。
 
 ![](assets/user-group-reports.png)
 *用户组报告*

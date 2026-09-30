@@ -7,10 +7,8 @@ exl-id: 6dbcd687-82e3-422f-8c8c-f7bf404f3332
 source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '212'
-ht-degree: 74%
-
+ht-degree: 97%
 ---
-
 # 无法分配徽章
 
 ## 问题
@@ -29,7 +27,7 @@ ht-degree: 74%
 
 在当前版本中，此功能可用。
 
-## 解决方法
+## 解决方案
 
 如果学习者遇到此问题，请尝试执行以下步骤：
 
@@ -47,7 +45,7 @@ ht-degree: 74%
 
    ![](assets/remove-a-badge.png)
 
-1. 将徽章重新分配给学习对象，然后单击“**[!UICONTROL 保存]**”。
+1. 为学习对象重新分配徽章，然后单击“**[!UICONTROL 保存]**”。
 
    此步骤将为所有注册学习对象的学习者分配徽章。
 

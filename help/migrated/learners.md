@@ -7,10 +7,8 @@ preview: true
 source-git-commit: ccdb222228f76fdae63ebb0a808824ad6ac1db7f
 workflow-type: tm+mt
 source-wordcount: '62'
-ht-degree: 88%
-
+ht-degree: 91%
 ---
-
 
 
 # 学习者
@@ -31,7 +29,7 @@ ht-degree: 88%
 ## 功能 {#features}
 
 * [开始使用](learners/feature-summary/getting-started-learner.md)
-* [Salesforce应用](learners/feature-summary/sfdc-app.md)
+* [Salesforce 应用](learners/feature-summary/sfdc-app.md)
 * [游戏](learners/feature-summary/gamification.md)
 * [徽章](learners/feature-summary/badges.md)
 * [目录](learners/feature-summary/catalogs.md)

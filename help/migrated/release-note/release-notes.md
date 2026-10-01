@@ -4,13 +4,11 @@ jcr-language: en_us
 title: Adobe Learning Manager发行说明
 contentowner: mmanuel
 exl-id: ae9251b6-5326-42c2-881e-2ab3393d9e17
-source-git-commit: bad5de6025494320a863e58d1b0bd95ae6e10038
+source-git-commit: 090ee5ad1b93ece718c0217f5e4427a46b805f88
 workflow-type: tm+mt
-source-wordcount: '34464'
-ht-degree: 64%
-
+source-wordcount: '35308'
+ht-degree: 63%
 ---
-
 # Adobe Learning Manager发行说明
 
 <!--
@@ -19,12 +17,129 @@ ht-degree: 64%
   <tr>
    <td><img src="assets/cp-prime-appicon-88x84.png"></td>
    <td>
-    <p><a href="https://business.adobe.com/cn/products/learning-manager/adobe-learning-manager.html">Adobe Learning Manager</a> was launched in August 2015. As part of our continuous improvement efforts to enhance the product, we have been rolling out regular updates. Read on to know the features enhanced/issues fixed in update releases.<br></p></td>
+    <p><a href="https://business.adobe.com/products/learning-manager/adobe-learning-manager.html">Adobe Learning Manager</a> was launched in August 2015. As part of our continuous improvement efforts to enhance the product, we have been rolling out regular updates. Read on to know the features enhanced/issues fixed in update releases.<br></p></td>
   </tr>
  </tbody>
 </table>
 
 -->
+
++++更新112：Adobe Learning Manager 2026年9月30日版
+
+## 此版本中的功能
+
+**虚拟教程：**&#x200B;虚拟教程是Adobe Learning Manager中一款由AI提供支持的培训解决方案，可帮助学习者通过逼真的角色扮演场景、个性化反馈和按需练习来培养技能，然后再将这些技能应用到现实世界中。 [了解详情](/help/migrated/authors/feature-summary/virtual-coach/what-virtual-coach-is.md)。
+
+**席位共享：**&#x200B;席位共享允许帐户与其他帐户共享其部分许可席位，从而使接收帐户中的学习者可以使用共享席位访问Adobe Learning Manager。 席位共享仅适用于最终帐户；默认情况下，Prime帐户无法共享或接收席位，信用卡计费帐户位于Prime计划中。 试用帐户是例外情况，可以从最终帐户接收共享名额。 在有效的席位共享关系期间，试用帐户可获得终极功能访问权限。 [了解详情](/help/migrated/administrators/feature-summary/tiering-seat-sharing.md)。
+
+**管理员审核记录报告：**&#x200B;管理员审核记录报告为您提供配置更改的历史记录，以便您确定：
+
+* 谁进行了更改
+* 进行更改的时间
+* 更改之前的设置
+* 更改后的设置
+
+该报告介绍了对以下方面所做的更改：
+
+* 基础
+* 高级
+* 集成
+
+要查看每个类别下的整个设置列表及其详细信息，您可以从管理员审核记录弹出窗口中选择&#x200B;**下载设置列表**&#x200B;链接，该弹出窗口在生成报告之前显示。
+
+以下是每个类别下可用的选项：
+
+基础
+
+* 基本信息
+* 课程审阅
+* 讨论区
+* 多次尝试
+* 技能、标签、产品和角色的可见性
+* →启用的唯一学习对象Id
+* 显示过滤器面板
+* 默认视图（学习者角色）→列表视图
+* 讲师管理
+* 模块预览
+* 启用课程/学习路径/认证的定价
+* 启用多物料SKU购物车
+* 播放器设置
+* 经理可将内容标记为“完成”
+* 自动注册用户
+* 自动删除内部用户(如果他们在（可配置的数字）天内未访问系统)
+* 显示目录标签
+* 自定义合规性类型
+* 学习者可以查看自己的成绩
+* 摘要电子邮件
+* 启用课程/学习路径/认证/工作辅助卡图标
+* 页脚链接
+* 报告时区
+* Badgr 集成
+* 显示评级
+* 在播放器中显示星级评定弹出窗口
+* 产品术语
+* 模块版本更新
+* 弃用（课程、学习路径或认证）
+* 自动弃用（课程、学习路径或认证）
+* 在搜索结果中显示所有已注册的课程
+* 技能导入
+* Gradebook（学习者可见性）
+* 自动清除已删除的用户
+* 积分
+* 替代课程/路径
+* 外部学习
+
+集成
+
+* 登录方法（内部和外部）
+* 单点登录(SSO)配置
+* 数据源 — （源+同步设置）
+* 添加配对信息
+
+高级
+
+* 目录标签→所有目录标签
+* 目录标签→设置（值访问权限）
+* 内容文件夹
+* 教室位置→列表和编辑器
+* 教室位置→作者权限（设置）
+* 教室位置→批量导入
+* 教室位置→位置格式迁移
+* 节日日历
+* 报告 — 设置（合规性和组成功信息板）
+
+此报告也可以通过作业API生成。 请参阅[管理员审核记录报告](/help/migrated/administrators/feature-summary/reports.md#adminaudittrailreport)和[管理员审核记录报告的作业API](/help/migrated/api-changes-sep-2026.md#apiaudittrailreport)
+
+## 此版本中的增强功能
+
+### Insights代理
+
+Insights代理添加了两项增强功能。 这些报告分别是：
+
+* **产品术语支持：**&#x200B;如果您的管理员使用“设置”>“常规”中的“产品术语”自定义了标准术语，则Insights代理会识别并使用这些术语，而不是默认术语。 例如，如果公司将“课程”重命名为“章节”，则可以问：“上个月完成了多少章？” Insights代理会解释自定义词语，并在响应和列标题中使用“章”。
+
+* **课程注册（默认不包括轮候情况）：**&#x200B;对于没有筛选器的直接和间接注册查询，直接注册计数包括状态为“等待”的学习者，即使他们处于轮候状态并且未主动参与。 默认情况下，“进刀”面板不指示轮候学习者包含在计数中。 轮候学习者仅在管理员明确请求排除时才会被排除，此时会披露应用的规则。
+
+[了解详情](/help/migrated/administrators/feature-summary/insights-agent.md)。
+
+## API
+
+* **用于访问学习对象目录的API：**用于访问学习对象的目录访问API用于确定学习者是否可以通过分配的目录直接访问一个或多个学习对象。 使用响应控制与注册相关的UI元素。 例如，仅在确认直接访问目录后显示“注册”选项，并允许学习者查看课程页面而不考虑目录访问权限。
+了解更多。
+
+* **管理员审核记录报告的作业API：**&#x200B;此API用于处理审核记录报告作业 — 创建一个作业，该作业可针对给定的日期范围和设置类型集生成“配置更改审核记录”报告。
+
+[了解详情](/help/migrated/api-changes-sep-2026.md)。
+
+## 修复
+
+**学习路径实例：**&#x200B;学习路径(LP)开始和结束日期在LP实例时区与管理员的系统或浏览器时区不同时显示不正确。 编辑日期导致开始日期显示错误的日历日，并且同一时区转换问题影响了日历中的通知警报。
+
+**移动应用程序：**&#x200B;当学习者在横向和纵向之间切换时，播放器未在Safari和Edge中正确调整大小，这导致“概述”部分出现白线等显示问题，从而阻止访问目录和笔记。
+
+**游戏：**&#x200B;学习者在从“书签”部分重新访问已完成的课程时未获得游戏点数。
+
++++
 
 +++更新111：Adobe Learning Manager的2026年8月31日版
 
@@ -34,7 +149,7 @@ ht-degree: 64%
 
 * **管理员：**&#x200B;管理员可以将由我保存的小组件放在页面上，以便学习者可以轻松查找他们已添加书签的内容。 这样，学习者无需再次搜索或导航便可返回之前保存的课程。 了解有关[由我保存的Widget](/help/migrated/administrators/feature-summary/experience-builder/add-a-widget.md#bookmark-widget)的更多信息。
 
-* **学习者：**&#x200B;**由我保存**&#x200B;小组件会显示您已添加书签以便稍后使用的课程、学习路径、认证和工作辅助。 使用此构件可在一个位置快速访问已保存的内容，而无需再次搜索目录。 了解有关[由我保存的Widget](/help/migrated/learners/feature-summary/saved-by-me-widget.md)的更多信息。
+* **学习者：****由我保存**&#x200B;小组件会显示您已添加书签以便稍后使用的课程、学习路径、认证和工作辅助。 使用此构件可在一个位置快速访问已保存的内容，而无需再次搜索目录。 了解有关[由我保存的Widget](/help/migrated/learners/feature-summary/saved-by-me-widget.md)的更多信息。
 
 **通道主题颜色：**&#x200B;创建通道时，有更多的通道主题颜色可供选择。 在您选择后，将上下文应用主题颜色以高亮显示对比度。 为通道选择主题颜色时，所选颜色将应用于通道界面，并旨在与通道缩览图和文本保持对比。 在创建通道时自动分配默认颜色，但您可以随时从可用选项中选择不同的颜色。
 
@@ -87,7 +202,7 @@ ht-degree: 64%
 
 ### “学习者成绩单”中的权重列
 
-在启用Gradebook的课程中，模块的LT报告中会添加“权重”列。 这将在报告输出中直接显示模块权重。
+在启用Gradebook的课程中，模块的LT报告中会添加“权重”列。 这将在报告输出中直接公开模块权重。
 
 详细了解[报告Adobe Learning Manager 2026年8月版中的更改](/help/migrated/reporting-changes-august-2026.md)。
 
@@ -121,7 +236,7 @@ AI Orchestrator代理会将单个查询请求的目的检测移入Orchestrator�
 
 **电子邮件和通知：**&#x200B;即使已在原始课程中禁用完成电子邮件模板，完成重复认证课程的学习者也会收到课程完成电子邮件。 出现此情况的原因是，重复出现的认证在未复制原始课程级通知设置的情况下创建新课程和实例，导致复制的课程使用默认电子邮件配置。 更新了重复过程以在复制课程时保留课程通知设置。 因此，现在仅在原始课程配置中明确启用完成后才会发送完成电子邮件。
 
-**学习者：**&#x200B;配置了视频的刊头公告仅在学习者主页上显示初始视频帧，并且播放未按预期自动启动。 已更新视频播放行为，以确保在加载公告时正确自动播放支持的刊头视频。 学习者现在无需手动播放即可查看基于视频的刊头公告，从而提供更吸引人的体验。
+**学习者：**&#x200B;配置了视频的刊头公告仅在学习者主页上显示初始视频帧，并且未按预期自动开始播放。 已更新视频播放行为，以确保在加载公告时正确自动播放支持的刊头视频。 学习者现在无需手动播放即可查看基于视频的刊头公告，从而提供更吸引人的体验。
 
 **学习者：** **网络趋势**&#x200B;小组件在两个水平行中错误地显示了&#x200B;**开始学习**&#x200B;空卡片。 通过为每行呈现相应的空状态卡，此问题已得到修复。 第一行现在显示&#x200B;**转到目录**&#x200B;链接，而第二行继续按预期显示&#x200B;**开始学习**&#x200B;信息卡。
 
@@ -133,7 +248,7 @@ AI Orchestrator代理会将单个查询请求的目的检测移入Orchestrator�
 
 **学习者：**&#x200B;在有序的认证中，学习者可以通过完成其先修课程来绕过失败的第一门课程并访问锁定的第二门课程，从而将要求设置为任意一门课程时将认证标记为完成。 验证已更新，以强制实施课程顺序和锁定规则的一致性。 学习者现在只能按定义的顺序完成认证要求，以防锁定的课程有助于完成认证。
 
-**API：**&#x200B;将资源添加到无说明的课程时，如果稍后更新了资源，则GET/learningObject/{id} API不会返回新添加的说明。 这导致通过API显示陈旧的资源元数据。 同步问题已修复，现在，无论何时添加API，它都会返回最新的资源说明。
+**API：**&#x200B;将资源添加到无说明的课程时，如果稍后更新了资源，则GET/learningObject/{id} API不会返回新添加的说明。 这导致通过API公开陈旧的资源元数据。 同步问题已修复，现在，无论何时添加API，它都会返回最新的资源说明。
 
 **API：**&#x200B;当使用描述迁移模块且稍后更新了描述时，更新的值已正确保存在模块表中，但未反映在UI中。 UI继续显示较旧的描述，因为该描述源自content_group记录，而在修改期间未更新该记录。 此同步问题已得到解决，更新后的模块描述现在在迁移后在UI中的反映是一致的。
 
@@ -156,7 +271,7 @@ URL。 任何后续的加入请求都必须与与文件室关联的活动模块�
 当选定的麦克风和扬声器是不同的设备时，在macOS上的虚拟教室会话期间，音频可能会间歇性中断或声音变得杂乱无章。
 
 当音频输入和输出使用不同的设备（例如用于麦克风的AirPod和用于播放的内置扬声器）时，可能会出现此行为。 因为每个设备都会引入自己的音频延迟、回声
-取消的效果不太好，背景噪声抑制有时可能会将语音部分误认为噪声。 这可能会导致短暂的音频中断。 在下列情况下，此问题会更加明显
+取消的效果不太好，背景噪声抑制有时可能会将语音的部分误认为是噪声。 这可能会导致短暂的音频中断。 在下列情况下，此问题会更加明显
 扬声器的声音以低音量捕捉，例如麦克风位于较远的位置。
 
 这是已知的平台限制，并非特定于Adobe Learning Manager。 在其他会议应用程序中也观察到类似行为。 此版本中未包含修补程序，正在评估未来版本的问题。
@@ -169,8 +284,8 @@ URL。 任何后续的加入请求都必须与与文件室关联的活动模块�
 
 视频继续为讲师在本地播放，但远程与会者可能会在共享窗口失焦时看不到内容更新。 该行为因操作系统而异：
 
-&#x200B;- 在Windows上，与会者看到黑屏。
-&#x200B;- 在macOS上，与会者可以看到上次显示的视频帧。
+- 在Windows上，与会者看到黑屏。
+- 在macOS上，与会者可以看到上次显示的视频帧。
 
 当焦点返回到共享浏览器窗口时，通常会恢复为与会者播放视频。
 
@@ -205,7 +320,7 @@ Adobe Learning Manager使用单个共享虚拟教室作为课程实例。 当第
 
 将UI区域设置设为英语以外的语言时，从“教室位置”页面导出的CSV文件会以英语显示列名（标题行），而不是以选定的语言显示。
 
-从“管理员配置文件”>“设置”>“教室位置”导出教室位置时会出现此行为。 正确返回文件中的位置数据时，列标题不会进行转换，以便与管理员选择的UI区域设置匹配。 因此，在非英语语言环境中工作的管理员可以在其他本地化环境中看到英语列名称。
+从“管理员配置文件”>“设置”>“教室位置”导出教室位置时会出现此行为。 正确返回文件中的位置数据时，列标题无法平移以与管理员选择的UI区域设置匹配。 因此，在非英语语言环境中工作的管理员可以在其他本地化环境中看到英语列名称。
 
 仅标题行受影响；导出文件中的基础位置数据不受影响。 此版本中未包含修补程序，正在评估未来版本的问题。
 
@@ -266,7 +381,7 @@ Adobe Learning Manager使用单个共享虚拟教室作为课程实例。 当第
 4. 在左侧导航面板中导航至学习者。
    ![](assets/instructor-send-email1.png)
 5. 从学习者列表中选择一个学习者。
-6. 在右上角，**操作**&#x200B;下拉列表打开以显示更多选项（包括灰显选项）。 **向全体人员发送电子邮件**&#x200B;是选项之一。
+6. 在右上角，**操作**&#x200B;下拉列表打开以显示更多选项（包括灰显选项）。 **向全体人员发送电子邮件**是选项之一。
    ![](assets/instructor-send-email2.png)
 
 **自动清除已删除的用户：**&#x200B;已删除用户的自动清除设置为一年作为删除所需的最短期限。 此功能已得到增强，以适应“天”后的数量。 管理员现在可以通过联系其客户成功经理来请求此更改，并从后端获取更改。
@@ -291,7 +406,7 @@ Adobe Learning Manager使用单个共享虚拟教室作为课程实例。 当第
 
 **数据和报告**
 
-通过解决数据管道中的数据库连接器故障和过大的记录负载，注册数据同步已稳定。 注册记录现在可以可靠地流传输到下游报告系统。
+通过解决数据管道中的数据库连接器故障和过大的记录负载，注册数据同步已得到稳定。 注册记录现在可以可靠地流传输到下游报告系统。
 
 **发布和API**
 
@@ -639,7 +754,7 @@ _Content update options_
 
 * 修复了内容模块更新为新版本后，已完成课程的学习者在重修课程时看到白色屏幕的问题。
 
-此外，有关即将对Adobe Learning Manager进行的更改的详细信息，请参阅此[文章](https://experienceleague.adobe.com/zh-hans/docs/learning-manager/using/introduction/upcoming-changes-in-adobe-learning-manager)。
+此外，有关即将对Adobe Learning Manager进行的更改的详细信息，请参阅此[文章](https://experienceleague.adobe.com/en/docs/learning-manager/using/introduction/upcoming-changes-in-adobe-learning-manager)。
 
 +++
 
@@ -732,7 +847,7 @@ Adobe Learning Manager 引入了一个经改良的全新课程推荐系统。 �
 
 在此版本的 Adobe Learning Manager 中，我们引入了学习者多注册功能，允许学习者在一个或多个时间段注册多个课程实例。
 
-### Exavault连接器的弃用
+### 弃用Exavault连接器
 
 此版本的 Adobe Learning Manager 将包括一个使用 AWS Transfer 系列 SFTP 协议的新连接器。
 
@@ -1445,7 +1560,7 @@ Adobe Learning Manager 为所有管理员和经理提供合规性信息板。 �
 
 +++更新 66 - Adobe Learning Manager 2021 年 8 月版
 
-**2021 年 8 月**&#x200B;**版 Adobe Learning Manager** 侧重于改进学习者体验、报告和管理工作流程。 其中一些亮点如下：
+**2021 年 8 月****版 Adobe Learning Manager** 侧重于改进学习者体验、报告和管理工作流程。 其中一些亮点如下：
 
 * **内容市场：** Adobe Learning Manager 现提供 70000 多门来自不同领域的课程，如技术、管理、领导力等。
 * **增强辅助功能支持：**&#x200B;通过强化键盘导航、屏幕阅读器功能和对比度合规性，增强对学习者角色的辅助功能支持。
@@ -1889,7 +2004,7 @@ Adobe Learning Manager 现已在学习平台中支持 LinkedIn 学习课程。 �
 
 ### 强制性 L1 反馈 {#mandatoryl1feedback}
 
-在 2020 年 8 月的最新版本中，Adobe Learning Manager 允许管理员配置 L1 反馈，使所有问题都成为必答题。 现在，移动应用程序中的学习者视角也支持这一功能。
+在 2020 年 8 月的最新版本中，Adobe Learning Manager 允许管理员配置 L1 反馈，使所有问题都成为必答题。 现在，移动应用程序中的学习者透视也支持这一功能。
 
 ### 用户界面增强功能 {#userinterfaceenhancements}
 
@@ -2119,7 +2234,7 @@ Adobe Learning Manager 2020 年 4 月版本侧重于以下内容：
 
 学习者可以打开外部证书并上传 pdf、文本或图像文件等资产。
 
-有关详细信息，请参阅&#x200B;[***上传外部证书中的资产***](../learners/feature-summary/ipad-android-tablet-users.md#externalcert)。**&#x200B;**
+有关详细信息，请参阅&#x200B;[***上传外部证书中的资产***](../learners/feature-summary/ipad-android-tablet-users.md#externalcert)。****
 
 ### 此版本中修复的问题 {#issuesfixedinthisrelease}
 
@@ -2438,7 +2553,7 @@ Adobe Learning Manager 现在还允许学习者通过 SSO 身份验证进入连�
 
 ### 新功能和增强功能 {#Newandenhancedfeatures-5}
 
-**为内部和外部用户区分社交学习中的范围**&#x200B;管理员可以为内部和外部学习者定义不同的范围。 新增了分别面向内外部用户的两个部分。 在这两个部分中，您可定义各学习者组的相应范围。 对于内部用户，您可以定义“用户特征”的值。 对于外部用户，您可以定义外部个人资料，学习者可以在其中共享相同的社交空间。 有关更多信息，请参阅&#x200B;[***范围设置***](../administrators/feature-summary/social-learning-configurations-as-an-admin.md#scopesettings)。  **对社交讨论区的创建加以限制**&#x200B;为加强讨论区管理，对学习者人人可以创建讨论区的情况加以限制，管理员可将讨论区创建权限授予选定的用户组。 管理员可将讨论区创建权限授予选定的用户组，而非参与社交学习的所有学习者。 有关更多信息，请参阅&#x200B;[***讨论区创建权限***](../administrators/feature-summary/social-learning-configurations-as-an-admin.md#permission)。  **仅向学习者显示空白活动字段**&#x200B;在填充值后，管理员可选择显示活动字段或隐藏这些字段。 有关更多信息，请参阅&#x200B;[***用户显示***](../administrators/feature-summary/add-users-user-groups.md#activefields)。  **内部用户处于非活动状态达到指定持续时间后将被删除**&#x200B;管理员可针对内部学习者设置非活动状态持续时间（以天为单位），达到限值的用户即会被删除。 有关详细信息，请参阅&#x200B;***[自动删除用户](../administrators/feature-summary/settings.md#autodelete)***。  **自定义页脚上的链接**&#x200B;管理员可以在页脚上添加和自定义链接。 这些链接还可根据不同的区域设置进行自定义。 在页脚添加“联系管理员”链接的现有方法可在&#x200B;**“页脚链接”**&#x200B;部分查看。 有关更多信息，请参阅&#x200B;[***自定义页脚链接***](../administrators/feature-summary/settings.md#footer)。
+**为内部和外部用户区分社交学习中的范围**&#x200B;管理员可以为内部和外部学习者定义不同的范围。 新增了分别面向内外部用户的两个部分。 在这两个部分中，您可定义各学习者组的相应范围。 对于内部用户，您可以定义“用户特征”的值。 对于外部用户，您可以定义外部个人资料，学习者可以在其中共享相同的社交空间。 有关更多信息，请参阅&#x200B;[***范围设置***](../administrators/feature-summary/social-learning-configurations-as-an-admin.md#scopesettings)。  **对社交讨论区的创建加以限制**&#x200B;为加强讨论区管理，对学习者人人可以创建讨论区的情况加以限制，管理员可将讨论区创建权限授予选定的用户组。 管理员可将讨论区创建权限授予选定的用户组，而非参与社交学习的所有学习者。 有关更多信息，请参阅&#x200B;[***讨论区创建权限***](../administrators/feature-summary/social-learning-configurations-as-an-admin.md#permission)。  **仅向学习者显示空白活动字段**&#x200B;在填充值后，管理员可选择显示活动字段或隐藏这些字段。 有关更多信息，请参阅&#x200B;[***用户显示***](../administrators/feature-summary/add-users-user-groups.md#activefields)。  **内部用户处于非活动状态达到指定持续时间后将被删除**&#x200B;管理员可针对内部学习者设置非活动状态持续时间（以天为单位），达到限值的用户即会被删除。 有关详细信息，请参阅***[自动删除用户](../administrators/feature-summary/settings.md#autodelete)***。  **自定义页脚上的链接**&#x200B;管理员可以在页脚上添加和自定义链接。 这些链接还可根据不同的区域设置进行自定义。 在页脚添加“联系管理员”链接的现有方法可在&#x200B;**“页脚链接”**&#x200B;部分查看。 有关更多信息，请参阅&#x200B;[***自定义页脚链接***](../administrators/feature-summary/settings.md#footer)。
 
 ### 此版本中的已知问题 {#Knownissuesinthisrelease-2}
 
@@ -3123,7 +3238,7 @@ Adobe Learning Manager 提供了各种必要的工具和模板，可供公司的
 
 ### 增强功能 {#enhancement}
 
-作为更新的一部分，Learning Manager提供端点<!-- [PATCH/users/{id}](<https://learningmanager.adobe.com/docs/Learning>Managerapi/v1/#!/user/patch_users_id) -->来更新应用程序中的用户。 您可以通过管理员角色访问该 API 端点。 使用&#x200B;**&#x200B;**&#x200B;端点，您可以更新Learning Manager用户的以下信息：
+作为更新的一部分，Learning Manager提供端点<!-- [PATCH/users/{id}](<https://learningmanager.adobe.com/docs/Learning>Managerapi/v1/#!/user/patch_users_id) -->来更新应用程序中的用户。 您可以通过管理员角色访问该 API 端点。 使用****端点，您可以更新Learning Manager用户的以下信息：
 
 * 姓名
 * 电子邮件
@@ -3633,7 +3748,7 @@ Adobe Learning Manager 允许您将徽章导出为 PDF 文件。 有关更多信
 
 **电子邮件模板**
 
-* 曾用来表示外部组的词——**合作伙伴**，**&#x200B;**&#x200B;现已从&#x200B;**&#x200B;**&#x200B;电子邮件模板正文和标题中删除。 外部组不一定是合作伙伴。\
+* 曾用来表示外部组的词——**合作伙伴**，****&#x200B;现已从&#x200B;****&#x200B;电子邮件模板正文和标题中删除。 外部组不一定是合作伙伴。\
   **注意：**&#x200B;如果默认模板已修改，则该更新模板不会显示。 若要查看更新的模板，请单击&#x200B;**模板预览**&#x200B;对话框中的&#x200B;**恢复为原始**。
 
 * 无论何时编辑&#x200B;**“已创建个人资料”（自助注册）**&#x200B;和&#x200B;**“已创建个人资料”（外部/合作伙伴）**&#x200B;电子邮件模板，管理员收到的电子邮件中的 URL 都无法单击。 此问题现已修复。

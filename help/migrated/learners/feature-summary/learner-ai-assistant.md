@@ -3,9 +3,9 @@ description: 使用Adobe Learning Manager中的AI Assistant从学习内容中快
 jcr-language: en_us
 title: Adobe Learning Manager中面向学习者的AI助理
 exl-id: 8203488d-74a6-4463-9383-76d16cabccfa
-source-git-commit: 81969b0557db985224f13c3e4ab41381316dad5d
+source-git-commit: bcd217fd6bb48aaf475eb29a5de1f67ae862826a
 workflow-type: tm+mt
-source-wordcount: '3241'
+source-wordcount: '3245'
 ht-degree: 0%
 ---
 # 面向学习者的AI助理
@@ -81,7 +81,7 @@ Adobe使用可信服务安全处理您的学习内容。
 
 AI Assistant仅使用内部目录和第三方内容库中的内容。 学习者查询的答案仅从他们有权访问的目录派生。
 
-不支持以下内容源：
+当前版本不支持以下内容源：
 
 - 共享的外部目录
 - 默认目录

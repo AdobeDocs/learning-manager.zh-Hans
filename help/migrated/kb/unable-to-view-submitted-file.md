@@ -7,10 +7,8 @@ exl-id: b4a0af25-14ae-46f1-9afd-0bf2aace7fe2
 source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '205'
-ht-degree: 50%
-
+ht-degree: 59%
 ---
-
 # 无法查看在 Adobe Learning Manager 中提交的文件
 
 ## 问题
@@ -39,7 +37,7 @@ ht-degree: 50%
 
 如果学员注册参加的课程实例中没有讲师，则会出现此问题。
 
-## 解决方法
+## 解决方案
 
 要检查是否已在课程实例中添加讲师，请执行以下步骤：
 

@@ -499,7 +499,7 @@ ht-degree: 1%
 了解ALM如何帮助您创建、管理和提供引人入胜的学习体验。 立即注册个性化演示。
 
 <div>
-    <a href="https://business.adobe.com/resources/demo/adobe-learning-manager-lms.html?sdid=P79NQBSV&mv=partner#make-personalized-learning-the-new-normal"
+    <a href="https://business.adobe.com/cn/resources/demo/adobe-learning-manager-lms.html?sdid=P79NQBSV&mv=partner#make-personalized-learning-the-new-normal"
        target="_blank"
        rel="referrer"
        class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">

@@ -4,9 +4,9 @@ jcr-language: en_us
 title: 报告
 contentowner: manochan
 exl-id: 31b176b7-4b8f-4851-a0c5-4eee58bceb41
-source-git-commit: d8c811bdfc4f41ef354a8563ab59070db436bd1d
+source-git-commit: 6142d938c3bd8758cf4c592a0f343e920ae8b0d7
 workflow-type: tm+mt
-source-wordcount: '8746'
+source-wordcount: '8793'
 ht-degree: 55%
 ---
 # 报告 {#reports}
@@ -336,7 +336,7 @@ _合规性信息板 — 管理员视图_
    ![](assets/share-manager.png)
    _与经理共享合规性信息板_
 
-5. 从&#x200B;**[!UICONTROL 选择自定义合规性]**&#x200B;下拉菜单中选择合规性标签。
+5. 从&#x200B;**[!UICONTROL 选择自定义合规性]**下拉菜单中选择合规性标签。
 此选项将选择具有选定合规性标签的所有课程。
 6. 选择要与管理员共享的其他课程、学习路径或认证。
 7. 选择要共享仪表板的用户或用户组，然后选择&#x200B;**[!UICONTROL 共享]**。
@@ -1251,9 +1251,10 @@ Adobe Learning Manager (ALM)中的历史报告是指捕获学习平台内的历�
 
 该报告可供任何具有报告权限的用户使用 — 其中包括被授予报告访问权限的完整管理员和自定义管理员，而不仅仅是帐户所有者。
 
->[!NOTE]
->
->从2026年9月的更新112开始，将开始提供相关记录。 报告中不包括本次更新之前所做的更改。 请参阅[发行说明](/help/migrated/release-note/release-notes.md)更新112。
+## 记录和更改 {#recordschanges}
+
+* 从2026年9月的更新112开始，将开始提供相关记录。 报告中不包括本次更新之前所做的更改。 请参阅[发行说明](/help/migrated/release-note/release-notes.md)更新112。
+* 对任意设置所做的更改最多可能需要一个小时才能反映在报告中。
 
 ## 为什么此报告对合规很重要
 
@@ -1326,7 +1327,7 @@ Adobe Learning Manager (ALM)中的历史报告是指捕获学习平台内的历�
 
 ## 以编程方式访问此报告
 
-您可以使用作业API以编程方式检索管理员审核记录报告，而不是从管理员应用程序手动生成报告。 如果要计划定期导出或将报告提交到下游监控或警报系统，此功能非常有用。 了解有关[管理员审核记录报告的作业API](/help/migrated/api-changes-sep-2026.md#job-api-for-admin-audit-trail-report)的详细信息
+您可以使用作业API以编程方式检索管理员审核记录报告，而不是从管理员应用程序手动生成报告。 如果要计划定期导出或将报告提交到下游监控或警报系统，此功能非常有用。 详细了解[管理员审核跟踪报告的作业API](/help/migrated/api-changes-sep-2026.md#job-api-for-admin-audit-trail-report)。
 
 ## 限制
 
@@ -1345,6 +1346,9 @@ Adobe Learning Manager (ALM)中的历史报告是指捕获学习平台内的历�
 
 **在特定日期之前看不到任何记录**
 记录仅在更新112（2026年9月）之后可用。 报告中不包括在更新之前所做的更改。 请参阅[发行说明](/help/migrated/release-note/release-notes.md)
+
+**我几分钟前所做的更改未反映在报告中**
+查看上方[“记录和更改”](#recordschanges)下的第二个项目符号点。
 
 **对于部分或所有记录，UUID列为空**
 仅当在帐户级别启用UUID时，才会填充UUID列。 如果未启用，则此列将不存在。

@@ -2,15 +2,13 @@
 description: Insights Agent是Adobe Learning Manager中一项由AI支持的功能，管理员可使用自然语言查询学习者数据。
 jcr-language: en_us
 title: Adobe Learning Manager中的Insights代理(Beta)
-source-git-commit: ed7e51ce51aa57144b8e519cb24a95ffbc436504
+source-git-commit: a599b117a000c83105fd258c307fedd6a99b6f96
 workflow-type: tm+mt
-source-wordcount: '2632'
+source-wordcount: '2929'
 ht-degree: 0%
-
 ---
 
-
-# 什么是Insights代理
+# 什么是Insights代理？
 
 Insights代理是Adobe Learning Manager中一项由AI支持的功能，管理员可使用自然语言查询学习数据。 无需下载报告和处理电子表格，只需键入一个问题，如“过去3个月在帐户中创建了多少课程？ 提供月度报告。”，Insights客服专员将直接检索并显示数据。 您可以用文本、项目符号或表格式查看结果，也可以用CSV文件格式下载结果。
 
@@ -28,7 +26,7 @@ Insights Agent旨在减少从提出数据问题到获得答案的步骤。 当�
 
 ## Data Insights代理不支持的功能
 
-以下数据类型不在此版本的范围内：
+以下数据类型当前不在Insights代理的范围之内：
 
 - 反馈和调查数据
 - 游戏点数和徽章
@@ -61,6 +59,7 @@ Insights Agent旨在减少从提出数据问题到获得答案的步骤。 当�
 默认选择&#x200B;**获取Insights**&#x200B;模式后，您可以立即开始查询学习数据，无需在每次访问助理时调整模式。 但是，如果您切换到&#x200B;**学习**&#x200B;模式来提出指导性问题，请确保在提交查询之前重新选择&#x200B;**获取Insights**。
 
 1. 选择Learning Manager中的AI Assistant图标以打开“助理”面板。 默认情况下，**获取Insights**&#x200B;选项已处于选中状态。
+
    ![](assets/ask-question.png)
 
 2. 在文本字段中输入问题。 使用纯语言。 例如： **过去3个月创建了多少门课程？**
@@ -71,13 +70,16 @@ Insights Agent旨在减少从提出数据问题到获得答案的步骤。 当�
 
 提交您的问题后，Insights客服专员会处理您的请求，并返回最多包含四个部分的答复：
 
-1. **消除歧义（如果需要）：**&#x200B;如果您的问题包含不明确的术语，例如“学习活动”、“绩效”或“提供过去3个月的绩效数据”，则助理会显示选项列表，并要求您在继续操作之前选择一个选项。 选择与您要查找的内容最匹配的选项。 在最初的问题之后，您无法键入其他说明。 在使用查询界面启动新查询之前，从提供的选项中选择是唯一可用的交互。 您只能通过从提供的选项中进行选择来响应消除歧义；此版本中未提供自由文本跟进。
+1. **消除歧义（如果需要）：**&#x200B;如果您的问题包含不明确的术语，例如“学习活动”、“绩效”或“提供过去三个月的绩效数据”，则助理会显示选项列表，并要求您选择一个选项后再继续操作。 选择与您要查找的内容最匹配的选项。 在最初的问题之后，您无法键入其他说明。 在使用查询界面启动新查询之前，从提供的选项中选择是唯一可用的交互。 您只能通过从提供的选项中进行选择来响应消除歧义；此版本中未提供自由文本跟进。
+
    ![](assets/disambiguation.png)
 
 2. **方法：** **方法**&#x200B;部分介绍了代理检索数据时采取的步骤。 该面板在问题下方显示为可滚动面板。 选择“展开”图标以查看完整方法。 查看本节可帮助您确认逻辑是否与您的意图相匹配，特别是对于复杂查询。 例如，如果您要求“去年注册的所有学习者”，客服专员可能会返回每个学习者最近的注册，而不是每个注册记录。 **方法**&#x200B;部分说明了代理在检索数据时做出的决定。 如果逻辑与您的意图不符，请使用更具体的术语开始新查询。
+
    ![](assets/approach.png)
 
 3. **结果：** Insights代理以文本或表形式生成结果。 对于最好以表格格式解释的数据点，Insights代理会返回一个表。 Insights代理不生成图表或图形。 要可视化数据，请下载CSV并在您首选的工具中将其打开。 结果中包含简单明了的摘要。 当结果包含50行或更少行时，摘要将包含有关数据的分析见解。 当结果包含50行以上时，摘要将提供列级统计信息。 例如，“哪些课程的注册人数不少于过去1年创建的5名，哪些课程是作者？”
+
    ![](assets/results.png)
 
 响应包含以下摘要：
@@ -95,11 +97,9 @@ Insights Agent旨在减少从提出数据问题到获得答案的步骤。 当�
 >
 >摘要的格式因数据的性质而异。 以下是摘要响应的一个示例。 实际摘要将因查询而异。
 
-
 >[!NOTE]
 >
 >Insights Agent是概率代理。 如果同一查询运行两次，则响应短语或结果排序可能会略有不同。
-
 
 ### 下载报告
 
@@ -108,7 +108,8 @@ Insights Agent旨在减少从提出数据问题到获得答案的步骤。 当�
 ## 启动新查询
 
 每个Insights客服专员会话一次只能处理一个问题。 在查看结果后，选择&#x200B;**新问题**&#x200B;以询问其他问题。 如果想放弃当前查询并重新开始，还可以随时选择&#x200B;**新建聊天**，包括在收到响应之前。 您不能在同一会话中键入跟进问题，也不能让客服专员根据返回的结果进行优化或展开。
-![](assets/new-question.png)
+
+![](/help/migrated/administrators/feature-summary/assets/new-question.png)
 
 >[!TIP]
 >
@@ -117,7 +118,8 @@ Insights Agent旨在减少从提出数据问题到获得答案的步骤。 当�
 ## 提出反馈
 
 每次响应后，选择拇指向上或拇指向下图标对结果进行评分。 您还可以指定输出是否不准确、难以理解或返回所用时间过长。 此反馈有助于逐渐改善客服专员。
-![](assets/feedback.png)
+
+![](/help/migrated/administrators/feature-summary/assets/feedback.png)
 
 ## 最佳实践
 
@@ -125,9 +127,11 @@ Insights Agent旨在减少从提出数据问题到获得答案的步骤。 当�
 - 命名内容和学习者组时，请使用准确的Adobe Learning Manager术语。 查询编写指南列出了要使用的正确术语。
 - 如果客服专员询问澄清问题，请将其作为下次优化原始查询的信号。 您的问题越具体，所需的说明就越少。
 - 在操作结果以确认代理的逻辑与您的意图相符之前，请查看&#x200B;**方法**&#x200B;部分。
-- **指定是包含还是排除轮候学习者**。 默认情况下，注册计数查询包括轮候表上的学习者以及已确认的有效注册。 如果仅需要活跃参与者，请在查询中明确排除轮候学习者。 例如：“除了轮候学习者外，有多少学习者直接注册了安全培训课程？” 客服专员将在“方法”部分中披露已应用此排除。 如果没有此说明，注册总数可能包括相当大比例的轮候学习者尚未开始内容。
+- **指定是否包括轮候学习者。** 默认情况下，注册计数查询仅返回具有有效、已确认的注册信息的学习者 — 根据课程或学习路径页面中提供的注册学习者列表，排除轮候学习者。 如果希望轮候学习者包含在计数中，请在查询中明确表述。 例如：“包括轮候学习者在内的多少名学习者直接注册了安全培训课程？” “方法”部分将指明结果中是否包含轮候学习者。
+<!--
+- **Specify whether to include or exclude waitlisted learners**. By default, enrollment count queries include learners who are on a waitlist alongside active, confirmed enrollments. If you need only active participants, explicitly exclude waitlisted learners in your query. For example: "How many learners are directly enrolled in the Safety Training course, excluding waitlisted learners?" The agent will disclose in the Approach section that the exclusion was applied. Without this instruction, enrollment totals may include a significant proportion of waitlisted learners who have not yet started the content.
+-->
 - **直接和间接注册计数**：当您查询课程或学习路径的注册或完成数据时，Insights代理会区分直接注册（专门注册该课程或学习路径的学习者）和间接注册（在学习路径或认证中访问相同内容的学习者）。 如果您专门要求直接或间接注册，客服专员将返回每种类型的正确计数。 如果您的查询没有直接或间接指定，客服专员可能会返回合并计数。 要获取分隔计数，请在查询中明确包含区分。 例如：“直接注册还是间接注册安全培训课程，有多少学习者？”
-
 
 ## Insights客服专员与Report Builder的差异
 
@@ -176,6 +180,36 @@ Insights代理会将您的查询与Adobe Learning Manager的数据模型匹配�
 | **目录标签** | 类别/标记组 |
 
 Insights Agent不区分大小写，但精确术语匹配可提高准确性。
+
+### 使用组织的自定义术语进行查询
+
+如果您的管理员已使用&#x200B;**设置>常规**&#x200B;中的产品术语重命名标准术语，则Insights代理会识别您的组织的自定义术语，而不是上面列出的默认值。 例如，如果您的组织将&#x200B;**课程**&#x200B;重命名为&#x200B;**第**&#x200B;章，您可以询问“上个月完成了多少章？” 和见解代理在响应和列标题中使用&#x200B;**章**&#x200B;了解问题并标记结果。
+
+自定义术语适用于Insights客服专员聊天窗口内的所有内容，包括查询的解释方式、方法说明、结果摘要以及聊天中显示的表格或列标题。 **下载的CSV文件未反映自定义术语。** 导出的文件中的列标题和内容使用默认的Adobe Learning Manager术语，无论您的组织如何自定义它们。
+
+- Insights Agent能够识别自定义术语的单数和复数形式，如产品术语CSV文件中配置的那样。
+- 即使在组织自定义了默认Adobe Learning Manager术语后，您仍可以在查询中使用它。 Insights客服专员识别默认词语，并使用您组织的自定义词语进行回复。 例如，如果您的组织将&#x200B;**课程**&#x200B;重命名为&#x200B;**第**&#x200B;章，您仍然可以询问“上个月完成了多少章？” 使用原始术语。 Insights客服专员能够理解问题，并在回复中使用您组织的自定义术语&#x200B;**章**&#x200B;进行回复。
+- 如果您的查询包含拼写错误或无法识别的术语，Insights客服专员会提出澄清问题，并建议您的帐户中可用的最接近的匹配术语或术语。
+- 如果您的管理员重置自定义术语，Insights代理将不再识别以前自定义的术语并恢复为默认术语。
+
+>[!NOTE]
+>
+>自定义术语支持不扩展到Insights客服专员当前未查询的模块和选项卡，例如社交学习、工作辅助、论坛、游戏和公告。
+
+<!--
+### Query using your organization's custom terminology
+
+If your administrator has renamed standard terms using **Product Terminology** in **Settings** > **General**, Insights Agent recognizes your organization's custom terms in place of the defaults listed above. For example, if your organization renamed **Module** to **Training**, you can ask "How many Trainings were completed last month?" and Insights Agent understands the question and labels the results using **Training** in the response and column headers.
+
+- Insights Agent recognizes both the singular and plural forms of a custom term, as configured in the Product Terminology CSV file.
+- You can still use the default Adobe Learning Manager term in your query even after your organization customizes it. Insights Agent recognizes the default term and responds using your organization's custom term.
+- If your query includes a misspelled or unrecognized term, Insights Agent asks a clarifying question and suggests the closest matching term available in your account.
+- If your administrator resets the custom terminology, Insights Agent no longer recognizes the previously customized terms and reverts to the default terms.
+
+>[!NOTE]
+>
+>Custom terminology support does not extend to modules and tabs that Insights Agent does not currently query, such as Social Learning, Job Aids, Discussion Forum, Gamification, and Announcements.
+-->
 
 ### 定位内容
 
@@ -237,7 +271,7 @@ Insights Agent不区分大小写，但精确术语匹配可提高准确性。
 
 **计划和课程进度**
 
-- “领导力发展学习路径的完成状态细分是多少？显示已完成、进行中和未开始计数？”
+- “领导力发展学习路径的完成状态明细是什么？ 显示已完成、进行中以及未开始计数。”
 - “上个月有多少学习者完成了数据隐私课程？”
 
 **组织视图**
@@ -260,4 +294,4 @@ Insights Agent不区分大小写，但精确术语匹配可提高准确性。
 
 **不支持在非拉丁语脚本中提交的查询**
 
-Insights客服专员支持以英语和拉丁字母语言（如法语和西班牙语）编写的查询。 无法处理使用非拉丁语脚本（包括日语、中文、阿拉伯语、韩语、印地语和俄语）提交的查询，客服专员会显示一条消息，指示无法完成查询。 如果您使用其中一种语言提交查询，请启动新查询并使用英语重新设置其短语。
+Insights客服专员支持以英语和拉丁字母语言（如法语和西班牙语）编写的查询。 系统不会处理使用非拉丁语脚本（包括日语、中文、阿拉伯语、韩语、印地语和俄语）提交的查询。 客服专员将显示一条消息，指示无法完成查询。 如果您使用其中一种语言提交查询，请启动新查询并使用英语重新设置其短语。

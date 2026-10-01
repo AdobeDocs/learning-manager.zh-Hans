@@ -2,17 +2,17 @@
 user-guide-title: Adobe Learning Manager 指南
 breadcrumb-title: Learning Manager
 user-guide-description: Adobe Learning Manager 的文档
-source-git-commit: 186c661ef9ee9d61a2ebc790dc4c6d2804d796fd
+nudge: true
+source-git-commit: bad20aa965e151ee4c3cc5be5e5faad008e33198
 workflow-type: tm+mt
-source-wordcount: '1686'
-ht-degree: 35%
-
+source-wordcount: '1786'
+ht-degree: 34%
 ---
 
-
-# Learning Manager指南 {#using}
+# Adobe Learning Manager 用户指南 {#using}
 
 * [Adobe Learning Manager 用户指南](user-guide.md)
+* {hide-from-toc}[Adobe Learning Manager用户指南](user-guide-redesign.md)
 * 简介 {#introduction}
   * [2026年8月新增功能摘要](whats-new.md)
   * [2026年4月新增功能摘要](whats-new-april-2026.md)
@@ -21,8 +21,8 @@ ht-degree: 35%
   * [2024年11月新增功能摘要](/help/migrated/whats-new-nov-24.md)
   * [2024年7月新增功能摘要](whats-new-july-2024.md)
   * [2024年3月版新增功能](whats-new-march-2024.md)
-  * {hide-from-toc}[&#x200B; 2023年11月版新增功能](whats-new-november-2023.md)
-  * {hide-from-toc}[&#x200B; 2023年7月版新增功能](whats-new-2023-july.md)
+  * {hide-from-toc}[ 2023年11月版新增功能](whats-new-november-2023.md)
+  * {hide-from-toc}[ 2023年7月版新增功能](whats-new-2023-july.md)
   * {hide-from-toc}[Adobe Learning Manager中即将推出的更改](/help/migrated/upcoming-changes-in-adobe-learning-manager.md)
   * [发行说明](release-note/release-notes.md)
   * [系统要求](system-requirements.md)
@@ -114,7 +114,11 @@ ht-degree: 35%
   * [替代项和等效项](/help/migrated/administrators/feature-summary/alternates-equivalence.md)
   * [学习计划](administrators/feature-summary/learning-plans.md)
   * [管理 Adobe Learning Manager 订单和帐单](administrators/feature-summary/billing-management.md)
+  * [Adobe Learning Manager中的席位共享和帐户计划](administrators/feature-summary/tiering-seat-sharing.md)
   * [工作辅助](administrators/feature-summary/job-aids.md)
+  * 虚拟教练 {#virtualcoachadmin}
+    * [管理虚拟引导的使用和计费](administrators/feature-summary/virtual-coach/manage-virtual-coach-usage-billing.md)
+    * [虚拟指导报告](administrators/feature-summary/virtual-coach/virtual-coach-reports.md)
   * [创建渠道(Beta)](administrators/feature-summary/create-channels.md)
   * [认证](administrators/feature-summary/certifications.md)
   * [创建和自定义证书](/help/migrated/administrators/feature-summary/create-customize-certificate.md)
@@ -167,7 +171,7 @@ ht-degree: 35%
     * [连接器概述](integration-admin/feature-summary/connectors.md)
     * [ADFS连接器](integration-admin/feature-summary/adfs-connector.md)
     * [Adobe Commerce 连接器](integration-admin/feature-summary/adobe-commerce-connector.md)
-    * [Adobe Connect连接器](integration-admin/feature-summary/adobe-connect-connector.md)
+    * [连接器](integration-admin/feature-summary/adobe-connect-connector.md)
     * [Box 连接器](integration-admin/feature-summary/box-connector.md)
     * [自定义FTP连接器](integration-admin/feature-summary/custom-ftp-connector.md)
     * [FTP 连接器](integration-admin/feature-summary/ftp-connector.md)
@@ -180,7 +184,7 @@ ht-degree: 35%
     * [Salesforce 连接器](integration-admin/feature-summary/salesforce-connector.md)
     * [培训数据访问连接器](integration-admin/feature-summary/training-data-access-connector.md)
     * [Workday 连接器](integration-admin/feature-summary/workday-connector.md)
-    * [Zoom连接器](integration-admin/feature-summary/zoom-connector.md)
+    * [缩放连接器](integration-admin/feature-summary/zoom-connector.md)
   * [未登录的API](integration-admin/feature-summary/non-logged-in-apis.md)
   * Webhook {#webhooks}
     * [Webhook](/help/migrated/integration-admin/feature-summary/webhooks.md)
@@ -207,6 +211,15 @@ ht-degree: 35%
   * [创建、修改和发布课程](authors/feature-summary/courses.md)
   * [目录](authors/feature-summary/catalogs.md)
   * {hide-from-toc}[自适应课程](authors/feature-summary/adaptive-course-author.md)
+  * 虚拟教练 {#virtual-coach}
+    * [什么是虚拟教练](authors/feature-summary/virtual-coach/what-virtual-coach-is.md)
+    * [收集虚拟指导角色扮演的材料](authors/feature-summary/virtual-coach/gather-materials-for-virtual-coach-role-play.md)
+    * [设计虚拟教程](authors/feature-summary/virtual-coach/role-play-design.md)
+    * 创建虚拟教程 {#create-virtual-coach}
+      * [使用虚拟指导模板创建角色扮演](authors/feature-summary/virtual-coach/create-role-play-using-virtual-coach-template.md)
+      * [创建并发布虚拟引导角色扮演](authors/feature-summary/virtual-coach/create-publish-virtual-coach-role-play.md)
+    * [向课程添加虚拟教练角色扮演](authors/feature-summary/virtual-coach/add-virtual-coach-role-play-to-course.md)
+    * [虚拟引导常见问题解答](authors/feature-summary/virtual-coach/virtual-coach-faq.md)
   * [工作辅助](authors/feature-summary/job-aids.md)
   * [成绩册](authors/feature-summary/alm-author-gradebook.md)
   * [iPad 和 Android 平板电脑用户](authors/feature-summary/ipad-android-tablet-users.md)
@@ -224,7 +237,7 @@ ht-degree: 35%
       * [内容书写器适用对象](authors/feature-summary/content-composer/who-content-composer-is-for.md)
       * [为Content Composer配置Creative Cloud存储](authors/feature-summary/content-composer/configure-creative-cloud-storage-content-composer.md)
       * [开始之前需要的](authors/feature-summary/content-composer/before-you-start.md)
-      * [将课程置于您自己的文档中](authors/feature-summary/content-composer/ground-course-documents.md)
+      * [将课程地面在您自己的文档中](authors/feature-summary/content-composer/ground-course-documents.md)
       * [内容书写器不是什么](authors/feature-summary/content-composer/what-content-composer-is-not.md)
     * 编写有效提示 {#write-effective-prompt}
       * [在Content Composer中编写有效提示](authors/feature-summary/content-composer/write-effective-prompts.md)
@@ -276,6 +289,9 @@ ht-degree: 35%
   * [登录](learners/feature-summary/user-login.md)
   * [配置文件设置](learners/feature-summary/settings.md)
   * [目录](learners/feature-summary/catalogs.md)
+  * [虚拟教练] {#virtualcoach}
+    * [使用虚拟教练练习角色扮演](learners/feature-summary/virtual-coach/practice-role-play-with-virtual-coach.md)
+    * [了解您的Virtual Coach性能报告](learners/feature-summary/virtual-coach/understand-virtual-coach-performance-report.md)
   * [一键式注册](learners/feature-summary/learner-one-click-enrollment.md)
   * [由我保存的小部件](learners/feature-summary/saved-by-me-widget.md)
   * [我的学习](learners/feature-summary/courses.md)
@@ -389,6 +405,7 @@ ht-degree: 35%
   * [在Adobe Learning Manager中创建试用帐户](/help/migrated/create-trial-account.md)
 * API更改 {#api-changes}
   * [增量用户报告（作业API）](/help/migrated/incremental-user-report.md)
+  * [2026年9月版中的API更改](/help/migrated/api-changes-sep-2026.md)
   * [2026年8月版中的API更改](/help/migrated/api-changes-august-2026.md)
   * [2026年4月版中的API更改](/help/migrated/api-changes-alm.md)
   * [2026年5月版中的API更改](/help/migrated/api-changes-alm-may.md)

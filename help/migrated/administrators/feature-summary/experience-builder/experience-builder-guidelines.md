@@ -3,9 +3,9 @@ title: Adobe Learning Manager中的Experience Builder准则和限制
 description: Experience Builder准则和限制为使用AI驱动算法的学习者提供个性化的课程和内容建议。
 jcr-language: en-us
 exl-id: 2eaeb2af-cd72-4400-9f6e-410c05acda55
-source-git-commit: 5221f4bde68561d5253e7dfab789815e4cd55d49
+source-git-commit: 1830489f446d0071604b0d8102d54d7ed800bc27
 workflow-type: tm+mt
-source-wordcount: '805'
+source-wordcount: '815'
 ht-degree: 0%
 ---
 # Experience Builder准则和限制
@@ -79,7 +79,7 @@ Experience Builder是一个功能强大的工具，旨在帮助用户轻松创�
 
 ### 免责声明
 
-* 在未来的版本中，自定义代码可能无法按预期运行，需要调整。 准备在每次发布后更新其代码。
+* 支持自定义HTML、CSS和JavaScript自定义；但是，平台更新有时可能需要对自定义代码进行小幅调整。 我们建议在主要版本发布后测试自定义设置，作为定期维护的一部分。
 
 ## 一般建议
 

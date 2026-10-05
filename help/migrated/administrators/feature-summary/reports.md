@@ -4,7 +4,7 @@ jcr-language: en_us
 title: 报告
 contentowner: manochan
 exl-id: 31b176b7-4b8f-4851-a0c5-4eee58bceb41
-source-git-commit: 66bdff310bbd040838c66f76d96e027998e0daa2
+source-git-commit: 33227dd7d4a811c0c9b983bc20facb671a9afd8f
 workflow-type: tm+mt
 source-wordcount: '8793'
 ht-degree: 55%
@@ -336,7 +336,7 @@ _合规性信息板 — 管理员视图_
    ![](assets/share-manager.png)
    _与经理共享合规性信息板_
 
-5. 从&#x200B;**[!UICONTROL 选择自定义合规性]**&#x200B;下拉菜单中选择合规性标签。
+5. 从&#x200B;**[!UICONTROL 选择自定义合规性]**下拉菜单中选择合规性标签。
 此选项将选择具有选定合规性标签的所有课程。
 6. 选择要与管理员共享的其他课程、学习路径或认证。
 7. 选择要共享仪表板的用户或用户组，然后选择&#x200B;**[!UICONTROL 共享]**。
@@ -1249,7 +1249,7 @@ Adobe Learning Manager (ALM)中的历史报告是指捕获学习平台内的历�
 
 此报告仅供添加：随着时间的推移会添加新的更改记录，并且永远不会删除以前记录的条目。 这样，您就可以查看跨多个更改的设置的完整历史记录，而不仅仅是查看其当前值。
 
-该报告可供任何具有报告权限的用户使用 — 其中包括被授予报告访问权限的完整管理员和自定义管理员，而不仅仅是帐户所有者。
+任何具有报告权限的用户都可以使用该报告。 这包括已获得报告访问权限的完整管理员和自定义管理员，而不仅仅是帐户所有者。
 
 ### 记录和更改 {#recordschanges}
 

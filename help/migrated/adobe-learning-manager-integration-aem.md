@@ -6,11 +6,9 @@ contentowner: saghosh
 exl-id: 937dfbd1-74a1-4a86-a9b2-29a44be267c6
 source-git-commit: ec35261d69beccaa72143c8da1b1f8623654b7eb
 workflow-type: tm+mt
-source-wordcount: '2207'
-ht-degree: 65%
-
+source-wordcount: '2277'
+ht-degree: 67%
 ---
-
 # AEM 站点的 Adobe Learning Manager 参考站点（ALM 参考站点）包
 
 Adobe Learning Manager (ALM) 与 Adobe Experience Manager (AEM) 站点集成。 如此一来，您就可以为 Adobe Learning Manager 创建自己的网站和响应式移动界面，并且只需进行最少的编码工作。 通过此集成，您可以为用户创建自定义学习体验。
@@ -90,7 +88,7 @@ Adobe Learning Manager (ALM) 与 Adobe Experience Manager (AEM) 站点集成。 
 ## 在AEM中配置ALM帐户
 
 1. 启动 AEM 实例。
-1. 单击“设置”>“Cloud Service”。
+1. 单击“设置”>“Cloud Services”。
 1. 单击“Adobe Learning Manager配置”。
 
    ![](assets/alm-configuration.png)
@@ -118,9 +116,9 @@ Adobe Learning Manager (ALM) 与 Adobe Experience Manager (AEM) 站点集成。 
 
 ### AEM + Adobe Learning Manager（已登录/未登录用户）
 
-您现在可以利用 Adobe Learning Manager 向现有和潜在的客户及合作伙伴展示产品和培训内容，无需创建或登录帐户。此功能可为学习者提供快捷简单的培训预览，帮助您推动产品和培训的采用，有助于突显和推广产品功能。如此一来，您就可以有效地展示产品和服务，尤其是向潜在客户和合作伙伴进行展示，从而提高产品知名度。 访问的方便性和可达性均能帮助提高客户兴趣，从而推动培训注册和学习采用。
+您现在可以利用 Adobe Learning Manager 向现有和潜在的客户及合作伙伴展示产品和培训内容，无需创建或登录帐户。 此功能可为学习者提供快捷简单的培训预览，帮助您推动产品和培训的采用，有助于突显和推广产品功能。 如此一来，您就可以有效地展示产品和服务，尤其是向潜在客户和合作伙伴进行展示，从而提高产品知名度。 访问的方便性和可达性均能帮助提高客户兴趣，从而推动培训注册和学习采用。
 
-使用此工作流程，学习者无需登录 Adobe Learning Manager 即可预览培训内容、访问培训信息或搜索培训。此工作流程不适用于本机 Adobe Learning Manager 界面（仅适用于 AEM 站点和其他无头界面）。
+使用此工作流程，学习者无需登录 Adobe Learning Manager 即可预览培训内容、访问培训信息或搜索培训。 此工作流程不适用于本机 Adobe Learning Manager 界面（仅适用于 AEM 站点和其他无头界面）。
 
 **配置和启用学习平台连接器**
 
@@ -132,7 +130,7 @@ Adobe Learning Manager (ALM) 与 Adobe Experience Manager (AEM) 站点集成。 
 
 只有在使用基于 AEM 站点的界面或其他无头界面时，才需要使用此连接器。
 
-连接器将训练元数据导出到数据存储和检索解决方案以及支持搜索的系统。 因此，您可以将基于 AEM 站点的用户界面或其他自定义的无头用户界面配置为使用这两个服务来检索培训数据、呈现网页并为学习者提供优化的培训搜索功能。例如，基于 AEM 站点的非登录界面可以使用导出的元数据来帮助学习者搜索、浏览和访问显示培训信息的培训页面。
+连接器将训练元数据导出到数据存储和检索解决方案以及支持搜索的系统。 因此，您可以将基于 AEM 站点的用户界面或其他自定义的无头用户界面配置为使用这两个服务来检索培训数据、呈现网页并为学习者提供优化的培训搜索功能。 例如，基于 AEM 站点的非登录界面可以使用导出的元数据来帮助学习者搜索、浏览和访问显示培训信息的培训页面。
 
 启用此连接器以构建和呈现基于 AEM 站点的网页，并在登录前后为学习者提供自定义体验。 启用此连接器以构建和呈现基于 AEM 站点的网页，并在登录前后为学习者提供自定义体验。
 
@@ -214,7 +212,7 @@ ALM参考站点包提供了一个“学习站点蓝图”，可让您为学习�
 
 1. 单击“下一步”。
 
-1. 在属性页面上，输入页面元数据。 单击“创建”。
+1. 在属性页上，输入页面元数据。 单击“创建”。
 
    ![](assets/blueprint-properties.png)
    *选择学习站点蓝图*

@@ -6,11 +6,9 @@ contentowner: saghosh
 exl-id: 70c687ac-0ca6-4bc1-8c86-76943aeaf3e5
 source-git-commit: b882c22da029cdc4c8bcc4ab1b6d861f06f83f0f
 workflow-type: tm+mt
-source-wordcount: '633'
-ht-degree: 41%
-
+source-wordcount: '635'
+ht-degree: 42%
 ---
-
 # 适用于 Microsoft Teams 的 Adobe Learning Manager 应用程序
 
 ## 设置方式
@@ -29,7 +27,7 @@ Azure 管理员必须批准 ALM 应用程序所需的权限。 这将让 ALM 应
 
 MS Teams 管理员应在 Admin Center 中为所有用户置顶 ALM 应用程序，并允许将其作为全局策略。 如果 ALM 仅由公司中的某个组使用，则 MS Teams 管理员必须选择自定义策略，并将其仅应用于该特定组。
 
-## 集成管理员角色可审批团队应用程序
+## 集成管理员角色批准 Teams 应用程序
 
 请按以下步骤操作：
 

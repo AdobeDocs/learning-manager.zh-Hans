@@ -3,7 +3,7 @@ user-guide-title: Adobe Learning Manager 指南
 breadcrumb-title: Learning Manager
 user-guide-description: Adobe Learning Manager 的文档
 nudge: true
-source-git-commit: bad20aa965e151ee4c3cc5be5e5faad008e33198
+source-git-commit: 29900b65ff6bf5b598bbba27d2691f75f544211f
 workflow-type: tm+mt
 source-wordcount: '1786'
 ht-degree: 34%
@@ -21,8 +21,8 @@ ht-degree: 34%
   * [2024年11月新增功能摘要](/help/migrated/whats-new-nov-24.md)
   * [2024年7月新增功能摘要](whats-new-july-2024.md)
   * [2024年3月版新增功能](whats-new-march-2024.md)
-  * {hide-from-toc}[&#x200B; 2023年11月版新增功能](whats-new-november-2023.md)
-  * {hide-from-toc}[&#x200B; 2023年7月版新增功能](whats-new-2023-july.md)
+  * {hide-from-toc}[ 2023年11月版新增功能](whats-new-november-2023.md)
+  * {hide-from-toc}[ 2023年7月版新增功能](whats-new-2023-july.md)
   * {hide-from-toc}[Adobe Learning Manager中即将推出的更改](/help/migrated/upcoming-changes-in-adobe-learning-manager.md)
   * [发行说明](release-note/release-notes.md)
   * [系统要求](system-requirements.md)
@@ -289,7 +289,7 @@ ht-degree: 34%
   * [登录](learners/feature-summary/user-login.md)
   * [配置文件设置](learners/feature-summary/settings.md)
   * [目录](learners/feature-summary/catalogs.md)
-  * [虚拟教练] {#virtualcoach}
+  * 虚拟教练 {#virtualcoach}
     * [使用虚拟教练练习角色扮演](learners/feature-summary/virtual-coach/practice-role-play-with-virtual-coach.md)
     * [了解您的Virtual Coach性能报告](learners/feature-summary/virtual-coach/understand-virtual-coach-performance-report.md)
   * [一键式注册](learners/feature-summary/learner-one-click-enrollment.md)

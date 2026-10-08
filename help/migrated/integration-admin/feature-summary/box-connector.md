@@ -76,7 +76,7 @@ Adobe Learning Manager中的&#x200B;**Box连接器**&#x200B;可通过CSV文件�
 3. 在&#x200B;**映射属性**&#x200B;页面中：
    - 左侧显示Adobe Learning Manager中的必填字段。
    - 右侧显示CSV列名称。 最初，这一面是空的下拉菜单。
-   - 选择&#x200B;**选择CSV**&#x200B;以上传示例CSV文件。 这样将在右侧下拉列表中填充CSV中的列名称。 请参阅[本文](https://experienceleague.adobe.com/en/docs/learning-manager/using/integration/migration-manual#csv)以获取示例CSV。
+   - 选择&#x200B;**选择CSV**&#x200B;以上传示例CSV文件。 这样将在右侧下拉列表中填充CSV中的列名称。 请参阅[本文](https://experienceleague.adobe.com/zh-hans/docs/learning-manager/using/integration/migration-manual#csv)以获取示例CSV。
    - 将每个Adobe Learning Manager字段映射到相应的CSV列。
 
    ![](assets/box-connector2.png)

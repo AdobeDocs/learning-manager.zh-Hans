@@ -179,7 +179,7 @@ FileZilla是一种免费的开源FTP客户端，为文件传输操作提供了�
 3. 在&#x200B;**映射属性**&#x200B;页面中：
    - **左侧**&#x200B;显示Adobe Learning Manager中的必填字段。
    - **右侧**&#x200B;显示CSV列名称。 最初，这一面是空的下拉菜单。
-   - 选择&#x200B;**选择CSV**&#x200B;以上传示例CSV文件。 这样将在右侧下拉列表中填充CSV中的列名称。 请参阅[此文章](https://experienceleague.adobe.com/en/docs/learning-manager/using/integration/migration-manual#csv)。
+   - 选择&#x200B;**选择CSV**&#x200B;以上传示例CSV文件。 这样将在右侧下拉列表中填充CSV中的列名称。 请参阅[此文章](https://experienceleague.adobe.com/zh-hans/docs/learning-manager/using/integration/migration-manual#csv)。
    - 将每个Adobe Learning Manager字段映射到相应的CSV列。
 
    ![](assets/ftp-connector6.png)

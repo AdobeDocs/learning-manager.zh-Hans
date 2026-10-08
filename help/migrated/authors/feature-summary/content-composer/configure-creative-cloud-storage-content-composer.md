@@ -3,13 +3,14 @@ jcr-language: en_us
 title: 为Adobe Learning Manager Content Composer配置Creative Cloud存储空间
 description: 了解如何为Adobe Learning Manager Content Composer配置Creative Cloud存储空间。 本指南介绍了为什么需要Creative Cloud存储空间、管理员如何分配Adobe Admin Console中的免费会员资格优惠，以及如何解决与存储相关的访问问题。
 contentowner: saghosh
-source-git-commit: 15e1f5c383442fb93706acdf68eb889c16511859
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '728'
 ht-degree: 0%
-
 ---
-
 
 # 为Adobe Learning Manager Content Composer配置Creative Cloud存储空间
 
@@ -94,4 +95,4 @@ Content Composer使用Creative Cloud存储来存储课程。 未将存储空间�
 
 如果Adobe Admin Console管理员在分配Creative Cloud存储空间或调试与访问权限相关的问题时脸部问题，则该问题可能需要企业帐户级别支持。 在这种情况下，请通过Admin Console中的可用支持选项联系Adobe企业支持部门。
 
-有关详细信息，请查看[Adobe企业支持选项](https://helpx.adobe.com/cn/business/enterprise/get-help/support-options/support-for-enterprise.html)
+有关详细信息，请查看[Adobe企业支持选项](https://helpx.adobe.com/business/enterprise/get-help/support-options/support-for-enterprise.html)

@@ -3,13 +3,14 @@ jcr-language: en_us
 title: Adobe Learning Manager中支持的语言
 description: 探索Adobe Learning Manager (ALM)中支持的界面和内容语言
 exl-id: 92eaa510-cb44-4e9b-b956-fde876aa48f2
-source-git-commit: 45ac256894b9c5808fd80c488eb8571f330df435
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
-source-wordcount: '261'
-ht-degree: 48%
-
+source-wordcount: '326'
+ht-degree: 38%
 ---
-
 # Adobe Learning Manager中支持的语言
 
 Adobe Learning Manager支持以下界面和内容语言。
@@ -21,19 +22,19 @@ Adobe Learning Manager支持以下界面和内容语言。
 | 英文 | <li>管理员</li><li>作者</li><li>学习者</li><li>经理</li> | en-US |
 | 法语 | <li>管理员</li><li>作者</li><li>学习者</li><li>经理</li> | fr-FR |
 | 德语 | <li>管理员</li><li>作者</li><li>学习者</li><li>经理</li> | de-DE |
-| 中文 | <li>学习者无法注册此类课程。</li><li>经理</li> | zh-CN |
+| 中文 | <li>Prime 中的讲师</li><li>经理</li> | zh-CN |
 | 西班牙语 | <li>管理员</li><li>作者</li><li>学习者</li><li>经理</li> | es-ES |
-| Italiano | <li>学习者无法注册此类课程。</li><li>经理</li> | it-IT |
+| Italiano | <li>Prime 中的讲师</li><li>经理</li> | it-IT |
 | 日语 | <li>管理员</li><li>作者</li><li>学习者</li><li>经理</li> | ja-JP |
-| 葡萄牙语 | <li>学习者无法注册此类课程。</li><li>经理</li> | pt-BR |
+| 葡萄牙语 | <li>Prime 中的讲师</li><li>经理</li> | pt-BR |
 | 荷兰语 | <li>管理员</li><li>作者</li><li>学习者</li><li>经理</li> | NL-NL |
-| 波兰语 | <li>学习者无法注册此类课程。</li><li>经理</li> | pl-PL |
+| 波兰语 | <li>Prime 中的讲师</li><li>经理</li> | pl-PL |
 | 土耳其语 | <li>管理员</li><li>作者</li><li>学习者</li><li>经理</li> | tr-TR |
 | 韩语 | <li>管理员</li><li>作者</li><li>学习者</li><li>经理</li> | ko-KR |
-| 瑞典语 | <li>学习者无法注册此类课程。</li><li>经理</li> | sv-SE |
+| 瑞典语 | <li>Prime 中的讲师</li><li>经理</li> | sv-SE |
 | 俄语 | <li>管理员</li><li>作者</li><li>学习者</li><li>经理</li> | ru-RU |
-| 印度尼西亚语 | <li>学习者无法注册此类课程。</li><li>经理</li> | id-ID |
-| 挪威语 | <li>学习者无法注册此类课程。</li><li>经理</li> | nb-NO |
+| 印度尼西亚语 | <li>Prime 中的讲师</li><li>经理</li> | id-ID |
+| 挪威语 | <li>Prime 中的讲师</li><li>经理</li> | nb-NO |
 | 法语（加拿大） | <li>管理员</li><li>作者</li><li>学习者</li><li>经理</li> | fr-ca |
 | 印地语 | <li>管理员</li><li>作者</li><li>学习者</li><li>经理</li> | hi-IN |
 

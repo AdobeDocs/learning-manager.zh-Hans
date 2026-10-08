@@ -3,19 +3,20 @@ description: 了解如何将ADFS连接器与Adobe Learning Manager集成
 jcr-language: en_us
 title: ADFS连接器
 contentowner: mmanuel
-source-git-commit: 8a5212062c6b172b0e9d4f3faa2e66d26c5c2b56
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '460'
 ht-degree: 3%
-
 ---
-
 
 # Adobe Learning Manager中的ADFS连接器
 
 ## 简介
 
-通过Adobe Learning Manager中的ADFS连接器，可使用Active Directory联合身份验证服务(ADFS)与Microsoft Azure Active Directory集成。 此集成支持将用户数据从Azure AD自动同步到Learning Manager。 此连接器具有属性映射、用户筛选和计划导入等功能，可帮助简化用户管理并确保学习者数据保持准确且最新。 这对于依靠ADFS进行集中身份和访问管理的组织特别有用。
+通过Adobe Learning Manager中的ADFS连接器，可使用Active Directory联合身份验证服务(ADFS)与Microsoft Azure Active Directory集成。 此集成支持将用户数据从Azure AD自动同步到Learning Manager。 该连接器具有属性映射、用户筛选和计划导入等功能，可帮助简化用户管理并确保学习者数据保持准确且最新。 这对于依靠ADFS进行集中身份和访问管理的组织特别有用。
 
 ## 先决条件
 
@@ -48,7 +49,7 @@ ht-degree: 3%
 添加API权限：
 
 1. 选择&#x200B;**API权限**，然后选择&#x200B;**添加权限**。
-2. 选择&#x200B;**Microsoft Graph**，然后选择&#x200B;**申请权限**。
+2. 选择&#x200B;**图形**，然后选择&#x200B;**申请权限**。
 3. 搜索并选择以下权限：
 
    - **Directory.Read.All** — 读取目录数据
@@ -63,7 +64,7 @@ ht-degree: 3%
 要配置ADFS连接器，请执行以下操作：
 
 1. 以集成管理员身份登录Adobe Learning Manager.
-2. 将鼠标悬停在&#x200B;**ADFS**&#x200B;连接器图块上。
+2. 将鼠标悬停在&#x200B;**ADFS**&#x200B;连接器磁贴上。
 3. 选择&#x200B;**连接**。
 
    ![](assets/adfs-connector1.png)

@@ -4,13 +4,14 @@ title: 适用于 Salesforce 的 Adobe Learning Manager 应用程序
 description: Salesforce是销售和营销团队中最受欢迎的客户关系管理解决方案之一。 通过在 Salesforce 中使用 Adobe Learning Manager 应用程序，用户可以在其 Salesforce 界面内直接访问所有学习内容。 用户可以在 Salesforce 中访问指定的学习内容，如课程、学习计划和工作辅助等。 用户还可以收到管理员发来的相关注册和公告的通知信息。
 contentowner: jayakarr
 exl-id: 2efdf01e-43fb-4377-9334-2727c5358c76
-source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '627'
 ht-degree: 71%
-
 ---
-
 # 适用于 Salesforce 的 Adobe Learning Manager 应用程序
 
 ## 概述 {#overview}

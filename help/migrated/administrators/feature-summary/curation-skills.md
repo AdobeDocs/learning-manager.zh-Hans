@@ -4,18 +4,19 @@ title: 映射技能到技能域
 description: 要通过特定技能域基于 AI 的监管引擎自动监管用户发布的帖子，用户的企业必须将其自定义技能映射到 Adobe Learning Manager LMS 中支持的技能域。
 contentowner: kuppan
 exl-id: 46db9d92-fe88-4850-ae06-d434062fa2bf
-source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
-source-wordcount: '373'
+source-wordcount: '375'
 ht-degree: 90%
-
 ---
-
 # 映射技能到技能域
 
 要通过特定技能域基于 AI 的监管引擎自动监管用户发布的帖子，用户的企业必须将其自定义技能映射到 Adobe Learning Manager LMS 中支持的技能域。
 
-创建技能时，管理员可将其映射到 Adobe Learning Manager 支持的最相关技能域中。这会在自动监管过程中作为参考。Adobe Learning Manager LMS 列出以下技能：
+创建技能时，管理员可将其映射到 Adobe Learning Manager 支持的最相关技能域中。 这会在自动监管过程中作为参考。 Adobe Learning Manager LMS 列出以下技能：
 
 * 供应链管理
 * 会计
@@ -53,7 +54,7 @@ ht-degree: 90%
 1. 在管理员应用程序的左侧窗格中，单击&#x200B;**[!UICONTROL “技能”]**。
 1. 要添加技能，单击页面右上角的&#x200B;**[!UICONTROL “添加”]**。
 1. 在&#x200B;**[!UICONTROL “添加技能”]**&#x200B;对话框中，添加技能和技能描述。
-1. 在&#x200B;**[!UICONTROL “技能域”]**&#x200B;部分，添加技能域。输入域时，即会添加域。这些域会依据上述列表进行自动填充。
+1. 在&#x200B;**[!UICONTROL “技能域”]**&#x200B;部分，添加技能域。 输入域时，即会添加域。 这些域会依据上述列表进行自动填充。
 
    ![](assets/skill-domain-mapping.png)
 
@@ -65,7 +66,7 @@ ht-degree: 90%
 
 <!--![](assets/content-uploaded.png)-->
 
-如果上传中的内容的置信度分数高于 50%，内容会上传到讨论区。如果内容符合条件，用户会收到通知，告知其内容已顺利通过监管并已发布到讨论区。
+如果上传中的内容的置信度分数高于 50%，内容会上传到讨论区。 如果内容符合条件，用户会收到通知，告知其内容已顺利通过监管并已发布到讨论区。
 
 ![](assets/curation-notification.png)
 

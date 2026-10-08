@@ -1,13 +1,14 @@
 ---
 title: Live Hub (Beta)故障排除指南
 description: 在Live Hub会话中可能遇到的常见错误消息和通知、其原因以及解决这些问题的步骤。
-source-git-commit: a454fbcdfc37a139245d925dd01bb931d6f83432
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '1072'
 ht-degree: 1%
-
 ---
-
 
 # Live Hub (Beta)故障排除指南
 

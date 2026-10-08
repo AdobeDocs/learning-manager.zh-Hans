@@ -2,13 +2,14 @@
 title: Adobe Learning Manager 中的推荐
 description: 推荐引擎的核心是由Learning Manager的新课程排名算法驱动的。 该算法使用来自数百万用户的5000万数据点和5年汇总学习数据，根据注册可能性对课程进行排名。 此排名可确保优先向学习者显示大多数可注册的课程。
 exl-id: 42083095-60a0-4e20-9097-3344d290da1a
-source-git-commit: bc0d68e3fe7ea3acf92ae81fdbe7413280771522
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '1514'
 ht-degree: 56%
-
 ---
-
 # Adobe Learning Manager 中的推荐
 
 ## 简介
@@ -35,7 +36,7 @@ Learning Manager全新的基于AI的推荐引擎为学习领导者提供了可�
 
 ## 设置推荐系统
 
-Adobe Learning Manager的新推荐引擎简化了设置个性化推荐所涉及的管理员工作流程，因为管理员通常可以从购买记录中获取与客户/合作伙伴相关的产品和角色的相关数据。
+Adobe Learning Manager的新推荐引擎简化了设置个性化推荐所涉及的管理员工作流程，因为管理员通常可以从购买记录中获得与客户/合作伙伴相关的产品和角色的相关数据。
 
 设置新的推荐引擎主要涉及三个工作流程：
 
@@ -45,7 +46,7 @@ Adobe Learning Manager的新推荐引擎简化了设置个性化推荐所涉及�
 
 管理员可配置帐户的“产品”、“角色”和“级别”参数值。 例如，一家以银行为主要客户群的IT解决方案提供商可能会将“产品”参数配置为具有诸如Payment Gateway、Secure Cloud Storage、欺诈检测系统、Trading Platform等的值，将“角色”参数配置为具有诸如Integration Specialist、网络管理员、风险分析员、合规官等的值。
 
-管理员在Learning Manager中可享受指导式工作流程，以优化设置推荐引擎，并根据帐户用例自定义引擎。 此外，管理员还可以选择通过上传一次性 CSV 来设置 PRL 推荐。
+管理员在Learning Manager中可遵照指导式工作流程以最佳方式设置推荐引擎，并根据帐户的使用案例自定义引擎。 此外，管理员还可以选择通过上传一次性 CSV 来设置 PRL 推荐。
 
 1. 在管理员应用程序上选择&#x200B;**[!UICONTROL Recommendations]**。
 

@@ -3,13 +3,14 @@ jcr-language: en_us
 title: 新的Experience League公告
 description: 在Experience League上发现最新的公告。
 exl-id: 26f601cc-3197-4824-91dc-a0a42d1de935
-source-git-commit: e007447a9e7683c5d0fd5ef412e97610d11fb61d
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '114'
 ht-degree: 0%
-
 ---
-
 
 # 新的Experience League公告
 

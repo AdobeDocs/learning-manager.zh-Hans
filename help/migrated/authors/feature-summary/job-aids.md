@@ -3,13 +3,14 @@ jcr-language: en_us
 title: 工作辅助
 description: 工作辅助是一个培训内容知识库，可供学习者访问，无需任何注册或完成标准。 学员可参考这些工作辅助，获取在公司内执行任何活动或任务的相关协助。
 exl-id: c8e925ee-2e40-4a71-9b8e-42a1b49d01bc
-source-git-commit: 2604dc206de5f6e883c1073880348b2ab97b01c6
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '1084'
 ht-degree: 42%
-
 ---
-
 # 工作辅助
 
 **工作辅助**&#x200B;是一个培训内容存储库，可供学习者访问，无需任何注册或完成标准。 学员可参考这些工作辅助，获取在公司内执行任何活动或任务的相关协助。
@@ -31,7 +32,7 @@ ht-degree: 42%
    支持上传的文件格式包括视频、pdf、pptx 和 docx。 不支持上传项目压缩文件或任何交互式内容。
 
 1. 输入工作辅助的持续时间（以分钟为单位）。
-1. 单击&#x200B;**[!UICONTROL “保存”]**。
+1. 单击“**[!UICONTROL 保存]**”。
 
    此时即发布了工作辅助。
 
@@ -67,7 +68,7 @@ ht-degree: 42%
 
 ## 多语言工作辅助
 
-Adobe Learning Manager (ALM)中的多语言工作辅助允许作者和管理员在单个工作辅助条目中提供多种语言的支持文档、指南或资源。 不同区域的学习者可以访问其首选语言的相关材料，这可以提高理解、合规性和用户体验。
+Adobe Learning Manager (ALM)中的多语言工作辅助允许作者和管理员在单个工作辅助条目中提供多种语言的支持文档、指南或资源。 不同地区的学习者可以使用其首选语言访问相关材料，这可以提高理解、合规性和用户体验。
 
 **用例**
 

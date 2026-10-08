@@ -2,13 +2,14 @@
 description: ALM中的API更改
 jcr-language: en_us
 title: Adobe Learning Manager 2026年8月版中的API更改
-source-git-commit: bac89a2dc8e1f22e2d29b20696fc1c6b6dd071aa
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '3357'
 ht-degree: 3%
-
 ---
-
 
 # Adobe Learning Manager 2026年8月版中的API更改
 
@@ -18,7 +19,7 @@ ht-degree: 3%
 
 这些端点仅适用于自定义用户组。 系统管理的组（例如“所有用户”组和自动生成的用户组）在API响应中具有readOnly： true，无法通过这些端点修改或删除。
 
-有关API身份验证要求，请参阅[Adobe Learning Manager API身份验证](https://experienceleague.adobe.com/zh-hans/docs/learning-manager/using/integration/developer-manual#authentication-using-oauth-20)。
+有关API身份验证要求，请参阅[Adobe Learning Manager API身份验证](https://experienceleague.adobe.com/en/docs/learning-manager/using/integration/developer-manual#authentication-using-oauth-20)。
 
 ### 用户组API端点
 
@@ -204,7 +205,7 @@ X-acap-caller-role: ROLE_ADMIN
 
 所有五个端点均属于学习者范围。 学习者只能访问自己的提交内容 — 如果学习者尝试访问其他学习者的数据，则API会返回错误。
 
-有关API身份验证要求，请参阅[Adobe Learning Manager API身份验证](https://experienceleague.adobe.com/zh-hans/docs/learning-manager/using/integration/developer-manual#authentication-using-oauth-20)。
+有关API身份验证要求，请参阅[Adobe Learning Manager API身份验证](https://experienceleague.adobe.com/en/docs/learning-manager/using/integration/developer-manual#authentication-using-oauth-20)。
 
 ### 外部学习API端点
 
@@ -481,7 +482,7 @@ PUT /primeapi/v2/externalLearnings/{id}
 
 循环认证会在每次续订时生成新的认证ID。 在本机Adobe Learning Manager学习者体验中，仅显示与每个学习者相关的版本。 学习者迁移到新版本后，旧版本会自动隐藏。
 
-如果您的集成单独检索认证数据（例如，在外部门户上显示认证信息），则可能不会自动应用此筛选。 如果没有它，学习者就可以看到循环认证的所有历史版本，包括与它们不再相关的版本，而不知道该采取什么操作。
+如果您的集成单独检索认证数据（例如，用于在外部门户上显示认证信息），则可能不会自动应用此筛选。 如果没有它，学习者就可以看到循环认证的所有历史版本，包括与它们不再相关的版本，而不知道该采取什么操作。
 
 此API解决了这一缺口。 如果给定根认证ID，则返回适用于给定学习者的特定认证版本，计入其注册历史记录和任何重复情况。
 
@@ -575,7 +576,7 @@ curl -X GET --header 'Accept: application/vnd.api+json' \
 
 此响应使用与标准学习对象响应相同的结构，并返回已解决的认证。
 
-**重要提示：**&#x200B;响应中的ID字段为&#x200B;**已解决**&#x200B;认证的ID，这是适用于此学习者的特定版本。 它通常与作为loId传入的根认证ID不同，因为此API的全部用途都是将根ID转换为正确的当前版本。
+**重要提示：**&#x200B;响应中的ID字段为&#x200B;**已解决**&#x200B;认证的ID，这是适用于此学习者的特定版本。 它通常与作为loId传入的根认证ID不同，因为此API的全部用途都是将根ID平移到正确的当前版本中。
 
 ```
 {

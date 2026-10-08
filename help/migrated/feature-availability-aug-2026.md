@@ -3,13 +3,14 @@ description: 了解哪些应用程序界面支持2026年8月版的Adobe Learning
 jcr-language: en_us
 title: 功能将在Adobe Learning Manager 2026年8月版中推出
 exl-id: e134937c-630d-4285-9181-2eca114717f6
-source-git-commit: bb95f74b775d279e94fad319380d451446256636
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '628'
 ht-degree: 0%
-
 ---
-
 
 # 功能将在Adobe Learning Manager 2026年8月版中推出
 

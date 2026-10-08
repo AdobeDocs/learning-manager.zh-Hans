@@ -4,13 +4,14 @@ jcr-language: en_us
 title: 颜色主题
 contentowner: jayakarr
 exl-id: 8616e38a-023f-4acb-ac68-df71a5153ad2
-source-git-commit: 7a096b4d28cf5b13f16291b0d3cb1dc5e8b04ba8
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '1327'
 ht-degree: 51%
-
 ---
-
 # 颜色主题
 
 Adobe Learning Manager 中的颜色主题和品牌

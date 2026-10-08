@@ -4,7 +4,10 @@ jcr-language: en_us
 title: 配置文件设置
 contentowner: manochan
 exl-id: 232f46c7-f9b4-430d-aa3e-e8a5d38390f4
-source-git-commit: 2a841234cd829d2a477d44e9cca095370ee25e51
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '283'
 ht-degree: 91%

@@ -4,20 +4,21 @@ title: 自定义域支持
 description: Adobe Learning Manager 的 Azure 实例不支持自定义域。
 contentowner: saghosh
 exl-id: 162ce268-48e3-4c7e-acb1-5181cebbb18d
-source-git-commit: a09c81a6dacbfc4bb55db39e64820ba87ce53d09
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
-source-wordcount: '455'
-ht-degree: 66%
-
+source-wordcount: '457'
+ht-degree: 78%
 ---
-
 # 自定义域支持
 
 Adobe Learning Manager 的 Azure 实例不支持自定义域。
 
 ## 概述 {#overview}
 
-客户可通过自定义域支持获取对其域名的完全控制权，并在其 Adobe Learning Manager 帐户中使用该域名。客户需单独购买自定义域，然后可在 Adobe 团队的协助下，将其设置为学习平台的登录 URL。
+客户可通过自定义域支持获取对其域名的完全控制权，并在其 Adobe Learning Manager 帐户中使用该域名。 客户需单独购买自定义域，然后可在 Adobe 团队的协助下，将其设置为学习平台的登录 URL。
 
 如此一来，客户便可以定制登录与访问体验，不会留有 Adobe 或 Adobe Learning Manager 的任何痕迹。
 
@@ -25,10 +26,10 @@ Adobe Learning Manager 的 Azure 实例不支持自定义域。
 
 >[!NOTE]
 >
->您必须先注册域，然后Adobe将指导您完成自定义URL。
+>您必须先注册一个域。待您达成这一先决条件后，Adobe 便会指导您如何自定义 URL。
 
 
-自定义域功能需要额外付费。 请联系您的客户成功经理以了解更多详细信息。
+支付额外费用后方可使用自定义域功能。 请联系您的客户成功经理以了解详情。
 
 * 对于学习者角色，域将以`https://cdn.<customer_custom_domain>/`开头，例如`https://cdn.elearningstage1.cpdomaintest.in/`
 * 对于所有其他角色，域将以`https://<customer_custom_domain>/`开头。 例如，`https://elearningstage1.cpdomaintest.in/`
@@ -40,7 +41,7 @@ Adobe Learning Manager 的 Azure 实例不支持自定义域。
 
 ## 如何在帐户中设置自定义域 {#howtosetupacustomdomainonanaccount}
 
-客户必须拥有域名并从提供商处购买域，此为先决条件。
+客户须先行拥有域名并从提供商处购买网域，此为自定义域名的先决条件。
 
 假设客户拥有一个虚构的域，名为 **acme.com**。 客户希望从 **learning.acme.com** 获取 Adobe Learning Manager 内容。
 

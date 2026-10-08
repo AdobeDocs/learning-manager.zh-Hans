@@ -1,13 +1,14 @@
 ---
 title: 了解实时中心(Beta)布局
 description: 了解构成Live Hub会议室的面板和控件，包括控制栏、“与会者”面板、“聊天”面板和“讲座”面板。
-source-git-commit: fcdedf246e9efa4509e9dd51f56856a79a0791ae
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '822'
 ht-degree: 1%
-
 ---
-
 
 # 了解实时中心(Beta)布局
 
@@ -28,7 +29,7 @@ ht-degree: 1%
 
 * **麦克风控件**：在会话期间打开或关闭麦克风。 讲师和学习者均可使用该选项。 有关详细信息，请查看[设置加入前屏幕](./setup-pre-join-screen-in-live-hub.md)。
 
-* **视频控件**：启用或禁用摄像机。讲师和学习者均可使用该选项。 有关详细信息，请查看[设置加入前屏幕](./setup-pre-join-screen-in-live-hub.md)。
+* **视频控件**：启用或禁用您的相机。讲师和学习者均可使用该选项。 有关详细信息，请查看[设置加入前屏幕](./setup-pre-join-screen-in-live-hub.md)。
 
 * **反应**：使用表情符号和快速响应在会话期间进行交互。 讲师和学习者均可使用该选项。 查看[关于举手并发送反应](./about-raise-hand-and-reactions.md)以获取更多信息。
 

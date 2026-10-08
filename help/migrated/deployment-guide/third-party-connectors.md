@@ -4,18 +4,19 @@ jcr-language: en_us
 title: Adobe Learning Manager 连接器
 preview: true
 exl-id: 4920e32c-16ed-4f49-8d28-67be4e0ea0d1
-source-git-commit: 1529039e35d4190864e96826bfbea25dcad17c73
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '6186'
 ht-degree: 82%
-
 ---
-
 # Adobe Learning Manager 连接器
 
 了解如何使用连接器将 Salesforce 与 Adobe Learning Manager 集成，以及如何将 FTP 与 Adobe Learning Manager 集成并使用 FTP 连接器自动上传 CSV。
 
-企业有其他应用和系统需要与 Adobe Learning Manager 集成。 连接器是一种实用程序，可帮助执行基于数据的集成，例如从外部系统将数据导入Learning Manager，或从Learning Manager中将数据导出至外部系统。 在 2016 年 7 月发布的版本中，连接器仅具有从外部系统批量导入 Adobe Learning Manager 用户的功能。
+企业有其他应用和系统需要与 Adobe Learning Manager 集成。 连接器是有助于执行基于数据的集成的实用程序，例如将数据从外部系统导入到Learning Manager，或将数据从Learning Manager导出到外部系统。 在 2016 年 7 月发布的版本中，连接器仅具有从外部系统批量导入 Adobe Learning Manager 用户的功能。
 
 Adobe Learning Manager 提供 Salesforce 和 FTP 连接器。 借助 Salesforce 连接器，公司的集成管理员可以将其 Salesforce 应用程序与 Adobe Learning Manager 集成。 作为集成管理员，您还可以使用 FTP 连接器将一组用户自动导入到企业应用程序。
 
@@ -157,11 +158,11 @@ Salesforce 连接器连接至 Salesforce.com 来获取已配置用户，并将�
 
    `code $OPERATION$/$OBJECT_TYPE$/$SUB_OBJECT_TYPE$/data.csv`
 
-   **注意：**&#x200B;在2016年7月版中，仅允许导入用户。 因此，要使用FTP连接器，您必须确保将CSV文件放入以下文件夹：
+   **注意：**&#x200B;在2016年7月版中，仅允许导入用户。 因此，要使用FTP连接器，必须确保CSV文件位于以下文件夹中：
 
    `code Home/import/user/internal/*.csv`
 
-1. FTP连接器从CSV文件中获取所有行，因此重要的是，一个CSV文件中与用户对应的行不会出现在任何其他CSV中。
+1. FTP连接器从CSV文件中获取所有行，因此，务必确保一个CSV文件中与某个用户对应的行不出现在任何其他CSV中。
 1. 所有CSV均应包含映射中指定的列。
 1. 在流程开始之前，文件夹中应存在所有必需的CSV。
 
@@ -300,7 +301,7 @@ getAbstract 连接器：getAbstract.com 的企业用户可使用此连接器供�
 
    如要确保任意类型的同步均起作用，必须确保 getAbstract FTP 文件夹中存在对应同步所指定日期的用户订阅源。
 
-   请参阅以下 Excel 工作表，该工作表是 getAbstract 的用户订阅源文件的样本。 文件名应采用以下格式：**report_export_yyyy_MM_dd_HHmmss.xlsx**&#x200B;或**report_export_yyyy_MM_dd.xlsx**。
+   请参阅以下 Excel 工作表，该工作表是 getAbstract 的用户订阅源文件的样本。 文件名应采用以下格式：**report_export_yyyy_MM_dd_HHmmss.xlsx**或**report_export_yyyy_MM_dd.xlsx**。
    [getAbstract用户订阅源示例Excel表](assets/report-export-20170401175342.xlsx)
 
 ## Harvard ManageMentor 连接器 {#hmmconnector}
@@ -351,7 +352,7 @@ Harvard ManageMentor 连接器：Harvard ManageMentor 的企业用户可使用�
    client_hmm12_20150125.xlsx：此文件是 Harvard ManageMentor 连接器的用户订阅源。 文件命名必须遵循以下约定：**client_hmm12_yyyyMMdd.xlsx**。
 
    请参阅以下两个用于此连接器的用户订阅源和课程订阅源文件样本：
-   [&#x200B; Harvard ManageMentor连接器的课程元数据文件](assets/hmm12-metadata.xlsx) [&#x200B; Harvard ManageMentor连接器的用户订阅源](assets/client-hmm12-20170304.xlsx)
+   [Harvard ManageMentor连接器的课程元数据文件](assets/hmm12-metadata.xlsx)[Harvard ManageMentor连接器的用户订阅源](assets/client-hmm12-20170304.xlsx)
 
 ## Workday 连接器 {#workdayconnector}
 
@@ -535,7 +536,7 @@ Adobe Learning Manager 管理员可在导入用户前先对其过滤。 例如�
 
    ![](assets/miniorange-tile.png)
 
-1. 单击“连接”以建立新连接。 出现miniOrange连接器页面。 输入您希望映射的帐户的详细信息。
+1. 单击“连接”以建立新连接。 出现“miniOrange连接器”页面。 输入您希望映射的帐户的详细信息。
 
    ![](assets/establish-connection.png)
 
@@ -659,7 +660,7 @@ Adobe Learning Manager 管理员可在导入用户前先对其过滤。 例如�
    **注意：**&#x200B;在2016年7月版中，仅允许导入用户。 因此，如要使用Box连接器，您必须确保已将CSV文件放入以下文件夹：\
    `code Home/import/user/internal/*.csv`
 
-1. Box连接器从CSV文件中获取所有行，因此，务必确保一个CSV文件中与用户对应的行不出现在任何其他CSV中。
+1. Box连接器从CSV文件中获取所有行，因此，务必确保一个CSV文件中某位用户对应的行不出现在任何其他CSV中。
 1. 所有CSV均应包含映射中指定的列。
 1. 在流程开始之前，文件夹中应存在所有必需的CSV。
 

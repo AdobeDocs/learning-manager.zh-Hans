@@ -3,13 +3,14 @@ jcr-language: en_us
 title: Adobe Learning Manager 中的 xAPI
 description: Experience API (xAPI) 是一种在线学习软件规范，允许学习内容和学习系统互动，以记录和跟踪所有类型的学习体验。
 exl-id: 8e36b538-a451-448e-a65d-08d286adcfdb
-source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '779'
 ht-degree: 77%
-
 ---
-
 # Adobe Learning Manager 中的 xAPI
 
 ## 什么是 xAPI？ {#whatisxapi}
@@ -65,7 +66,7 @@ GET https://learningmanager.adobe.com/oauth/o/authorize?client_id=<Enter your cl
 
 作者现在可以在创建课程时选择 xAPI 模块，以监控 Adobe Learning Manager 以外的用户体验。 例如，您可以使用此功能评估用于第三方课程消费平台上的用户活动。
 
-1. 创建&#x200B;**[!UICONTROL 活动模块]**&#x200B;时，在&#x200B;**[!UICONTROL 类型]**&#x200B;选项中，使用弹出菜单选择&#x200B;**[!UICONTROL 基于xAPI的模块。]**
+1. 创建&#x200B;**[!UICONTROL 活动模块]**&#x200B;时，在**[!UICONTROL 类型]**选项中，使用弹出菜单选择&#x200B;**[!UICONTROL 基于xAPI的模块。]**
 
    ![](assets/xapimodulecreation.png)
 
@@ -85,7 +86,7 @@ GET https://learningmanager.adobe.com/oauth/o/authorize?client_id=<Enter your cl
 
 **注意事项：**
 
-* Adobe Learning Manager 当前仅支持将 mbox 用作标识符。 不支持其他标识符，包括mboz_sha1、openid、帐户。
+* Adobe Learning Manager 当前仅支持将 mbox 用作标识符。 不支持其他标识符，包括mboz_sha1、openid、account。
 
 * 在 Adobe Learning Manager 中使用时，stateId 和 profileId 为 UUID。
 * PUT请求不会覆盖xAPI代理/配置文件、活动/配置文件以及活动/状态的文档

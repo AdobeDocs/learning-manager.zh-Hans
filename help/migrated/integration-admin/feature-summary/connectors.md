@@ -3,23 +3,24 @@ description: 每个ALM支持的连接器的概述
 jcr-language: en_us
 title: Adobe Learning Manager中的连接器概述
 contentowner: mmanuel
-source-git-commit: 3750b1f8784209d9efcbf5aaae890c37365d7030
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '1426'
 ht-degree: 6%
-
 ---
 
-
-# Adobe Learning Manager连接器
+# 连接器
 
 ## 简介
 
-Adobe Learning Manager (ALM)提供了一整套连接器，能够与第三方应用程序和企业系统无缝集成。 这些连接器在学习管理系统和外部平台之间充当桥梁，有助于实现自动数据同步、用户管理、内容导入和学习记录导出。
+Adobe Learning Manager (ALM)提供了一整套可实现与第三方应用程序和企业连接器无缝集成的应用程序。 这些连接器充当您的学习管理系统与外部平台之间的桥梁，有助于实现自动数据同步、用户管理、内容导入和学习记录导出。
 
-本文档可作为您了解和选择适用于您组织的学习生态系统的连接器的完整参考指南。 无论您是希望与HR系统、电子商务平台、虚拟会议工具集成，还是希望与业务智能解决方案集成。
+本文档可作为您了解和选择适用于您公司学习生态系统的相应连接器的完整参考指南。 无论您是希望与HR系统、电子商务平台、虚拟会议工具集成，还是希望与业务智能解决方案集成。
 
-有关Adobe Learning Manager支持的连接器的完整列表，请参阅左侧目录中的本文正下方嵌套的连接器文章。
+有关Adobe Learning Manager所支持连接器的完整列表，请参阅左侧目录中的本文正下方嵌套的连接器文章。
 
 >[!NOTE]
 >
@@ -31,7 +32,7 @@ Adobe Learning Manager (ALM)提供了一整套连接器，能够与第三方应�
 
 ## 连接器类别
 
-Adobe Learning Manager连接器可根据其主要用途和集成功能分为几个功能类别：
+连接器可以根据其主要用途和集成功能分为几个功能类别：
 
 | 类别 | 目的 | 示例连接器 |
 |---------|--------|-------------------|
@@ -45,11 +46,11 @@ Adobe Learning Manager连接器可根据其主要用途和集成功能分为几�
 
 ## 数据传输和文件管理连接器
 
-这些连接器通过文件传输协议促进自动数据交换，支持批量操作和系统到系统的通信。
+这些连接器通过文件传输协议促进自动数据交换，支持批量操作和系统间通信。
 
-### Adobe Learning Manager FTP连接器
+### ADOBE LEARNING MANAGER FTP连接器
 
-FTP连接器使组织可以使用广泛采用的文件传输协议在Adobe Learning Manager和外部系统之间自动执行数据同步。 此连接器支持安全变体，包括SFTP（SSH文件传输协议）和FTPS（FTP安全），以增强安全性。
+FTP连接器使企业能够使用广泛采用的文件传输协议，在Adobe Learning Manager和外部系统之间自动执行数据同步。 此连接器支持安全变体，包括SFTP （SSH文件传输协议）和FTPS （FTP安全），以增强安全性。
 
 #### 关键功能：
 
@@ -62,7 +63,7 @@ FTP连接器使组织可以使用广泛采用的文件传输协议在Adobe Learn
 
 ### 自定义FTP连接器
 
-自定义FTP连接器提供了更完善的文件传输功能，支持结构化数据格式和xAPI语句交换。 此连接器专为需要更精细地控制其数据交换过程的组织而设计。
+自定义FTP连接器提供了更完善的文件传输功能，支持结构化数据格式和xAPI语句交换。 该连接器专为需要更精细地控制其数据交换流程的企业而设计。
 
 #### 关键功能：
 
@@ -75,7 +76,7 @@ FTP连接器使组织可以使用广泛采用的文件传输协议在Adobe Learn
 
 ### Box 连接器
 
-Box连接器利用Box的云存储平台，便于外部系统和Adobe Learning Manager之间的无缝数据同步。 对于已在使用Box进行文件管理的组织，此连接器尤为有用。
+Box连接器利用Box的云存储平台来实现外部系统与Adobe Learning Manager之间的无缝数据同步。 对于已在使用Box进行文件管理的企业而言，此连接器尤为有用。
 
 #### 关键功能：
 
@@ -92,7 +93,7 @@ Box连接器利用Box的云存储平台，便于外部系统和Adobe Learning Ma
 
 ### Microsoft Teams 连接器
 
-Microsoft Teams连接器通过直接与Teams的会议功能集成，将Adobe Learning Manager转变为一个全面的虚拟教室解决方案。 对于使用Microsoft 365生态系统的组织，此连接器必不可少。
+连接器通过直接与Teams的会议功能集成，将Adobe Learning Manager变换为一个全面的虚拟教室解决方案。 对于使用Microsoft 365生态系统的企业而言，此连接器至关重要。
 
 #### 关键功能：
 
@@ -102,9 +103,9 @@ Microsoft Teams连接器通过直接与Teams的会议功能集成，将Adobe Lea
 
 有关详细信息，请参阅[MS Teams连接器](/help/migrated/integration-admin/feature-summary/install-microsoft-teams-connector.md)。
 
-### Zoom连接器
+### 缩放连接器
 
-Zoom连接器使组织可以直接在其Adobe Learning Manager环境中利用Zoom强大的视频会议功能，为讲师和学习者提供无缝体验。
+利用Zoom连接器，公司可以直接在其Adobe Learning Manager环境中利用Zoom强大的视频会议功能，为讲师和学习者提供无缝体验。
 
 #### 关键功能：
 
@@ -114,11 +115,11 @@ Zoom连接器使组织可以直接在其Adobe Learning Manager环境中利用Zoo
 - 录制管理和播放集成。
 - 分组讨论室支持交互式会话。
 
-有关详细信息，请参阅[Zoom连接器](/help/migrated/integration-admin/feature-summary/zoom-connector.md)。
+有关详细信息，请参阅[缩放连接器](/help/migrated/integration-admin/feature-summary/zoom-connector.md)。
 
-### Adobe Connect连接器
+### 连接器
 
-Adobe Connect连接器可与Adobe自己的虚拟教室平台深度集成，提供交互式在线学习体验的高级功能。
+连接器可与Adobe自己的虚拟教室平台深度集成，提供交互式在线学习体验的高级功能。
 
 #### 关键功能：
 
@@ -127,7 +128,7 @@ Adobe Connect连接器可与Adobe自己的虚拟教室平台深度集成，提�
 - 全面的会话录制和回放。
 - 针对移动设备优化的虚拟教室体验。
 
-有关详细信息，请参阅[Adobe Connect连接器](/help/migrated/integration-admin/feature-summary/adobe-connect-connector.md)。
+有关详细信息，请参阅[连接器](/help/migrated/integration-admin/feature-summary/adobe-connect-connector.md)。
 
 ## 企业系统集成连接器
 
@@ -135,7 +136,7 @@ Adobe Connect连接器可与Adobe自己的虚拟教室平台深度集成，提�
 
 ### Workday 连接器
 
-Workday连接器可在您的HR系统和学习管理平台之间建立无缝桥梁，确保员工记录、组织结构和角色分配在这两个系统之间保持同步。
+连接器可在您的HR系统和学习管理平台之间架起无缝桥梁，确保员工记录、组织结构和角色分配在这两个系统之间保持同步。
 
 #### 关键功能：
 
@@ -144,11 +145,11 @@ Workday连接器可在您的HR系统和学习管理平台之间建立无缝桥�
 - 组织层次结构映射。
 - 基于角色的学习分配自动化。
 
-有关详细信息，请参阅[Workday连接器](/help/migrated/integration-admin/feature-summary/workday-connector.md)。
+有关详细信息，请参阅[连接器](/help/migrated/integration-admin/feature-summary/workday-connector.md)。
 
 ### Salesforce 连接器
 
-Salesforce连接器使组织能够将其客户关系管理系统与学习计划集成，从而为销售培训、客户教育和绩效跟踪创造机会。
+Salesforce连接器使公司能够将其客户关系管理系统与学习计划集成，从而为销售培训、客户教育和绩效跟踪创造机会。
 
 #### 关键功能：
 
@@ -177,11 +178,11 @@ ADFS连接器使组织能够实现企业级身份验证和授权，从而允许�
 
 ## 内容和学习平台连接器
 
-这些连接器通过集成外部内容库和专业学习平台来扩展您的学习目录。
+这些连接器通过集成外部内容库和专用学习平台来扩展您的学习目录。
 
 ### LinkedIn 学习连接器
 
-通过LinkedIn Learning连接器可访问LinkedIn丰富的专业发展课程库，企业可以利用业界领先的外部内容来补充其内部培训。
+通过LinkedIn学习连接器，用户可以访问LinkedIn丰富的专业发展课程库，公司可以使用业界领先的外部内容来补充其内部培训。
 
 #### 关键功能：
 
@@ -189,11 +190,11 @@ ADFS连接器使组织能够实现企业级身份验证和授权，从而允许�
 - 自动课程发现和导入。
 - Adobe Learning Manager中的学习者进度跟踪。
 
-有关详细信息，请参阅[LinkedIn连接器](/help/migrated/integration-admin/feature-summary/linkedin-learning-connector.md)。
+有关详细信息，请参阅[连接器](/help/migrated/integration-admin/feature-summary/linkedin-learning-connector.md)。
 
 ### Harvard ManageMentor 连接器
 
-Harvard ManageMentor连接器将世界一流的领导力和管理培训内容直接引入您的Adobe Learning Manager环境中，让您能够访问哈佛商学院的著名教育资源。
+Harvard ManageMentor连接器将世界一流的领导力和管理培训内容直接引入您的Adobe Learning Manager环境，让您能够访问哈佛商学院的著名教育资源。
 
 #### 关键功能：
 
@@ -205,7 +206,7 @@ Harvard ManageMentor连接器将世界一流的领导力和管理培训内容直
 
 ### getAbstract连接器
 
-getAbstract连接器提供了对简明业务书籍摘要和专业见解的访问，使企业能够利用可理解的内容格式提供持续学习。
+getAbstract连接器提供了对简明业务书籍摘要和专业见解的访问，使企业能够通过可理解的内容格式提供持续的学习。
 
 #### 关键功能：
 
@@ -215,13 +216,13 @@ getAbstract连接器提供了对简明业务书籍摘要和专业见解的访问
 
 有关详细信息，请参阅[getAbstract连接器](/help/migrated/integration-admin/feature-summary/getabstract-connector.md)。
 
-## Business intelligence and analytics连接器
+## 业务智能和分析连接器
 
-这些连接器通过将学习数据与外部分析平台集成来实现高级报告、数据可视化和商业智能功能。
+这些连接器通过将学习数据与外部平台集成来实现高级报告、数据可视化和业务智能功能。
 
 ### Power BI 连接器
 
-Power BI连接器通过将学习指标自动与Microsoft强大的商业智能平台同步，将您的学习数据转换为可操作的商业见解。
+该连接器通过将学习指标自动与Microsoft强大的商业智能平台同步，将您的学习数据变换为可操作的商业见解。
 
 #### 关键功能：
 
@@ -234,7 +235,7 @@ Power BI连接器通过将学习指标自动与Microsoft强大的商业智能平
 
 ### 培训数据访问连接器
 
-通过培训数据访问连接器，组织可以通过为培训数据和课程信息提供API访问来创建自定义学习界面和无头学习体验。
+利用培训数据访问连接器，企业可以通过为培训数据和课程信息提供API访问来创建自定义学习界面和无头学习体验。
 
 **关键功能：**
 
@@ -251,7 +252,7 @@ Power BI连接器通过将学习指标自动与Microsoft强大的商业智能平
 
 ### Adobe Commerce 连接器
 
-Adobe Commerce连接器可将Adobe Learning Manager转变为全面的学习商务平台，使组织可通过完全集成的电子商务体验销售课程、认证和培训计划。
+连接器将Adobe Learning Manager变换成一个全面的学习商务平台，使企业可以通过完全集成的电子商务体验来销售课程、认证和培训计划。
 
 **关键功能：**
 
@@ -259,11 +260,11 @@ Adobe Commerce连接器可将Adobe Learning Manager转变为全面的学习商�
 - 课程目录和定价管理。
 - 自动支付处理和注册。
 
-有关详细信息，请参阅[Adobe Commerce连接器](/help/migrated/integration-admin/feature-summary/adobe-commerce-connector.md)。
+有关详细信息，请参阅[连接器](/help/migrated/integration-admin/feature-summary/adobe-commerce-connector.md)。
 
 ### Marketo Engage 连接器
 
-该Marketo Engage连接器在学习活动和营销活动之间创造了强大的协同效应，使公司能够利用教育参与来培养潜在客户和发展客户。
+连接器在学习活动和营销活动之间创造了强大的协同效应，使公司能够利用教育参与来培养领导和拓展客户。
 
 #### 关键功能：
 
@@ -271,4 +272,4 @@ Adobe Commerce连接器可将Adobe Learning Manager转变为全面的学习商�
 - 跟踪学习活动以获取营销见解。
 - 课程注册和完成事件触发器。
 
-有关详细信息，请参阅[Marketo Engage连接器](/help/migrated/integration-admin/feature-summary/marketo-engage-connector.md)。
+有关详细信息，请参阅[连接器](/help/migrated/integration-admin/feature-summary/marketo-engage-connector.md)。

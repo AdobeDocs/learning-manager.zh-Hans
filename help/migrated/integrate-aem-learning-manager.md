@@ -4,13 +4,14 @@ title: 将Adobe Learning Manager与AEM集成
 description: Learning Manager是学习管理系统，具有内置的学习内容管理系统。 用户通过将学习内容上传至 Adobe Learning Manager 来对其进行管理，以便 Adobe Learning Manager 执行版本控制、将学习内容分配至相应课程、定义对学习者的可见性、跟踪使用情况并向管理员报告。
 contentowner: saghosh
 exl-id: 61fae7bd-1703-4ed1-9bd9-07387d67a91c
-source-git-commit: e4fbde07314dcb99ee2d16aa4977308b8ab5b990
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '3817'
 ht-degree: 45%
-
 ---
-
 
 # 将Adobe Learning Manager与AEM集成
 
@@ -52,7 +53,7 @@ Adobe Learning Manager (ALM) 与 Adobe Experience Manager (AEM) 站点集成。 
 
 >[!NOTE]
 >
->有关安装包的信息，请参阅&#x200B;[***如何使用包***](https://experienceleague.adobe.com/docs/experience-manager-65/administering/contentmanagement/package-manager.html?lang=zh-Hans#how-to-work-with-packages)。
+>有关安装包的信息，请参阅&#x200B;[***如何使用包***](https://experienceleague.adobe.com/docs/experience-manager-65/administering/contentmanagement/package-manager.html?lang=en#how-to-work-with-packages)。
 
 1. 以 AEM 作者示例打开 AEM Package Manager。
 1. 单击&#x200B;**[!UICONTROL “上传程序包”]**&#x200B;按钮。
@@ -115,7 +116,7 @@ Adobe Learning Manager (ALM) 与 Adobe Experience Manager (AEM) 站点集成。 
 ## 在AEM中配置ALM帐户
 
 1. 启动 AEM 实例。
-1. 单击&#x200B;**设置** > **Cloud Service**。
+1. 单击&#x200B;**设置** > **Cloud Services**。
 1. 单击&#x200B;**Adobe Learning Manager配置**。
 
    ![](assets/alm-configuration.png)
@@ -361,7 +362,7 @@ ALM参考站点包提供了一个“学习站点蓝图”，可让您为学习�
 
 您还可在多个页面中设置多个帐户配置。
 
-1. 单击&#x200B;**[!UICONTROL 工具]** > **[!UICONTROL Cloud Service]** > **[!UICONTROL Learning Manager小组件配置]**。
+1. 单击&#x200B;**[!UICONTROL 工具]** > **[!UICONTROL Cloud Services]** > **[!UICONTROL Learning Manager小组件配置]**。
 1. 单击&#x200B;**[!UICONTROL 创建]**。
 1. 在此处输入刷新令牌。 进行其他设置。
 1. 对于欧盟区域，主机名应更改为&#x200B;**learningmanagereu**。
@@ -419,19 +420,19 @@ Skyline 是 AEM 的云版本。 您必须先在 Package Manager 中安装 Skylin
 
 * **[!UICONTROL 目录ID]：**&#x200B;需要显示培训的目录ID，以逗号分隔。
 * **[!UICONTROL 排序]：**&#x200B;培训的排序顺序。 以下是排序选项：
-   * 名称：按字母顺序从A到Z对学习对象进行排序。
-   * -name：按字母顺序将学习对象从Z排序到A。
-   * 日期：按日期升序排序。
-   * -date：按日期降序排序（最新先排）。
-   * dateCreated：按学习对象的创建日期排序（最早的在前）。
-   * -dateCreated：按创建日期排序（最新在前）。
-   * dateEnrolled：按学习者的注册日期（最早的优先）排序。
-   * -dateEnrolled：按注册日期（最近注册日期在前）排序。
-   * 评级：按学习者评级（从最低到最高）排序。
-   * -rating：按评级（从高到低）排序。
-   * dueDate：按课程的到期日排序（最早的截止日期在前）。
-   * 效果：根据学习者反馈按效果分数排序。
-   * 进度：按学习者进度排序（进度最慢到最多）。
+  * 名称：按字母顺序从A到Z对学习对象进行排序。
+  * -name：按字母顺序将学习对象从Z排序到A。
+  * 日期：按日期升序排序。
+  * -date：按日期降序排序（最新先排）。
+  * dateCreated：按学习对象的创建日期排序（最早的在前）。
+  * -dateCreated：按创建日期排序（最新在前）。
+  * dateEnrolled：按学习者的注册日期（最早的优先）排序。
+  * -dateEnrolled：按注册日期（最近注册日期在前）排序。
+  * 评级：按学习者评级（从最低到最高）排序。
+  * -rating：按评级（从高到低）排序。
+  * dueDate：按课程的到期日排序（最早的截止日期在前）。
+  * 效果：根据学习者反馈按效果分数排序。
+  * 进度：按学习者进度排序（进度最慢到最多）。
 * **[!UICONTROL 学习者状态]：**&#x200B;返回所有符合以下筛选条件的培训：已注册、已开始、已完成和未注册。 如果选择按注册日期、到期日期或注册日期排序，则不会显示搜索结果。
 * **[!UICONTROL 技能名称]：**&#x200B;用于筛选具体训练的技能。
 * **[!UICONTROL 标记名称]：**&#x200B;用于筛选具体结果的标记。

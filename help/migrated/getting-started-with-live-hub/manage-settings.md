@@ -1,13 +1,14 @@
 ---
 title: 管理Live Hub中的设置
 description: 了解讲师如何访问和配置Live Hub中的房间设置，包括参与者权限、录制、AI助理和隐私。
-source-git-commit: 8e0b7d983fc0736ae2890e6ec58e870bafc37fd0
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '533'
 ht-degree: 0%
-
 ---
-
 
 # 管理会议室设置
 
@@ -58,7 +59,7 @@ ht-degree: 0%
 <tbody>
 <tr>
 <td rowspan="5"><p><strong>参与者权限</strong></p>
-<p><strong>默认</strong>：参与者可以使用其麦克风、共享其摄像头并在聊天中发送私人消息。</p></td>
+<p><strong>默认</strong>：参与者可以使用其麦克风、共享其相机并在聊天中发送私人消息。</p></td>
 <td>使用麦克风</td>
 <td>允许参与者在会话期间发言。</td>
 </tr>

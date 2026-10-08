@@ -3,13 +3,14 @@ description: 了解Adobe Learning Manager 2026年8月版的新增功能和增强
 jcr-language: en_us
 title: Adobe Learning Manager 2026年8月版的新增功能
 exl-id: da46f186-3ff3-422a-af49-31c7405fd584
-source-git-commit: 5820baa285787af20e7257001b4fb35337d5972a
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '2644'
 ht-degree: 0%
-
 ---
-
 # Adobe Learning Manager 2026年8月版中的新增功能
 
 ## 成绩册
@@ -90,7 +91,7 @@ Adobe Learning Manager现在包括Content Composer，这是一种AI本机课程�
 
 主要功能：
 
-* 对话AI可指导作者完成培训目标、源资料和学习目标，从而生成完整的课程简介和概述。
+* 对话AI可指导作者完成培训目标、源材料和学习目标，从而生成完整的课程简介和概述。
 * 基于文档的生成功能将AI输出限制为上传的文件，这对于合规性、法规和基于过程的培训至关重要。
 * 一门课程即可生成完整的课程，如课程、主题、文本、图像、知识检查以及分级测验。
 * 具有浅色和深色模式、字体控件、页眉和页脚支持以及JSON导出功能的视觉主题系统，可帮助实现高级自定义。

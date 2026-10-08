@@ -3,13 +3,14 @@ description: 了解如何共享Content Composer项目以供审阅 — 邀请审�
 jcr-language: en_us
 title: 共享项目以供审阅
 hide: true
-source-git-commit: cedd59c96bdd68681702242954dfba63b8591852
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '419'
 ht-degree: 0%
-
 ---
-
 
 # 共享项目以供审阅
 

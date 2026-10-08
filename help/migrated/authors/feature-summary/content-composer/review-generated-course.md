@@ -2,13 +2,14 @@
 description: 了解在共享或发布之前，如何在Content Composer的课程编辑器中审阅AI生成的课程内容，因为AI输出可能会有所不同。
 jcr-language: en_us
 title: 查看生成的课程
-source-git-commit: 68d15fa96588b2569c9b1cdb480e2ba9f31a1cf6
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '109'
 ht-degree: 0%
-
 ---
-
 
 # 查看生成的课程
 

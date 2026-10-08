@@ -3,19 +3,20 @@ description: Adobe Learning Manager中的getAbstract连接器
 jcr-language: en_us
 title: getAbstract 连接器
 contentowner: mmanuel
-source-git-commit: 8a5212062c6b172b0e9d4f3faa2e66d26c5c2b56
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '807'
 ht-degree: 1%
-
 ---
-
 
 # Adobe Learning Manager的getAbstract连接器
 
 ## 简介
 
-**getAbstract连接器**&#x200B;专为[getAbstract.com](https://www.getabstract.com/)的企业客户设计。 它允许学习者直接通过Adobe Learning Manager发现和使用getAbstract内容。 连接器还允许管理员自动导入用户参与数据并跟踪学习者完成记录。
+**getAbstract连接器**&#x200B;专为[getAbstract.com](https://www.getabstract.com/)的企业客户设计。 它允许学习者直接通过Adobe Learning Manager发现和使用getAbstract内容。 该连接器还允许管理员导入用户参与数据，并自动跟踪学习者完成记录。
 
 Adobe Learning Manager希望为学习者提供持续的、自我指导的学习机会，重点放在领导力和软技能上。 管理员使用getAbstract连接器将组织的getAbstract帐户连接到Adobe Learning Manager，而不是在内部开发所有内容。
 
@@ -26,12 +27,12 @@ Adobe Learning Manager希望为学习者提供持续的、自我指导的学习�
 
 ## 先决条件
 
-- 在配置连接器之前，请确保已为您的帐户启用&#x200B;**迁移**&#x200B;功能。
+- 在配置帐户之前，请确保已为您的连接器启用&#x200B;**迁移**&#x200B;功能。
 - 从您的getAbstract帐户代表获取&#x200B;**客户端ID**&#x200B;和&#x200B;**客户端密钥**。 检索课程元数据和用户使用数据时需要这些凭据。
 
 ## 配置 getAbstract 连接器
 
-getAbstract连接器使Adobe Learning Manager管理员能够集成来自getAbstract的高质量精选内容，从而增强学习体验。
+getAbstract连接器可让Adobe Learning Manager管理员通过集成getAbstract中的高质量精选内容来增强学习体验。
 
 配置getAbstract连接器：
 
@@ -113,7 +114,7 @@ getAbstract连接器使Adobe Learning Manager管理员能够集成来自getAbstr
 6. 键入同步应在几天后重复。
 7. 选择&#x200B;**“保存”**。
 
-将保存同步设置。 连接器将按计划运行，并将数据从getAbstract导入Adobe Learning Manager。
+将保存同步设置。 该连接器将按计划运行，并将数据从getAbstract导入Adobe Learning Manager。
 
 ## 运行按需同步
 
@@ -162,7 +163,7 @@ getAbstract连接器使Adobe Learning Manager管理员能够集成来自getAbstr
 
 - 在指定的同步日期内，有效的用户源文件必须位于getAbstract FTP文件夹中。
 - 文件应遵循命名格式：
-   - report_export_yyyy_MM_dd_HHmmss.xlsx或，
-   - report_export_yyyy_MM_dd.xlsx
+  - report_export_yyyy_MM_dd_HHmmss.xlsx或，
+  - report_export_yyyy_MM_dd.xlsx
 
-下载[示例getAbstract用户订阅源文件](https://experienceleague.adobe.com/docs/learning-manager/assets/report-export-20170401175342.xlsx?lang=zh-Hans)以了解格式。
+下载[示例getAbstract用户订阅源文件](https://experienceleague.adobe.com/docs/learning-manager/assets/report-export-20170401175342.xlsx?lang=en)以了解格式。

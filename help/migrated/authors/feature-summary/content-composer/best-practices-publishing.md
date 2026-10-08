@@ -2,13 +2,14 @@
 description: 在Content Composer中生成课程的最佳实践 — 编写学习目标、查看大纲、限制AI输出和使用组件。
 jcr-language: en_us
 title: 从内容书写器发布到ALM的最佳实践
-source-git-commit: bd8c9be016595799695cee675a1e3eeef5722c07
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '160'
 ht-degree: 0%
-
 ---
-
 
 # 从内容书写器发布到ALM的最佳实践
 

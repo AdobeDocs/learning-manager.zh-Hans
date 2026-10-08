@@ -2,13 +2,14 @@
 description: 了解如何使用iframe在应用程序中嵌入学习者助手，包括设置、配置和事件处理
 jcr-language: en_us
 title: 通过嵌入iFrame集成“学习者助手”
-source-git-commit: 1549a4592b7a930631dcff6b2e75ec3a3d4f5592
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '719'
 ht-degree: 1%
-
 ---
-
 
 # 使用iframe嵌入学习者助理
 
@@ -32,7 +33,7 @@ Adobe Learning Manager (ALM)用户可以将&#x200B;**学习者助理**&#x200B;�
 在开始之前，请确保您已完成：
 
 * 已启用学习者助理的ALM租户。 从管理员设置页面配置所需目录。
-* 用于对学习者（或管理员）会话进行身份验证的有效accessToken。 要生成访问令牌，请按照[使用OAuth 2.0](https://experienceleague.adobe.com/zh-hans/docs/learning-manager/using/integration/developer-manual#authentication-using-oauth-20)进行身份验证页面上的说明进行操作。 该页面包含进行身份验证并生成继续操作所需的访问令牌所需的步骤。
+* 用于对学习者（或管理员）会话进行身份验证的有效accessToken。 要生成访问令牌，请按照[使用OAuth 2.0](https://experienceleague.adobe.com/en/docs/learning-manager/using/integration/developer-manual#authentication-using-oauth-20)进行身份验证页面上的说明进行操作。 该页面包含进行身份验证并生成继续操作所需的访问令牌所需的步骤。
 * 将`<iframe>`嵌入到应用程序中并通过浏览器的postMessage API与其通信的功能。
 * 父应用程序的前端代码所有权，因为您的应用程序必须侦听和响应来自嵌入式iFrame的消息。
 

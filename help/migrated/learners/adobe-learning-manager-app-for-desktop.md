@@ -4,13 +4,14 @@ jcr-language: en_us
 title: Adobe Learning Manager 桌面应用程序
 contentowner: kuppan
 exl-id: 3012ab23-e326-4e7c-b450-e33c046fd656
-source-git-commit: 864c3a4e60cf1bf1c049838fb2ba46ebbcb28ddf
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '1694'
 ht-degree: 79%
-
 ---
-
 # Adobe Learning Manager 桌面应用程序
 
 了解如何使用 Adobe Learning Manager 桌面应用程序来创建和丰富可在社交学习中共享的内容。
@@ -199,7 +200,7 @@ Adobe Learning Manager 桌面应用程序主要面向使用 Adobe Learning Manag
 
 无论学习者是否已登录 Adobe Learning Manager 网页版应用程序，Adobe Learning Manager 的通知窗口中皆会显示相关通知。 通知中会包括用户已创建、正在关注或已参与的帖子或讨论区。 单击通知会将用户导航到 Adobe Learning Manager 社交学习网页。
 
-要将通知静音，请单击&#x200B;**[!UICONTROL 配置文件菜单*]* > &#x200B;** [!UICONTROL 设置] > **[!UICONTROL 将通知静音]**。
+要将通知静音，请单击**[!UICONTROL 配置文件菜单*]* > **[!UICONTROL 设置] > **[!UICONTROL 将通知静音]**。
 
 ## Adobe Learning Manager 桌面应用程序中的设置 {#settingsinadobecaptivateprimedesktopapplication}
 

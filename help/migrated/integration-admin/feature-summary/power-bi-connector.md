@@ -1,21 +1,22 @@
 ---
-description: 了解如何将Power BI连接器与Adobe Learning Manager集成
+description: 了解如何将连接器与Adobe Learning Manager集成
 jcr-language: en_us
 title: Power BI 连接器
 contentowner: mmanuel
-source-git-commit: 8a5212062c6b172b0e9d4f3faa2e66d26c5c2b56
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '1074'
 ht-degree: 4%
-
 ---
-
 
 # Adobe Learning Manager中的Power BI连接器
 
 ## 简介
 
-通过Power BI连接器，可将Adobe Learning Manager与MicrosoftPower BI（商业许可证）集成，以便分析、可视化和共享学习数据。
+通过连接器，可将Adobe Learning Manager与MicrosoftPower BI（商业许可证）集成，以便分析、可视化和共享学习数据。
 
 通过此集成，集成管理员可以自动将实时数据集（如学习者成绩单、用户技能和xAPI活动报告）直接导出到选定的Power BI工作区。
 
@@ -31,15 +32,15 @@ ht-degree: 4%
 - 确保您有权创建Power BI应用程序和工作区。
 - 获取您的&#x200B;**租户名称**、**应用程序客户端ID**、**应用程序客户端密钥**&#x200B;和&#x200B;**工作区ID**（可选）。
 
-## 配置Power BI连接器
+## 配置连接器
 
 要将ALM与Power BI连接：
 
 1. 以集成管理员身份登录Adobe Learning Manager.
-2. 将鼠标悬停在&#x200B;**Power BI**&#x200B;连接器图块上，然后选择&#x200B;**连接**。
+2. 将鼠标悬停在&#x200B;**Power BI**&#x200B;连接器磁贴上，然后选择&#x200B;**连接**。
 
    ![](assets/power-bi-connector1.png)
-   _选择“连接”以配置Power BI连接器_
+   _选择“连接”以配置连接器_
 
 3. 键入以下详细信息：
 
@@ -212,18 +213,18 @@ Adobe提供现成的Power BI模板，帮助您快速入门。
 
 - **现有连接：**
 
-   - 如果禁用了&#x200B;**学习路径**，则不包括任何相关的行或列。
-   - 如果启用，报告则包含注册学习者的学习路径（较高级别）。
+  - 如果禁用了&#x200B;**学习路径**，则不包括任何相关的行或列。
+  - 如果启用，报告则包含注册学习者的学习路径（较高级别）。
 
 - **新连接：**
 
-   - 如果禁用了“学习路径”，则各列会显示：
+  - 如果禁用了“学习路径”，则各列会显示：
 
-      - **嵌入式路径：**&#x200B;学习计划名称。
-      - 学习计划的&#x200B;**嵌入式路径ID：** ID。
-      - **嵌入式课程ID：**&#x200B;学习路径中的课程ID。
-   - 如果启用，**类型**&#x200B;列将在相关位置使用学习路径（更高级别）。
-   - 对于新连接，更改将在30天后应用。
+    - **嵌入式路径：**&#x200B;学习计划名称。
+    - 学习计划的&#x200B;**嵌入式路径ID：** ID。
+    - **嵌入式课程ID：**&#x200B;学习路径中的课程ID。
+  - 如果启用，**类型**&#x200B;列将在相关位置使用学习路径（更高级别）。
+  - 对于新连接，更改将在30天后应用。
 
 ### 在哪里查看您的数据**
 

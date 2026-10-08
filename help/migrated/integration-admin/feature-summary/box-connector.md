@@ -3,19 +3,20 @@ description: Adobe Learning Manager中的Box连接器
 jcr-language: en_us
 title: Box 连接器
 contentowner: mmanuel
-source-git-commit: 8a5212062c6b172b0e9d4f3faa2e66d26c5c2b56
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '894'
 ht-degree: 1%
-
 ---
-
 
 # Adobe Learning Manager中的Box连接器
 
 ## 简介
 
-Adobe Learning Manager中的&#x200B;**Box连接器**&#x200B;通过CSV文件自动导入和导出用户和学习数据，从而实现与外部系统的无缝集成。 外部系统可将CSV文件放入Adobe Learning Manager管理的Box帐户中的指定文件夹中，该文件会根据定义的计划自动处理。
+Adobe Learning Manager中的&#x200B;**Box连接器**&#x200B;可通过CSV文件自动导入和导出用户和学习数据，从而实现与外部系统的无缝集成。 外部系统可将CSV文件放入Adobe Learning Manager管理的Box帐户中的指定文件夹中，该文件会根据定义的计划自动处理。
 
 使用此连接器，管理员可以：
 
@@ -23,7 +24,7 @@ Adobe Learning Manager中的&#x200B;**Box连接器**&#x200B;通过CSV文件自�
 - 将用户技能数据和学习者成绩单导出到外部系统。
 - 从支持的第三方系统导入xAPI活动语句。
 
-此连接器支持属性映射、计划同步和按需执行，从而帮助组织跨平台维护最新的用户和学习数据。
+该连接器支持属性映射、计划同步和按需执行 — 帮助企业跨平台维护最新的用户和学习数据。
 
 ## 配置 Box 连接器
 
@@ -75,7 +76,7 @@ Adobe Learning Manager中的&#x200B;**Box连接器**&#x200B;通过CSV文件自�
 3. 在&#x200B;**映射属性**&#x200B;页面中：
    - 左侧显示Adobe Learning Manager中的必填字段。
    - 右侧显示CSV列名称。 最初，这一面是空的下拉菜单。
-   - 选择&#x200B;**选择CSV**&#x200B;以上传示例CSV文件。 这样将在右侧下拉列表中填充CSV中的列名称。 请参阅[本文](https://experienceleague.adobe.com/zh-hans/docs/learning-manager/using/integration/migration-manual#csv)以获取示例CSV。
+   - 选择&#x200B;**选择CSV**&#x200B;以上传示例CSV文件。 这样将在右侧下拉列表中填充CSV中的列名称。 请参阅[本文](https://experienceleague.adobe.com/en/docs/learning-manager/using/integration/migration-manual#csv)以获取示例CSV。
    - 将每个Adobe Learning Manager字段映射到相应的CSV列。
 
    ![](assets/box-connector2.png)
@@ -98,7 +99,7 @@ xAPI源配置可在外部学习系统与Adobe Learning Manager的活动跟踪之
 1. 导航至xAPI配置部分。
 2. 在配置列表中选择&#x200B;**添加新配置**。
 3. 键入&#x200B;**名称**&#x200B;和&#x200B;**源文件名**。
-   - 名称：此xAPI源的描述性标识符（例如，LMS集成或外部培训系统）。
+   - 名称：此xAPI来源的描述性标识符（例如，LMS集成或外部培训系统）。
    - 源文件名：将上传到Box文件夹的准确文件名（必须完全匹配，包括文件扩展名）。
 
    ![](assets/box-connector3.png)
@@ -174,6 +175,6 @@ _添加筛选器（可选）_
    - **持续时间：**&#x200B;处理所需的总时间
    - **导入类型：**&#x200B;是计划导入还是按需导入
    - **当前状态：**&#x200B;实时状态信息
-      - **正在进行：**&#x200B;导入当前正在运行
-      - **已完成：**&#x200B;成功完成，记录计数
-      - **失败：**&#x200B;诊断信息出错
+     - **正在进行：**&#x200B;导入当前正在运行
+     - **已完成：**&#x200B;成功完成，记录计数
+     - **失败：**&#x200B;诊断信息出错

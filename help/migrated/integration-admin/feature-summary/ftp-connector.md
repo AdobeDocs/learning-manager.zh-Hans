@@ -3,13 +3,14 @@ description: 了解如何将FTP连接器与Adobe Learning Manager集成
 jcr-language: en_us
 title: FTP 连接器
 contentowner: mmanuel
-source-git-commit: 8a5212062c6b172b0e9d4f3faa2e66d26c5c2b56
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '2008'
 ht-degree: 0%
-
 ---
-
 
 # Adobe Learning Manager中的FTP连接器
 
@@ -68,7 +69,7 @@ _多源集成_
 
 _xAPI导入_
 
-此连接器还支持xAPI (Experience API)语句。 从第三方学习系统导入这些内容，以跟踪和报告多个平台上的学习活动。
+该连接器还支持xAPI (Experience API)语句。 从第三方学习系统导入这些内容，以跟踪和报告多个平台上的学习活动。
 
 ### 从Adobe Learning Manager导出数据
 
@@ -100,10 +101,10 @@ _学员成绩单_
    ![](assets/ftp-connector1.png)
    _Adobe Learning Manager FTP连接器界面显示“开始使用”按钮_
 
-3. 选择“**下一步**”以继续进行FTP连接器设置向导。
+3. 选择“**下一步**”以继续执行“FTP连接器设置向导”。
 
    ![](assets/ftp-connector2.png)
-   _“配置”页面显示“下一步”按钮，以继续进行FTP连接器设置_
+   _“配置”页面显示“下一步”按钮以继续FTP连接器设置_
 
 ### 配置身份验证
 
@@ -178,7 +179,7 @@ FileZilla是一种免费的开源FTP客户端，为文件传输操作提供了�
 3. 在&#x200B;**映射属性**&#x200B;页面中：
    - **左侧**&#x200B;显示Adobe Learning Manager中的必填字段。
    - **右侧**&#x200B;显示CSV列名称。 最初，这一面是空的下拉菜单。
-   - 选择&#x200B;**选择CSV**&#x200B;以上传示例CSV文件。 这样将在右侧下拉列表中填充CSV中的列名称。 请参阅[此文章](https://experienceleague.adobe.com/zh-hans/docs/learning-manager/using/integration/migration-manual#csv)。
+   - 选择&#x200B;**选择CSV**&#x200B;以上传示例CSV文件。 这样将在右侧下拉列表中填充CSV中的列名称。 请参阅[此文章](https://experienceleague.adobe.com/en/docs/learning-manager/using/integration/migration-manual#csv)。
    - 将每个Adobe Learning Manager字段映射到相应的CSV列。
 
    ![](assets/ftp-connector6.png)
@@ -247,12 +248,12 @@ _映射字段_
    _为导入源添加映射_
 
 3. 默认情况下，映射以下必填字段：
-   - **actor.mbox：**&#x200B;这表示学习者（表演者）的电子邮件地址
-操作)。 它唯一地标识了活动执行者。
-   - **verb.id：**&#x200B;这是学习者执行的操作的标识符，例如
-已完成、已尝试或已通过。 它指定了学习者的操作。
-   - **object.id：**&#x200B;这表示学习者与之交互的学习对象或活动，
-例如课程、模块或学习路径。
+   - **actor.mbox：**这表示学习者（表演者）的电子邮件地址
+     操作)。 它唯一地标识了活动执行者。
+   - **verb.id：**这是学习者执行的操作的标识符，例如
+     已完成、已尝试或已通过。 它指定了学习者的操作。
+   - **object.id：**这表示学习者与之交互的学习对象或活动，
+     例如课程、模块或学习路径。
 4. 选择&#x200B;**添加新映射**&#x200B;以映射其他字段。
 5. 对于每个字段，选择适当的&#x200B;**数据类型**（字符串、数字、布尔值或日期）。
 6. 选择&#x200B;**保存**&#x200B;以完成映射。
@@ -308,9 +309,9 @@ _映射字段_
    - **持续时间：**&#x200B;处理所需的总时间。
    - **导入类型：**&#x200B;是计划导入还是按需导入。
    - **当前状态：**&#x200B;实时状态信息。
-      - **正在进行：**&#x200B;导入当前正在运行
-      - **已完成：**&#x200B;成功完成，记录计数
-      - **失败：**&#x200B;诊断信息出错
+     - **正在进行：**&#x200B;导入当前正在运行
+     - **已完成：**&#x200B;成功完成，记录计数
+     - **失败：**&#x200B;诊断信息出错
 
 ## 解决导入失败问题
 

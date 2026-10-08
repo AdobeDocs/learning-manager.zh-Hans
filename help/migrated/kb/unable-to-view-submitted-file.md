@@ -4,7 +4,10 @@ title: 无法查看在 Adobe Learning Manager 中提交的文件
 description: 讲师无法查看学员在提交活动模块中上传的文件。
 contentowner: nluke
 exl-id: b4a0af25-14ae-46f1-9afd-0bf2aace7fe2
-source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '205'
 ht-degree: 59%

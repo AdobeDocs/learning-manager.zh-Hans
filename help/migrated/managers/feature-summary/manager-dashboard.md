@@ -4,13 +4,14 @@ jcr-language: en_us
 title: 经理信息板
 contentowner: kuppan
 exl-id: 32d017bf-ee5a-4749-947d-0d62b32d6f38
-source-git-commit: 864c3a4e60cf1bf1c049838fb2ba46ebbcb28ddf
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '1507'
 ht-degree: 50%
-
 ---
-
 # 经理信息板
 
 了解如何通过经理信息板查看和跟踪学习情况。
@@ -133,7 +134,7 @@ _向学习者发送电子邮件_
 要下载报告，请执行以下步骤：
 
 1. 在经理应用中，转到&#x200B;**[!UICONTROL 合规性仪表板]** > **[!UICONTROL 团队视图]**。
-1. 选择&#x200B;**[!UICONTROL 下载报告]**&#x200B;以将仪表板另存为报告。
+1. 选择&#x200B;**[!UICONTROL 下载报告]**以将仪表板另存为报告。
 这样您就可以跟踪团队的整体学习进度。
 
 ![](assets/download-report.png)
@@ -234,7 +235,7 @@ On further clicking the values in the compliant, safe deadline, upcoming deadlin
 
    *选择配置超链接*
 
-1. 在配置弹出对话框中，对于要配置的技能，在&#x200B;**目标完成比例%**&#x200B;字段中输入百分比值，并在&#x200B;**目标日期**&#x200B;字段中输入希望达到目标完成比例%的日期。**&#x200B;**
+1. 在配置弹出对话框中，对于要配置的技能，在&#x200B;**目标完成比例%**&#x200B;字段中输入百分比值，并在&#x200B;**目标日期**&#x200B;字段中输入希望达到目标完成比例%的日期。****
 
    ![](assets/configure-tracker.png)
 

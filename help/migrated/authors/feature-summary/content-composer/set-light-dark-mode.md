@@ -2,13 +2,14 @@
 description: 了解如何使用工具栏切换功能在内容书写器中的浅色模式和深色模式之间切换，以及如何自动更新画布以反映所选模式。
 jcr-language: en_us
 title: 设置浅色模式或深色模式
-source-git-commit: 6c4ec330683920213b179b48957d0ae2ad46efef
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '65'
 ht-degree: 0%
-
 ---
-
 
 # 为课程设置浅色模式或深色模式
 

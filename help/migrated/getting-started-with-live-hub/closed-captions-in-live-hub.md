@@ -1,13 +1,14 @@
 ---
 title: Live Hub会话中的隐藏字幕
 description: 了解隐藏字幕如何实时显示口语内容，以便讲师和学习者可以在实时中心会话期间关注它们。
-source-git-commit: e5c05e030c1254b41d8a3197a168b6cd1aafb18b
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '205'
 ht-degree: 0%
-
 ---
-
 
 在实时中心会话期间，隐藏字幕会实时转录口语内容。 对话进行时，参与者会在屏幕上看到对话文本。 当音频不清晰时（例如，在嘈杂的环境中）或当参与者喜欢沿途阅读时，字幕很有用。 隐藏字幕在音频不清晰的情况下特别有用，例如在嘈杂的环境中，或者当参与者喜欢与讨论一起阅读时。
 

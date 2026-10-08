@@ -1,15 +1,16 @@
 ---
-description: 了解如何使用Adobe Learning Manager中的活动字段来捕获、整理和管理自定义用户信息。 通过灵活的字段配置改进报告、过滤和用户分段。
+description: 了解如何使用Adobe Learning Manager中的活动字段来捕获、整理和管理自定义用户信息。 通过灵活的字段配置改进报告、筛选和用户分段。
 jcr-language: en_us
 title: 在Adobe Learning Manager中配置活动字段
 exl-id: e68300d6-9f19-4e42-b485-c4bbbbcf5518
-source-git-commit: 77fddea1c5458485124b8f14d387a69c5ecd11a7
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '1080'
 ht-degree: 0%
-
 ---
-
 # 活动字段
 
 Adobe Learning Manager中的活动字段是自定义用户属性，可帮助管理员有效地整理和管理用户。 它们允许您捕获有关用户的额外信息，如部门、位置或职务。 管理员可以使用此数据更高效地创建用户组、个性化学习和过滤报告。
@@ -126,6 +127,6 @@ _用于在CSV上传期间启用值限制的复选框_
 
 如果CSV文件不包含所有活动字段，则管理员必须在导入后手动输入缺少的值。
 
-默认情况下，每个活动字段都必须映射到源CSV中的相应字段。 但是，如果您不想将特定的活动字段映射到CSV中的任何列，则可以在Box和FTP导入过程中从下拉列表中选择值&#x200B;**DontImportFromSource**。 通过FTP或Box连接器导入用户时，可使用此选项。 有关连接器的更多信息，请参阅此[文章](/help/migrated/integration-admin/feature-summary/connectors.md)。
+默认情况下，每个活动字段都必须映射到源CSV中的相应字段。 但是，如果您不想将特定的活动字段映射到CSV中的任何列，则可以在Box和FTP导入过程中从下拉列表中选择值&#x200B;**DontImportFromSource**。 通过FTP或Box连接器导入用户时，可使用此选项。 有关连接器的详细信息，请参阅此[文章](/help/migrated/integration-admin/feature-summary/connectors.md)。
 
 

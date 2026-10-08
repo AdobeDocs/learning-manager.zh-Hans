@@ -3,13 +3,14 @@ description: 了解Adobe Learning Manager 2026年4月版的新增功能和增强
 jcr-language: en_us
 title: Adobe Learning Manager 2026年4月版的新增功能
 exl-id: da46f186-3ff3-422a-af49-31c7405fd584
-source-git-commit: 87edde0d142a151322869fd967a8b17d9871fdc2
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '1802'
 ht-degree: 0%
-
 ---
-
 # Adobe Learning Manager 2026年4月版的新增功能
 
 **对于学习者：**&#x200B;流体播放器现在会显示下一个模块名称和清除“退出”按钮。
@@ -22,13 +23,13 @@ ht-degree: 0%
 
 为工作辅助、清单问题和视频文本轨道(VTT)提供多语言支持。 AI Assistant可帮助学习者在学习体验中获取答案。
 
-**对于管理员和作者：** Zoom连接器支持多个并发VILT会话。 配对帐户中的共享课程会显示真实作者，而不是“外部作者”。 管理员可以限制模块可以启动的时间。 学习者API中会显示学习对象到期日期。 清单模块支持加权评分、多语言问题文本和可选的审阅者评论。 自定义证书提供了一个具有动态字段和AI生成背景的拖放编辑器。 利用未登录的Experience Builder，您无需登录即可构建公共学习页面。
+**对于管理员和作者：** Zoom连接器支持多个并发VILT会话。 配对帐户中的共享课程会显示真实作者，而不是“外部作者”。 管理员可以限制模块可以启动的时间。 学习对象到期日期在学习者API中公开。 清单模块支持加权评分、多语言问题文本和可选的审阅者评论。 自定义证书提供了一个具有动态字段和AI生成背景的拖放编辑器。 利用未登录的Experience Builder，您无需登录即可构建公共学习页面。
 
 **对于讲师：**&#x200B;为实例注册和会话出席情况生成二维码。 在清单评估期间添加评论或反馈。
 
 **报告和分析：** SCORM内容现在可以在L2报告中报告多次测试尝试。 “学习者成绩单”中的计算所花费的学习时间得到改进。 管理员的学习成绩单报告已更新。 提供了高级搜索增强功能。
 
-**登录方法：**&#x200B;了解OpenID Connect如何在Adobe Learning Manager中为学习者、作者和管理员登录。 OpenID Connect (OIDC)是基于Web标准构建的通用登录方法。 许多组织使用
+**登录方法：**了解OpenID Connect如何在Adobe Learning Manager中为学习者、作者和管理员登录。 OpenID Connect (OIDC)是基于Web标准构建的通用登录方法。 许多组织使用
 员工和合作伙伴的身份提供方（例如Okta、Google Workspace或Microsoft Entra ID）。
 
 有关详细信息，请查看[使用OIDC登录](/help/migrated/oidc.md)。
@@ -76,7 +77,7 @@ ht-degree: 0%
 
 ## 对清单的多语言支持
 
-使用此功能，您可以用多种语言创建和管理清单模块。 每个清单问题、说明和评估标准都可以翻译，以便审阅者和学习者使用他们首选的语言与清单进行交互。 系统以用户选定的内容语言显示清单，这提高了全球团队的可访问性和合规性。
+使用此功能，您可以用多种语言创建和管理清单模块。 可以平移每个清单问题、说明和评估标准，以便审阅者和学习者使用他们首选的语言与清单进行交互。 系统以用户选定的内容语言显示清单，这提高了全球团队的可访问性和合规性。
 
 查看[在模块中创建多语言清单](/help/migrated/authors/feature-summary/courses.md#create-a-multi-language-checklist)
 
@@ -112,13 +113,13 @@ Experience Builder中的未登录体验允许组织向所有访问者（包括�
 
 ## 多语言工作辅助
 
-Adobe Learning Manager (ALM)中的多语言工作辅助允许作者和管理员在单个工作辅助条目中提供多种语言的支持文档、指南或资源。 不同区域的学习者可以访问其首选语言的相关材料，这可以提高理解、合规性和用户体验。
+Adobe Learning Manager (ALM)中的多语言工作辅助允许作者和管理员在单个工作辅助条目中提供多种语言的支持文档、指南或资源。 不同地区的学习者可以使用其首选语言访问相关材料，这可以提高理解、合规性和用户体验。
 
 查看[添加多语言工作辅助](/help/migrated/authors/feature-summary/job-aids.md#create-a-multilingual-job-aid)以了解更多信息。
 
 ## 多语言视频文本轨道(VTT)支持（适用于作者）
 
-Adobe Learning Manager对多语言视频文本轨道(VTT)的支持使作者能够为多语言视频和音频内容提供字幕和字幕。 此功能可简化本地化，使培训面向全球受众，并确保遵守辅助功能标准。 作者可以直接在平台内自动生成、翻译、审阅和编辑VTT文件。
+Adobe Learning Manager对多语言视频文本轨道(VTT)的支持使作者能够为多语言视频和音频内容提供字幕和字幕。 此功能可简化本地化，使培训面向全球受众，并确保遵守辅助功能标准。 作者可以直接在平台内自动生成、平移、审阅和编辑VTT文件。
 
 有关详细信息，请查看[多语言VTT支持](/help/migrated/authors/feature-summary/content-library.md#multi-lingual-vtt-support)。
 

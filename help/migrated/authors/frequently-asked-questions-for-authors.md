@@ -4,13 +4,14 @@ title: 作者常见问题解答
 description: Adobe Learning Manager作者的常见问题解答
 contentowner: admin
 exl-id: 11abbf52-e381-46be-8b33-30abe62b8015
-source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '1729'
 ht-degree: 77%
-
 ---
-
 # 作者常见问题解答
 
 <table>
@@ -43,10 +44,10 @@ ht-degree: 77%
 
 有关更多信息，请参阅[Adobe Learning Manager：来自Adobe Captivate的Publish模块9](http://primehelp.adobe.com/cn/publish-modules-from-adobe-captivate9/)视频。
 
-也可参阅Adobe Captivate 9 [帮助内容](http://helpx.adobe.com/cn/captivate/using/publish-project-to-captivate-prime.html)了解详细步骤。
+也可参阅Adobe Captivate 9 [帮助内容](http://helpx.adobe.com/captivate/using/publish-project-to-captivate-prime.html)了解详细步骤。
 
 注意\
-Adobe Captivate 9 [帮助内容](http://helpx.adobe.com/cn/captivate/using/publish-project-to-captivate-prime.html)位于Learning Manager帮助应用程序之外。
+Adobe Captivate 9 [帮助内容](http://helpx.adobe.com/captivate/using/publish-project-to-captivate-prime.html)位于Learning Manager帮助应用程序之外。
 
 +++
 

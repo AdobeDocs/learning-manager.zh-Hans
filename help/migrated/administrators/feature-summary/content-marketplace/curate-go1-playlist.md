@@ -3,7 +3,10 @@ description: 了解如何在Adobe Learning Manager中创建Go1播放列表并将
 jcr-language: en_us
 title: 策划Adobe Learning Manager学习路径的Go1播放列表
 exl-id: ab590c9b-80f3-4603-a8bb-430d3bb960a1
-source-git-commit: 5221f4bde68561d5253e7dfab789815e4cd55d49
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '1665'
 ht-degree: 0%
@@ -34,7 +37,7 @@ ht-degree: 0%
 
    * **[!UICONTROL 添加课程或学习路径]**：添加Adobe Learning Manager中可用的现有课程或学习路径。
    * **[!UICONTROL 从Go1监管内容]**：从Go1平台添加课程。
-6. 从Go1 **中选择**&#x200B;监管内容。
+6. 从Go1 ]**中选择**[!UICONTROL &#x200B;监管内容。
 
    ![替代文本](assets/select-go1-courses.png)
    _将Go1课程添加到您的销售工程师技能开发播放列表中，以使用精选的第三方内容扩展学习选项_

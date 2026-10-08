@@ -3,7 +3,10 @@ description: 了解如何将Salesforce连接器与Adobe Learning Manager集成
 jcr-language: en_us
 title: Salesforce 连接器
 contentowner: mmanuel
-source-git-commit: abd49abdde8ba8d957cd2c9dc34b9407d8e27d79
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '2251'
 ht-degree: 4%
@@ -361,7 +364,7 @@ Adobe Learning Manager应用程序支持与Adobe Learning Manager中的角色相
 
 **创建自定义配置文件**
 
-1. 导航到&#x200B;**设置**，然后选择&#x200B;**个用户。 &#x200B;**
+1. 导航到&#x200B;**设置**，然后选择**个用户。 **
 2. 选择&#x200B;**配置文件**。
 3. 单击&#x200B;**新建配置文件**。
 4. 根据现有配置文件为Adobe Learning Manager用户量身定制，创建自定义配置文件。

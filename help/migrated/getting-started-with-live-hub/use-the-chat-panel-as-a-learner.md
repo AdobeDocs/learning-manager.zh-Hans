@@ -1,13 +1,14 @@
 ---
 title: 以学习者身份在Live Hub中使用“聊天”面板
 description: 了解学习者如何在Live Hub会话期间访问、自定义和管理“聊天”面板中的消息，包括发送私人消息。
-source-git-commit: 907477a48c3d623ba4c79879d59afe44adf25fe3
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '506'
 ht-degree: 0%
-
 ---
-
 
 # 学习者可使用“聊天”面板
 

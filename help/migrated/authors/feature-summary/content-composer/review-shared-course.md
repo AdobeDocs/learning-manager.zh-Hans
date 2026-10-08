@@ -2,13 +2,14 @@
 description: 了解如何打开和审阅为获得反馈而共享的Content Composer课程，包括如何导航课程、添加注释、回复其他审阅人和标记其他审阅人。
 jcr-language: en_us
 title: 审阅共享项目
-source-git-commit: f95e4336d9b403f5803af175359893ceaa2a5daf
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '264'
 ht-degree: 0%
-
 ---
-
 
 # 审阅和评论共享项目
 

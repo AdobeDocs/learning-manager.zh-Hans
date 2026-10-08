@@ -1,13 +1,14 @@
 ---
 title: 在Live Hub中以学习者身份管理隐藏字幕
 description: 了解学习者如何在实时中心会话期间显示隐藏字幕并自定义其字体大小和字幕样式。
-source-git-commit: ca4b34807ed6ede51e3445c2345a4430dea1e3d7
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '279'
 ht-degree: 0%
-
 ---
-
 
 # 以学习者身份管理隐藏字幕
 

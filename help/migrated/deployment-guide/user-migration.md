@@ -5,13 +5,14 @@ title: Learning Manager部署指南 — 第2部分
 contentowner: sanm
 preview: true
 exl-id: 46e59790-dbc9-4c13-ae63-7bbdba5157a1
-source-git-commit: 864c3a4e60cf1bf1c049838fb2ba46ebbcb28ddf
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '2257'
 ht-degree: 63%
-
 ---
-
 # Learning Manager部署指南 — 第2部分
 
 ## 技术设置 {#technicalsetup}
@@ -26,11 +27,11 @@ Learning Manager帐户技术设置主要适用于企业用户。 本文档将介
 
    ![](assets/configure-sso-step1.png)
 
-1. 根据您的用户类型，选择&#x200B;**[!UICONTROL **&#x200B;内部用户&#x200B;**&#x200B;或**&#x200B;外部用户&#x200B;**。]**
+1. 根据您的用户类型，选择&#x200B;**[!UICONTROL **&#x200B;内部用户&#x200B;**或**&#x200B;外部用户&#x200B;**。]**
 
 
 
-1. 从&#x200B;**[!UICONTROL **&#x200B;登录&#x200B;**]**&#x200B;下拉字段中，选择&#x200B;**[!UICONTROL **单点登录**。]**
+1. 从&#x200B;**[!UICONTROL **&#x200B;登录&#x200B;**]**下拉字段中，选择&#x200B;**[!UICONTROL **单点登录**。]**
 
    ![](assets/configure-sso-step3.png)
 
@@ -38,13 +39,13 @@ Learning Manager帐户技术设置主要适用于企业用户。 本文档将介
 
    ![](assets/configure-sso-step4.png)
 
-1. 在&#x200B;**&#x200B;**&#x200B;[!UICONTROL “IDP 启动的身份验证 URL”]&#x200B;**&#x200B;**&#x200B;字段中，输入服务提供商提供的身份验证 URL。
+1. 在&#x200B;****[!UICONTROL “IDP 启动的身份验证 URL”]****&#x200B;字段中，输入服务提供商提供的身份验证 URL。
 
 
 
    ![](assets/configure-sso-step5.png)
 
-1. 单击&lbrace;2 **&#x200B;**&#x200B;IDP元数据XML文件&#x200B;**&#x200B;**&#x200B;**&#x200B;**字段旁边的[!UICONTROL **“上传”**]&#x200B;**，然后上传XML文件。**
+1. 单击{2 **** IDP元数据XML文件&#x200B;**]******字段旁边的[!UICONTROL **“上传”**]**，然后上传XML文件。**[!UICONTROL 
 1. 单击&#x200B;**[!UICONTROL **&#x200B;保存&#x200B;**。]**
 1. 已成功为您的帐户配置 SSO 身份验证。 您应能使用SSO登录Learning Manager帐户。
 
@@ -74,12 +75,12 @@ Learning Manager允许您通过逐步向导在迭代Sprint中迁移现有LMS。 
 
 在开始迁移过程之前，必须执行以下先决条件：
 
-* 从现有LMS中提取数据和内容，并将数据转换为Learning Manager定义的文件格式。
+* 从现有LMS中提取数据和内容，并将数据变换为Learning Manager定义的文件格式。
 * 使用 FTP 和 BOX 连接器导入用户。 集成管理员必须确保在迁移过程之前已配置连接器。
 
 
 
-***建议管理员在将数据和内容迁移到Learning Manager生产环境之前，先在试用帐户中尝试迁移过程。 &#x200B;***
+***建议管理员在将数据和内容迁移到Learning Manager生产环境之前，先在试用帐户中尝试迁移过程。 ***
 
 ### 评估和导出数据 {#evaluatingandexportingdata}
 
@@ -119,7 +120,7 @@ Learning Manager允许您通过逐步向导在迭代Sprint中迁移现有LMS。 
 <table> 
  <tbody> 
   <tr> 
-   <th width="7%" valign="top"><p><strong>数字</strong></p></th> 
+   <th width="7%" valign="top"><p><strong>编号</strong></p></th> 
    <th width="29%" valign="top"><p><strong>Excel 工作表名称</strong></p></th> 
    <th width="31%" valign="top"><p><strong>内容描述</strong></p></th> 
    <th width="31%" valign="top"><p><strong>备注</strong></p></th> 
@@ -291,7 +292,7 @@ Learning Manager允许您通过逐步向导在迭代Sprint中迁移现有LMS。 
 
 ![](assets/set-up-a-box-account.png)
 
-在&#x200B;**&#x200B;**&#x200B;[!UICONTROL “输入电子邮件”]&#x200B;**&#x200B;**&#x200B;字段中，输入要从中接收连接至 Box 的登录说明的电子邮件 ID。
+在&#x200B;****[!UICONTROL “输入电子邮件”]****&#x200B;字段中，输入要从中接收连接至 Box 的登录说明的电子邮件 ID。
 
 单击&#x200B;**[!UICONTROL **&#x200B;连接&#x200B;**。]**
 
@@ -314,11 +315,11 @@ Learning Manager允许您通过逐步向导在迭代Sprint中迁移现有LMS。 
 
 在“迁移主页”中，系统会显示公司已创建的迁移项目。
 
-单击页面右上角的&#x200B;**[!UICONTROL **新建**]**&#x200B;可创建迁移项目。
+单击页面右上角的**[!UICONTROL **新建**]**可创建迁移项目。
 
-***如果您尚未创建FTP文件夹，系统将提示您创建一个FTP文件夹Exavault帐户。 在创建迁移项目之前，必须先完成这一步。 &#x200B;***
+***如果您尚未创建FTP文件夹，系统将提示您创建一个FTP文件夹Exavault帐户。 在创建迁移项目之前，必须先完成这一步。 ***
 
-在&#x200B;**&#x200B;**&#x200B;[!UICONTROL “创建新迁移项目”]&#x200B;**&#x200B;**&#x200B;页面中，指定项目名称。
+在&#x200B;****[!UICONTROL “创建新迁移项目”]****&#x200B;页面中，指定项目名称。
 
 ![](assets/migrating-the-content-1.png)
 
@@ -332,17 +333,17 @@ Learning Manager允许您通过逐步向导在迭代Sprint中迁移现有LMS。 
 
 指定 Sprint 的名称，并提供 Sprint 的描述。
 
-选中“**&#x200B;**&#x200B;[!UICONTROL 自上次运行后已添加或修改的用户”复选框]&#x200B;**&#x200B;**，以便将用户列表与Learning Manager应用程序同步。 如果要将内容和数据迁移到Learning Manager应用程序，则可能无需此操作。 然而，如果先前的 Sprint 迁移与最新的 Sprint 迁移之间存在时间差，则建议选择同步用户列表。 此步骤可让 Adobe Learning Manager 数据库与您的 LMS 用户保持同步。
+选中“****[!UICONTROL 自上次运行后已添加或修改的用户”复选框]****，以便将用户列表与Learning Manager应用程序同步。 如果要将内容和数据迁移到Learning Manager应用程序，则可能无需此操作。 然而，如果先前的 Sprint 迁移与最新的 Sprint 迁移之间存在时间差，则建议选择同步用户列表。 此步骤可让 Adobe Learning Manager 数据库与您的 LMS 用户保持同步。
 
 ***建议在迁移enrollment.csv和user_course_grade.csv时执行此同步步骤。 此步骤可使Learning Manager数据库与迁移数据库保持同步，并确保所有通过Sprint迁移其记录的用户在迁移数据库中均可用。***
 
 单击&#x200B;**[!UICONTROL **&#x200B;下一步&#x200B;**。]**
 
-单击&#x200B;**[!UICONTROL **开始**]&#x200B;**以使用上传的数据和内容开始进行Sprint迁移。 在开始“Sprint运行”之前，单击“**&#x200B;**[!UICONTROL 刷新]**&#x200B;**”，以便将FTP和内容文件夹与Learning Manager同步。
+单击**[!UICONTROL **开始**]**以使用上传的数据和内容开始进行Sprint迁移。 在开始“Sprint运行”之前，单击“****[!UICONTROL 刷新]****”，以便将FTP和内容文件夹与Learning Manager同步。
 
 ![](assets/migrating-the-content-3.png)
 
-在Sprint迁移过程中的任何时间点，单击&#x200B;**&#x200B;**&#x200B;[!UICONTROL 停止]&#x200B;**&#x200B;**&#x200B;可中止Sprint迁移。
+在Sprint迁移过程中的任何时间点，单击****[!UICONTROL 停止]****可中止Sprint迁移。
 
 系统会显示所有 Sprint 数据项和内容的迁移状态。 在迁移 Sprint 运行过程中，检查迁移的成功项和失败项数量。
 
@@ -352,13 +353,13 @@ Learning Manager允许您通过逐步向导在迭代Sprint中迁移现有LMS。 
 
 ![](assets/migrating-the-content-4.png)
 
-要查看迁移项目的所有Sprint列表，请单击左侧导览窗格中的&#x200B;**[!UICONTROL **Sprint**]**。 如以下示例快照所示，您可以查看所有 Sprint 的列表、每个 Sprint 的运行次数、开始日期、持续时间和完成状态。
+要查看迁移项目的所有Sprint列表，请单击左侧导览窗格中的**[!UICONTROL **Sprint**]**。 如以下示例快照所示，您可以查看所有 Sprint 的列表、每个 Sprint 的运行次数、开始日期、持续时间和完成状态。
 
 ![](assets/migrating-the-content-5.png)
 
-要查看迁移项目的所有Sprint列表，请单击左侧导览窗格中的&#x200B;**[!UICONTROL **Sprint**]**。 如以下示例快照所示，您可以查看所有 Sprint 的列表、每个 Sprint 的运行次数、开始日期、持续时间和完成状态。
+要查看迁移项目的所有Sprint列表，请单击左侧导览窗格中的**[!UICONTROL **Sprint**]**。 如以下示例快照所示，您可以查看所有 Sprint 的列表、每个 Sprint 的运行次数、开始日期、持续时间和完成状态。
 
-要查看迁移项目的所有Sprint列表，请单击左侧导览窗格中的&#x200B;**[!UICONTROL **Sprint**]**。 如以下示例快照所示，您可以查看所有 Sprint 的列表、每个 Sprint 的运行次数、开始日期、持续时间和完成状态。
+要查看迁移项目的所有Sprint列表，请单击左侧导览窗格中的**[!UICONTROL **Sprint**]**。 如以下示例快照所示，您可以查看所有 Sprint 的列表、每个 Sprint 的运行次数、开始日期、持续时间和完成状态。
 
 ***在将迁移项目标记为“完成”之前，请确保该项目的所有Sprint均已完成。 在将迁移项目标记为“完成”后，将无法返回该项目并在其中创建任何 Sprint， 也不能对该项目进行任何修改。 您只能创建另一个迁移项目并向其中添加Sprint。***
 

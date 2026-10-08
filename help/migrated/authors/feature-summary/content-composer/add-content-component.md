@@ -2,13 +2,14 @@
 description: 了解如何在“内容编辑器”中添加内容块 — 段落、图像、视频、翻转卡、可折叠面板、时间轴、选项卡、轮播、MCQ和真/假。
 jcr-language: en_us
 title: 添加内容组件
-source-git-commit: 68d15fa96588b2569c9b1cdb480e2ba9f31a1cf6
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '182'
 ht-degree: 0%
-
 ---
-
 
 # 添加内容组件
 
@@ -24,7 +25,7 @@ ht-degree: 0%
 | **图像** | 插图、屏幕截图、图表 |
 | **视频** | 嵌入的MP4或链接视频 |
 | **翻转卡** | 术语或定义对，显示交互 |
-| **图像网格** | 网格布局中的多个图像 |
+| **图像网格** | 一个网格布局中包含多个图像 |
 | **折叠面板** | 可展开的章节，分步步骤 |
 | **时间轴** | 顺序事件或流程步骤 |
 | **制表符** | 并行内容 — 比较、区域变体 |

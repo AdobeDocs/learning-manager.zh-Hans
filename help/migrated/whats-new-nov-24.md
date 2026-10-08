@@ -3,13 +3,14 @@ description: 了解Adobe Learning Manager 2024年11月版的新增功能和增�
 jcr-language: en_us
 title: 2024年11月新增功能摘要
 exl-id: 4dfe0e31-d202-4a6e-8c4f-43851218699f
-source-git-commit: e9a12b732e5c23aaafc174e3a3887a619c4d1b07
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '3307'
 ht-degree: 1%
-
 ---
-
 # 2024年11月新增功能摘要 {#new-features-summary}
 
 了解Adobe Learning Manager 2024年11月版的新增功能和增强功能。
@@ -268,7 +269,7 @@ Adobe Learning Manager现已在学习者应用程序中阻止包含禁止单词�
 
 * 数据类型应为字符串或数字，并且是可选字段。
 * 值应为`ALL`、`X`和`SELECTEDMODULES`。
-* X是一个整数值，它应大于0且小于模块的总数。
+* X是应大于0且小于模块总数的整数。
 * 如果将`completionCriteria`设置为`SELECTEDMODULES`，则需要在[course_module.csv](assets/course_module.csv)文件中标记必修模块。
 * 在`optionalCriteria`列中输入`TRUE`或`FALSE`。 如果将值设置为`TRUE`，则会将模块设置为必填。
 
@@ -551,7 +552,7 @@ curl -X POST --header 'Content-Type: application/vnd.api+json;charset=UTF-8' --h
 * 修复了从课程中删除会话时，组织者未收到电子邮件通知的问题。
 * 修复了从课程中删除并重新发布模块后，组织者不会收到会话取消电子邮件的问题。
 * 添加了在外部用户创建期间在电子邮件地址中包含特殊字符“+”和“ — ”的支持。
-* 修复了Marketo连接器统一报告同步在CSV记录值中包含双引号时失败的问题
+* 修复了连接器统一报告同步失败的问题（如果用户技能报告在CSV记录值中包含双引号）
 * 修复了`/skills`端点为Admin API返回正确状态，但学习者API持续显示不正确或缓存的数据的问题。
 * 修复了帐户未设置Go1连接器时，免费增值课程的Go1入门培训失败的问题。
 * 修复了学习路径(LP)中的课程在学习者已完成LP时无法通过迁移访问的问题。

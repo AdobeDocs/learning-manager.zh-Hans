@@ -1,19 +1,20 @@
 ---
 jcr-language: en_us
 title: 从外部来源导入技能
-description: 使用相应的连接器从内容提供商(例如LinkedIn和Go1)导入技能。  导入的技能将添加到Learning Manager中管理员定义的技能中，供作者在创建课程的工作流程中使用。
+description: 使用各自连接器从内容提供商（例如LinkedIn和Go1）导入技能。  导入的技能将添加到Learning Manager中管理员定义的技能中，供作者在创建课程的工作流程中使用。
 contentowner: saghosh
 exl-id: 3bcd8fc6-16e4-4f66-a5c6-15b3d606f0c2
-source-git-commit: d96b25245daadaa0f5a330bcf8a7ab5bba995876
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
-source-wordcount: '510'
+source-wordcount: '512'
 ht-degree: 0%
-
 ---
-
 # 从外部来源导入技能
 
-使用相应的连接器从内容提供商(例如LinkedIn和Go1)导入技能。 此增强功能是Learning Manager集成外部技能云和人才管理系统的能力目标的一部分。 导入的技能将添加到Learning Manager中管理员定义的技能中，供作者在创建课程的工作流程中使用。 此外，还增强了整个平台的技能搜索功能，以便在帐户拥有大量技能时提供更好的搜索体验。
+使用各自连接器从内容提供商（例如LinkedIn和Go1）导入技能。 此增强功能是Learning Manager集成外部技能云和人才管理系统的能力目标的一部分。 导入的技能将添加到Learning Manager中管理员定义的技能中，供作者在创建课程的工作流程中使用。 此外，还增强了整个平台的技能搜索功能，以便在帐户拥有大量技能时提供更好的搜索体验。
 
 ## 配置技能导入
 
@@ -36,7 +37,7 @@ ht-degree: 0%
 
 导入技能后，系统会将它们添加到从被选为技能源的源导入的学习资源中。 例如，如果您的技能来源是LinkedIn Learning，则从LinkedIn Learning导入的所有学习资源都将具备该资源提供的技能。 导入学习资源时，每个学习资源的默认积分为10个。
 
-#### 报告
+#### 报告的角色
 
 值为“内部”、“LinkedIn学习”、“Go1”的&#x200B;**Source**&#x200B;列，它指示技能导入的来源。
 

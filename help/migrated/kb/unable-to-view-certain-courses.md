@@ -4,13 +4,14 @@ title: 在创建认证时，无法查看目录下的某些课程
 description: 搜索特定课程以将其添加到认证时，无法在目录下查看该课程。
 contentowner: saghosh
 exl-id: 5f2095ee-2b7b-4638-95fb-e81b7f9be96e
-source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
-source-wordcount: '225'
+source-wordcount: '229'
 ht-degree: 84%
-
 ---
-
 # 在创建认证时，无法查看目录下的某些课程
 
 ## 问题
@@ -31,7 +32,7 @@ Adobe Learning Manager 中有三种注册类型：
 
 ## 经理批准
 
-此类课程必须经过经理批准。 学习者可以申请注册此类课程，但必须在经理批准后才能注册成功。 学习者申请注册此类课程时，经理会收到通知请求。经理批准后，此类课程才会显示学习者已注册。
+此类课程必须经过经理批准。 学习者可以申请注册此类课程，但必须在经理批准后才能注册成功。 学习者申请注册此类课程时，经理会收到通知请求。 经理批准后，此类课程才会显示学习者已注册。
 
 ## 经理指派
 

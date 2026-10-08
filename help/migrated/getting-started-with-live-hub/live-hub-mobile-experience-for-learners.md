@@ -1,13 +1,14 @@
 ---
 title: 以学习者身份使用移动设备上的实时中心(Beta)
 description: 了解Adobe Learning Manager移动应用程序中的学习者可以使用哪些实时中心功能，从加入会话到离开会话均可使用。
-source-git-commit: 055a04c6226146b1816241834a57ae4b1b8a1d2a
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '754'
 ht-degree: 0%
-
 ---
-
 
 # 以学习者身份使用移动设备上的实时中心(Beta)
 
@@ -24,7 +25,7 @@ ht-degree: 0%
 | **功能** | **移动体验** |
 |----|----|
 | 加入会话 | 从Adobe Learning Manager移动应用程序加入实时中心会话。 |
-| 音频和视频 | 打开或关闭麦克风和摄像头，然后选择可用的音频设备。 |
+| 音频和视频 | 打开或关闭麦克风和相机，然后选择可用的音频设备。 |
 | 聊天和提问 | 参与聊天对话并在会话期间提交问题。 |
 | 反应和举手 | 做出反应并举手与讲师互动。 |
 | 投票 | 响应会话期间发布的投票。 |
@@ -43,7 +44,7 @@ ht-degree: 0%
 在加入之前，您可以查看相机、麦克风和音频设备设置，以确保正确配置了这些设置。
 
 ![移动预加入屏幕](assets/mobile-pre-join-screen.png)
-*在加入移动设备上的Live Hub会话之前，请检查您的摄像机、麦克风和音频设备设置。*
+*在加入移动设备上的Live Hub会话之前，请检查您的相机、麦克风和音频设备设置。*
 
 >[!NOTE]
 >

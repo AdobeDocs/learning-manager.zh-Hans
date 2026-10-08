@@ -2,13 +2,14 @@
 description: 了解如何将完成的Content Composer课程发布到Adobe Learning Manager Content Library，包括如何设置项目名称、添加描述以及将课程作为准备好分配的模块发送。
 jcr-language: en_us
 title: 发布到 Adobe Learning Manager
-source-git-commit: 6c4ec330683920213b179b48957d0ae2ad46efef
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '278'
 ht-degree: 1%
-
 ---
-
 
 # Publish从Content Composer到Adobe Learning Manager的课程
 
@@ -32,7 +33,7 @@ ht-degree: 1%
 
    - 输入与您的Adobe Learning Manager帐户关联的&#x200B;**电子邮件**&#x200B;地址。
 
-   - 选择&#x200B;**授权**&#x200B;以登录并将课程连接到您的ALM帐户。
+   - 选择&#x200B;**授权**以登录并将课程连接到您的ALM帐户。
      ![](../assets/32_alm_connection_not_connected_authorize_updated.png)
 
    - 授权后，确认&#x200B;**状态**&#x200B;字段从&#x200B;**断开连接**&#x200B;更新为&#x200B;**已连接**。

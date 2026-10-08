@@ -2,13 +2,14 @@
 description: Content Composer专为需要快速创建结构化课程的作者、L&D管理员和经理而设计，无论他们是利用现有文档工作、转换主题专业知识，还是针对特定受众优化AI生成的内容。
 jcr-language: en_us
 title: 内容书写器适用对象
-source-git-commit: 7fffe3c9d7b001c5a75a27ffc54fcb4490caad63
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '133'
 ht-degree: 0%
-
 ---
-
 
 # Adobe Learning Manager内容书写器面向何人
 

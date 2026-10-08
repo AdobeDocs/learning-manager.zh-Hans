@@ -4,13 +4,14 @@ jcr-language: en_us
 title: 管理会话的学习者
 contentowner: shhivkum
 exl-id: 2f4f8589-2350-4683-a141-809084d6309a
-source-git-commit: 24f54599749bce60916a57634144b0ca7f6a6d10
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '1898'
 ht-degree: 47%
-
 ---
-
 # 管理会话的学习者
 
 阅读本文可了解如何管理与会者、为会话发送课程相关的电子邮件和提醒。
@@ -123,8 +124,8 @@ Adobe Learning Manager的新&#x200B;**[!UICONTROL 轮候表报告]**&#x200B;允�
 * 学习者使用移动设备扫描二维码。
 * Adobe Learning Manager会验证学习者和会话。
 * 基于QR代码类型：
-   * 学习者已注册课程实例，或者
-   * 届会的出席及完成情况均会予以记录
+  * 学习者已注册课程实例，或者
+  * 届会的出席及完成情况均会予以记录
 
 所有更新都会自动反映在学习者记录、成绩单和报告中。
 
@@ -147,9 +148,9 @@ Adobe Learning Manager的新&#x200B;**[!UICONTROL 轮候表报告]**&#x200B;允�
 * 当学习者或讲师注册教室或虚拟教室会话时，Learning Manager会发送日历邀请（ICS文件）。
 * 日历邀请包括：
 
-   * 会话日期和时间
-   * 会话详细信息
-   * 日历描述中的&#x200B;**直接会话加入链接**
+  * 会话日期和时间
+  * 会话详细信息
+  * 日历描述中的&#x200B;**直接会话加入链接**
 
   ![](assets/calendar-invite-session.png)
 

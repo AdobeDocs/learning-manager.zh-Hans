@@ -4,13 +4,14 @@ jcr-language: en_us
 title: 配对帐户
 contentowner: shhivkum
 exl-id: 251d0eeb-f5e8-4f70-a36c-dcecb4834042
-source-git-commit: 2604dc206de5f6e883c1073880348b2ab97b01c6
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '905'
 ht-degree: 51%
-
 ---
-
 # 配对帐户
 
 阅读本文，了解如何在 Adobe Learning Manager 中创建和管理配对帐户。
@@ -110,8 +111,8 @@ _显示配对帐户共享名额数的用户部分_
 
 * 从配对帐户共享课程后，Learning Manager会立即解析并显示源帐户中的&#x200B;**实际作者姓名**。
 * 此行为适用于：
-   * 新共享的课程
-   * 在引入此增强功能之前获取的课程
+  * 新共享的课程
+  * 在引入此增强功能之前获取的课程
 
 ### 追溯行为
 

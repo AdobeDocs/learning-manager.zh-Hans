@@ -4,7 +4,10 @@ title: 基于 AI 的推荐
 description: Learning Manager包含全新的学习者主页，该主页现代、更加以内容为导向并根据学习者的偏好进行个性化。 基于 AI 的学习推荐旨在提高学习者的参与度，并识别和弥补学习中的差距。
 contentowner: saghosh
 exl-id: 41d6576a-1b5e-40e2-9ab3-ffff5ebfb372
-source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '285'
 ht-degree: 74%

@@ -2,13 +2,14 @@
 description: 关于启用Gradebook，使其对作者和学习者可见的所有操作
 jcr-language: en_us
 title: 面向管理员的Gradebook
-source-git-commit: 2f1a64abe8be62bfc23da052232d6ceb1202ebad
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '1149'
 ht-degree: 0%
-
 ---
-
 
 # 启用帐户的gradebook可见性
 
@@ -18,7 +19,7 @@ ht-degree: 0%
 
 ## 此设置控制什么
 
-“**设置**”>“**常规**”中的“**渐变画册可见性**”设置确定是否允许作者在课程级别向学习者公开渐变画册。
+“**设置**”>“**常规**”中的“**Gradebook可见性**”设置确定是否允许作者在课程级别向学习者公开Gradebook。
 
 有关详细信息，请参阅[Gradebook可见性](/help/migrated/administrators/feature-summary/settings/basic-settings.md#gradebookvisibility)。
 

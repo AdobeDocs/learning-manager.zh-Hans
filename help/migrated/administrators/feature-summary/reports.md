@@ -4,7 +4,10 @@ jcr-language: en_us
 title: 报告
 contentowner: manochan
 exl-id: 31b176b7-4b8f-4851-a0c5-4eee58bceb41
-source-git-commit: 45d5507b118925f977db1425ef633184abcb98e7
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '9042'
 ht-degree: 54%
@@ -336,7 +339,7 @@ _合规性信息板 — 管理员视图_
    ![](assets/share-manager.png)
    _与经理共享合规性信息板_
 
-5. 从&#x200B;**[!UICONTROL 选择自定义合规性]**&#x200B;下拉菜单中选择合规性标签。
+5. 从&#x200B;**[!UICONTROL 选择自定义合规性]**下拉菜单中选择合规性标签。
 此选项将选择具有选定合规性标签的所有课程。
 6. 选择要与管理员共享的其他课程、学习路径或认证。
 7. 选择要共享仪表板的用户或用户组，然后选择&#x200B;**[!UICONTROL 共享]**。

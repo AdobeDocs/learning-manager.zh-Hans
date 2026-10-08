@@ -2,13 +2,14 @@
 title: Adobe Learning Manager管理帐户生命周期
 description: 本文档全面概述了Adobe Learning Manager (ALM)的安全帐户管理、配置以及符合FedRAMP建议的合规性功能。
 jcr-language: en-us
-source-git-commit: 06051e44c0a6bc8ae60e44272ba088f2f6ff281f
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '1706'
 ht-degree: 0%
-
 ---
-
 
 # Adobe Learning Manager安全建议
 
@@ -26,7 +27,7 @@ Adobe Learning Manager的两种特权帐户类型（“自定义管理员”和�
 ### 集成管理员：他们可以执行的操作：
 
 * 集成管理员在集成管理员>应用程序>注册中管理OAuth 2.0应用程序注册。 他们可从六个OAuth范围中选择一个，范围从学习者读取权限到管理员角色读取/写入权限。 管理员读/写范围通过API授予已注册应用程序与完全管理员相同的权限。
-* 集成管理员可配置FTP、SFTP、Salesforce、Workday和其他连接器，以导入用户记录、角色分配和课程完成，并将平台数据导出到外部系统。
+* 集成管理员可以配置FTP、SFTP、Salesforce、Workday以及其他导入用户记录、连接器分配、课程完成情况以及将平台数据导出到外部系统的系统。
 * 已注册应用程序的OAuth范围：所需的最低范围。 除非绝对必要，否则绝不要授予管理员角色读/写访问权限。
 * 集成管理员配置Webhook，以将实时ALM事件数据（注册、完成、角色更改）推送至外部URL。 已泄露或配置错误的Webhook端点存在数据导出风险。
 * 集成管理员可以配置LTI集成。 启用后，无法禁用LTI。 公开的LTI凭据允许从外部LMS平台未经授权访问课程内容。
@@ -53,7 +54,7 @@ Adobe Learning Manager的两种特权帐户类型（“自定义管理员”和�
 ### 集成管理员默认值：
 
 * API OAuth范围：选择满足集成要求的最严格的范围。 请勿将读/写权限授予仅需要学习者阅读权限的应用程序。
-* 连接器凭据、LTI凭据和Webhook URL：视为敏感机密 — 从不通过电子邮件共享或提交到源代码管理。
+* 连接器凭据、LTI凭据和Webhook URL：视为敏感机密 — 切勿通过电子邮件共享或提交到源代码管理。
 
 ## Adobe Learning Manager是否为管理员提供了一种将当前帐户设置与建议的安全默认设置进行比较的方法？
 
@@ -94,7 +95,7 @@ Adobe Learning Manager支持通过多种机制导出与安全相关的配置数�
 
 * ALM作业API支持按需生成CSV格式的用户报告（包括角色分配）。 外部合规性或SIEM工具可以计划和使用这些内容。
 
-有关详细信息，请参阅[Adobe Learning Manager - Application Developer手册](https://experienceleague.adobe.com/zh-hans/docs/learning-manager/using/integration/developer-manual)。
+有关详细信息，请参阅[Adobe Learning Manager - Application Developer手册](https://experienceleague.adobe.com/en/docs/learning-manager/using/integration/developer-manual)。
 
 ## Adobe Learning Manager是否提供可通过其以编程方式查看和调整与安全相关的设置的API？
 
@@ -119,16 +120,16 @@ Adobe Learning Manager提供了完整的REST API v2，允许使用OAuth 2.0身�
 ### 帐户配置检索
 
 * `GET /account` — 返回帐户级别配置，包括JSON格式的帐户设置数据，包括如下字段：
-   * `complianceLabelDefaultID`
-   * `showComplianceLabel`
-   * `custom_injections`
+  * `complianceLabelDefaultID`
+  * `showComplianceLabel`
+  * `custom_injections`
 
-### Adobe用户管理API(Admin Console层)
+### Adobe用户管理API（Admin Console层）
 
 * Adobe用户管理API (UMAPI)可让您以编程方式访问Admin Console操作：
-   * 用户配置
-   * 产品权利分配
-   * 在组织级别分配系统管理员角色
+  * 用户配置
+  * 产品权利分配
+  * 在组织级别分配系统管理员角色
 * UMAPI独立于ALM REST API，在Adobe组织级别运行。 使用它可以自动分配Admin Console角色和进行用户预配。
 
 ## Adobe Learning Manager是否以OSCAL、JSON或YAML等机器可读格式发布其安全配置指南（建议的默认值）？
@@ -152,29 +153,29 @@ Adobe Learning Manager会为每次产品更新保留一个公开可用的详细�
 
 * Adobe会为每个Adobe Learning Manager更新（例如，*更新100*、*更新99*）发布带编号的发行说明。
 * 这些内容发布于&#x200B;**Experience League**&#x200B;和文档：
-   * 新增功能
-   * 对现有设置的更改
-   * API添加和移除
-   * 连接器更改
-   * 已弃用的功能
+  * 新增功能
+  * 对现有设置的更改
+  * API添加和移除
+  * 连接器更改
+  * 已弃用的功能
 * 每个发行说明都包含一个专用部分，介绍&#x200B;**API更改**，其中列出：
-   * 新端点
-   * 已修改的响应字段
-   * 弃用
-   * 这些功能与安全相关的配置功能直接相关。
+  * 新端点
+  * 已修改的响应字段
+  * 弃用
+  * 这些功能与安全相关的配置功能直接相关。
 
 ### “新增功能”页面 — 按版本列出的功能摘要
 
 * 每个主要版本都有一个专用的&#x200B;**“新增功能”**&#x200B;页面，其中记录了具有上下文的新安全相关功能。
 * 记录的安全相关更新的示例包括：
-   * 自定义角色权限处理的更改
-   * 为自定义角色添加了CSV创建的权限可见性
-   * API速率限制更改
+  * 自定义角色权限处理的更改
+  * 为自定义角色添加了CSV创建的权限可见性
+  * API速率限制更改
 
 ### API弃用列表 — 已删除API功能的权威记录
 
 * Adobe维护一个专用的&#x200B;**API弃用**&#x200B;页，其中列出了所有已弃用和已删除的ALM API端点，包括每次弃用时所在的发行版本。
 * 与安全相关的弃用示例包括：
-   * 对`GET /users`终结点的排序和覆盖行为的更改
-   * 通知、报告日期过滤器要求
+  * 对`GET /users`终结点的排序和覆盖行为的更改
+  * 通知、报告日期过滤器要求
 

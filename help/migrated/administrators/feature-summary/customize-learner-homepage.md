@@ -4,13 +4,14 @@ title: 自定义学习者主页
 description: 管理员可以自定义学习者主页，使其更与时俱进、更以内容为导向且更加个性化。
 contentowner: saghosh
 exl-id: 1551d240-fa07-4b7b-a06e-61b2bd3bff74
-source-git-commit: 864c3a4e60cf1bf1c049838fb2ba46ebbcb28ddf
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '1159'
 ht-degree: 63%
-
 ---
-
 # 自定义学习者主页
 
 ## 概述 {#overview}
@@ -157,7 +158,7 @@ ht-degree: 63%
    <td>
     <p>由组织推荐</p></td>
    <td>
-    <p>启用后，此小组件将向特定用户组推荐培训。 每个用户组都可以定位到一项或多项培训，并且目标计划将基于时间范围。 <br></p>
+    <p>启用后，此小组件将向特定用户组推荐培训。 每个用户组都可以定位到一项或多项培训，并且目标计划将基于时间帧。 <br></p>
     <ul>
      <li>
       <p>首先，管理员<a href="announcements.md#recommendation">会创建“<b>推荐用</b>”类型的公告</a>，然后选择必要的培训和用户组。 某个用户组的学习者将能查看推荐的培训。</p></li>

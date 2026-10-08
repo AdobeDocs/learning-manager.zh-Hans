@@ -3,13 +3,14 @@ jcr-language: en_us
 title: Adobe Connect 集成
 description: 作为学习者，如果您的公司集成了 Adobe Connect 与 Adobe Learning Manager 帐户，那么您就可以借助 Adobe Connect 来使用虚拟教室课程。 如果您无法使用 Adobe Connect，请联系公司的管理员。
 exl-id: bf071cb2-a955-4c2b-b156-54cdd78cbd68
-source-git-commit: 7babb0c2c656063871be5ae054c5d9f13423abba
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '342'
 ht-degree: 78%
-
 ---
-
 # Adobe Connect 集成
 
 作为学习者，如果您的公司集成了 Adobe Connect 与 Adobe Learning Manager 帐户，那么您就可以借助 Adobe Connect 来使用虚拟教室课程。 如果您无法使用 Adobe Connect，请联系公司的管理员。

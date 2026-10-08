@@ -3,13 +3,14 @@ title: Adobe Learning Manager — 安全设置和配置管理
 description: 本文档概述了Adobe Learning Manager的管理帐户类型、安全相关设置、推荐的安全默认值、API功能、导出功能、配置比较方法、发布实践和版本历史记录。 它提供了有关特权帐户如何操作、其安全含义以及如何在整个平台上支持配置管理的详细指导。
 jcr-language: en-us
 exl-id: a2e34104-c417-407f-af85-9f3f4b2a9fcb
-source-git-commit: 77fddea1c5458485124b8f14d387a69c5ecd11a7
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '1945'
 ht-degree: 0%
-
 ---
-
 # 安全设置和配置管理
 
 本指南提供对Adobe Learning Manager (ALM)的FedRAMP建议（FRR-RSC-03至FRR-RSC-08）的详细回复。 它概述了安全最佳实践、推荐的安全默认值以及用于审核、导出和管理特权帐户设置的工具。 本文档专为管理员和合规性团队而设计，旨在确保ALM帐户的安全配置和管理。
@@ -29,16 +30,16 @@ Adobe Learning Manager的两个特权帐户类型 — 自定义管理员和集�
 **集成管理员 — 他们可以操作哪些内容**：
 
 * 集成管理员在集成管理员>应用程序>注册中管理OAuth 2.0应用程序注册。 他们可从六个OAuth范围中选择一个，范围从学习者读取权限到管理员角色读取/写入权限。 管理员读/写范围通过API授予已注册应用程序与完全管理员相同的权限。
-* 集成管理员可以配置FTP、SFTP、Salesforce、Workday和其他连接器，它们可以导入用户记录、角色分配和课程完成，并将平台数据导出到外部系统。
+* 集成管理员可以配置FTP、SFTP、Salesforce、Workday以及其他导入用户记录、连接器分配和课程完成情况并将平台数据导出到外部系统的系统。
 * 集成管理员配置Webhook，以将实时ALM事件数据（注册、完成、角色更改）推送至外部URL。 已泄露或配置错误的Webhook端点存在数据导出风险。
 * 集成管理员可以配置LTI集成。 启用后，无法禁用LTI。
 
 **引用**：
 
-* [自定义角色 |Adobe Learning Manager](https://experienceleague.adobe.com/zh-hans/docs/learning-manager/using/admin/custom-role)
-* [通过CSV管理自定义角色 |Adobe Learning Manager](https://experienceleague.adobe.com/zh-hans/docs/learning-manager/using/integration/configure-role-csv-files)
-* [应用程序开发人员手册\| Adobe Learning Manager](https://experienceleague.adobe.com/zh-hans/docs/learning-manager/using/integration/developer-manual)
-* [Adobe Learning Manager连接器](/help/migrated/integration-admin/feature-summary/connectors.md)
+* [自定义角色 |Adobe Learning Manager](https://experienceleague.adobe.com/en/docs/learning-manager/using/admin/custom-role)
+* [通过CSV管理自定义角色 |Adobe Learning Manager](https://experienceleague.adobe.com/en/docs/learning-manager/using/integration/configure-role-csv-files)
+* [应用程序开发人员手册\| Adobe Learning Manager](https://experienceleague.adobe.com/en/docs/learning-manager/using/integration/developer-manual)
+* [连接器](/help/migrated/integration-admin/feature-summary/connectors.md)
 
 +++
 
@@ -65,13 +66,13 @@ Adobe Learning Manager记录了“管理员”角色和特权帐户类型的特�
 **集成管理员默认值**：
 
 * API OAuth范围：选择满足集成要求的最严格的范围。 请勿将读/写权限授予仅需要学习者阅读权限的应用程序。
-* 连接器凭据、LTI凭据和Webhook URL：视为敏感机密 — 从不通过电子邮件共享或提交到源代码管理。
+* 连接器凭据、LTI凭据和Webhook URL：视为敏感机密 — 切勿通过电子邮件共享或提交到源代码管理。
 
 **引用**：
 
-* [设置 |Adobe Learning Manager](https://experienceleague.adobe.com/zh-hans/docs/learning-manager/using/admin/custom-role)
-* [安全的用户身份验证和密码 |Adobe Admin Console](https://helpx.adobe.com/cn/enterprise/using/authentication-settings.html)
-* [自定义角色 |Adobe Learning Manager](https://experienceleague.adobe.com/zh-hans/docs/learning-manager/using/admin/custom-role)
+* [设置 |Adobe Learning Manager](https://experienceleague.adobe.com/en/docs/learning-manager/using/admin/custom-role)
+* [安全的用户身份验证和密码 |Adobe Admin Console](https://helpx.adobe.com/enterprise/using/authentication-settings.html)
+* [自定义角色 |Adobe Learning Manager](https://experienceleague.adobe.com/en/docs/learning-manager/using/admin/custom-role)
 
 +++
 
@@ -95,7 +96,7 @@ Adobe Learning Manager没有专用的比较仪表板，无法自动显示当前�
 
 **引用**
 
-* [应用程序开发人员手册 |Adobe Learning Manager](https://experienceleague.adobe.com/zh-hans/docs/learning-manager/using/integration/developer-manual)
+* [应用程序开发人员手册 |Adobe Learning Manager](https://experienceleague.adobe.com/en/docs/learning-manager/using/integration/developer-manual)
 
 +++
 
@@ -122,7 +123,7 @@ Adobe Learning Manager支持通过多种机制导出与安全相关的配置数�
 
 **引用**
 
-* [应用程序开发人员手册 |Adobe Learning Manager](https://experienceleague.adobe.com/zh-hans/docs/learning-manager/using/integration/developer-manual)
+* [应用程序开发人员手册 |Adobe Learning Manager](https://experienceleague.adobe.com/en/docs/learning-manager/using/integration/developer-manual)
 
 +++
 
@@ -156,7 +157,7 @@ Adobe Learning Manager目前不以计算机可读的格式发布其《安全配�
 
 没有公开可用的OSCAL组件定义、YAML基线或JSON策略文件编码为Adobe Learning Manager建议的安全默认值。
 
-需要自动将当前设置与推荐基线进行比较的客户应使用[ALM REST API](https://experienceleague.adobe.com/zh-hans/docs/learning-manager/using/integration/developer-manual)以JSON格式检索当前配置数据。
+需要自动将当前设置与推荐基线进行比较的客户应使用[ALM REST API](https://experienceleague.adobe.com/en/docs/learning-manager/using/integration/developer-manual)以JSON格式检索当前配置数据。
 
 +++
 
@@ -176,7 +177,7 @@ Adobe Learning Manager会为每次产品更新保留一个公开可用的详细�
 
 **ALM发行说明：编号、累积的更改历史记录**：
 
-* Adobe会为每个Adobe Learning Manager更新（例如，更新100、更新99）发布带编号的发行说明。 这些会在Experience League时发布，并记录所有新增功能、现有设置更改、API添加和移除、连接器更改以及已弃用的功能。
+* Adobe会为每个Adobe Learning Manager更新（例如，更新100、更新99）发布带编号的发行说明。 这些会在Experience League时发布，并记录所有新增功能、对现有设置所做的更改、API添加和移除、连接器更改以及已弃用的功能。
 * 每个发行说明都有一个专用的API更改部分，其中列出了与安全性相关配置功能直接相关的新端点、修改的响应字段以及弃用项。
 
 **新增功能页面：每个版本功能摘要**：
@@ -189,8 +190,8 @@ Adobe Learning Manager会为每次产品更新保留一个公开可用的详细�
 
 **引用**：
 
-* [Adobe Learning Manager发行说明](https://experienceleague.adobe.com/zh-hans/docs/learning-manager/using/introduction/release-notes)
-* [Adobe Learning Manager的新增功能](https://experienceleague.adobe.com/zh-hans/docs/learning-manager/using/introduction/whats-new-july-2024)
-* [Adobe Learning Manager中的API弃用](https://experienceleague.adobe.com/zh-hans/docs/learning-manager/using/introduction/api-deprecations-list)
+* [Adobe Learning Manager发行说明](https://experienceleague.adobe.com/en/docs/learning-manager/using/introduction/release-notes)
+* [Adobe Learning Manager的新增功能](https://experienceleague.adobe.com/en/docs/learning-manager/using/introduction/whats-new-july-2024)
+* [Adobe Learning Manager中的API弃用](https://experienceleague.adobe.com/en/docs/learning-manager/using/introduction/api-deprecations-list)
 
 +++

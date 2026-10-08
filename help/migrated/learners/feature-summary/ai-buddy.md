@@ -3,13 +3,14 @@ description: 学习者的AI Assistant (Beta)是Adobe Learning Manager中受GenAI
 jcr-language: en_us
 title: Adobe Learning Manager中面向学习者的AI助理
 exl-id: 8203488d-74a6-4463-9383-76d16cabccfa
-source-git-commit: 922e6bed551baca8ef0e9f6b8124fb26fcce97e6
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '1995'
 ht-degree: 0%
-
 ---
-
 # 面向学习者的AI助理
 
 学习者的AI Assistant (Beta)可帮助他们从指定的学习内容中快速查找答案，而无需浏览整个课程。 您可以用浅显的语言提出问题，并获得准确、重点突出的答复，并提供指向相关课程内容的源链接。
@@ -68,7 +69,7 @@ Adobe使用托管在Adobe私有VPC环境中的受信任的第三方处理服务�
 * 已获取的目录
 * 外部目录
 * 默认目录
-* 第三方内容库(例如LinkedIn Learning或Go1)
+* 第三方内容库（例如LinkedIn Learning或Go1）
 
 如果学习者无权访问课程或工作辅助，则AI Assistant不会显示这些内容中的信息，并且无法访问引文链接。
 
@@ -96,7 +97,7 @@ AI Assistant可帮助Marcus：
 
 ### 新员工入职
 
-詹妮弗刚加入公司，大量的培训材料令她不知所措。 她需要一种无需复习整个课程即可找到特定信息的方法。
+詹妮弗刚加入公司，培训的材料之多令她不知所措。 她需要一种无需复习整个课程即可找到特定信息的方法。
 
 AI助手帮助珍妮弗：
 

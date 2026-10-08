@@ -3,13 +3,14 @@ jcr-language: en_us
 title: 学习工具互操作性(LTI)
 description: 了解LTI集成ALM
 exl-id: 760c00fc-9f6e-450b-aad0-56f103424043
-source-git-commit: e4c3489db8207ead0416656161b918eba42f4582
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '1993'
 ht-degree: 1%
-
 ---
-
 # LTI集成
 
 ## 什么是LTI？
@@ -74,9 +75,9 @@ _LTI集成自定义角色_
 
 外部LMS管理员使用Adobe Learning Manager管理员共享的凭据注册Adobe Learning Manager并生成凭据。 这些凭据将添加到Adobe Learning Manager中，这是将Adobe Learning Manager设置为工具提供商的最后一步。 以下是外部LMS生成的凭据：
 
-* **[!UICONTROL 颁发者或平台ID]**：将LTI启动请求发送到工具提供程序的LMS或平台的唯一标识符。
-* **[!UICONTROL 客户端ID]**：LMS为授权目的分配给LTI工具的唯一标识符。
-* **[!UICONTROL 部署ID]**：将特定LTI工具部署链接到LMS以管理多个实例的标识符。
+* **[!UICONTROL 颁发者或平台ID]**：将LTI启动标识符发送到工具提供程序的LMS或平台的唯一请求。
+* **[!UICONTROL 客户端ID]**：LMS为授权目的分配给LTI标识符的唯一工具。
+* **[!UICONTROL 部署ID]**：将特定LTI标识符部署链接到LMS以管理多个实例的工具。
 * **[!UICONTROL 令牌URL]**： LMS请求访问令牌以验证和授权与LTI工具的交互的端点。
 * **[!UICONTROL 身份验证URL]**： LMS发送用户以验证和启动LTI连接的URL。
 * **[!UICONTROL 公钥URL]**：提供LTI工具使用的公钥的URL，用于验证安全令牌并确保安全通信。
@@ -120,7 +121,8 @@ _LTI集成自定义角色_
 
 ## Adobe Learning Manager作为LTI消费者 — 管理员工作流程
 
-作为LTI消费者，Adobe Learning Manager允许您使用外部LTI提供商提供的活动、工具、内容和小组件。要将Adobe Learning Manager添加为LTI消费者，您需要外部LTI提供商提供以下凭据：
+作为LTI消费者，Adobe Learning Manager允许您使用外部LTI提供商提供的活动、工具、内容和小组件。
+要将Adobe Learning Manager添加为LTI消费者，您需要外部LTI提供商提供以下凭据：
 
 * 启动登录 URL
 * 目标链接URL
@@ -164,7 +166,8 @@ LTI提供商为您提供启动链接或IMSCC文件，以将其课程添加到Ado
 4. 从LTI提供程序键入&#x200B;**[!UICONTROL 启动链接]**&#x200B;和&#x200B;**[!UICONTROL 自定义参数]**。
 5. 从&#x200B;**[!UICONTROL 工具提供商]**&#x200B;下拉菜单中选择您的[!UICONTROL LTI提供商]。
 6. 在&#x200B;**[!UICONTROL 添加到文件夹]**&#x200B;选项中搜索并选择&#x200B;**[!UICONTROL 公共]**。 课程因此可供所有作者使用。
-7. 选择&#x200B;**[!UICONTROL “保存”]**。创建内容后，您可以在创建课程时添加此内容。
+7. 选择&#x200B;**[!UICONTROL “保存”]**。
+创建内容后，您可以在创建课程时添加此内容。
 
 ### 使用LTI内容创建课程 — 作者工作流程
 

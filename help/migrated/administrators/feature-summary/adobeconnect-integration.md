@@ -4,13 +4,14 @@ title: Adobe Connect 集成
 description: 作者可以在创建课程的过程中使用 Adobe Connect 创建虚拟教室课程。 要为 Adobe Learning Manager 帐户启用 Adobe Connect，请与所在公司的管理员联系。
 contentowner: jayakarr
 exl-id: 13458f93-9ea7-4aab-8b33-3c4f4dd5886d
-source-git-commit: 857dddf46e3900fbe2db4e345da2d29050ef3c82
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '618'
 ht-degree: 57%
-
 ---
-
 # Adobe Connect 集成
 
 公司的管理员可以配置 Adobe Learning Manager 帐户设置以启用 Adobe Connect 集成。
@@ -70,7 +71,7 @@ ht-degree: 57%
 
 在Connect中设置虚拟教室会话时，Adobe Learning Manager支持从Adobe Connect选择研讨会房间。 以前，管理员只能选择会议室类型。 此功能使具有有效研讨会许可证的管理员能够在ALM中安排和管理一次性或大型活动（最多1,500名与会者）。
 
-有关研讨会会议室的详细信息，请参阅此[文章](https://helpx.adobe.com/cn/adobe-connect/using/creating-seminars.html)。
+有关研讨会会议室的详细信息，请参阅此[文章](https://helpx.adobe.com/adobe-connect/using/creating-seminars.html)。
 
 ### 支持访问会话分析
 

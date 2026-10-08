@@ -5,7 +5,10 @@ description: 本文档概述 Adobe Learning Manager 学习管理系统为残障�
 contentowner: saghosh
 preview: true
 exl-id: 1c26c12f-e63e-4d28-b28a-b1e3597d7ce1
-source-git-commit: 6f7442f2cfa4bc8c564e1eccc3a6aabf00958d77
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '959'
 ht-degree: 76%

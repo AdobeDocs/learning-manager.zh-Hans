@@ -3,13 +3,14 @@ jcr-language: en_us
 title: 在Adobe Learning Manager中提交外部学习
 description: 使用外部学习来记录您在Adobe Learning Manager之外完成的培训，例如研讨会、研讨会、认证或在线课程。 在您提交详细信息以供经理审核后，批准的活动会添加到您的“学习者成绩单”中。
 contentowner: saghosh
-source-git-commit: 2495d33fc1595bd962ba07988123e3563d4c69a0
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
-source-wordcount: '573'
-ht-degree: 2%
-
+source-wordcount: '604'
+ht-degree: 1%
 ---
-
 
 # 以学习者身份提交外部学习
 
@@ -61,14 +62,14 @@ ht-degree: 2%
 
    6. **分数：**&#x200B;如果培训包括评估，请输入您的分数。
 
-   7. **附件：**&#x200B;上传证书、转录文本或其他文档作为证据。支持的文件类型包括PDF、DOC、DOCX、PNG、JPEG和JPG。最大文件大小为50 MB。
+   7. **附件：**上传证书、转录文本或其他文档作为证据。 支持的文件类型包括PDF、DOC、DOCX、PNG、JPEG和JPG。 最大文件大小为50 MB。
       ![](assets/add-external-learning.png)
 
    8. 填写管理员配置的任何其他自定义字段。
 
 5. 选择&#x200B;**提交**。
 
-您的经理会收到应用程序内通知，告知有新的外部学习请求正在等待他们审核。您提交的内容显示在&#x200B;**外部学习**&#x200B;列表中，状态为&#x200B;**正在等待审阅**。
+您的经理会收到应用程序内通知，告知有新的外部学习请求正在等待他们审核。 您提交的内容显示在&#x200B;**外部学习**&#x200B;列表中，状态为&#x200B;**正在等待审阅**。
 <!--![](assets/submission-external-learning-list.png)-->
 
 >[!NOTE]

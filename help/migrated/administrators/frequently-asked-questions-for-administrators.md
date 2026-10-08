@@ -4,13 +4,14 @@ title: 管理员常见问题解答
 description: Adobe Learning Manager管理员常见问题解答
 contentowner: manochan
 exl-id: 8b113a4e-73f4-4cd5-982a-cefdf5388e91
-source-git-commit: 0dade561e53e46f879e22b53835b42d20b089b31
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '2548'
 ht-degree: 77%
-
 ---
-
 # 管理员常见问题解答
 
 <table>

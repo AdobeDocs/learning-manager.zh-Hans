@@ -4,13 +4,14 @@ jcr-language: en_us
 title: Adobe Learning Manager 中的社交学习
 contentowner: kuppan
 exl-id: 33bc4872-2092-45c4-ac57-f2cec2ca33fb
-source-git-commit: 3644e5d14cc5feaefefca85685648a899b406fce
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '3455'
 ht-degree: 76%
-
 ---
-
 # Adobe Learning Manager 中的社交学习
 
 了解学习者如何使用“社交学习”网页
@@ -245,7 +246,8 @@ ht-degree: 76%
 
 ### 为社交讨论区帖子中的用户添加标签
 
-您可以使用@username为帖子或评论中的特定讨论区成员添加标签。 标记仅限于有权访问该讨论区的会员。要为社交讨论区中的用户添加标签，请执行以下操作：
+您可以使用@username为帖子或评论中的特定讨论区成员添加标签。 标记仅限于有权访问该讨论区的会员。
+要为社交讨论区中的用户添加标签，请执行以下操作：
 
 1. 以学习者身份登录Adobe Learning Manager。
 2. 在左侧导览窗格中选择&#x200B;**[!UICONTROL 社交学习]**。

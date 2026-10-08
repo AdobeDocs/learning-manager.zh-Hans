@@ -4,13 +4,14 @@ title: Webhook
 description: 了解Webhook，以将课程注册、课程创建和其他信息等实时信息发送到特定URL
 contentowner: chandrum
 exl-id: 472aaf2b-9c2f-4f43-a791-2b2d81e69471
-source-git-commit: 1dd1c6751df7e4b3f1d0fb5df36705a6f8b46762
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
-source-wordcount: '1651'
+source-wordcount: '1648'
 ht-degree: 0%
-
 ---
-
 # Webhook
 
 ## 简介
@@ -287,12 +288,12 @@ Adobe Learning Manager提供了&#x200B;**Webhook事件**，每当&#x200B;**学�
 
 **触发下游工作流**，例如重新分配、通知或重新计算认证和徽章。
 
-**通过将事件Id、时间戳和eventInfo以及学习者和学习路径标识符记录下来，来维护审核记录**。
+**通过记录eventId、时间戳和eventInfo以及学习者和学习路径标识符来维护审核记录**。
 
 至少，Webhook处理程序应：
 
 验证负载并解析事件[]。
-使用eventName确定更改是&#x200B;**learnerinitiated**&#x200B;还是&#x200B;**admin/batchinitiated**。
+使用eventName确定更改是**learnerinitiated**&#x200B;还是&#x200B;**admin/batchinitiated**。
 
 使用userId、loId和loInstanceId查找并更新系统中的相应记录。
 如果同一事件被多次传递，则利用eventId可防止重复处理。

@@ -2,17 +2,18 @@
 description: 了解Content Composer如何处理Adobe Learning Manager中的课程更新 — 重新发布如何创建新的模块版本，以及ALM作者如何更新现有课程以使用最新版本。
 jcr-language: en_us
 title: Adobe Learning Manager中的模块版本控制
-source-git-commit: ea6d296fa99686136ab08d756a20570a4681d704
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '245'
 ht-degree: 0%
-
 ---
-
 
 # Adobe Learning Manager中的模块版本控制
 
-原始资料会随时间变化 — 策略会得到修订， SOP会获得新版本，宣传资料会得到更新。 内容书写器和ALM会作为版本更改而不是就地编辑来处理刷新，因此当您更新基础模块时，以前发布的课程会继续工作。
+源材料会随时间变化 — 策略会得到修订， SOP会获得新版本，宣传资料会得到更新。 内容书写器和ALM会作为版本更改而不是就地编辑来处理刷新，因此当您更新基础模块时，以前发布的课程会继续工作。
 
 重新发布时，Adobe Learning Manager会将现有模块上传为内容库中的新版本，并将模块的版本号增加1。
 

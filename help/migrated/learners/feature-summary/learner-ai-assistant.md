@@ -3,7 +3,10 @@ description: 使用Adobe Learning Manager中的AI Assistant从学习内容中快
 jcr-language: en_us
 title: Adobe Learning Manager中面向学习者的AI助理
 exl-id: 8203488d-74a6-4463-9383-76d16cabccfa
-source-git-commit: bcd217fd6bb48aaf475eb29a5de1f67ae862826a
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '3245'
 ht-degree: 0%
@@ -354,7 +357,7 @@ Adobe Learning Manager的Learning Assistant可以回答学习者针对平台上�
 
 >[!IMPORTANT]
 >
->作为先决条件，管理员必须向“学习者助理”添加所需的目录。 有关更多详细信息，请参阅[配置AI Assistant访问权限](https://experienceleague.adobe.com/zh-hans/docs/learning-manager/using/learner/learner-ai-assistant#configure-ai-assistant-access)。
+>作为先决条件，管理员必须向“学习者助理”添加所需的目录。 有关更多详细信息，请参阅[配置AI Assistant访问权限](https://experienceleague.adobe.com/en/docs/learning-manager/using/learner/learner-ai-assistant#configure-ai-assistant-access)。
 
 
 管理员将Go1或LinkedIn学习目录添加到Adobe Learning Manager时，目录内容会按照预定的摄取过程进行处理。 收录完成后，该目录中的学习对象将可供学习助手查询。

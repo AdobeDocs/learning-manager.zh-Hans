@@ -1,13 +1,14 @@
 ---
 title: 在Live Hub中创建和管理分组讨论
 description: 了解讲师如何在Live Hub会话中创建、配置、启动、监控和管理临时会议室，包括AI生成的会议室摘要和报告。
-source-git-commit: 0da79f36c305889cb70831f7791fddbd1f470da0
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '1387'
 ht-degree: 0%
-
 ---
-
 
 # 创建和管理分组讨论会话
 
@@ -31,7 +32,7 @@ ht-degree: 0%
 将打开“拆分”面板。 在此处，您可以配置分组讨论室、分配学习者以及管理分组讨论会话设置。
 
 >[!NOTE]
->如果分组会话未启动，请查看[&#x200B; Live Hub故障排除指南](../kb/troubleshooting-guide-for-live-hub.md#breakout-session-issues)，以了解常见错误消息的列表以及如何解决这些错误。
+>如果分组会话未启动，请查看[ Live Hub故障排除指南](../kb/troubleshooting-guide-for-live-hub.md#breakout-session-issues)，以了解常见错误消息的列表以及如何解决这些错误。
 
 ## 设计分组讨论
 

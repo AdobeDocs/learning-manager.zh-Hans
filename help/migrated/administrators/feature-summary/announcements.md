@@ -3,13 +3,14 @@ jcr-language: en_us
 title: 公告
 description: 公告是一种多媒体消息(文本、图像或视频)，由管理员向一组特定用户进行广播。
 exl-id: 313ac2c6-05c0-4941-8d71-9c664099bb5c
-source-git-commit: b01bf6bf89a3b9d860df712df1b7ef3a859407ed
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '1072'
 ht-degree: 67%
-
 ---
-
 # 公告
 
 公告是一种多媒体消息(文本、图像或视频)，由管理员向一组特定用户进行广播。

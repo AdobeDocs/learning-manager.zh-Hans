@@ -4,13 +4,14 @@ jcr-language: en_us
 title: 用户登录
 contentowner: manochan
 exl-id: 6e0c00fd-7964-43d9-ba95-3617dbc14f0f
-source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
-source-wordcount: '149'
-ht-degree: 59%
-
+source-wordcount: '151'
+ht-degree: 69%
 ---
-
 # 用户
 
 用户以经理身份登录 Adobe Learning Manager。
@@ -31,7 +32,7 @@ ht-degree: 59%
 
    如果忘记密码，请单击“忘记密码？” 链接并提供创建Adobe ID时所用的电子邮件ID。
 
-1. 或者，您可以通过单击“使用Enterprise ID登录”链接来使用Enterprise ID。
+1. 或者，可以单击“使用企业 ID 登录”链接来使用企业 ID。
 
 >[!NOTE]
 >

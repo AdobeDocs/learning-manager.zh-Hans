@@ -3,7 +3,10 @@ description: 了解如何将LinkedIn学习连接器与Adobe Learning Manager集�
 jcr-language: en_us
 title: 在ALM的LTI工具中嵌入深层链接
 contentowner: mmanuel
-source-git-commit: ecd80d3000694ddffb53d3d2fa5bbcdae49a88f4
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '948'
 ht-degree: 0%
@@ -102,7 +105,7 @@ LTI深度链接工作流程涉及以下角色：
 
    保存更改后，选择&#x200B;**选择内容**&#x200B;选项卡。 （只有在选中此复选框后，**选择内容**&#x200B;选项卡才会变为活动状态。）
 
-作者&#x200B;**&#x200B;**
+作者&#x200B;****
 
 作者可以从&#x200B;**选择内容**&#x200B;窗口中选择内容。 **选择内容**&#x200B;窗口显示&#x200B;**目录**、**课程计数**&#x200B;和&#x200B;**导出日期**。
 

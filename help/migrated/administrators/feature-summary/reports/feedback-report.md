@@ -3,7 +3,10 @@ description: 了解如何在Adobe Learning Manager中访问、下载和解释反
 jcr-language: en_us
 title: Adobe Learning Manager中的反馈报告
 exl-id: 6a54b5eb-f79d-406f-8125-1f18fdc0cbd3
-source-git-commit: 5221f4bde68561d5253e7dfab789815e4cd55d49
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '916'
 ht-degree: 7%
@@ -39,7 +42,7 @@ ht-degree: 7%
    ![](assets/select-feedback-report.png)
    _自定义报告部分显示选择“反馈报告”以访问学习者和经理反馈数据的选项_
 
-5. 选择&#x200B;**[!UICONTROL 所有培训]**&#x200B;或&#x200B;**[!UICONTROL 所选培训]**&#x200B;以及日期范围。 如果选择第二个选项，您最多可以添加10个课程或学习路径并生成反馈报告。 此外，您最多可以生成一年的报告。
+5. 选择&#x200B;**[!UICONTROL 所有培训]**&#x200B;或&#x200B;**[!UICONTROL 所选培训]**以及日期范围。 如果选择第二个选项，您最多可以添加10个课程或学习路径并生成反馈报告。 此外，您最多可以生成一年的报告。
    ![](assets/feedback-report.png)
    _通过选择培训范围、设置日期范围并在下载之前选择翻译选项来配置反馈报告_
 

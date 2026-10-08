@@ -2,13 +2,14 @@
 description: 了解开始使用Content Composer（一个Creative Cloud帐户、Google Chrome和可选源文档）之前，您需要什么来引导AI。
 jcr-language: en_us
 title: 开始之前需要的
-source-git-commit: bd8c9be016595799695cee675a1e3eeef5722c07
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '245'
 ht-degree: 0%
-
 ---
-
 
 # 开始之前
 
@@ -16,7 +17,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->您必须使用有效的Adobe Creative Cloud帐户登录。 如果您还没有免费帐户，可以通过Adobe Express创建一个免费帐户。 有关详细信息，请参阅[创建免费Adobe Express帐户](https://helpx.adobe.com/cn/express/web/adobe-express-subscription/free.html)。 创建Adobe凭据后，启动Content Composer并登录以开始创建课程。 如果您的组织已有Creative Cloud订阅，请联系您的管理员，以便在登录到Content Composer之前为您预配Creative Cloud帐户。
+>您必须使用有效的Adobe Creative Cloud帐户登录。 如果您还没有免费帐户，可以通过Adobe Express创建一个免费帐户。 有关详细信息，请参阅[创建免费Adobe Express帐户](https://helpx.adobe.com/express/web/adobe-express-subscription/free.html)。 创建Adobe凭据后，启动Content Composer并登录以开始创建课程。 如果您的组织已有Creative Cloud订阅，请联系您的管理员，以便在登录到Content Composer之前为您预配Creative Cloud帐户。
 
 为获得最佳内容书写器体验，建议使用&#x200B;**Google Chrome**。 Firefox和Safari可能在功能或行为上存在差异。
 
@@ -28,4 +29,4 @@ ht-degree: 0%
 
 * 源文档是可选的。 您无需上传任何文件即可继续，AI将根据您的输入生成内容。
 
-* 如果您已有教材，并且希望课程从中进行绘制，则可以在简介阶段中上传该教材。 支持的文件格式包括PDF、Markdown (.md)、PowerPoint (.pptx)等，每种格式最大100 MB。
+* 如果您已有现有材料，并且希望课程从中进行绘制，则可以在简短阶段中上传该课程。 支持的文件格式包括PDF、Markdown (.md)、PowerPoint (.pptx)等，每种格式最大100 MB。

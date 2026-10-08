@@ -4,13 +4,14 @@ jcr-language: en_us
 title: 学习方案
 contentowner: manochan
 exl-id: 99e3d2f5-0bf0-4f4e-8874-8136af7c592a
-source-git-commit: a01ec6117ad49a1f9af0b31d48ad19ddc8443dde
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '1640'
 ht-degree: 82%
-
 ---
-
 # 学习方案
 
 在 Adobe Learning Manager 中为管理员创建学习计划。
@@ -34,7 +35,7 @@ ht-degree: 82%
 
    ![](assets/add-learning-plandialog.png)
 
-1. 在&#x200B;**[!UICONTROL “Occurs when（执行时间）”]**&#x200B;下拉列表中，选择所需的事件。 管理员一次可以添加一个事件。
+1. 在&#x200B;**[!UICONTROL “Occurs when（执行时间）”]**下拉列表中，选择所需的事件。 管理员一次可以添加一个事件。
 这些选项可确定学习者参加课程的时间。 选择事件类型后，选择相应的培训、课程、学习方案或认证。
 
 >[!NOTE]

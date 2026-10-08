@@ -1,13 +1,14 @@
 ---
 title: 以讲师身份在Live Hub中分享您的屏幕
 description: 了解讲师如何共享屏幕、使用拆分视图、对共享内容进行批注以及允许学习者在实时中心会话期间共享其屏幕。
-source-git-commit: 664d164cce2a045d1834b520a2bd43b651e02e7e
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '929'
 ht-degree: 0%
-
 ---
-
 
 # 以讲师身份共享屏幕
 
@@ -113,7 +114,7 @@ ht-degree: 0%
 
 您可以在会话期间对共享内容进行批注，以突出显示重要信息、解释概念或为学习者提供直观的指导。 批注将应用于共享屏幕的快照。 它们专为实时解释而设计，可提供专注、无干扰体验。
 
-共享屏幕时，选择屏幕共享界面右上角的批注（钢笔）图标。 批注工具将自动出现在屏幕共享界面中。
+共享屏幕时，选择屏幕共享界面右上角的批注(笔)图标。 批注工具将自动出现在屏幕共享界面中。
 
 ### 使用批注工具
 

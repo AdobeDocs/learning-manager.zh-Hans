@@ -1,18 +1,19 @@
 ---
-description: 内容编辑器主题JSON架构中每个属性的完整参考，包括调色板令牌、字体栈栈、半径和间距令牌、文本角色值、组件属性和评估样式。
+description: 内容编辑器主题JSON架构中每个间距的完整参考，包括调色板令牌、字体堆叠、半径和角色令牌、文本角色值、组件属性和评估样式。
 jcr-language: en_us
 title: Adobe Learning Manager Content Composer主题JSON属性参考
-source-git-commit: ea6d296fa99686136ab08d756a20570a4681d704
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '1899'
 ht-degree: 5%
-
 ---
-
 
 # Adobe Learning Manager Content Composer主题JSON属性参考
 
-内容编辑器主题JSON文件中每个属性的完整参考，包括说明和示例值。
+内容编辑器主题JSON 文件中每个属性的完整参考，包括说明和示例值。
 
 用于标识和描述主题的顶级字段。
 
@@ -20,7 +21,7 @@ ht-degree: 5%
 
 | **属性** | **类型** | **描述** | **石板值** |
 |--------------|----------|----------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------|
-| ID | 字符串 | 唯一主题标识符。 小写、仅连字符、无空格或特殊字符。 在内部使用以引用主题。 | “石板” |
+| ID | 字符串 | 独特主题标识符。 小写、仅连字符、无空格或特殊字符。 在内部使用以引用主题。 | “石板” |
 | name | 字符串 | “课程主题”面板中显示的显示名称。 | “石板” |
 | 版本 | 字符串 | 语义版本号。 将“1.0.0”用于新主题。 | &quot;1.0.0&quot; |
 | 描述 | 字符串 | 主题视觉特性的简短描述。 | “温暖、权威的主题，带有奶油背景、Adobe红色调和Roboto Slab + Roboto字体系统” |
@@ -44,28 +45,28 @@ ht-degree: 5%
 
 ## **foundation.fonts**
 
-两个字体栈叠将应用于主题中的所有文本角色。 使用var(—font-heading)或var(—font-body)在元素值中进行引用。
+两种字体堆叠会应用于主题中的所有文本角色。 使用var(—font-heading)或var(—font-body)在元素值中进行引用。
 
 | **属性** | **类型** | **描述** | **石板值** |
 |--------------|-------------------|------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------|
-| 标题 | 字体栈栈字符串 | 课程标题、主题标题和显示标题的字体系列。 包括Web安全回退。 | “佐治亚州Roboto Slab， &#39;Times New Roman&#39;， serif” |
-| 正文 | 字体栈栈字符串 | 段落文本、字幕、测试问题和UI标签的字体系列。 包括Web安全回退。 | “Roboto，-apple-system， BlinkMacSystemFont， &#39;Segoe UI&#39;， sans-serif” |
+| 标题 | 字体堆叠字符串 | 课程标题、主题标题和显示标题的字体系列。 包括Web安全回退。 | “佐治亚州Roboto Slab， &#39;Times New Roman&#39;， serif” |
+| 正文 | 字体堆叠字符串 | 段落文本、字幕、测试问题和UI标签的字体系列。 包括Web安全回退。 | “Roboto，-apple-system， BlinkMacSystemFont， &#39;Segoe UI&#39;， sans-serif” |
 
-## **foundation.spacing**
+## **foundation.间距**
 
-用作基线的水平和垂直间距标记。 组件使用horizontalSpacingScale和verticalSpacingScale乘数从这些对象进行缩放。
+用作基线的水平和垂直间距令牌。 组件使用horizontalSpacingScale和verticalSpacingScale乘数从这些对象进行缩放。
 
 | **路径** | **类型** | **描述** | **石板值** |
 |---------------|----------|-------------------------------------|-----------------|
 | horizontal.xs | 像素值 | 最小水平间距单位 | 4px |
-| horizontal.s | 像素值 | 小水平间距单位 | 8px |
+| horizontal.s | 像素值 | 小型水平间距单位 | 8px |
 | horizontal.m | 像素值 | 中等水平间距单位 | 12px |
-| horizontal.l | 像素值 | 大水平间距单位 | 16px |
-| horizontal.xl | 像素值 | 超大水平间距单位 | 24px |
+| horizontal.l | 像素值 | 大型水平间距单元 | 16px |
+| horizontal.xl | 像素值 | 超大型水平间距单元 | 24px |
 | vertical.xs | 像素值 | 最小垂直间距单位 | 4px |
-| 垂直.s | 像素值 | 小垂直间距单位 | 8px |
+| 垂直.s | 像素值 | 小型垂直间距单位 | 8px |
 | vertical.m | 像素值 | 中等垂直间距单位 | 16px |
-| vertical.l | 像素值 | 大垂直间距单位 | 24px |
+| vertical.l | 像素值 | 大型垂直间距单位 | 24px |
 | vertical.xl | 像素值 | 超大垂直间距单位 | 32px |
 
 ## **foundation.radius**
@@ -109,7 +110,7 @@ ht-degree: 5%
 
 | **属性** | **类型** | **接受的值** | **描述** |
 |--------------------|-----------------------|--------------------------------------------------------------------|---------------------------------------------------------|
-| fontFamily | CSS变量或字体栈栈 | var(—font-heading)、var(—font-body)或完整的字体栈栈字符串 | 此文本角色的字体系列。 |
+| fontFamily | CSS变量或字体堆叠 | var(—font-heading)、var(—font-body)或完整的字体堆叠字符串 | 此文本角色的字体系列。 |
 | fontSize | 像素值 | 任何像素值 | 字体大小。 |
 | fontWeight | 字符串 | 仅“粗体”或“正常” — 不支持数值 | 字体粗细。 |
 | fontStyle | 字符串 | “normal”或“italic” | 字体样式。 |
@@ -190,8 +191,8 @@ ht-degree: 5%
 | **组件** | **属性** | **类型** | **描述** | **石板值** |
 |----------------|--------------------------|----------|------------------------------------------------------------------|-------------------------|
 | 段落块 | nestedAccentColor | CSS变量 | 段落块内嵌套元素的强调色 | var(—accent) |
-| 翻转卡 | cardFrontBackgroundColor | CSS变量 | 翻转卡正面的背景色 | var(—backgroundSubtle) |
-| 翻转卡 | cardBackBackgroundColor | CSS变量 | 翻转卡背面的背景色 — 显示颜色 | var(—accent) |
+| 翻转卡 | cardFrontBackgroundColor | CSS变量 | 翻转卡正面脸部的背景色 | var(—backgroundSubtle) |
+| 翻转卡 | cardBackBackgroundColor | CSS变量 | 翻转卡返回脸部的背景色 — 显示颜色 | var(—accent) |
 | 翻转卡 | arrowColor | CSS变量 | 翻转指示器箭头图标的颜色 | var(—textInverse) |
 | 选项卡 | activeBg | CSS变量 | 当前所选选项卡的背景色 | var(—accent) |
 | 选项卡 | inactiveBg | CSS变量 | 未选定选项卡的背景颜色 | var(—backgroundSubtle) |

@@ -1,13 +1,14 @@
 ---
 title: 以学习者身份参加分组讨论
 description: 了解在Live Hub分会会话中，学习者可能会遇到哪些情况，包括加入您的会议室、查看说明、与团队协作、向讲师寻求帮助以及查看会议室摘要。
-source-git-commit: 225b1f20930eb5acd8d6aa30d8448305b33adaa1
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '860'
 ht-degree: 0%
-
 ---
-
 
 # 参加分组讨论
 
@@ -32,7 +33,7 @@ ht-degree: 0%
 
 要查看活动提示，请执行以下操作：
 
-1. 如果&#x200B;**拆分**&#x200B;面板已关闭，请选择屏幕右下角的&#x200B;**拆分**（网格）图标。
+1. 如果&#x200B;**拆分**&#x200B;面板已关闭，请选择屏幕右下角的&#x200B;**拆分**(网格)图标。
 
 2. 选择&#x200B;**说明**&#x200B;以展开活动提示，例如“哪些类型的数据可以在Data Cloud中存储和统一？”
 

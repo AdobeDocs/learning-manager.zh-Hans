@@ -4,13 +4,14 @@ title: 应用程序开发人员手册
 description: 了解如何使用RESTful API集成和自定义应用程序，内容涵盖基本主题，例如OAuth 2.0身份验证、API使用场景和数据模型。 通过课程创建、学习者进度跟踪、技能表、认证、游戏等功能增强您的企业应用程序。 本指南提供分步说明和真实示例，帮助开发人员创建无缝且高效的工作流程。 非常适合希望利用Adobe Learning Manager功能创建以学习者为中心的应用程序的开发人员。
 contentowner: jayakarr
 exl-id: fa9313ac-67de-4467-9253-7eeabcf14204
-source-git-commit: f3df7e2defc479c270c16f91918903fb27560b19
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
-source-wordcount: '4415'
+source-wordcount: '4577'
 ht-degree: 6%
-
 ---
-
 
 # Adobe Learning Manager开发人员手册
 
@@ -54,14 +55,14 @@ Adobe Learning Manager提供了RESTful API，使开发人员能够有效地集�
    * **[!UICONTROL 描述]**：应用程序功能的简要描述。
    * **[!UICONTROL 范围]**：选择六个可用选项之一以定义应用程序的范围。 根据您在此处提到的选择，您的应用程序可访问Learning Manager API端点。 例如，如果选择“学习者角色”，则应用程序可以只读访问所有Learning Manager学习者API端点。
 
-      * 管理员角色读取/写入权限：允许应用程序以管理员身份访问或修改数据。
-      * 学习者角色读/写权限：允许应用程序访问或修改学习者的数据。
-      * xAPI读/写访问权限：使应用程序能够访问和发送Experience API (xAPI)语句。
+     * 管理员角色读取/写入权限：允许应用程序以管理员身份访问或修改数据。
+     * 学习者角色读/写权限：允许应用程序访问或修改学习者的数据。
+     * xAPI读/写访问权限：使应用程序能够访问和发送Experience API (xAPI)语句。
 
    * **[!UICONTROL 仅针对此帐户？]**
 
-      * **[!UICONTROL 是]** — 如果选择“是”，则其他帐户管理员无法看到该应用程序。
-      * **[!UICONTROL 否]** — 如果选择“否”，则其他帐户管理员也可以访问此应用程序，但他们需要使用应用程序ID来访问此应用程序。 应用程序 ID 会在 Adobe Learning Manager 应用程序编辑模式下生成并显示。
+     * **[!UICONTROL 是]** — 如果选择“是”，则其他帐户管理员无法看到该应用程序。
+     * **[!UICONTROL 否]** — 如果选择“否”，则其他帐户管理员也可以访问此应用程序，但他们需要使用应用程序ID来访问此应用程序。 应用程序 ID 会在 Adobe Learning Manager 应用程序编辑模式下生成并显示。
 
      ![替代文本](assets/register-an-app.png)
 
@@ -257,14 +258,14 @@ Adobe Learning Manager的管理员API允许管理员大规模地自动执行和�
 | 字段 | 选择特定属性以减少有效负载。 |
 | 筛选条件 | 缩小结果范围（例如，按ID、名称） |
 | 排序 | 排序结果。 |
-| 第[页&lbrace;限制]，第[页&lbrace;偏移] | 分页支持。 |
+| 第[页{限制]，第[页{偏移] | 分页支持。 |
 
 以下是每种情况的简要说明：
 
 ### 包括
 
-在构建自定义应用程序或无头LMS时，可使用Adobe Learning Manager API检索有用信息。该API端点还可以包括额外的“include”参数，以检索与默认接收的数据相关的额外信息。这些关系是数据模型关系，例如，在调用以获取用户详细信息时，您将收到用户信息以及经理ID与Adobe Learning Manager帐户ID的关系。使用include参数，您可以提取更多详细信息以及用户详细信息，例如其经理详细信息和Adobe Learning Manager帐户详细信息。
-简而言之，**include**&#x200B;参数在API调用中使用，用于在单个响应中获取相关（链接的）资源和主要资源。当您希望访问嵌套数据或相关数据（如课程模块或映射到学习者的技能）而不进行单独的API调用时，此功能非常有用。
+在构建自定义应用程序或无头LMS时，可使用Adobe Learning Manager API检索有用信息。 该API端点还可以包括额外的“include”参数，以检索与默认接收的数据相关的额外信息。 这些关系是数据模型关系，例如，在调用以获取用户详细信息时，您将收到用户信息以及经理ID与Adobe Learning Manager帐户ID的关系。 使用include参数，您可以提取更多详细信息以及用户详细信息，例如其经理详细信息和Adobe Learning Manager帐户详细信息。
+简而言之，**include**&#x200B;参数在API调用中使用，用于在单个响应中获取相关（链接的）资源和主要资源。 当您希望访问嵌套数据或相关数据（如课程模块或映射到学习者的技能）而不进行单独的API调用时，此功能非常有用。
 
 主要优点：
 
@@ -413,8 +414,8 @@ GET https://learningmanager.adobe.com/primeapi/v2/learningObjects/<courseID>?inc
   <td><br>subLOs.premiereLOs.enrollment</br><br>subLOs.subLOs.premiereLOs.enrollment</br><br>subLOs.enrollment.loResourceGrades</br><br>subLOs.subLOs.enrolllment.loResourcesGrades</br><br>subLOs.subLOs.insupplementalRoom resources</br><br>subLOs.enrollment</br><br>SubLOs.enrollment.loInstance.loResources.resources</br><br>subLOs.supplementaryLOs.instances.loResources.resources</br><br></br><br></br>
   </td>
   <td>
-  <br>instances.enrollment.loResourceGrades</br><br>enrollment.loInstance.loResources.resources</br>prerequisiteLOs</br><br>作者</br><br>instances.loResources.resources</br><br>supplementalLOs.instances.loResources.resources</br><br>supplementalResources</br><br>instances.badge</br><br>skills.skillLevel.badge</br><br>instances.skill</br><br>instances.resources.instances</br><br>instances.rollllluments
-  </br><br></br></td>
+  <br>instances.enrollment.loResourceGrades</br><br>enrollment.loInstance.loResources.resources</br>prerequisiteLOs</br><br>作者</br><br>instances.loResources.resources</br><br>supplementalLOs.instances.loResources.resources</br><br>supplementaryResources</br><br>instances.badge</br><br>skills.skillLevel.skill{1Resource.rogs</br><br>instances</br><br></br><br></br><br></br>
+  </td>
   </tr>
   </table>
 
@@ -913,7 +914,7 @@ PATCH https://learningmanager.adobe.com/primeapi/v2/users/<userID>
    ```
 
 5. 从响应中复制S3 URL。
-6. 将URL粘贴到浏览器中。浏览器会提示您保存或打开CSV文件。将文件保存在您的计算机上。
+6. 将URL粘贴到浏览器中。 浏览器会提示您保存或打开CSV文件。 将文件保存在您的计算机上。
 下载的文件包含以下各列：
 
 internalUserID、userEmail、customerDefinedUniqueUserId、name、managerEmail、userType、state、excludedFromGamification、pointsEarned、profile、roles、dateCreated、lastLoginDate、dateDeleted、uiLocale、contentLocale、timeZoneCode、userSource、group、Active fields、metadata和LastSocialActivityActivityDate。

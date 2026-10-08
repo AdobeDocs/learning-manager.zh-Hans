@@ -5,13 +5,14 @@ description: Adobe Learning Manager学习者常见问题解答
 contentowner: admin
 preview: true
 exl-id: 1c7ddf64-a6c3-4082-a20c-068e4a441b7b
-source-git-commit: f6e98e56cc03fa92464bf2ed277fcf6a71b4e0b4
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '2402'
 ht-degree: 78%
-
 ---
-
 # 学习者常见问题解答
 
 +++如何注册相关课程？
@@ -159,7 +160,7 @@ Adobe Learning Manager 推出了名为“徽章”的电子学习概念。 除�
 
 +++什么是学习计划？
 
-学习计划是一组专门设计的课程，旨在满足特定的学习者目标。 只有管理员可以为学习者创建学习计划。 当管理员为学习者指定学习计划实例后，就会在“计划”选项卡中看到该&#x200B;**计划**。 学习者还可以查看并自行注册所有自助注册类型的学习计划。
+学习计划是一组专门设计的课程，旨在满足特定的学习者目标。 只有管理员可以为学习者创建学习计划。 当管理员为学习者指定学习计划实例后，就会在“计划”选项卡中看到该**计划**。 学习者还可以查看并自行注册所有自助注册类型的学习计划。
 
 若要开始学习计划，请单击指定给您的计划。 您可以查看该特定计划的详细信息。
 

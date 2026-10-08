@@ -1,15 +1,16 @@
 ---
-description: 了解如何将Adobe Connect连接器与Adobe Learning Manager集成
+description: 了解如何将连接器与Adobe Learning Manager集成
 jcr-language: en_us
-title: Adobe Connect连接器
+title: 连接器
 contentowner: mmanuel
-source-git-commit: 8a5212062c6b172b0e9d4f3faa2e66d26c5c2b56
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '655'
 ht-degree: 2%
-
 ---
-
 
 # Adobe Learning Manager中的Adobe Connect连接器
 
@@ -25,7 +26,7 @@ Adobe Learning Manager与Adobe Connect集成以帮助您提供和管理虚拟教
 2. 将鼠标悬停在&#x200B;**Adobe Connect**&#x200B;磁贴上，然后选择&#x200B;**连接**。
 
    ![](assets/adobe-connect-connector1.png)
-   _选择“连接”以配置Adobe Connect连接器_
+   _选择“连接”以配置连接器_
 
 3. 键入以下详细信息：
 
@@ -110,12 +111,12 @@ Adobe Learning Manager可以从Adobe Connect会话中导入测验数据，并将
 
 - 会话结束后，Adobe Learning Manager会自动同步测验数据。
 - 测验导入工作流程在计划持续时间结束后开始。
-- 要跟踪进度，集成管理员可以在Adobe Connect连接器中检查&#x200B;**执行状态**。
+- 要跟踪进度，集成管理员可以在连接器中检查&#x200B;**执行状态**。
 - 导入完成后，状态将更新为&#x200B;**已完成**。
 
 然后，管理员可以查看导入的结果：
 
 - **考勤和评分：**&#x200B;查看最终测验分数和考勤。
 - **L2测验分数：**
-   - **按用户：**&#x200B;以分数和百分比显示各个分数。
-   - **按问题：**&#x200B;在报告图表中显示测验结果。
+  - **按用户：**&#x200B;以分数和百分比显示各个分数。
+  - **按问题：**&#x200B;在报告图表中显示测验结果。

@@ -1,25 +1,26 @@
 ---
-description: 了解如何将Marketo Engage连接器与Adobe Learning Manager集成
+description: 了解如何将连接器与Adobe Learning Manager集成
 jcr-language: en_us
 title: Marketo Engage 连接器
 contentowner: mmanuel
-source-git-commit: 8a5212062c6b172b0e9d4f3faa2e66d26c5c2b56
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '520'
-ht-degree: 3%
-
+ht-degree: 4%
 ---
-
 
 # Adobe Learning Manager中的Marketo Engage连接器
 
 ## 简介
 
-通过Marketo Engage连接器，Adobe Learning Manager可与营销自动化平台Marketo Engage无缝集成。 此集成可帮助营销人员通过将学习者行为数据与Adobe Learning Manager数据库同步来跟踪和处理来自Marketo的数据。
+通过连接器，Adobe Learning Manager可与营销自动化平台Marketo Engage无缝集成。 此集成可帮助营销人员通过将学习者行为数据与Adobe Learning Manager数据库同步来跟踪和处理来自Marketo的数据。
 
-该Marketo Engage连接器使两个系统之间的数据无缝同步，并允许营销人员使用学习活动数据来创建有针对性的营销活动。
+该连接器实现了两个系统之间的无缝数据同步，并允许营销人员使用学习活动数据来创建有针对性的营销活动。
 
-Marketo Engage连接器允许您：
+通过连接器，您可以：
 
 - 将用户添加到Adobe Learning Manager时，自动在Marketo Engage数据库中添加或更新潜在客户。
 - 在Marketo中将用户学习行为（例如课程注册、完成、技能分配和技能完成）同步为自定义对象。
@@ -33,9 +34,9 @@ Marketo Engage连接器允许您：
 - 将学习活动（注册、完成、技能成就）作为自定义对象导出到Marketo。
 - 按需计划或触发导出。
 - 支持统一报告，包括：
-   - 用户报告
-   - 学习成绩单
-   - 用户技能报告
+  - 用户报告
+  - 学习成绩单
+  - 用户技能报告
 
 ## 先决条件
 
@@ -54,13 +55,13 @@ Marketo Engage连接器允许您：
 
 ## 设置连接器
 
-要设置Marketo Engage连接器，请执行以下操作：
+要设置连接器，请执行以下操作：
 
 1. 以集成管理员身份登录Adobe Learning Manager.
 2. 将鼠标悬停在&#x200B;**Marketo Engage**&#x200B;磁贴上，然后选择&#x200B;**连接**。
 
    ![](assets/marketo-engage-connector1.png)
-   _选择“连接”以配置Marketo Engage连接器_
+   _选择“连接”以配置连接器_
 
 3. 键入所需的凭据
 
@@ -70,7 +71,7 @@ Marketo Engage连接器允许您：
    - Marketo Engage 域
 
    ![](assets/marketo-engage-connector2.png)
-   _键入Marketo Engage连接器的所需详细信息_
+   _键入连接器所需的详细信息_
 
 4. 选择&#x200B;**连接**&#x200B;以建立连接。
 

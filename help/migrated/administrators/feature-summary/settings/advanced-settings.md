@@ -3,18 +3,19 @@ description: 详细了解如何在Adobe Learning Manager中配置“高级设置
 jcr-language: en_us
 title: Adobe Learning Manager中的高级设置
 exl-id: 7047c89f-5f1c-4e0a-a908-20ef0eb9667d
-source-git-commit: 315eac47ba91a2a7abd5736bcc776a8672ad8044
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '2307'
 ht-degree: 1%
-
 ---
-
 # Adobe Learning Manager中的高级设置
 
 ## 目录标签
 
-Adobe Learning Manager中的目录标签用于标记学习对象（课程、认证、学习路径等） 具有特定字段和值。 这些标签可帮助您和作者有效地对内容进行分类和整理，从而更好地进行过滤、跟踪和报告。
+Adobe Learning Manager中的目录标签用于标记学习对象（课程、认证、学习路径等） 具有特定字段和值。 这些标签可帮助您和作者高效地对内容进行分类和整理，从而更好地进行筛选、跟踪和报告。
 
 有关详细信息，请参阅[Adobe Learning Manager中的目录标签](/help/migrated/administrators/feature-summary/catalog-labels.md)。
 
@@ -244,7 +245,7 @@ Adobe Learning Manager中的内容文件夹控制哪些作者可以查看和访�
 
    * 第3层：PDF资源
 
-3. **在其父级中保持名称简短、描述性和唯一性。** 避免使用“Module 1”或“Content”等通用名称。 使用对浏览库的作者有意义的标识符。
+3. **在其父级中保持名称简短、描述性和唯一性。** 避免使用“Module 1”或“Content”等通用名称。 使用对浏览图库的作者有意义的标识符。
 
 4. **仅分配级别1的自定义角色访问权限。** 由于访问自动级联，因此在1级分配就足够了，而且使访问管理保持简单。 添加级别2或级别3子文件夹时，无需更新访问权限。
 
@@ -302,17 +303,17 @@ Adobe Learning Manager中的&#x200B;**节假日**&#x200B;设置允许您定义�
 
 节假日是在帐户级别维护的一组非工作日，包括以下属性：
 
-&#x200B;- 只有管理员才能添加、编辑或删除假日。
+- 只有管理员才能添加、编辑或删除假日。
 
-&#x200B;- 节假日适用于整个组织，并作为非工作日出现在每个讲师的日历上。
+- 节假日适用于整个组织，并作为非工作日出现在每个讲师的日历上。
 
-&#x200B;- 由于节假日会将讲师标记为不可用，因此无法在这些日期安排实时中心会话。
+- 由于节假日会将讲师标记为不可用，因此无法在这些日期安排实时中心会话。
 
-&#x200B;- 每个假日都需要一个日期和名称；说明是可选的。
+- 每个假日都需要一个日期和名称；说明是可选的。
 
-&#x200B;- 您可以一次添加一个假日，也可以使用CSV文件一次导入多个假日。
+- 您可以一次添加一个假日，也可以使用CSV文件一次导入多个假日。
 
-&#x200B;- 添加假期后，假期会出现在&#x200B;**假期**&#x200B;页面上，您可以在其中查看、搜索和管理假期。
+- 添加假期后，假期会出现在&#x200B;**假期**&#x200B;页面上，您可以在其中查看、搜索和管理假期。
 
 有关详细信息，请查看[管理假日](../../../getting-started-with-live-hub/manage-holidays.md)。
 

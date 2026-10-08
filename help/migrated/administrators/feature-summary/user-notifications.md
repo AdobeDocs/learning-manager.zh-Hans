@@ -4,13 +4,14 @@ title: 通知
 description: 通知功能适用于 Adobe Learning Manager 的所有用户。 但是，每个用户根据其角色在不同的情景下会收到不同类型的通知。
 contentowner: manochan
 exl-id: 27eb3830-ff4f-44e6-9f63-096d9444378e
-source-git-commit: 69ef7d1e27fac3db49cbb4b9f9403f74e146efb5
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '740'
 ht-degree: 78%
-
 ---
-
 # 通知
 
 通知功能适用于 Adobe Learning Manager 的所有用户。 但是，每个用户根据其角色在不同的情景下会收到不同类型的通知。 所有用户警报和通知都会以弹出通知对话框的形式显示。

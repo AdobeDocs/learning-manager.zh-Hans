@@ -3,13 +3,14 @@ jcr-language: en_us
 title: Adobe Learning Manager中的AI支持搜索
 description: 了解Adobe Learning Manager中的AI支持搜索
 exl-id: 9982a8be-b2e6-42a4-836a-7f9337588ae8
-source-git-commit: 1dd1c6751df7e4b3f1d0fb5df36705a6f8b46762
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
-source-wordcount: '1212'
+source-wordcount: '1221'
 ht-degree: 0%
-
 ---
-
 # Adobe Learning Manager中的高级人工智能搜索
 
 ## 简介
@@ -43,9 +44,9 @@ Adobe Learning Manager引入了AI支持的搜索功能，该功能结合了词�
 
 ## 不断发展的Web搜索行为
 
-随着人们在线搜索，他们的搜索方式正在改变，搜索引擎也在调整以跟上变化。 以下是近年来人们搜索信息的一些主要方式：
+随着人们在网上搜索，他们的搜索方式正在改变，搜索引擎也在调整以跟上变化。 以下是近年来人们搜索信息的一些主要方式：
 
-* **意图驱动**：现在，用户不用键入确切的关键字，而是使用我想用或需要的短语表达他们的需求。 现代搜索引擎了解这些短语背后的目的，并提供了更相关的结果。
+* **意图驱动**：现在，用户不用键入确切的关键字，而是使用我想用或需要的短语表达他们的需求。 现代搜索引擎能够理解这些短语背后的目的，并给出更相关的结果。
 * **排名结果**：搜索结果是根据其他用户认为有用的内容进行组织的。 这意味着，最有用的内容会显示在顶部，这样可以更轻松地查找质量信息。
 * **多个源**：搜索引擎涵盖的源越多，结果越好。 通过从各种可信来源提取信息，搜索引擎可提供更完整、更准确的答案。
 * **个性化**：搜索引擎根据时间、位置和用户偏好等因素调整结果。 这使用户更容易找到适合其当前特定需求的信息。

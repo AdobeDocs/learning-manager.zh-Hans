@@ -3,7 +3,10 @@ description: 使用“开始使用”页面浏览Adobe Learning Manager的关键
 jcr-language: en_us
 title: 学习者快速入门指南
 contentowner: manochan
-source-git-commit: fba5e5ddc1964b485be473bf356806f234688cf4
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '735'
 ht-degree: 94%

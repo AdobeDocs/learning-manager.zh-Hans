@@ -3,13 +3,14 @@ description: 本参考手册适用于希望将现有LMS迁移到Adobe Learning M
 jcr-language: en_us
 title: 迁移手册
 exl-id: bfdd5cd8-dc5c-4de3-8970-6524fed042a8
-source-git-commit: 56ecd41e891d06f61ae7178280b85d6ffe918738
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
-source-wordcount: '8322'
+source-wordcount: '8327'
 ht-degree: 39%
-
 ---
-
 # 迁移手册
 
 本参考手册适用于希望将现有 LMS 迁移到 Adobe Learning Manager LMS 的集成管理员
@@ -699,9 +700,9 @@ SquareCorp必须提供：
 
 参数：
 
-* **lockaccount （布尔值）：**&#x200B;参数确定是否在开始执行时锁定帐户。 默认情况下，它设置为false。 建议用户避免使用此参数，除非存在锁定帐户的有效理由。
-* **目录ID （整数）：**&#x200B;此参数允许您在迁移期间选择目标目录。 它通常在创建迁移项目时设置，但可以针对单个运行进行调整。 更改目录ID后，未来运行中添加的学习对象将放入最近选择的目录中。 如果必须返回到在创建迁移项目期间选择的目录，则还必须明确指定此项。
-* **migrationProjectId (Integer)：**&#x200B;在帐户中启用多个启用了API的运行时，需要该参数来触发特定的迁移项目。
+* **lockaccount (布尔值)：**&#x200B;参数确定是否在开始执行时锁定帐户。 默认情况下，它设置为false。 建议用户避免使用此参数，除非存在锁定帐户的有效理由。
+* **目录ID(整数)：**&#x200B;此参数允许您在迁移期间选择目标目录。 它通常在创建迁移项目时设置，但可以针对单个运行进行调整。 更改目录ID后，未来运行中添加的学习对象将放入最近选择的目录中。 如果必须返回到在创建迁移项目期间选择的目录，则还必须明确指定此项。
+* **migrationProjectId(整数)：**&#x200B;在帐户中启用多个启用了API的运行时，需要该参数来触发特定的迁移项目。
 
 #### 检查是否可以开始同步
 
@@ -711,7 +712,7 @@ SquareCorp必须提供：
 
 参数：
 
-* **migrationProjectId (Integer)**&#x200B;在帐户中启用多个启用了API的运行时，需要该参数来触发特定的迁移项目。
+* **migrationProjectId(整数)**&#x200B;在帐户中启用多个启用了API的运行时，需要该参数来触发特定的迁移项目。
 
 <b>响应成功</b>
 
@@ -787,7 +788,7 @@ GET /bulkimport/runStatus
 
 * **sprintId**： （必需）。 迁移项目中Sprint的唯一标识符。 Sprint是迁移任务的子集，其中包括要从现有LMS迁移到Adobe Learning Manager的特定学习项目（如课程、模块、学习者记录）。 每个Sprint都可以独立执行，从而允许分阶段迁移。
 
-* **sprintRunId**： （必需）。 一个唯一标识符，用于跟踪迁移项目中特定Sprint的执行情况。 它与Sprint中定义的项目的实际迁移过程相关联。 sprintRunId有助于监视、故障排除和管理迁移作业。
+* **sprintRunId**： （必需）。 一个唯一的标识符，用于跟踪迁移项目中特定Sprint的执行情况。 它与Sprint中定义的项目的实际迁移过程相关联。 sprintRunId有助于监视、故障排除和管理迁移作业。
 
 **响应**
 
@@ -862,7 +863,7 @@ curl -X GET --header 'Accept: text/html' 'https://learningmanager.adobe.com/prim
 
 3-learning_program_enrollment.xlsx 中包含对 retrofit_learning_program_enrollment.csv 文件所需元数据的描述。
 
-4-user_course_grades.xlsx — 包含retrofit_user_course_grades.csv文件所需的元数据说明。
+4-user_course_grades.xlsx 中包含对 retrofit_user_course_grades.csv 文件所需元数据的描述。
 [csv-specifications.zip](assets/csv-specifications.zip)
 
 >[!NOTE]
@@ -938,7 +939,7 @@ VILT会话迁移涉及四个CSV文件：
 
 在[此处](assets/csv-and-xlsx-migration-files.zip)下载上述文件。
 
-所有四个CSV文件均接受`almCourseID`作为参考课程，`almModuleID`作为参考模块。 这些ID是在创建课程或模块时ALM分配的唯一标识符。
+所有四个CSV文件均接受`almCourseID`作为参考课程，`almModuleID`作为参考模块。 这些ID是在创建课程或标识符时ALM分配的唯一模块。
 
 ### 设置课程和学习路径实例的开始日期
 
@@ -1193,7 +1194,7 @@ param=1",DND_Moodle_isProducer
 
 #### 首先规划您的文件夹层次结构
 
-在准备CSV之前，请将源系统的文件夹或类别结构映射到Adobe Learning Manager的三级层次结构。 Adobe Learning Manager支持最大深度为三个级别（级别1→级别2→级别3）。 如果源系统嵌套较深，请在迁移之前将其拼合到三个级别。
+在准备CSV之前，请将源系统的文件夹或类别结构映射到Adobe Learning Manager的三级层次结构。 Adobe Learning Manager最多支持三个级别（级别1→级别2→级别3）的深度。 如果源系统嵌套较深，请在迁移之前将其拼合到三个级别。
 
 >[!NOTE]
 >
@@ -1234,7 +1235,7 @@ folder_005,Compliance,,folder_004,CREATE_FOLDER
 **验证规则：**
 
 * 文件夹不能是其自己的祖先 — 不允许循环引用
-* 最大文件夹深度为3个级别（1级→2级→3级）
+* 文件夹的最大深度为3个级别（1级→2级→3级）
 * 两个具有相同主页的文件夹不能具有相同的名称
 * `parentExternalId`必须引用同一CSV文件中的另一行或您帐户中已存在的文件夹
 * 父文件夹必须在其子文件夹之前列出

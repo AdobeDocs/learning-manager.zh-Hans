@@ -4,13 +4,14 @@ jcr-language: en_us
 title: 新功能摘要
 contentowner: jayakarr
 exl-id: 603f1f1c-bf8d-4807-b9f7-b10ded19a91e
-source-git-commit: c833d92533b7fbf5a87c980d8b5e088185d02ef5
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '3960'
 ht-degree: 1%
-
 ---
-
 # 新功能摘要 {#new-features-summary}
 
 了解Adobe Learning Manager 2024年3月版的新增功能和增强功能。
@@ -31,7 +32,7 @@ ht-degree: 1%
 
 ### 从外部来源导入技能
 
-使用相应的连接器从内容提供商（例如LinkedIn和Go1）导入技能。 此增强功能是Learning Manager集成外部技能云和人才管理系统的能力目标的一部分。 导入的技能将添加到Learning Manager中管理员定义的技能中，供作者在创建课程的工作流程中使用。 此外，还增强了整个平台的技能搜索功能，以便在帐户拥有大量技能时提供更好的搜索体验。
+使用各自连接器从内容提供商（例如LinkedIn和Go1）导入技能。 此增强功能是Learning Manager集成外部技能云和人才管理系统的能力目标的一部分。 导入的技能将添加到Learning Manager中管理员定义的技能中，供作者在创建课程的工作流程中使用。 此外，还增强了整个平台的技能搜索功能，以便在帐户拥有大量技能时提供更好的搜索体验。
 
 查看[导入技能](administrators/feature-summary/import-skills-external-sources.md)以了解更多信息。
 
@@ -266,7 +267,9 @@ ht-degree: 1%
 
 * “培训报告”中的“标签”和“技能”列更改为“标签和技能”。
 * 已添加报告[游戏审核记录](administrators/feature-summary/reports.md#gamification-audit-trail)。
-* 如果帐户包含280000个以上分配给技能的学习者，则系统会将技能学习者报告下载为压缩的csv文件。如果帐户中的学习者不足250000人，则会将同一报告下载为CSV。在管理员页面上，选择&#x200B;**管理员** > **技能** > **技能** > **学习者**。 报告会下载为CSV。
+* 如果帐户包含280000个以上分配给技能的学习者，则系统会将技能学习者报告下载为压缩的csv文件。
+如果帐户中的学习者不足250000人，则会将同一报告下载为CSV。
+在管理员页面上，选择&#x200B;**管理员** > **技能** > **技能** > **学习者**。 报告会下载为CSV。
 * [会话摘要报告](administrators/feature-summary/reports.md#session-summary-report)包含两个新列 — “位置信息”和“位置区域”。
 
 ## 教室创建的更改
@@ -281,7 +284,8 @@ ht-degree: 1%
 
 ## 灵活学习路径的更改
 
-中的所有帐户（新旧帐户）都将开始在学习者应用程序中纳入注册截止日期、取消注册截止日期和名额限制，以获得灵活的学习路径。学习者现在无需选择课程任何实例即可注册灵活学习路径。
+中的所有帐户（新旧帐户）都将开始在学习者应用程序中纳入注册截止日期、取消注册截止日期和名额限制，以获得灵活的学习路径。
+学习者现在无需选择课程任何实例即可注册灵活学习路径。
 
 ## 学习计划的新触发器
 
@@ -339,9 +343,9 @@ ht-degree: 1%
 在Adobe Learning Manager 2024年3月版中，新增更改如下：
 
 * 已更新会话详细信息和会话邀请（适用于学习者和讲师）
-   * 对于以后的会话，已更新&#x200B;**会话详细信息**、已注册学习者和当前讲师的&#x200B;**会话邀请**&#x200B;的电子邮件将弃用。 对于过去的会话，已更新注册学习者和当前讲师的&#x200B;**会话详细信息**&#x200B;和&#x200B;**会话邀请**&#x200B;的电子邮件将保持不变。
+  * 对于以后的会话，已更新&#x200B;**会话详细信息**、已注册学习者和当前讲师的&#x200B;**会话邀请**&#x200B;的电子邮件将弃用。 对于过去的会话，已更新注册学习者和当前讲师的&#x200B;**会话详细信息**&#x200B;和&#x200B;**会话邀请**&#x200B;的电子邮件将保持不变。
 * 提醒电子邮件（适用于管理员和学习者）
-   * 对于以后的会话，将只发送&#x200B;**会话提醒**&#x200B;电子邮件。
+  * 对于以后的会话，将只发送&#x200B;**会话提醒**&#x200B;电子邮件。
 
 >[!NOTE]
 >
@@ -369,7 +373,8 @@ ht-degree: 1%
 * 3天后再次提醒我
 * 一周后再次提醒我
 
-在Android上：单击推送通知会将您定向到&#x200B;**课程概述**&#x200B;页面。在iOS上：单击推送通知会将您引导至应用程序的主页。 这是iOS中的已知限制。
+在Android上：单击推送通知会将您定向到&#x200B;**课程概述**&#x200B;页面。
+在iOS上：单击推送通知会将您引导至应用程序的主页。 这是iOS中的已知限制。
 
 ### Salesforce上学习者应用程序中的核对表更改
 
@@ -452,8 +457,8 @@ learningObjectResource中的新属性isExpiredSubmission ，它显示资源中�
 
 * GET/account API：返回新属性&#x200B;**expireSubmissionDuration** X，其中X是设置的天数。 如果未设置，将返回0
 * 具有资源的GET/LO API包括新属性&#x200B;**isExpiredSubmission**“ True或False。
-   * 如果提交已过期且未显示“submissionUrl”，则为True。
-   * 如果为False，则提交不会过期，并提取“submissionUrl”。
+  * 如果提交已过期且未显示“submissionUrl”，则为True。
+  * 如果为False，则提交不会过期，并提取“submissionUrl”。
 
 ### 清单中的API更改
 
@@ -486,27 +491,27 @@ learningObjectResource中的新属性isExpiredSubmission ，它显示资源中�
 以下路径已弃用：
 
 * /learningObjects
-   * 已弃用的路径：
-      * enrollment.loInstance.loResources.resources
-      * instances.loResources.resources
-   * 现有路径：
-      * enrollment.loInstance
-      * instances.loResources
+  * 已弃用的路径：
+    * enrollment.loInstance.loResources.resources
+    * instances.loResources.resources
+  * 现有路径：
+    * enrollment.loInstance
+    * instances.loResources
 * /learningObject/{id}
-   * 已弃用的路径：
-      * enrollment.instances.subLoInstances.learningObject
-   * 现有路径：
-      * enrollment.instances.subLoInstances
+  * 已弃用的路径：
+    * enrollment.instances.subLoInstances.learningObject
+  * 现有路径：
+    * enrollment.instances.subLoInstances
 * /enrollments
-   * 已弃用的路径：
-      * loInstance.learningObject.enrollment
-   * 新路径：
-      * loInstance.learningObject
+  * 已弃用的路径：
+    * loInstance.learningObject.enrollment
+  * 新路径：
+    * loInstance.learningObject
 * /learningObject/{id}
-   * 已弃用的路径：
-      * instance.subLoInstances.learningObject.enrollment.loResourceGrades
-   * 新路径：
-      * instance.subLoInstances
+  * 已弃用的路径：
+    * instance.subLoInstances.learningObject.enrollment.loResourceGrades
+  * 新路径：
+    * instance.subLoInstances
 
 ### 作业API的登录访问权限和用户审核报告存档更改
 

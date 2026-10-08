@@ -3,13 +3,14 @@ jcr-language: en_us
 title: Adobe Learning Manager中的Admin AI Assistant (Beta)
 description: 了解有关Adobe Learning Manager Admin AI Assistant (Beta)的更多信息
 exl-id: af3d935b-c158-4a8e-9282-62251d29249c
-source-git-commit: 1dd1c6751df7e4b3f1d0fb5df36705a6f8b46762
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '952'
 ht-degree: 1%
-
 ---
-
 # Adobe Learning Manager中的Admin AI Assistant (Beta)
 
 ## 简介
@@ -86,19 +87,19 @@ Admin AI Assistant (Beta)旨在重点关注安全和数据隐私。 您可以期
 以下是管理员可用来有效利用Admin AI Assistant (Beta)的一些示例提示：
 
 * **为用户分配课程**
-   * **提示**：“如何将课程分配给用户？”
+  * **提示**：“如何将课程分配给用户？”
 
   ![](assets/prompt-1.png)
   _对提示的响应：如何将课程分配给用户_
 
 * **最新注册报告**
-   * **提示**：显示最新的注册报告。
+  * **提示**：显示最新的注册报告。
 
   ![](assets/prompt-2.png)
   _对提示的响应向我显示最新的注册报告_
 
 * **删除用户**
-   * **提示**：“如何删除用户？”
+  * **提示**：“如何删除用户？”
 
   ![](assets/prompt-3.png)
   _提示的响应：如何删除用户_

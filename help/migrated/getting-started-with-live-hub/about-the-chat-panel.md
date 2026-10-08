@@ -1,13 +1,14 @@
 ---
 title: 关于Live Hub中的“聊天”面板
 description: 了解在Live Hub会话中，“聊天”面板如何实现讲师和学习者之间的实时、结构化通信。
-source-git-commit: 055a04c6226146b1816241834a57ae4b1b8a1d2a
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '299'
 ht-degree: 0%
-
 ---
-
 
 # 关于“聊天”面板
 

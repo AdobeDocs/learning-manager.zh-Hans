@@ -1,16 +1,17 @@
 ---
-description: 了解如何通过将AI输出限制为仅用于策略、过程或资料夹，将Content Composer课程纳入您自己的文档。
+description: 了解如何通过将AI输出限制为仅根据策略、过程或资料进行输出，将Content Composer课程地面在您自己的文档中。
 jcr-language: en_us
-title: 将课程置于您自己的文档中
-source-git-commit: 68d15fa96588b2569c9b1cdb480e2ba9f31a1cf6
+title: 将课程地面在您自己的文档中
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '215'
 ht-degree: 0%
-
 ---
 
-
-# 将课程置于您自己的文档中
+# 将课程地面在您自己的文档中
 
 大多数AI课程工具都是根据一般知识生成内容 — 当您的培训需要匹配您组织的实际政策、程序或管理语言时，这是一个问题，而不是看似合理的近似值。
 
@@ -24,4 +25,4 @@ ht-degree: 0%
 
 - **产品或系统培训**：课程需要反映您的特定配置，而不是该工具的通用版本。
 
-如果你宁愿让AI用自己的常识来补充你的材料 — 这对于更广泛或不太敏感的主题很有用 — 那就不要选择这项限制。 如果您根本没有源材料，请选择&#x200B;**生成无源文件的课程**。
+如果您宁愿让AI用自己的一般知识来补充您的材料（适用于更广泛或不太敏感的主题），请取消选择限制。 如果您根本没有源材料，请选择&#x200B;**生成无源文件的课程**。

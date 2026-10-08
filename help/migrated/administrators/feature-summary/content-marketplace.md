@@ -4,16 +4,17 @@ title: 内容市场
 description: Adobe Learning Manager 现提供内容市场，您可以在其中浏览和购买培训课程。 现有 70,000 多门课程，这些课程涵盖不同主题并以多种格式提供。 精选的播放列表可迎合不同角色的需要，满足您学习和提升技能的需求。
 contentowner: saghosh
 exl-id: 023593d9-06c9-4b91-bbbd-e8ec595b6d60
-source-git-commit: 864c3a4e60cf1bf1c049838fb2ba46ebbcb28ddf
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '687'
 ht-degree: 10%
-
 ---
-
 # 内容市场
 
-学习管理员在采购和上传优质内容时经常会遇到难题。 Adobe Learning Manager的内容市场允许受信任的提供商授予高级课程许可，从而实现更快、可扩展的学习交付，从而简化了这项工作。 使用内容市场，管理员可以浏览、预览和许可提供商提供的第三方课程。
+学习管理员经常脸部对如何采购和上传优质内容提出质疑。 Adobe Learning Manager的内容市场允许受信任的提供商授予高级课程许可，从而实现更快、可扩展的学习交付，从而简化了这项工作。 使用内容市场，管理员可以浏览、预览和许可提供商提供的第三方课程。
 
 内容市场提供以下内容购买计划：
 
@@ -65,7 +66,7 @@ Select the plan that best meets your organization's learning goals and budget.
 
 2. 管理员可以预览和浏览&#x200B;**[!UICONTROL Premium Essentials]**&#x200B;和&#x200B;**[!UICONTROL Premium Essentials Plus]**&#x200B;计划的内容中心。
 
-内容提供商负责管理过时内容的移除，确保不提前通知即停止使用任何学习材料。
+内容提供商负责管理过期内容的删除，确保任何学习材料均会在未事先通知的情况下停用。
 
 <!--
 Learning Manager now offers Content Marketplace for you to explore and purchase trainings. Explore 70,000+ courses that cover a wide range of topics, available in multiple formats. Choose from curated playlists that cater to a vast variety of roles and meet your learning and upskilling needs.

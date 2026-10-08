@@ -2,7 +2,10 @@
 description: 用于列出、检索、注册和删除Adobe Learning Manager中的个性化学习路径的面向学习者的公共API端点，以及用于检查给定学习者是否可以通过分配给他们的目录直接访问一个或多个学习对象的API端点。
 jcr-language: en_us
 title: 2026年9月API更改
-source-git-commit: 328d899c05384ff522f7f6413d2a451139f066ee
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '1374'
 ht-degree: 3%

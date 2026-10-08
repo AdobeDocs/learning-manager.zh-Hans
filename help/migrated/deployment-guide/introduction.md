@@ -1,22 +1,23 @@
 ---
 jcr-language: en_us
 title: Adobe Learning Manager 部署指南
-description: Learning Manager是一种学习管理系统(LMS)，培训专业人员可利用该系统提供有吸引力且可追踪的学习材料，这些材料有助于实现公司的需求或目标。 培训人员或经理主要可利用 Adobe Learning Manager 按照特定顺序为学习者分配课程和其他学习对象。
+description: Learning Manager是一种学习管理系统(LMS)，培训专业人员可利用该系统提供有吸引力且可追踪的学习材料，这些学习环境有助于实现公司的需求或目标。 培训人员或经理主要可利用 Adobe Learning Manager 按照特定顺序为学习者分配课程和其他学习对象。
 contentowner: shhivkum
 preview: true
 exl-id: 5d65fd64-446e-4398-957b-1fb2b19e646d
-source-git-commit: 1529039e35d4190864e96826bfbea25dcad17c73
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '3264'
 ht-degree: 76%
-
 ---
-
 # Adobe Learning Manager 部署指南
 
 ## 简介 {#introduction}
 
-Learning Manager是一种学习管理系统(LMS)，培训专业人员可利用该系统提供有吸引力且可追踪的学习材料，这些材料有助于实现公司的需求或目标。 培训人员或经理主要可利用 Adobe Learning Manager 按照特定顺序为学习者分配课程和其他学习对象。 此工具还提供多种强大功能，包括多格式流体播放器、游戏、徽章以及易于使用的学习者信息板。 但是，要利用所有这些功能，首先必须配置和设置 Adobe Learning Manager。
+Learning Manager是一种学习管理系统(LMS)，培训专业人员可利用该系统提供有吸引力且可追踪的学习材料，这些学习环境有助于实现公司的需求或目标。 培训人员或经理主要可利用 Adobe Learning Manager 按照特定顺序为学习者分配课程和其他学习对象。 此工具还提供多种强大功能，包括多格式流体播放器、游戏、徽章以及易于使用的学习者信息板。 但是，要利用所有这些功能，首先必须配置和设置 Adobe Learning Manager。
 
 本指南逐步介绍了如何启动和运行 Adobe Learning Manager。 本文档还详细提供了配置和设置信息。 继续阅读以了解如何开始使用 Adobe Learning Manager。
 
@@ -57,9 +58,9 @@ Learning Manager是一种学习管理系统(LMS)，培训专业人员可利用�
 * 在左侧窗格中，单击&#x200B;**“品牌推广”**。
 * 在“品牌推广”页面，您可以找到想要修改的选项，然后单击&#x200B;**“编辑”**&#x200B;以配置下列选项：
 
-   * **组织名称** ：此处指定的值将决定在站点每个页面的横幅上显示的名称。
-   * **子域**：此值决定站点的URL。
-   * **徽标样式**：此字段中的图像会在各个页面的右上角以徽标形式显示。 在此字段中，您可以选择只显示徽标，也可以选择显示公司名称，还可以选择同时显示徽标和公司名称。
+  * **组织名称** ：此处指定的值将决定在站点每个页面的横幅上显示的名称。
+  * **子域**：此值决定站点的URL。
+  * **徽标样式**：此字段中的图像会在各个页面的右上角以徽标形式显示。 在此字段中，您可以选择只显示徽标，也可以选择显示公司名称，还可以选择同时显示徽标和公司名称。
 
 ![](assets/setting-the-themesforyoursite.png)
 

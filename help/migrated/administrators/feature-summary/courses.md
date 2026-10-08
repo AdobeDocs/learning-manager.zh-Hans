@@ -4,13 +4,14 @@ jcr-language: en_us
 title: 创建课程实例和学习路径
 contentowner: manochan
 exl-id: aba7417b-26a0-4160-878c-5814f84e5155
-source-git-commit: 24f54599749bce60916a57634144b0ca7f6a6d10
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
-source-wordcount: '6105'
+source-wordcount: '6113'
 ht-degree: 58%
-
 ---
-
 # 创建课程实例和学习路径
 
 此文档中包含的“帮助”可用于创建课程模块、实例和管理员角色课程。

@@ -3,13 +3,14 @@ jcr-language: en_us
 title: 监视虚拟引导使用情况
 description: 监视您的帐户如何使用Virtual Coach。
 contentowner: mmanuel
-source-git-commit: 87971737d1d9838d8b29035b5b9bf718742da1eb
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
-source-wordcount: '726'
+source-wordcount: '733'
 ht-degree: 2%
-
 ---
-
 
 # 监视虚拟引导使用情况
 
@@ -22,7 +23,7 @@ ht-degree: 2%
 1. 以管理员身份登录Adobe Learning Manager 。
 2. 从左侧导航窗格中导航到&#x200B;**帐单**&#x200B;页面。
 3. 在&#x200B;**虚拟教程**&#x200B;部分中，输入通过电子邮件收到的激活密钥。
-4. 选择&#x200B;**应用**。已为您的帐户启用虚拟辅导。
+4. 选择&#x200B;**应用**。 已为您的帐户启用虚拟辅导。
    ![](assets/virtual-coach-037.png)
 
 激活后，您将收到应用程序内通知，确认该功能已启用。 四个示例角色扮演场景会自动添加到内容库，以便作者可以立即开始。

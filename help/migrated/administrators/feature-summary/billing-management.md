@@ -4,13 +4,14 @@ jcr-language: en_us
 title: 管理 Adobe Learning Manager 订单和帐单
 contentowner: manochan
 exl-id: 91635ef7-dbb9-4bb1-98f9-129f6fd5b6b4
-source-git-commit: 2f1ca19ec3b94f975bd78ed92b48621eec6d5a22
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '2471'
 ht-degree: 52%
-
 ---
-
 
 # 管理 Adobe Learning Manager 订单和帐单
 
@@ -44,7 +45,7 @@ Adobe Learning Manager 采用客户友好和高度灵活的定价模式，可满
 | 字段 | 描述 |
 |---|---|
 | **ECCID** | Adobe的帐户参考号。 联系Adobe支持部门时请引用此内容。 |
-| **帐户ID** | 您的唯一Adobe Learning Manager帐户标识符。 |
+| **帐户ID** | 您独特的Adobe Learning Manager帐户标识符。 |
 | **帐户名** | 您的Adobe Learning Manager帐户的显示名称。 |
 | **IMS组织ID** | 与此帐户关联的Adobe Admin Console组织。 如果尚未链接，则此项为空。 |
 
@@ -97,7 +98,7 @@ Adobe Learning Manager 采用客户友好和高度灵活的定价模式，可满
 1. 选择“**[!UICONTROL 帐单]**”，然后选择“**[!UICONTROL 订阅]**”选项卡。
 2. 在&#x200B;**帐户详细信息**&#x200B;卡中，选择&#x200B;**[!UICONTROL 链接IMS组织]**。
 3. 此时会打开一个登录窗口。 输入您的Adobe帐户凭据，然后从列表中选择您的组织。 Adobe Learning Manager确认登录的帐户在Adobe Admin Console组织中拥有系统管理员角色，并且同一帐户在Adobe Learning Manager中拥有管理员角色。
-4. 如果两个检查都通过，则建立链接。 **IMS组织ID**&#x200B;字段使用您的组织的标识符更新，剩余信用额度显示在&#x200B;**许可证**&#x200B;部分。
+4. 如果两个检查都通过，则建立链接。 **IMS组织ID**&#x200B;字段将使用您组织的标识符进行更新，剩余信用额度显示在&#x200B;**许可证**&#x200B;部分。
 5. 如果任一检查失败，则会显示错误消息。 确认上述先决条件，然后重试。
 
 ### 取消帐户链接

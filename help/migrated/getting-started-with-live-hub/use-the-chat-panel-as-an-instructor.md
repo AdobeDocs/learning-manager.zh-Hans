@@ -1,13 +1,14 @@
 ---
 title: 在Live Hub中以讲师身份使用“聊天”面板
 description: 了解讲师如何在实时中心会话中访问、审核和自定义聊天面板，包括回复、回复、提及、私人聊天和AI辅助回复。
-source-git-commit: 96d6f198b012e7a449fdc17a24f0655e7fa122cb
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '1195'
 ht-degree: 0%
-
 ---
-
 
 # 以讲师身份使用“聊天”面板
 

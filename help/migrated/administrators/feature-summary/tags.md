@@ -4,13 +4,14 @@ jcr-language: en_us
 title: 标签
 contentowner: dvenkate
 exl-id: ea39d2a2-3d2b-43ae-8f8d-b97420b9d008
-source-git-commit: a28ac8f57710c118ca4ad02872fd100c6f24beac
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '775'
 ht-degree: 71%
-
 ---
-
 # 标签
 
 管理员现在可以管理 Adobe Learning Manager 中的标签。 改进了标签和可管理的数据库，助力学习者精准搜索，快速找到搜索结果。 您可以使用此功能管理冗余、拼写错误和不相关的标签。 您还可以添加、编辑、删除、附加或替换标签。

@@ -2,13 +2,14 @@
 title: 此版本中新增的功能
 description: 了解Adobe Learning Manager 2023年11月版的新增功能和增强功能。
 exl-id: d670dc47-d57f-464a-bee8-064cc16e59f9
-source-git-commit: 864c3a4e60cf1bf1c049838fb2ba46ebbcb28ddf
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
-source-wordcount: '2375'
+source-wordcount: '2372'
 ht-degree: 73%
-
 ---
-
 # 此版本中新增的功能
 
 ## 改进后的用户界面
@@ -112,7 +113,7 @@ Adobe Learning Manager 改进了对支持客户和合作伙伴的帐户的建议
    <td>
     <p style="text-align: left;"><b>可用性</b></p></td>
    <td>
-    <p style="text-align: left;"><b>范围</b></p></td>
+    <p style="text-align: left;"><b>适用范围</b></p></td>
         </tr>
     <tr>
    <td>
@@ -177,7 +178,7 @@ Adobe Learning Manager 改进了对支持客户和合作伙伴的帐户的建议
    <td>
     <p style="text-align: left;"><b>可用性</b></p></td>
    <td>
-    <p style="text-align: left;"><b>范围</b></p></td>
+    <p style="text-align: left;"><b>适用范围</b></p></td>
         </tr>
     <tr>
    <td>
@@ -245,7 +246,7 @@ Adobe Learning Manager 改进了对支持客户和合作伙伴的帐户的建议
 
 ## 针对复杂课程筛选的 API 增强功能
 
-现在可以通过Learning Manager API按标签和目录标签对课程进行高级过滤（结合使用“AND”和“OR”条件）。
+现在可以通过Learning Manager API按标签和目录标签对课程进行高级筛选（结合使用“AND”和“OR”条件）。
 
 ## 此版本中的 API 更改
 

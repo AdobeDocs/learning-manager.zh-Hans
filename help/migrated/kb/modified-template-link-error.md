@@ -5,13 +5,14 @@ description: 在Adobe Learning Manager中，修改模板后触发的电子邮件
 contentowner: nluke
 preview: true
 exl-id: a8fa64e1-aeab-4cb5-9bb0-7cfdad0aa389
-source-git-commit: 1529039e35d4190864e96826bfbea25dcad17c73
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '220'
 ht-degree: 78%
-
 ---
-
 # 在 Adobe Learning Manager 中，修改模板后触发的电子邮件链接会引发错误
 
 ## 问题

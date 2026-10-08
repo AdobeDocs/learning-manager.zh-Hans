@@ -4,13 +4,14 @@ title: 即使学习者已在 Adobe Learning Manager 中完成课程，模块也�
 description: 即使学习者在 Adobe Learning Manager 中已完成课程，系统仍会将模块标记为未完成。
 contentowner: nluke
 exl-id: c0f14f2e-733a-4b4f-a2c2-4c0b33a15fa1
-source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '191'
-ht-degree: 53%
-
+ht-degree: 65%
 ---
-
 # 即使学习者已在 Adobe Learning Manager 中完成课程，模块也会被标记为未完成
 
 ## 问题
@@ -23,7 +24,7 @@ SCORM 2004定义成功和完成标准，并分别发送两者的状态说明。
 
 例如，假设内容设置的&#x200B;**完成标准**&#x200B;为100%幻灯片查看次数，并且&#x200B;**成功标准**&#x200B;设置为“通过测试”。
 
-如果学习者完成课程，但是其测试不及格， 在这种情况下，尽管课程进度为100%，但因学习者未达到&#x200B;**成功标准**，因此系统将此模块标记为未完成。
+如果学习者完成课程，但是其测试不及格， 则在这种情况下，尽管课程进度为 100%，但因学习者未达到&#x200B;**成功标准**，因此系统将此模块标记为未完成。
 
 ## 解决方案
 

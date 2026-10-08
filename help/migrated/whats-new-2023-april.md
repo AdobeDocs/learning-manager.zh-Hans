@@ -1,15 +1,16 @@
 ---
 title: 此版本（2023年4月）的新增功能
 description: 了解 Adobe Learning Manager 中的新功能和增强功能
-hidefromtoc: true
+hidefromtoc: 'yes'
 exl-id: 0f9d73e8-da7f-4895-b4fa-54f52668cd4e
-source-git-commit: 3188d7f5593aeee87978e1e46456f01e1f41d57b
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '3234'
 ht-degree: 70%
-
 ---
-
 # 此版本（2023年4月）的新增功能
 
 ## 适用于 Microsoft Teams 的 Adobe Learning Manager 应用程序
@@ -418,7 +419,7 @@ generateInstructorUtilisationReport响应：
 
 ### 讲师的技能和技能级别关联
 
-我们引入了一项新功能，此功能可捕获讲师的技能专业知识，即对于每个讲师，他们的专业知识将得到保持，并可用于搜索和过滤等下游操作。
+我们引入了新的功能，此功能可捕获讲师的技能专业知识，例如，对于每个讲师，他们的专业知识将得以保持，此功能可用于搜索和筛选等下游操作。
 
 添加了以下属性：
 
@@ -525,9 +526,9 @@ DELETE/userGroups/{id}/users
 ]   
 ```
 
-### 宣布对学习者应用程序中的学习对象进行用户组筛选
+### 在学习者应用程序中发布关于学习对象丢失的用户组筛选
 
-* GET/users/{userId}/userGroups API有一个新参数filter.announcedGroupsOnly，它采用布尔值(true/false)。 此参数仅筛选管理员公布的用户组。 该参数的默认值为 False。
+* GET/users/{userId}/userGroups API有一个新参数filter.declainedGroupsOnly，它采用布尔值值(true/false)。 此参数仅筛选管理员公布的用户组。 该参数的默认值为 False。
 * GET/learningObjects API有一个新参数filter.declainedGroups ，它接受公告组ID以筛选结果。
 * GET/search API有一个新参数filter.declainedGroups ，它接受公告组ID以筛选结果。
 

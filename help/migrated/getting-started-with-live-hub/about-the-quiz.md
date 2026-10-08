@@ -1,13 +1,14 @@
 ---
 title: 关于Live Hub中的测验功能
 description: 了解讲师如何在Live Hub会话期间创建并执行多问题测试，以实时评估学习者的理解能力。
-source-git-commit: 203b9dd661ddf9223d3e181c5887e6976ba8213e
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '245'
 ht-degree: 0%
-
 ---
-
 
 # 关于测验
 

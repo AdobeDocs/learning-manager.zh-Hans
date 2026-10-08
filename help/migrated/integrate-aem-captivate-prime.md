@@ -3,13 +3,14 @@ jcr-language: en_us
 title: 将Adobe Learning Manager与AEM集成
 description: 了解如何将Adobe Learning Manager与Adobe Experience Manager (AEM)集成
 contentowner: saghosh
-source-git-commit: 0052ccb2f5a8f9617bca2c7bad91c0cd18338b66
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '1058'
 ht-degree: 74%
-
 ---
-
 
 
 # 将 Adobe Learning Manager 与 AEM 集成

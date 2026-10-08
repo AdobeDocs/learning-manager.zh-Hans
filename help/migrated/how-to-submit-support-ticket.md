@@ -3,13 +3,14 @@ jcr-language: en_us
 title: 如何在Experience League提交支持票证
 description: 了解如何在Experience League时提交支持请求
 exl-id: ff216f75-3441-4194-b254-0bf6c9fda518
-source-git-commit: aa9bf441507251c536cb6ee550fee0177e69cf6e
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '633'
 ht-degree: 0%
-
 ---
-
 # 如何在Experience League时提交支持票证
 
 提交Adobe Learning Manager支持票证的过程现在直接与Experience League支持平台集成。 这是一个自助服务门户，最近经过重新设计，可为授权客户提供更个性化和更易于使用的体验。 有关如何访问Experience League支持门户和记录票证的更多信息，请参阅以下指南。

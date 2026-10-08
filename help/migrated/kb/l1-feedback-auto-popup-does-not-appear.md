@@ -4,13 +4,14 @@ title: 不显示 L1 反馈自动弹窗
 description: 如何解决“L1反馈自动弹出窗口未显示”错误
 contentowner: saghosh
 exl-id: 47edcd7f-e332-4a75-a025-fd07737d0b70
-source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
-source-wordcount: '204'
-ht-degree: 76%
-
+source-wordcount: '205'
+ht-degree: 77%
 ---
-
 # 不显示 L1 反馈自动弹窗
 
 ## 问题
@@ -31,7 +32,7 @@ ht-degree: 76%
 1. 提醒已关闭。
 1. 提醒设置为在一定时间后显示。
 
-## 解决方法
+## 解决方案
 
 1. 确保在&#x200B;**课程** > **实例** > **L1反馈**&#x200B;中启用“课程完成后立即显示问卷”选项。
    <!--![](assets/l1-feedback.png)-->

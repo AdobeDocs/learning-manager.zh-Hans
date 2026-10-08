@@ -1,14 +1,15 @@
 ---
-description: 了解如何使用Content Composer中的高级主题属性来自定义标题和文本元素的字体、颜色、间距和布局。
+description: 了解如何使用Content Composer中的高级主题属性自定义标题和文本元素的字体、颜色、间距和布局。
 jcr-language: en_us
 title: 高级主题自定义
-source-git-commit: 68d15fa96588b2569c9b1cdb480e2ba9f31a1cf6
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '332'
 ht-degree: 0%
-
 ---
-
 
 # Content Composer中的高级主题自定义
 
@@ -28,9 +29,9 @@ ht-degree: 0%
 
 3. 设置元素列表： **课程名称**、**主题名称**、**块标题**、**副标题**、**题注**&#x200B;和&#x200B;**段落；**&#x200B;选择要自定义的元素。
 
-4. 在[!UICONTROL 视觉属性]面板中，您可以调整课程中的布局和间距。
+4. 在[!UICONTROL 视觉属性]面板中，您可以调整整个课程的布局和间距。
 
-   - 使用内容密度选项设置元素之间的间距量。
+   - 使用间距密度选项设置元素之间的内容量。
 
    - 若要设置&#x200B;**卡片/图像圆角半径**，请拖动滑块或输入一个值，以设置卡片和图像的圆度。 例如，将半径设置为17像素。
 

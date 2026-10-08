@@ -4,13 +4,14 @@ title: 批量添加用户
 description: 了解如何一次添加多个用户。
 contentowner: saghosh
 exl-id: c3309ce5-8764-452e-82d5-5637c23c661b
-source-git-commit: 96602899dd76eae14a6b7e1808d529756657e7b8
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
-source-wordcount: '341'
-ht-degree: 22%
-
+source-wordcount: '369'
+ht-degree: 36%
 ---
-
 # 批量添加用户
 
 >[!INFO]
@@ -29,9 +30,9 @@ ht-degree: 22%
 
 1. 导入文件后，在首次上传 .csv 文件时，将 .csv 文件的内容映射到应用程序标签。
 
-   在后续上传文件时，均需考虑标签之前的设置。 完成数据映射后单击“**[!UICONTROL 保存]**”，然后单击“**[!UICONTROL 添加]**”以上传映射的.csv文件。
+   在后续上传文件时，均需考虑标签之前的设置。 完成数据映射后单击&#x200B;**[!UICONTROL “保存”]**，并单击&#x200B;**[!UICONTROL “添加”]**&#x200B;以上传映射的 .csv 文件。
 
-1. 完成数据映射后单击“**[!UICONTROL 保存]**”，然后单击“**[!UICONTROL 添加]**”以上传映射的.csv文件。
+1. 完成数据映射后单击&#x200B;**[!UICONTROL “保存”]**，并单击&#x200B;**[!UICONTROL “添加”]**&#x200B;以上传映射的 .csv 文件。
 
 ## 包含必填字段的 CSV 上传 {#csvuploadwithmandatoryfields}
 
@@ -45,7 +46,7 @@ ht-degree: 22%
 
 **示例CSV**
 
-Learning Manager示例CSV包含以下必填字段。
+Adobe Learning Manager 示例 CSV 如下，其中包含必填字段。
 [Sample-CSV-name-email.zip](assets/sample-csv-name-email.zip)
 
 ## 包含所有字段的 CSV 上传 {#csvuploadwithallthefields}
@@ -60,7 +61,7 @@ Learning Manager示例CSV包含以下必填字段。
 
 **示例CSV**
 
-Learning Manager示例CSV如下图所示，其中包含所有字段。
+Adobe Learning Manager 示例 CSV 包含所有字段，如下所示。
 [learning-manager-sample-csv.zip](assets/learning-manager-sample-csv.zip)。
 
 有关详细信息，请参阅[使用CSV上传](/help/migrated/administrators/feature-summary/add-users-user-groups.md)功能帮助内容。

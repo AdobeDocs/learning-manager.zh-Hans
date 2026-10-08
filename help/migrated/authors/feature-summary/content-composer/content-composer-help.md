@@ -2,13 +2,14 @@
 title: Adobe Learning Manager Content Composer (Beta)帮助
 description: Adobe Learning Manager Content Composer使用AI将纯语言提示转变为可供发布的课程，其中包含课程、评估和媒体。
 contentowner: saghosh
-source-git-commit: 68d15fa96588b2569c9b1cdb480e2ba9f31a1cf6
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '752'
 ht-degree: 0%
-
 ---
-
 
 # Adobe Learning Manager Content Composer (Beta)帮助
 
@@ -20,12 +21,12 @@ ht-degree: 0%
 
 Adobe Learning Manager Content Composer是一种AI课程创作工具，它可将纯语言提示转换为结构化、可发布的课程，包括课程、评估和媒体，而无需事先具备教学设计经验。
 
-Content Composer通过对话引导作者完成培训目标、源资料和学习目标，然后生成在教育上合理、符合品牌要求且准备好直接发布到Adobe Learning Manager的课程。
+Content Composer通过对话引导作者完成培训目标、源材料和学习目标，然后生成在教育上合理、符合品牌要求且随时可直接发布到Adobe Learning Manager的课程。
 
 **重要亮点**
 
 - **AI指导式课程创建**：对话AI会提出有针对性的问题，以将培训目标转变为清晰、可衡量的学习目标。
-- **基于文档的生成**：作者上传现有文档、策略或套装。 AI会从该素材生成摘要和轮廓；作者在构建任何内容之前都会接受或编辑。
+- **基于文档的生成**：作者上传现有文档、策略或套装。 AI会根据该材料生成摘要和轮廓；作者在构建任何内容之前都会接受或编辑。
 - **在教学上稳健的输出**：课程、评估和媒体是使用结构化学习原则生成的，从而保持输出在教育上有效，而不仅仅是快速生成。
 - **直接发布到Adobe Learning Manager**：完成的课程直接发布到Adobe Learning Manager；无单独的创作工具，无手动SCORM导出。
 - **单系统工作流**：课程创建、学习者管理和报告都集中在一个平台上，从而消除了管理多个创作和交付工具的开销。

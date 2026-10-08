@@ -3,29 +3,30 @@ description: 了解如何将培训数据访问连接器与Adobe Learning Manager
 jcr-language: en_us
 title: 培训数据访问连接器
 contentowner: mmanuel
-source-git-commit: 8a5212062c6b172b0e9d4f3faa2e66d26c5c2b56
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '872'
 ht-degree: 2%
-
 ---
-
 
 # Adobe Learning Manager中的培训数据访问连接器
 
 ## 简介
 
-**培训数据访问连接器**&#x200B;允许您创建无头学习体验，该体验可以是独立的，也可以集成到使用&#x200B;**Adobe Experience Manager (AEM)站点**&#x200B;构建的自定义界面中。 此连接器具有搜索和筛选功能，可帮助您检索并向学习者显示最新培训内容。
+**培训数据访问连接器**&#x200B;允许您创建无头学习体验，该体验可以是独立的，也可以集成到使用&#x200B;**Adobe Experience Manager (AEM)站点**&#x200B;构建的自定义界面中。 本连接器具有搜索和筛选功能，可帮助您检索并向学习者显示最新培训内容。
 
 >[!IMPORTANT]
 >
 >- 仅当Adobe Learning Manager作为&#x200B;**加载项**&#x200B;出售到Adobe Experience Manager时，此功能才可用。
 >- 通过此连接器检索的课程数据每24小时刷新一次
->- 此连接器不是构建无头或基于AEM的非登录体验的自助式连接器。 请联系Adobe，为您的用例规划正确的方法。
+>- 在构建无头或基于AEM的非登录体验时，此连接器并非自助服务。 请联系Adobe，为您的用例规划正确的方法。
 
 ## 工作原理
 
-启用连接器后，Adobe Learning Manager会显示一组公共API，这些API提供培训元数据，例如课程、学习路径和证书。 您可以使用这些API构建一个自定义的品牌前端，该前端显示培训内容并支持搜索和筛选功能。
+启用连接器后，Adobe Learning Manager会公开一组公共API，以提供培训元数据，如课程、学习路径和证书。 您可以使用这些API构建一个自定义的品牌前端，该前端显示培训内容并支持搜索和筛选功能。
 
 ## 配置培训数据访问连接器
 
@@ -43,7 +44,7 @@ ht-degree: 2%
 4. 选择&#x200B;**接口类型**：
 
    - **Native Learning Manager**：标准登录体验，默认可用。
-   - **无头界面**：高级选项，为未登录的无头前端公开公共API。
+   - **无头界面**：高级选项，公开未登录、无头前端的公共API。
 
    ![](assets/training-data-access-connector2.png)
    _键入培训数据访问连接器配置所需的详细信息_
@@ -58,7 +59,7 @@ ht-degree: 2%
 
 要导出培训元数据：
 
-1. 在连接器页面上选择&#x200B;**导出培训元数据**。
+1. 在“培训”页面上选择&#x200B;**导出连接器元数据**。
 2. 选择&#x200B;**启用使用此连接的培训元数据导出**&#x200B;以开始将您的培训数据推送到搜索和检索系统。
 3. 选择&#x200B;**启用计划**&#x200B;并设置开始日期、时间和间隔。
 
@@ -97,7 +98,7 @@ ht-degree: 2%
 
 利用未登录体验，您可以为未登录用户创建实时体验。 例如，未登录体验可充当营销活动的登陆页面，以鼓励注册。
 
-Adobe Learning Manager中的未登录体验可使用&#x200B;**培训数据访问**&#x200B;连接器进行配置。 连接器提供以下产品：
+Adobe Learning Manager中未登录体验可使用&#x200B;**培训数据访问**&#x200B;连接器进行配置。 该连接器提供以下产品：
 
 - 标准产品
 - 高级产品

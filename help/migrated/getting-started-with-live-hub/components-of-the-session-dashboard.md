@@ -1,13 +1,14 @@
 ---
 title: Live Hub中“会话”信息板的组件
 description: 了解Live Hub中的会话仪表板部分，包括摘要、录音、交互、分会、参与者活动和报告。
-source-git-commit: ca4b34807ed6ede51e3445c2345a4430dea1e3d7
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '1158'
 ht-degree: 0%
-
 ---
-
 
 # “会话”操控板的组件
 
@@ -160,7 +161,7 @@ Live Hub中的“会话”信息板包含多个部分，其中提供了有关会
 
 查看学习者在会话期间的反应，包括同意、分歧、掌声和笑声。
 
-在图形上查看以下详细信息：
+查看有关图形的以下详细信息：
 
 * 全部反应。
 
@@ -195,7 +196,7 @@ Live Hub中的“会话”信息板包含多个部分，其中提供了有关会
 
 * **说话者时间**：参与者在会话期间说话的持续时间。
 
-* **相机时间**：学习者的相机处于活动状态的持续时间。
+* **相机时间**：学习者相机处于活动状态的持续时间。
 
 * **问题解答**：参与者提出的问题数。
 

@@ -3,7 +3,7 @@ user-guide-title: Adobe Learning Manager 指南
 breadcrumb-title: Learning Manager
 user-guide-description: Adobe Learning Manager 的文档
 nudge: true
-source-git-commit: bad20aa965e151ee4c3cc5be5e5faad008e33198
+source-git-commit: 29900b65ff6bf5b598bbba27d2691f75f544211f
 workflow-type: tm+mt
 source-wordcount: '1786'
 ht-degree: 34%
@@ -289,7 +289,7 @@ ht-degree: 34%
   * [登录](learners/feature-summary/user-login.md)
   * [配置文件设置](learners/feature-summary/settings.md)
   * [目录](learners/feature-summary/catalogs.md)
-  * [虚拟教练] {#virtualcoach}
+  * 虚拟教练 {#virtualcoach}
     * [使用虚拟教练练习角色扮演](learners/feature-summary/virtual-coach/practice-role-play-with-virtual-coach.md)
     * [了解您的Virtual Coach性能报告](learners/feature-summary/virtual-coach/understand-virtual-coach-performance-report.md)
   * [一键式注册](learners/feature-summary/learner-one-click-enrollment.md)

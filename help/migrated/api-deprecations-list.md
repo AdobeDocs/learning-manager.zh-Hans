@@ -4,13 +4,14 @@ title: Adobe Learning Manager中的API弃用
 description: 随着Adobe Learning Manager中API的发展，API会定期进行重新组织或升级。 当API不断发展变化时，旧版API会遭到弃用并最终被删除。 本页包含从已弃用的API版本迁移到更新且更稳定的API版本时需要了解的信息。
 contentowner: saghosh
 exl-id: 0fe9a3cb-9114-42d6-81ae-1a4f28c984fa
-source-git-commit: 864c3a4e60cf1bf1c049838fb2ba46ebbcb28ddf
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '579'
 ht-degree: 34%
-
 ---
-
 # Adobe Learning Manager中的API弃用和更改
 
 ## Adobe Learning Manager 2024年3月版中的API弃用
@@ -76,30 +77,30 @@ We want to enforce these restrictions on new accounts and maintain a whitelist o
 以下路径已弃用：
 
 * /learningObjects
-   * 已弃用的路径：
-      * enrollment.loInstance.loResources.resources
-      * instances.loResources.resources
-   * 新路径：
-      * enrollment.loInstance.loResources
-      * instances.loResources
+  * 已弃用的路径：
+    * enrollment.loInstance.loResources.resources
+    * instances.loResources.resources
+  * 新路径：
+    * enrollment.loInstance.loResources
+    * instances.loResources
 
 * /learningObject/{id}
-   * 已弃用的路径：
-      * enrollment.instances.subLoInstances.learningObject
-   * 新路径：
-      * enrollment.instances.subLoInstances
+  * 已弃用的路径：
+    * enrollment.instances.subLoInstances.learningObject
+  * 新路径：
+    * enrollment.instances.subLoInstances
 
 * /enrollments
-   * 已弃用的路径：
-      * loInstance.learningObject.enrollment
-   * 新路径：
-      * loInstance.learningObject
+  * 已弃用的路径：
+    * loInstance.learningObject.enrollment
+  * 新路径：
+    * loInstance.learningObject
 
 * /learningObject/{id}
-   * 已弃用的路径：
-      * instance.subLoInstances.learningObject.enrollment.loResourceGrades
-   * 新路径：
-      * instance.subLoInstances
+  * 已弃用的路径：
+    * instance.subLoInstances.learningObject.enrollment.loResourceGrades
+  * 新路径：
+    * instance.subLoInstances
 
 <!--
 ### Instance summary count changes 

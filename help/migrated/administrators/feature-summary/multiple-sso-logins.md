@@ -3,13 +3,14 @@ description: Adobe Learning Manager 通过多个 SSO 配置支持内部和外部
 title: 多个 SSO 登录
 contentowner: saghosh
 exl-id: 398816e8-a144-459b-8c39-6517ce4573b4
-source-git-commit: f964dd3f1adeadb76f4843c9af229ce5f09afde1
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '806'
 ht-degree: 43%
-
 ---
-
 # 多个 SSO 登录 {#multiple-sso-logins}
 
 管理员可以为内部和外部用户配置多种登录方法。 Adobe Learning Manager 支持多个 SSO 登录，这些登录将帮助管理员根据他们的需求和使用案例配置登录方法。

@@ -1,13 +1,14 @@
 ---
 title: 在Adobe Learning Manager中管理假期
 description: 了解管理员如何通过单独或导入CSV来定义影响讲师参加实时中心会话机会的组织范围的假期。
-source-git-commit: 4c16d16205302542d2b2c5cfc10940cb4e7e7e98
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '323'
 ht-degree: 3%
-
 ---
-
 
 # 管理假日
 

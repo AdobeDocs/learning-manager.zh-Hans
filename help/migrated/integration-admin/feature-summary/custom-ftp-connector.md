@@ -3,19 +3,20 @@ description: Adobe Learning Manager中的自定义FTP连接器
 jcr-language: en_us
 title: 自定义FTP连接器
 contentowner: mmanuel
-source-git-commit: 8a5212062c6b172b0e9d4f3faa2e66d26c5c2b56
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '526'
 ht-degree: 0%
-
 ---
-
 
 # Adobe Learning Manager中的自定义FTP连接器
 
 ## 简介
 
-利用Adobe Learning Manager中的自定义FTP连接器，您可以在Adobe Learning Manager和您组织的FTP (SFTP)服务器之间实现安全、自动的数据交换。 通过此集成，管理员可以从外部系统导入用户数据，并按计划导出学习者成绩单或技能数据。 此设置可简化数据同步、减少手动工作，并支持与第三方HR或报告系统的无缝集成。 配置需要与您的IT团队进行协调，并需要Adobe的客户成功经理(CSM)的帮助。
+借助Adobe Learning Manager中的“自定义FTP”连接器，您可以在Adobe Learning Manager和您组织的FTP (SFTP)服务器之间自动执行安全的数据交换。 通过此集成，管理员可以从外部系统导入用户数据，并按计划导出学习者成绩单或技能数据。 此设置可简化数据同步、减少手动工作，并支持与第三方HR或报告系统的无缝集成。 配置需要与您的IT团队进行协调，并需要Adobe的客户成功经理(CSM)的帮助。
 
 >[!NOTE]
 >

@@ -4,13 +4,14 @@ jcr-language: en_us
 title: 学习方案
 contentowner: manochan
 exl-id: 99e3d2f5-0bf0-4f4e-8874-8136af7c592a
-source-git-commit: a01ec6117ad49a1f9af0b31d48ad19ddc8443dde
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '1640'
 ht-degree: 82%
-
 ---
-
 # 学习方案
 
 在 Adobe Learning Manager 中为管理员创建学习计划。

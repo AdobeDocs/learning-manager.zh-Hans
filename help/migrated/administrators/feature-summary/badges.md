@@ -1,19 +1,20 @@
 ---
 jcr-language: en_us
 title: 徽章
-description: 徽章是一种成就度量，员工在完成课程后即可获得。 Adobe Learning Manager推出了名为“徽章”的电子学习概念。 全球各地的专业人士可将这些徽章用于表现其掌握了特定技能或学习成就。
+description: 徽章是一种成就度量，员工在完成课程后即可获得。 Adobe Learning Manager 推出了名为“徽章”的电子学习概念。 全球各地的专业人士可将这些徽章用于表现其掌握了特定技能或学习成就。
 contentowner: manochan
 exl-id: c056e5d0-d646-4d15-979d-bae57c627eab
-source-git-commit: c7818fea372cb0324085de8ff08ec2ee1ff91864
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
-source-wordcount: '201'
-ht-degree: 32%
-
+source-wordcount: '205'
+ht-degree: 63%
 ---
-
 # 徽章
 
-徽章是一种成就度量，员工在完成课程后即可获得。 Adobe Learning Manager推出了名为“徽章”的电子学习概念。 全球各地的专业人士可将这些徽章用于表现其掌握了特定技能或学习成就。
+徽章是一种成就度量，员工在完成课程后即可获得。 Adobe Learning Manager 推出了名为“徽章”的电子学习概念。 全球各地的专业人士可将这些徽章用于表现其掌握了特定技能或学习成就。
 
 您可以对徽章进行定义，以此激励用户。
 

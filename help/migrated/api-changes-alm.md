@@ -3,13 +3,14 @@ description: ALM中的API更改
 jcr-language: en_us
 title: 4月版中的API更改
 exl-id: 8c7cd33a-60c4-4bc2-8859-167536a90014
-source-git-commit: f3df7e2defc479c270c16f91918903fb27560b19
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
-source-wordcount: '4093'
+source-wordcount: '4106'
 ht-degree: 0%
-
 ---
-
 # 2026年4月版中的API更改
 
 2026年4月版Adobe Learning Manager引入了针对以下内容的公共API的增强功能：替代项和对等项、对内容的时间窗口访问、内容驱动的测试尝试、未登录体验和工作辅助处理。 这些更改旨在实现大致向后兼容，同时实现更精确的集成。
@@ -23,11 +24,11 @@ ht-degree: 0%
 - GET/primeapi/v2/learningObjects？filter.loTypes=learningPath
 - GET/primeapi/v2/learningObjects/{loId}
 
-新的布尔型属性attributes.isAdaptive表示学习程序使用自适应规则。 当此标志为true时，将自适应地解释sections属性。
+新的布尔值属性attributes.isAdaptive表示学习程序使用自适应规则。 当此标志为true时，将自适应地解释sections属性。
 
 对于学习者调用，仅返回对当前学习者可见的部分。 每个部分包括学习对象ID(loId)的列表、强制标志和基于该学习者的自适应配置计算的强制LOCount以及sectionId。 relationship.subLOs关系现在也已过滤，因此它仅包含该学习者可见的子学习对象。
 
-对于管理员调用，节还可显示adaptiveConfig阵列。 这将说明每个用户组的自适应规则，包括userGroupId、userGroupName以及该部分对于该组是否是必需的。 面向管理员的工具可使用此功能可视化和管理自适应规则。
+对于管理员调用，节还可以公开adaptiveConfig数组。 这将说明每个用户组的自适应规则，包括userGroupId、userGroupName以及该部分对于该组是否是必需的。 面向管理员的工具可使用此功能可视化和管理自适应规则。
 
 重置学习计划的完成情况
 
@@ -64,9 +65,9 @@ POST /primeapi/v2/learningObjects/{loId}/instances/{loInstanceId}/refreshComplet
 - GET /primeapi/v2/learningObjects/{loId}
 ```
 
-新的布尔型属性attributes.isAlternateComplete指示学习者完成给定学习对象是否是替代或等效学习对象的结果，而不是对象本身。 如果为true，则relationship.alternateCompletions关系会列出充当替代项的学习对象。 这允许下游报告和控制面板区分直接完成和替代完成，并显示哪个替代完成了该要求。
+新的布尔值属性attributes.isAlternateComplete指示学习者完成给定学习对象是否是替代或等效学习对象的结果，而不是对象本身。 如果为true，则relationship.alternateCompletions关系会列出充当替代项的学习对象。 这允许下游报告和控制面板区分直接完成和替代完成，并显示哪个替代完成了该要求。
 
-此外，通过相关学习对象视图，可以发现能够满足学习对象的潜在替代项。 这通过以下方式显示：
+此外，通过相关学习对象视图，可以发现能够满足学习对象的潜在替代项。 可通过以下方式公开：
 
 ```
 GET /primeapi/v2/learningObjects/{loId}/relatedLOs?type=sourceAlternateLOs&limit={n}
@@ -83,8 +84,8 @@ GET /primeapi/v2/learningObjects/{loId}/relatedLOs?type=sourceAlternateLOs&limit
 - 当isAlternateComplete==false时：\
   将记录视为学习对象的&#x200B;__直接完成__，与今天相同。
 - 当isAlternateComplete为true==：
-   - 在报表中将记录标记为&#x200B;__备用完成__（例如，值为DIRECT与ALTERNATE的“Completion Method”列）。
-   - 使用relationships.alternateCompletions.data[*].id捕获&#x200B;__哪个源学习对象__&#x200B;已授予此完成权限（例如，“课程B已通过备用课程A完成”）。
+  - 在报表中将记录标记为&#x200B;__备用完成__（例如，值为DIRECT与ALTERNATE的“Completion Method”列）。
+  - 使用relationships.alternateCompletions.data[*].id捕获&#x200B;__哪个源学习对象__&#x200B;已授予此完成权限（例如，“课程B已通过备用课程A完成”）。
 
 典型用例：
 
@@ -96,13 +97,13 @@ GET /primeapi/v2/learningObjects/{loId}/relatedLOs?type=sourceAlternateLOs&limit
 
 ## 学习者与管理员学习对象API行为
 
-学习者和管理员学习对象API的多语言工作辅助结构相同。 学习者范围仅返回对学习者可见的这些工作辅助，但对于每个可见的工作辅助，它通过多个资源实体（每个区域设置一个）和多区域设置本地化元数据显示所有已配置的区域设置。 管理员范围返回管理员可以管理的所有工作辅助，并具有相同的学习对象模型和区域设置特定的资源ID。 具有学习者范围的客户端应选择attributes.locale最匹配学习者内容语言的资源，而管理员工具可枚举用于报告和管理的所有区域设置。
+学习者和管理员学习对象API的多语言工作辅助结构相同。 学习者范围仅返回学习者可见的辅助工具，但对于每个可见的辅助工具，它通过多个资源实体（每个区域设置一个）和多区域设置本地化元数据公开所有配置的区域设置。 管理员范围返回管理员可以管理的所有工作辅助，并具有相同的学习对象模型和区域设置特定的资源ID。 具有学习者范围的客户端应选择attributes.locale最匹配学习者内容语言的资源，而管理员工具可枚举用于报告和管理的所有区域设置。
 
 ## 具有注释功能的清单
 
 为了支持审阅者可以共享有关基于清单的活动结构化反馈的工作流程，此版本通过学习对象资源API提供了&#x200B;*清单注释*&#x200B;和审阅者可见性控件。
 
-与清单相关的元数据显示在learningObjectResource实体(JApiLOResource，“type”：“learningObjectResource”)上，这些实体表示课程或其他学习对象中的清单资源。
+清单相关元数据公开learningObjectResource实体(JApiLOResource，“type”：“learningObjectResource”)上，这些实体表示课程或其他学习对象中的清单资源。
 
 该信息可通过以下方式获得：
 
@@ -110,7 +111,7 @@ GET /primeapi/v2/learningObjects/{loId}/relatedLOs?type=sourceAlternateLOs&limit
 GET /primeapi/v2/learningObjects/{loId}?include=instances.loResources
 ```
 
-当学习对象实例包含清单类型资源时，所包含数组中相应的learningObjectResource条目会在属性下显示注释和审阅者可见性属性，并在关系下显示审阅者身份。
+当学习对象实例包含清单类型资源时，所包含的数组中的相应learningObjectResource条目会公开属性下的注释和审阅者可见性属性，以及关系下的审阅者身份。
 
 ### 新的清单注释属性
 
@@ -120,15 +121,15 @@ GET /primeapi/v2/learningObjects/{loId}?include=instances.loResources
   审阅者为学习者留下的自由文本注释，例如：\
   &quot;checklistComment&quot;： &quot;性能卓越！ 所有安全协议都得到正确遵守。”\
   仅当满足以下条件时&#x200B;_才填充此属性：_
-   - showChecklistComment为true，并且
-   - 清单配置已启用enable_reviewer_remarks。
+  - showChecklistComment为true，并且
+  - 清单配置已启用enable_reviewer_remarks。
 - attributes.showChecklistComment\
-  指示是否应向学习者显示审阅者注释的布尔标志：\
+  指示是否应向学习者显示审阅者注释的布尔值标志：\
   &quot;showChecklistComment&quot;： true\
   仅当在清单配置中启用了&#x200B;_enable_ reviewer_remarks时，_才存在此属性。\
   客户端应使用此标志决定是否要在学习者体验中呈现checklistComment。
 - attributes.showReviewerNameToLearner\
-  用于控制学习者是否应查看审阅者身份的布尔标志：\
+  控制学习者是否应查看审阅者身份的布尔值标志：\
   &quot;showReviewerNameToLearner&quot;： true\
   为true时，客户端可以使用checklistReviewedBy关系（请参阅下文）解析并显示审阅者的姓名（例如，通过用户查找API）。
 
@@ -171,17 +172,17 @@ GET /primeapi/v2/learningObjects/{loId}?include=instances.loResources
 ```
 
 - 在回复中：
-   - 使用主learningObject中的relationship.instances查找所包括的相关learningObjectInstance条目。
-   - 在每个learningObjectInstance中，遵循relationships.loResources查找learningObjectResource条目。
-   - 在以下位置过滤learningObjectResource条目：
-      - attributes.resourceSubType == &quot;CHECKLIST&quot;（针对清单资源），以及
-      - （可选）attributes.showChecklistComment==true以查找包含学习者可见注释的核对清单。
+  - 使用主learningObject中的relationship.instances查找所包括的相关learningObjectInstance条目。
+  - 在每个learningObjectInstance中，遵循relationships.loResources查找learningObjectResource条目。
+  - 在以下位置过滤learningObjectResource条目：
+    - attributes.resourceSubType == &quot;CHECKLIST&quot;（针对清单资源），以及
+    - （可选）attributes.showChecklistComment==true以查找包含学习者可见注释的核对清单。
 
 - 对于每个清单learningObjectResource，请使用：
-   - attributes.checklistComment（如果存在，并且showChecklistComment为true）
-   - attributes.checklistEvaluationStatus（例如，“PASSED”）
-   - attributes.showReviewerNameToLearner
-   - relationship.checklistReviewedBy（如果存在）以确定审阅者。
+  - attributes.checklistComment（如果存在，并且showChecklistComment为true）
+  - attributes.checklistEvaluationStatus（例如，“PASSED”）
+  - attributes.showReviewerNameToLearner
+  - relationship.checklistReviewedBy（如果存在）以确定审阅者。
 
 此模式允许无头或自定义客户端直接从Prime API呈现全面的清单体验，包括状态、必填/可选标记和审阅者反馈。
 
@@ -189,14 +190,14 @@ GET /primeapi/v2/learningObjects/{loId}?include=instances.loResources
 
 - _报告和分析_
 可合并在核对清单上跟踪学习者绩效的集成：
-   - 通过/失败或其他状态指示符的checklistEvaluationStatus。
-   - isChecklist必须区分必要和可选清单活动。
-   - 反馈范围审计中是否存在checklistComment和showChecklistComment。
+  - 通过/失败或其他状态指示符的checklistEvaluationStatus。
+  - isChecklist必须区分必要和可选清单活动。
+  - 反馈范围审计中是否存在checklistComment和showChecklistComment。
 - _学习者体验_
 UI实现应：
-   - 在显示注释之前，请尊重showChecklistComment。
-   - 使用showReviewerNameToLearner和checklistReviewedBy确定是显示审阅者的姓名，还是保持审阅的匿名状态。
-   - 当评论被禁用或不存在，但仍显示评估状态和提交信息时，可顺畅地返回。
+  - 在显示注释之前，请尊重showChecklistComment。
+  - 使用showReviewerNameToLearner和checklistReviewedBy确定是显示审阅者的姓名，还是保持审阅的匿名状态。
+  - 当评论被禁用或不存在，但仍显示评估状态和提交信息时，可顺畅地返回。
 
 ## 工作辅助的多语言支持
 
@@ -208,7 +209,7 @@ _学习对象_ (lo) → _学习对象资源_ (loResource) → _资源_
 
 无需对API合同进行任何更改。 任何本地化的工作辅助都自然地适合此结构，每个区域设置使用不同的资源实体，并在learningObject/learningObjectResource级别共享本地化的元数据。
 
-工作辅助数据通过以下方式显示：
+工作辅助数据通过以下方式公开：
 
 ```
 GET /primeapi/v2/learningObjects/jobAid:{jobAidId}?include=instances.loResources.resources
@@ -221,21 +222,21 @@ GET /primeapi/v2/learningObjects/jobAid:{jobAidId}?include=instances.loResources
 多语言工作辅助使用：
 
 - _learningObject （类型：learningObject）_
-   - 包含具有多个条目（例如en-US、fr-FR）的本地化元数据，以便客户端能以适当的语言显示工作辅助标题/描述。
+  - 包含具有多个条目（例如en-US、fr-FR）的本地化元数据，以便客户端能以适当的语言显示工作辅助标题/描述。
 - _learningObjectInstance （类型： learningObjectInstance）_
-   - 通过relationship.loResources引用一个或多个learningObjectResource条目。
+  - 通过relationship.loResources引用一个或多个learningObjectResource条目。
 - _learningObjectResource（类型：learningObjectResource）_
-   - 保留常用配置（内容类型、版本等） 以及多区域设置、本地化的元数据。
-   - 通过relationship.resources链接到一个或多个资源实体。
+  - 保留常用配置（内容类型、版本等） 以及多区域设置、本地化的元数据。
+  - 通过relationship.resources链接到一个或多个资源实体。
 - _资源（类型：资源）_
-   - *每个区域设置*&#x200B;一个，每个区域设置都有自己的ID、区域设置、名称和URL（位置/下载URL）。
+  - *每个区域设置*&#x200B;一个，每个区域设置都有自己的ID、区域设置、名称和URL（位置/下载URL）。
 
 对于多语言工作辅助，典型的模式是：
 
 - learningObjectResource，包含适用于en-US和fr-FR的localizedMetadata
 - relationships.resources.data指向：
-   - 区域设置的资源： &quot;en-US&quot;
-   - 区域设置的资源： &quot;fr-FR&quot;
+  - 区域设置的资源： &quot;en-US&quot;
+  - 区域设置的资源： &quot;fr-FR&quot;
 
 客户端可以通过将学习者的区域设置与resource.attributes.locale字段匹配来选择适当的资源。
 
@@ -247,9 +248,9 @@ _旧（旧版）资源ID格式_
 
 以前，工作辅助资源使用不透明的ID格式，例如：
 
-jobAid:131032_-1_-1_2_resource
+jobAid：131032_-1_-1_2_resource
 
-此格式未对区域设置进行编码，因此API实际上只会公开单个资源（通常是en-US）。
+此格式不编码区域设置，并且API将有效公开单个资源（通常为en-US）。
 
 _新资源ID格式（多语言识别）_
 
@@ -261,9 +262,9 @@ jobAid:<jobAidId>_<version>_<localeCode>
 
 示例：
 
-- jobAid:131032_2_en-US
-- jobAid:131032_2_fr_FR
-- jobAid:131032_2_es_ES
+- jobAid：131032_2_en-US
+- jobAid：131032_2_fr_FR
+- jobAid：131032_2_es_ES
 
 视觉细分：
 
@@ -298,24 +299,24 @@ jobAid:131032_2_fr_FR
 
 它现在&#x200B;_向后兼容_，同时具有新ID和旧ID格式：
 
-- _旧ID格式_（例如，jobAid:131032_-1_-1_2_resource）
-   - 继续工作。
-   - 返回与该旧标识符（通常是原始en-US资源）关联的&#x200B;_首次创建的资源_。
-- _新ID格式_（例如，jobAid:131032_2_fr_FR）
-   - 返回与该ID对应的&#x200B;_精确的特定于区域设置的资源_。
-   - 这允许精确检索和操纵本地化的工作辅助变体。
+- _旧ID格式_（例如，jobAid：131032_-1_-1_2_resource）
+  - 继续工作。
+  - 返回与该旧版标识符（通常是原始en-US资源）关联的&#x200B;_首次创建的资源_。
+- _新ID格式_（例如，jobAid：131032_2_fr_FR）
+  - 返回与该ID对应的&#x200B;_精确的特定于区域设置的资源_。
+  - 这允许精确检索和操纵本地化的工作辅助变体。
 
 当前存储或引用旧资源ID的集成可以继续运行而不会发生更改，同时建议较新的实现采用新的ID格式进行特定于区域设置的操作。
 
 ### 集成和UX注意事项
 
 - _学习者/管理员UI_
-   - 使用learningObject.localizedMetadata和learningObjectResource.localizedMetadata以相应的语言显示标题和说明。
-   - 使用resource.attributes.locale为学习者区域设置选择正确的URL（位置/下载网址）。
-   - 如果学习者的精确区域设置不可用，请实施回退行为（例如，回退到美国英语）。
+  - 使用learningObject.localizedMetadata和learningObjectResource.localizedMetadata以相应的语言显示标题和说明。
+  - 使用resource.attributes.locale为学习者区域设置选择正确的URL（位置/下载网址）。
+  - 如果学习者的精确区域设置不可用，请实施回退行为（例如，回退到美国英语）。
 - _API和存储_
-   - 对于新集成，请存储&#x200B;_新格式的资源ID_ (`jobAid:<jobAidId>_<version>_<localeCode>`)以启用明确的特定于区域设置的检索。
-   - 旧版ID仍可与/resources/{resourceId}一起使用，但它们无法区分区域设置。
+  - 对于新集成，请存储&#x200B;_新格式的资源ID_ (`jobAid:<jobAidId>_<version>_<localeCode>`)以启用明确的特定于区域设置的检索。
+  - 旧版ID仍可与/resources/{resourceId}一起使用，但它们无法区分区域设置。
 
 ## 启动模块的时隙限制
 
@@ -343,7 +344,7 @@ jobAid:131032_2_fr_FR
 
 `GET /primeapi/v2/learningObjects/{loId}?include=instances.loResources`
 
-学习对象资源现在可能公开布尔属性hasContentDrivenAttemptTracking。 如果为True，则测试或模块在内部管理尝试（例如，通过SCORM或xAPI逻辑），平台的标准尝试计数器可能无法完全反映学习者的体验。
+学习对象资源现在可以布尔值属性hasContentDrivenAttemptTracking。 如果为True，则测试或模块在内部管理尝试（例如，通过SCORM或xAPI逻辑），平台的标准尝试计数器可能无法完全反映学习者的体验。
 
 显示尝试计数或控制重试行为的集成应检查此标志。 启用后，他们不应仅从平台元数据推断尝试限制，并应准备好依赖内容端报告（例如，通过xAPI语句）或业务特定的规则。
 
@@ -361,7 +362,7 @@ jobAid:131032_2_fr_FR
 
 例如：
 
-jobAid:131032_2_fr_FR
+jobAid：131032_2_fr_FR
 
 这些组件包括：
 
@@ -369,7 +370,7 @@ jobAid:131032_2_fr_FR
 - `<version>`：工作辅助的版本号（例如，2），
 - `<localeCode>`：区域设置代码（例如，en_US、fr_FR、es_ES）。
 
-为资源编制索引或保留在工作辅助资源ID中的任何集成必须更新其分析和存储逻辑以识别新格式。 由于标识符本身发生变化，强烈建议您在升级到2026年4月版后重新构建由工作辅助资源ID键入的任何本地索引。
+为资源编制索引或保留在工作辅助资源ID中的任何集成必须更新其分析和存储逻辑以识别新格式。 由于标识符本身发生变化，强烈建议您在升级到2026年4月版后，重新构建由工作辅助资源ID键入的任何本地索引。
 
 ## 通过迁移设置课程横幅图像
 
@@ -429,8 +430,8 @@ Sprint之后：
 首次从course.csv创建课程并填充横幅列后，系统会立即设置该横幅。
 - _现有课程（改良/更正）_
 如果使用相同的课程ID和新的横幅值重新运行迁移：
-   - Learning Manager会找到现有课程。
-   - 横幅图像已&#x200B;_更新_&#x200B;为CSV中指定的新图像。
+  - Learning Manager会找到现有课程。
+  - 横幅图像已&#x200B;_更新_&#x200B;为CSV中指定的新图像。
 
 实际列名称和路径必须与&#x200B;_下载的CSV规范_&#x200B;和内容存储库布局匹配。
 
@@ -453,16 +454,16 @@ Adobe Learning Manager现在支持在迁移期间使用&#x200B;_学习路径（�
 
 - 在迁移期间，不要依靠顺序控制学习计划中的课程顺序。
 - 如果您仍有旧版模板中的订单列：
-   - Learning Manager在排序时会忽略该字段。
-   - 您可以随着时间的推移将其从CSV中安全地删除，以简化迁移文件。
+  - Learning Manager在排序时会忽略该字段。
+  - 您可以随着时间的推移将其从CSV中安全地删除，以简化迁移文件。
 - 所需的核心映射仍然是：
-   - 学习计划ID↔课程ID（以及任何其他仍记载的列，如ID、learningProgramId、courseId和日期）。
+  - 学习计划ID↔课程ID（以及任何其他仍记载的列，如ID、learningProgramId、courseId和日期）。
 
 请始终从您的Learning Manager帐户中参考最新的&#x200B;[_CSV规范_](https://experienceleague.adobe.com/zh-hans/docs/learning-manager/using/integration/migration-manual)（通过csv_specifications.zip），以确认当前的标题集和要求。
 
 ## 课程实例上的时区代码
 
-从此版本开始，课程实例模型(learningObjectInstance)将显示一个新属性：
+从此版本开始，课程实例模型(learningObjectInstance)会公开一个新属性：
 
 timeZoneCode — 一个字符串字段，用于将课程实例显式链接到帐户配置的时区之一。
 
@@ -539,7 +540,7 @@ Authorization: Bearer <access_token>
 
 ### 简介
 
-Adobe Learning Manager公开两个&#x200B;_管理异步API_&#x200B;以管理用户组(UG)成员资格：
+公开两个&#x200B;_管理异步API_&#x200B;以管理用户组(UG)成员资格：
 
 - POST/async/userGroups/{userGroupId}/users — 将用户异步添加到UG
 - DELETE/async/userGroups/{userGroupId}/users — 从UG异步删除用户
@@ -561,9 +562,9 @@ Adobe Learning Manager公开两个&#x200B;_管理异步API_&#x200B;以管理用�
 - [基本URL （生产）](https://learningmanager.adobe.com/docs/primeapi/v2/)
 - 身份验证：作用域为`admin:write`的OAuth 2.0访问令牌
 - 必需的标头：
-   - 授权：持有人&lt;access_token>
-   - 内容类型：application/json
-   - 接受：application/json
+  - 授权：持有人&lt;access_token>
+  - 内容类型：application/json
+  - 接受：application/json
 
 有关常规管理员API行为和范围，请参阅：
 
@@ -638,7 +639,7 @@ data是此批的用户资源标识符列表。
 
 您应始终：
 
-- 将此`event_id`存储为批的主标识符。
+- 将此`event_id`存储为批处理的主标识符。
 - 预计在Webhook回调中收到相同的值。
 
 查看[用于添加和删除用户组成员资格的Webhook](/help/migrated/integration-admin/feature-summary/webhooks.md#webhooks-for-adding-and-removing-user-group-membership)，了解更多详情。
@@ -693,7 +694,7 @@ _如何获取适用于未登录用户（公共体验）的菜单？_
 
 这将返回为匿名用户过滤的菜单和页面结构，适用于Experience Builder或其他无头站点。
 
-_使用effectiveModifiedDate筛选工作辅助时发生了什么变化？_
+_使用effectiveModifiedDate工作辅助筛选发生了什么变化？_
 
 将filter.effectiveModifiedDate与filter.loTypes=jobAid相结合的请求现在仅可正确返回指定日期范围内的工作辅助。
 
@@ -707,4 +708,4 @@ ID格式已从如下值更改：
 
 `jobAid:<jobAidId>_<version>_<localeCode>`
 
-例如jobAid:131032_2_fr_FR。 必须更新任何存储或分析工作辅助资源ID的系统，在升级到2026年4月版后，您应计划重建由这些ID键控的本地索引。
+例如，jobAid：131032_2_fr_FR。 必须更新任何存储或分析工作辅助资源ID的系统，在升级到2026年4月版后，您应计划重建由这些ID键控的本地索引。

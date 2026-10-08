@@ -4,13 +4,14 @@ title: Learning Manager中的API速率限制
 description: AdobeLearning Manager提供了丰富的REST API套件，可帮助客户构建与Learning Manager集成的应用程序，甚至还可以构建自定义用户体验和工作流扩展以帮助客户开展业务。
 contentowner: saghosh
 preview: true
-source-git-commit: 3188d7f5593aeee87978e1e46456f01e1f41d57b
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '1801'
 ht-degree: 80%
-
 ---
-
 
 
 # Learning Manager中的API速率限制
@@ -111,7 +112,7 @@ x-burst: 2
 
 为了便于您查看，您可以查看说明此情况的示例JavaCript代码。 单击此 [小提琴](https://jsfiddle.net/ACAPJS/9yv8zcmL/) 并查看实际操作代码。
 
-此应用程序要求您为帐户提供学习者角色应用程序令牌。 有关API令牌的信息，请参阅[《应用程序开发人员手册》]&#x200B;(https://captivateLearning Manager.adobe.com/docs/Learning Managerapi/v2/)，您可以使用Learning Manager集成管理应用程序的“开发人员资源”部分中的令牌帮助程序生成令牌。
+此应用程序要求您为帐户提供学习者角色应用程序令牌。 有关API令牌的信息，请参阅[《Application Developer Manual》]&#x200B;(https://captivateLearning Manager.adobe.com/docs/Learning Managerapi/v2/)，您可以使用Learning Manager集成管理助手的“开发人员资源”部分中的令牌应用程序生成令牌。
 
 此应用程序正在一次性循环对虚拟API进行10次调用。 由于虚拟API的速率限制为(5， 2)，因此Learning Manager收到的前5+2个调用成功后，即会超出速率限制，您会看到相应的成功响应。
 

@@ -4,13 +4,14 @@ jcr-language: en_us
 title: 移动设备和平板电脑上的学习者应用程序
 contentowner: manochan
 exl-id: 94c2b54c-a5e2-4262-bc3c-bd21d52e1f09
-source-git-commit: 864c3a4e60cf1bf1c049838fb2ba46ebbcb28ddf
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '2714'
 ht-degree: 77%
-
 ---
-
 # 移动设备和平板电脑上的学习者应用程序
 
 阅读本文，了解如何在智能手机和平板电脑上下载 Adobe Learning Manager 学习者应用程序。 了解如何通过移动设备或平板电脑使用课程。
@@ -165,7 +166,7 @@ _下载ALM应用程序_
 
 **查看目录**
 
-点击屏幕底部书本图标旁的图标。 您可以立即查看所有相关学习对象的目录。 您可以选择在网格版面中查看它们，也可以选择详细视图。 选择建议可查看根据您的学习历史记录给出的课程建议。
+点击屏幕底部书本图标旁的图标。 您可以立即查看所有相关学习对象的目录。 您可以选择在网格布局中查看它们，也可以选择详细视图。 选择建议可查看根据您的学习历史记录给出的课程建议。
 
 ![](assets/4.png)
 
@@ -217,7 +218,7 @@ _下载ALM应用程序_
 
 * 创建或关注讨论区。
 * 复制 URL 到帖子。
-* 将帖子添加为故事或收藏或将其固定到顶部。
+* 将帖子添加为故事或收藏或大头针添加到顶部。
 * 查看社交排行榜内容。
 
 社交学习是 Adobe Learning Manager 移动应用程序中一个让用户在轻松随意环境下分享其想法和见解的平台。 该学习方法是对传统学习理念的一种有益补充。
@@ -346,7 +347,7 @@ _下载ALM应用程序_
 * 编辑或删除讨论区中的评论。
 * 根据权限编辑或删除帖子。
 * 举报涉嫌侵犯个人隐私或含有不当内容的帖子。 某个帖子被举报后，系统会向讨论区管理员和版主发送通知，以便采取进一步措施。
-* 喜欢![](assets/prime-like.png)或不喜欢![](assets/prime-dislike.png)   帖子。
+* 喜欢![](assets/prime-like.png)或不喜欢![](assets/prime-dislike.png)帖子。
 * 喜欢![](assets/prime-like.png)或不喜欢![](assets/prime-dislike.png)条评论。
 
 ## 在其他讨论区创建帖子 {#createapostinotherboards}

@@ -5,13 +5,14 @@ title: Learning Manager部署指南 — 第2部分
 contentowner: sanm
 preview: true
 exl-id: 46e59790-dbc9-4c13-ae63-7bbdba5157a1
-source-git-commit: 864c3a4e60cf1bf1c049838fb2ba46ebbcb28ddf
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '2257'
 ht-degree: 63%
-
 ---
-
 # Learning Manager部署指南 — 第2部分
 
 ## 技术设置 {#technicalsetup}
@@ -74,7 +75,7 @@ Learning Manager允许您通过逐步向导在迭代Sprint中迁移现有LMS。 
 
 在开始迁移过程之前，必须执行以下先决条件：
 
-* 从现有LMS中提取数据和内容，并将数据转换为Learning Manager定义的文件格式。
+* 从现有LMS中提取数据和内容，并将数据变换为Learning Manager定义的文件格式。
 * 使用 FTP 和 BOX 连接器导入用户。 集成管理员必须确保在迁移过程之前已配置连接器。
 
 
@@ -119,7 +120,7 @@ Learning Manager允许您通过逐步向导在迭代Sprint中迁移现有LMS。 
 <table> 
  <tbody> 
   <tr> 
-   <th width="7%" valign="top"><p><strong>数字</strong></p></th> 
+   <th width="7%" valign="top"><p><strong>编号</strong></p></th> 
    <th width="29%" valign="top"><p><strong>Excel 工作表名称</strong></p></th> 
    <th width="31%" valign="top"><p><strong>内容描述</strong></p></th> 
    <th width="31%" valign="top"><p><strong>备注</strong></p></th> 

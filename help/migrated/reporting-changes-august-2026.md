@@ -2,13 +2,14 @@
 description: 本文档汇总了Adobe Learning Manager 2026年8月报告变更的内容。 它涵盖了“学习者成绩单”、“培训”、“注册”、“轮候表”、“出勤”、“内容审核”以及“用户报告”中的新增和更新列。 它还介绍了自适应课程行为、gradebook评分、外部学习记录、Gen AI信用报告、根认证跟踪、时间戳标准化和API作者更新。
 jcr-language: en_us
 title: 报告Adobe Learning Manager 2026年8月版中的更改
-source-git-commit: 5c32d300f6e66e154a5c993a0d9701254ac8b4ce
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '976'
 ht-degree: 2%
-
 ---
-
 
 # 报告Adobe Learning Manager 2026年8月版中的更改
 
@@ -137,7 +138,7 @@ The **Learner status** column now distinguishes between confirmed and waitlisted
 
 ### “学习者成绩单”中的“类型”列
 
-外部学习条目现在会与“管理员LT”中的现有学习对象（课程、学习路径、认证）一起显示。 **类型**&#x200B;列包含便于筛选的新外部学习分类。
+外部学习条目现在会与“管理员LT”中的现有学习对象（课程、学习路径、认证）一起显示。 **类型**&#x200B;列包含新的外部学习分类，以方便筛选。
 
 外部学习数据会流入学习者成绩单和管理员学习成绩单。 核心字段（如完成日期、状态和分数）映射到现有列。 自定义字段作为附加列附加。
 
@@ -178,7 +179,7 @@ The **Learner status** column now distinguishes between confirmed and waitlisted
 
 ### 根认证：根培训ID
 
-在&#x200B;**管理员学习者成绩单**&#x200B;和&#x200B;**学习者成绩单**（学习者自助视图）的末尾都添加了一个新的&#x200B;**根培训ID**&#x200B;列。 它捕获唯一标识符，该标识符将证书的所有重复实例链接到单个根实体。 这允许将认证的所有循环实例与单个根ID相关联，以进行跟踪和筛选。
+在&#x200B;**管理员学习者成绩单**&#x200B;和&#x200B;**学习者成绩单**（学习者自助视图）的末尾都添加了一个新的&#x200B;**根培训ID**&#x200B;列。 它捕获将某个认证的所有重复实例链接到单个根实体的唯一标识符。 这样可以将认证的所有循环实例与单个根ID相关联，以进行跟踪和筛选。
 
 ### Webhook和学习者成绩单时间戳标准化
 

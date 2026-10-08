@@ -4,13 +4,14 @@ jcr-language: en_us
 title: 经理信息板
 contentowner: kuppan
 exl-id: 32d017bf-ee5a-4749-947d-0d62b32d6f38
-source-git-commit: 864c3a4e60cf1bf1c049838fb2ba46ebbcb28ddf
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '1507'
 ht-degree: 50%
-
 ---
-
 # 经理信息板
 
 了解如何通过经理信息板查看和跟踪学习情况。

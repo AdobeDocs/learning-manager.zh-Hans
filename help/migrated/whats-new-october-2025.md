@@ -3,13 +3,14 @@ description: 了解Adobe Learning Manager 2025年10月版的新增功能和增�
 jcr-language: en_us
 title: Adobe Learning Manager 2025年10月版的新增功能
 exl-id: 8a2f5c82-2150-46c6-a50b-a3d8a4c8ae53
-source-git-commit: 0f7f42d18c81d18b6f6592a90f9322f0cd9dcce4
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '5644'
 ht-degree: 0%
-
 ---
-
 
 # Adobe Learning Manager 2025年10月版的新增功能
 
@@ -286,7 +287,7 @@ GET /bulkimport/runStatus
 
 * **sprintId**： （必需）。 迁移项目中Sprint的唯一标识符。 Sprint是迁移任务的子集，其中包括要从现有LMS迁移到Adobe Learning Manager的特定学习项目（如课程、模块、学习者记录）。 每个Sprint都可以独立执行，从而允许分阶段迁移。
 
-* **sprintRunId**： （必需）。 一个唯一标识符，用于跟踪迁移项目中特定Sprint的执行情况。 它与Sprint中定义的项目的实际迁移过程相关联。 sprintRunId有助于监视、故障排除和管理迁移作业。
+* **sprintRunId**： （必需）。 一个唯一的标识符，用于跟踪迁移项目中特定Sprint的执行情况。 它与Sprint中定义的项目的实际迁移过程相关联。 sprintRunId有助于监视、故障排除和管理迁移作业。
 
 **响应**
 
@@ -686,13 +687,13 @@ curl -X GET --header 'Accept: application/vnd.api+json' --header 'Authorization:
 
 * 主帐户课程：作者信息将继续在现有`authors`属性下返回，而不更改当前行为。
 
-此更改可确保通过API公开主课程和共享课程作者数据的一致性，同时还可保持现有集成的兼容性。
+此更改可确保通过API为主课程和共享课程公开作者数据的方式保持一致，同时还可保持现有集成的兼容性。
 
 ## 对Webhook的更改
 
 ### 使用连接器注册LinkedIn Learning Webhook
 
-以前，管理员必须通过API手动将LinkedIn学习Webhook注册到Adobe Learning Manager。 借助此增强功能，LinkedIn学习(LIL)连接器现在支持在ALM中建立新连接期间自动注册Webhook。 将在LinkedIn学习配置页面上自动填充&#x200B;**OAuth服务器URL**&#x200B;和&#x200B;**租户服务器URL**。
+以前，管理员必须通过API手动将LinkedIn学习Webhook注册到Adobe Learning Manager。 借助此增强功能，LinkedIn学习(LIL)连接器现在支持在ALM中新连接设置期间自动注册Webhook。 将在LinkedIn学习配置页面上自动填充&#x200B;**OAuth服务器URL**&#x200B;和&#x200B;**租户服务器URL**。
 
 有关LinkedIn学习集成的详细信息，请查看[LinkedIn学习](/help/migrated/integration-admin/feature-summary/connectors.md#linkedin-learning-connector)。
 
@@ -730,7 +731,7 @@ _学习者成绩单报告会以黄色显示一个新列，突出显示所有用�
 
 用户报告现在包含其他字段，以增强用户跟踪和组织映射。 这些更新简化了用户识别，支持与下游用户管理工作流程的集成，提高了对报告关系的理解，并维持了组织界限以防止意外的交叉通信。
 
-* 内部用户ID列：提供唯一的内部标识符，以便跨不同系统和API端点顺畅地跟踪用户。
+* “内部用户ID”列：提供独特的内部标识符，以平滑地跨不同系统和API端点跟踪用户。
 * “经理电子邮件”列：包括用于组织层次结构跟踪的直接经理联系人信息。
 
 ![用户报告，显示以黄色突出显示的内部用户ID和经理电子邮件列](/help/migrated/assets/user-report-columns.png)
@@ -742,13 +743,13 @@ _用户报告，重点介绍内部用户ID和经理电子邮件地址，以简�
 
 **概述**
 
-除了现有的作业API之外，用户报告现在可用于Box、FTP和自定义FTP连接器。 这些报告提供有关内部用户ID、用户电子邮件、姓名、经理电子邮件、用户类型等方面的详细信息。
+除了现有的作业API之外，用户报告现在还可用于Box、FTP和自定义FTP连接器。 这些报告提供有关内部用户ID、用户电子邮件、姓名、经理电子邮件、用户类型等方面的详细信息。
 
 可以按需或按计划生成报告，并将数据存储在相应的连接器中，以便于访问和分析。 此增强功能改进了用户活动的监控和审核，从而支持更好的安全性和合规性跟踪。
 
 这些报告可与现有报告（例如用户注册、登录访问、游戏和培训）一起提供，使管理员能够从单个位置访问所有基本报告，以简化数据管理和分析。
 
-有关FTP、自定义FTP和Box连接器的详细信息，请查看[连接器](/help/migrated/integration-admin/feature-summary/connectors.md)。
+有关FTP、自定义FTP和Box连接器的更多信息，请查看[连接器](/help/migrated/integration-admin/feature-summary/connectors.md)。
 
 ### 在学习者成绩单中包括暂停的用户
 
@@ -798,13 +799,13 @@ _工作辅助报告显示直接下载链接，可以轻松访问和下载Adobe L
 * 反馈报告中的“反馈日期”列现在显示正确的日期。 以前，秒错误地传递给Date构造函数（预期为毫秒），导致日期显示为1970年1月。 此问题现已解决，以确保在生成反馈报告时准确显示日期。
 * 即使其中一个课程实例已弃用，学习者现在也可以更新Flex学习路径的注册内容。 以前，选择新实例会导致控制台错误（无法读取未定义的属性）并阻止更新。
 * 学习路径中的资源名称现在可以正确显示，而不会中断中间字。
-* 现在，在为新用户创建连接时，将从LIL连接器启用LinkedIn Learning Webhook。 系统还会通过专用API注册帐户，并在LinkedIn学习配置页面上显示其他配置信息（OAuth URL和租户URL）。
+* 现在，在为新用户创建连接时，将从LIL连接器启用LinkedIn学习Webhook。 系统还会通过专用API注册帐户，并在LinkedIn学习配置页面上显示其他配置信息（OAuth URL和租户URL）。
 * 通过SAML工作流(`UpdateUserWorkerTask`)更新的用户属性值现在与其原始大小写一起保存，而不是转换为小写。
 * 对课程中的模块进行重新排序后，必修模块数量不会再重置为“全部”；数量现在保持不变。
 * Go1管道现在通过将两个字母的代码映射到四个字母的代码来一致地处理语言代码，类似于LinkedIn学习管道。
 * 在弃用帐户中，学习者在取消认证注册后启动学习路径课程时，之前会看到“此课程不存在”。 注册源现已正确更新，学习路径中的课程可正常启动。
 * 当module_version.csv文件包含空值或null值的contentType字段时，课程创建现在没有任何问题。
-* 按“目录”或“目录标签”筛选时，课程现在可以正确显示。 以前，在课程页面上应用这些过滤器时，即使课程与目录相关联，也不会显示课程。
+* 现在，按“目录”或“目录标签”筛选时，课程可以正确显示。 以前，在课程页面上应用这些过滤器时，即使课程与目录相关联，也不会显示课程。
 * 在学习者应用程序中，流体播放器中的TAB键卡在“进入全屏”按钮上。 键盘导航现在可在所有屏幕元素中正确移动。
 * 将鼠标悬停在经理应用程序合规性信息板中的长课程名称上，现在会显示已注册或合规课程的全名。
 * module.csv中的模块可见性列只接受“共享”或“隐藏” 。 任何其他值都将在迁移期间触发错误，从而防止后端失败。

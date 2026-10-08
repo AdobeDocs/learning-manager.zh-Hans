@@ -3,13 +3,14 @@ description: 了解如何创建内容以作为与课程对应的自学内容。
 jcr-language: en_us
 title: 内容库
 exl-id: cc19eca6-6b47-44b2-ad23-2d7ad8975f65
-source-git-commit: 105f5b4331abaae38c1dc3bba14592e78ae28d51
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '6083'
 ht-degree: 33%
-
 ---
-
 # 内容库
 
 了解如何创建内容以作为与课程对应的自学内容。

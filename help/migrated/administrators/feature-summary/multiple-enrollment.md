@@ -2,13 +2,14 @@
 title: Adobe Learning Manager 中的多次注册功能
 description: 作为帐户管理员，您的主要职责之一是跨不同时区创建不同的 VILT 会话实例，并可能需要为特定用户组创建会话。
 exl-id: c430545d-b48e-432d-a278-658c9281818f
-source-git-commit: 22cfa30d22a45afd3e0a65d8c088c2dda4d93072
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '624'
 ht-degree: 70%
-
 ---
-
 # Adobe Learning Manager 中的多次注册功能
 
 在 Adobe Learning Manager 中，每个课程可以有不同的实例。 作为帐户管理员，您的主要职责之一是跨不同时区创建不同的 VILT 会话实例，并可能需要为特定用户组创建会话。

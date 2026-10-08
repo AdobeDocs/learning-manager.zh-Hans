@@ -4,13 +4,14 @@ jcr-language: en_us
 title: 我的学习
 contentowner: manochan
 exl-id: 2c62d36c-c500-40d6-b79f-d3cc8b3b756a
-source-git-commit: f022ecdc10a8d9d473cd598697422edbb302a78c
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '3331'
 ht-degree: 74%
-
 ---
-
 # 我的学习
 
 阅读本文，了解如何在 Adobe Learning Manager 查看和使用课程。 参与讨论并提供反馈。
@@ -243,7 +244,7 @@ _切换实例提示_
 
 >[!NOTE]
 >
->Internet Explorer 11不支持“内容市场”。
+>Internet资源管理器11不支持“内容市场”。
 
 所有筛选器和其他选项都将在以下视频中展示。
 

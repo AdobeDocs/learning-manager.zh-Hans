@@ -1,15 +1,16 @@
 ---
-description: 了解如何将Workday连接器与Adobe Learning Manager集成
+description: 了解如何将连接器与Adobe Learning Manager集成
 jcr-language: en_us
 title: Workday 连接器
 contentowner: mmanuel
-source-git-commit: 8a5212062c6b172b0e9d4f3faa2e66d26c5c2b56
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '812'
 ht-degree: 1%
-
 ---
-
 
 # Adobe Learning Manager中的Workday连接器
 
@@ -17,7 +18,7 @@ ht-degree: 1%
 
 **Workday**&#x200B;是一个基于云的系统，可帮助组织管理员工和财务数据。 它主要用于招聘、工资和绩效跟踪等HR任务。 连接到Adobe Learning Manager后，它可以在两个平台之间自动同步用户和技能数据。
 
-利用Workday连接器，可将Adobe Learning Manager与组织的Workday租户无缝集成。 这种集成实现了两个系统之间用户数据和技能的自动同步，提高了数据的准确性，减少了手动工作。
+通过连接器，可将Adobe Learning Manager与组织的Workday租户无缝集成。 这种集成实现了两个系统之间用户数据和技能的自动同步，提高了数据的准确性，减少了手动工作。
 
 ## 主要优点
 
@@ -28,33 +29,33 @@ ht-degree: 1%
 
 ## 先决条件
 
-在配置Workday连接器之前，请向您的Workday管理员获取以下详细信息：
+在配置连接器之前，请向您的Workday管理员获取以下详细信息：
 
 - 主机URL
 - 租户ID
 - 用户名
 - 密码
 
-## 配置Workday连接器
+## 配置连接器
 
-您可以在Adobe Learning Manager中配置Workday连接器，以便从Workday导入用户数据、将用户技能导出回Workday以及安排自动同步，以使两个系统都保持最新。
+您可以在Adobe Learning Manager中配置Workday连接器，以允许从Workday导入用户数据、将用户技能导出回Workday以及安排自动同步以使两个系统保持最新。
 
-要配置Workday连接器，请执行以下操作：
+要配置连接器，请执行以下操作：
 
 1. 以集成管理员身份登录Adobe Learning Manager.
 2. 将鼠标悬停在&#x200B;**Workday**&#x200B;磁贴上，然后选择&#x200B;**连接**。
 
    ![](assets/workday-connector1.png)
-   _配置Workday连接器以导入和导出数据_
+   _配置连接器以导入和导出数据_
 
 3. 键入以下连接详细信息：
    - **连接名称**：您选择的连接名称。
    - **主机Url**：由您的Workday管理员提供。
-   - **租户**：你的Workday管理员的内部标识符。
+   - **租户**：Workday管理员的内部标识符。
    - **用户名和密码**：Workday管理员创建具有所需安全权限的集成系统用户(ISU)，并将其共享给集成管理员。
 
    ![](assets/workday-connector2.png)
-   _添加必要的详细信息以配置Workday连接器_
+   _添加必要的详细信息以配置连接器_
 
 4. 选择&#x200B;**连接**&#x200B;以完成设置。
 
@@ -66,11 +67,11 @@ ht-degree: 1%
 
 ### 映射属性
 
-您可以使用Workday连接器将活动用户从Workday租户导入Adobe Learning Manager。 此集成通过保持员工记录同步而简化了用户管理。 除了Workday之外，Adobe Learning Manager还支持从FTP和Salesforce等其他数据源导入用户。
+您可以使用连接器将活动用户从Workday租户导入Adobe Learning Manager。 此集成通过保持员工记录同步而简化了用户管理。 除了Workday之外，Adobe Learning Manager还支持从FTP和Salesforce等其他数据源导入用户。
 
 在导入用户之前，您必须在Workday和Learning Manager之间映射用户属性。
 
-1. 导航到Workday连接器中的&#x200B;**概述**&#x200B;页面。
+1. 导航至连接器中的&#x200B;**概述**&#x200B;页面。
 2. 在&#x200B;**导入**&#x200B;部分下选择&#x200B;**内部用户**。
 
    ![](assets/workday-connector3.png)
@@ -127,7 +128,7 @@ wd:Organization_Subtype_Reference_Division wd:Universal_ID wd:Employment_Data.wd
 4. 设置开始日期、时间和重复时间间隔。
 
    ![](assets/workday-connector6.png)
-   _在Workday连接器中配置计划导出_
+   _在连接器中配置计划导出_
 
 5. 选择&#x200B;**保存**&#x200B;以应用计划。
 

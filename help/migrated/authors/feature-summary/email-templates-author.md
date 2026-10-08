@@ -3,13 +3,14 @@ description: 阅读本文，了解如何配置与所有学习对象相关事件�
 jcr-language: en_us
 title: 电子邮件模板
 exl-id: 3b17f889-52be-4073-ab91-7c76dd79f1d2
-source-git-commit: 6862dc1958a34a369f0e0e7218f28151a47beb3b
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '478'
 ht-degree: 72%
-
 ---
-
 # 电子邮件模板
 
 阅读本文，了解如何配置与所有学习对象相关事件的电子邮件模板。

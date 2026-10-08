@@ -1,15 +1,16 @@
 ---
-description: 了解如何集成Adobe Commerce连接器
+description: 了解如何集成连接器
 jcr-language: en_us
 title: Adobe Commerce 连接器
 contentowner: mmanuel
-source-git-commit: 8a5212062c6b172b0e9d4f3faa2e66d26c5c2b56
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '696'
 ht-degree: 4%
-
 ---
-
 
 # Adobe Learning Manager中的Adobe Commerce连接器
 
@@ -17,15 +18,15 @@ ht-degree: 4%
 
 >[!NOTE]
 >
->仅当Adobe Learning Manager作为&#x200B;**加载项**&#x200B;出售到Adobe Experience Manager时，此功能才可用。 还可为&#x200B;**试用**&#x200B;帐户启用连接器。
+>仅当Adobe Learning Manager作为&#x200B;**加载项**&#x200B;出售到Adobe Experience Manager时，此功能才可用。 也可以为&#x200B;**试用**&#x200B;连接器启用此帐户。
 
-Adobe Learning Manager与Adobe Commerce集成，后者是一个可扩展且可伸缩的电子商务解决方案，可让您为B2B和B2C客户提供多渠道商务体验。 使用Adobe Commerce连接器将Adobe Learning Manager与Adobe Commerce连接，以在您的学习平台中启用付费培训和电子商务功能。
+Adobe Learning Manager与Adobe Commerce集成，后者是一个可扩展且可伸缩的电子商务解决方案，可让您为B2B和B2C客户提供多渠道商务体验。 使用连接器将Adobe Learning Manager与Adobe Commerce连接，以在您的学习平台中启用付费培训和电子商务功能。
 
-启用连接器后，Learning Manager会将培训数据发送至Adobe Commerce，以便学习者购买课程、学习路径或认证。 连接器还会收集购买信息以验证交易并授予学习者培训访问权限。
+连接器启用后，Learning Manager会将培训数据发送至Adobe Commerce，以便学习者购买课程、学习路径或认证。 该连接器还会收集购买信息以验证交易并授予学习者培训访问权限。
 
 ## 先决条件
 
-在设置Adobe Commerce连接器之前，请确保执行以下操作：
+在设置连接器之前，请确保执行以下操作：
 
 - 启用[RabbitMQ](https://experienceleague.adobe.com/zh-hans/docs/commerce-cloud-service/start/overview)或任何其他消息代理。
 - 启用[CRON](https://experienceleague.adobe.com/zh-hans/docs/commerce-cloud-service/start/overview#cron_consumers_runner)作业。
@@ -41,20 +42,20 @@ Adobe Learning Manager与Adobe Commerce集成，后者是一个可扩展且可�
 - 使用自定义模块覆盖选项限制。 此步骤为可选步骤，但建议在处理大型数据集时使用此步骤。
 - 启用所有&#x200B;**异步API**。 大型培训数据集以异步方式导出。 当Learning Manager调用Adobe Commerce API时，请求会排队，并由在Commerce端创建产品的消费者处理。 必须启用异步处理，因为默认情况下它在Adobe Commerce中不可用。
 - 在Adobe Commerce的“付款成功”页面上，为Learning Manager添加&#x200B;**返回链接**。
-   - 使用此[返回URL](https://learningmanager.adobe.com/app/learner#/postPayment)：
+  - 使用此[返回URL](https://learningmanager.adobe.com/app/learner#/postPayment)：
 - 将&#x200B;**索引**&#x200B;从&#x200B;**保存时**&#x200B;更改为&#x200B;**已计划**。 有关详细信息，请参阅[知识库](https://experienceleague.adobe.com/zh-hans/support?support-tab=home#home)。
 - 应用所需的&#x200B;**修补程序**。 有关说明，请参阅[应用修补程序文档](https://experienceleague.adobe.com/zh-hans/docs/commerce-cloud-service/start/overview)。
 - 在云基础架构（暂存和生产）上为Adobe Commerce配置&#x200B;**快速**。 有关详细信息，请参阅[快速设置](https://devdocs.magento.com/cloud/cdn/configure-fastly.html)。
 
 ## 配置连接器
 
-要配置Adobe Commerce连接器，请执行以下操作：
+要配置连接器，请执行以下操作：
 
 1. 以集成管理员身份登录Adobe Learning Manager.
-2. 将鼠标悬停在&#x200B;**Adobe Commerce**&#x200B;连接器图块上，然后选择&#x200B;**连接**。
+2. 将鼠标悬停在&#x200B;**Adobe Commerce**&#x200B;连接器磁贴上，然后选择&#x200B;**连接**。
 
    ![](assets/adobe-commerce-connector1.png)
-   _选择“连接”以配置Adobe Commerce连接器_
+   _选择“连接”以配置连接器_
 
 3. 键入以下详细信息：
 

@@ -3,7 +3,10 @@ title: Adobe Learning Manager管理帐户生命周期
 description: 本文档提供了有关在Adobe Learning Manager (ALM)中安全管理顶级管理帐户的综合指导，以满足FedRAMP合规性和最佳安全实践的要求。
 jcr-language: en-us
 exl-id: 79049f3d-8ebe-47e7-9895-9a7aaee504b3
-source-git-commit: 88298726a8cd4622e412200b3318e18890817ae8
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '2122'
 ht-degree: 0%
@@ -234,7 +237,7 @@ Adobe Learning Manager采用共享责任模式：
 * Adobe负责保护基础ALM平台和基础设施。
 * 客户负责管理其ALM帐户中的管理访问权限、角色分配和用户生命周期活动。
 
-有关Adobe Learning Manager安全实践的其他信息，请参见[Adobe Learning Manager安全概述(PDF)](https://experienceleague.adobe.com/docs/learning-manager/assets/alm-security-whitepaper-2024.pdf?lang=zh-Hans)
+有关Adobe Learning Manager安全实践的其他信息，请参见[Adobe Learning Manager安全概述(PDF)](https://experienceleague.adobe.com/docs/learning-manager/assets/alm-security-whitepaper-2024.pdf)
 
 ## 文档维护
 

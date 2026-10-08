@@ -3,13 +3,14 @@ title: Adobe Learning Manager即将推出的功能
 description: 探索Adobe Learning Manager中即将推出的更改。 及时了解最新的更新以及未来的公告。
 exl-id: 4d2129c4-42d8-446f-8837-879b5c2f42bf
 hide: true
-source-git-commit: a8ce2cca26c50bde68789ae423478af9a9494dc3
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '114'
 ht-degree: 0%
-
 ---
-
 
 # Adobe Learning Manager中的更新
 

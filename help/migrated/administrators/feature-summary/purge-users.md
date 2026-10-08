@@ -4,13 +4,14 @@ jcr-language: en_us
 title: 清除用户
 contentowner: dvenkate
 exl-id: 4449146c-6247-44fb-b695-a12023c31dc6
-source-git-commit: 96bd0f559c38f7eefe4077fd9f61571663d748cd
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
-source-wordcount: '1441'
+source-wordcount: '1442'
 ht-degree: 45%
-
 ---
-
 # 清除用户
 
 了解有关在 Adobe Learning Manager 中清除用户数据的更多信息。

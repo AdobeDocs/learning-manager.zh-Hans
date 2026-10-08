@@ -4,13 +4,14 @@ jcr-language: en_us
 title: 通过SAML设置界面语言
 contentowner: chandrum
 exl-id: 726cb45e-1c37-42b1-924a-565c84c82852
-source-git-commit: 7b84a4565ccf109ed4789f4963d6e250f5d0a852
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
-source-wordcount: '765'
+source-wordcount: '782'
 ht-degree: 0%
-
 ---
-
 # 通过SAML设置界面语言
 
 Adobe Learning Manager (ALM)现在接受语言的SAML属性。 然后将该属性映射到用户的界面和内容语言设置，确保以首选语言与LMS进行流畅的交互。 这些语言设置的配置通过身份和访问管理(IAM)平台进行管理，该平台利用用于单点登录(SSO)的SAML。 这同时支持由服务提供商(SP)发起和身份提供商(IdP)发起的登录，从而允许用户使用他们选择的语言查看界面和内容。 工作流程如下：
@@ -29,7 +30,7 @@ Adobe Learning Manager (ALM)现在接受语言的SAML属性。 然后将该属�
 4. 键入应用程序的名称，然后选择下一步。
 5. 配置以下字段：
 
-   * **[!UICONTROL 单点登录URL]**：键入要将应用程序链接到的特定域URL(例如，[https://learningmanagerstage.adobe.com/saml/SSO](https://learningmanagerstage.adobe.com/saml/SSO))。 如有必要，请更改环境URL。
+   * **[!UICONTROL 单点登录URL]**：键入要将应用程序链接到的特定域URL（例如，[https://learningmanagerstage.adobe.com/saml/SSO](https://learningmanagerstage.adobe.com/saml/SSO)）。 如有必要，请更改环境URL。
    * **[!UICONTROL 受众URI （SP实体ID）]**：使用与上述相同的环境URL。
    * **[!UICONTROL 名称ID格式]**：选择电子邮件地址。
    * **[!UICONTROL 应用程序用户名]**：选择Okta用户名。
@@ -75,9 +76,9 @@ Adobe Learning Manager (ALM)现在接受语言的SAML属性。 然后将该属�
    * 从&#x200B;**[!UICONTROL 单点登录(SSO)设置]**&#x200B;下拉列表中选择&#x200B;**[!UICONTROL IDP Initiated]**。
    * 对于&#x200B;**[!UICONTROL IDP启动的身份验证URL]**：
 
-      * 打开之前下载的元数据XML文件。
-      * 搜索位置值并复制它。
-      * 将此值粘贴到“IDP启动的身份验证URL”字段中。
+     * 打开之前下载的元数据XML文件。
+     * 搜索位置值并复制它。
+     * 将此值粘贴到“IDP启动的身份验证URL”字段中。
 
    * 对于&#x200B;**[!UICONTROL 元数据XML文件]**：上载您之前下载的.xml文件。
 

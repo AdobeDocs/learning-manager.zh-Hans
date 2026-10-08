@@ -4,13 +4,14 @@ jcr-language: en_us
 title: 无法登录 Adobe Learning Manager
 contentowner: saghosh
 exl-id: 2c347758-1982-40ce-9ac6-4ae889497add
-source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
-source-wordcount: '255'
-ht-degree: 72%
-
+source-wordcount: '306'
+ht-degree: 95%
 ---
-
 # 无法登录 Adobe Learning Manager
 
 ## 问题
@@ -25,7 +26,7 @@ ht-degree: 72%
 
 浏览器缓存和 Cookie 可能会阻止您访问 Adobe Learning Manager 平台。
 
-## 解决方法
+## 解决方案
 
 ## 清理浏览历史记录/缓存
 
@@ -39,13 +40,13 @@ ht-degree: 72%
 
 ## 使用无痕模式
 
-在浏览器中使用无痕模式登录 Adobe Learning Manager。请参阅[说明](https://support.google.com/chrome/answer/95464?co=GENIE.Platform%3DDesktop&hl=cn&oco=0)。
+在浏览器中使用无痕模式登录 Adobe Learning Manager。 请参阅[说明](https://support.google.com/chrome/answer/95464?co=GENIE.Platform%3DDesktop&hl=cn&oco=0)。
 
 ## 联系管理员
 
-如果仍无法登录，请联系帐户的管理员。 管理员可以验证您是否为该帐户的注册学习者。
+如果仍无法登录，请与该帐户的管理员联系。 管理员可以验证您是否为该帐户的注册学习者。
 
-如果您是该帐户的使用者之一，但仍无法登录，管理员须验证您的Adobe ID是否与您尝试登录的帐户相同。
+如果您是该帐户的使用者之一，但仍无法登录，管理员须验证您的 Adobe ID 是否与您尝试登录的帐户相同。
 
 有时，Adobe ID与帐户的Adobe Learning Manager ID不同。
 

@@ -1,13 +1,14 @@
 ---
 title: 讲师在实时中心会话中的角色
 description: 了解Live Hub中的讲师工作流程，包括准备会议、管理学习者互动以及之后的结果审阅。
-source-git-commit: bed5e19d010b24f328c0368c251d39be3dc29af2
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '613'
 ht-degree: 0%
-
 ---
-
 
 # 讲师在实时中心会话中的角色
 
@@ -33,7 +34,7 @@ ht-degree: 0%
 
 * 设计分组讨论区、指定学习者并为每个会议室添加说明。 查看[创建和管理临时会议室](./create-and-manage-breakout-rooms.md#design-a-breakout-session)，了解更多信息。
 
-* 上传参考资料，以便AI能够在会话期间为学习者问题生成准确、可感知上下文的答案。 查看[以讲师身份使用聊天面板](./use-the-chat-panel-as-an-instructor.md#upload-files-for-better-responses)，了解更多信息。
+* 上传参考材料，以便AI能够在会话期间为学习者问题生成准确的上下文感知答案。 查看[以讲师身份使用聊天面板](./use-the-chat-panel-as-an-instructor.md#upload-files-for-better-responses)，了解更多信息。
 
 ### 管理会话
 

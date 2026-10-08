@@ -3,19 +3,20 @@ description: 了解如何将LinkedIn学习连接器与Adobe Learning Manager集�
 jcr-language: en_us
 title: LinkedIn 学习连接器
 contentowner: mmanuel
-source-git-commit: 8a5212062c6b172b0e9d4f3faa2e66d26c5c2b56
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '756'
 ht-degree: 1%
-
 ---
-
 
 # Adobe Learning Manager中的LinkedIn学习连接器
 
 ## 介绍
 
-linkedIn Learning连接器可让您将LinkedIn Learning内容与Adobe Learning Manager无缝集成。 借助此连接器，组织可以自动将LinkedIn学习课程引入Adobe Learning Manager，以便学习者可以直接在平台内查找、注册和完成LinkedIn课程。
+linkedIn学习连接器允许您将LinkedIn学习内容与Adobe Learning Manager无缝集成。 使用此连接器，公司可以自动将LinkedIn学习课程引入Adobe Learning Manager，这样学习者就可以直接在平台内查找、注册和完成LinkedIn课程。
 
 设置后，学习者可在Adobe Learning Manager中跟踪其LinkedIn学习内容的进度，从而让管理员可监控完成情况和所花费的时间。 您可以计划自动内容同步、运行按需导入以及按语言、库或自定义标签过滤引入系统的课程。
 
@@ -74,14 +75,14 @@ linkedIn Learning连接器可让您将LinkedIn Learning内容与Adobe Learning M
 
 ## 管理连接和同步
 
-管理LinkedIn Learning连接器：
+要管理LinkedIn学习连接器，请执行以下操作：
 
 1. 选择&#x200B;**管理连接**&#x200B;并选择连接。
 2. 在左侧窗格中，选择&#x200B;**配置**。
 3. 选择&#x200B;**启用连接**。
 
    ![](assets/linkedin-connector4.png)
-   _在“配置LinkedIn学习”连接器页面中选择“启用连接”_
+   _在“配置LinkedIn学习连接器”页面中选择“启用连接”_
 
 4. 选择&#x200B;**编辑**&#x200B;以更新凭据。 使用&#x200B;**重置**&#x200B;以撤消编辑。
 5. 若要自动同步，请选择&#x200B;**启用计划**。
@@ -122,7 +123,7 @@ linkedIn Learning连接器可让您将LinkedIn Learning内容与Adobe Learning M
    - **无筛选器** — 导入所有课程。
    - **语言** — 按特定语言筛选课程。
    - **库** — 按LinkedIn学习库筛选课程。
-3. 如果按&#x200B;**语言**&#x200B;筛选，请选择所需的语言。 例如，**英语**&#x200B;和&#x200B;**西班牙语**。
+3. 如果按&#x200B;**语言**&#x200B;进行筛选，请选择所需的语言。 例如，**英语**&#x200B;和&#x200B;**西班牙语**。
 4. 在&#x200B;**将培训导入**&#x200B;中，选择课程导入位置。
 5. 选择如何组织导入的课程。
 6. 为&#x200B;**基于**&#x200B;选项隔离培训选择以下任一选项：

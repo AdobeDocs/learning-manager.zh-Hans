@@ -4,13 +4,14 @@ jcr-language: en_us
 title: 用户通知
 contentowner: manochan
 exl-id: 2c775635-1e86-4bef-9ca1-b56fbc353ea8
-source-git-commit: de57d96488851c31c380b34672767a803379842e
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '467'
 ht-degree: 80%
-
 ---
-
 # 用户通知
 
 <!--User notifications for Learners in Learning Manager.-->

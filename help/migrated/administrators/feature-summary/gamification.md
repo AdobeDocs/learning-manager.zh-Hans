@@ -4,13 +4,14 @@ jcr-language: en_us
 title: 游戏
 contentowner: manochan
 exl-id: c7871a50-3f7c-46e0-8f9d-afc83b0032d6
-source-git-commit: 864c3a4e60cf1bf1c049838fb2ba46ebbcb28ddf
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '1655'
 ht-degree: 67%
-
 ---
-
 # 游戏
 
 游戏是指在非游戏环境中通过使用游戏思维和游戏机制让用户在参与学习时获得点数。
@@ -42,7 +43,7 @@ A sample illustration is provided below that shows all the tasks and points.
    此时会出现一个页面，其中列有铜级、银级、金级和白金级，以及达到各个级别所需的点数。 显示任务列表和完成任务获得的相应点数。
 1. 单击各项任务旁边的“编辑”图标以设置点数。
 1. 修改任务出现的频率，例如每月、每季度或每年完成特定数量的课程。
-1. 单击&#x200B;**[!UICONTROL “保存”]**。
+1. 单击“**[!UICONTROL 保存]**”。
 
 ![](assets/set-up-points.png)
 
@@ -155,7 +156,7 @@ A sample illustration is provided below that shows all the tasks and points.
 
 **综合学习者**
 
-此任务适用于每月使用可选学习材料（如预习、资源和工作辅助）的学习者。
+此任务适用于每月使用预习、资源和工作辅助等可选学习材料的学习者。
 
 可能的情况为:
 

@@ -3,13 +3,14 @@ description: 了解Adobe Learning Manager 2025年5月版的新增功能和增强
 jcr-language: en_us
 title: 新功能摘要
 exl-id: 812d33c8-b2e4-43eb-adda-67dc356ca1ca
-source-git-commit: 51c59280cd44a025beda7d1183aafa6b7d6ebed4
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '2544'
 ht-degree: 0%
-
 ---
-
 # 2025年5月新增功能摘要
 
 即将发布的Adobe Learning Manager版本引入了各种旨在简化平台和增强其功能的新增功能和增强功能。
@@ -76,7 +77,7 @@ Adobe Learning Manager引入了新的内容购买模式，为购买内容提供�
 
 ## FTP、自定义FTP和Box中的登录访问报告 {#log-in-access-report}
 
-除现有的作业API外，登录访问报告现在还可用于Box、FTP和自定义FTP连接器。 此报告提供有关用户登录活动的详细信息，包括执行状态、压缩设置和计划选项。 可以按需或计划生成报告，并将数据存储在指定的连接器中，以便访问和分析。 此增强功能改进了监视和审核用户登录活动的能力，从而确保更好的安全性和合规性跟踪。
+除现有的作业API外，登录访问报告现在还可用于Box、FTP和自定义FTP连接器。 此报告提供有关用户登录活动的详细信息，包括执行状态、压缩设置和计划选项。 报告可以按需生成或计划生成，并且数据存储在指定的连接器中以便于访问和分析。 此增强功能改进了监视和审核用户登录活动的能力，从而确保更好的安全性和合规性跟踪。
 
 现在可以在自定义FTP、FTP和Box中获取该报告以及现有报告，例如学习者进度和课程完成情况。 这种集成允许管理员从单一来源访问所有必要的报告，从而促进更好的数据管理和分析。
 
@@ -103,7 +104,7 @@ Adobe Learning Manager是一个多语言平台，其中学习者的语言偏好�
 
 有关详细信息，请参阅此[文章](/help/migrated/administrators/feature-summary/purge-users.md#filter-deleted-users-before-purging)。
 
-## Adobe Connect连接器增强功能
+## 连接器增强功能
 
 ### 支持有大批受众参加的研讨会
 
@@ -130,7 +131,7 @@ _会话仪表板_
 Adobe Learning Manager中用于导入模块的迁移过程现在支持添加用于定义成功标准的参数。
 现在，可通过在module_version.csv中添加三个新的可选列来支持此功能。 三个新的可选列为： `successCriteria`、`successQuizData`和`successViewPercent`。
 
-这些字段只接受特定值，如果输入的值无效，连接器将无法处理该文件。
+这些字段只接受特定值，如果输入的值无效，则连接器将无法处理该文件。
 测验模块可以使用三种成功标准。 如果学习者根据得分的百分比值（由`successViewPercent`：以下定义）启动内容，则可将测试标记为“通过”，也可基于测验模块的结果（由`successQuizData`：以下定义）。 此值将根据以下说明进行填写。 successCriteria参数用于确定此项。
 
 `successCriteria`：接受`LAUNCH_CONTENT`、`VIEW_PERCENT`、`QUIZ`或`VIEWPERCENT_OR_QUIZ`。

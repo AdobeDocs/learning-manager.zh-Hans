@@ -4,13 +4,14 @@ jcr-language: en_us
 title: 电子邮件模板
 contentowner: manochan
 exl-id: acc85500-2ed1-47a4-8e65-6e1b8ef7d156
-source-git-commit: ef2e0fe06a0191329bf9aeecdcb4f56ce9932bf9
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '1753'
 ht-degree: 60%
-
 ---
-
 # 电子邮件模板
 
 培训活动中的事件会触发系统向学员发送电子邮件。 作为管理员，您可以轻松启用、禁用或修改这些电子邮件模板。

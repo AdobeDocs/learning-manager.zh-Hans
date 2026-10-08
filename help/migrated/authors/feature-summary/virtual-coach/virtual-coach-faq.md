@@ -3,7 +3,10 @@ description: 查找有关Virtual Coach创作、许可、安全性、数据隐私
 jcr-language: en_us
 title: 虚拟引导常见问题解答
 exl-id: b8955b04-4655-413a-b570-a05b1f76285c
-source-git-commit: 449f25df93867bf4d5ec11af057f8da7c405a09f
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '1904'
 ht-degree: 0%

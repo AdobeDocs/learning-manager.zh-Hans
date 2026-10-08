@@ -1,13 +1,14 @@
 ---
 title: 以学习者身份参与实时中心会话
 description: 了解学习者如何加入实时中心会话、使用聊天、投票、测验和分组讨论室参与会话并在之后查看录制。
-source-git-commit: 5cc382cc869b7653262b24ff639110367acc8c93
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '308'
 ht-degree: 0%
-
 ---
-
 
 # 以学习者身份参与实时中心会话
 

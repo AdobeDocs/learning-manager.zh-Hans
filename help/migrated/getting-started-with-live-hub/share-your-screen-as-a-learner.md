@@ -1,13 +1,14 @@
 ---
 title: 在Live Hub中以学习者身份共享屏幕
 description: 了解学习者如何在讲师允许的实时中心会话期间查看共享内容并共享自己的屏幕。
-source-git-commit: 664d164cce2a045d1834b520a2bd43b651e02e7e
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '258'
 ht-degree: 1%
-
 ---
-
 
 # 以学习者身份共享屏幕
 
@@ -42,4 +43,4 @@ ht-degree: 1%
 
 ## 使用批注工具
 
-共享屏幕时，您可以在屏幕上添加批注，以突出显示信息或向会话中的其他人解释内容。 要添加批注，请选择共享屏幕右上角的批注（钢笔）图标。 查看[使用批注工具](../getting-started-with-live-hub/share-your-screen-as-an-instructor.md#use-annotation-tools)以了解详细信息。
+共享屏幕时，您可以在屏幕上添加批注，以突出显示信息或向会话中的其他人解释内容。 要添加批注，请选择共享屏幕右上角的批注(笔)图标。 查看[使用批注工具](../getting-started-with-live-hub/share-your-screen-as-an-instructor.md#use-annotation-tools)以了解详细信息。

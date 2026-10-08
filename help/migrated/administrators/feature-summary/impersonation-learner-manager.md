@@ -4,16 +4,17 @@ jcr-language: en_us
 title: 学习者和经理模拟
 contentowner: saghosh
 exl-id: 0306f255-283f-43b9-9494-11b3dc3765da
-source-git-commit: b5bbb184fc86965255b0247195a50cc65a03cd1a
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
-source-wordcount: '517'
-ht-degree: 56%
-
+source-wordcount: '518'
+ht-degree: 59%
 ---
-
 # 学习者和经理模拟 {#impersonation-of-learner-and-manager}
 
-在大型组织中，客户支持人员需要模拟能力来调试学习者遇到的问题。
+在大型组织中，客户支持人员需要模拟相关功能来调试学习者遇到的问题。
 
 凭借模拟其他用户的这一功能，管理员可以识别并执行其组织的学习者和经理执行的所有活动。
 
@@ -78,17 +79,17 @@ ht-degree: 56%
 
 ## 常见问题解答
 
-+++模拟时，我是否可以登录Adobe Learning Manager？
++++模拟时，我能否登录Adobe Learning Manager？
 
 是的，用户的登录与模拟无关。
 +++
 
-+++是否会对模拟事件进行单独计数？
++++系统是否会对模拟事件进行单独计数？
 
 是，模拟期间管理员每次登录访问/访问，系统都将单独计数。
 +++
 
-+++模拟超时是什么？
++++模拟超时是什么？  
 
 模拟时长为 60 分钟。 如果模拟用户在 60 分钟内关闭浏览器窗口并导航到任意 Prime URL，模拟活动将继续，并且必须显示横幅消息。
 +++

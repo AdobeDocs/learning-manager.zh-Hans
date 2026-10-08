@@ -4,13 +4,14 @@ title: Adobe Connect 集成
 description: 作者可以在创建课程的过程中使用 Adobe Connect 创建虚拟教室课程。 要为 Adobe Learning Manager 帐户启用 Adobe Connect，请与所在公司的管理员联系。
 contentowner: jayakarr
 exl-id: 13458f93-9ea7-4aab-8b33-3c4f4dd5886d
-source-git-commit: 857dddf46e3900fbe2db4e345da2d29050ef3c82
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '618'
 ht-degree: 57%
-
 ---
-
 # Adobe Connect 集成
 
 公司的管理员可以配置 Adobe Learning Manager 帐户设置以启用 Adobe Connect 集成。

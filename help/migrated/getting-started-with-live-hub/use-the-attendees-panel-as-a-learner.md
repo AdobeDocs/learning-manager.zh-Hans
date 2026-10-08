@@ -1,13 +1,14 @@
 ---
 title: 使用“与会者”面板作为Live Hub中的学习者
 description: 了解学习者如何在Live Hub会话中打开“与会者”面板并与其他参与者进行交互。
-source-git-commit: 6ac69b3622489f87a3022618ac6ff95f8c230866
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '237'
 ht-degree: 0%
-
 ---
-
 
 # 使用“与会者”面板作为学习者
 

@@ -4,13 +4,14 @@ title: 有信心
 description: 了解与ALM可信集成，以从平台跨各种社交媒体渠道管理和共享外部徽章
 contentowner: chandrum
 exl-id: 168f7ff8-51f5-4962-bf76-af909fc5565b
-source-git-commit: f3a0ec693e1a2e75cdad24f91f22a0290d62740d
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
-source-wordcount: '360'
+source-wordcount: '381'
 ht-degree: 0%
-
 ---
-
 # 有信心
 
 [Credly](https://info.credly.com/)是一个数字凭据平台，允许学习者和组织赚取、分享和验证专业成就，例如徽章或认证。 学习者可以通过其Credly个人资料在社交媒体和其他位置管理和共享徽章。
@@ -19,15 +20,15 @@ ht-degree: 0%
 
 为您的组织设置一个可信帐户。 在Adobe Learning Manager中使用学习者的电子邮件ID将学习者添加到“可信”。 如此一来，学习者就能在Credly和Adobe Learning Manager上看到徽章。
 
-## 将Credly连接器添加到Adobe Learning Manager
+## 将“相信”连接器添加到Adobe Learning Manager
 
 按照以下步骤将Credly连接器添加到Adobe Learning Manager：
 
 1. 以&#x200B;**[!UICONTROL 集成管理员]**&#x200B;身份登录。
-2. 选择“**[!UICONTROL 可信]**”>“**连接**”以将“**[!UICONTROL 可信]**”连接器添加到Adobe Learning Manager。
+2. 选择“**[!UICONTROL 相信]**”>“**连接**”以将“**[!UICONTROL 相信]**”连接器添加到Adobe Learning Manager。
 
    ![](assets/connector-credly.png)
-   _添加Credly连接器_
+   _添加可信的连接器_
 
 3. 键入&#x200B;**[!UICONTROL 连接名称]**。
 4. 键入&#x200B;**[!UICONTROL 组织ID]**&#x200B;和&#x200B;**[!UICONTROL 授权令牌]**。

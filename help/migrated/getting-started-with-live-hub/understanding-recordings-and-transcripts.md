@@ -1,13 +1,14 @@
 ---
 title: 了解Live Hub中的录制内容和转录文本
 description: 了解实时中心会话录制、AI生成的文字记录、主题和摘要如何帮助讲师和学习者将学习扩展至实时会话之外。
-source-git-commit: 552ecc22af6d59d80bda48a05ed8b950a500ee0a
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '423'
 ht-degree: 0%
-
 ---
-
 
 # 了解录制内容和转录文本
 

@@ -1,13 +1,14 @@
 ---
 title: Live Hub的系统要求
 description: 在Adobe Learning Manager中配置和运行实时中心会话的系统要求，包括支持的浏览器、操作系统、屏幕分辨率和硬件。
-source-git-commit: 577448e876bc7ba56c6191705c7c894fc5991770
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '195'
 ht-degree: 1%
-
 ---
-
 
 # 系统要求
 
@@ -27,4 +28,4 @@ Live Hub在虚拟教室会话中提供，不需要单独的客户端安装。
 
 >[!NOTE]
 >
->不支持Linux浏览器、Chromebook设备、Firefox移动版、Opera（桌面和移动版）、Internet Explorer 11及更早的浏览器版本。
+>不支持Linux浏览器、Chromebook设备、Firefox移动版、Opera（桌面和移动版）、Internet资源管理器11及更早的浏览器版本。

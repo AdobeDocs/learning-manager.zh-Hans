@@ -4,13 +4,14 @@ title: Adobe Learning Manager 登录问题
 description: Adobe Learning Manager中的登录问题
 contentowner: nluke
 exl-id: 516c1a20-f185-4ace-a1e7-2cd89644863c
-source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
-source-wordcount: '236'
+source-wordcount: '249'
 ht-degree: 87%
-
 ---
-
 # Adobe Learning Manager 登录问题
 
 ## 问题
@@ -29,11 +30,11 @@ ht-degree: 87%
 
 当用户通过 SSO 登录时，其会创建存储在浏览器中的会话 Cookie。 其还允许用户登录其他应用程序。 大多数 SSO 配置为 24 小时后注销。 用户必须为新会话再次接受身份验证。
 
-在某些情况下，用户会因过期的 SSO Cookie 而无法访问系统。 这些 Cookie 将转发到 Adobe Learning Manager 以进行身份验证。如果用户长时间未关闭浏览器或未注销，会话也不会结束。
+在某些情况下，用户会因过期的 SSO Cookie 而无法访问系统。 这些 Cookie 将转发到 Adobe Learning Manager 以进行身份验证。 如果用户长时间未关闭浏览器或未注销，会话也不会结束。
 
 Adobe Learning Manager拒绝会导致错误的过期Cookie。
 
-## 解决方法
+## 解决方案
 
 如果过期 Cookie 遭 Adobe Learning Manager 拒绝，请尝试以下选项：
 
@@ -45,4 +46,4 @@ Adobe Learning Manager拒绝会导致错误的过期Cookie。
 
 ## 参考链接：
 
-[Microsoft：生存期内的条件访问会话](https://docs.microsoft.com/en-us/azure/active-directory/conditional-access/howto-conditional-access-session-lifetime)
+[Microsoft：存留期中的条件访问会话](https://docs.microsoft.com/en-us/azure/active-directory/conditional-access/howto-conditional-access-session-lifetime)

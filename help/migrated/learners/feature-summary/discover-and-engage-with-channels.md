@@ -1,13 +1,14 @@
 ---
 title: 发现渠道并参与其中
 description: 了解如何在Adobe Learning Manager中通过渠道查找、订阅、观看和加入有关视频内容的讨论。
-source-git-commit: cb49d8e4159c7dc8650ef4c981d24f3507bfff93
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '802'
 ht-degree: 0%
-
 ---
-
 
 # 发现渠道并参与其中(Beta)
 

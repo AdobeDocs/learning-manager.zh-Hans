@@ -4,13 +4,14 @@ title: 适用于富文本编辑器的CSS模板
 description: 适用于富文本编辑器的CSS模板
 contentowner: saghosh
 preview: true
-source-git-commit: 9325abb9cda8c8a019c9d72c1944a8284f38f83e
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
-source-wordcount: '210'
-ht-degree: 70%
-
+source-wordcount: '231'
+ht-degree: 72%
 ---
-
 
 
 # 适用于富文本编辑器的CSS模板
@@ -21,7 +22,7 @@ ht-degree: 70%
 
 ## 默认样式
 
-附加的 CSS 样式表包含 Adobe Learning Manager 应用的样式。我们已根据大多数用例对该样式进行调整。 下载附加的 CSS 文件，并按照您的习惯和构建系统将其导入 Web 应用程序。 所定义的CSS类的命名空间位于ql-editor类下，不会干扰您现有的样式。
+附加的 CSS 样式表包含 Adobe Learning Manager 应用的样式。 我们已根据大多数用例对该样式进行调整。 下载附加的 CSS 文件，并按照您的习惯和构建系统将其导入 Web 应用程序。 所定义的 CSS 类的命名空间位于 ql-editor 类下，不会干扰您现有的样式。
 
 ## 自定义样式
 

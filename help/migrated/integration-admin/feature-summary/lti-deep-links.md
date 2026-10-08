@@ -3,7 +3,10 @@ description: 了解如何将LinkedIn学习连接器与Adobe Learning Manager集�
 jcr-language: en_us
 title: 在ALM的LTI工具中嵌入深层链接
 contentowner: mmanuel
-source-git-commit: ecd80d3000694ddffb53d3d2fa5bbcdae49a88f4
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '948'
 ht-degree: 0%

@@ -3,13 +3,14 @@ description: 了解如何将Harvard ManageMentor与Adobe Learning Manager集成
 jcr-language: en_us
 title: Harvard ManageMentor 连接器
 contentowner: mmanuel
-source-git-commit: 8a5212062c6b172b0e9d4f3faa2e66d26c5c2b56
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '737'
 ht-degree: 0%
-
 ---
-
 
 # Adobe Learning Manager中的Harvard ManageMentor连接器
 
@@ -23,11 +24,11 @@ ht-degree: 0%
 
 ## 先决条件
 
-在配置连接器之前，请确保已为您的帐户启用&#x200B;**迁移**&#x200B;功能。
+在配置帐户之前，请确保已为您的连接器启用&#x200B;**迁移**&#x200B;功能。
 
 ## 设置连接器
 
-使用Harvard ManageMentor连接器将课程从Harvard ManageMentor导入到Adobe Learning Manager。 连接帐户后，您可以导入课程详细信息并跟踪学习者进度。
+使用Harvard ManageMentor连接器将Harvard ManageMentor中的课程导入Adobe Learning Manager。 连接帐户后，您可以导入课程详细信息并跟踪学习者进度。
 
 要设置连接器，请执行以下操作：
 
@@ -92,7 +93,7 @@ ht-degree: 0%
 6. 键入同步应在几天后重复。
 7. 选择&#x200B;**“保存”**。
 
-将保存同步设置。 连接器将按计划运行，并从Harvard ManageMentor将数据导入Adobe Learning Manager。
+将保存同步设置。 该连接器将按计划运行并将数据从Harvard ManageMentor导入Adobe Learning Manager。
 
 ## 运行按需同步
 
@@ -144,5 +145,5 @@ ht-degree: 0%
 
 **示例文件**
 
-- [&#x200B; Harvard ManageMentor连接器的课程元数据文件](https://experienceleague.adobe.com/docs/learning-manager/assets/hmm12-metadata.csv?lang=zh-Hans)
-- [用于Harvard ManageMentor连接器的用户源文件](https://experienceleague.adobe.com/docs/learning-manager/assets/client-hmm12-20170304.csv?lang=zh-Hans)
+- [Harvard ManageMentor连接器的课程元数据文件](https://experienceleague.adobe.com/docs/learning-manager/assets/hmm12-metadata.csv?lang=en)
+- [用于Harvard ManageMentor连接器的用户源文件](https://experienceleague.adobe.com/docs/learning-manager/assets/client-hmm12-20170304.csv?lang=en)

@@ -2,13 +2,14 @@
 description: Content Composer不支持分支路径、基于模拟的内容或高级交互性。 生成线性课程。 对于复杂场景，请将Adobe Captivate与Content Composer结合使用。
 jcr-language: en_us
 title: 内容书写器不是什么
-source-git-commit: 7fffe3c9d7b001c5a75a27ffc54fcb4490caad63
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '149'
 ht-degree: 1%
-
 ---
-
 
 # Adobe Learning Manager内容书写器不是什么
 

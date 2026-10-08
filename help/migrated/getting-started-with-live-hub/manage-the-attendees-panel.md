@@ -1,13 +1,14 @@
 ---
 title: 在Live Hub中管理与会者面板
 description: 了解讲师如何在实时中心会话期间查看“与会者”面板、配置与会者设置以及管理各个学习者。
-source-git-commit: 6ac69b3622489f87a3022618ac6ff95f8c230866
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '444'
 ht-degree: 0%
-
 ---
-
 
 # 管理“与会者”面板
 
@@ -44,7 +45,7 @@ ht-degree: 0%
 
    1. **将所有参与者静音**：将所有参与者的麦克风静音。
 
-   1. **关闭所有参与者的摄像头**：关闭所有参与者的摄像头。
+   1. **关闭所有参与者的相机**：关闭所有参与者的相机。
 
 ## 在会话期间管理学习者
 

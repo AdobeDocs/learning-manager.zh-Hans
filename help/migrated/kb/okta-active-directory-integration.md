@@ -4,13 +4,14 @@ title: Okta Active Directory 与 Adobe Learning Manager 集成
 description: Okta Active Directory 与 Adobe Learning Manager 集成
 contentowner: nluke
 exl-id: 6d7711a9-7a7f-49b7-8948-9a42407463b3
-source-git-commit: 864c3a4e60cf1bf1c049838fb2ba46ebbcb28ddf
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '587'
 ht-degree: 60%
-
 ---
-
 # Okta Active Directory 与 Adobe Learning Manager 集成 {#okta-active-directory-integration-with-adobe-learning-manager}
 
 在本文档中，您将了解如何集成 Adobe Learning Manager 与 Okta Active Directory (AD)。 集成Adobe Learning Manager与Okta AD时，您可以：

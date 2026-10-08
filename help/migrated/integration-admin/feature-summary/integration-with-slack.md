@@ -3,18 +3,19 @@ jcr-language: en_us
 title: Adobe Learning Manager 与 Slack 集成
 description: Adobe Learning Manager 与 Slack 集成
 contentowner: dvenkate
-source-git-commit: 864b1796f1ca99ae7b5643e8c58d1756ff2461a1
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '469'
 ht-degree: 51%
-
 ---
-
 
 
 # Adobe Learning Manager 与 Slack 集成
 
-我们已&#x200B;**移除**&#x200B;**Slack**&#x200B;作为Learning Manager中的连接器。 您将无法再访问Slack连接器。
+我们已&#x200B;**移除**&#x200B;**Slack**&#x200B;作为Learning Manager中的连接器。 您将无法再访问连接器。
 
 作为 Slack 用户，您可以将 Slack 应用程序目录中的 Adobe Learning Manager 应用程序安装到您的 Slack 团队中，然后直接从 Slack 中浏览 Adobe Learning Manager 的内容。 您可以与Primebot交互以在Learning Manager中搜索新课程、查看推荐内容并收到临近截止日期的通知。 您还可以注册并直接从Slack中学习。
 

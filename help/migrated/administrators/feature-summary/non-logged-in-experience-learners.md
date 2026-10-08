@@ -2,13 +2,14 @@
 title: 学习者的未登录体验
 description: Adobe Learning Manager原生门户将支持以未登录的方式访问培训站点。 启用此模式后，学习者可以发现和访问培训站点并查看各种可用的课程和内容。 未登录体验允许学习者在未登录到门户的情况下浏览课程。
 exl-id: 12260cca-d2d2-4e7c-991d-9b09690d4c0a
-source-git-commit: 1dd1c6751df7e4b3f1d0fb5df36705a6f8b46762
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '650'
 ht-degree: 38%
-
 ---
-
 # 学习者的未登录体验
 
 Adobe Learning Manager原生门户将支持以未登录的方式访问培训站点。 启用此模式后，学习者可以发现和访问培训站点并查看各种可用的课程和内容。
@@ -17,7 +18,7 @@ Adobe Learning Manager原生门户将支持以未登录的方式访问培训站�
 
 要启用未登录主页，集成管理员必须启用并配置[培训数据连接器](/help/migrated/integration-admin/feature-summary/connectors.md#training-data-access)。
 
-之后即可从连接器导出培训。
+然后即可从连接器中导出培训。
 
 >[!NOTE]
 >

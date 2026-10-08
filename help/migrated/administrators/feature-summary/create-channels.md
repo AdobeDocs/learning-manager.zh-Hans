@@ -1,13 +1,14 @@
 ---
 title: 创建渠道(Beta)
 description: 了解如何在Adobe Learning Manager中启用、创建和编辑频道，将网页和Confluence Cloud页面中基于视频的学习内容导入学习者的单个可搜索位置。
-source-git-commit: 819dd240ab33369c6cb5050b1b354d632aabd62f
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '1307'
 ht-degree: 0%
-
 ---
-
 
 # 创建渠道(Beta)
 

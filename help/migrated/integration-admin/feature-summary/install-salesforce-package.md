@@ -4,13 +4,14 @@ title: 安装 Salesforce 程序包
 description: Adobe Learning Manager 提供 Salesforce 应用程序包。 在 SFDC 中安装和配置程序包后，销售员工便可以在 SFDC 门户中开展培训活动。 SFDC 用户可利用此应用直接在 SFDC 门户中探索新培训、查看推荐内容及参加培训。 用户还可以直接在 SFDC 门户的应用中以刊头的形式收到管理员发送的公告。
 contentowner: saghosh
 exl-id: 2b1c32e7-81af-4c13-a2bd-66684cde084e
-source-git-commit: 03ac3f985aa523e494e05393ee8fa478faf35646
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '1065'
 ht-degree: 64%
-
 ---
-
 # 安装 Salesforce 程序包
 
 ## 概述
@@ -103,7 +104,7 @@ Adobe Learning Manager 提供 Salesforce 应用程序包。 在 SFDC 中安装�
 
 1. 选择&#x200B;**桌面**&#x200B;和&#x200B;**移动设备**&#x200B;作为支持的渠道。
 
-1. 单击&#x200B;**[!UICONTROL “保存”]**。
+1. 单击“**[!UICONTROL 保存]**”。
 1. 要为移动设备启用推送通知，请按以下步骤操作：
 
    1. 在手机中安装 Salesforce 移动应用。

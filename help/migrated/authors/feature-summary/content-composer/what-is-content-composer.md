@@ -2,13 +2,14 @@
 description: Adobe Learning Manager Content Composer是一款AI课程创作工具，它可将纯语言提示转换为结构化、可发布的课程，包括课程、评估和媒体，而无需事先具备教学设计经验。
 jcr-language: en_us
 title: 什么是内容书写器
-source-git-commit: 7fffe3c9d7b001c5a75a27ffc54fcb4490caad63
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '165'
 ht-degree: 0%
-
 ---
-
 
 # 什么是Adobe Learning Manager Content Composer
 

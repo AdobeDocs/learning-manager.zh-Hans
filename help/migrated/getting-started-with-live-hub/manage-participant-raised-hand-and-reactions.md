@@ -1,13 +1,14 @@
 ---
 title: 在实时中心中管理参与者的举手和反应
 description: 了解讲师如何查看学习者的反应，以及减少单手或所有举手以保持实时中心会话井然有序。
-source-git-commit: 6d62c8aaf23db075cdf2a97aeaf3053742145313
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '286'
 ht-degree: 0%
-
 ---
-
 
 # 管理参与者的举手和反应
 

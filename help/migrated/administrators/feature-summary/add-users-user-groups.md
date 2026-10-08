@@ -4,13 +4,14 @@ jcr-language: en_us
 title: 在Adobe Learning Manager中添加用户
 contentowner: manochan
 exl-id: 7df98f2b-c422-4733-8ce4-5489506d4fdf
-source-git-commit: 07d7b03fb098d01b9d1514a2f1f1550d8421bc3d
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '2511'
 ht-degree: 2%
-
 ---
-
 
 # 在Adobe Learning Manager中添加用户
 
@@ -38,7 +39,7 @@ Adobe Learning Manager中的用户可以承担不同的责任，并根据分配�
 
 ### 手动添加内部用户
 
-管理员可以通过提供用户名、电子邮件、唯一标识符和经理姓名手动添加用户。 Adobe Learning Manager中的唯一标识符是管理员在创建用户时分配的必需标识符。 对于每个用户，它必须是唯一的，并且在整个系统中充当一致的参考。
+管理员可以通过提供用户姓名、电子邮件、唯一标识符和经理姓名来手动添加用户。 Adobe Learning Manager中的唯一标识符是管理员在创建用户时分配的必填标识符。 对于每个用户，它必须是唯一的，并且在整个系统中充当一致的参考。
 
 >[!INFO]
 >
@@ -57,7 +58,8 @@ Adobe Learning Manager中的用户可以承担不同的责任，并根据分配�
    ![](assets/add-a-user-prompt.png)
    _用于为新用户输入姓名、电子邮件、唯一标识符和配置文件的字段_
 5. 搜索用户的经理，然后从经理列表中选择名称。
-6. 选择&#x200B;**添加**。用户会收到一封欢迎电子邮件，其中包含用于访问的登录URL。
+6. 选择&#x200B;**添加**。
+用户会收到一封欢迎电子邮件，其中包含用于访问的登录URL。
 
 
 ### 允许内部用户自行注册
@@ -343,7 +345,7 @@ _恢复以前暂停的外部注册个人资料的选项_
 
 ### 编辑用户
 
-使用Adobe Learning Manager中的&#x200B;**编辑用户**&#x200B;选项更新用户的个人资料信息，如姓名、电子邮件地址、唯一标识符、个人资料和经理姓名。 管理员可以作出这些更改，以确保用户数据保持准确且最新。
+使用Adobe Learning Manager中的&#x200B;**编辑用户**&#x200B;选项更新用户的个人资料信息，例如姓名、电子邮件地址、唯一标识符、个人资料和经理的姓名。 管理员可以作出这些更改，以确保用户数据保持准确且最新。
 
 要编辑用户，请执行以下操作：
 

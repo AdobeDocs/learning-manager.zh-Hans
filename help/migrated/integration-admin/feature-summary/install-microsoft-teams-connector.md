@@ -4,13 +4,14 @@ jcr-language: en_us
 title: Microsoft Teams 连接器
 contentowner: saghosh
 exl-id: 68092187-ac69-4727-a3dc-f3047a1e164d
-source-git-commit: 368017670470b818ce2a77c5498ee069036da3eb
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '1206'
 ht-degree: 48%
-
 ---
-
 # Adobe Learning Manager中的Microsoft Teams连接器
 
 ## 简介
@@ -58,7 +59,7 @@ Microsoft Teams 连接器可连接 Adobe Learning Manager 和 Microsoft Teams �
 >
 >帐户必须使用格式`<username>@<company name>.onmicrosoft.com`。
 
-## 为Microsoft Teams连接器创建应用程序
+## 创建Microsoft Teams应用程序连接器
 
 1. 访问[Microsoft Azure®门户](https://portal.azure.com/)。
 1. 使用在上节中创建的 Microsoft E5 帐户登录。
@@ -92,7 +93,7 @@ Microsoft Teams 连接器可连接 Adobe Learning Manager 和 Microsoft Teams �
 1. 单击在上节中创建的应用程序。
 1. 单击&#x200B;**[!UICONTROL “API 权限”]**。
 1. 单击&#x200B;**[!UICONTROL “添加权限”]**。
-1. 选择&#x200B;**[!UICONTROL Microsoft Graph]** > **[!UICONTROL 申请权限]**&#x200B;并添加以下权限：
+1. 选择&#x200B;**[!UICONTROL 图形]** > **[!UICONTROL 应用程序权限]**&#x200B;并添加以下权限：
 
    1. Chat.Read.All
    1. Directory.Read.All
@@ -120,7 +121,7 @@ Microsoft Teams 连接器可连接 Adobe Learning Manager 和 Microsoft Teams �
 
 ## 使用 PowerShell 脚本配置访问策略
 
-若要通过运行PowerShell脚本来配置Microsoft Teams连接器的应用程序访问策略，请按照此[文档](https://docs.microsoft.com/zh-cn/graph/cloud-communication-online-meeting-application-access-policy)中描述的步骤操作。
+若要通过运行PowerShell脚本来为连接器配置应用程序访问策略，请按照此[文档](https://docs.microsoft.com/zh-cn/graph/cloud-communication-online-meeting-application-access-policy)中描述的步骤操作。
 
 配置完成后连接器便可以访问 Microsoft Teams 在线会议。
 
@@ -128,7 +129,7 @@ Microsoft Teams 连接器可连接 Adobe Learning Manager 和 Microsoft Teams �
 >
 >执行上述文档中的第5步（可选）可确保当前所有活跃用户都可以从Learning Manager作者应用程序中获得组织者角色。 如果未执行此步骤，用户将没有成为组织者所需的访问权限，并且会议创建将失败（Microsoft API会将组织者视为Teams会议的创建者）。
 
-## 在Learning Manager中设置Microsoft Teams连接器
+## 在Learning Manager中设置连接器
 
 1. 以&#x200B;**集成管理员**&#x200B;的身份登录Learning Manager。
 

@@ -3,13 +3,14 @@ description: 学习者只需单击注册一次，即可单击管理员共享模�
 jcr-language: en_us
 title: 在Adobe Learning Manager中使用一键式注册
 contentowner: mmanuel
-source-git-commit: 87971737d1d9838d8b29035b5b9bf718742da1eb
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '627'
 ht-degree: 1%
-
 ---
-
 
 # Adobe Learning Manager中的一键式注册
 

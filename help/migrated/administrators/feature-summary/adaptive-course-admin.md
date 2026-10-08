@@ -4,13 +4,14 @@ jcr-language: en_us
 title: Adobe Learning Manager中的自适应课程
 contentowner: mmanuel
 hide: true
-source-git-commit: a6f201e762963a524a6a935e84dafc4752604e4d
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '1964'
 ht-degree: 0%
-
 ---
-
 
 # Adobe Learning Manager中的自适应课程
 
@@ -20,7 +21,7 @@ Adobe Learning Manager中的自适应课程让您可以根据每个学习者所�
 
 ## 自适应课程可以解决什么问题
 
-培训庞大、多元化劳动力的组织面临共同挑战：数据隐私、工作场所道德和安全必须覆盖具有不同角色、地点或合规性义务的学习者。
+培训庞大、多元化劳动力的组织脸部一项共同的挑战：数据隐私、工作场所道德和安全必须覆盖不同角色、地点或合规性义务的学习者。
 
 这造成了重复：作者维护多个几乎相同的课程，报告非常零散，当核心内容发生变化时，每个副本都需要更新。
 

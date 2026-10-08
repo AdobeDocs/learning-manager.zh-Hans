@@ -4,13 +4,14 @@ title: Learning Manager中的已知问题
 description: 以下是每个Learning Manager更新的已知问题汇编。 该列表是累积性的，包含以前更新的已知问题。
 contentowner: saghosh
 preview: true
-source-git-commit: 3188d7f5593aeee87978e1e46456f01e1f41d57b
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '253'
 ht-degree: 62%
-
 ---
-
 
 
 # Learning Manager中的已知问题
@@ -51,7 +52,7 @@ ht-degree: 62%
   </tr> 
   <tr> 
    <td><p>37</p></td> 
-   <td><p>使用Internet Explorer v11.1478.10586.0访问少数特定学习对象可能会导致Learning Manager崩溃。</p></td> 
+   <td><p>使用Internet资源管理器v11.1478.10586.0访问少数特定学习对象可能会导致Learning Manager崩溃。</p></td> 
   </tr> 
  </tbody>
 </table>

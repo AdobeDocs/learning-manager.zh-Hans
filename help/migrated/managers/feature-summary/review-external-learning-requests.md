@@ -3,13 +3,14 @@ jcr-language: en_us
 title: 在Adobe Learning Manager中提交外部学习
 description: 经理可以审核团队成员提交的外部学习请求，核实详细信息和任何完成证明，并通过可选注释批准或拒绝每个请求。 经过批准的提交内容会添加到学习者成绩单中。
 contentowner: saghosh
-source-git-commit: 2495d33fc1595bd962ba07988123e3563d4c69a0
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '761'
 ht-degree: 1%
-
 ---
-
 
 # 以经理身份查看外部学习请求
 
@@ -105,4 +106,4 @@ ht-degree: 1%
 
 提交获得批准后，管理员配置的自定义字段将在两个成绩单导出末尾显示为动态列。
 
-外部学习行的管理员学习者成绩单中基于日期的筛选基于&#x200B;**完成日期**，该日期与批准日期相对应。
+外部学习行的管理员学习者成绩单中基于日期的筛选以&#x200B;**完成日期**&#x200B;为基础，该日期与批准日期相对应。

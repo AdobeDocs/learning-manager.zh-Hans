@@ -258,7 +258,7 @@ Adobe Learning Manager的管理员API允许管理员大规模地自动执行和�
 | 字段 | 选择特定属性以减少有效负载。 |
 | 筛选条件 | 缩小结果范围（例如，按ID、名称） |
 | 排序 | 排序结果。 |
-| 第[页{限制]，第[页{偏移] | 分页支持。 |
+| 第[页&lbrace;限制]，第[页&lbrace;偏移] | 分页支持。 |
 
 以下是每种情况的简要说明：
 
@@ -414,7 +414,7 @@ GET https://learningmanager.adobe.com/primeapi/v2/learningObjects/<courseID>?inc
   <td><br>subLOs.premiereLOs.enrollment</br><br>subLOs.subLOs.premiereLOs.enrollment</br><br>subLOs.enrollment.loResourceGrades</br><br>subLOs.subLOs.enrolllment.loResourcesGrades</br><br>subLOs.subLOs.insupplementalRoom resources</br><br>subLOs.enrollment</br><br>SubLOs.enrollment.loInstance.loResources.resources</br><br>subLOs.supplementaryLOs.instances.loResources.resources</br><br></br><br></br>
   </td>
   <td>
-  <br>instances.enrollment.loResourceGrades</br><br>enrollment.loInstance.loResources.resources</br>prerequisiteLOs</br><br>作者</br><br>instances.loResources.resources</br><br>supplementalLOs.instances.loResources.resources</br><br>supplementaryResources</br><br>instances.badge</br><br>skills.skillLevel.skill{1Resource.rogs</br><br>instances</br><br></br><br></br><br></br>
+  <br>instances.enrollment.loResourceGrades</br><br>enrollment.loInstance.loResources.resources</br>prerequisiteLOs</br><br>作者</br><br>instances.loResources.resources</br><br>supplementalLOs.instances.loResources.resources</br><br>supplementaryResources</br><br>instances.badge</br><br>skills.skillLevel.skill&lbrace;1Resource.rogs</br><br>instances</br><br></br><br></br><br></br>
   </td>
   </tr>
   </table>

@@ -3,13 +3,11 @@ description: 详细了解Experience Builder，Adobe Learning Manager中的一种
 jcr-language: en_us
 title: Adobe Learning Manager中的Experience Builder
 exl-id: 8d06c2cf-816e-4ad5-85f7-bc26e9d70d51
-source-git-commit: 5221f4bde68561d5253e7dfab789815e4cd55d49
+source-git-commit: a32d8ccf872aa77202bc1660b76e66c12466f8e6
 workflow-type: tm+mt
-source-wordcount: '1025'
+source-wordcount: '943'
 ht-degree: 0%
-
 ---
-
 # 概述
 
 Experience Builder是Adobe Learning Manager中的一种无代码/低代码工具，可帮助您创建自定义学习门户。 它允许您设计品牌化、用户友好的学习门户，而无需具备技术技能或丰富的编码知识。
@@ -18,16 +16,14 @@ Experience Builder是Adobe Learning Manager中的一种无代码/低代码工具
 
 如果没有技术帮助或昂贵的系统集成商，许多组织很难定制其学习门户。 他们希望门户网站能够与自己的品牌相匹配，提供有针对性的内容，适应不同的学习者群体，同时仍然能够快速轻松地构建。
 
-Experience Builder是Adobe Learning Manager中的一种无代码/低代码工具，可帮助您创建自定义学习门户。 它允许您设计品牌化、用户友好的学习门户，而无需具备技术技能或丰富的编码知识。使用Experience Builder，您可以创建新页面、菜单和小组件，以快速轻松地为受众提供个性化学习体验。 使用Experience Builder，您可以快速创建新页面、菜单和小组件，以为受众提供个性化的学习体验。
-
 ## Experience Builder解决的问题
 
-Experience Builder解决了企业在没有提供重要技术帮助或系统集成商高昂成本的情况下自定义其学习门户时面临的常见挑战。 它弥合了两个主要选项之间的差距：
+Experience Builder解决了组织脸部在没有大量技术帮助或系统集成商昂贵的情况下自定义其学习门户的常见难题。 它弥合了两个主要选项之间的差距：
 
 * 标准的开箱即用体验，提供有限的自定义设置，可以使每个学习门户看起来都很相似。
 * 无头实施，允许完全定制的游戏化门户，但带来了重大挑战，包括面市时间长（通常为3-6个月）、依赖开发团队以及成本高昂。
 
-Experience Builder提供了一个中间地带，允许创建品牌定制的门户网站和独特的学习旅程，而无需使用无头方法的高成本和开发开销。
+Experience Builder提供了一个中间地面，允许创建符合品牌形象的门户网站和独特的学习旅程，而无需使用无头方法的高成本和开发开销。
 
 ## 使用Experience Builder的主要好处
 

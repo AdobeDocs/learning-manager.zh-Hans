@@ -459,7 +459,7 @@ Adobe Learning Manager现在支持在迁移期间使用&#x200B;_学习路径（�
 - 所需的核心映射仍然是：
   - 学习计划ID↔课程ID（以及任何其他仍记载的列，如ID、learningProgramId、courseId和日期）。
 
-请始终从您的Learning Manager帐户中参考最新的&#x200B;[_CSV规范_](https://experienceleague.adobe.com/zh-hans/docs/learning-manager/using/integration/migration-manual)（通过csv_specifications.zip），以确认当前的标题集和要求。
+请始终从您的Learning Manager帐户中参考最新的&#x200B;[_CSV规范_](https://experienceleague.adobe.com/en/docs/learning-manager/using/integration/migration-manual)（通过csv_specifications.zip），以确认当前的标题集和要求。
 
 ## 课程实例上的时区代码
 

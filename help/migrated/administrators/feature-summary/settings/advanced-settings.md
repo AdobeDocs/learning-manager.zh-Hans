@@ -296,7 +296,7 @@ To add a content folder, follow the steps:
 
 ## 假日
 
-Adobe Learning Manager中的&#x200B;**节假日**&#x200B;设置允许您定义整个组织的节假日。 讲师日历上会显示假日作为非工作日，这种情况会在安排实时讲师时影响讲师的可用性
+Adobe Learning Manager中的&#x200B;**节假日**设置允许您定义整个组织的节假日。 讲师日历上会显示假日作为非工作日，这种情况会在安排实时讲师时影响讲师的可用性
 中心会话。
 
 ### 要点

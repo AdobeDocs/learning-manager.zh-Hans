@@ -95,7 +95,7 @@ Adobe Learning Manager支持通过多种机制导出与安全相关的配置数�
 
 * ALM作业API支持按需生成CSV格式的用户报告（包括角色分配）。 外部合规性或SIEM工具可以计划和使用这些内容。
 
-有关详细信息，请参阅[Adobe Learning Manager - Application Developer手册](https://experienceleague.adobe.com/zh-hans/docs/learning-manager/using/integration/developer-manual)。
+有关详细信息，请参阅[Adobe Learning Manager - Application Developer手册](https://experienceleague.adobe.com/en/docs/learning-manager/using/integration/developer-manual)。
 
 ## Adobe Learning Manager是否提供可通过其以编程方式查看和调整与安全相关的设置的API？
 

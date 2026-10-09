@@ -110,7 +110,7 @@ Adobe Learning Manager是一个多语言平台，其中学习者的语言偏好�
 
 Adobe Learning Manager现在还支持在Connect中设置虚拟教室会话时从Adobe Connect选择研讨会房间。 以前，管理员只能选择会议室类型。 此增强功能使具有有效研讨会许可证的管理员可以在Adobe Learning Manager中计划和管理一次性或大型活动（最多1,500名与会者）。
 
-有关研讨会会议室的详细信息，请查看此[文章](https://helpx.adobe.com/cn/adobe-connect/using/creating-seminars.html)。
+有关研讨会会议室的详细信息，请查看此[文章](https://helpx.adobe.com/adobe-connect/using/creating-seminars.html)。
 
 ### 支持访问会话分析
 

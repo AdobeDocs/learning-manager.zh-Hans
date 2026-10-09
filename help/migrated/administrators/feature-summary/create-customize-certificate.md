@@ -247,11 +247,11 @@ M45中引入的自定义证书创作体验扩展了创建和管理证书的方�
 ## 创建自定义证书
 
 1. 以&#x200B;**管理员**&#x200B;的身份登录Adobe Learning Manager。
-2. 在&#x200B;**配置**&#x200B;部分，选择&#x200B;**成就**。 将打开&#x200B;**徽章**&#x200B;页面。
+2. 在&#x200B;**配置**&#x200B;部分，选择&#x200B;**成就**。 将打开&#x200B;**徽章**页面。
    ![创建自定义证书](/help/migrated/administrators/feature-summary/assets/custom-cert-alm_images/create-custom-certificate1.png)
    *导航到左侧导航面板上的“成就”*
 
-3. 在左侧导航面板中，选择&#x200B;**证书**。 将打开&#x200B;**证书**&#x200B;页。
+3. 在左侧导航面板中，选择&#x200B;**证书**。 将打开&#x200B;**证书**页。
    ![创建自定义证书](/help/migrated/administrators/feature-summary/assets/custom-cert-alm_images/create-custom-certificate2.png)
    *证书页*
 
@@ -326,7 +326,7 @@ M45中引入的自定义证书创作体验扩展了创建和管理证书的方�
    ![从操作菜单中重命名证书](/help/migrated/administrators/feature-summary/assets/custom-cert-alm_images/image_0003.png)
    *下拉菜单中的“重命名”选项*
 
-5. 在&#x200B;**重命名证书**&#x200B;对话框中，输入新名称。
+5. 在&#x200B;**重命名证书**对话框中，输入新名称。
    ![重命名证书对话框](/help/migrated/administrators/feature-summary/assets/custom-cert-alm_images/image_0004.png)
    *输入新名称*
 

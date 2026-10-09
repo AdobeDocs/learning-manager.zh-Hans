@@ -28,8 +28,8 @@ Adobe Learning Manager与Adobe Commerce集成，后者是一个可扩展且可�
 
 在设置连接器之前，请确保执行以下操作：
 
-- 启用[RabbitMQ](https://experienceleague.adobe.com/zh-hans/docs/commerce-cloud-service/start/overview)或任何其他消息代理。
-- 启用[CRON](https://experienceleague.adobe.com/zh-hans/docs/commerce-cloud-service/start/overview#cron_consumers_runner)作业。
+- 启用[RabbitMQ](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/start/overview)或任何其他消息代理。
+- 启用[CRON](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/start/overview#cron_consumers_runner)作业。
 
 要启用这些功能，请编辑以下文件：
 
@@ -43,8 +43,8 @@ Adobe Learning Manager与Adobe Commerce集成，后者是一个可扩展且可�
 - 启用所有&#x200B;**异步API**。 大型培训数据集以异步方式导出。 当Learning Manager调用Adobe Commerce API时，请求会排队，并由在Commerce端创建产品的消费者处理。 必须启用异步处理，因为默认情况下它在Adobe Commerce中不可用。
 - 在Adobe Commerce的“付款成功”页面上，为Learning Manager添加&#x200B;**返回链接**。
   - 使用此[返回URL](https://learningmanager.adobe.com/app/learner#/postPayment)：
-- 将&#x200B;**索引**&#x200B;从&#x200B;**保存时**&#x200B;更改为&#x200B;**已计划**。 有关详细信息，请参阅[知识库](https://experienceleague.adobe.com/zh-hans/support?support-tab=home#home)。
-- 应用所需的&#x200B;**修补程序**。 有关说明，请参阅[应用修补程序文档](https://experienceleague.adobe.com/zh-hans/docs/commerce-cloud-service/start/overview)。
+- 将&#x200B;**索引**&#x200B;从&#x200B;**保存时**&#x200B;更改为&#x200B;**已计划**。 有关详细信息，请参阅[知识库](https://experienceleague.adobe.com/en/support?support-tab=home#home)。
+- 应用所需的&#x200B;**修补程序**。 有关说明，请参阅[应用修补程序文档](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/start/overview)。
 - 在云基础架构（暂存和生产）上为Adobe Commerce配置&#x200B;**快速**。 有关详细信息，请参阅[快速设置](https://devdocs.magento.com/cloud/cdn/configure-fastly.html)。
 
 ## 配置连接器

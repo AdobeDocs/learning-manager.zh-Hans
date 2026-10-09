@@ -44,7 +44,7 @@ Adobe Learning Manager使用基于角色的访问控制(RBAC)模型。 下表将
 
 | 登录方法 | 安全含义 | 推荐 |
 |-------------|---------------------|----------------|
-| **Adobe ID** | 组织无法控制密码策略、 MFA或帐户恢复。 被侵害的个人Adobe帐户准许访问ALM平台。 | 不建议管理员或内部用户使用&#x200B;**&#x200B;**。 仅在SSO不可用时使用。 |
+| **Adobe ID** | 组织无法控制密码策略、 MFA或帐户恢复。 被侵害的个人Adobe帐户准许访问ALM平台。 | 不建议管理员或内部用户使用&#x200B;****。 仅在SSO不可用时使用。 |
 | **SSO (SAML 2.0/Federated ID)** | 身份验证完全由组织的IdP控制。 在IdP级别强制执行MFA、会话超时和条件访问策略。 用户离开时立即撤销。 | 对所有内部用户和管理员&#x200B;**推荐**。 提供最高级别的组织控制。 |
 | **Learning Manager ID** | 用户在组织的身份基础结构之外自行管理密码。 无法通过ALM强制执行MFA。 密码强度取决于用户行为。 | 仅对于外部用户可接受。 不适用于员工或管理员。 |
 
@@ -52,7 +52,7 @@ Adobe Learning Manager使用基于角色的访问控制(RBAC)模型。 下表将
 >
 >如果为内部用户将登录方法设置为Adobe ID，则组织将无法强制执行多重身份验证、控制密码复杂性或在用户离开时立即撤销访问权限。 这大大增加了未经授权访问的风险。
 
-有关详细信息，请参阅[自定义角色](https://experienceleague.adobe.com/zh-hans/docs/learning-manager/using/admin/custom-role)。
+有关详细信息，请参阅[自定义角色](https://experienceleague.adobe.com/en/docs/learning-manager/using/admin/custom-role)。
 
 ### 多重身份验证(MFA)
 

@@ -179,7 +179,7 @@ FileZilla是一种免费的开源FTP客户端，为文件传输操作提供了�
 3. 在&#x200B;**映射属性**&#x200B;页面中：
    - **左侧**&#x200B;显示Adobe Learning Manager中的必填字段。
    - **右侧**&#x200B;显示CSV列名称。 最初，这一面是空的下拉菜单。
-   - 选择&#x200B;**选择CSV**&#x200B;以上传示例CSV文件。 这样将在右侧下拉列表中填充CSV中的列名称。 请参阅[此文章](https://experienceleague.adobe.com/zh-hans/docs/learning-manager/using/integration/migration-manual#csv)。
+   - 选择&#x200B;**选择CSV**&#x200B;以上传示例CSV文件。 这样将在右侧下拉列表中填充CSV中的列名称。 请参阅[此文章](https://experienceleague.adobe.com/en/docs/learning-manager/using/integration/migration-manual#csv)。
    - 将每个Adobe Learning Manager字段映射到相应的CSV列。
 
    ![](assets/ftp-connector6.png)
@@ -248,11 +248,11 @@ _映射字段_
    _为导入源添加映射_
 
 3. 默认情况下，映射以下必填字段：
-   - **actor.mbox：**&#x200B;这表示学习者（表演者）的电子邮件地址
+   - **actor.mbox：**这表示学习者（表演者）的电子邮件地址
      操作)。 它唯一地标识了活动执行者。
-   - **verb.id：**&#x200B;这是学习者执行的操作的标识符，例如
+   - **verb.id：**这是学习者执行的操作的标识符，例如
      已完成、已尝试或已通过。 它指定了学习者的操作。
-   - **object.id：**&#x200B;这表示学习者与之交互的学习对象或活动，
+   - **object.id：**这表示学习者与之交互的学习对象或活动，
      例如课程、模块或学习路径。
 4. 选择&#x200B;**添加新映射**&#x200B;以映射其他字段。
 5. 对于每个字段，选择适当的&#x200B;**数据类型**（字符串、数字、布尔值或日期）。

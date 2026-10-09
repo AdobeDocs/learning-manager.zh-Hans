@@ -99,7 +99,7 @@ _新用户界面_
 
 仅学习者应用程序（现有UI、新学习者UI和移动沉浸式应用程序）中有此功能可用。
 
-在ALM[&#128279;](/help/migrated/learners/feature-summary/multi-item-cart.md)中查看多项目购物车
+在ALM](/help/migrated/learners/feature-summary/multi-item-cart.md)中查看[多项目购物车
 
 ## 流体播放器中的HTML5内容支持
 
@@ -241,7 +241,7 @@ RPM是您在一分钟内可以发送到API服务器的请求数。 突发限制�
 
 ### 已弃用的API
 
-有关产品中所有已弃用API的累积列表，请在Adobe Learning Manager[&#128279;](/help/migrated/api-deprecations-list.md)中查看API弃用。
+有关产品中所有已弃用API的累积列表，请在Adobe Learning Manager](/help/migrated/api-deprecations-list.md)中查看[API弃用。
 
 ## 对报告的更改
 

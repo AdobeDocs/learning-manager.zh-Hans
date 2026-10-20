@@ -38,7 +38,7 @@ GDPR 是欧盟推出的一项新法规，于 2018 年 5 月 25 日生效。 该�
 
 根据GDPR的规定，如果贵公司为欧盟居民提供产品或服务，且可以确定收集、跟踪和监控欧盟用户数据的方式和原因，则贵公司即被视为[数据控制者](https://gdpr-info.eu/art-24-gdpr/)。 作为 Adobe Learning Manager 客户，如果您执行上述任意一项活动，即被视为数据控制者。
 
-代表控制器处理数据的企业被视为[数据处理者](https://gdpr-info.eu/art-28-gdpr/)。 作为云端托管 LMS Adobe Learning Manager 的供应商，Adobe 扮演着数据处理者的角色。 下面是有关[GDPR和您的业务](https://www.adobe.com/privacy/general-data-protection-regulation.html)的一些更多详细信息。
+代表控制器处理数据的企业被视为[数据处理者](https://gdpr-info.eu/art-28-gdpr/)。 作为云端托管 LMS Adobe Learning Manager 的供应商，Adobe 扮演着数据处理者的角色。 下面是有关[GDPR和您的业务](https://www.adobe.com/cn/privacy/general-data-protection-regulation.html)的一些更多详细信息。
 
 +++
 

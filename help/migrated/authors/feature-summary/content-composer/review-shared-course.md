@@ -38,7 +38,7 @@ ht-degree: 0%
 
 ## 举报冒犯性内容
 
-如果您在查看共享内容书写器课程时遇到了违反Adobe[使用条款](https://www.adobe.com/legal/terms.html)的内容，您可以报告此情况。
+如果您在查看共享内容书写器课程时遇到了违反Adobe[使用条款](https://www.adobe.com/cn/legal/terms.html)的内容，您可以报告此情况。
 
 从右上角选择&#x200B;**报告**&#x200B;并填写表单。 或者，您可以通过电子邮件向[abuse@adobe.com](mailto:abuse@adobe.com)举报滥用情况。 
 

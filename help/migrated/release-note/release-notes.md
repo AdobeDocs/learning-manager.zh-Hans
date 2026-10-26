@@ -7,9 +7,9 @@ exl-id: ae9251b6-5326-42c2-881e-2ab3393d9e17
 product_v2:
   - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
     internal-label: Learning Manager
-source-git-commit: c061ccbefe8d40154220587796062d335e35de77
+source-git-commit: 73a8cf0f76178c9fa766d56e49fc9d02ce8d5387
 workflow-type: tm+mt
-source-wordcount: '35230'
+source-wordcount: '35301'
 ht-degree: 63%
 ---
 # Adobe Learning Manager发行说明
@@ -70,6 +70,10 @@ Insights代理添加了两项增强功能。 这些报告分别是：
 * **课程注册（默认不包括轮候情况）：**&#x200B;对于没有筛选器的直接和间接注册查询，直接注册计数包括状态为“等待”的学习者，即使他们处于轮候状态并且未主动参与。 默认情况下，“进刀”面板不指示轮候学习者包含在计数中。 轮候学习者仅在管理员明确请求排除时才会被排除，此时会披露应用的规则。
 
 [了解详情](/help/migrated/administrators/feature-summary/insights-agent.md)。
+
+### 自定义证书 — 证书Designer
+
+将徽章添加到证书设计后，证书生成系统仅支持基于文本的徽章字段。 因此，学习者徽章图像缺失或在生成的PDF中显示不正确。 经过此修复，系统现在可以识别徽章图像占位符，并将它替换为学习者获得的徽章图像，同时保留证书设计器中配置的位置和大小。
 
 ## API
 

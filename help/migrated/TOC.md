@@ -3,9 +3,9 @@ user-guide-title: Adobe Learning Manager 指南
 breadcrumb-title: Learning Manager
 user-guide-description: Adobe Learning Manager 的文档
 nudge: true
-source-git-commit: 29900b65ff6bf5b598bbba27d2691f75f544211f
+source-git-commit: add4cde9d61b2ad004f8092a1ad7172a8da997fe
 workflow-type: tm+mt
-source-wordcount: '1786'
+source-wordcount: '1791'
 ht-degree: 34%
 ---
 
@@ -21,8 +21,8 @@ ht-degree: 34%
   * [2024年11月新增功能摘要](/help/migrated/whats-new-nov-24.md)
   * [2024年7月新增功能摘要](whats-new-july-2024.md)
   * [2024年3月版新增功能](whats-new-march-2024.md)
-  * {hide-from-toc}[&#x200B; 2023年11月版新增功能](whats-new-november-2023.md)
-  * {hide-from-toc}[&#x200B; 2023年7月版新增功能](whats-new-2023-july.md)
+  * {hide-from-toc}[ 2023年11月版新增功能](whats-new-november-2023.md)
+  * {hide-from-toc}[ 2023年7月版新增功能](whats-new-2023-july.md)
   * {hide-from-toc}[Adobe Learning Manager中即将推出的更改](/help/migrated/upcoming-changes-in-adobe-learning-manager.md)
   * [发行说明](release-note/release-notes.md)
   * [系统要求](system-requirements.md)
@@ -188,6 +188,7 @@ ht-degree: 34%
   * [未登录的API](integration-admin/feature-summary/non-logged-in-apis.md)
   * Webhook {#webhooks}
     * [Webhook](/help/migrated/integration-admin/feature-summary/webhooks.md)
+    * [使用Webhook进行Go1完成跟踪](/help/migrated/integration-admin/feature-summary/go1-webhooks.md)
     * [Webhook使用指南](/help/migrated/integration-admin/feature-summary/webhooks-usage-guide.md)
   * [有信心](integration-admin/feature-summary/credly-integration.md)
   * [学习工具互操作性](/help/migrated/integration-admin/feature-summary/learning-tools-interoperability.md)

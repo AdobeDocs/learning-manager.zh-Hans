@@ -7,9 +7,9 @@ exl-id: ae9251b6-5326-42c2-881e-2ab3393d9e17
 product_v2:
   - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
     internal-label: Learning Manager
-source-git-commit: 73a8cf0f76178c9fa766d56e49fc9d02ce8d5387
+source-git-commit: d3f02c23826e56305a160eab428a50406a837184
 workflow-type: tm+mt
-source-wordcount: '35301'
+source-wordcount: '35530'
 ht-degree: 63%
 ---
 # Adobe Learning Manager发行说明
@@ -26,6 +26,22 @@ ht-degree: 63%
 </table>
 
 -->
+
++++更新113：Adobe Learning Manager 2026年10月27日版
+
+## 此版本中的增强功能
+
+**Go1集成：**&#x200B;增强了Adobe Learning Manager中的Go1集成，以便更可靠地跟踪课程完成情况。 现在可准确记录学习者的Go1完成情况，即使他们在完成后立即离开课程播放器。 此修复可帮助确保学习者成绩单和管理员报告保持完整且处于最新状态。 无需配置，现有Go1课程仍可照常使用。 [了解详情](/help/migrated/integration-admin/feature-summary/go1-webhooks.md)。
+
+## 已修复的错误
+
+**移动设备：**&#x200B;在使用iOS Safari的iPhone上，从目录或搜索CTA以纵向启动课程时会显示“请旋转设备”提示。 旋转到横向后，提示仍然存在，导致课程无法启动。 此问题已修复，播放器现在可以在轮换时恢复并按预期启动课程。
+
+**学习者：**&#x200B;学习者无法在文件提交模块中提交Excel、PowerPoint、视频、ZIP和其他文件类型，并收到常规错误。 此问题已修复，学习者现在可以上传这些文件类型并按预期提交。
+
+**电子邮件模板：**&#x200B;当会话模板与全局布局取消链接时，日历邀请电子邮件显示空白正文和空白.ics事件描述。 此问题已修复，取消链接的模板现在会按预期在电子邮件和日历事件说明中显示已配置的会话详细信息和布局内容。
+
++++
 
 +++更新112：Adobe Learning Manager 2026年9月30日版
 

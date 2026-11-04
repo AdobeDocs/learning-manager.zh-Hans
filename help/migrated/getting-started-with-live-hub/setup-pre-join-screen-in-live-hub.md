@@ -4,7 +4,7 @@ description: 了解Live Hub预加入屏幕的工作原理、如何允许浏览�
 product_v2:
   - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
     internal-label: Learning Manager
-source-git-commit: c061ccbefe8d40154220587796062d335e35de77
+source-git-commit: 2e198c9edfedc804db6a52b79b50372fb4875203
 workflow-type: tm+mt
 source-wordcount: '437'
 ht-degree: 0%
@@ -29,7 +29,7 @@ Adobe Learning Manager中的实时中心会话是一种由讲师主导的实时�
 ![允许浏览器权限提示](assets/allow-browser-permissions-prompt.png)
 *当浏览器提示需要访问麦克风和相机时，选择允许。*
 
-### 配置音频控件
+### 配置音频控件 {#audio-controls}
 
 将自动选择您的麦克风和扬声器。 使用预加入屏幕上的音频控件确认它们正常工作或切换到其他设备。
 

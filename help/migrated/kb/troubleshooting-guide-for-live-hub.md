@@ -4,7 +4,7 @@ description: 在Live Hub会话中可能遇到的常见错误消息和通知、�
 product_v2:
   - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
     internal-label: Learning Manager
-source-git-commit: c061ccbefe8d40154220587796062d335e35de77
+source-git-commit: a39f411869dfc8dc88236a391a4681bed8cf8620
 workflow-type: tm+mt
 source-wordcount: '1072'
 ht-degree: 1%
@@ -14,7 +14,7 @@ ht-degree: 1%
 
 在Live Hub会话期间，讲师可能会遇到导致某些操作无法按预期完成的错误消息或通知。 本文介绍了常见的面向讲师的错误、其可能的原因以及解决这些错误可以采取的步骤。
 
-## 连接问题
+## 连接问题 {#connection-issues}
 
 | 错误消息 | 情景 | 克服此错误的建议 |
 |---|---|---|
@@ -61,7 +61,7 @@ ht-degree: 1%
 | “FileName.pdf”超过1 MB限制。 | 讲师上传的PDF文件超过1 MB文件大小限制。 | 将PDF文件大小压缩或缩减至小于1 MB，然后重新上传。 |
 | “FileName.pptx”超过3 MB限制。 | 讲师上传超过3 MB文件大小限制的PPT文件。 | 将PPT文件大小压缩或缩减至小于3 MB，然后重新上传。 |
 
-## 分组讨论会问题
+## 分组讨论会问题 {#breakout-issues}
 
 当讲师尝试启动分组会话时，可能会出现以下消息。
 

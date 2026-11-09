@@ -5,9 +5,9 @@ title: 发布到 Adobe Learning Manager
 product_v2:
   - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
     internal-label: Learning Manager
-source-git-commit: c061ccbefe8d40154220587796062d335e35de77
+source-git-commit: 9941036e5221aa8cc1deb4d5d05d1fd76bd4e66b
 workflow-type: tm+mt
-source-wordcount: '278'
+source-wordcount: '437'
 ht-degree: 1%
 ---
 
@@ -48,3 +48,23 @@ ht-degree: 1%
 - 输入&#x200B;**描述**，即在ALM内容库中与其一起显示的课程的简短摘要，帮助学习者和管理员了解其目的。
 
 - 选择&#x200B;**Publish**&#x200B;以将课程作为模块发送到ALM内容库。
+
+## 在已发布的Content Composer课程中导航学习者
+
+了解学习者如何浏览发布到Adobe Learning Manager或导出为SCORM包的Content Composer课程，包括可折叠的目录和移动导航。
+
+## 可折叠的目录
+
+发布到Adobe Learning Manager或导出为SCORM包的课程包含可折叠的课程和主题导览面板。
+
+学习者可以：
+
+- **展开**&#x200B;导航面板以浏览课程和主题并跳转到任何部分。
+- **折叠**&#x200B;导航面板以专注于课程内容，面板不占用屏幕空间。
+当学习者在课程中移动时，面板状态会被保留。
+
+## 移动导航
+
+在移动设备上，课程和主题导航会以全屏叠加而非侧面板的形式打开。 学习者选择导航图标以打开叠加窗口，浏览至想要的课程或主题，然后选中该图标进行导航。
+
+当学习者选择目标位置并返回课程内容后，叠加会自动关闭。

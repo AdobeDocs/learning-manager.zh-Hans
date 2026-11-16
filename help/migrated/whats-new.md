@@ -6,7 +6,7 @@ exl-id: da46f186-3ff3-422a-af49-31c7405fd584
 product_v2:
   - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
     internal-label: Learning Manager
-source-git-commit: 054b295163bb0312f07aa82b2a21c7e55b5fbc1d
+source-git-commit: c01de295c4baa533ff15f4872df84ac197ffb3a7
 workflow-type: tm+mt
 source-wordcount: '4684'
 ht-degree: 0%
@@ -258,7 +258,6 @@ Learning Manager现在支持对学习内容进行受控访问，且无需用户�
 
 管理员现在可以选择在公共学院中显示的特定目录。 只有那些目录才可以被匿名访问者浏览，并由搜索引擎和AI助理编制索引，因此测试课程或内部内容保持私密。
  
-
 ### 在搜索引擎和AI助理(Beta)中查找
 
 Adobe Learning Manager现在可以让你的公立学院被Google等搜索引擎以及ChatGPT、Claude和Gemini等AI助手发现。 然后，您的课程将显示在搜索结果和AI生成的答案中，归属于您的学院。
@@ -267,15 +266,15 @@ Adobe Learning Manager现在可以让你的公立学院被Google等搜索引擎�
 * 每个学院都有自己的站点地图和robots.txt，它们根据您公开的产品目录自动生成。
 * 为爬网程序预渲染页面，因此不运行JavaScript的AI助理仍然可以读取它们。
 * 爬行者只能看到访客能够访问的内容。 绝不会公开封闭内容。
-* 元标题、描述和结构化数据：Adobe Learning Manager会根据学习元数据自动为每个课程、学习路径和认证生成这些元数据。
+* 元标题、描述和结构化数据：Adobe Learning Manager会根据学习元数据自动为每个课程、学习路径和认证生成这些数据。
 
 >[!NOTE]
 >
 >本机Adobe Learning Manager上的AI和搜索发现需要自定义域。 无头部署需要在其自己的环境中实施部分设置。
 
-## 弃用课程，同时避免无法访问学习路径
+## 弃用课程，而不让学习路径变为无法访问
 
-已弃用的课程或嵌套学习路径将从较高层级学习对象中移除，而该对象会保持打开状态以供新注册。 弃用课程不会再导致无法访问学习路径。
+已弃用的课程或嵌套的学习路径将从较高层级学习对象中移除，而该对象会保持打开状态以供新注册。 弃用课程后，将无法再访问学习路径。
 
 ## 自助注册配置文件的未登录页面URL
 
@@ -285,7 +284,7 @@ Adobe Learning Manager现在可以让你的公立学院被Google等搜索引擎�
 
 ## 存储学习路径注册的上次访问日期
 
-Adobe Learning Manager现在允许您向学习路径注册附加自定义元数据，例如上次访问日期。 您可以通过API设置和阅读，API可帮助您跟踪对您分配的学习路径进行有时间限制的访问。
+Adobe Learning Manager现在允许您向学习路径注册附加自定义元数据，例如上次访问日期。 您可以通过API设置和阅读，API可帮助您跟踪对已分配学习路径的时限访问。
 
 课程注册已支持通过API设置上次访问日期，该API可控制学习者访问课程的时间。 学习路径注册现在提供一个通用元数据字段，因此您可以存储上次访问日期或任何其他要跟踪的值。
 

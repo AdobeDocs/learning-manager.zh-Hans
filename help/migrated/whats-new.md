@@ -6,7 +6,7 @@ exl-id: da46f186-3ff3-422a-af49-31c7405fd584
 product_v2:
   - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
     internal-label: Learning Manager
-source-git-commit: 413b0a29bcacbf1d523990dd7d96fdbb9fad3907
+source-git-commit: 054b295163bb0312f07aa82b2a21c7e55b5fbc1d
 workflow-type: tm+mt
 source-wordcount: '4684'
 ht-degree: 0%
@@ -258,7 +258,6 @@ Learning Manager现在支持对学习内容进行受控访问，且无需用户�
 
 管理员现在可以选择在公共学院中显示的特定目录。 只有那些目录才可以被匿名访问者浏览，并由搜索引擎和AI助理编制索引，因此测试课程或内部内容保持私密。
  
-
 ### 在搜索引擎和AI助理(Beta)中查找
 
 Adobe Learning Manager现在可以让你的公立学院被Google等搜索引擎以及ChatGPT、Claude和Gemini等AI助手发现。 然后，您的课程将显示在搜索结果和AI生成的答案中，归属于您的学院。

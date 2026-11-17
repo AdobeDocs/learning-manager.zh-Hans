@@ -6,13 +6,17 @@ exl-id: da46f186-3ff3-422a-af49-31c7405fd584
 product_v2:
   - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
     internal-label: Learning Manager
-source-git-commit: c01de295c4baa533ff15f4872df84ac197ffb3a7
+source-git-commit: 6fe06d8c4a60f611b3ceb243079daad28a48a710
 workflow-type: tm+mt
-source-wordcount: '4684'
+source-wordcount: '4832'
 ht-degree: 0%
 ---
 
 # Adobe Learning Manager 2026年12月版的新增功能
+
+>[!IMPORTANT]
+>
+>Beta版功能可能包含缺陷，并按“原样”提供，不附带任何类型的担保。 Adobe自行决定是否正式提供测试版功能。 Adobe没有义务维护、更正、更新、更改、修改或以其他方式支持（通过Adobe支持服务或其他方式）Beta版功能。 如果Beta版功能可以普遍使用，则可能需要遵守附加条款和条件，包括适用的费用。 Beta版功能如有更改，恕不另行通知，包括停用。 我们建议客户谨慎使用，不要以任何方式依赖Beta版功能的不中断或无错误运行或性能。 因此，使用测试版功能完全由客户自行承担风险。 随着功能的发展，产品功能和相关文档可能会发生变化。 本文档反映了当前的Beta版体验，不应将其视为最终或完整的产品文档。
 
 此版本的Adobe Learning Manager引入了各种新功能和增强功能，旨在简化平台并扩展其功能。 这些更新简化了日常工作流程，改进了学习内容的组织和交付方式，并使整体体验更加一致和直观。
 

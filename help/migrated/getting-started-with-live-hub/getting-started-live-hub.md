@@ -1,20 +1,20 @@
 ---
-title: Live Hub (Beta)快速入门
+title: Live Hub快速入门
 description: 了解Adobe Learning Manager中的Live Hub如何让您直接在平台上提供讲师指导的实时培训课程。
 product_v2:
   - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
     internal-label: Learning Manager
-source-git-commit: c061ccbefe8d40154220587796062d335e35de77
+source-git-commit: 323f8300024f1f30f37895cf822b737aea561bb1
 workflow-type: tm+mt
-source-wordcount: '767'
+source-wordcount: '773'
 ht-degree: 0%
 ---
 
-# Live Hub (Beta)快速入门
+# Live Hub快速入门
 
 >[!IMPORTANT]
 >
->Beta版功能可能包含缺陷，并按“原样”提供，不附带任何类型的担保。 Adobe自行决定是否正式提供测试版功能。 Adobe没有义务维护、更正、更新、更改、修改或以其他方式支持（通过Adobe支持服务或其他方式）Beta版功能。 如果Beta版功能可以普遍使用，则可能需要遵守附加条款和条件，包括适用的费用。 Beta版功能如有更改，恕不另行通知，包括停用。 我们建议客户谨慎使用，不要以任何方式依赖Beta版功能的不中断或无错误运行或性能。 因此，使用测试版功能完全由客户自行承担风险。 随着功能的发展，产品功能和相关文档可能会发生变化。 本文档反映了当前的Beta版体验，不应将其视为最终或完整的产品文档。
+>Live Hub已面向Prime客户推出测试版。 Beta版功能可能包含缺陷，并按“原样”提供，不附带任何类型的担保。 Adobe自行决定是否正式提供测试版功能。 Adobe没有义务维护、更正、更新、更改、修改或以其他方式支持（通过Adobe支持服务或其他方式）Beta版功能。 如果Beta版功能可以普遍使用，则可能需要遵守附加条款和条件，包括适用的费用。 Beta版功能如有更改，恕不另行通知，包括停用。 我们建议客户谨慎使用，不要以任何方式依赖Beta版功能的不中断或无错误运行或性能。 因此，使用测试版功能完全由客户自行承担风险。 随着功能的发展，产品功能和相关文档可能会发生变化。 本文档反映了当前的Beta版体验，不应将其视为最终或完整的产品文档。
 
 借助Adobe Learning Manager的实时中心，组织可以直接在平台内提供讲师指导的实时培训，无需使用外部工具来交付核心课程。
 

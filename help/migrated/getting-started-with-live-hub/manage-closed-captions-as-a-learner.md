@@ -4,15 +4,19 @@ description: 了解学习者如何在实时中心会话期间显示隐藏字幕�
 product_v2:
   - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
     internal-label: Learning Manager
-source-git-commit: c061ccbefe8d40154220587796062d335e35de77
+source-git-commit: 38dba6765ff013e446ab1f6098e9f1df0c24d0f9
 workflow-type: tm+mt
-source-wordcount: '279'
+source-wordcount: '290'
 ht-degree: 0%
 ---
 
 # 以学习者身份管理隐藏字幕
 
 隐藏字幕将口语内容显示为屏幕上的文本，从而使实时中心会话更容易被关注，例如，如果您在嘈杂的环境中，或者更喜欢与音频一起阅读。 您可以通过控制栏中的“隐藏字幕”(CC)按钮控制自己的字幕。 本指南介绍如何以学习者身份显示、调整和隐藏字幕。
+
+>[!NOTE]
+>
+>字幕会以讲师为会话选择的语言显示。
 
 ## 显示隐藏式字幕
 

@@ -4,9 +4,9 @@ description: 了解讲师如何访问和配置Live Hub中的房间设置，包�
 product_v2:
   - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
     internal-label: Learning Manager
-source-git-commit: c061ccbefe8d40154220587796062d335e35de77
+source-git-commit: 38dba6765ff013e446ab1f6098e9f1df0c24d0f9
 workflow-type: tm+mt
-source-wordcount: '533'
+source-wordcount: '584'
 ht-degree: 0%
 ---
 
@@ -31,9 +31,11 @@ ht-degree: 0%
 
    1. **录制**：选择录制中捕获的内容，包括参与者视频源、投票和聊天记录。
 
+   1. **字幕**：选择在会话期间生成字幕时使用的语言。
+
    1. **AI**：打开或关闭会话的AI助手，包括问答助手、投票助手、分组监视代理和录制主题生成。
 
-   1. **隐私**：显示或隐藏尚未加入会话的已注册参与者。
+   1. **隐私**：显示或隐藏尚未加入会话的已注册参与者。从左侧面板中选择相关选项卡：
 
 1. 更改所需的设置。
 
@@ -94,6 +96,12 @@ ht-degree: 0%
 <td>将聊天记录添加到录制内容中。</td>
 </tr>
 <tr>
+<tr>
+<td><p><strong>字幕</strong></p>
+<p><strong>默认</strong>：英语</p></td>
+<td>字幕显示语言</td>
+<td>设置为所有参与者生成字幕时使用的语言。 由于不会平移字幕，因此所选语言应与讲师所使用的语言匹配。</td>
+</tr>
 <td rowspan="4"><p><strong>AI</strong></p>
 <p><strong>默认</strong>：如果管理员已启用所有AI助理，则启用它们。</p></td>
 <td>启用问答助理和应答生成</td>

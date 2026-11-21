@@ -1,16 +1,16 @@
 ---
-title: 以讲师身份加入实时中心(Beta)会话
+title: 以讲师身份加入Live Hub会话
 description: 了解讲师如何在计划的开始时间之前加入Live Hub会话，以在学习者到来之前准备教室并配置设置。
 product_v2:
   - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
     internal-label: Learning Manager
-source-git-commit: c061ccbefe8d40154220587796062d335e35de77
+source-git-commit: 3f591f2feae164b7ac2ddb5c8b34d015c0f942d4
 workflow-type: tm+mt
-source-wordcount: '203'
+source-wordcount: '201'
 ht-degree: 2%
 ---
 
-# 以讲师身份加入实时中心(Beta)会话
+# 以讲师身份加入Live Hub会话
 
 讲师可以在计划的开始时间之前进入虚拟教室，准备教室，配置学习者权限、字幕、投票、测验和分组讨论，并在学习者到来之前设置自己的音频和视频。
 

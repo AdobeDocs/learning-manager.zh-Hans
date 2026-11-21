@@ -5,7 +5,7 @@ exl-id: c430545d-b48e-432d-a278-658c9281818f
 product_v2:
   - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
     internal-label: Learning Manager
-source-git-commit: c061ccbefe8d40154220587796062d335e35de77
+source-git-commit: 370f9abfd6ba47ad1364452ac4314b1ee6392a65
 workflow-type: tm+mt
 source-wordcount: '624'
 ht-degree: 70%
@@ -90,3 +90,5 @@ Adobe Learning Manager 的多次注册功能可帮助管理员避免此类情况
 ## 报告
 
 对于注册同一课程的两个实例的学习者，系统将为每个课程实例创建两行。 该报告还会显示实例的进度。
+
+

@@ -1,16 +1,16 @@
 ---
-title: Live Hub (Beta)常见问题解答
+title: Live Hub常见问题解答
 description: 有关Adobe Learning Manager Live Hub的常见问题解答，按角色分组，面向管理员、作者、讲师和学习者。
 product_v2:
   - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
     internal-label: Learning Manager
-source-git-commit: c061ccbefe8d40154220587796062d335e35de77
+source-git-commit: 3f591f2feae164b7ac2ddb5c8b34d015c0f942d4
 workflow-type: tm+mt
-source-wordcount: '4473'
+source-wordcount: '4471'
 ht-degree: 0%
 ---
 
-# Live Hub (Beta)的常见问题解答
+# Live Hub的常见问题解答
 
 <table>
  <tbody>

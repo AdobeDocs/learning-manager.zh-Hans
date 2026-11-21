@@ -5,9 +5,9 @@ title: Adobe Learning Manager中的Learning Path Agent (Beta)
 product_v2:
   - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
     internal-label: Learning Manager
-source-git-commit: c061ccbefe8d40154220587796062d335e35de77
+source-git-commit: b01b116a2edd22350d0d20eb53984f1a66d494e3
 workflow-type: tm+mt
-source-wordcount: '2201'
+source-wordcount: '2336'
 ht-degree: 0%
 ---
 
@@ -147,23 +147,34 @@ The Personalized Learning Path agent consumes AI credits each time a learner gen
 ![](assets/create-lp.png)
 -->
 
-### 保存前调整学习路径
+### 保存前调整学习路径 {#adjust-lp-before-saving}
 
-在保存路径之前，您可以让客服专员添加、删除或替换课程。 用简单的语言描述这一变化。 客服专员仅更新您提及的课程。 路径的其他部分保持不变。
+在保存前，使用删除图标或聊天在生成的学习路径中移除、添加或替换主题和课程。
 
-例如：
+在Adobe Learning Manager中请求Learning Path Agent构建个性化路径时，它会首先建议主题，然后与之匹配课程。 在保存路径之前，可以优化两者，以便最终路径符合您的目标。
 
-- 我已经完成了第二门课程。 移除它。
-- 添加有关[主题]的课程。 我在名单上看不到。
-- 第四个课程看起来太先进了。 你能用一些更根本的东西来取代它吗？
-
-客服专员会应用您的更改并为您显示更新的路径。 继续调整，直到满意为止，然后保存路径。
+您可以通过选择卡片上的删除图标或在聊天中键入请求来调整路径。
 
 >[!NOTE]
 >
->一个学习路径最多可以包含五个课程。 如果您要求在路径已满时添加课程，客服专员会询问您想替换现有哪门课程。
+>Learning Path Agent提供Ultimate层或作为Prime层的插件。 每个请求都使用AI积分。 如果您没有看到该客服专员，请联系您的管理员。
 
-如果您的请求不明确，客服专员会在做出更改之前询问澄清问题。 如果想要替换的课程没有合适的替代课程，客服专员会解释原因，并建议使用最合适的替代课程。
+1. 在“学习者助理”中，让“学习路径代理”生成学习路径。 回答客服专员提出的任何澄清问题。 例如，输入Help me create a learning path to move from marketing coordinator to data analyst。
+2. 回答客服专员提出的澄清问题。 然后，代理会生成主题列表。
+3. 查看主题，然后根据需要调整它们：
+
+   * 要删除主题，请选择其信息卡上的“删除”图标，或键入请求，例如“删除此主题”。
+   * 要添加主题，请键入描述所需主题的请求。
+
+4. 确认主题。 客服专员会将您帐户中的课程与每个主题进行匹配。
+5. 查看建议的课程，然后根据需要进行调整：
+
+   * 要删除课程，请选择其卡上的删除图标，或让客服专员将其删除。
+   * 要添加课程，请键入描述所需学习内容的请求。
+   * 要交换课程，请客服专员替换该课程。 客服专员根据您的原始请求建议一种替代方案。
+
+6. 重复步骤3和5，直到路径与您的目标匹配。
+7. 保存学习路径。
 
 ### 保存和访问学习路径
 

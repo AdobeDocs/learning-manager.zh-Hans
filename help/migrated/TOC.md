@@ -3,10 +3,10 @@ user-guide-title: Adobe Learning Manager 指南
 breadcrumb-title: Learning Manager
 user-guide-description: Adobe Learning Manager 的文档
 nudge: true
-source-git-commit: c54a70f69868320e43d99a1fb2e4def5009f1d5c
+source-git-commit: 62986d83f3630e676464f88f345960d9d0b49d08
 workflow-type: tm+mt
-source-wordcount: '1796'
-ht-degree: 34%
+source-wordcount: '1953'
+ht-degree: 31%
 ---
 
 # Adobe Learning Manager 用户指南 {#using}
@@ -22,8 +22,8 @@ ht-degree: 34%
   * [2024年11月新增功能摘要](/help/migrated/whats-new-nov-24.md)
   * [2024年7月新增功能摘要](whats-new-july-2024.md)
   * [2024年3月版新增功能](whats-new-march-2024.md)
-  * {hide-from-toc}[&#x200B; 2023年11月版新增功能](whats-new-november-2023.md)
-  * {hide-from-toc}[&#x200B; 2023年7月版新增功能](whats-new-2023-july.md)
+  * {hide-from-toc}[ 2023年11月版新增功能](whats-new-november-2023.md)
+  * {hide-from-toc}[ 2023年7月版新增功能](whats-new-2023-july.md)
   * {hide-from-toc}[Adobe Learning Manager中即将推出的更改](/help/migrated/upcoming-changes-in-adobe-learning-manager.md)
   * [发行说明](release-note/release-notes.md)
   * [系统要求](system-requirements.md)
@@ -41,6 +41,7 @@ ht-degree: 34%
   * [Adobe Learning Manager中的API弃用和更改](api-deprecations-list.md)
   * [Adobe Learning Manager 中的推荐](recommendations-adobe-learning-manager.md)
   * [Adobe Learning Manager中的白色标签](white-label.md)
+  * [讨论区电子邮件摘要（讲师通知）](/help/migrated/discussion-board-instructor-notifications.md)
 * 版本中可用的功能 {#feature-availability}
   * [2026年8月版中提供的功能](/help/migrated/feature-availability-aug-2026.md)
 * 入门指南 {#get-started}
@@ -50,21 +51,27 @@ ht-degree: 34%
   * [学习者快速入门指南](learners/feature-summary/getting-started-learner.md)
   * [面向经理的快速入门指南](managers/feature-summary/getting-started-manager.md)
   * [面向讲师的 Adobe Learning Manager 入门指南](instructors/feature-summary/getting-started.md)
-  * [Live Hub (Beta)快速入门](./getting-started-with-live-hub/getting-started-live-hub.md)
+  * [Live Hub快速入门](./getting-started-with-live-hub/getting-started-live-hub.md)
 * 管理员 {#admin}
   * AI学习版(Beta) {#ai-in-learning}
-    * [启用Live Hub (Beta)](./administrators/feature-summary/enable-live-hub.md)
+    * [启用实时中心](./administrators/feature-summary/enable-live-hub.md)
   * [Adobe Learning Manager中的Admin AI Assistant (Beta)](/help/migrated/administrators/feature-summary/alm-ai-assistant.md)
   * [Adobe Learning Manager中的Insights代理(Beta)](/help/migrated/administrators/feature-summary/insights-agent.md)
+  * [ALM MCP服务器简介](/help/migrated/administrators/feature-summary/intro-alm-mcp.md)
+  * [配置MCP服务器](/help/migrated/administrators/feature-summary/configure-mcp-admin.md)
+  * [将ALM添加到企业AI客户端](/help/migrated/administrators/feature-summary/add-alm-to-ai-client.md)
   * [用户](administrators/feature-summary/user-login.md)
   * User Management {#user-management}
     * [在Adobe Learning Manager中添加用户](administrators/feature-summary/add-users-user-groups.md)
     * [Adobe Learning Manager中的用户组](/help/migrated/administrators/feature-summary/user-group.md)
     * [活动字段](/help/migrated/administrators/feature-summary/active-fields.md)
+  * [启用安全考试浏览器](./administrators/feature-summary/safe-exam-browser.md)
   * [添加教室位置](administrators/feature-summary/classroom.md)
   * [创建课程实例和学习路径](administrators/feature-summary/courses.md)
+  * [小组（小组）提交材料和基于评分的评估](/help/migrated/administrators/feature-summary/team-submissions-and-rubrics.md)
   * [模块访问时间控制](/help/migrated/administrators/feature-summary/module-access-time-control.md)
   * [管理假日](./getting-started-with-live-hub/manage-holidays.md)
+  * [管理员品牌推广：重新定位主页PLP和VC条](/help/migrated/administrators/feature-summary/admin-branding-repositioning.md)
   * Adobe Learning Manager中的Experience Builder {#experience-builder}
     * [概述](/help/migrated/administrators/feature-summary/experience-builder/overview.md)
     * [Experience Builder的核心组件](/help/migrated/administrators/feature-summary/experience-builder/components-in-experience-builder.md)
@@ -82,6 +89,7 @@ ht-degree: 34%
       * [自定义Experience Builder](/help/migrated/administrators/feature-summary/experience-builder/customization-experience-builder.md)
     * [Experience Builder准则和限制](/help/migrated/administrators/feature-summary/experience-builder/experience-builder-guidelines.md)
     * [Experience Builder中的未登录体验](/help/migrated/administrators/feature-summary/experience-builder/non-logged-in-experience.md)
+    * [使用未登录菜单URL进行自行注册](/help/migrated/administrators/feature-summary/experience-builder/non-logged-in-menu-url-self-registration.md)
   * 设置 {#settings}
     * [概述](/help/migrated/administrators/feature-summary/settings/settings-overview.md)
     * [基本设置](/help/migrated/administrators/feature-summary/settings/basic-settings.md)
@@ -107,6 +115,7 @@ ht-degree: 34%
     * [在Report Builder中构建趋势报告](administrators/feature-summary/build-trend-report-in-report-builder.md)
     * [下载、共享和订阅报告](administrators/feature-summary/download-share-subscribe-report.md)
     * [在Report Builder中复制和重复使用报告](administrators/feature-summary/duplicate-reuse-report-in-report-builder.md)
+    * [Report Builder中的可视化](administrators/feature-summary/report-builder-visualization.md)
     * [常见问题解答](administrators/feature-summary/faq-report-builder.md)
     * [Report Builder限制](administrators/feature-summary/limitations-report-builder.md)
   * [组成功信息板](/help/migrated/administrators/feature-summary/group-success-dashboard.md)
@@ -120,7 +129,7 @@ ht-degree: 34%
   * 虚拟教练 {#virtualcoachadmin}
     * [管理虚拟引导的使用和计费](administrators/feature-summary/virtual-coach/manage-virtual-coach-usage-billing.md)
     * [虚拟指导报告](administrators/feature-summary/virtual-coach/virtual-coach-reports.md)
-  * [创建渠道(Beta)](administrators/feature-summary/create-channels.md)
+  * [创建通道](administrators/feature-summary/create-channels.md)
   * [认证](administrators/feature-summary/certifications.md)
   * [创建和自定义证书](/help/migrated/administrators/feature-summary/create-customize-certificate.md)
   * [目录](administrators/feature-summary/catalogs.md)
@@ -165,9 +174,12 @@ ht-degree: 34%
   * [学习计划](administrators/feature-summary/learning-programs.md)
   * [产品术语](administrators/feature-summary/product-terminology.md)
 * 集成管理员 {#integration}
+  * [配置ALM MCP服务器](/help/migrated/integration-admin/feature-summary/configure-alm-mcp-server.md)
   * [应用程序开发人员手册](/help/migrated/integration-admin/feature-summary/developer-manual.md)
   * [使用iFrame集成学习者助手](/help/migrated/integration-admin/feature-summary/learner-assistant-integration-embed-iframe.md)
   * [迁移手册](integration-admin/feature-summary/migration-manual.md)
+  * [ALM-Workfront取消/更新触发器](integration-admin/feature-summary/alm-workfront-cancellation.md)
+  * [通过Adobe Connect录制视图跟踪出席情况](integration-admin/feature-summary/track-attendance-through-adobe-connect.md)
   * Adobe Learning Manager 连接器 {#connectors}
     * [连接器概述](integration-admin/feature-summary/connectors.md)
     * [ADFS连接器](integration-admin/feature-summary/adfs-connector.md)
@@ -189,14 +201,17 @@ ht-degree: 34%
   * [未登录的API](integration-admin/feature-summary/non-logged-in-apis.md)
   * Webhook {#webhooks}
     * [Webhook](/help/migrated/integration-admin/feature-summary/webhooks.md)
-    * [使用Webhook进行Go1完成跟踪](/help/migrated/integration-admin/feature-summary/go1-webhooks.md)
     * [Webhook使用指南](/help/migrated/integration-admin/feature-summary/webhooks-usage-guide.md)
+    * [讲师用于学习对象实例编辑的Webhook事件](/help/migrated/integration-admin/feature-summary/webhook-instructor-edits.md)
+    * [使用Webhook进行Go1完成跟踪](/help/migrated/integration-admin/feature-summary/go1-webhooks.md)
   * [有信心](integration-admin/feature-summary/credly-integration.md)
   * [学习工具互操作性](/help/migrated/integration-admin/feature-summary/learning-tools-interoperability.md)
   * [LTI深层链接](/help/migrated/integration-admin/feature-summary/lti-deep-links.md)
+  * [对NRPS的LTI支持](/help/migrated/integration-admin/feature-summary/lti-support-for-nrps.md)
   * AEM Sites {#aem-sites}
     * [AEM Sites的ALM参考站点包](/help/migrated/adobe-learning-manager-integration-aem.md)
     * [将 Adobe Learning Manager 与 AEM 集成](integrate-aem-learning-manager.md)
+    * [AEM assets集成](/help/migrated/integration-admin/feature-summary/aem-assets-integration.md)
   * [在 Adobe Learning Manager 中安装 Salesforce 程序包](integration-admin/feature-summary/install-salesforce-package.md)
   * 部署指南 {#deployment-guide}
     * [简介](/help/migrated/deployment-guide/introduction.md)
@@ -211,8 +226,11 @@ ht-degree: 34%
   * [用户登录](authors/feature-summary/user-login.md)
   * [内容库](authors/feature-summary/content-library.md)
   * [创建、修改和发布课程](authors/feature-summary/courses.md)
+  * [使用安全考试浏览器创建课程](./authors/feature-summary/create-a-course-with-safe-exam-browser.md)
+  * [创建学习路径](/help/migrated/authors/feature-summary/create-learning-path.md)
   * [目录](authors/feature-summary/catalogs.md)
   * {hide-from-toc}[自适应课程](authors/feature-summary/adaptive-course-author.md)
+  * {hide-from-toc}[自适应课程的多重注册](authors/feature-summary/multi-enrollment-for-adaptive-courses.md)
   * 虚拟教练 {#virtual-coach}
     * [什么是虚拟教练](authors/feature-summary/virtual-coach/what-virtual-coach-is.md)
     * [收集虚拟指导角色扮演的材料](authors/feature-summary/virtual-coach/gather-materials-for-virtual-coach-role-play.md)
@@ -229,6 +247,7 @@ ht-degree: 34%
   * [在不同区域设置中添加学习对象](authors/feature-summary/add-new-language-learning-objects.md)
   * [用户通知](authors/feature-summary/user-notifications.md)
   * [电子邮件模板](authors/feature-summary/email-templates-author.md)
+  * [在电子邮件生成器中自定义课程和实例电子邮件](authors/feature-summary/customize-course-instance-emails.md)
   * [如何选择课程模块？](authors/how-to-choose-modules.md)
   * [学习者预览](authors/feature-summary/fluidic-player.md)
   * Adobe Learning Manager Content Composer (Beta) {#alm-content-composer}
@@ -285,8 +304,10 @@ ht-degree: 34%
       * [主题JSON属性引用](authors/feature-summary/content-composer/theme-json-reference.md)
   * [设置](authors/feature-summary/settings.md)
 * 讲师 {#instructor}
-  * [模块](instructors/feature-summary/modules.md)
+  * [模块](/help/migrated/instructors/feature-summary/modules.md)
+  * [评估并取消提交团队提交内容](/help/migrated/instructors/feature-summary/learners.md)
   * [管理会话的学习者](instructors/feature-summary/learners.md)
+  * [重新发送会话邀请](instructors/feature-summary/resend-session-invite.md)
 * Prime 中的讲师 {#learner}
   * [登录](learners/feature-summary/user-login.md)
   * [配置文件设置](learners/feature-summary/settings.md)
@@ -297,15 +318,18 @@ ht-degree: 34%
   * [一键式注册](learners/feature-summary/learner-one-click-enrollment.md)
   * [由我保存的小部件](learners/feature-summary/saved-by-me-widget.md)
   * [我的学习](learners/feature-summary/courses.md)
+  * [在安全考试浏览器中启动测验](./learners/feature-summary/launch-safe-exam-browser.md)
+  * [在学习者合规性小组件中显示的多重注册课程](learners/feature-summary/multi-enrolled-learner-compliance-widget.md)
   * {hide-from-toc}[自适应课程](learners/feature-summary/adaptive-course-learner.md)
   * [流体播放器](learners/feature-summary/fluidic-player.md)
   * [学习计划](learners/feature-summary/learning-programs.md)
   * [认证](learners/feature-summary/certifications.md)
   * [工作辅助](learners/feature-summary/job-aids.md)
-  * [发现渠道并参与其中(Beta)](learners/feature-summary/discover-and-engage-with-channels.md)
+  * [发现渠道并参与其中](learners/feature-summary/discover-and-engage-with-channels.md)
   * [ALM中的多物料购物车](learners/feature-summary/multi-item-cart.md)
   * [学习者成绩单](learners/feature-summary/alm-learner-gradebook.md)
   * [提交外部学习](learners/feature-summary/submit-external-learning.md)
+  * [以团队形式提交作业](learners/feature-summary/submit-assignment-as-team.md)
   * [徽章](learners/feature-summary/badges.md)
   * [技能和级别](learners/feature-summary/skills-levels.md)
   * [游戏](learners/feature-summary/gamification.md)
@@ -313,6 +337,10 @@ ht-degree: 34%
   * [公告](learners/feature-summary/announcements.md)
   * [轮候表和出席管理](learners/feature-summary/waitlist-attendance-management.md)
   * [面向学习者的AI助理](learners/feature-summary/learner-ai-assistant.md)
+  * [将AI客户端连接到ALM](learners/feature-summary/connect-ai-client-to-alm-learner.md)
+  * [将ALM添加到克劳德](learners/feature-summary/add-alm-to-claude-learner.md)
+  * [学习者工具参考](learners/feature-summary/learner-tools-reference.md)
+  * [学习者提示示例](learners/feature-summary/sample-prompts-for-learners.md)
   * [Adobe Learning Manager中的Learning Path Agent (Beta)](learners/feature-summary/learning-path-agent.md)
   * [Adobe Learning Manager中的AI支持搜索](/help/migrated/learners/feature-summary/advanced-search.md)
   * [适用于 Salesforce 的 Adobe Learning Manager 应用程序](learners/feature-summary/sfdc-app.md)
@@ -333,7 +361,7 @@ ht-degree: 34%
   * [学习者成绩单](managers/feature-summary/learner-transcripts.md)
   * [设置](managers/feature-summary/settings.md)
   * [iPad 和 Android 平板电脑用户](managers/feature-summary/ipad-android-tablet-users.md)
-* 使用Live Hub (Beta) {#work-with-live-hub}
+* 使用实时中心 {#work-with-live-hub}
   * [系统要求](./getting-started-with-live-hub/system-requirements-for-live-hub.md)
   * Live Hub中的角色 {#roles-in-live-hub}
     * [管理员](../migrated/getting-started-with-live-hub/administrator.md)
@@ -394,19 +422,20 @@ ht-degree: 34%
       * [查看会话信息板](../migrated/getting-started-with-live-hub/view-the-session-dashboard.md)
       * [“会话”操控板的组件](../migrated/getting-started-with-live-hub/components-of-the-session-dashboard.md)
   * [最佳实践](../migrated/getting-started-with-live-hub/best-practices-for-a-live-hub-session.md)
-  * [以学习者身份使用移动设备上的实时中心(Beta)](./getting-started-with-live-hub/live-hub-mobile-experience-for-learners.md)
+  * [使用移动设备上的Live Hub作为学习者](./getting-started-with-live-hub/live-hub-mobile-experience-for-learners.md)
 * 常见问题解答 {#faq}
   * [管理员常见问题解答](administrators/frequently-asked-questions-for-administrators.md)
   * [作者常见问题解答](authors/frequently-asked-questions-for-authors.md)
   * [讲师常见问题解答](instructors/frequently-asked-questions-for-instructors.md)
   * [经理常见问题解答](managers/frequently-asked-questions-for-managers.md)
   * [学习者常见问题解答](learners/frequently-asked-questions-for-learners.md)
-  * [Live Hub (Beta)会话的常见问题解答](../migrated/getting-started-with-live-hub/frequently-asked-questions-for-live-hub.md)
+  * [Live Hub会话的常见问题解答](../migrated/getting-started-with-live-hub/frequently-asked-questions-for-live-hub.md)
   * [新的Experience League公告](/help/migrated/new-experience-league-announcement.md)
   * [如何在Experience League时提交支持票证](/help/migrated/how-to-submit-support-ticket.md)
   * [在Adobe Learning Manager中创建试用帐户](/help/migrated/create-trial-account.md)
 * API更改 {#api-changes}
   * [增量用户报告（作业API）](/help/migrated/incremental-user-report.md)
+  * [2026年12月版中的API更改](/help/migrated/api-changes-dec-2026.md)
   * [2026年9月版中的API更改](/help/migrated/api-changes-sep-2026.md)
   * [2026年8月版中的API更改](/help/migrated/api-changes-august-2026.md)
   * [2026年4月版中的API更改](/help/migrated/api-changes-alm.md)

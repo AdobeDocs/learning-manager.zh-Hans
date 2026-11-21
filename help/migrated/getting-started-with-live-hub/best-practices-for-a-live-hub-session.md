@@ -1,16 +1,16 @@
 ---
-title: Live Hub (Beta)会话的最佳实践
+title: 现场中心会话的最佳实践
 description: 按照这些最佳实践，在Adobe Learning Manager中为作者、管理员、讲师和学习者准备、运行和跟进实时中心课程。
 product_v2:
   - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
     internal-label: Learning Manager
-source-git-commit: c061ccbefe8d40154220587796062d335e35de77
+source-git-commit: 3f591f2feae164b7ac2ddb5c8b34d015c0f942d4
 workflow-type: tm+mt
-source-wordcount: '1885'
+source-wordcount: '1883'
 ht-degree: 0%
 ---
 
-# Live Hub (Beta)会话的最佳实践
+# 现场中心会话的最佳实践
 
 Adobe Learning Manager中的实时中心课程将讲师和学习者聚集在一起，利用聊天、投票、测验、白板、分组讨论室、录制和分析等交互式功能进行实时培训。 本随附指南重点介绍管理员、作者和讲师为创造顺畅、有吸引力且有效的学习体验而可采用的实践。
 

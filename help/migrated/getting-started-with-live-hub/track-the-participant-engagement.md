@@ -1,16 +1,16 @@
 ---
-title: 跟踪参与人参与情况
+title: 跟踪参与者的参与情况
 description: 了解讲师如何使用Live Hub中的实时参与者参与指示器来监控浏览器焦点、聊天活动和投票参与情况。
 product_v2:
   - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
     internal-label: Learning Manager
-source-git-commit: c061ccbefe8d40154220587796062d335e35de77
+source-git-commit: 3f591f2feae164b7ac2ddb5c8b34d015c0f942d4
 workflow-type: tm+mt
-source-wordcount: '284'
+source-wordcount: '286'
 ht-degree: 2%
 ---
 
-# 跟踪参与人参与情况
+# 跟踪参与者的参与情况
 
 通过实时网络中心中的参与者参与功能，讲师可以在实时会话期间实时查看学习者参与情况。 它将浏览重点、聊天活动和投票参与情况合并为单个参与级别，显示为绿色、黄色或红色指示器。 使用它可以发现注意力下降并实时调整投递情况。
 

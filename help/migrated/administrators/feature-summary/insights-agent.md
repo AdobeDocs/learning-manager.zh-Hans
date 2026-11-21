@@ -5,9 +5,9 @@ title: Adobe Learning Manager中的Insights代理(Beta)
 product_v2:
   - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
     internal-label: Learning Manager
-source-git-commit: c061ccbefe8d40154220587796062d335e35de77
+source-git-commit: 2377d632f2bc41f5c33e5880c1cbc2baa071d5da
 workflow-type: tm+mt
-source-wordcount: '2929'
+source-wordcount: '4257'
 ht-degree: 0%
 ---
 
@@ -21,9 +21,9 @@ Insights Agent旨在减少从提出数据问题到获得答案的步骤。 当�
 
 您可以使用Insights代理执行以下操作：
 
-- 按区域、部门或用户组检查完成情况和合规性指标
-- 分析课程或学习路径的注册趋势
-- 查看特定课程或学习路径的进度数据
+* 按区域、部门或用户组检查完成情况和合规性指标
+* 分析课程或学习路径的注册趋势
+* 查看特定课程或学习路径的进度数据
 
 每个查询都会返回一个格式化表或可下载的CSV文件，以及关于如何计算结果的浅显语言说明。
 
@@ -31,9 +31,9 @@ Insights Agent旨在减少从提出数据问题到获得答案的步骤。 当�
 
 以下数据类型当前不在Insights代理的范围之内：
 
-- 反馈和调查数据
-- 游戏点数和徽章
-- 审核历史记录和更改日志
+* 反馈和调查数据
+* 游戏点数和徽章
+* 审核历史记录和更改日志
 
 引用这些数据类型的查询将不会返回结果。 例如，“上一季度奖励了多少个游戏点数？” 或“哪些学习者已获得合规性徽章？” 将返回错误或不完整的数据。
 
@@ -298,3 +298,127 @@ If your administrator has renamed standard terms using **Product Terminology** i
 **不支持在非拉丁语脚本中提交的查询**
 
 Insights客服专员支持以英语和拉丁字母语言（如法语和西班牙语）编写的查询。 系统不会处理使用非拉丁语脚本（包括日语、中文、阿拉伯语、韩语、印地语和俄语）提交的查询。 客服专员将显示一条消息，指示无法完成查询。 如果您使用其中一种语言提交查询，请启动新查询并使用英语重新设置其短语。
+
+## 从Insights客服专员答案创建报告
+
+在Adobe Learning Manager中，您可以用浅显的语言向Insights客服专员提问，然后以Report Builder报告形式打开答案。 然后，您可以编辑报告并重复使用它，这样您就不必从头开始重新构建它。
+
+## Insights代理与Report Builder的集成是什么
+
+在Adobe Learning Manager中，可通过两种方式从代理和Report Builder访问同一数据。 两者运行在同一数据平台上。
+
+* **Insights代理**&#x200B;允许您用自然语言提出问题。
+* **Report Builder**&#x200B;允许您通过选择数据集、列、聚合和筛选器来构建报告。 您还可以使用它来创建定期报告、订阅报告和编辑现有报告。
+
+集成将二者连接起来。 您从一个问题开始，查看答案，然后在Report Builder中打开。 在此处，您可以修改报告并继续使用它，就像处理任何其他报告一样。 管理员当前可使用此集成。
+
+并非每个Insights客服专员回答都能成为报告。 只有在报告符合客服专员的回复意图和您的问题时，客服专员才能在Report Builder中打开答案。
+
+## 集成的工作方式
+
+当您提出问题时，Insights代理会生成数据查询并检索相应的结果。 如果查询可以平移到Report Builder构造中，则Adobe Learning Manager会根据生成的查询创建一个草稿Report Builder报告。
+
+Insights代理：
+
+1. 根据您的问题生成查询。
+1. 将生成的查询映射到Report Builder数据集和字段。
+1. 创建草稿报告。
+1. 根据客服专员的回复和原始问题验证报告。
+1. 以Report Builder打开报告以供审阅。
+
+## 从Insights客服专员答案创建报告
+
+1. 启动&#x200B;**Insights代理**。
+
+1. 以简单语言输入您的问题。 等待答案。 Insights客服专员在后台准备报告，因此对话可以不间断地继续。
+
+   ![Insights客服专员对问题的回答](assets/Insights-Agent-Integration-with-Report-Builder-image1.png "Insights客服专员的回答")
+
+1. 查看Insights客服专员消除歧义和/或提供响应生成方法后生成的响应。
+
+1. 选择&#x200B;**在Report Builder中编辑**。
+
+   ![在Report Builder中编辑选项](assets/Insights-Agent-Integration-with-Report-Builder-image2.png "在Report Builder中编辑")
+
+   Report Builder将打开生成的报告和列，并在必要时自动应用group by或aggregate函数。 报告的名称和说明也会自动生成。
+
+   >[!NOTE]
+   >
+   >当Insights代理未找到有关您的问题的数据时，也会显示&#x200B;**在Report Builder中编辑**&#x200B;选项。 您可以稍后创建并修改报告。 创建报告后可能会显示数据，因此报告将一直为空，直到存在匹配的数据。
+
+   ![生成的报告在Report Builder中打开](assets/Insights-Agent-Integration-with-Report-Builder-image3.png "生成的报告")
+
+1. 查看生成的报告。 Report Builder会将答案中的字段映射到其自己的字段，例如，课程名称和描述。 如果Insights客服专员无法转换您的部分问题，报告会在报告旁边将这些项目列为间隙。
+
+1. 根据需要编辑报告。 例如，添加或更改列、聚合或过滤器。
+
+1. 保存报告。 选择&#x200B;**保存报告**。
+
+报告即会以Report Builder打开，其中包含转换后的字段和匹配数据。 现在，您可以像编辑任何其他报告一样对其进行编辑和管理。
+
+## 编辑生成的报告
+
+在Report Builder中打开报告后，您可以：
+
+* 添加或删除列。
+* 更新过滤器。
+* 修改聚合。
+* 更改排序。
+* 保存报告。
+* 共享报告。
+* 添加可视化。
+* 创建面板。
+
+## Insights客服专员如何将答案转换为报告
+
+Insights客服专员和Report Builder的设计方式不同。 因此，Insights代理中的答案可以包含Report Builder不能完全表示的数据。 为此，Insights客服专员会分阶段转换每个答案。
+
+| 阶段 | 发生什么情况 |
+|---|---|
+| 查询 | Insights客服专员会计算用于回答您问题的查询。 Report Builder从同一查询同时开始，因此不会阻止您的对话。 |
+| 字段映射 | 查询将映射到Report Builder数据集和字段。 根据该映射生成工作报告。 |
+| AI草稿 | AI会起草报告并对其进行验证。 |
+| 审阅 | 将对照已编制的查询和您的原始问题检查报告。 验证将同时运行。 |
+| 校正 | 如果验证功能发现错误，则会自动修复这些错误。 |
+| 间隙列表 | Report Builder字段无法表达的问题中的任何部分都将列在报告旁边。 |
+
+## Insights客服专员如何确定答案是否可以在Report Builder中打开
+
+Insights客服专员遵循两个规则：保留客服专员响应的目的和您提出的问题，并公开其无法转换的内容。
+
+* **保留意图。** 只有在报告仍反映Insights客服专员响应的核心内容时，客服专员才能在Report Builder中打开答案。 如果转换失去了这种意图，则无法移动到Report Builder。
+* **公开间隙。** 如果部分问题无法用Report Builder表达，Insights代理不会静默放弃它。 它试图将最突出的部分列为报告旁边的空白。 如果任何内容看起来有风险，报告将保持可用状态，以便您自己查看。
+
+Insights客服专员会根据问题的意图确定缺失的字段或计算是否是问题的核心。
+
+>[!NOTE]
+>
+>Insights客服专员主要根据自己的回复来检查转化情况，其次根据您的问题来检查转化情况。 如果响应未完全回答您的问题，您仍可以将其转换为Report Builder报告。 在信赖报告之前，请先进行审阅。
+
+| 情景 | 结果 |
+|---|---|
+| Insights客服专员响应的每个部分都有Report Builder字段 | 报告已创建且可供审阅。 |
+| 部分Insights客服专员响应无法以Report Builder表示 | 部件被列为间隙。 该报告仍可供审阅。 |
+| 响应中的字段Report Builder不可用，该字段在响应中很小 | 您可以Report Builder打开报告。 该字段将以间隙形式列出。 |
+| 响应中的字段在Report Builder中不可用，且该字段在响应中处于中心位置 | 无法在Report Builder中打开响应。 例如，技能名称或技能ID。 |
+| 响应使用Report Builder不支持的计算字段。 计算可以是以下两种类型之一：创建新字段的复杂计算，或在现有Report Builder字段之上构建的聚合计算。 无法转换第一种类型，但可以转换第二种类型。 | 计算将列为间隙。 如果它对响应至关重要，则无法在Report Builder中打开响应。 |
+| 响应很复杂，例如具有多个联接的查询 | 转换后的报告可能不太准确。 如果它仍然反映响应的意图，则会打开以便您可以对其进行验证。 |
+| Insights代理未找到与您的问题相关的数据 | 仍然显示&#x200B;**在Report Builder中编辑**&#x200B;选项。 您可以稍后创建并修改报告。 当匹配数据可用时，该报告会显示数据。 |
+
+## 解决报告转换问题
+
+| 问题 | 解决方案 |
+|---|---|
+| 您无法Report Builder打开答案。 | 在Report Builder中，无法提供对您的问题至关重要的字段或计算。 在不输入该字段或进行计算的情况下重新表述您的问题，并再次提问。 |
+| 报告的列数少于答案的列数。 | 检查报告旁边列出的差距。 无法转换在此处列出的项目。 |
+| 报告与您在一个复杂问题中期望的结果不匹配。 | 根据您的原始问题检查报告。 将问题分解为几个小问题，并分别转换每个答案。 |
+| Insights代理说未找到数据，但&#x200B;**在Report Builder中编辑**&#x200B;仍然可用。 | 这是预期的。 仍可创建报告，在Report Builder中修改它，并在有新数据可用时再次检查它。 |
+| 报告将在Report Builder中打开为空白。 | 您的问题尚无匹配的数据。 修改报告，或在新数据可用后再次打开报告。 |
+
+### 更多此类内容
+
+* [使用Report Builder创建报告](/help/migrated/administrators/feature-summary/alm-create-report.md)
+* [从Report Builder报告创建信息板，并用图表显示报告数据](/help/migrated/administrators/feature-summary/report-builder-visualization.md)
+* [使用Insights代理报告](/help/migrated/administrators/feature-summary/insights-agent.md#create-report-insight-agent-answer)
+* [共享和订阅报告](/help/migrated/administrators/feature-summary/download-share-subscribe-report.md)
+* 使用图表可视化报告数据

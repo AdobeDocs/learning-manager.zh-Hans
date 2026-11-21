@@ -6,9 +6,9 @@ exl-id: 57607597-3949-4787-b71d-39c80d22a1ae
 product_v2:
   - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
     internal-label: Learning Manager
-source-git-commit: c061ccbefe8d40154220587796062d335e35de77
+source-git-commit: 0723ac982ace844ac74b1b9ffbaa66b6520231f7
 workflow-type: tm+mt
-source-wordcount: '1098'
+source-wordcount: '1351'
 ht-degree: 0%
 ---
 
@@ -17,6 +17,41 @@ ht-degree: 0%
 您的Virtual Coach报告卡显示了您在角色扮演中的表现，包括您涵盖的主题、沟通方式以及在下次尝试之前需要改进的特定领域。
 
 每个完成的会话都会自动生成一个报告。 选择&#x200B;**查看分析**&#x200B;以在会话后立即访问它，或者随时从&#x200B;**我的学习**&#x200B;中的会话历史记录返回到它。 您还可以以PDF的形式下载您的报告，以便保存以作自己的记录，或与经理共享。
+
+## 下载虚拟引导会话分析
+
+在Adobe Learning Manager中以签名PDF的形式下载您的Virtual Coach会话分析，并与经理或讲师共享。
+
+完成虚拟引导会话后，Adobe Learning Manager会生成您的绩效分析。 在关闭播放器后，您可以再次查看分析，重新录制会话并将分析作为已签名PDF下载。
+
+1. 打开包含虚拟引导会话的课程或工作辅助。
+
+1. 选择&#x200B;**会话分析**。
+
+   虚拟引导会话的![会话分析选项](assets/vc-enhancements-image1.png "会话分析")
+
+1. 检查您的分析。 生成分析可能需要一些时间。
+
+1. 选择&#x200B;**下载**&#x200B;以保存已签名的分析PDF。
+
+与经理或讲师分享PDF，作为您表演的证据。 该文件包括C2PA签名。 有关详细信息，请参阅[关于会话分析PDF中的C2PA签名](#c2pa-signatures)。
+
+### 关于会话分析PDF中的C2PA签名 {#c2pa-signatures}
+
+AI会生成虚拟引导会话分析。 为帮助他人信任下载的副本，Learning Manager使用[C2PA](https://c2pa.org/)签名来签署PDF。
+
+C2PA是用于内容真实性的开放行业标准。 Adobe Learning Manager使用其他Adobe产品使用的相同Adobe签名服务。
+
+#### 签名包含的内容
+
+签名是嵌入在PDF中的加密签名清单。 记录如下：
+
+* Adobe Learning Manager生成了分析
+* 分析是在特定日期生成的
+
+#### 签名为何重要
+
+当您与经理或讲师共享PDF时，签名会提供证据，证明该文件是真实的，并且在下载后未经编辑。
 
 ## 总分的计算方式
 

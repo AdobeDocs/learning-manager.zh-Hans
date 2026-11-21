@@ -1,16 +1,16 @@
 ---
-title: 以学习者身份使用移动设备上的实时中心(Beta)
+title: 使用移动设备上的Live Hub作为学习者
 description: 了解Adobe Learning Manager移动应用程序中的学习者可以使用哪些实时中心功能，从加入会话到离开会话均可使用。
 product_v2:
   - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
     internal-label: Learning Manager
-source-git-commit: c061ccbefe8d40154220587796062d335e35de77
+source-git-commit: 3f591f2feae164b7ac2ddb5c8b34d015c0f942d4
 workflow-type: tm+mt
-source-wordcount: '754'
+source-wordcount: '752'
 ht-degree: 0%
 ---
 
-# 以学习者身份使用移动设备上的实时中心(Beta)
+# 使用移动设备上的Live Hub作为学习者
 
 使用Adobe Learning Manager移动应用程序从iOS或Android设备加入并参与实时中心会话。 在会话期间，您可以与讲师和参与者互动、回复投票和测验、在分组讨论室中协作，以及直接从移动设备访问共享内容。
 

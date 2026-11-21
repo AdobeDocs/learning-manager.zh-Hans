@@ -7,7 +7,7 @@ exl-id: 472aaf2b-9c2f-4f43-a791-2b2d81e69471
 product_v2:
   - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
     internal-label: Learning Manager
-source-git-commit: c061ccbefe8d40154220587796062d335e35de77
+source-git-commit: 5e4f890c4f9855adb1926399e4391384b3317a45
 workflow-type: tm+mt
 source-wordcount: '1648'
 ht-degree: 0%
@@ -66,7 +66,7 @@ Webhook会以JSON格式发送相关信息。 以下是Adobe Learning Manager中�
 }
 ```
 
-## 创建和管理Webhook — 集成管理员
+## 创建和管理Webhook — 集成管理员 {#create-manage-webhooks}
 
 按照以下步骤在Adobe Learning Manager中创建Webhook集成：
 
@@ -293,7 +293,7 @@ Adobe Learning Manager提供了&#x200B;**Webhook事件**，每当&#x200B;**学�
 至少，Webhook处理程序应：
 
 验证负载并解析事件[]。
-使用eventName确定更改是&#x200B;**learnerinitiated**&#x200B;还是&#x200B;**admin/batchinitiated**。
+使用eventName确定更改是**learnerinitiated**&#x200B;还是&#x200B;**admin/batchinitiated**。
 
 使用userId、loId和loInstanceId查找并更新系统中的相应记录。
 如果同一事件被多次传递，则利用eventId可防止重复处理。

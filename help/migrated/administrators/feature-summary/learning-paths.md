@@ -7,10 +7,10 @@ exl-id: 31f1d66f-4da1-49d2-8ec1-995fd2ebeadb
 product_v2:
   - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
     internal-label: Learning Manager
-source-git-commit: c061ccbefe8d40154220587796062d335e35de77
+source-git-commit: 463f53a7b0a6ca5a9ee8d2926ffe341acc29c91c
 workflow-type: tm+mt
-source-wordcount: '1461'
-ht-degree: 61%
+source-wordcount: '1483'
+ht-degree: 59%
 ---
 # 学习路径
 
@@ -78,9 +78,9 @@ ht-degree: 61%
 
 要在“学习路径”中添加课程，请单击&#x200B;**[!UICONTROL “添加课程或学习路径”]**。
 
-在出现的对话框中，选择要添加到“学习路径”的培训。
+从出现的窗口中，选择要添加到学习路径的培训。 每个条目显示名称、类型（课程或学习路径）、发布状态和课程格式，例如自学、虚拟、教室或混合。
 
-![](assets/choose-training.png)
+![](assets/LP_4.png)
 
 *将培训添加到学习路径*
 

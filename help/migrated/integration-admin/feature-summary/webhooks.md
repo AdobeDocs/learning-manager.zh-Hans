@@ -293,7 +293,7 @@ Adobe Learning Manager提供了&#x200B;**Webhook事件**，每当&#x200B;**学�
 至少，Webhook处理程序应：
 
 验证负载并解析事件[]。
-使用eventName确定更改是**learnerinitiated**&#x200B;还是&#x200B;**admin/batchinitiated**。
+使用eventName确定更改是&#x200B;**learnerinitiated**&#x200B;还是&#x200B;**admin/batchinitiated**。
 
 使用userId、loId和loInstanceId查找并更新系统中的相应记录。
 如果同一事件被多次传递，则利用eventId可防止重复处理。

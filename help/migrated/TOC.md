@@ -3,9 +3,9 @@ user-guide-title: Adobe Learning Manager 指南
 breadcrumb-title: Learning Manager
 user-guide-description: Adobe Learning Manager 的文档
 nudge: true
-source-git-commit: 62986d83f3630e676464f88f345960d9d0b49d08
+source-git-commit: b41600793d54a08999e5e4aacf29840dd4365b33
 workflow-type: tm+mt
-source-wordcount: '1953'
+source-wordcount: '1946'
 ht-degree: 31%
 ---
 
@@ -22,8 +22,8 @@ ht-degree: 31%
   * [2024年11月新增功能摘要](/help/migrated/whats-new-nov-24.md)
   * [2024年7月新增功能摘要](whats-new-july-2024.md)
   * [2024年3月版新增功能](whats-new-march-2024.md)
-  * {hide-from-toc}[&#x200B; 2023年11月版新增功能](whats-new-november-2023.md)
-  * {hide-from-toc}[&#x200B; 2023年7月版新增功能](whats-new-2023-july.md)
+  * {hide-from-toc}[ 2023年11月版新增功能](whats-new-november-2023.md)
+  * {hide-from-toc}[ 2023年7月版新增功能](whats-new-2023-july.md)
   * {hide-from-toc}[Adobe Learning Manager中即将推出的更改](/help/migrated/upcoming-changes-in-adobe-learning-manager.md)
   * [发行说明](release-note/release-notes.md)
   * [系统要求](system-requirements.md)
@@ -305,7 +305,6 @@ ht-degree: 31%
   * [设置](authors/feature-summary/settings.md)
 * 讲师 {#instructor}
   * [模块](/help/migrated/instructors/feature-summary/modules.md)
-  * [评估并取消提交团队提交内容](/help/migrated/instructors/feature-summary/learners.md)
   * [管理会话的学习者](instructors/feature-summary/learners.md)
   * [重新发送会话邀请](instructors/feature-summary/resend-session-invite.md)
 * Prime 中的讲师 {#learner}
@@ -443,7 +442,7 @@ ht-degree: 31%
 * 报告更改 {#reporting-changes}
   * [报告2026年8月版中的更改](/help/migrated/reporting-changes-august-2026.md)
 * 知识库 {#knowledge-base}
-  * [Live Hub (Beta)故障排除指南](./kb/troubleshooting-guide-for-live-hub.md)
+  * [Live Hub故障排除指南](./kb/troubleshooting-guide-for-live-hub.md)
   * [无法登录 Adobe Learning Manager](kb/unable-log-in-learning-manager.md)
   * [学习摘要不显示当前数据](kb/learning-summary-not-display-data.md)
   * [无法上传 CSV](kb/unable-to-upload-csv.md)

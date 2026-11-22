@@ -1,9 +1,9 @@
 ---
 title: 使用安全考试浏览器创建课程
 description: 使用“安全考试浏览器”模式创建测验，并将其作为自学模块添加到Adobe Learning Manager课程中，以提供受限的评估环境。
-source-git-commit: 6629e193116a8c2de12606277986811b20bbdf90
+source-git-commit: 8f23f95cd81e5b64932281c990d27be0c390850b
 workflow-type: tm+mt
-source-wordcount: '521'
+source-wordcount: '551'
 ht-degree: 0%
 ---
 
@@ -43,7 +43,7 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   > 如果管理员启用此选项，则您可以启用或禁用课程测验模块的安全考试浏览器(SEB)要求。 如果管理员禁用此选项，则测验的SEB将变为必修，并且您无法更改此要求。
+   > 如果管理员启用此选项，则您可以启用或禁用课程测验模块的安全考试浏览器(SEB)要求。 如果管理员禁用此选项，则测验的SEB将变为必修，并且您无法更改此要求。 有关详细信息，请查看[启用安全考试浏览器集成](../../administrators/feature-summary/safe-exam-browser.md#enable-safe-exam-browser-integration)。
 
 1. 选择&#x200B;**Publish**。
 
@@ -68,3 +68,5 @@ ht-degree: 0%
 1. 选择&#x200B;**保存** > **Publish**。
 
    本课程现在包含一项要求学习者使用安全考试浏览器的评估。
+
+查看[在安全考试浏览器中启动测验](../../learners/feature-summary/launch-safe-exam-browser.md)，了解学习者如何使用安全考试浏览器访问和参加测验。

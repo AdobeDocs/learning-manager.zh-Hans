@@ -7,9 +7,9 @@ exl-id: ae9251b6-5326-42c2-881e-2ab3393d9e17
 product_v2:
   - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
     internal-label: Learning Manager
-source-git-commit: 078d9e7c6d0422027818541965135865cc761c20
+source-git-commit: 4234f3cc3b9d77a7f9d197d2df2160ec62edd6d6
 workflow-type: tm+mt
-source-wordcount: '39568'
+source-wordcount: '39583'
 ht-degree: 56%
 ---
 # Adobe Learning Manager发行说明
@@ -20,7 +20,7 @@ ht-degree: 56%
   <tr>
    <td><img src="assets/cp-prime-appicon-88x84.png"></td>
    <td>
-    <p><a href="https://business.adobe.com/cn/products/learning-manager/adobe-learning-manager.html">Adobe Learning Manager</a> was launched in August 2015. As part of our continuous improvement efforts to enhance the product, we have been rolling out regular updates. Read on to know the features enhanced/issues fixed in update releases.<br></p></td>
+    <p><a href="https://business.adobe.com/products/learning-manager/adobe-learning-manager.html">Adobe Learning Manager</a> was launched in August 2015. As part of our continuous improvement efforts to enhance the product, we have been rolling out regular updates. Read on to know the features enhanced/issues fixed in update releases.<br></p></td>
   </tr>
  </tbody>
 </table>
@@ -37,25 +37,41 @@ Live Hub现在支持多达5,000名与会者的会议、多语言隐藏字幕以�
 
 ## 此版本中的功能
 
-**Report Builder图表和仪表板：**&#x200B;管理员现在可以在Report Builder中可视化报告数据。 从报表列创建大数字、折线图、条形图、饼图和透视表，并在每个图表中进行聚合和筛选。 报表仪表板包含从一个报表生成的图表。 自定义信息板将多个报告中的图表组合在一起，最多支持20个小组件。 共享报告时，将共享报告中的图表。 无法导出仪表板。 [了解详情](/help/migrated/administrators/feature-summary/report-builder-visualization.md)
+**Report Builder图表和仪表板：**&#x200B;管理员现在可以在Report Builder中可视化报告数据。 从报表列创建大数字、折线图、条形图、饼图和透视表，并在每个图表中进行聚合和筛选。 报表仪表板包含从一个报表生成的图表。 自定义信息板将多个报告中的图表组合在一起，最多支持20个小组件。 共享报告时，将共享报告中的图表。 无法导出仪表板。
 
-**Report Builder的Insights代理报告：**&#x200B;管理员可以打开、审阅、编辑和将Insights代理答案保存为Report Builder报告，然后使用Report Builder功能（如订阅）。 如果问题的一部分不能用Report Builder字段表示，报告会将该部分列为间隙。[了解详情](/help/migrated/administrators/feature-summary/insights-agent.md##create-report-insights-agent)
+[了解详情](/help/migrated/administrators/feature-summary/report-builder-visualization.md)
 
-**Adobe Experience Manager Assets集成：**&#x200B;作者无需离开Adobe Learning Manager，即可从Experience Manager Assets中浏览并选择批准的学习内容和图像资源。 当数字资源管理器中的资源发生更改时，更新可能会流入到使用该资源的课程中。 作者只能看到他们在Experience Manager Assets中已经具有访问权限的资源。[了解详情](/help/migrated/integration-admin/feature-summary/aem-assets-integration.md)
+**Report Builder的Insights代理报告：**&#x200B;管理员可以打开、审阅、编辑和将Insights代理答案保存为Report Builder报告，然后使用Report Builder功能（如订阅）。 如果问题的一部分不能用Report Builder字段表示，报告会将该部分列为间隙。
+
+[了解详情](/help/migrated/administrators/feature-summary/insights-agent.md#create-report-insights-agent)
+
+**Adobe Experience Manager Assets集成：**&#x200B;作者无需离开Adobe Learning Manager，即可从Experience Manager Assets中浏览并选择批准的学习内容和图像资源。 当数字资源管理器中的资源发生更改时，更新可能会流入到使用该资源的课程中。 作者只能查看他们在Experience Manager Assets中已经具有访问权限的资源。
+
+[了解详情](/help/migrated/integration-admin/feature-summary/aem-assets-integration.md)
 
 **文件提交增强功能：**&#x200B;文件提交模块现在支持以下功能：
 
 * **团队提交：**&#x200B;讲师可以创建多达100名成员的团队。 每个团队提交一个文件，讲师的评估适用于每个成员。 讲师可在新的&#x200B;**团队管理**&#x200B;页面上管理团队。
+
+  [了解详情](/help/migrated/learners/feature-summary/submit-assignment-as-team.md)
+
 * **评估计划评估：**&#x200B;作者定义了一个评估计划，其中客观问题带有评分选项，主观问题带有书面评论。 “评估计划”最多可包含100个问题。
+
 * **讲师审批或自动完成：**&#x200B;作者可选择提交是需要讲师审批还是自动完成。 此设置与评估计划无关。
 
-[了解详情]
+[了解详情](/help/migrated/administrators/feature-summary/team-submissions-and-rubrics.md)
 
-**适用于学习者助理的模型上下文协议服务器：**&#x200B;学习者可以通过模型上下文协议(MCP)服务器，从其已使用的工具（例如ChatGPT、Claude和自定义代理）访问Learning Manager。 管理员在“集成管理员”应用程序中配置服务器。 它提供搜索、列出注册、获取学习对象、获取用户个人资料、回答学习内容问题以及获取个性化学习路径功能。 [了解详情](/help/migrated/integration-admin/feature-summary/configure-alm-mcp-server.md)
+**适用于学习者助理的模型上下文协议服务器：**&#x200B;学习者可以通过模型上下文协议(MCP)服务器，从其已使用的工具（例如ChatGPT、Claude和自定义代理）访问Learning Manager。 管理员在“集成管理员”应用程序中配置服务器。 它提供搜索、列出注册、获取学习对象、获取用户个人资料、回答学习内容问题以及获取个性化学习路径功能。
 
-**课程和实例电子邮件生成器：**&#x200B;现在，课程级和实例级电子邮件提供了完整的电子邮件生成器体验。 管理员定义帐户布局和模板，作者可在继承布局和格式设置时自定义课程和实例电子邮件。 模板可链接到最近的可用布局，您可以通过取消链接模板来单独对其进行编辑。 **横幅**&#x200B;和&#x200B;**签名**&#x200B;设置已从&#x200B;**设置**&#x200B;选项卡（已删除）移至&#x200B;**全局布局**。 如果您的帐户已启用Email Builder，则您会自动收到这些更改。 [了解详情](/help/migrated/authors/feature-summary/customize-course-instance-emails.md)
+[了解详情](/help/migrated/integration-admin/feature-summary/configure-alm-mcp-server.md)
 
-**针对测验的安全考试浏览器集成：**&#x200B;管理员可以在帐户级别启用集成，并上传安全考试浏览器配置文件(.seb)以定义评估限制。 作者选择哪些测验需要安全考试浏览器。 系统提示尝试此类测试的学习者启动或下载安全考试浏览器。 [了解详情](/help/migrated/administrators/feature-summary/safe-exam-browser.md)
+**课程和实例电子邮件生成器：**&#x200B;现在，课程级和实例级电子邮件提供了完整的电子邮件生成器体验。 管理员定义帐户布局和模板，作者可在继承布局和格式设置时自定义课程和实例电子邮件。 模板可链接到最近的可用布局，您可以通过取消链接模板来单独对其进行编辑。 **横幅**&#x200B;和&#x200B;**签名**&#x200B;设置已从&#x200B;**设置**&#x200B;选项卡（已删除）移至&#x200B;**全局布局**。 如果您的帐户已启用Email Builder，则您会自动收到这些更改。
+
+[了解详情](/help/migrated/authors/feature-summary/customize-course-instance-emails.md)
+
+**针对测验的安全考试浏览器集成：**&#x200B;管理员可以在帐户级别启用集成，并上传安全考试浏览器配置文件(.seb)以定义评估限制。 作者选择哪些测验需要安全考试浏览器。 系统提示尝试此类测试的学习者启动或下载安全考试浏览器。
+
+[了解详情](/help/migrated/administrators/feature-summary/safe-exam-browser.md)
 
 **未登录增强功能：** Learning Manager现支持对学习内容进行受控访问，且无需用户登录。
 
@@ -67,66 +83,129 @@ Live Hub现在支持多达5,000名与会者的会议、多语言隐藏字幕以�
 >
 >此功能的文档即将发布。
 
-**虚拟辅导：**&#x200B;虚拟辅导是AI支持的角色扮演和辅导解决方案，允许学习者练习逼真的工作场所对话。 它支持九种语言，可用作独立的工作辅助或嵌入在课程中。 [了解详情](../authors/feature-summary/virtual-coach/what-virtual-coach-is.md)
+**虚拟辅导：**&#x200B;虚拟辅导是AI支持的角色扮演和辅导解决方案，允许学习者练习逼真的工作场所对话。 它支持九种语言，可用作独立的工作辅助或嵌入在课程中。
 
-**Live Hub：** Live Hub现在普遍可供最终客户使用，并且仍为Prime客户的测试版。 [了解详情](../administrators/feature-summary/billing-management.md)
+[了解详情](../authors/feature-summary/virtual-coach/what-virtual-coach-is.md)
 
-**在实时中心中支持多达5000名与会者**：添加虚拟教室模块时，作者现在可以选择最多5,000名与会者的容量。 对于大型会话，相机访问、屏幕共享和白板功能仅限于讲师。 临时会议室不可用于这些会话。 [了解详情](../getting-started-with-live-hub/create-a-live-hub-session.md#create-a-course-for-large-session-create-large-session)
+**Live Hub：** Live Hub现在普遍可供最终客户使用，并且仍为Prime客户的测试版。
 
-**实时中心中的多语言隐藏字幕**：讲师现在可以从&#x200B;**会议室设置**&#x200B;中选择隐藏字幕语言。 所有参与者均以讲师选择的语言查看字幕。 [了解详情](../getting-started-with-live-hub/closed-captions-in-live-hub.md)
+[了解详情](../administrators/feature-summary/billing-management.md)
 
-**组注册预留和轮候表管理：**&#x200B;作者可以将教室和虚拟教室课程中的名额分配给特定用户组，为这些组和所有其他学习者设置单独的注册开放日期，并启用具有截止日期的自动轮候表升级。 [了解详情](../authors/feature-summary/courses.md#configure-enrollment-window-and-seat-allocation-for-a-classroom-course)
+**在实时中心中支持多达5000名与会者**：添加虚拟教室模块时，作者现在可以选择最多5,000名与会者的容量。 对于大型会话，相机访问、屏幕共享和白板功能仅限于讲师。 临时会议室不可用于这些会话。
 
-**支持多个Zoom连接：**&#x200B;集成管理员可以在单个帐户中配置多个Zoom连接，并将它们分配给特定的角色或用户组。 作者在创建或编辑会话时可从可用的连接中进行选择。 [了解详情](../integration-admin/feature-summary/zoom-connector.md)
+[了解详情](../getting-started-with-live-hub/create-a-live-hub-session.md#create-a-course-for-large-session-create-large-session)
 
-**渠道：**&#x200B;渠道通常适用于所有客户。 [了解详情](../administrators/feature-summary/create-channels.md)
+**实时中心中的多语言隐藏字幕**：讲师现在可以从&#x200B;**会议室设置**&#x200B;中选择隐藏字幕语言。 所有参与者均以讲师选择的语言查看字幕。
+
+[了解详情](../getting-started-with-live-hub/closed-captions-in-live-hub.md)
+
+**组注册预留和轮候表管理：**&#x200B;作者可以将教室和虚拟教室课程中的名额分配给特定用户组，为这些组和所有其他学习者设置单独的注册开放日期，并启用具有截止日期的自动轮候表升级。
+
+[了解详情](../authors/feature-summary/courses.md#configure-enrollment-window-and-seat-allocation-for-a-classroom-course)
+
+**支持多个Zoom连接：**&#x200B;集成管理员可以在单个帐户中配置多个Zoom连接，并将它们分配给特定的角色或用户组。 作者在创建或编辑会话时可从可用的连接中进行选择。
+
+[了解详情](../integration-admin/feature-summary/zoom-connector.md)
+
+**渠道：**&#x200B;渠道通常适用于所有客户。
+
+[了解详情](../administrators/feature-summary/create-channels.md)
 
 ## 此版本中的增强功能
 
-**个性化学习路径编辑和品牌推广条：**&#x200B;学习者可以一步移除建议的主题或课程。 管理员可以通过&#x200B;**品牌**&#x200B;页面，在学习者主页上重新定位个性化学习路径条。 [了解详情](/help/migrated/administrators/feature-summary/customize-learner-homepage.md#add-reorder-homepage-strips)
+**个性化学习路径编辑和品牌推广条：**&#x200B;学习者可以一步移除建议的主题或课程。 管理员可以通过&#x200B;**品牌**&#x200B;页面，在学习者主页上重新定位个性化学习路径条。
 
-**学习者助理中的学习路径引文：**&#x200B;答案现在引用包含源课程的学习路径以及课程。 从工作辅助中绘制的答案包括一个下载链接。 [了解详情](/help/migrated/learners/feature-summary/learner-ai-assistant.md#learning-path-citations)
+[了解详情](/help/migrated/administrators/feature-summary/customize-learner-homepage.md#add-reorder-homepage-strips)
 
-**AI Assistant配置：**&#x200B;管理员助理提供两个代理：Insights代理和知识代理。 “学习者助理”提供三个客服专员：知识客服专员、应答客服专员和学习路径客服专员。 您可以单独配置每个代理。 [了解详情](/help/migrated/learners/feature-summary/learner-ai-assistant.md)
+**学习者助理中的学习路径引文：**&#x200B;答案现在引用包含源课程的学习路径以及课程。 从工作辅助中绘制的答案包括一个下载链接。
 
-**重新发送虚拟教室会话邀请：**&#x200B;具有课程编辑权限的管理员可以从实例页面重新发送会话邀请。 该选项适用于当前和未来的会话。 [了解详情](/help/migrated/instructors/feature-summary/resend-session-invite.md)
+[了解详情](/help/migrated/learners/feature-summary/learner-ai-assistant.md#learning-path-citations)
 
-**Adobe Connect录制视图的自动出席情况：**&#x200B;当学习者播放错过的虚拟教室会话的录制时，Learning Manager会标记出席情况。 计划的集成会将实际查看时间与为帐户设置的完成标准进行比较。 [了解详情](/help/migrated/integration-admin/feature-summary/track-attendance-through-adobe-connect.md)
+**AI Assistant配置：**&#x200B;管理员助理提供两个代理：Insights代理和知识代理。 “学习者助理”提供三个客服专员：知识客服专员、应答客服专员和学习路径客服专员。 您可以单独配置每个代理。
+
+[了解详情](/help/migrated/learners/feature-summary/learner-ai-assistant.md#configure-la-agents)
+
+**重新发送虚拟教室会话邀请：**&#x200B;具有课程编辑权限的管理员可以从实例页面重新发送会话邀请。 该选项适用于当前和未来的会话。
+
+[了解详情](/help/migrated/instructors/feature-summary/resend-session-invite.md)
+
+**Adobe Connect录制视图的自动出席情况：**&#x200B;当学习者播放错过的虚拟教室会话的录制时，Learning Manager会标记出席情况。 计划的集成会将实际查看时间与为帐户设置的完成标准进行比较。
+
+[了解详情](/help/migrated/integration-admin/feature-summary/track-attendance-through-adobe-connect.md)
 
 **已下载Report Builder报告中的列标题更改：**&#x200B;已下载Report Builder报告中的默认列标题现在包含数据集名称。 例如，学习对象数据集中的&#x200B;**名称**&#x200B;显示为&#x200B;**学习对象 — 名称**。 对于聚合列，标题还包括函数，如&#x200B;**学习对象计数 — ID**。 在&#x200B;**别名**&#x200B;字段中使用自定义名称的标题保持不变。
 
-**合规性小组件中的多次注册课程：**&#x200B;合规性小组件列出了学习者必须完成的多次注册课程的每个实例。 如果一个实例具有截止日期，则会隐藏没有截止日期的实例。 [了解详情](/help/migrated/learners/feature-summary/multi-enrolled-learner-compliance-widget.md)
+**合规性小组件中的多次注册课程：**&#x200B;合规性小组件列出了学习者必须完成的多次注册课程的每个实例。 如果一个实例具有截止日期，则会隐藏没有截止日期的实例。
 
-**管理员目录搜索中的相关性排名：**&#x200B;管理员视图中的目录搜索按相关性对结果进行排名。 首先显示完全匹配，然后显示部分匹配。 [了解详情](/help/migrated/administrators/feature-summary/catalogs.md#search-catalogs)
+[了解详情](/help/migrated/learners/feature-summary/multi-enrolled-learner-compliance-widget.md)
 
-**弃用课程而不使学习路径无法访问：**&#x200B;弃用的课程或嵌套的学习路径将从较高级的学习对象中移除，该对象仍保持开放以供新注册。  [了解详情](/help/migrated/administrators/feature-summary/settings/basic-settings.md#retiral-impact-ho-lo)
+**管理员目录搜索中的相关性排名：**&#x200B;管理员视图中的目录搜索按相关性对结果进行排名。 首先显示完全匹配，然后显示部分匹配。
 
-**从Adobe Workfront同步会话取消：**&#x200B;在Adobe Workfront中取消的会话会通过迁移传递到Learning Manager。 迁移添加了可选的&#x200B;**状态**&#x200B;列，该列接受&#x200B;**活动**&#x200B;或&#x200B;**已取消**。 [了解详情](/help/migrated/integration-admin/feature-summary/alm-workfront-cancellation.md)
+[了解详情](/help/migrated/administrators/feature-summary/catalogs.md#search-catalogs)
 
-**名字的字符数限制：**&#x200B;名字字段现在最多可包含255个字符，而不是63个字符。 此限制适用于通过导入CSV在界面中添加的用户、自行注册的用户以及作为外部用户的用户。 现有用户不受影响。 长名称在表单元格、下拉列表项目和搜索结果中缩短。 将鼠标悬停在缩写名称上以查看完整名称。 [了解详情](/help/migrated/deployment-guide/user-setup.md#character-limit-username)
+**弃用课程而不使学习路径无法访问：**&#x200B;弃用的课程或嵌套的学习路径将从较高级的学习对象中移除，该对象仍保持开放以供新注册。
+
+[了解详情](/help/migrated/administrators/feature-summary/settings/basic-settings.md#retiral-impact-ho-lo)
+
+**从Adobe Workfront同步会话取消：**&#x200B;在Adobe Workfront中取消的会话会通过迁移传递到Learning Manager。 迁移添加了可选的&#x200B;**状态**&#x200B;列，该列接受&#x200B;**活动**&#x200B;或&#x200B;**已取消**。
+
+[了解详情](/help/migrated/integration-admin/feature-summary/alm-workfront-cancellation.md)
+
+**名字的字符数限制：**&#x200B;名字字段现在最多可包含255个字符，而不是63个字符。 此限制适用于通过导入CSV在界面中添加的用户、自行注册的用户以及作为外部用户的用户。 现有用户不受影响。 长名称在表单元格、下拉列表项目和搜索结果中缩短。 将鼠标悬停在缩写名称上以查看完整名称。
+
+[了解详情](/help/migrated/deployment-guide/user-setup.md#character-limit-username)
 
 **本地化的实时中心界面和录制播放器**： Live Hub现在会以为Adobe Learning Manager选择的语言显示其界面，支持相同的18种语言。 基于课程语言将录制播放器本地化。
 
-**课程和学习路径的徽章信息：**&#x200B;作者添加课程或学习路径时，窗口会列出现有课程和学习路径，并提供徽章信息、发布状态和课程格式。 [了解详情](/help/migrated/authors/feature-summary/create-learning-path.md)
+**课程和学习路径的徽章信息：**&#x200B;作者添加课程或学习路径时，窗口会列出现有课程和学习路径，并提供徽章信息、发布状态和课程格式。
 
-**自助注册配置文件的未登录页面URL：**&#x200B;每个自助注册配置文件都可以具有其自己的可共享未登录菜单URL，内置Experience Builder。 从该URL中选择&#x200B;**注册**&#x200B;的用户将被添加到其所属的配置文件。 [了解详情](/help/migrated/administrators/feature-summary/experience-builder/non-logged-in-menu-url-self-registration.md)
+[了解详情](/help/migrated/authors/feature-summary/create-learning-path.md)
+
+**自助注册配置文件的未登录页面URL：**&#x200B;每个自助注册配置文件都可以具有其自己的可共享未登录菜单URL，内置Experience Builder。 从该URL中选择&#x200B;**注册**&#x200B;的用户将被添加到其所属的配置文件。
+
+[了解详情](/help/migrated/administrators/feature-summary/experience-builder/non-logged-in-menu-url-self-registration.md)
 
 **学习工具互操作性中的自定义学习者属性：** Learning Manager通过可选的“名称和角色配置服务”端点以及从启动请求中读取自定义学习者属性。 某些学习系统（例如Moodle）不支持此端点。
 
-**讨论区讲师通知：**&#x200B;无头客户可以通过API向讲师和同类经理发送讨论区活动摘要。 [了解详情](/help/migrated/discussion-board-instructor-notifications.md)
+[了解详情](/help/migrated/integration-admin/feature-summary/lti-support-for-nrps.md)
 
-**讲师编辑学习对象实例的Webhook：**&#x200B;现在，讲师编辑虚拟教室会话时，也会触发学习对象实例修改Webhook。 [了解详情](/help/migrated/integration-admin/feature-summary/webhook-instructor-edits.md)
+**讨论区讲师通知：**&#x200B;无头客户可以通过API向讲师和同类经理发送讨论区活动摘要。
 
-**学习路径注册的上次访问日期：**&#x200B;您可以通过API将自定义元数据（如上次访问日期）附加到学习路径注册。 [了解详情](/help/migrated/api-changes-dec-2026.md#last-access-date-lp-enrollment)
+[了解详情](/help/migrated/discussion-board-instructor-notifications.md)
+
+**讲师编辑学习对象实例的Webhook：**&#x200B;现在，讲师编辑虚拟教室会话时，也会触发学习对象实例修改Webhook。
+
+[了解详情](/help/migrated/integration-admin/feature-summary/webhook-instructor-edits.md)
+
+**学习路径注册的上次访问日期：**&#x200B;您可以通过API将自定义元数据（如上次访问日期）附加到学习路径注册。
+
+[了解详情](/help/migrated/api-changes-dec-2026.md#last-access-date-lp-enrollment)
 
 ## API 更改
 
 * **书签API排序和已弃用的内容处理：**&#x200B;现在书签首先返回最新信息，不再返回已弃用的学习对象书签。 不添加端点、参数或响应属性。
+
+  [了解详情](/help/migrated/api-changes-dec-2026.md#bookmark-api-ordering-retired-content)
+
 * **用于讨论区讲师通知的API：**&#x200B;新API可让讲师和同类经理订阅讨论区，并控制摘要电子邮件中显示的活动。
+
+  [了解详情](/help/migrated/api-changes-dec-2026.md#api-discussion-board-instructors)
+
 * **对学习者应用中的多注册实例的API支持：**&#x200B;将可选的`includeMultiInstanceEnrollments=true`参数添加到`GET /enrollments`以包含多注册实例。 默认值为`false`。
+
+  [了解详情](/help/migrated/api-changes-dec-2026.md#api-multienrolled-instances-lc-widget)
+
 * **学习路径注册的上次访问日期：**&#x200B;使用管理令牌设置学习路径注册上的自定义元数据。 使用管理员或学习者令牌阅读。
+
+  [了解详情](/help/migrated/api-changes-dec-2026.md#api-last-access-date-lp-enrollment)
+
 * **Report Builder导出的作业API作业类型：**&#x200B;新的`generateCustomReport`作业类型将按报告ID导出保存的Report Builder报告。 现有作业类型（包括`generateQuizReport`）保持不变。
-* **Zoom连接器的API：**&#x200B;新API可检索和管理Zoom连接、保存Zoom凭据以及设置可以使用连接的用户组和自定义角色。 API使用基于会话的身份验证，需要集成管理员登录。 [了解详情](../api-changes-dec-2026.md#apis-to-create-and-manage-the-zoom-connector)
+
+  [了解详情](/help/migrated/api-changes-dec-2026.md#api-job-report-builder-exports)
+
+* **Zoom连接器的API：**&#x200B;新API可检索和管理Zoom连接、保存Zoom凭据以及设置可以使用连接的用户组和自定义角色。 API使用基于会话的身份验证，需要集成管理员登录。
+
+  [了解详情](../api-changes-dec-2026.md#apis-to-create-and-manage-the-zoom-connector)
 
 ## 打破此版本中的更改
 
@@ -320,7 +399,7 @@ Insights代理添加了两项增强功能。 这些报告分别是：
 
 ## API
 
-* **用于访问学习对象目录的API：**&#x200B;用于访问学习对象的目录访问API用于确定学习者是否可以通过分配的目录直接访问一个或多个学习对象。 使用响应控制与注册相关的UI元素。 例如，仅在确认直接访问目录后显示“注册”选项，并允许学习者查看课程页面而不考虑目录访问权限。
+* **用于访问学习对象目录的API：**用于访问学习对象的目录访问API用于确定学习者是否可以通过分配的目录直接访问一个或多个学习对象。 使用响应控制与注册相关的UI元素。 例如，仅在确认直接访问目录后显示“注册”选项，并允许学习者查看课程页面而不考虑目录访问权限。
 了解更多。
 
 * **管理员审核记录报告的作业API：**&#x200B;此API用于处理审核记录报告作业 — 创建一个作业，该作业可针对给定的日期范围和设置类型集生成“配置更改审核记录”报告。
@@ -345,7 +424,7 @@ Insights代理添加了两项增强功能。 这些报告分别是：
 
 * **管理员：**&#x200B;管理员可以将由我保存的小组件放在页面上，以便学习者可以轻松查找他们已添加书签的内容。 这样，学习者无需再次搜索或导航便可返回之前保存的课程。 了解有关[由我保存的Widget](/help/migrated/administrators/feature-summary/experience-builder/add-a-widget.md#bookmark-widget)的更多信息。
 
-* **学习者：**&#x200B;**由我保存**&#x200B;小组件会显示您已添加书签以便稍后使用的课程、学习路径、认证和工作辅助。 使用此构件可在一个位置快速访问已保存的内容，而无需再次搜索目录。 了解有关[由我保存的Widget](/help/migrated/learners/feature-summary/saved-by-me-widget.md)的更多信息。
+* **学习者：****由我保存**&#x200B;小组件会显示您已添加书签以便稍后使用的课程、学习路径、认证和工作辅助。 使用此构件可在一个位置快速访问已保存的内容，而无需再次搜索目录。 了解有关[由我保存的Widget](/help/migrated/learners/feature-summary/saved-by-me-widget.md)的更多信息。
 
 **通道主题颜色：**&#x200B;创建通道时，有更多的通道主题颜色可供选择。 在您选择后，将上下文应用主题颜色以高亮显示对比度。 为通道选择主题颜色时，所选颜色将应用于通道界面，并旨在与通道缩览图和文本保持对比。 在创建通道时自动分配默认颜色，但您可以随时从可用选项中选择不同的颜色。
 
@@ -577,7 +656,7 @@ Adobe Learning Manager使用单个共享虚拟教室作为课程实例。 当第
 4. 在左侧导航面板中导航至学习者。
    ![](assets/instructor-send-email1.png)
 5. 从学习者列表中选择一个学习者。
-6. 在右上角，**操作**&#x200B;下拉列表打开以显示更多选项（包括灰显选项）。 **向全体人员发送电子邮件**&#x200B;是选项之一。
+6. 在右上角，**操作**&#x200B;下拉列表打开以显示更多选项（包括灰显选项）。 **向全体人员发送电子邮件**是选项之一。
    ![](assets/instructor-send-email2.png)
 
 **自动清除已删除的用户：**&#x200B;已删除用户的自动清除设置为一年作为删除所需的最短期限。 此功能已得到增强，以适应“天”后的数量。 管理员现在可以通过联系其客户成功经理来请求此更改，并从后端获取更改。
@@ -950,7 +1029,7 @@ _Content update options_
 
 * 修复了内容模块更新为新版本后，已完成课程的学习者在重修课程时看到白色屏幕的问题。
 
-此外，有关即将对Adobe Learning Manager进行的更改的详细信息，请参阅此[文章](https://experienceleague.adobe.com/zh-hans/docs/learning-manager/using/introduction/upcoming-changes-in-adobe-learning-manager)。
+此外，有关即将对Adobe Learning Manager进行的更改的详细信息，请参阅此[文章](https://experienceleague.adobe.com/en/docs/learning-manager/using/introduction/upcoming-changes-in-adobe-learning-manager)。
 
 +++
 
@@ -1756,7 +1835,7 @@ Adobe Learning Manager 为所有管理员和经理提供合规性信息板。 �
 
 +++更新 66 - Adobe Learning Manager 2021 年 8 月版
 
-**2021 年 8 月**&#x200B;**版 Adobe Learning Manager** 侧重于改进学习者体验、报告和管理工作流程。 其中一些亮点如下：
+**2021 年 8 月****版 Adobe Learning Manager** 侧重于改进学习者体验、报告和管理工作流程。 其中一些亮点如下：
 
 * **内容市场：** Adobe Learning Manager 现提供 70000 多门来自不同领域的课程，如技术、管理、领导力等。
 * **增强辅助功能支持：**&#x200B;通过强化键盘导航、屏幕阅读器功能和对比度合规性，增强对学习者角色的辅助功能支持。
@@ -2430,7 +2509,7 @@ Adobe Learning Manager 2020 年 4 月版本侧重于以下内容：
 
 学习者可以打开外部证书并上传 pdf、文本或图像文件等资产。
 
-有关详细信息，请参阅&#x200B;[***上传外部证书中的资产***](../learners/feature-summary/ipad-android-tablet-users.md#externalcert)。**&#x200B;**
+有关详细信息，请参阅&#x200B;[***上传外部证书中的资产***](../learners/feature-summary/ipad-android-tablet-users.md#externalcert)。****
 
 ### 此版本中修复的问题 {#issuesfixedinthisrelease}
 
@@ -2749,7 +2828,7 @@ Adobe Learning Manager 现在还允许学习者通过 SSO 身份验证进入连�
 
 ### 新功能和增强功能 {#Newandenhancedfeatures-5}
 
-**为内部和外部用户区分社交学习中的范围**&#x200B;管理员可以为内部和外部学习者定义不同的范围。 新增了分别面向内外部用户的两个部分。 在这两个部分中，您可定义各学习者组的相应范围。 对于内部用户，您可以定义“用户特征”的值。 对于外部用户，您可以定义外部个人资料，学习者可以在其中共享相同的社交空间。 有关更多信息，请参阅&#x200B;[***范围设置***](../administrators/feature-summary/social-learning-configurations-as-an-admin.md#scopesettings)。  **对社交讨论区的创建加以限制**&#x200B;为加强讨论区管理，对学习者人人可以创建讨论区的情况加以限制，管理员可将讨论区创建权限授予选定的用户组。 管理员可将讨论区创建权限授予选定的用户组，而非参与社交学习的所有学习者。 有关更多信息，请参阅&#x200B;[***讨论区创建权限***](../administrators/feature-summary/social-learning-configurations-as-an-admin.md#permission)。  **仅向学习者显示空白活动字段**&#x200B;在填充值后，管理员可选择显示活动字段或隐藏这些字段。 有关更多信息，请参阅&#x200B;[***用户显示***](../administrators/feature-summary/add-users-user-groups.md#activefields)。  **内部用户处于非活动状态达到指定持续时间后将被删除**&#x200B;管理员可针对内部学习者设置非活动状态持续时间（以天为单位），达到限值的用户即会被删除。 有关详细信息，请参阅&#x200B;***[自动删除用户](../administrators/feature-summary/settings.md#autodelete)***。  **自定义页脚上的链接**&#x200B;管理员可以在页脚上添加和自定义链接。 这些链接还可根据不同的区域设置进行自定义。 在页脚添加“联系管理员”链接的现有方法可在&#x200B;**“页脚链接”**&#x200B;部分查看。 有关更多信息，请参阅&#x200B;[***自定义页脚链接***](../administrators/feature-summary/settings.md#footer)。
+**为内部和外部用户区分社交学习中的范围**&#x200B;管理员可以为内部和外部学习者定义不同的范围。 新增了分别面向内外部用户的两个部分。 在这两个部分中，您可定义各学习者组的相应范围。 对于内部用户，您可以定义“用户特征”的值。 对于外部用户，您可以定义外部个人资料，学习者可以在其中共享相同的社交空间。 有关更多信息，请参阅&#x200B;[***范围设置***](../administrators/feature-summary/social-learning-configurations-as-an-admin.md#scopesettings)。  **对社交讨论区的创建加以限制**&#x200B;为加强讨论区管理，对学习者人人可以创建讨论区的情况加以限制，管理员可将讨论区创建权限授予选定的用户组。 管理员可将讨论区创建权限授予选定的用户组，而非参与社交学习的所有学习者。 有关更多信息，请参阅&#x200B;[***讨论区创建权限***](../administrators/feature-summary/social-learning-configurations-as-an-admin.md#permission)。  **仅向学习者显示空白活动字段**&#x200B;在填充值后，管理员可选择显示活动字段或隐藏这些字段。 有关更多信息，请参阅&#x200B;[***用户显示***](../administrators/feature-summary/add-users-user-groups.md#activefields)。  **内部用户处于非活动状态达到指定持续时间后将被删除**&#x200B;管理员可针对内部学习者设置非活动状态持续时间（以天为单位），达到限值的用户即会被删除。 有关详细信息，请参阅***[自动删除用户](../administrators/feature-summary/settings.md#autodelete)***。  **自定义页脚上的链接**&#x200B;管理员可以在页脚上添加和自定义链接。 这些链接还可根据不同的区域设置进行自定义。 在页脚添加“联系管理员”链接的现有方法可在&#x200B;**“页脚链接”**&#x200B;部分查看。 有关更多信息，请参阅&#x200B;[***自定义页脚链接***](../administrators/feature-summary/settings.md#footer)。
 
 ### 此版本中的已知问题 {#Knownissuesinthisrelease-2}
 
@@ -3434,7 +3513,7 @@ Adobe Learning Manager 提供了各种必要的工具和模板，可供公司的
 
 ### 增强功能 {#enhancement}
 
-作为更新的一部分，Learning Manager提供端点<!-- [PATCH/users/{id}](<https://learningmanager.adobe.com/docs/Learning>Managerapi/v1/#!/user/patch_users_id) -->来更新应用程序中的用户。 您可以通过管理员角色访问该 API 端点。 使用&#x200B;**&#x200B;**&#x200B;端点，您可以更新Learning Manager用户的以下信息：
+作为更新的一部分，Learning Manager提供端点<!-- [PATCH/users/{id}](<https://learningmanager.adobe.com/docs/Learning>Managerapi/v1/#!/user/patch_users_id) -->来更新应用程序中的用户。 您可以通过管理员角色访问该 API 端点。 使用****端点，您可以更新Learning Manager用户的以下信息：
 
 * 姓名
 * 电子邮件
@@ -3944,7 +4023,7 @@ Adobe Learning Manager 允许您将徽章导出为 PDF 文件。 有关更多信
 
 **电子邮件模板**
 
-* 曾用来表示外部组的词——**合作伙伴**，**&#x200B;**&#x200B;现已从&#x200B;**&#x200B;**&#x200B;电子邮件模板正文和标题中删除。 外部组不一定是合作伙伴。\
+* 曾用来表示外部组的词——**合作伙伴**，****&#x200B;现已从&#x200B;****&#x200B;电子邮件模板正文和标题中删除。 外部组不一定是合作伙伴。\
   **注意：**&#x200B;如果默认模板已修改，则该更新模板不会显示。 若要查看更新的模板，请单击&#x200B;**模板预览**&#x200B;对话框中的&#x200B;**恢复为原始**。
 
 * 无论何时编辑&#x200B;**“已创建个人资料”（自助注册）**&#x200B;和&#x200B;**“已创建个人资料”（外部/合作伙伴）**&#x200B;电子邮件模板，管理员收到的电子邮件中的 URL 都无法单击。 此问题现已修复。

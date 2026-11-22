@@ -7,9 +7,9 @@ exl-id: c5257796-0afa-4021-bd17-d3f1e9a86948
 product_v2:
   - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
     internal-label: Learning Manager
-source-git-commit: 971f5a08a1493d5ae02deaa161a965865c107b64
+source-git-commit: 4234f3cc3b9d77a7f9d197d2df2160ec62edd6d6
 workflow-type: tm+mt
-source-wordcount: '12332'
+source-wordcount: '12311'
 ht-degree: 47%
 ---
 # 创建、修改和发布课程
@@ -59,7 +59,7 @@ Adobe Learning Manager 允许作者使用一个或多个与虚拟培训、自学
    a. 在“课程设置”页面，选择该课程的技能。 从“技能”下拉列表中，选择所需的技能。 然后，从“级别”下拉列表中，选择所需的级别。
    b. 选择课程技能、级别并设置技能的积分。 如有需要，添加更多技能。
    c. 如果需要，可将自定义合规性标签添加到课程中。 请参阅[将合规性标签添加到课程/学习路径/认证](/help/migrated/authors/feature-summary/courses.md#add-compliance-labels-to-courselearning-pathcertification)。
-   d. 从&#x200B;**“注册类型”**&#x200B;下拉列表中，选择注册类型。
+   d. 从**“注册类型”**&#x200B;下拉列表中，选择注册类型。
 
    注册类型说明如下：
 
@@ -106,7 +106,7 @@ Adobe Learning Manager 允许作者使用一个或多个与虚拟培训、自学
    启用切换&#x200B;**多个注册**&#x200B;可在学习者的各种课程注册之间切换。 如果已启用实例切换，则不能使用多注册。
 
 10. 选择在参加您的课程前必须完成的预修课程。 单击“课程”字段并从课程列表中选择。
-11. 要将预修课程设为必修课程，请选中“**启用**&#x200B;**预修课程**”复选框。
+11. 要将预修课程设为必修课程，请选中“**启用****预修课程**”复选框。
 12. 添加关键字作为与您课程相关的标签。 这些标签可以帮助学习者在搜索时轻松找到您的课程。 所有这些标签根据所添加的模块自动添加。 如果要添加其他标签到此课程，可自行添加。
 13. 添加关键字作为与您课程相关的标签。 这些标签可以帮助学习者在搜索时轻松找到您的课程。 所有这些标签根据所添加的模块自动添加。 如果要添加其他标签到此课程，可自行添加。
 14. 在“自动弃用”字段中，选择课程弃用的日期。 管理员必须先启用自动弃用选项。
@@ -169,7 +169,7 @@ Adobe Learning Manager 允许作者使用一个或多个与虚拟培训、自学
 
 1. 选择“基于团队”选项。 单个选项指适用于单个学习者的早期文件提交模块。
 
-   用于文件提交模块的![基于团队的选项](assets/Group-Team-submission-and-rubric-based-assessments-image4.png "基于团队的选项")
+   ![](assets/Group-Team-submission-and-rubric-based-assessments-image4.png)
 
 1. 选择讲师。
 
@@ -191,13 +191,13 @@ Adobe Learning Manager 允许作者使用一个或多个与虚拟培训、自学
    * 选择手动评分，让讲师输入一个总得分。
    * 选择基于标准的评分，根据每个评估计划选项上的点计算评分。 此方法需要评估计划。
 
-     ![针对基于团队的文件提交模块的审阅和评分选项](assets/Group-Team-submission-and-rubric-based-assessments-image5.png)
+     ![](assets/Group-Team-submission-and-rubric-based-assessments-image5.png)
 
 >[!CAUTION]
 >
 >发布课程后，您将无法移除模块、更改其设置或使用多个交付类型。
 
-### 向文件提交模块添加评估计划
+### 将评估计划添加到文件提交模块
 
 通过在文件提交模块中添加客观和主观问题，为个人或团队提交内容创建评估计划。
 
@@ -485,7 +485,7 @@ Adobe Learning Manager 允许作者使用一个或多个与虚拟培训、自学
 5. 输入实例的属性：
 
    * 在&#x200B;**[!UICONTROL 实例名称]**&#x200B;字段中，输入要与该课程关联的实例的名称。 确保对实例使用唯一的名称。
-   * **开始日期：**&#x200B;这是课程的开始日期。 您可以在两个不同的选定日期在此开始日期之前向学习者发送两封提醒电子邮件。 开始日期必须早于完成日期。 选择开始日期后，该日期将在实例的&#x200B;**通知警报**&#x200B;部分的日历中以蓝色突出显示。
+   * **开始日期：**&#x200B;这是课程的开始日期。 您可以在两个不同的选定日期在此开始日期之前向学习者发送两封提醒电子邮件。 开始日期必须早于完成日期。 选择开始日期后，该日期将在实例的&#x200B;**通知警报**部分的日历中以蓝色突出显示。
      ![](assets/start-date-instance.png)
    * 指定实例的完成截止日期。 学习者必须在此日期之前达到课程完成状态。
      ![](assets/start-date-highlighted-instance.png)
@@ -506,7 +506,7 @@ Adobe Learning Manager 允许作者使用一个或多个与虚拟培训、自学
 2. 在日历上，选择第一个提醒的实例开始日期之前的日期。
 3. 选择右侧的&#x200B;**添加提醒**。
 4. **电子邮件模板：**&#x200B;从下拉列表中选择一个模板
-5. **重复周期：**&#x200B;从下拉列表中选择重复周期类型。 选择右侧的蓝色复选标记以保存提醒日期。 请记住，必须单独保存每个提醒日期。
+5. **重复周期：**从下拉列表中选择重复周期类型。 选择右侧的蓝色复选标记以保存提醒日期。 请记住，必须单独保存每个提醒日期。
    ![](assets/start-date-reminder1.png)
 6. 选择另一个日期（该日期也早于第二个提醒的课程开始日期），重复此过程，并选择右侧的蓝色复选标记以保存此提醒日期。
    ![](assets/start-date-reminder2.png)
@@ -925,7 +925,7 @@ Adobe Learning Manager为作者提供了创建、编辑和管理由多个内容�
 3. 选择任意课程，然后选择&#x200B;**[!UICONTROL 编辑]**。
 4. 选择要更改的模块。
 5. 更改标题和说明。
-6. 使用&#x200B;**内容**&#x200B;选项选择模块。
+6. 使用&#x200B;**内容**选项选择模块。
    ![](assets/replace-the-module.png)
 7. 选择&#x200B;**[!UICONTROL 完成]**。
 8. 选择&#x200B;**[!UICONTROL 重新发布]**。
@@ -1497,7 +1497,7 @@ Adobe Learning Manager 能让您轻松快速找到您想选择的课程。 您�
 1. 使用 Adobe 凭据登录。 如果没有 Adobe ID，请单击&#x200B;**[!UICONTROL “创建帐户”]**。 授权后，您将被定向到模块发布页面。
 1. 提供有关模块的所有基本信息并单击“发布”。
 
-您可以在 Adobe Learning Manager 模块页面查看已发布的模块。 有关更多信息，请参阅[发布项目至 Adobe Learning Manager](https://helpx.adobe.com/cn/captivate/classic/publish-project-to-captivate-prime.html)。
+您可以在 Adobe Learning Manager 模块页面查看已发布的模块。 有关更多信息，请参阅[发布项目至 Adobe Learning Manager](https://helpx.adobe.com/captivate/classic/publish-project-to-captivate-prime.html)。
 
 ## 课程效果 {#courseeffectiveness}
 

@@ -1,9 +1,9 @@
 ---
 title: 安全考试浏览器
 description: 在Adobe Learning Manager中的帐户级别启用安全考试浏览器集成，以便作者需要安全的浏览器环境才能进行本机测验。
-source-git-commit: 38dba6765ff013e446ab1f6098e9f1df0c24d0f9
+source-git-commit: 8f23f95cd81e5b64932281c990d27be0c390850b
 workflow-type: tm+mt
-source-wordcount: '304'
+source-wordcount: '321'
 ht-degree: 1%
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 1%
 
 ## 启用安全考试浏览器集成
 
-启用安全考试浏览器集成，以便作者在配置测验时可以使用该选项。 在开始之前，请确保您拥有帐户的安全考试浏览器文件。
+配置“安全考试浏览器”集成，使作者可在配置测验时使用该选项。 在开始之前，请确保您拥有帐户的安全考试浏览器文件。
 
 要启用安全考试浏览器集成，请执行以下操作：
 
@@ -36,6 +36,8 @@ ht-degree: 1%
 1. 选择&#x200B;**“保存”**。
 
    现在，作者可以在配置受支持的测验时启用安全考试浏览器。
+
+查看[使用SEB创建课程](../../authors/feature-summary/create-a-course-with-safe-exam-browser.md)，了解有关将“安全考试浏览器”配置为&#x200B;**作者**&#x200B;的更多信息。
 
 ### 为macOS配置.seb文件 {#configure-the-seb-file-for-macos}
 

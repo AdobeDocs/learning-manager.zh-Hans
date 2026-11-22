@@ -5,9 +5,9 @@ title: Adobe Learning Manager中的Insights代理(Beta)
 product_v2:
   - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
     internal-label: Learning Manager
-source-git-commit: 2377d632f2bc41f5c33e5880c1cbc2baa071d5da
+source-git-commit: ce2797523093c4c3b3c390386119c8ed679acdc0
 workflow-type: tm+mt
-source-wordcount: '4257'
+source-wordcount: '4259'
 ht-degree: 0%
 ---
 
@@ -55,7 +55,7 @@ Insights Agent旨在减少从提出数据问题到获得答案的步骤。 当�
 
 使用Adobe Learning Manager中的Insights代理查询包含纯语言问题的学习数据，并以文本、表格或可下载CSV文件的形式获得结果。
 
-管理员可从Learning Manager的AI Assistant面板中使用见解代理。 面板可以调整大小。 您可以对其进行扩展，以便更易于阅读。 默认情况下，当您打开面板时，将选择&#x200B;**获取Insights**&#x200B;模式。 另外，还提供了一个单独的&#x200B;**学习**&#x200B;模式用于回答有关如何使用该产品的指导性问题。 **学习**&#x200B;模式回答有关如何使用Learning Manager的指导性问题。 例如，“如何创建学习路径？” 它不查询学习者数据。
+管理员可从Learning Manager的AI Assistant面板中使用见解代理。 面板可以调整大小。 您可以对其进行扩展，以便更易于阅读。 默认情况下，当您打开面板时，将选择&#x200B;**获取Insights**&#x200B;模式。 另外，还提供了一个单独的&#x200B;**学习**&#x200B;模式用于回答有关如何使用该产品的指导性问题。 **学习**&#x200B;模式回答有关如何使用Learning Manager的指导性问题。 例如，“如何创建学习路径？” 它不查询学习者数据。 [了解详情](/help/migrated/administrators/feature-summary/insights-agent.md#create-report-insights-agent)
 
 ### 提出问题
 
@@ -299,7 +299,7 @@ If your administrator has renamed standard terms using **Product Terminology** i
 
 Insights客服专员支持以英语和拉丁字母语言（如法语和西班牙语）编写的查询。 系统不会处理使用非拉丁语脚本（包括日语、中文、阿拉伯语、韩语、印地语和俄语）提交的查询。 客服专员将显示一条消息，指示无法完成查询。 如果您使用其中一种语言提交查询，请启动新查询并使用英语重新设置其短语。
 
-## 从Insights客服专员答案创建报告
+## 从Insights客服专员答案创建报告 {#create-report-insights-agent}
 
 在Adobe Learning Manager中，您可以用浅显的语言向Insights客服专员提问，然后以Report Builder报告形式打开答案。 然后，您可以编辑报告并重复使用它，这样您就不必从头开始重新构建它。
 

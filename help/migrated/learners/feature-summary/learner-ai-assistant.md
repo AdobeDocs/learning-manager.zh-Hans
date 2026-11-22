@@ -6,7 +6,7 @@ exl-id: 8203488d-74a6-4463-9383-76d16cabccfa
 product_v2:
   - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
     internal-label: Learning Manager
-source-git-commit: 2fc477a745fef442f52027e4e6a03a290655d1f5
+source-git-commit: ce2797523093c4c3b3c390386119c8ed679acdc0
 workflow-type: tm+mt
 source-wordcount: '3457'
 ht-degree: 0%
@@ -59,7 +59,7 @@ ht-degree: 0%
 
 确认学习路径与问题相关，并对目录中的学习者可见。 “学习者助理”不显示对学习者隐藏的内容。
 
-## 配置“学习者助理”客服专员
+## 配置“学习者助理”客服专员 {#configure-la-agents}
 
 打开或关闭单个“学习者助理”客服专员，以控制学习者可在Adobe Learning Manager中使用哪些AI功能。
 
@@ -381,7 +381,7 @@ Adobe Learning Manager的Learning Assistant可以回答学习者针对平台上�
 
 >[!IMPORTANT]
 >
->作为先决条件，管理员必须向“学习者助理”添加所需的目录。 有关更多详细信息，请参阅[配置AI Assistant访问权限](https://experienceleague.adobe.com/zh-hans/docs/learning-manager/using/learner/learner-ai-assistant#configure-ai-assistant-access)。
+>作为先决条件，管理员必须向“学习者助理”添加所需的目录。 有关更多详细信息，请参阅[配置AI Assistant访问权限](https://experienceleague.adobe.com/en/docs/learning-manager/using/learner/learner-ai-assistant#configure-ai-assistant-access)。
 
 
 管理员将Go1或LinkedIn学习目录添加到Adobe Learning Manager时，目录内容会按照预定的摄取过程进行处理。 收录完成后，该目录中的学习对象将可供学习助手查询。
@@ -464,4 +464,4 @@ AI Assistant旨在仅根据分配的学习内容回答问题，不会响应范�
 确认学习路径与问题相关，并对目录中的学习者可见。 “学习者助理”不显示对学习者隐藏的内容。
 
 **禁用代理后，学习者会看到什么？**
-“学习者助理”不会运行已禁用的代理。 例如，如果您禁用&#x200B;**应答代理**，但学习者提出了需要的问题，则学习者助理不会返回基于课程的摘要。 它提供来自仍处于启用状态的客服专员的选项。
+“学习者助理”不会运行已禁用的代理。 例如，如果您禁用**应答代理**，但学习者提出了需要的问题，则学习者助理不会返回基于课程的摘要。 它提供来自仍处于启用状态的客服专员的选项。

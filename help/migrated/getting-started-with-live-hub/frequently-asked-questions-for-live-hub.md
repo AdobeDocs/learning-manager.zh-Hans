@@ -4,9 +4,9 @@ description: 有关Adobe Learning Manager Live Hub的常见问题解答，按角
 product_v2:
   - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
     internal-label: Learning Manager
-source-git-commit: 3f591f2feae164b7ac2ddb5c8b34d015c0f942d4
+source-git-commit: bf1aebd9c505dd632c5f31a3bc71e03462ec5e16
 workflow-type: tm+mt
-source-wordcount: '4471'
+source-wordcount: '4470'
 ht-degree: 0%
 ---
 
@@ -54,7 +54,8 @@ ht-degree: 0%
 
 +++Live Hub是否适用于我的帐户？
 
-Live Hub (Beta)将从2026年8月开始提供。 管理员可以为您的Adobe Learning Manager帐户启用或禁用Live Hub。 如果启用了实时中心，作者可以在创建虚拟教室模块时将其选为实时培训提供商。 如果“实时中心”选项不可用，请联系您的管理员以为您的帐户启用该功能。
+Live Hub将从2026年8月开始提供。 管理员可以为您的Adobe Learning Manager帐户启用或禁用Live Hub。 如果启用了实时中心，作者可以在创建虚拟教室模块时将其选为实时培训提供商。 如果“实时中心”选项不可用，请联系您的管理员以为您的帐户启用该功能。
+
 
 +++
 

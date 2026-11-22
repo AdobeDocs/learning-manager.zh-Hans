@@ -6,10 +6,10 @@ exl-id: da46f186-3ff3-422a-af49-31c7405fd584
 product_v2:
   - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
     internal-label: Learning Manager
-source-git-commit: 9f214ebfdf686375a53896b186deac31bbe1658c
+source-git-commit: 4234f3cc3b9d77a7f9d197d2df2160ec62edd6d6
 workflow-type: tm+mt
-source-wordcount: '4884'
-ht-degree: 0%
+source-wordcount: '4846'
+ht-degree: 1%
 ---
 
 >[!IMPORTANT]
@@ -70,6 +70,8 @@ Adobe Learning Manager现在与Adobe Experience Manager Assets集成，允许作
 
 讲师可在新的&#x200B;**团队管理**&#x200B;页面上管理团队并在团队提交页面上审阅工作。 讲师还可以在需要更改时（例如团队成员离职时），取消提交已批准的提交以解锁团队。 一个团队最多可容纳100名成员。 学习者可以查看其团队、团队成员和评估结果。 发布课程后，无法添加或删除团队模块。
 
+[了解详情](/help/migrated/learners/feature-summary/submit-assignment-as-team.md)
+
 ### 基于评分的评估（评价计划）
 
 作者现在可以为文件提交模块定义一个称为“评估计划”的指标。 评分支持客观问题，评分选项支持主观问题，书面评论支持主观问题。
@@ -80,6 +82,8 @@ Adobe Learning Manager现在与Adobe Experience Manager Assets集成，允许作
 * 评分是总分还是每个标准的得分
 
 每个问题都可以标记为“必填”，并可配置为允许审阅者发表评论。 基于评分的评估最多可包含100个问题，作者可为每个区域设置分别输入问题。 发布课程后，只能更改问题文本。
+
+[了解详情](/help/migrated/administrators/feature-summary/team-submissions-and-rubrics.md)
 
 ### 讲师审批或自动完成
 
@@ -123,25 +127,37 @@ Adobe Learning Manager现在提供Virtual Coach，这是一个AI支持的角色�
 
 现在，“学习者助理”答案引用了包含源课程的学习路径以及课程本身。 学习者从引文打开“课程概述”或“学习路径”页面。 从工作辅助中绘制的答案包括一个下载链接。 这有助于学习者找到问题答案。
 
+[了解详情](/help/migrated/learners/feature-summary/learner-ai-assistant.md#learning-path-citations)
+
 ## AI Assistant配置
 
 管理员助理提供两个客服专员：Insights客服专员和知识客服专员。 可以单独配置它们。 “学习者助理”提供三个客服专员：知识客服专员、应答客服专员和学习路径客服专员。 可以与目录配置一起配置它们。
+
+[了解详情](/help/migrated/learners/feature-summary/learner-ai-assistant.md#configure-la-agents)
 
 ## 讲师编辑学习对象实例的Webhook
 
 现在，除了管理员和作者进行更改外，当讲师编辑虚拟教室会话时，会触发学习对象实例修改Webhook。 会话时序、地点和注册限制等更改会触发该操作。 无头客户随后可以通过公共API检索会话详细信息并将更新传递给学习者。
 
+[了解详情](/help/migrated/integration-admin/feature-summary/webhook-instructor-edits.md)
+
 ## 合规性小组件中的多个注册课程
 
 合规性小组件现在列出了学习者必须完成的多注册课程的每个实例。 每个条目都显示实例名称。 如果一个实例有截止日期，则任何没有截止日期的实例都将被隐藏。 公共API的注册端点通过可选参数支持相同的行为。
+
+[了解详情](/help/migrated/api-changes-dec-2026.md#api-multienrolled-instances-lc-widget)
 
 ## 重新发送虚拟教室会话邀请
 
 具有课程编辑权限的管理员现在可以从实例页面重新发送会话邀请。 选择“**重新发送**”，搜索学习者并发送。 此选项可用于当前和未来的虚拟教室会话。 对于多个实例中的学习者，邀请仅适用于选定的实例。 未注册会话的学习者会被跳过，并显示警告。
 
+[了解详情](/help/migrated/instructors/feature-summary/resend-session-invite.md)
+
 ## Adobe Connect录制视图中的自动出席情况
 
 现在，当学习者播放错过的虚拟教室会话的录制时，Adobe Learning Manager会标记出席情况。 计划的集成将从Adobe Connect提取查看器数据，并将播放时间与为帐户设置的完成标准进行比较。 管理员在集成管理员应用程序中设置计划。 Adobe Learning Manager在确定出勤情况时仅考虑实际观看时间，因此跳过录制不计入完成标准。
+
+[了解详情](/help/migrated/integration-admin/feature-summary/track-attendance-through-adobe-connect.md)
 
 ## 课程和实例电子邮件生成器
 
@@ -160,8 +176,6 @@ Adobe Learning Manager中的电子邮件生成器可让管理员和作者创建�
 横幅和签名设置已移动。 以前，这些设置显示在单独的&#x200B;**设置**&#x200B;选项卡上。 该选项卡已删除，**横幅**&#x200B;和&#x200B;**签名**&#x200B;现在显示在&#x200B;**全局布局**&#x200B;中。
 
 使用Email Builder，您可以添加带“标题”变量的电子邮件标题。
-
-[了解详情](/help/migrated/authors/feature-summary/customize-course-instance-emails.md)
 
 ### 电子邮件生成器层次结构的工作原理
 
@@ -202,17 +216,25 @@ Adobe Learning Manager中的电子邮件生成器可让管理员和作者创建�
 
 如果您的帐户已启用Email Builder，则您会自动收到新更改，无需执行任何操作。 现有的电子邮件功能继续独立于Email Builder迁移活动运行。
 
+[了解详情](/help/migrated/authors/feature-summary/customize-course-instance-emails.md)
+
 ## “学习工具”互操作性中的自定义学习者属性
 
 Adobe Learning Manager现在通过“学习工具互操作性”的可选“名称和角色配置服务”端点来读取自定义学习者属性。 它还会从启动请求中读取这些信息。 国家/地区或城市等属性存储在可分组的配置文件字段中。 启动参数需要前缀，以便Adobe Learning Manager识别它们。 某些学习系统（例如Moodle）不支持此端点。
+
+[了解详情](/help/migrated/integration-admin/feature-summary/lti-support-for-nrps.md)
 
 ## 讨论区讲师通知
 
 无头客户现在可以向讲师和同类经理发送讨论区活动摘要。 使用API将订阅者添加到讨论区。 在您设置的时间间隔内，他们可以通过一封电子邮件收到新帖子、评论和回复。 喜欢或不喜欢不包含在内。 您通过API打开该功能。
 
+[了解详情](/help/migrated/discussion-board-instructor-notifications.md)
+
 ## 管理目录搜索中的相关性排名
 
 现在，管理员视图中的目录搜索会使用与学习者和其他地方管理员搜索相同的搜索服务，按相关性对结果进行排名。 首先显示完全匹配（例如包含特定日期的目录名称），然后是部分匹配。 键入时的建议列表遵循相同的顺序。
+
+[了解详情](/help/migrated/administrators/feature-summary/catalogs.md#search-catalogs)
 
 ## 从Adobe Workfront同步会话取消
 
@@ -224,6 +246,8 @@ Adobe Learning Manager现在通过“学习工具互操作性”的可选“名�
 * 将状态设置为活动将重新激活会话，然后您可以更新其详细信息或再次取消它。
 
 会话更新将继续照常工作。
+
+[了解详情](/help/migrated/integration-admin/feature-summary/alm-workfront-cancellation.md)
 
 ## 名字的字符限制
 
@@ -253,9 +277,13 @@ Adobe Learning Manager现在最多可包含255个字符（从63个字符增加�
 
 要查看全名，请将鼠标悬停在缩短的名称上。
 
+[了解详情](/help/migrated/deployment-guide/user-setup.md#character-limit-username)
+
 ## 课程和学习路径的徽章信息
 
 作者添加课程或学习路径时，系统会显示一个窗口，其中列出现有课程和带有徽章信息的学习路径。 该窗口会显示名称、类型（课程或学习路径）、发布状态和课程格式，例如自学、虚拟、教室或混合。
+
+[了解详情](/help/migrated/authors/feature-summary/create-learning-path.md)
 
 ## 未登录增强功能
 
@@ -292,9 +320,15 @@ Adobe Learning Manager现在可以让你的公立学院被Google等搜索引擎�
 >
 >本机Adobe Learning Manager上的AI和搜索发现需要自定义域。 无头部署需要在其自己的环境中实施部分设置。
 
+>[!NOTE]
+>
+>此功能的文档即将发布。
+
 ## 弃用课程，同时避免无法访问学习路径
 
 已弃用的课程或嵌套学习路径将从较高层级学习对象中移除，而该对象会保持打开状态以供新注册。 弃用课程不会再导致无法访问学习路径。
+
+[了解详情](/help/migrated/administrators/feature-summary/settings/basic-settings.md#retiral-impact-ho-lo)
 
 ## 自助注册配置文件的未登录页面URL
 
@@ -302,22 +336,15 @@ Adobe Learning Manager现在可以让你的公立学院被Google等搜索引擎�
 
 当用户从通过该URL访问的页面中选择&#x200B;**注册**&#x200B;时，他们将被添加到该URL所属的配置文件。 这使来自不同组织（如不同的机构或合作伙伴公司）的用户位于不同的配置文件中。
 
+[了解详情](/help/migrated/administrators/feature-summary/experience-builder/non-logged-in-menu-url-self-registration.md)
+
 ## 存储学习路径注册的上次访问日期
 
 Adobe Learning Manager现在允许您将自定义元数据（如上次访问日期）附加到学习路径注册。 您可以通过API设置和阅读，API可帮助您跟踪对您分配的学习路径进行有时间限制的访问。
 
 课程注册已支持通过API设置上次访问日期，该API可控制学习者访问课程的时间。 学习路径注册现在提供一个通用元数据字段，因此您可以存储上次访问日期或任何其他要跟踪的值。
 
-## 使用作业API导出Report Builder报告
-
-此版本的Adobe Learning Manager添加了新的作业API作业类型`generateCustomReport`。 传递报告ID以自动导出您在Report Builder中创建的任何报告。
-
-结合Report Builder中新的L2测验数据集，您现在可以：
-
-* 在单个报告中导出多个课程和模块的问题级别(L2)测验数据，而不是每个课程运行一次`generateQuizReport`。
-* 自动执行定期导出，例如每天增量导出到您的数据仓库或商业智能工具。
-
-现有作业类型（包括`generateQuizReport`）保持不变。
+[了解详情](/help/migrated/api-changes-dec-2026.md#last-access-date-lp-enrollment)
 
 ## 已下载报告中的列标题更改
 
@@ -329,7 +356,7 @@ Report Builder现在在下载报告的默认列标题中包含数据集名称，
 
 Live Hub现在正式向Ultimate客户提供，并仍为Prime客户提供Beta版。
 
-[了解详情](./administrators/feature-summary/billing-management.md#view-your-live-hub-usage)
+[了解详情](./administrators/feature-summary/billing-management.md#view-usage-details-viewusagedetails)
 
 ## 在Live Hub中支持隐藏字幕的多语言
 
@@ -360,7 +387,7 @@ Live Hub现在支持多达5000名参与者参加的大规模会议，使组织�
 
 这允许组织在同一个平台上举办大型培训会议，其间可设置为预期的受众大小。
 
-[了解详情](./getting-started-with-live-hub/create-a-live-hub-session.md#create-a-course-for-large-session)
+[了解详情](./getting-started-with-live-hub/create-a-live-hub-session.md#create-a-course-for-large-session-create-large-session)
 
 ## 渠道
 
@@ -427,13 +454,19 @@ Live Hub中的辅助功能修复提升了辅助技术和键盘导航用户的体
 
 不添加新端点、参数或响应属性，因此现有集成继续工作而不发生更改。
 
+[了解详情](/help/migrated/api-changes-dec-2026.md#bookmark-api-ordering-retired-content)
+
 ### 用于讨论区讲师通知的API
 
 此版本包括支持讨论区讲师通知的新API。 通过它们向讲师和同类经理订阅讨论区，并控制摘要电子邮件中显示的活动。
 
+[了解详情](/help/migrated/api-changes-dec-2026.md#api-discussion-board-instructors)
+
 ### 学习者应用程序对多注册实例的API支持
 
 注册API现在支持学习者应用程序中的多注册实例。 将可选的`includeMultiInstanceEnrollments=true`参数添加到`GET /enrollments`以包含它们。 默认值为`false`，因此现有集成（包括无头实现）保持工作不变。
+
+[了解详情](/help/migrated/api-changes-dec-2026.md#api-multienrolled-instances-lc-widget)
 
 ### 学习路径注册的上次访问日期
 
@@ -444,11 +477,15 @@ Live Hub中的辅助功能修复提升了辅助技术和键盘导航用户的体
 
 元数据用于您自己的跟踪。 它不控制访问权限，也不应用于路径中的课程。
 
+[了解详情](/help/migrated/api-changes-dec-2026.md#api-last-access-date-lp-enrollment)
+
 ### Report Builder导出的作业API作业类型
 
 作业API有一个新的作业类型`generateCustomReport`，当您传递其报告ID时，该作业类型会导出任何保存的Report Builder报告。 借助新的L2测验数据集，您可以在一个报告中跨多个课程导出问题级别的测验数据，并自动执行定期导出。
 
 现有作业类型（包括`generateQuizReport`）保持不变。
+
+[了解详情](/help/migrated/api-changes-dec-2026.md#api-job-report-builder-exports)
 
 ### 用于缩放连接器的API
 

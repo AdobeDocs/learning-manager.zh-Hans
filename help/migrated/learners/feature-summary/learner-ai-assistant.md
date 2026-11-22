@@ -6,7 +6,7 @@ exl-id: 8203488d-74a6-4463-9383-76d16cabccfa
 product_v2:
   - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
     internal-label: Learning Manager
-source-git-commit: 2fc477a745fef442f52027e4e6a03a290655d1f5
+source-git-commit: ce2797523093c4c3b3c390386119c8ed679acdc0
 workflow-type: tm+mt
 source-wordcount: '3457'
 ht-degree: 0%
@@ -59,7 +59,7 @@ ht-degree: 0%
 
 确认学习路径与问题相关，并对目录中的学习者可见。 “学习者助理”不显示对学习者隐藏的内容。
 
-## 配置“学习者助理”客服专员
+## 配置“学习者助理”客服专员 {#configure-la-agents}
 
 打开或关闭单个“学习者助理”客服专员，以控制学习者可在Adobe Learning Manager中使用哪些AI功能。
 

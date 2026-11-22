@@ -3,7 +3,7 @@ description: 了解如何使用讨论区订阅设置和订阅者API配置摘要�
 jcr-language: en_us
 title: 2026年11月API更改
 exl-id: 9b2d3856-810c-4352-bf18-667f698d4d70
-source-git-commit: d1399781294a58f6ede8461878c979bd8b5edb34
+source-git-commit: 4234f3cc3b9d77a7f9d197d2df2160ec62edd6d6
 workflow-type: tm+mt
 source-wordcount: '5724'
 ht-degree: 4%
@@ -11,7 +11,7 @@ ht-degree: 4%
 
 # 2026年12月API更改
 
-## 用于讨论区讲师通知的API
+## 用于讨论区讲师通知的API {#api-discussion-board-instructors}
 
 本文介绍了支持讨论区讲师通知的新API。 可使用它们为讲师和同类经理订阅讨论区，并控制摘要电子邮件中显示的活动。
 
@@ -585,7 +585,7 @@ curl -X DELETE \
 | 401 | 请求缺少有效的凭据，或由于凭据无效而拒绝访问。 |
 | 404 | 未找到请求的资源，例如讨论区或订阅。 |
 
-## 书签API订购和已停用内容处理
+## 书签API订购和已停用内容处理 {#bookmark-api-ordering-retired-content}
 
 ### API的目的
 
@@ -721,7 +721,7 @@ Authorization: oauth <access-token>
 3. 删除作为解决方法添加的任何客户端排序或已弃用的筛选。
 4. 使用响应中的项目数显示书签数。 已弃用学习对象的书签不再包含在内。
 
-### 学习者应用程序中的学习者合规性小组件支持多注册实例API
+### 学习者应用程序中的学习者合规性小组件支持多注册实例API {#api-multienrolled-instances-lc-widget}
 
 公共API通过现有注册端点上的可选查询参数支持此行为。 如果忽略该参数，则API会返回与之前相同的结果，因此现有集成（包括无头实现）将继续工作，保持不变。
 
@@ -1553,7 +1553,7 @@ https://learningmanagerstage1.adobe.com/primeapi/v2/enrollments?page\[limit\]=10
 
 &rbrace;
 
-## 学习路径注册的上次访问日期 {#last-access-date-lp-enrollment}
+## 学习路径注册的上次访问日期 {#api-last-access-date-lp-enrollment}
 
 Adobe Learning Manager可让您在学习路径注册上存储自定义元数据，如上次访问日期。 您可以通过API设置和读取元数据。 这可以帮助您跟踪对已分配的学习路径的时限访问。
 
@@ -1638,7 +1638,7 @@ POST /primeapi/v2/users/{userId}/enrollments?loId=<lpId>&loInstanceId=<instanceI
 * **显示门户中的值：**&#x200B;从上表中发送令牌类型的GET请求，并从响应中读取`metadata`对象。
 * **从外部系统更新值，例如商务平台：**&#x200B;使用管理令牌发送PATCH请求。
 
-## 作业API：使用generateCustomReport导出Report Builder报告
+## 作业API：使用generateCustomReport导出Report Builder报告 {#api-job-report-builder-exports}
 
 Adobe Learning Manager 2026年12月版将新的作业类型`generateCustomReport`添加到作业API。 通过传递报告ID，可使用它自动导出您在Report Builder中创建的任何报告。
 

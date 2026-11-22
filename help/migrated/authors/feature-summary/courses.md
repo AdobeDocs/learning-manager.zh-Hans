@@ -7,9 +7,9 @@ exl-id: c5257796-0afa-4021-bd17-d3f1e9a86948
 product_v2:
   - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
     internal-label: Learning Manager
-source-git-commit: 971f5a08a1493d5ae02deaa161a965865c107b64
+source-git-commit: 4234f3cc3b9d77a7f9d197d2df2160ec62edd6d6
 workflow-type: tm+mt
-source-wordcount: '12332'
+source-wordcount: '12311'
 ht-degree: 47%
 ---
 # 创建、修改和发布课程
@@ -169,7 +169,7 @@ Adobe Learning Manager 允许作者使用一个或多个与虚拟培训、自学
 
 1. 选择“基于团队”选项。 单个选项指适用于单个学习者的早期文件提交模块。
 
-   用于文件提交模块的![基于团队的选项](assets/Group-Team-submission-and-rubric-based-assessments-image4.png "基于团队的选项")
+   ![](assets/Group-Team-submission-and-rubric-based-assessments-image4.png)
 
 1. 选择讲师。
 
@@ -191,13 +191,13 @@ Adobe Learning Manager 允许作者使用一个或多个与虚拟培训、自学
    * 选择手动评分，让讲师输入一个总得分。
    * 选择基于标准的评分，根据每个评估计划选项上的点计算评分。 此方法需要评估计划。
 
-     ![针对基于团队的文件提交模块的审阅和评分选项](assets/Group-Team-submission-and-rubric-based-assessments-image5.png)
+     ![](assets/Group-Team-submission-and-rubric-based-assessments-image5.png)
 
 >[!CAUTION]
 >
 >发布课程后，您将无法移除模块、更改其设置或使用多个交付类型。
 
-### 向文件提交模块添加评估计划
+### 将评估计划添加到文件提交模块
 
 通过在文件提交模块中添加客观和主观问题，为个人或团队提交内容创建评估计划。
 

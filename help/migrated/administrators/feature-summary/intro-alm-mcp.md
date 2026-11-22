@@ -3,9 +3,9 @@ description: 让学习者在Claude、ChatGPT Enterprise和自定义客服专员�
 jcr-language: en_us
 title: Adobe Learning Manager模型上下文协议服务器
 exl-id: 8d0a25a6-1301-4f68-8db7-e3b1d3ff6537
-source-git-commit: 05691364449234a4782e2de5d4752c7b277f5fd4
+source-git-commit: f6dc1e97076edf812862b80a6ed5931989c660da
 workflow-type: tm+mt
-source-wordcount: '682'
+source-wordcount: '684'
 ht-degree: 0%
 ---
 
@@ -33,7 +33,7 @@ AI客户端调用MCP服务器，该服务器会将每个请求路由到匹配的
 
 客户和合作伙伴教育是MCP服务器的主要用途。 组织如果自行构建企业AI代理，则可以将这些代理连接到Adobe Learning Manager学习者工具。 然后，他们的客户和合作伙伴会在他们已使用的助理中学习，而不用转到单独的学习助理。
 
-例如，Acme Inc.会构建自己的企业AI助手。 一位Acme Inc.合作伙伴访问联想的环境，了解联想的产品。 Acme的助理通过MCP服务器连接到其Adobe Learning Manager帐户，并返回与学习相关的响应，因此合作伙伴永远不会离开Acme体验。
+例如，Acme Inc.会构建自己的企业AI助手。 Acme Inc.的一位合作伙伴访问Tech Corp的环境，以了解有关Tech Corp产品的信息。 Acme的助理通过MCP服务器连接到其Adobe Learning Manager帐户，并返回与学习相关的响应，因此合作伙伴永远不会离开Acme体验。
 
 此方法使组织能够：
 

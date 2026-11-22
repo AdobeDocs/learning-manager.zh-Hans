@@ -3,9 +3,9 @@ description: 将学习内容和图像从Adobe Experience Manager Assets导入Ado
 jcr-language: en_us
 title: AEM Assets集成
 exl-id: cd33c0f2-59df-4f35-a7d9-d7bff6b9ffba
-source-git-commit: 3c0f45721777421361401cf836a21b88cee3a259
+source-git-commit: f6dc1e97076edf812862b80a6ed5931989c660da
 workflow-type: tm+mt
-source-wordcount: '3405'
+source-wordcount: '3447'
 ht-degree: 0%
 ---
 
@@ -424,3 +424,9 @@ AEM Assets选项会显示在支持该选项的上传位置。 从设备上传的
 **问：ALM是否生成公开预览链接？**
 
 **A.**&#x200B;是，仅适用于SCORM 1.2、SCORM 2004和HTML文件。 仅当集成管理员启用公共预览功能时才能执行此操作。
+
+**相关链接：**
+
+* [管理内容库中的内容](/help/migrated/authors/feature-summary/content-library.md)
+* [Adobe Admin Console文档](https://experienceleague.adobe.com/zh-hans/docs/support-resources/adobe-support-tools-guide/adobe-admin-console/admin-console-overview)
+* [Adobe Experience Manager Assets文档](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-learn/assets/overview)

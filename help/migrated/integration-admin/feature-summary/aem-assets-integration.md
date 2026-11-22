@@ -428,5 +428,5 @@ AEM Assets选项会显示在支持该选项的上传位置。 从设备上传的
 **相关链接：**
 
 * [管理内容库中的内容](/help/migrated/authors/feature-summary/content-library.md)
-* [Adobe Admin Console文档](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-admin-console/admin-console-overview)
-* [Adobe Experience Manager Assets文档](https://experienceleague.adobe.com/en/docs/experience-manager-learn/assets/overview)
+* [Adobe Admin Console文档](https://experienceleague.adobe.com/zh-hans/docs/support-resources/adobe-support-tools-guide/adobe-admin-console/admin-console-overview)
+* [Adobe Experience Manager Assets文档](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-learn/assets/overview)

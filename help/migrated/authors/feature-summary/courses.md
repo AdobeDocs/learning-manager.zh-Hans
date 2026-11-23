@@ -7,7 +7,7 @@ exl-id: c5257796-0afa-4021-bd17-d3f1e9a86948
 product_v2:
   - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
     internal-label: Learning Manager
-source-git-commit: 4234f3cc3b9d77a7f9d197d2df2160ec62edd6d6
+source-git-commit: f752ede2a7b2980bad014fcbcaa2d7028d695321
 workflow-type: tm+mt
 source-wordcount: '12311'
 ht-degree: 47%
@@ -312,7 +312,7 @@ Adobe Learning Manager 允许作者使用一个或多个与虚拟培训、自学
 * 在模块为评估时，如果学习者希望重试，则将&#x200B;**最高**&#x200B;用于多次尝试设置。 如果您希望捕获当前知识水平而不是最佳性能，请使用&#x200B;**最新**。
 * 在保存之前，验证&#x200B;**总重量**&#x200B;指示器是否准确显示100%。
 
-## 在Adobe Learning Manager中设置自动团队创建
+## 在Adobe Learning Manager中设置自动团队创建 {#enable-automatic-team-formation}
 
 为课程设置自动团队创建规则，以便Adobe Learning Manager在实例启动前将已注册的学习者分为团队。
 

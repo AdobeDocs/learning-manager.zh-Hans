@@ -7,7 +7,7 @@ exl-id: 91635ef7-dbb9-4bb1-98f9-129f6fd5b6b4
 product_v2:
   - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
     internal-label: Learning Manager
-source-git-commit: f7df2fe74d9f4d57c0ed0c127f09400cef543508
+source-git-commit: 53804a4311b741e87f06d497a866552995a521b2
 workflow-type: tm+mt
 source-wordcount: '3562'
 ht-degree: 36%
@@ -19,7 +19,7 @@ ht-degree: 36%
 
 管理 Adobe Learning Manager 帐单、使用信用卡下单、使用采购订单或通过每月活动用户计划进行订阅。
 
-Adobe Learning Manager 采用客户友好和高度灵活的定价模式，可满足多种不同需求，是企业的绝佳之选。 有关更多信息，请参阅 [Adobe Learning Manager](https://www.adobe.com/cn/products/learningmanager.html) 页面。
+Adobe Learning Manager 采用客户友好和高度灵活的定价模式，可满足多种不同需求，是企业的绝佳之选。 有关更多信息，请参阅 [Adobe Learning Manager](https://www.adobe.com/products/learningmanager.html) 页面。
 
 只有企业的管理员才可管理帐单。
 
@@ -266,7 +266,7 @@ Adobe Learning Manager 采用客户友好和高度灵活的定价模式，可满
 - 通过创建讨论区、帖子或评论参与社交学习。
 - 因外部认证提交内容获得批准或参加教室/虚拟教室授课而实现了完成数。
 
-## 查看使用详情 {#viewusagedetails}
+## 查看使用详情 {#view-usage-details}
 
 1. 要按月查看活动用户数量，请单击&#x200B;**[!UICONTROL 查看使用详情]**。
 
@@ -565,7 +565,7 @@ Credit card-based purchase is only available in the [US region](http://learningm
 
 Manage Learning Manager billing, place orders by using a credit card, subscribe using a Purchase Order, or via a Monthly Active Users plan.
 
-Adobe Learning Manager has a flexible, customer-friendly, and one of the best pricing models to cater to your organization needs. For more information, see the [Learning Manager](https://www.adobe.com/cn/products/learningmanager.html) page.
+Adobe Learning Manager has a flexible, customer-friendly, and one of the best pricing models to cater to your organization needs. For more information, see the [Learning Manager](https://www.adobe.com/products/learningmanager.html) page.
 
 Only the Administrators of your organization can manage billing.
 

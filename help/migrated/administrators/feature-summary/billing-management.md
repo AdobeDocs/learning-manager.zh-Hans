@@ -7,7 +7,7 @@ exl-id: 91635ef7-dbb9-4bb1-98f9-129f6fd5b6b4
 product_v2:
   - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
     internal-label: Learning Manager
-source-git-commit: f7df2fe74d9f4d57c0ed0c127f09400cef543508
+source-git-commit: 53804a4311b741e87f06d497a866552995a521b2
 workflow-type: tm+mt
 source-wordcount: '3562'
 ht-degree: 36%
@@ -266,7 +266,7 @@ Adobe Learning Manager 采用客户友好和高度灵活的定价模式，可满
 - 通过创建讨论区、帖子或评论参与社交学习。
 - 因外部认证提交内容获得批准或参加教室/虚拟教室授课而实现了完成数。
 
-## 查看使用详情 {#viewusagedetails}
+## 查看使用详情 {#view-usage-details}
 
 1. 要按月查看活动用户数量，请单击&#x200B;**[!UICONTROL 查看使用详情]**。
 

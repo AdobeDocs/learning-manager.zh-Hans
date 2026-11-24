@@ -6,9 +6,9 @@ exl-id: da46f186-3ff3-422a-af49-31c7405fd584
 product_v2:
   - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
     internal-label: Learning Manager
-source-git-commit: 4234f3cc3b9d77a7f9d197d2df2160ec62edd6d6
+source-git-commit: b05fc0d33acf0b594a64f3ad4aa9a5c8e570ab30
 workflow-type: tm+mt
-source-wordcount: '4846'
+source-wordcount: '4748'
 ht-degree: 1%
 ---
 
@@ -109,7 +109,7 @@ Adobe Learning Manager现在与Adobe Experience Manager Assets集成，允许作
 ## 个性化学习路径编辑和品牌推广条
 
 * 学习者现在只需一步即可删除建议的主题或课程，还可使用现有选项通过聊天优化主题和课程列表。
-* 管理员现在可以通过“品牌推广”页面，重新定位“学习者”主页上的个性化学习路径条。
+* 管理员现在可以通过“品牌推广”页面，重新定位“学习者”主页上的个性化学习路径。
 
 [了解详情](/help/migrated/administrators/feature-summary/customize-learner-homepage.md#add-reorder-homepage-strips)
 
@@ -121,7 +121,7 @@ Adobe Learning Manager现在提供Virtual Coach，这是一个AI支持的角色�
 
 虚拟教程支持九种语言，可用作独立的工作辅助或嵌入在课程中。
 
-[了解详情](../migrated/authors/feature-summary/virtual-coach/what-virtual-coach-is.md)
+[了解详情](/help/migrated/authors/feature-summary/virtual-coach/what-virtual-coach-is.md)
 
 ## “学习者助理”中的学习路径引文
 
@@ -161,7 +161,7 @@ Adobe Learning Manager现在提供Virtual Coach，这是一个AI支持的角色�
 
 ## 课程和实例电子邮件生成器
 
-Adobe Learning Manager中的电子邮件生成器可让管理员和作者创建品牌化学习者沟通模板。 在2026年12月版ALM中，完整的电子邮件生成器体验可用于课程级别和实例级别的电子邮件。 作者可以在继承管理员定义的布局和格式的同时自定义这些电子邮件。
+Adobe Learning Manager中的电子邮件生成器允许管理员和作者创建品牌化学习者沟通模板。 在2026年12月版ALM中，完整的电子邮件生成器体验可用于课程级别和实例级别的电子邮件。 作者可以在继承管理员定义的布局和格式的同时自定义这些电子邮件。
 
 使用Email Builder，您可以：
 
@@ -338,14 +338,6 @@ Adobe Learning Manager现在可以让你的公立学院被Google等搜索引擎�
 
 [了解详情](/help/migrated/administrators/feature-summary/experience-builder/non-logged-in-menu-url-self-registration.md)
 
-## 存储学习路径注册的上次访问日期
-
-Adobe Learning Manager现在允许您将自定义元数据（如上次访问日期）附加到学习路径注册。 您可以通过API设置和阅读，API可帮助您跟踪对您分配的学习路径进行有时间限制的访问。
-
-课程注册已支持通过API设置上次访问日期，该API可控制学习者访问课程的时间。 学习路径注册现在提供一个通用元数据字段，因此您可以存储上次访问日期或任何其他要跟踪的值。
-
-[了解详情](/help/migrated/api-changes-dec-2026.md#last-access-date-lp-enrollment)
-
 ## 已下载报告中的列标题更改
 
 Report Builder现在在下载报告的默认列标题中包含数据集名称，因此学习对象数据集中的“名称”显示为&#x200B;**学习对象 — Name**，而不是&#x200B;**Name**。 对于聚合列，标题还包括函数，如“**学习对象计数 — ID**”。 如果在列的&#x200B;**别名**&#x200B;字段中输入自定义名称，则该别名将用作标题，并且保持不变。
@@ -356,7 +348,7 @@ Report Builder现在在下载报告的默认列标题中包含数据集名称，
 
 Live Hub现在正式向Ultimate客户提供，并仍为Prime客户提供Beta版。
 
-[了解详情](./administrators/feature-summary/billing-management.md#view-usage-details-viewusagedetails)
+[了解详情](./administrators/feature-summary/billing-management.md#view-live-hub-usage)
 
 ## 在Live Hub中支持隐藏字幕的多语言
 
@@ -387,7 +379,7 @@ Live Hub现在支持多达5000名参与者参加的大规模会议，使组织�
 
 这允许组织在同一个平台上举办大型培训会议，其间可设置为预期的受众大小。
 
-[了解详情](./getting-started-with-live-hub/create-a-live-hub-session.md#create-a-course-for-large-session-create-large-session)
+[了解详情](./getting-started-with-live-hub/create-a-live-hub-session.md#create-large-session)
 
 ## 渠道
 

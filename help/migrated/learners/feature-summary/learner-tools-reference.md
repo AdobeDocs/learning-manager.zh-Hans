@@ -1,17 +1,19 @@
 ---
-description: 查找学习者可以使用Adobe Learning Manager模型上下文协议服务器执行哪些操作，以及哪些MCP工具支持每项功能
+description: 查找学习者可以使用Adobe Learning Manager模型上下文协议服务器执行哪些操作，以及哪些工具支持每项功能。
 jcr-language: en_us
 title: 模型上下文协议服务器的学习者工具
 exl-id: 4509b984-d0ba-4b7e-a0bb-803aa235fd1e
-source-git-commit: 05691364449234a4782e2de5d4752c7b277f5fd4
+source-git-commit: 89aa1b5ab02eed8a61507ab162fcbbd384e6c5fc
 workflow-type: tm+mt
-source-wordcount: '262'
-ht-degree: 1%
+source-wordcount: '394'
+ht-degree: 0%
 ---
 
 # 模型上下文协议服务器的学习者工具
 
-在学习者连接后，每项功能均以登录学习者的身份运行。 请求仅返回学习者可在Adobe Learning Manager中访问的内容。 有关详细信息，请查看[连接您的AI客户端](/help/migrated/learners/feature-summary/connect-ai-client-to-alm-learner.md)。
+## 概述
+
+在学习者连接后，每项功能均以登录学习者的身份运行。 请求仅返回学习者可在Adobe Learning Manager中访问的内容。 详细了解[连接您的AI客户端](/help/migrated/learners/feature-summary/connect-ai-client-to-alm-learner.md)。
 
 ## 学习者功能
 
@@ -25,19 +27,17 @@ ht-degree: 1%
 
 ## 支持的MCP工具
 
-“学习者助理”MCP服务器公开以下面向学习者的工具。
+Adobe Learning Manager MCP服务器公开以下学习者工具。
 
-| **MCP工具** | **目的** | **支持功能** |
-|----|----|----|
-| 搜索 | 搜索可用学习内容 | 搜索学习内容 |
-| 获取注册 | 检索学习者注册信息 | 查看注册 |
-| 应答代理 | 使用学习内容回答问题 | 提出学习问题 |
-| 获取用户 | 识别每个请求的已登录学习者 | 所有功能 |
-| 获取学习对象 | 检索学习对象的详细信息，如说明和持续时间 | 搜索学习内容，查看注册 |
-| 生成学习路径 | 创建推荐的学习路径 | 生成学习路径 |
-| 保存学习路径 | 保存生成的学习路径 | 保存学习路径 |
+| **工具名称** | **描述** |
+|----|----|
+| search_learning_items | 在目录中搜索课程、学习路径、认证、工作辅助、徽章、技能、目录和标签。 按学习者状态、技能、标签、目录、交付格式、价格和语言筛选。 对于主题问题，请使用answer_learning_content_question。 示例：“初学者蟒蛇课程”。 |
+| list_my_learning_enrollments | 列出学习者的已注册、进行中和已完成的课程、学习路径、认证和工作辅助，以及状态、进度和截止日期。 按学习对象类型或完成状态筛选。 结果首先显示最近的注册。 示例：“What is during now？” |
+| get_learning_object | 按ID获取课程、学习路径、认证或工作辅助的完整详细信息，并可选择包含实例、技能和子学习对象。 从search_learning_items或list_my_learning_enrollments获取ID。 |
+| get_my_learning_profile | 获取学习者的个人资料，包括帐户和经理详细信息。 有关注册和进度，请使用list_my_learning_enrollments。 |
+| answer_learning_content_question | 根据学习材料回答有关学习内容的问题，并引述到源学习对象。 总结一个学习对象，或针对覆盖范围、深度、先决条件和受众并排比较两个对象。 要查找或列出内容，请使用search_learning_items或list_my_learning_enrollments。 示例：“说明TCP与UDP，如我的网络课程中所述。” |
+| personalized_learning_path | 推荐与学习者的目标、主题和需求相匹配的课程。 将批准路径保存到学习者帐户。 列出已保存的路径，或按ID获取一个路径的详细信息。 |
 
 >[!IMPORTANT]
 >
 >显示的工具名称仅供参考，可能会因客户端实现而异。
-

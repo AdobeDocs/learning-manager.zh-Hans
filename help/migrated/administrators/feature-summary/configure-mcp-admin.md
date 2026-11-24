@@ -1,22 +1,28 @@
 ---
-description: 在Adobe Learning Manager中创建、编辑和删除模型上下文协议服务器，以便学习者可以访问AI客户端中的学习内容
+description: 在Adobe Learning Manager中创建、管理和弃用模型上下文协议服务器，以便AI客户端可以安全地访问学习者培训。
 jcr-language: en_us
 title: 配置模型上下文协议服务器
 exl-id: 3130c36d-e63e-4cd6-b0ed-561371b9b261
-source-git-commit: 05691364449234a4782e2de5d4752c7b277f5fd4
+source-git-commit: 89aa1b5ab02eed8a61507ab162fcbbd384e6c5fc
 workflow-type: tm+mt
-source-wordcount: '672'
+source-wordcount: '694'
 ht-degree: 1%
 ---
 
 # 配置模型上下文协议服务器
 
-作为管理员，您可以创建服务器，复制其凭据，并将其提供给AI客户端管理员，由管理员完成连接。 您可以随时重新访问服务器以对其进行编辑、更新其工具、复制其凭据、更改其状态或删除它。
+## 概述
+
+每个MCP服务器都会注册一个OAuth 2.0客户端应用程序，该应用程序授权AI客户端代表学习者进行操作。 作为管理员，您创建服务器并复制其凭据，然后将这些凭据提供给AI客户端管理员，由管理员完成连接。 您可以随时重新访问服务器以对其进行编辑、细化其工具描述、复制其凭据或删除它。
+
+>[!NOTE]
+>
+>服务器仅向具有学习者角色的用户提供读取权限。
 
 ## 创建MCP服务器
 
 1. 以管理员身份登录Adobe Learning Manager 。
-2. 转到&#x200B;**学习中的AI** \> **MCP服务器**。
+2. 导航到&#x200B;**学习中的AI** > **MCP服务器**。
 3. 选择&#x200B;**新建MCP服务器**。
 4. 输入服务器详细信息，包括说明。
 
@@ -25,21 +31,21 @@ ht-degree: 1%
    * **URL：**&#x200B;输入您的公司或应用程序URL。
    * **重定向域：**&#x200B;输入要连接的每个AI客户端的域，如[http://\*.chatgpt.com](https://encoded-592c9deb-987b-4562-aa3c-9fa3d37d83e9.uri/http%3a%2f%2f*.chatgpt.com)或[http://\*.claude.ai](https://encoded-592c9deb-987b-4562-aa3c-9fa3d37d83e9.uri/http%3a%2f%2f*.claude.ai)。 该字段为必填项。
 
-     ![](/help/migrated/administrators/feature-summary/assets/configure-mcp-admin1.png)
+   ![](assets/2_Administrator--Configure-MCP-image1.png)
 
 5. 选择&#x200B;**下一步**。
-6. 在&#x200B;**可用工具**&#x200B;页面上，查看服务器公开的学习者工具。 为MCP工具提供详细、上下文和基于目的的说明。 编写完善的工具描述可帮助MCP兼容的客户端更准确地发现并调用适当的工具。 包括工具用途、支持的任务、预期的输入和典型用例。 清晰简明的描述可改善学习者与AI助理交互时的工具选择和整体用户体验。
+6. 在&#x200B;**可用工具**&#x200B;页面上，查看服务器公开的学习者工具。 为MCP工具提供详细、上下文和基于目的的说明。提供每个工具的详细上下文描述。 精确的描述有助于与MCP兼容的客户端选择和调用适当的工具。 包括工具用途、支持任务、预期输入和典型用例。
 
-   ![](assets/configure-mcp-admin2.png)
+   ![](assets/2_Administrator--Configure-MCP-image2.png)
 
    为每个工具选择“**视图**”以查看相关说明，以确定何时选择该工具以及该工具的响应方式。
 
-   ![](assets/configure-mcp-admin3.png)
+   ![](assets/2_Administrator--Configure-MCP-image3.png)
 
 7. 在左侧导航窗格中选择&#x200B;**客户端凭据**。
 8. 复制&#x200B;**MCP终结点URL**、**客户端ID**&#x200B;和&#x200B;**密钥**。 在每个值旁选择&#x200B;**复制**。
 
-   ![](assets/configure-mcp-admin4.png)
+   ![](assets/2_Administrator--Configure-MCP-image4.png)
 
 9. 选择&#x200B;**关闭**。
 
@@ -56,11 +62,11 @@ ht-degree: 1%
 1. 在&#x200B;**可用工具**&#x200B;页面上，为工具选择&#x200B;**操作**&#x200B;菜单。
 2. 选择&#x200B;**MCP工具配置** \> **编辑**。
 
-   ![](assets/configure-mcp-admin5.png)
+   ![](assets/2_Administrator--Configure-MCP-image5.png)
 
 3. 在&#x200B;**编辑工具**&#x200B;对话框中，更新&#x200B;**说明/描述**。
 
-   ![](assets/configure-mcp-admin6.png)
+   ![](assets/2_Administrator--Configure-MCP-image6.png)
 
 4. 在&#x200B;**示例提示**&#x200B;下，编辑提示。 要添加提示，请选择&#x200B;**添加另一个示例**。
 5. 选择&#x200B;**“保存”**。
@@ -69,14 +75,14 @@ ht-degree: 1%
 
 ## 编辑MCP服务器
 
-1. 选择&#x200B;**学习中的AI** \> **MCP服务器**。
+1. 选择&#x200B;**学习中的AI** > **MCP服务器**。
 2. 选择服务器名称。
 3. 选择&#x200B;**“编辑”**。
 4. 更新&#x200B;**应用程序详细信息**&#x200B;页面上的字段，然后保存更改。
 
 ## 删除MCP服务器
 
-1. 选择&#x200B;**学习中的AI** \> **MCP服务器**。
+1. 选择&#x200B;**学习中的AI** > **MCP服务器**。
 2. 在服务器的行中，选择&#x200B;**操作**&#x200B;菜单。
 3. 选择&#x200B;**删除**。
 4. 在确认对话框中，选择&#x200B;**删除**。
@@ -94,12 +100,12 @@ ht-degree: 1%
 创建新服务器，并将新凭据提供给AI客户端管理员。
 
 **AI客户端使用了错误的工具。**
-查看您更改的所有工具说明。 使用&#x200B;**重置**&#x200B;可还原原始措辞。
+查看您更改的所有工具说明。 选择“**重置**”以恢复原始措辞。
 
 ## 最佳实践
 
-* 保留原始工具描述，除非您有特定原因要对其进行更改。
-* 如果进行编辑，请写下清晰、具体的工具说明和示例提示。
+* 保留原始工具描述，除非您出于特定原因需要更改它们。
+* 在编辑时编写具体的、明确的工具说明和示例提示。
 * 安全地存储密钥，并仅与您的AI客户端管理员共享它。
-* 为每个AI应用程序创建一个单独的服务器，以便您可以删除一个服务器而不会影响其他服务器。
+* 为每个AI应用程序创建一个单独的服务器，以便您可以撤销一个服务器而不会影响其他服务器。
 * 在删除服务器之前，请确认没有任何AI应用程序依赖于该服务器。

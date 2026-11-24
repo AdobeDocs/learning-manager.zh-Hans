@@ -238,7 +238,7 @@ Claude和ChatGPT可以自动发现这些信息。 这里列出了需要手动输
 | 授权URL | [https://\[alm-host\]/oauth/o/authorize](https://[alm-host]/oauth/o/authorize) |
 | 令牌 URL | [https://\[alm-host\]/oauth/token](https://[alm-host]/oauth/token) |
 | 刷新URL | [https://\[alm-host\]/oauth/token/refresh](https://[alm-host]/oauth/token/refresh) |
-| 授权服务器基础 | [https://\[alm-host](https://[alm-host)\] |
+| 授权服务器基础 | &lbrack;https://\[alm-host](https://[alm-host)\] |
 | 资源 | [https://\[alm-host\]/v1/mcp](https://[alm-host]/v1/mcp) |
 | 范围 | 学习者:write |
 

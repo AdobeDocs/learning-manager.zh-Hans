@@ -6,9 +6,9 @@ exl-id: b5cbe224-e3ee-4ac2-8d9b-95249044dfa6
 product_v2:
   - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
     internal-label: Learning Manager
-source-git-commit: 7d6fa2ad2d13520f97c81108ed545e6b7060ff3b
+source-git-commit: be7170bc8e384e0084eaa62b6f31ac0332bac6b5
 workflow-type: tm+mt
-source-wordcount: '7201'
+source-wordcount: '7194'
 ht-degree: 3%
 ---
 # Adobe Learning Manager中的基本设置
@@ -402,15 +402,13 @@ Adobe Learning Manager使用某些产品术语来定义学习对象，例如课�
 >
 >某些类型的培训无法购买，例如循环认证和经理批准的课程。
 
-## 在Adobe Learning Manager中打开自动团队形成
+### 用于基于团队的提交的自动团队形成 {#enable-auto-team-formation}
 
 在管理员设置中打开自动团队编排，这样Adobe Learning Manager就会在每个课程实例开始之前，将已注册的学习者分组到团队中。
 
 此设置是可选的。 团队提交内容可在没有该文件的情况下运行，讲师可以手动创建团队。
 
 打开此帐户设置后，Adobe Learning Manager会在每个课程实例开始前的一组天内，自动将已注册的学习者分组到团队中。 默认情况下，该设置处于关闭状态。 作者可以调整课程时间表，但讲师仍然可以手动创建团队。
-
-### 打开自动团队形成
 
 1. 在管理员应用中，选择&#x200B;**设置** > **常规**。
 
@@ -430,7 +428,7 @@ Adobe Learning Manager使用某些产品术语来定义学习对象，例如课�
 
 该设置仅适用于具有基于团队的文件提交模块和实例开始日期的课程。
 
-## 更改如何影响课程
+#### 更改如何影响课程
 
 更改此设置后，更改仅适用于在保存后创建的课程。 现有的课程会保留发布时使用的配置（无论是否打开自动团队形成），并会保持课程进度安排。 例如，如果在3月打开该设置，则在2月创建的课程无法获得该设置，而在3月或之后创建的课程无法获得该设置。
 

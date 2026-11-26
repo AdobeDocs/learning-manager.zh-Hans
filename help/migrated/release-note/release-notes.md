@@ -7,9 +7,9 @@ exl-id: ae9251b6-5326-42c2-881e-2ab3393d9e17
 product_v2:
   - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
     internal-label: Learning Manager
-source-git-commit: 3b08fa3d0954da4352dabd7ef855f446817fda84
+source-git-commit: ba51f210cd63e074c009aa167173cfee35a44fe1
 workflow-type: tm+mt
-source-wordcount: '40345'
+source-wordcount: '40347'
 ht-degree: 55%
 ---
 # Adobe Learning Manager发行说明
@@ -355,6 +355,7 @@ Adobe Learning Manager使用单个共享虚拟教室作为课程实例。 当第
 
 **在iPad上的Firefox中，全屏模式不起作用**
 当参与者使用iPad上的Firefox浏览器访问实时中心会话时，选择“全屏”按钮不会将会话切换到全屏模式。 会话将保留在标准浏览器视图中，而不是展开以填充屏幕。
+
 这是特定于iPad上Firefox的已知浏览器限制。 在此浏览器和设备组合中无法使用全屏功能。 这是一个已知的限制，可在未来的版本中解决。
 
 **实时中心中的字幕质量限制**

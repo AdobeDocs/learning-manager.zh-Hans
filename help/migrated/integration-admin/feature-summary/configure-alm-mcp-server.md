@@ -3,9 +3,9 @@ description: 为您的组织配置一次模型上下文协议(MCP)服务器，�
 jcr-language: en_us
 title: 配置Adobe Learning Manager MCP服务器
 exl-id: b5d2c08e-a11e-4f55-9ba5-a652a9575678
-source-git-commit: 89aa1b5ab02eed8a61507ab162fcbbd384e6c5fc
+source-git-commit: 47770f784e9f88684c19d6c72cf08b1f36e859fe
 workflow-type: tm+mt
-source-wordcount: '2095'
+source-wordcount: '2089'
 ht-degree: 1%
 ---
 
@@ -182,30 +182,30 @@ MCP服务器公开以下工具。 所有这些应用程序均以登录学习者�
 </thead>
 <tbody>
 <tr>
-<td>search_learning_itemsread-only</td>
+<td>search_learning_items</td>
 <td>在目录中搜索课程、学习路径、认证、工作辅助、徽章、技能、目录和标签。 过滤器：类型、学习者状态、技能、标签、目录、交付格式、价格和语言。 每页最多返回10个结果。</td>
 <td>“初学者蟒蛇课程”<br />
 “免费法语课堂培训”</td>
 </tr>
 <tr>
-<td>list_my_learning_enrollmentsread-only</td>
+<td>list_my_learning_enrollments</td>
 <td>列出学习者的已注册、进行中和已完成的学习，以及状态、进度和截止日期。 默认情况下，最近注册时间为优先。</td>
 <td>“我注册了什么？”<br />
 “什么即将到期？”<br />
 “我已完成的培训”</td>
 </tr>
 <tr>
-<td>get_learning_objectread-only</td>
+<td>get_learning_object</td>
 <td>按ID获取课程、学习路径、认证或工作辅助的完整详细信息，可以选择包括实例、技能和子项目。</td>
 <td>“告诉我有关第二门课程的更多信息”</td>
 </tr>
 <tr>
-<td>get_my_learning_profileread-only</td>
+<td>get_my_learning_profile</td>
 <td>获取学习者的ALM配置文件，包括帐户和经理。</td>
 <td>“谁是我在ALM的经理？”</td>
 </tr>
 <tr>
-<td>answer_learning_content_questionuses AI积分</td>
+<td>answer_learning_content_question</td>
 <td>根据课程内容和引用内容，使用ALM学习助手回答有关课程主题的问题。 返回助理用于跟进问题的对话ID。</td>
 <td>“说明我的网络课程涵盖的TCP与UDP”</td>
 </tr>
@@ -238,7 +238,7 @@ Claude和ChatGPT可以自动发现这些信息。 这里列出了需要手动输
 | 授权URL | [https://\[alm-host\]/oauth/o/authorize](https://[alm-host]/oauth/o/authorize) |
 | 令牌 URL | [https://\[alm-host\]/oauth/token](https://[alm-host]/oauth/token) |
 | 刷新URL | [https://\[alm-host\]/oauth/token/refresh](https://[alm-host]/oauth/token/refresh) |
-| 授权服务器基础 | &lbrack;https://\[alm-host](https://[alm-host)\] |
+| 授权服务器基础 | [https://\[alm-host\]](https://[alm-host]) |
 | 资源 | [https://\[alm-host\]/v1/mcp](https://[alm-host]/v1/mcp) |
 | 范围 | 学习者:write |
 

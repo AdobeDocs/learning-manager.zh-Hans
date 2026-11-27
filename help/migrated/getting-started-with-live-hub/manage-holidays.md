@@ -4,7 +4,7 @@ description: 了解管理员如何通过单独或导入CSV来定义影响讲师�
 product_v2:
   - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
     internal-label: Learning Manager
-source-git-commit: c061ccbefe8d40154220587796062d335e35de77
+source-git-commit: d0b166a48876f5dcb7268c9c956d624cff55fae1
 workflow-type: tm+mt
 source-wordcount: '323'
 ht-degree: 3%
@@ -58,7 +58,7 @@ ht-degree: 3%
 
 1. 选择&#x200B;**“保存”**。 假日将添加到列表中。
 
-### 批量添加假日
+### 批量添加假日 {#holidays-in-bulk}
 
 使用CSV文件一次添加多个假日。
 
